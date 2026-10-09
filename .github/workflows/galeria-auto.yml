@@ -1,0 +1,44 @@
+name: Galería oficial (revisión diaria)
+
+on:
+  schedule:
+    - cron: "41 7,19 * * *"   # dos veces al día
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: galeria
+  cancel-in-progress: false
+
+jobs:
+  revisar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests pillow
+      - name: Buscar imágenes nuevas en el kit de prensa de Rockstar
+        id: buscar
+        run: python scripts/galeria_auto.py
+      - name: Descargar las nuevas
+        if: steps.buscar.outputs.cambios != '0' && steps.buscar.outputs.cambios != ''
+        run: python scripts/galeria.py
+      - name: Publicar en la web
+        if: steps.buscar.outputs.cambios != '0' && steps.buscar.outputs.cambios != ''
+        run: |
+          git config user.name "zona-leonida-bot"
+          git config user.email "bot@zonaleonida.com"
+          git add scripts/galeria.json public/img/oficial
+          if git diff --cached --quiet; then echo "Sin cambios"; exit 0; fi
+          git commit -m "Galería oficial: imágenes nuevas de Rockstar (${{ steps.buscar.outputs.nuevas }})"
+          git pull --rebase origin main
+          git push
+      - name: Avisar en Telegram
+        if: steps.buscar.outputs.nuevas != '0' && steps.buscar.outputs.nuevas != ''
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: python scripts/galeria_aviso.py "${{ steps.buscar.outputs.nuevas }}" "${{ steps.buscar.outputs.primera }}" "${{ steps.buscar.outputs.resumen }}"

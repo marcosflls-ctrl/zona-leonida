@@ -30,6 +30,15 @@ const SECCIONES: { titulo: string; id: string; grupos: [string, string, string?]
   { titulo: 'Pack Vintage Vice City', id: 'vintage', grupos: [
     ['pack-vintage-vice-city', 'Pack Vintage Vice City'], ['vapid-stanier', 'Vapid Stanier del 55'], ['looks-vintage', 'Atuendos y peinados'], ['patron-armas-vintage', 'Patrón para armas']] },
 ];
+// Grupos que todavía no están en ninguna sección (imágenes nuevas que añade la tarea automática)
+const cubiertos = new Set(SECCIONES.flatMap((s) => s.grupos.map((g) => g[0])));
+const nuevos = [...new Set(GALERIA.imagenes.map((g) => g.grupo))].filter((g) => !cubiertos.has(g));
+if (nuevos.length) {
+  SECCIONES.unshift({ titulo: 'Nuevas imágenes', id: 'nuevas', grupos: nuevos.map((g) => {
+    const alt = GALERIA.imagenes.find((x) => x.grupo === g)!.alt.replace(', imagen oficial de GTA VI', '');
+    return [g, alt] as [string, string];
+  }) });
+}
 const existe = (slug: string) => fs.existsSync(`public/img/oficial/${slug}.webp`);
 const fotos = (grupo: string) => GALERIA.imagenes.filter((g) => g.grupo === grupo && existe(g.slug));
 const secciones = SECCIONES.map((s) => ({ ...s, grupos: s.grupos.map(([g, label, link]) => ({ label, link, fotos: fotos(g) })).filter((g) => g.fotos.length) }))

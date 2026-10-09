@@ -115,3 +115,7 @@ Hay 8 plantillas en borrador (`draft: true`) que no aparecen en la web: trucos, 
 - `python scripts/miniaturas.py` crea las versiones de 400 y 800 px de las imágenes (el robot y la galería ya lo hacen solos). Si añades imágenes a mano a `public/img/banco/`, ejecútalo.
 - El buscador (`/buscar/`) usa Pagefind: se genera solo al publicar (`npm run build`). Indexa artículos y fichas de personajes; la configuración está en `pagefind.yml`.
 - El test de personajes está en `src/pages/test-que-personaje-eres.astro` (preguntas y puntuación arriba del archivo).
+
+## Galería oficial automática
+
+La tarea **Galería oficial (revisión diaria)** mira dos veces al día el kit de prensa de Rockstar. Si hay capturas nuevas, las clasifica (las de un personaje o lugar nuevo van a un grupo nuevo), las descarga, las publica en `/imagenes-oficiales/` y en las fichas de personajes, y avisa en el canal de Telegram. Si de golpe apareciesen más de 60, no toca nada (sería un cambio en la web de Rockstar, no imágenes nuevas).
