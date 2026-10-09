@@ -227,10 +227,39 @@ FORMATO DE RESPUESTA: solo un objeto JSON válido, sin texto alrededor:
 }"""
 
 
-def write_article(item: dict, source_text: str, posts: list[dict]) -> dict | None:
-    import anthropic
+_CLIENT = None
 
-    client = anthropic.Anthropic()
+
+def refresh_github_identity() -> None:
+    """En GitHub Actions, pide a GitHub un "pase" de identidad nuevo y lo guarda en el archivo
+    que lee el SDK. Cada pase solo se puede canjear una vez (y caduca en ~5 min), así que se
+    renueva antes de cada artículo; el SDK lo vuelve a leer cuando necesita renovar su acceso."""
+    import requests
+
+    url = os.environ.get("ACTIONS_ID_TOKEN_REQUEST_URL")
+    req_token = os.environ.get("ACTIONS_ID_TOKEN_REQUEST_TOKEN")
+    path = os.environ.get("ANTHROPIC_IDENTITY_TOKEN_FILE")
+    if not (url and req_token and path):
+        return
+    r = requests.get(url, params={"audience": "https://api.anthropic.com"},
+                     headers={"Authorization": f"Bearer {req_token}"}, timeout=15)
+    r.raise_for_status()
+    Path(path).write_text(r.json()["value"], encoding="utf-8")
+
+
+def get_client():
+    """Una única conexión con Claude para toda la ejecución (reutiliza el acceso ya concedido)."""
+    global _CLIENT
+    if _CLIENT is None:
+        import anthropic
+        refresh_github_identity()
+        _CLIENT = anthropic.Anthropic()
+    return _CLIENT
+
+
+def write_article(item: dict, source_text: str, posts: list[dict]) -> dict | None:
+    client = get_client()
+    refresh_github_identity()  # deja preparado un pase nuevo por si el SDK necesita renovar
     related = "\n".join(f"- {p['title']} → {p['url']}" for p in posts[:60]) or "(ninguno aún)"
     user = (
         f"FUENTE: {item['source']}\nTÍTULO ORIGINAL: {item['title']}\nURL: {item['url']}\n\n"
@@ -328,6 +357,7 @@ def main() -> int:
         return 1
 
     written = []
+    errors = 0
     for item in candidates:
         if len(written) >= MAX_PER_RUN:
             break
@@ -338,7 +368,18 @@ def main() -> int:
         if len(text) < MIN_SOURCE_CHARS:
             print("  – texto insuficiente, se omite")
             continue
-        data = write_article(item, text, posts)
+        try:
+            data = write_article(item, text, posts)
+        except Exception as e:  # noqa: BLE001 — un fallo no debe tirar toda la ejecución
+            print(f"  ! error al redactar: {type(e).__name__}: {str(e)[:200]}")
+            # no se marca como vista, para reintentarla en la próxima ejecución
+            state["urls"].remove(item["url"])
+            state["titles"].pop()
+            errors += 1
+            if errors >= 2:
+                print("  ! dos errores seguidos, se detiene esta ejecución")
+                break
+            continue
         if data:
             p = save_post(data, item, html)
             written.append(p)
