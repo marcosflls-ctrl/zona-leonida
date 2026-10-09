@@ -524,6 +524,7 @@ def save_post(data: dict, item: dict, html: str = "") -> Path:
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true", help="solo listar candidatos, sin IA ni escritura")
+    ap.add_argument("--url", default="", help="redactar solo esta noticia (enlace), sin esperar a la revisión de fuentes")
     args = ap.parse_args()
 
     cfg = json.loads(FEEDS_FILE.read_text(encoding="utf-8"))
@@ -531,7 +532,21 @@ def main() -> int:
     posts = existing_posts()
 
     print("Buscando novedades…")
-    candidates = collect_candidates(cfg, state, posts)
+    url_forzada = (args.url or os.environ.get("RADAR_URL", "")).strip()
+    if url_forzada:
+        # Noticia urgente: se redacta directamente desde el enlace indicado
+        print(f"Noticia indicada a mano: {url_forzada}")
+        item = {"source": _domain(url_forzada) or "fuente", "title": "", "url": url_forzada}
+        m = re.search(r"rockstargames\.com/(?:[a-z]{2}/)?newswire/article/(\w+)", url_forzada)
+        if m:
+            item.update(source="Rockstar Games (Newswire)", rockstar_id=m.group(1))
+        else:
+            html_tmp, _ = fetch_page(url_forzada)
+            t = re.search(r"<title[^>]*>(.*?)</title>", html_tmp or "", re.I | re.S)
+            item["title"] = re.sub(r"\s+", " ", t.group(1)).strip() if t else url_forzada
+        candidates = [item]
+    else:
+        candidates = collect_candidates(cfg, state, posts)
     print(f"{len(candidates)} candidatas nuevas")
     if args.dry_run:
         for c in candidates:

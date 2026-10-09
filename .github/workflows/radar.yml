@@ -3,7 +3,12 @@ name: Radar de noticias GTA VI
 on:
   schedule:
     - cron: "17 */3 * * *"   # cada 3 horas (hora UTC)
-  workflow_dispatch: {}       # botón "Run workflow" para lanzarlo a mano
+  workflow_dispatch:          # botón "Run workflow" para lanzarlo a mano
+    inputs:
+      url:
+        description: "Enlace de una noticia concreta para redactarla ya (déjalo vacío para revisar todas las fuentes)"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -47,6 +52,7 @@ jobs:
         id: radar
         env:
           MAX_PER_RUN: ${{ vars.MAX_PER_RUN || '3' }}
+          RADAR_URL: ${{ github.event.inputs.url }}
         run: python scripts/radar.py
 
       # La memoria del robot (qué noticias ya ha visto) se guarda siempre en main,

@@ -131,3 +131,7 @@ Para insertar un vídeo en cualquier artículo (empieza en el segundo indicado y
 ```
 
 Las capturas de lectores llegan por `/envia-tu-captura/` (correo o X), con autorización expresa para publicarlas con su nombre.
+
+## Noticia urgente: redactar ya un enlace concreto
+
+En GitHub → Actions → «Radar de noticias GTA VI» → «Run workflow»: pega el enlace de la noticia en el campo y pulsa el botón verde. El robot la redacta al momento (aunque no sea de sus fuentes) y abre la propuesta para revisar como siempre. Si el campo se deja vacío, revisa todas las fuentes sin esperar a las 3 horas. También se puede hacer desde la app de GitHub en el móvil.
