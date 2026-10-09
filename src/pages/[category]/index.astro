@@ -29,7 +29,7 @@ const jsonLd = {
       {posts.map((p, i) => (
         <>
           <PostCard post={p} />
-          {i === 5 && <div style="grid-column:1/-1"><AdSlot /></div>}
+          {i === 5 && SITE.adsenseClient && <div style="grid-column:1/-1"><AdSlot /></div>}
         </>
       ))}
     </div>

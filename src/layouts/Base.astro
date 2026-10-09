@@ -55,7 +55,10 @@ const path = Astro.url.pathname;
       <a href="/" class="logo" aria-label={`${SITE.name}, inicio`}>
         <img class="logo-mark" src="/img/marca/logo-96.webp" alt="" width="40" height="40" /><span class="logo-text">{SITE.name}</span>
       </a>
-      <nav aria-label="Secciones">
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="menu" aria-label="Secciones">
         {Object.entries(CATEGORIES).map(([key, c]) => (
           <a href={`/${key}/`} aria-current={path.startsWith(`/${key}/`) ? 'page' : undefined}>{c.label}</a>
         ))}
@@ -89,6 +92,15 @@ const path = Astro.url.pathname;
     <p class="wrap muted small">© {year} {SITE.name}</p>
   </footer>
   <script is:inline>
+    (function () {
+      var btn = document.querySelector('.menu-btn'), nav = document.getElementById('menu');
+      if (btn && nav) btn.addEventListener('click', function () {
+        var open = btn.getAttribute('aria-expanded') !== 'true';
+        btn.setAttribute('aria-expanded', String(open));
+        btn.setAttribute('aria-label', open ? 'Cerrar menú' : 'Abrir menú');
+        nav.classList.toggle('open', open);
+      });
+    })();
     (function () {
       var now = Date.now();
       document.querySelectorAll('time[data-rel]').forEach(function (t) {
@@ -133,14 +145,24 @@ const path = Astro.url.pathname;
   .small { font-size: .85rem; }
 
   .site-header { position: sticky; top: 0; z-index: 10; background: rgba(13,11,20,.88); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
-  .site-header nav { max-width: 100%; }
-  .header-inner { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 64px; flex-wrap: wrap; }
+  .header-inner { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 64px; position: relative; }
   .logo { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--text); }
   .logo-mark { width: 40px; height: 40px; border-radius: 10px; display: block; box-shadow: var(--glow-pink); }
   .logo-text { font-weight: 800; letter-spacing: .01em; }
-  .site-header nav { display: flex; gap: 4px; overflow-x: auto; }
-  .site-header nav a { color: var(--muted); text-decoration: none; font-weight: 600; padding: 8px 12px; border-radius: 999px; white-space: nowrap; }
+  .site-header nav { display: flex; gap: 2px; }
+  .site-header nav a { color: var(--muted); text-decoration: none; font-weight: 600; font-size: .95rem; padding: 8px 12px; border-radius: 999px; white-space: nowrap; }
   .site-header nav a:hover, .site-header nav a[aria-current] { color: var(--text); background: var(--surface-2); }
+  .menu-btn { display: none; width: 44px; height: 44px; padding: 11px 10px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); cursor: pointer; flex-direction: column; justify-content: space-between; }
+  .menu-btn span { display: block; height: 2px; border-radius: 2px; background: var(--text); transition: transform .2s, opacity .2s; }
+  .menu-btn[aria-expanded="true"] span:nth-child(1) { transform: translateY(9px) rotate(45deg); }
+  .menu-btn[aria-expanded="true"] span:nth-child(2) { opacity: 0; }
+  .menu-btn[aria-expanded="true"] span:nth-child(3) { transform: translateY(-9px) rotate(-45deg); }
+  @media (max-width: 900px) {
+    .menu-btn { display: flex; }
+    .site-header nav { display: none; position: absolute; top: 100%; left: 0; right: 0; padding: 12px 16px 16px; background: rgba(13,11,20,.98); border-bottom: 1px solid var(--line); grid-template-columns: 1fr 1fr; gap: 8px; }
+    .site-header nav.open { display: grid; }
+    .site-header nav a { font-size: 1rem; padding: 12px 14px; border-radius: 12px; background: var(--surface); border: 1px solid var(--line); text-align: center; }
+  }
 
   main { min-height: 70vh; padding-top: 24px; padding-bottom: 48px; }
 
@@ -149,7 +171,12 @@ const path = Astro.url.pathname;
   .footer-links { display: flex; flex-direction: column; gap: 6px; }
   .footer-links a { color: var(--muted); text-decoration: none; }
   .footer-links a:hover { color: var(--text); }
-  @media (max-width: 720px) { .footer-inner { grid-template-columns: 1fr; } }
+  .site-footer > .small { margin: 24px auto 0; padding-top: 16px; border-top: 1px solid var(--line); }
+  @media (max-width: 720px) {
+    .footer-inner { grid-template-columns: 1fr; gap: 12px; }
+    .footer-links { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 16px; }
+  }
+  @media (max-width: 640px) { .grid { gap: 12px; } main { padding-top: 16px; } }
 
   .tag { display: inline-block; font-size: .75rem; font-weight: 800; text-transform: uppercase; letter-spacing: .06em; padding: 3px 10px; border-radius: 999px; background: var(--surface-2); color: var(--teal); text-decoration: none; }
   .tag.rumor { background: var(--orange); color: #12091a; }

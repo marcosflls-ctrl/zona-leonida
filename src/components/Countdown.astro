@@ -2,7 +2,7 @@
 import { SITE } from '../config';
 ---
 <section class="countdown" data-target={SITE.launchDate} aria-label="Cuenta atrás para el lanzamiento de GTA VI">
-  <p class="kicker">Lanzamiento de GTA VI · 19 de noviembre de 2026</p>
+  <p class="kicker">Lanzamiento de GTA VI<span class="sep"> · </span><span class="fecha">19 de noviembre de 2026</span></p>
   <div class="units">
     <div><span data-u="d">--</span><small>días</small></div>
     <div><span data-u="h">--</span><small>horas</small></div>
@@ -30,6 +30,7 @@ import { SITE } from '../config';
   .countdown { border-radius: 20px; padding: 28px 20px; text-align: center; margin-bottom: 32px;
     background: radial-gradient(ellipse at 20% 130%, #ff3d8b66, transparent 60%), radial-gradient(ellipse at 85% -20%, #2de2c855, transparent 55%), linear-gradient(180deg, #2a1636, #17131f); border: 1px solid var(--line); }
   .kicker { margin: 0 0 12px; font-weight: 800; text-transform: uppercase; letter-spacing: .12em; font-size: .8rem; color: var(--leaf); text-shadow: 0 0 10px #5dff8a66; }
+  @media (max-width: 640px) { .countdown { padding: 20px 12px; margin-bottom: 28px; } .kicker .fecha { display: block; } .kicker .sep { display: none; } .kicker { letter-spacing: .08em; } }
   .units { display: flex; justify-content: center; gap: clamp(10px, 4vw, 36px); }
   .units div { display: flex; flex-direction: column; min-width: 62px; }
   .units span { font-family: Anton, sans-serif; font-size: clamp(2.4rem, 9vw, 4.4rem); line-height: 1; color: #ffe6f4; text-shadow: var(--glow-pink); }

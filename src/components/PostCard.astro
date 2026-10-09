@@ -40,4 +40,12 @@ const src = image ?? `/img/portadas/${category}.webp`;
     .featured .body { flex: 1; padding: 28px; justify-content: center; }
     .featured h3 { font-size: 2rem; }
   }
+  @media (max-width: 640px) {
+    .card:not(.featured) { flex-direction: row; align-items: stretch; }
+    .card:not(.featured) .thumb { width: 116px; flex: none; aspect-ratio: auto; }
+    .card:not(.featured) .body { padding: 10px 12px; gap: 4px; }
+    .card:not(.featured) h3 { font-size: 1.05rem; margin: 0; }
+    .card:not(.featured) .muted:not(.small) { display: none; }
+    .card:not(.featured) .tag { font-size: .65rem; padding: 2px 8px; }
+  }
 </style>
