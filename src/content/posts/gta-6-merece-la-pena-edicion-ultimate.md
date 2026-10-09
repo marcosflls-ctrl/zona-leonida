@@ -36,6 +36,8 @@ Según la información oficial de Rockstar recogida por Gematsu y TheSixthAxis:
 - **Shitzu Squalo**, una lancha amarrada en Washington Beach que viene con una caja de armas y explosivos.
 - Para el piso franco de Jason: una moto **Dinka Enduro** o un kayak **Crest**, y un kit retro para su pick-up, la **Vapid Ganado**.
 
+<div class="oficial-par"><figure class="oficial"><img src="/img/oficial/vapid-dominator-buggy-1.webp" srcset="/img/oficial/vapid-dominator-buggy-1-400.webp 400w, /img/oficial/vapid-dominator-buggy-1-800.webp 800w, /img/oficial/vapid-dominator-buggy-1.webp 1600w" sizes="(max-width: 760px) 50vw, 360px" alt="Vapid Dominator Buggy del 67 (edición Ultimate), imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure><figure class="oficial"><img src="/img/oficial/shitzu-squalo-1.webp" srcset="/img/oficial/shitzu-squalo-1-400.webp 400w, /img/oficial/shitzu-squalo-1-800.webp 800w, /img/oficial/shitzu-squalo-1.webp 1600w" sizes="(max-width: 760px) 50vw, 360px" alt="Lancha Shitzu Squalo (edición Ultimate), imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure></div>
+
 **Talleres y encargos**
 - **Rideout Customs**, para personalizar interiores y llantas.
 - **One-Eyed Willie's**, junto al lago Leonida, con piezas todoterreno y pintura a mano.
@@ -44,6 +46,8 @@ Según la información oficial de Rockstar recogida por Gematsu y TheSixthAxis:
 **Armas**
 - Los revólveres **Hawk & Little Morgan**.
 - Pistolas grabadas exclusivas para Jason y para Lucía.
+
+<div class="oficial-par"><figure class="oficial"><img src="/img/oficial/rideout-customs-1.webp" srcset="/img/oficial/rideout-customs-1-400.webp 400w, /img/oficial/rideout-customs-1-800.webp 800w, /img/oficial/rideout-customs-1.webp 1600w" sizes="(max-width: 760px) 50vw, 360px" alt="Taller Rideout Customs (edición Ultimate), imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure><figure class="oficial"><img src="/img/oficial/coleccion-clasicos-1.webp" srcset="/img/oficial/coleccion-clasicos-1-400.webp 400w, /img/oficial/coleccion-clasicos-1-800.webp 800w, /img/oficial/coleccion-clasicos-1.webp 1600w" sizes="(max-width: 760px) 50vw, 360px" alt="Colección de coches clásicos (edición Ultimate), imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure></div>
 
 **Tiendas, ropa y estética**
 - La tienda de ropa **Stock 305** y la colección Goodtime Gear.
