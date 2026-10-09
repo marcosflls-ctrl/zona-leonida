@@ -32,7 +32,10 @@ const path = Astro.url.pathname;
   <meta property="og:url" content={canonical} />
   <meta property="og:image" content={ogImage} />
   <meta name="twitter:card" content="summary_large_image" />
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="/favicon-48.png" type="image/png" sizes="48x48" />
+  <link rel="icon" href="/icon-192.png" type="image/png" sizes="192x192" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <meta name="theme-color" content="#0b0a12" />
   <link rel="alternate" type="application/rss+xml" title={SITE.name} href="/rss.xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -49,7 +52,7 @@ const path = Astro.url.pathname;
   <header class="site-header">
     <div class="wrap header-inner">
       <a href="/" class="logo" aria-label={`${SITE.name}, inicio`}>
-        <span class="logo-mark">ZL</span><span class="logo-text">{SITE.name}</span>
+        <img class="logo-mark" src="/img/marca/logo-96.webp" alt="" width="40" height="40" /><span class="logo-text">{SITE.name}</span>
       </a>
       <nav aria-label="Secciones">
         {Object.entries(CATEGORIES).map(([key, c]) => (
@@ -90,11 +93,14 @@ const path = Astro.url.pathname;
     --surface-2: #211b2c;
     --text: #f3eef7;
     --muted: #a99db8;
-    --pink: #ff3d8b;
+    --pink: #ff3fae;
     --orange: #ff9a3d;
-    --teal: #2de2c8;
+    --leaf: #5dff8a;
+    --teal: #4cf2e6;
     --line: #2e2640;
-    --sunset: linear-gradient(100deg, var(--pink), var(--orange));
+    --sunset: linear-gradient(100deg, var(--pink), var(--teal));
+    --glow-pink: 0 0 6px #ff3fae99, 0 0 18px #ff3fae55;
+    --glow-teal: 0 0 6px #4cf2e699, 0 0 18px #4cf2e655;
     --radius: 14px;
   }
   * { box-sizing: border-box; }
@@ -114,8 +120,8 @@ const path = Astro.url.pathname;
   .site-header nav { max-width: 100%; }
   .header-inner { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 64px; flex-wrap: wrap; }
   .logo { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--text); }
-  .logo-mark { font-family: Anton, sans-serif; background: var(--sunset); color: #12091a; padding: 2px 8px; border-radius: 8px; font-size: 1.1rem; }
-  .logo-text { font-weight: 800; }
+  .logo-mark { width: 40px; height: 40px; border-radius: 10px; display: block; box-shadow: var(--glow-pink); }
+  .logo-text { font-weight: 800; letter-spacing: .01em; }
   .site-header nav { display: flex; gap: 4px; overflow-x: auto; }
   .site-header nav a { color: var(--muted); text-decoration: none; font-weight: 600; padding: 8px 12px; border-radius: 999px; white-space: nowrap; }
   .site-header nav a:hover, .site-header nav a[aria-current] { color: var(--text); background: var(--surface-2); }
@@ -129,8 +135,9 @@ const path = Astro.url.pathname;
   .footer-links a:hover { color: var(--text); }
   @media (max-width: 720px) { .footer-inner { grid-template-columns: 1fr; } }
 
-  .tag { display: inline-block; font-size: .75rem; font-weight: 800; text-transform: uppercase; letter-spacing: .06em; padding: 3px 10px; border-radius: 999px; background: var(--surface-2); color: var(--orange); text-decoration: none; }
+  .tag { display: inline-block; font-size: .75rem; font-weight: 800; text-transform: uppercase; letter-spacing: .06em; padding: 3px 10px; border-radius: 999px; background: var(--surface-2); color: var(--teal); text-decoration: none; }
   .tag.rumor { background: var(--orange); color: #12091a; }
+  h1, h2 { text-shadow: 0 0 22px #ff3fae22; }
   .embed { margin: 1.6em 0; }
   .embed iframe { width: 100%; aspect-ratio: 16/9; border: 0; border-radius: var(--radius); display: block; }
   .embed figcaption, .credit { font-size: .8rem; color: var(--muted); margin-top: 6px; }

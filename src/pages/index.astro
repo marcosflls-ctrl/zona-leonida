@@ -19,6 +19,11 @@ const jsonLd = {
 ---
 <Base title={SITE.name} description="Noticias de GTA VI al día, guías completas, todos los trucos y los secretos descubiertos, en español." jsonLd={jsonLd}>
   <h1 class="sr-only">{SITE.name}: noticias, guías y trucos de GTA VI</h1>
+  <picture class="hero">
+    <source media="(max-width: 640px)" srcset="/img/marca/banner-movil.webp" />
+    <img src="/img/marca/banner.webp" srcset="/img/marca/banner-1000.webp 1000w, /img/marca/banner.webp 2000w" sizes="(max-width: 1120px) 100vw, 1088px"
+      alt="Cartel de neón de Zona Leonida en una calle mojada de noche: noticias, guías y trucos" width="2000" height="661" fetchpriority="high" />
+  </picture>
   <Countdown />
 
   {first && (
@@ -49,6 +54,9 @@ const jsonLd = {
   {posts.length === 0 && <p class="muted">Pronto publicaremos los primeros artículos.</p>}
 </Base>
 <style>
+  .hero { display: block; margin: 0 0 20px; border-radius: 20px; overflow: hidden; border: 1px solid var(--line); box-shadow: 0 0 40px #ff3fae22; }
+  .hero img { width: 100%; height: auto; display: block; }
+  @media (max-width: 640px) { .hero img { aspect-ratio: 1159 / 851; object-fit: cover; } }
   .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
   .section-title { font-size: 2rem; margin: 0 0 16px; }
   .cat-block { margin-top: 48px; }
