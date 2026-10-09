@@ -3,6 +3,9 @@ title: "GTA 6: Rockstar lanza su colección de ropa y un Zippo de Vice City"
 description: "Rockstar estrena la Grand Theft Auto VI Collection con camisetas, gorras y objetos de coleccionista desde 4,99 euros, como un mechero Zippo de Vice City."
 date: 2026-10-09T10:21:33+00:00
 category: noticias
+image: /img/banco/dinero-1.webp
+imageAlt: "Ilustración de fajos de billetes bajo luces de neón"
+imageCredit: "ilustración de Zona Leonida"
 tags: [gta-6, merchandising, rockstar-games, vice-city, coleccionismo]
 rumor: false
 sources:

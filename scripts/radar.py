@@ -36,6 +36,9 @@ SIMILARITY_SKIP = 0.62          # títulos muy parecidos = misma noticia ya cubi
 UA = "Mozilla/5.0 (compatible; ZonaLeonidaRadar/1.0)"
 CATEGORIES = ["noticias", "guias", "trucos", "descubrimientos"]
 IMG_DIR = ROOT / "public" / "img" / "radar"
+BANCO_FILE = ROOT / "scripts" / "banco.json"
+BANCO = json.loads(BANCO_FILE.read_text(encoding="utf-8"))["temas"] if BANCO_FILE.exists() else {}
+BANCO_CREDIT = "ilustración de Zona Leonida"
 
 # Solo se reutilizan imágenes y vídeos OFICIALES (material promocional de Rockstar).
 # Nunca se copian fotos de otros medios ni material filtrado.
@@ -192,7 +195,8 @@ def embed_html(e: dict) -> str:
 
 
 # ---------- 3. redactar con IA ----------
-SYSTEM = """Eres redactor de una web de fans de GTA VI en español para España y toda Latinoamérica. \
+_TEMAS_TXT = "; ".join(f"{k} ({v['desc']})" for k, v in BANCO.items()) or "ciudad"
+SYSTEM_TEMPLATE = """Eres redactor de una web de fans de GTA VI en español para España y toda Latinoamérica. \
 Escribes en español neutro: sin vosotros ni regionalismos (usa "ustedes", "videojuego", "computadora o PC", \
 "celular o móvil" solo si es necesario), con tono cercano pero riguroso, como un buen medio de videojuegos. \
 Cuando des horarios o precios, si la fuente los da, indica la referencia (por ejemplo, hora de España o de México).
@@ -222,12 +226,15 @@ FORMATO DE RESPUESTA: solo un objeto JSON válido, sin texto alrededor:
   "skip": false,
   "category": "noticias" | "guias" | "trucos" | "descubrimientos",
   "rumor": true | false,
+  "image_theme": "uno de estos temas de ilustración: {temas}",
   "image_alt": "descripción genérica de una imagen promocional oficial de GTA VI (por si hay imagen oficial); nunca la relaciones con la filtración",
   "title": "titular SEO de 50-70 caracteres que empiece por 'GTA 6' o 'GTA VI' cuando suene natural",
   "description": "entradilla/meta description de 130-160 caracteres",
   "tags": ["3-5 etiquetas en minúsculas"],
   "body": "artículo en Markdown, 350-700 palabras, con 2-4 subtítulos ## que respondan dudas que la gente buscaría en Google. Incluye 1-2 enlaces internos a artículos relacionados de la lista si encajan de forma natural. No pongas el título como # al principio."
 }"""
+SYSTEM = SYSTEM_TEMPLATE.replace("{temas}", _TEMAS_TXT)
+
 
 
 _CLIENT = None
@@ -293,6 +300,28 @@ def yaml_str(s: str) -> str:
     return '"' + s.replace("\\", "\\\\").replace('"', '\\"').strip() + '"'
 
 
+_BANCO_STATE = ROOT / "scripts" / "state" / "banco-uso.json"
+
+
+def pick_banco_image(theme: str, rumor: bool) -> tuple[str, str] | None:
+    """Elige una ilustración del banco para el tema, rotando para no repetir la última usada."""
+    theme = (theme or "").strip().lower()
+    if rumor:
+        theme = "misterio"
+    if theme not in BANCO:
+        theme = "ciudad" if "ciudad" in BANCO else next(iter(BANCO))
+    t = BANCO[theme]
+    try:
+        uso = json.loads(_BANCO_STATE.read_text(encoding="utf-8"))
+    except Exception:  # noqa: BLE001
+        uso = {}
+    i = (uso.get(theme, -1) + 1) % len(t["imagenes"])
+    uso[theme] = i
+    _BANCO_STATE.parent.mkdir(parents=True, exist_ok=True)
+    _BANCO_STATE.write_text(json.dumps(uso, indent=1), encoding="utf-8")
+    return f"/img/banco/{t['imagenes'][i]}.webp", t["alt"]
+
+
 def save_post(data: dict, item: dict, html: str = "") -> Path:
     slug = slugify(data["title"])
     path = POSTS_DIR / f"{slug}.md"
@@ -311,6 +340,11 @@ def save_post(data: dict, item: dict, html: str = "") -> Path:
         credit = ("Rockstar Games (imagen promocional oficial, no forma parte de la filtración)"
                   if data.get("rumor") else "Rockstar Games")
         image_lines = f"image: {local}\nimageAlt: {yaml_str(alt[:150])}\nimageCredit: {yaml_str(credit)}\n"
+    if not image_lines and BANCO:
+        pick = pick_banco_image(data.get("image_theme", ""), bool(data.get("rumor")))
+        if pick:
+            img, alt = pick
+            image_lines = f"image: {img}\nimageAlt: {yaml_str(alt)}\nimageCredit: {yaml_str(BANCO_CREDIT)}\n"
     body = data["body"].strip()
     # En artículos de rumores no se incrustan vídeos ni tuits, para que no parezcan una confirmación
     embeds = official_embeds(html) if html and not data.get("rumor") else []

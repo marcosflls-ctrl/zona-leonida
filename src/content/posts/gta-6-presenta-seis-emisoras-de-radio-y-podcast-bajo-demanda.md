@@ -3,6 +3,9 @@ title: "GTA 6: sus emisoras de radio, canciones y temas de Travis Scott"
 description: "Rockstar confirma seis emisoras de GTA 6, con Bad Bunny o Lana Del Rey, temas inéditos de Travis Scott y Rauw Alejandro, y pódcast que se escuchan a pie."
 date: 2026-10-09T10:21:50+00:00
 category: noticias
+image: /img/banco/radio-1.webp
+imageAlt: "Ilustración de la radio de un coche iluminada de noche"
+imageCredit: "ilustración de Zona Leonida"
 tags: [gta-6, radio, banda-sonora, bad-bunny, travis-scott]
 rumor: false
 sources:

@@ -18,7 +18,7 @@ Cloudflare→  detecta el cambio y publica la web en ~1 minuto
 
 - **Imagen principal**: el robot solo descarga la imagen cuando la fuente es la propia Rockstar
   (`OFFICIAL_IMAGE_DOMAINS` en `radar.py`) y añade el crédito "Imagen: Rockstar Games".
-  Nunca copia fotos de otros medios. Si no hay imagen oficial, se usa la portada de la categoría (`public/img/portadas/`).
+  Nunca copia fotos de otros medios. Si no hay imagen oficial, elige una **ilustración propia del banco** (`public/img/banco/`) según el tema de la noticia, rotando para no repetir. Los temas y sus imágenes están en `scripts/banco.json`; para añadir más, guarda `tema-N.webp` en esa carpeta y añádela a la lista. En rumores siempre usa una de "misterio".
 - **Vídeos y tuits**: incrusta como mucho 2, y solo de cuentas oficiales (canal de YouTube "Rockstar Games", @RockstarGames).
 - **Filtraciones**: la IA las cuenta con sus palabras citando al medio, sin describir el material como si lo viera ni compararlo con imágenes oficiales. Si viene de un hackeo, solo lo general. En estos artículos no se incrustan vídeos y la imagen oficial se marca como "no forma parte de la filtración". Llevan la etiqueta **Rumor**
   y un aviso de "Información sin confirmar". Nunca enlaza ni muestra el material filtrado.

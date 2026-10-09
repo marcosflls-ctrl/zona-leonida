@@ -3,6 +3,9 @@ title: "GTA 6: fecha de lanzamiento, plataformas y todo lo que debes saber"
 description: "GTA VI sale el 19 de noviembre de 2026 en PS5 y Xbox Series X|S. Te contamos qué se sabe de la fecha, las plataformas y la versión de PC."
 date: 2026-10-09T00:05:00+02:00
 category: noticias
+image: /img/banco/lanzamiento-1.webp
+imageAlt: "Ilustración de un reloj de neón en una pared de ladrillo"
+imageCredit: "ilustración de Zona Leonida"
 tags: [lanzamiento, ps5, xbox, pc]
 sources:
   - name: "Nintenderos: GTA 6 reconfirma su fecha de lanzamiento"

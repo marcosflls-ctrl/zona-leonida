@@ -1,0 +1,16 @@
+{
+  "_nota": "Banco de ilustraciones propias (public/img/banco). El robot elige un tema y rota entre sus imágenes. Para añadir más: guarda tema-N.webp en public/img/banco y añade el nombre aquí.",
+  "temas": {
+    "ciudad":      {"desc": "noticias generales, Vice City, la ciudad, el estado de Leonida", "imagenes": ["calle-1", "calle-2", "motel-1"], "alt": "Ilustración de una calle de neón de noche en una ciudad tropical"},
+    "costa":       {"desc": "playas, costa, cayos, mapa, exploración", "imagenes": ["playa-1", "playa-2"], "alt": "Ilustración de una playa tropical al anochecer"},
+    "pantano":     {"desc": "pantanos, zonas rurales, naturaleza, fauna, misiones fuera de la ciudad", "imagenes": ["pantano-1", "pantano-2"], "alt": "Ilustración de un pantano tropical de noche"},
+    "coches":      {"desc": "vehículos, conducción, carreras, persecuciones", "imagenes": ["coche-1", "coche-2"], "alt": "Ilustración de un coche deportivo bajo luces de neón"},
+    "policia":     {"desc": "policía, crimen, nivel de búsqueda, atracos", "imagenes": ["policia-1"], "alt": "Ilustración de luces de policía reflejadas en una calle mojada"},
+    "dinero":      {"desc": "precio, ediciones, reservas, ventas, merchandising, economía del juego, ganar dinero", "imagenes": ["dinero-1", "dinero-2"], "alt": "Ilustración de fajos de billetes bajo luces de neón"},
+    "gaming":      {"desc": "trucos, consejos, consolas, rendimiento, PS5, Xbox, PC", "imagenes": ["mando-1"], "alt": "Ilustración de un mando de consola iluminado por neones"},
+    "guias":       {"desc": "guías, mapas, ubicaciones, coleccionables, misiones", "imagenes": ["movil-1"], "alt": "Ilustración de un móvil con un mapa luminoso"},
+    "lanzamiento": {"desc": "fecha de lanzamiento, retrasos, cuenta atrás, horario de desbloqueo", "imagenes": ["lanzamiento-1"], "alt": "Ilustración de un reloj de neón en una pared de ladrillo"},
+    "musica":      {"desc": "radio, emisoras, música, banda sonora, pódcast", "imagenes": ["radio-1"], "alt": "Ilustración de la radio de un coche iluminada de noche"},
+    "misterio":    {"desc": "rumores, filtraciones, secretos, easter eggs, teorías", "imagenes": ["misterio-1", "misterio-2"], "alt": "Ilustración de un callejón misterioso con luz de neón"}
+  }
+}

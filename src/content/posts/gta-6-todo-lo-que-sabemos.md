@@ -3,6 +3,9 @@ title: "Todo lo que sabemos de GTA 6: mapa, protagonistas y ciudad"
 description: "Leonida, Vice City, Lucía y Jason: resumen de lo que Rockstar ha mostrado oficialmente de GTA VI antes de su lanzamiento."
 date: 2026-10-09T00:06:00+02:00
 category: guias
+image: /img/banco/calle-2.webp
+imageAlt: "Ilustración de una calle de neón de noche en una ciudad tropical"
+imageCredit: "ilustración de Zona Leonida"
 tags: [mapa, protagonistas, vice-city, leonida]
 ---
 
