@@ -20,7 +20,7 @@ export const SITE = {
   // Redes sociales
   social: { x: 'ZonaLeonida', telegram: '' },
   // Afiliados: pega tu ID de Amazon Afiliados (termina en -21). Mientras esté vacío no se muestran enlaces.
-  amazonTag: '',
+  amazonTag: 'zonaleonida-21',
 };
 
 export const CATEGORIES = {
