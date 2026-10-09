@@ -9,7 +9,7 @@ export const SITE = {
   email: 'contacto@zonaleonida.com',
   // Datos legales del titular (aviso legal y privacidad)
   ownerName: 'Marcos Fernández León',
-  ownerNif: '', // si lo dejas vacío, no se muestra
+  ownerNif: '48158108H', // si lo dejas vacío, no se muestra
   // Fecha de lanzamiento usada por la cuenta atrás (hora peninsular)
   launchDate: '2026-11-19T00:00:00+01:00',
   // AdSense: pega tu ID de editor cuando te aprueben (ej. 'ca-pub-1234567890123456').
