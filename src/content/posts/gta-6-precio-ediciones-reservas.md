@@ -2,7 +2,7 @@
 title: "GTA 6: precio, ediciones y cómo reservarlo"
 description: "Cuánto cuesta GTA 6, qué incluye la edición Ultimate, los bonus por reservar y qué trae la versión física. Toda la información oficial, actualizada."
 date: 2026-10-09T12:00:00+02:00
-updated: 2026-10-09T19:00:00+02:00
+updated: 2026-10-09T19:30:00+02:00
 category: guias
 pilar: true
 orden: 1
@@ -24,6 +24,8 @@ sources:
     url: "https://www.rockstargames.com/VI"
   - name: "Vandal: guía de reserva de GTA 6"
     url: "https://vandal.elespanol.com/noticia/1350791112/guia-de-reserva-de-gta-6-precio-hora-ediciones-y-todas-las-novedades-confirmadas-por-rockstar/"
+  - name: "Gematsu: contenido de la edición Ultimate y bonus de reserva"
+    url: "https://www.gematsu.com/2026/06/grand-theft-auto-vi-pricing-ultimate-edition-and-pre-order-bonuses-announced"
   - name: "Libertad Digital: precios, ediciones y extras de GTA 6"
     url: "https://www.libertaddigital.com/ciencia-tecnologia/videojuegos/2026-06-25/precios-ediciones-y-extras-incluidos-en-gta-6-que-ya-se-puede-reservar-en-ps5-y-xbox-series-xs-7426476/"
   - name: "IBTimes: GTA+ incluido en las reservas digitales"
@@ -40,7 +42,7 @@ Esta página se actualiza cada vez que Rockstar confirma algo nuevo sobre precio
 |---|---|---|
 | Estándar | 79,99 € | El juego completo |
 | Ultimate | 99,99 € | El juego + contenido extra repartido por la historia |
-| Mejora de Estándar a Ultimate | 20 € | El contenido extra de la Ultimate |
+| Mejora de Estándar a Ultimate | Sin precio oficial | El contenido extra de la Ultimate |
 
 En Estados Unidos el precio de la edición estándar es de 79,99 dólares. En Latinoamérica el precio varía según el país y la tienda; revisa la PlayStation Store o la Microsoft Store de tu región.
 
@@ -48,14 +50,16 @@ En Estados Unidos el precio de la edición estándar es de 79,99 dólares. En La
 
 <div class="oficial-par"><figure class="oficial"><img src="/img/oficial/ultimate-edition-2.webp" alt="Edición Ultimate, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure><figure class="oficial"><img src="/img/oficial/grotti-cheetah-1.webp" alt="Grotti Cheetah del 95 (edición Ultimate), imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure></div>
 
-Rockstar la describe como una colección de objetos exclusivos repartidos por toda la historia de Jason y Lucía: el contenido extra se va desbloqueando a medida que avanzas por los capítulos. Según Vandal, incluye:
+Rockstar la describe como una colección de objetos exclusivos repartidos por toda la historia de Jason y Lucía. Según la información oficial recogida por Gematsu, incluye:
 
-- Vehículos premium, como el **Grotti Cheetah del 95**, motocicletas y coches clásicos.
-- Kits de personalización para coches como el Ganado.
-- **Un yate**.
-- Armas, tatuajes, ropa y peinados para los dos protagonistas.
+- Vehículos: el **Grotti Cheetah del 95**, el **Vapid Dominator Buggy del 67**, la lancha **Shitzu Squalo** y un kit retro para la Vapid Ganado de Jason.
+- Dos talleres exclusivos (Rideout Customs y One-Eyed Willie's) y un encargo para restaurar coches clásicos.
+- Armas, como los revólveres Hawk & Little Morgan.
+- Tiendas, ropa, peinados y un estudio de tatuajes exclusivos.
 
-Si dudas, puedes comprar la estándar y mejorar más adelante pagando la diferencia de 20 €.
+Lo explicamos con detalle en [¿merece la pena la edición Ultimate?](/guias/gta-6-merece-la-pena-edicion-ultimate/).
+
+Si dudas, puedes comprar la estándar y mejorar más adelante: Rockstar ha confirmado que habrá una mejora a la Ultimate, aunque todavía no ha publicado su precio oficial.
 
 ## Bonus por reservar
 
