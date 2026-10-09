@@ -146,6 +146,11 @@ const path = Astro.url.pathname;
   .embed figcaption, .credit { font-size: .8rem; color: var(--muted); margin-top: 6px; }
   .grid { display: grid; gap: 20px; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
   .prose { max-width: 720px; }
+  .oficial { margin: 1.2em 0 1.6em; }
+  .oficial img { width: 100%; height: auto; aspect-ratio: 16/9; object-fit: cover; border-radius: var(--radius); border: 1px solid var(--line); display: block; }
+  .oficial figcaption { font-size: .8rem; color: var(--muted); margin-top: 6px; }
+  .oficial-par { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .oficial-par figure { margin: 0; }
   .prose h2 { font-size: 1.8rem; margin-top: 2em; }
   .prose h3 { font-size: 1.35rem; margin-top: 1.6em; }
   .prose blockquote { border-left: 3px solid var(--pink); margin: 1.5em 0; padding: .2em 1em; color: var(--muted); }

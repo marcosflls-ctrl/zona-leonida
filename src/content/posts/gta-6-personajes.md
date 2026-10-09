@@ -1,15 +1,15 @@
 ---
 title: "Personajes de GTA 6: protagonistas y secundarios confirmados"
-description: "Jason Duval, Lucía Caminos, Cal Hampton, Boobie Ike, Dre'Quan Priest, Real Dimez y Raul Bautista: quién es quién en GTA 6."
+description: "Jason Duval, Lucía Caminos, Cal Hampton, Boobie Ike, Dre'Quan Priest, Real Dimez, Raúl Bautista y Brian Heder: quién es quién en GTA 6."
 date: 2026-10-09T12:20:00+02:00
-updated: 2026-10-09T12:20:00+02:00
+updated: 2026-10-09T19:00:00+02:00
 category: guias
 pilar: true
 orden: 5
 tags: [personajes, lucia, jason, historia]
-image: /img/banco/coche-2.webp
-imageAlt: "Ilustración de luces de coches por una carretera costera de noche"
-imageCredit: "ilustración de Zona Leonida"
+image: /img/oficial/jason-y-lucia-1.webp
+imageAlt: "Jason y Lucía, imagen oficial de GTA VI"
+imageCredit: "Rockstar Games"
 sources:
   - name: "Rockstar Games: web oficial de GTA VI"
     url: "https://www.rockstargames.com/VI"
@@ -17,15 +17,19 @@ sources:
     url: "https://www.pcgamesn.com/grand-theft-auto-6/characters"
 ---
 
-GTA 6 tiene **dos protagonistas jugables, Jason y Lucía**, y un reparto de secundarios que Rockstar ha ido presentando en sus tráilers y en su web. Esta es la lista de personajes confirmados oficialmente, sin rumores.
+GTA 6 tiene **dos protagonistas jugables, Jason y Lucía**, y un reparto de secundarios que Rockstar ha ido presentando en sus tráilers y en su web. Esta es la lista de personajes confirmados oficialmente, sin rumores, con las imágenes oficiales de Rockstar.
 
 ## Los protagonistas
 
 ### Lucía Caminos
 
+<div class="oficial-par"><figure class="oficial"><img src="/img/oficial/lucia-caminos-1.webp" alt="Lucía Caminos, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure><figure class="oficial"><img src="/img/oficial/lucia-caminos-4.webp" alt="Lucía Caminos, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure></div>
+
 La primera protagonista femenina de la saga desde los GTA de los años noventa, y la primera de la era moderna. Sale de prisión con la intención de rehacer su vida, pero las circunstancias la empujan de nuevo al crimen junto a Jason.
 
 ### Jason Duval
+
+<div class="oficial-par"><figure class="oficial"><img src="/img/oficial/jason-duval-1.webp" alt="Jason Duval, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure><figure class="oficial"><img src="/img/oficial/jason-duval-4.webp" alt="Jason Duval, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure></div>
 
 Exmilitar que se gana la vida con trabajos de todo tipo en Leonida, incluidos encargos para traficantes locales. Conoce a Lucía y su historia cambia por completo.
 
@@ -35,23 +39,39 @@ Rockstar resume la historia de la pareja así: los dos "siempre han sabido que t
 
 ### Cal Hampton
 
+<figure class="oficial"><img src="/img/oficial/cal-hampton-1.webp" alt="Cal Hampton, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure>
+
 Amigo de Jason. Le ayuda en los trabajos y pasa tiempo con la pareja.
 
 ### Boobie Ike
+
+<figure class="oficial"><img src="/img/oficial/boobie-ike-1.webp" alt="Boobie Ike, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure>
 
 Una figura conocida de Vice City, con negocios en el sector inmobiliario, clubes y un estudio de grabación.
 
 ### Dre'Quan Priest
 
+<figure class="oficial"><img src="/img/oficial/dre-quan-priest-1.webp" alt="Dre'Quan Priest, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure>
+
 Aspirante a productor musical en el estudio de Boobie, que también se dedica a otros negocios menos legales.
 
 ### Real Dimez
 
+<figure class="oficial"><img src="/img/oficial/real-dimez-1.webp" alt="Real Dimez, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure>
+
 Un dúo musical formado por Bae-Luxe y Roxy, que fichan por el sello Only Raw Records.
 
-### Raul Bautista
+### Raúl Bautista
+
+<figure class="oficial"><img src="/img/oficial/raul-bautista-1.webp" alt="Raúl Bautista, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure>
 
 Un atracador de bancos temerario, con pinta de acabar compartiendo golpes con Jason y Lucía.
+
+### Brian Heder
+
+<figure class="oficial"><img src="/img/oficial/brian-heder-1.webp" alt="Brian Heder, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure>
+
+Un veterano del contrabando que vive en los Cayos de Leonida. Según Rockstar, le deja a Jason un sitio donde vivir a cambio de que le ayude con sus negocios.
 
 ## ¿Habrá más personajes?
 

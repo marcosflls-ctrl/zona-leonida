@@ -94,3 +94,10 @@ npm install
 npm run dev          # http://localhost:4321
 python scripts/radar.py --dry-run   # ver qué noticias encontraría, sin gastar IA
 ```
+
+## Galería oficial de Rockstar
+
+- `scripts/galeria.json` lista las imágenes del kit de prensa oficial (rockstargames.com/VI/media), etiquetadas por personaje o zona (`refs`).
+- La tarea **Galería oficial de Rockstar** (Actions) las descarga a `public/img/oficial/`. Se ejecuta sola al cambiar `galeria.json`; también a mano.
+- El robot añade a cada noticia (salvo rumores) la imagen oficial del personaje o lugar del que trata, con el crédito "Imagen: Rockstar Games". Si no encaja ninguna, usa las ilustraciones propias.
+- Las noticias de Rockstar se leen de la API del Newswire (la web ya no tiene RSS), en español y con su imagen oficial; solo las de la última semana con la etiqueta de GTA VI.

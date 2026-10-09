@@ -2,14 +2,14 @@
 title: "Mapa de GTA 6: todas las zonas confirmadas de Leonida"
 description: "Vice City, Leonida Keys, Grassrivers, Port Gellhorn, Ambrosia y Mount Kalaga: así es el mapa de GTA 6 según lo que ha mostrado Rockstar."
 date: 2026-10-09T12:15:00+02:00
-updated: 2026-10-09T12:15:00+02:00
+updated: 2026-10-09T19:00:00+02:00
 category: guias
 pilar: true
 orden: 4
 tags: [mapa, leonida, vice-city, zonas]
-image: /img/banco/playa-1.webp
-imageAlt: "Ilustración de una playa tropical al anochecer"
-imageCredit: "ilustración de Zona Leonida"
+image: /img/oficial/vice-city-4.webp
+imageAlt: "Vice City, imagen oficial de GTA VI"
+imageCredit: "Rockstar Games"
 sources:
   - name: "Rockstar Games: web oficial de GTA VI"
     url: "https://www.rockstargames.com/VI"
@@ -23,25 +23,37 @@ GTA 6 transcurre en **Leonida**, el estado ficticio inspirado en Florida, y su g
 
 ### Vice City
 
+<div class="oficial-par"><figure class="oficial"><img src="/img/oficial/vice-city-1.webp" alt="Vice City, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure><figure class="oficial"><img src="/img/oficial/vice-city-2.webp" alt="Vice City, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure></div>
+
 La capital del sol y la fiesta, y el corazón del juego. Rockstar la define como "el lado más oscuro del lugar más soleado de América". Tiene barrios como **Ocean Beach**, con su paseo marítimo y sus edificios art déco, y es la versión de GTA de Miami. Los veteranos la recordarán de *GTA: Vice City* (2002).
 
 ### Leonida Keys
+
+<div class="oficial-par"><figure class="oficial"><img src="/img/oficial/cayos-de-leonida-1.webp" alt="Cayos de Leónida, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure><figure class="oficial"><img src="/img/oficial/cayos-de-leonida-2.webp" alt="Cayos de Leónida, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure></div>
 
 Una cadena de islas tropicales, con ambiente relajado, fiestas y aguas peligrosas. Es la versión de Leonida de los cayos de Florida.
 
 ### Grassrivers
 
+<div class="oficial-par"><figure class="oficial"><img src="/img/oficial/grassrivers-1.webp" alt="Grassrivers, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure><figure class="oficial"><img src="/img/oficial/grassrivers-2.webp" alt="Grassrivers, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure></div>
+
 Humedales y manglares con caimanes y flamencos, y peligros escondidos entre la vegetación. Todo indica que está inspirada en los Everglades. Allí, según Rockstar, se escucha la emisora de country Back Country Radio.
 
 ### Port Gellhorn
+
+<div class="oficial-par"><figure class="oficial"><img src="/img/oficial/port-gellhorn-1.webp" alt="Port Gellhorn, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure><figure class="oficial"><img src="/img/oficial/port-gellhorn-2.webp" alt="Port Gellhorn, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure></div>
 
 Una zona costera venida a menos: moteles baratos, atracciones cerradas y centros comerciales de carretera. El reverso de la Leonida de postal.
 
 ### Ambrosia
 
+<div class="oficial-par"><figure class="oficial"><img src="/img/oficial/ambrosia-1.webp" alt="Ambrosía, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure><figure class="oficial"><img src="/img/oficial/ambrosia-2.webp" alt="Ambrosía, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure></div>
+
 Un pueblo agrícola dominado por la refinería de azúcar Allied Crystal y por una banda local de moteros.
 
 ### Mount Kalaga
+
+<div class="oficial-par"><figure class="oficial"><img src="/img/oficial/monte-kalaga-1.webp" alt="Parque nacional del monte Kalaga, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure><figure class="oficial"><img src="/img/oficial/monte-kalaga-2.webp" alt="Parque nacional del monte Kalaga, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure></div>
 
 Un parque natural en el norte del estado, famoso por la caza, la pesca y las rutas todoterreno. Apunta a ser la zona más salvaje del mapa.
 
