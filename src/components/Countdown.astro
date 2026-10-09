@@ -9,16 +9,19 @@ import { SITE } from '../config';
     <div><span data-u="m">--</span><small>min</small></div>
     <div><span data-u="s">--</span><small>seg</small></div>
   </div>
+  <p class="local">Hasta las 00:00 en tu hora local</p>
   <p class="done" hidden>¡GTA VI ya está disponible! Echa un vistazo a nuestras <a href="/guias/">guías</a> y <a href="/trucos/">trucos</a>.</p>
 </section>
 <script>
   const el = document.querySelector<HTMLElement>('.countdown');
   if (el) {
-    const target = new Date(el.dataset.target!).getTime();
+    // GTA VI se desbloquea a las 00:00 de cada país: contamos hasta la medianoche local de quien visita
+    const iso = new Date(el.dataset.target!);
+    const target = new Date(iso.getUTCFullYear(), 10, 19, 0, 0, 0).getTime();
     const set = (u: string, v: number) => { const n = el.querySelector(`[data-u="${u}"]`); if (n) n.textContent = String(v).padStart(2, '0'); };
     const tick = () => {
       const diff = target - Date.now();
-      if (diff <= 0) { el.querySelector('.units')?.setAttribute('hidden', ''); el.querySelector('.done')?.removeAttribute('hidden'); return; }
+      if (diff <= 0) { el.querySelector('.units')?.setAttribute('hidden', ''); el.querySelector('.local')?.setAttribute('hidden', ''); el.querySelector('.done')?.removeAttribute('hidden'); return; }
       set('d', Math.floor(diff / 864e5)); set('h', Math.floor(diff / 36e5) % 24);
       set('m', Math.floor(diff / 6e4) % 60); set('s', Math.floor(diff / 1e3) % 60);
       setTimeout(tick, 1000);
@@ -35,5 +38,6 @@ import { SITE } from '../config';
   .units div { display: flex; flex-direction: column; min-width: 62px; }
   .units span { font-family: Anton, sans-serif; font-size: clamp(2.4rem, 9vw, 4.4rem); line-height: 1; color: #ffe6f4; text-shadow: var(--glow-pink); }
   .units small { color: var(--muted); text-transform: uppercase; letter-spacing: .1em; font-size: .7rem; margin-top: 6px; }
+  .local { margin: 10px 0 0; font-size: .75rem; color: var(--muted); }
   .done { font-size: 1.2rem; font-weight: 600; margin: 0; }
 </style>
