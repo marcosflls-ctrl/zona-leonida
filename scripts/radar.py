@@ -98,6 +98,8 @@ def existing_posts() -> list[dict]:
     out = []
     for f in POSTS_DIR.glob("*.md"):
         txt = f.read_text(encoding="utf-8")
+        if re.search(r"^draft:\s*true", txt, re.M):
+            continue  # las plantillas en borrador no existen aún en la web
         t = re.search(r'^title:\s*"?(.*?)"?\s*$', txt, re.M)
         c = re.search(r"^category:\s*(\w+)", txt, re.M)
         if t and c:
@@ -310,7 +312,7 @@ existe y de lo más general; no detalles su contenido.
 - No menciones imágenes ni vídeos en el texto: si hay material oficial se añade automáticamente.
 - ENLAZA LAS GUÍAS DE REFERENCIA cuando la noticia toque su tema: precio/ediciones → /guias/gta-6-precio-ediciones-reservas/, \
 PC → /guias/gta-6-pc/, tamaño/precarga → /guias/gta-6-cuanto-ocupa/, mapa/zonas → /guias/gta-6-mapa-leonida/, \
-personajes → /guias/gta-6-personajes/.
+personajes → /guias/gta-6-personajes/, hora de salida por país → /guias/gta-6-a-que-hora-sale/.
 - NO REPITAS TEMAS: si la noticia trata básicamente de lo mismo que alguno de los "artículos ya publicados" \
 (aunque la cuente otro medio o con otro enfoque), responde {"skip": true, "reason": "tema ya cubierto: <artículo>"}. \
 Solo escribe si aporta un dato nuevo relevante, y en ese caso céntrate en lo nuevo.

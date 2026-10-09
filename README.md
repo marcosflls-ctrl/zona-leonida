@@ -101,3 +101,11 @@ python scripts/radar.py --dry-run   # ver qué noticias encontraría, sin gastar
 - La tarea **Galería oficial de Rockstar** (Actions) las descarga a `public/img/oficial/`. Se ejecuta sola al cambiar `galeria.json`; también a mano.
 - El robot añade a cada noticia (salvo rumores) la imagen oficial del personaje o lugar del que trata, con el crédito "Imagen: Rockstar Games". Si no encaja ninguna, usa las ilustraciones propias.
 - Las noticias de Rockstar se leen de la API del Newswire (la web ya no tiene RSS), en español y con su imagen oficial; solo las de la última semana con la etiqueta de GTA VI.
+
+## Día del lanzamiento (19 de noviembre)
+
+Hay 8 plantillas en borrador (`draft: true`) que no aparecen en la web: trucos, cómo ganar dinero, misiones, cuánto dura, mejores coches, secretos, controles y trofeos. Para publicar cada una:
+
+1. Rellenar los comentarios `<!-- RELLENAR -->` con datos comprobados y borrarlos.
+2. Añadir las fuentes en `sources`, cambiar `draft: true` por `draft: false` y poner la fecha real en `date` y `updated`.
+3. Al ser un archivo que ya existía, Telegram no lo publica solo: lanzar la tarea **Telegram** a mano con el nombre del archivo.
