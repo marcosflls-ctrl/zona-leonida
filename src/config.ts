@@ -18,7 +18,7 @@ export const SITE = {
   // Cloudflare Web Analytics (sin cookies): pega aquí el token cuando lo crees en Cloudflare.
   cfAnalyticsToken: '',
   // Redes sociales
-  social: { x: 'ZonaLeonida', telegram: '' },
+  social: { x: 'ZonaLeonida', telegram: 'zonaleonida' },
   // Afiliados: pega tu ID de Amazon Afiliados (termina en -21). Mientras esté vacío no se muestran enlaces.
   amazonTag: 'zonaleonida-21',
 };
