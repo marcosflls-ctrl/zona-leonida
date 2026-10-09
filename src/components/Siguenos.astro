@@ -1,0 +1,24 @@
+---
+import { SITE } from '../config';
+---
+{(SITE.social.telegram || SITE.social.x) && (
+  <aside class="siguenos">
+    <p class="t">No te pierdas nada de GTA 6</p>
+    <p class="d">Cada noticia y cada guía nueva, al momento y gratis, en nuestro canal de Telegram. También estamos en X.</p>
+    <div class="cta">
+      {SITE.social.telegram && <a class="tg" href={`https://t.me/${SITE.social.telegram}`} target="_blank" rel="noopener">Unirme al canal de Telegram</a>}
+      {SITE.social.x && <a class="x" href={`https://x.com/${SITE.social.x}`} target="_blank" rel="noopener">Seguir en X</a>}
+    </div>
+  </aside>
+)}
+<style>
+  .siguenos { margin: 32px 0; padding: 22px 20px; border-radius: 18px; border: 1px solid var(--line);
+    background: radial-gradient(ellipse at 0% 120%, #4cf2e633, transparent 60%), radial-gradient(ellipse at 100% -20%, #ff3fae33, transparent 55%), var(--surface); }
+  .t { font-family: Anton, sans-serif; font-size: 1.6rem; text-transform: uppercase; margin: 0 0 6px; line-height: 1.1; }
+  .d { margin: 0 0 14px; color: var(--muted); }
+  .cta { display: flex; flex-wrap: wrap; gap: 10px; }
+  .cta a { font-weight: 800; text-decoration: none; padding: 11px 18px; border-radius: 999px; }
+  .tg { background: var(--teal); color: #071417; box-shadow: var(--glow-teal); }
+  .x { border: 1px solid var(--line); color: var(--text); background: var(--surface-2); }
+  .cta a:hover { filter: brightness(1.1); }
+</style>

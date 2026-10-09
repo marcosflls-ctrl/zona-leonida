@@ -1,6 +1,8 @@
 ---
 import Base from '../../layouts/Base.astro';
 import AdSlot from '../../components/AdSlot.astro';
+import Compartir from '../../components/Compartir.astro';
+import Siguenos from '../../components/Siguenos.astro';
 import { SITE } from '../../config';
 import { srcset } from '../../lib/img';
 import { PERSONAJES, bySlug, type Personaje } from '../../data/personajes';
@@ -106,6 +108,8 @@ const jsonLd = [
       </section>
     )}
 
+    <Compartir url={url} title={p.titulo} />
+    <Siguenos />
     <p class="mas">Ver <a href="/personajes/">todos los personajes</a>, los <a href="/trailers/">tráilers oficiales</a> o el <a href="/guias/gta-6-mapa-leonida/">mapa de Leonida</a>.</p>
   </article>
 </Base>

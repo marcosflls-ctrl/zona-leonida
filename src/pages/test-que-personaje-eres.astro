@@ -1,0 +1,219 @@
+---
+import Base from '../layouts/Base.astro';
+import Siguenos from '../components/Siguenos.astro';
+import { SITE } from '../config';
+import { PERSONAJES } from '../data/personajes';
+
+const title = '¿Qué personaje de GTA 6 eres? Haz el test';
+const description = 'Responde 8 preguntas y descubre si eres Jason, Lucía, Cal, Boobie, Dre\'Quan, Real Dimez, Raúl o Brian. El test de personajes de GTA 6 en español.';
+const url = `${SITE.url}/test-que-personaje-eres/`;
+
+// j = Jason, l = Lucía, c = Cal, b = Boobie, d = Dre'Quan, r = Real Dimez, u = Raúl, h = Brian Heder
+const PREGUNTAS = [
+  { q: 'Viernes por la noche. ¿Dónde te encontramos?', a: [
+    ['En casa, con unas cervezas y mil pestañas abiertas sobre conspiraciones', 'c'],
+    ['En el club más exclusivo de Vice City, cerrando negocios', 'b'],
+    ['En el estudio, grabando hasta que salga el sol', 'd'],
+    ['Repasando el plan para el próximo golpe', 'l'],
+  ]},
+  { q: '¿Cuál es tu mayor virtud?', a: [
+    ['La lealtad: pase lo que pase, pueden contar conmigo', 'j'],
+    ['Saber pelear por los míos', 'l'],
+    ['El carisma: convenzo a cualquiera', 'u'],
+    ['La paciencia: dejo que otros hagan el trabajo sucio', 'h'],
+    ['La ambición: voy a llegar a lo más alto', 'd'],
+  ]},
+  { q: 'Elige vehículo', a: [
+    ['Una pick-up rebajada', 'j'],
+    ['Un descapotable para lucirme en redes', 'r'],
+    ['Una lancha para moverme entre los cayos', 'h'],
+    ['El coche de huida más rápido de Leonida', 'u'],
+    ['Un deportivo para aparcar en la puerta de mi club', 'b'],
+  ]},
+  { q: 'Tu relación con el dinero', a: [
+    ['Lo invierto: inmuebles, clubes, negocios', 'b'],
+    ['Lo justo para vivir tranquilo', 'jc'],
+    ['Quiero lo suficiente para cambiar mi vida de una vez', 'l'],
+    ['Lo gasto en vídeos, joyas y fiesta', 'r'],
+  ]},
+  { q: 'Tu domingo perfecto', a: [
+    ['Un mudslide al atardecer en el muelle', 'h'],
+    ['Escuchar la radio de la guardia costera', 'c'],
+    ['Buscar nuevos talentos para mi sello', 'd'],
+    ['Gimnasio y un par de asaltos de boxeo', 'l'],
+  ]},
+  { q: 'Un golpe sale mal. ¿Qué haces?', a: [
+    ['Improviso y subo la apuesta', 'u'],
+    ['Protejo a mi pareja antes que nada', 'j'],
+    ['Ya lo había visto venir, y nadie me hizo caso', 'c'],
+    ['Sonrío y negocio hasta salir ganando', 'b'],
+    ['Lo grabo todo: esto va a ser viral', 'r'],
+  ]},
+  { q: '¿Qué suena en tu coche?', a: [
+    ['Rap del sur, a todo volumen', 'rd'],
+    ['Country, sin complejos', 'c'],
+    ['Rock clásico de toda la vida', 'h'],
+    ['Reguetón y bachata', 'lu'],
+  ]},
+  { q: 'En redes sociales eres…', a: [
+    ['Viral: cada publicación, un éxito', 'r'],
+    ['Mirón: lo veo todo y no publico nada', 'j'],
+    ['El que enseña sus negocios y su lujo', 'bd'],
+    ['Fantasma: no hay ni rastro de mí', 'uh'],
+  ]},
+];
+
+const CLAVES: Record<string, string> = { j: 'jason-duval', l: 'lucia-caminos', c: 'cal-hampton', b: 'boobie-ike', d: 'dre-quan-priest', r: 'real-dimez', u: 'raul-bautista', h: 'brian-heder' };
+const POR_QUE: Record<string, string> = {
+  'jason-duval': 'Eres leal, buscas una vida tranquila y, aun así, los líos te encuentran. Por los tuyos, lo que haga falta.',
+  'lucia-caminos': 'Tienes un plan y lo vas a cumplir cueste lo que cueste. La vida te ha enseñado a pelear y a no fallar dos veces.',
+  'cal-hampton': 'Desconfías de todo, sabes cosas que nadie más sabe y en casa estás mejor que en ningún sitio.',
+  'boobie-ike': 'Sonrisa de oro y cabeza para los negocios. Has convertido la calle en un imperio y lo sabes.',
+  'dre-quan-priest': 'Buscavidas con visión: tu sueño es la música y no vas a parar hasta tener tu gran éxito.',
+  'real-dimez': 'Lo tuyo son las redes, el ingenio y los temas pegadizos. Tu vida es contenido y lo sabes aprovechar.',
+  'raul-bautista': 'Carisma, sangre fría y apetito por el riesgo. Cada golpe tiene que ser más grande que el anterior.',
+  'brian-heder': 'Veterano, relajado y peligroso. Parece que no haces nada, pero todo pasa por tus manos.',
+};
+const RESULTADOS = Object.fromEntries(PERSONAJES.map((p) => [p.slug, {
+  nombre: p.nombre, rol: p.rol, frase: p.frase, porque: POR_QUE[p.slug],
+  img: `/img/oficial/${p.imagenes[0]}-800.webp`,
+}]));
+const DATA = { preguntas: PREGUNTAS, claves: CLAVES, resultados: RESULTADOS, url };
+const jsonLd = { '@context': 'https://schema.org', '@type': 'WebPage', name: title, description, url, inLanguage: 'es' };
+---
+<Base title={title} description={description} image="/img/oficial/jason-y-lucia-1.webp" jsonLd={jsonLd}>
+  <div class="quiz">
+    <nav class="breadcrumbs"><a href="/">Inicio</a> › <a href="/personajes/">Personajes</a> › Test</nav>
+    <h1>¿Qué personaje de GTA 6 eres?</h1>
+    <p class="lead">Ocho preguntas y descubrirás quién serías en Leonida. Responde con sinceridad (nadie te está mirando… salvo Cal).</p>
+
+    <div id="q" class="card">
+      <p class="prog"><span id="n">1</span> / {PREGUNTAS.length}</p>
+      <div class="bar"><i id="bar"></i></div>
+      <h2 id="pregunta">{PREGUNTAS[0].q}</h2>
+      <div id="opciones" class="ops">
+        {PREGUNTAS[0].a.map(([t, k]) => <button type="button" data-k={k}>{t}</button>)}
+      </div>
+    </div>
+
+    <div id="res" class="card res" hidden>
+      <p class="kicker" id="res-kicker">Tu personaje de GTA 6 es…</p>
+      <img id="res-img" src="" alt="" width="800" height="450" />
+      <h2 id="res-nombre"></h2>
+      <p class="frase" id="res-frase"></p>
+      <p id="res-porque"></p>
+      <p class="muted small" id="res-rol"></p>
+      <div class="acciones">
+        <a id="res-ficha" class="prim" href="/personajes/">Ver su ficha completa</a>
+        <button type="button" id="otra" class="sec">Repetir el test</button>
+      </div>
+      <div class="share">
+        <span>Compártelo y reta a tus amigos:</span>
+        <div class="btns">
+          <a id="s-wa" target="_blank" rel="noopener nofollow">WhatsApp</a>
+          <a id="s-tg" target="_blank" rel="noopener nofollow">Telegram</a>
+          <a id="s-x" target="_blank" rel="noopener nofollow">X</a>
+          <button type="button" id="s-copy">Copiar enlace</button>
+        </div>
+      </div>
+      <p class="credit">Imagen: Rockstar Games · Test de entretenimiento de Zona Leonida, sin relación con Rockstar.</p>
+    </div>
+
+    <Siguenos />
+  </div>
+  <script type="application/json" id="quiz-data" set:html={JSON.stringify(DATA)} />
+</Base>
+<script>
+  const D = JSON.parse(document.getElementById('quiz-data')!.textContent!);
+  const $ = (id: string) => document.getElementById(id)!;
+  let i = 0;
+  let pts: Record<string, number> = {};
+
+  function pintar() {
+    const p = D.preguntas[i];
+    $('n').textContent = String(i + 1);
+    ($('bar') as HTMLElement).style.width = `${(i / D.preguntas.length) * 100}%`;
+    $('pregunta').textContent = p.q;
+    const ops = $('opciones');
+    ops.innerHTML = '';
+    p.a.forEach(([t, k]: [string, string]) => {
+      const b = document.createElement('button');
+      b.type = 'button'; b.dataset.k = k; b.textContent = t;
+      ops.appendChild(b);
+    });
+  }
+
+  function mostrar(slug: string, propio: boolean) {
+    const r = D.resultados[slug];
+    if (!r) return;
+    $('q').hidden = true; $('res').hidden = false;
+    $('res-kicker').textContent = propio ? 'Tu personaje de GTA 6 es…' : 'A tu amigo le ha salido…';
+    const img = $('res-img') as HTMLImageElement; img.src = r.img; img.alt = `${r.nombre}, imagen oficial de GTA VI`;
+    $('res-nombre').textContent = r.nombre;
+    $('res-frase').textContent = `«${r.frase}»`;
+    $('res-porque').textContent = r.porque;
+    $('res-rol').textContent = r.rol;
+    ($('res-ficha') as HTMLAnchorElement).href = `/personajes/${slug}/`;
+    $('otra').textContent = propio ? 'Repetir el test' : 'Hacer el test yo';
+    const link = `${D.url}?r=${slug}`;
+    const texto = `Me ha salido ${r.nombre} en el test de personajes de GTA 6. ¿Y a ti?`;
+    const u = encodeURIComponent(link), t = encodeURIComponent(texto);
+    ($('s-wa') as HTMLAnchorElement).href = `https://wa.me/?text=${t}%20${u}`;
+    ($('s-tg') as HTMLAnchorElement).href = `https://t.me/share/url?url=${u}&text=${t}`;
+    ($('s-x') as HTMLAnchorElement).href = `https://x.com/intent/post?text=${t}&url=${u}&via=ZonaLeonida`;
+    $('s-copy').onclick = async () => {
+      try { await navigator.clipboard.writeText(link); $('s-copy').textContent = '¡Copiado!'; } catch { $('s-copy').textContent = link; }
+    };
+    if (propio) history.replaceState(null, '', `?r=${slug}`);
+    $('res').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  $('opciones').addEventListener('click', (e) => {
+    const b = (e.target as HTMLElement).closest('button');
+    if (!b) return;
+    for (const k of b.dataset.k!) pts[k] = (pts[k] || 0) + (b.dataset.k!.length > 1 ? 1 : 2);
+    i++;
+    if (i < D.preguntas.length) { pintar(); return; }
+    ($('bar') as HTMLElement).style.width = '100%';
+    const ganador = Object.entries(pts).sort((a, b) => b[1] - a[1] || Math.random() - 0.5)[0][0];
+    mostrar(D.claves[ganador], true);
+  });
+
+  $('otra').addEventListener('click', () => {
+    i = 0; pts = {};
+    history.replaceState(null, '', location.pathname);
+    $('res').hidden = true; $('q').hidden = false; pintar();
+    $('q').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+
+  const compartido = new URLSearchParams(location.search).get('r');
+  if (compartido && D.resultados[compartido]) mostrar(compartido, false);
+</script>
+<style>
+  .quiz { max-width: 720px; }
+  h1 { font-size: clamp(2.2rem, 6vw, 3.2rem); margin: 8px 0; }
+  .lead { color: var(--muted); font-size: 1.1rem; }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 18px; padding: 22px 20px; margin: 20px 0; scroll-margin-top: 80px; }
+  .prog { margin: 0 0 6px; font-weight: 800; color: var(--teal); font-size: .85rem; letter-spacing: .08em; }
+  .bar { height: 6px; background: var(--surface-2); border-radius: 99px; overflow: hidden; margin-bottom: 14px; }
+  .bar i { display: block; height: 100%; width: 0; background: var(--sunset); transition: width .3s; }
+  .card h2 { font-size: clamp(1.5rem, 4.5vw, 2rem); margin: 0 0 16px; }
+  .ops { display: grid; gap: 10px; }
+  .ops button { font: inherit; text-align: left; padding: 14px 16px; border-radius: 14px; border: 1px solid var(--line); background: var(--surface-2); color: var(--text); cursor: pointer; transition: border-color .15s, box-shadow .15s, transform .1s; }
+  .ops button:hover { border-color: var(--pink); box-shadow: var(--glow-pink); }
+  .ops button:active { transform: scale(.98); }
+  .res { text-align: center; }
+  .res img { width: 100%; height: auto; border-radius: 14px; border: 1px solid var(--line); display: block; margin: 10px 0 14px; }
+  .kicker { margin: 0; font-weight: 800; color: var(--leaf); text-transform: uppercase; letter-spacing: .1em; font-size: .85rem; }
+  .res h2 { font-size: clamp(2.4rem, 8vw, 3.6rem); margin: 0; color: #ffe6f4; text-shadow: var(--glow-pink); }
+  .frase { font-family: Anton, sans-serif; text-transform: uppercase; color: var(--pink); margin: 6px 0 12px; }
+  .acciones { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin: 16px 0; }
+  .prim, .sec { font: inherit; font-weight: 800; padding: 11px 18px; border-radius: 999px; text-decoration: none; cursor: pointer; }
+  .prim { background: var(--pink); color: #1a0612; box-shadow: var(--glow-pink); border: 0; }
+  .sec { background: var(--surface-2); color: var(--text); border: 1px solid var(--line); }
+  .share { border-top: 1px solid var(--line); padding-top: 14px; }
+  .share span { display: block; font-weight: 700; margin-bottom: 8px; }
+  .btns { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
+  .btns a, .btns button { font: inherit; font-size: .9rem; font-weight: 700; padding: 8px 14px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface-2); color: var(--text); text-decoration: none; cursor: pointer; }
+  .credit { margin-top: 14px; }
+</style>

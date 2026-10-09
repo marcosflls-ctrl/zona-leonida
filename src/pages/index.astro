@@ -47,6 +47,11 @@ const jsonLd = {
     </section>
   )}
 
+  <a class="promo-test" href="/test-que-personaje-eres/">
+    <img src="/img/oficial/jason-y-lucia-1-400.webp" alt="" width="400" height="225" loading="lazy" />
+    <span><strong>¿Qué personaje de GTA 6 eres?</strong> Haz el test en un minuto y compártelo con tus amigos →</span>
+  </a>
+
   {first && (
     <section aria-labelledby="h-latest">
       <h2 id="h-latest" class="section-title">Lo último</h2>
@@ -91,6 +96,11 @@ const jsonLd = {
     .esencial-list img { width: 112px; flex: none; aspect-ratio: 16/10; }
     .esencial-list span { padding: 8px 12px 8px 0; }
   }
+  .promo-test { display: flex; align-items: center; gap: 16px; margin: -12px 0 40px; padding: 12px; border-radius: var(--radius); border: 1px solid #ff3fae66; background: linear-gradient(100deg, #ff3fae22, #4cf2e611); text-decoration: none; color: var(--text); transition: box-shadow .15s; }
+  .promo-test:hover { box-shadow: var(--glow-pink); }
+  .promo-test img { width: 140px; flex: none; border-radius: 10px; aspect-ratio: 16/9; object-fit: cover; }
+  .promo-test strong { display: block; font-family: Anton, sans-serif; font-weight: 400; font-size: 1.4rem; text-transform: uppercase; line-height: 1.1; margin-bottom: 4px; }
+  @media (max-width: 640px) { .promo-test img { width: 96px; } .promo-test strong { font-size: 1.15rem; } .promo-test span { font-size: .9rem; } }
   .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
   .section-title { font-size: 2rem; margin: 0 0 16px; }
   .cat-block { margin-top: 44px; }

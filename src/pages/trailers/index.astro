@@ -1,6 +1,8 @@
 ---
 import Base from '../../layouts/Base.astro';
 import AdSlot from '../../components/AdSlot.astro';
+import Compartir from '../../components/Compartir.astro';
+import Siguenos from '../../components/Siguenos.astro';
 import { SITE } from '../../config';
 
 const VIDEOS = [
@@ -59,6 +61,8 @@ const jsonLd = VIDEOS.map((v) => ({
     </section>
   ))}
 
+  <Compartir url={`${SITE.url}/trailers/`} title={title} />
+  <Siguenos />
   <p class="mas">Conoce a los <a href="/personajes/">personajes que salen en los tráilers</a> y repasa <a href="/guias/gta-6-todo-lo-que-sabemos/">todo lo que sabemos de GTA 6</a>.</p>
 </Base>
 <script>

@@ -23,6 +23,8 @@ const [jason, lucia, ...resto] = PERSONAJES;
   <h1 class="section-title">Personajes de GTA 6</h1>
   <p class="lead">Todos los personajes que Rockstar ha presentado antes del lanzamiento. En cada ficha: lo que es oficial, sus imágenes y, aparte, lo que dicen los rumores.</p>
 
+  <p class="test">🎮 <a href="/test-que-personaje-eres/"><strong>¿Qué personaje de GTA 6 eres?</strong> Haz nuestro test</a></p>
+
   <h2 class="sub">Protagonistas</h2>
   <ul class="cards grandes">
     {[jason, lucia].map((p) => (
@@ -48,6 +50,7 @@ const [jason, lucia, ...resto] = PERSONAJES;
 <style>
   .section-title { font-size: clamp(2.2rem, 6vw, 3.2rem); margin: 8px 0; }
   .lead { font-size: 1.15rem; color: var(--muted); max-width: 720px; }
+  .test { margin: 16px 0 0; padding: 12px 16px; border: 1px solid #ff3fae66; border-radius: 12px; background: #ff3fae14; }
   .sub { font-size: 1.6rem; margin: 32px 0 12px; }
   .cards { list-style: none; padding: 0; margin: 0; display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
   .cards.grandes { grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); }
