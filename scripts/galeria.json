@@ -502,6 +502,146 @@
    ],
    "archivo": "VINTAGE_VICE_CITY_PACK_VAPID_STANIER_01.004m_8d1~qngy.jpg",
    "alt": "Vapid Stanier del 55 (pack Vintage Vice City), imagen oficial de GTA VI"
+  },
+  {
+   "slug": "grotti-cheetah-2",
+   "grupo": "grotti-cheetah",
+   "refs": [
+    "ultimate",
+    "coches"
+   ],
+   "archivo": "ULTIMATE_EDITION_GROTTI_CHEETAH_02.0rkrlsu_dg~ww.jpg",
+   "alt": "Grotti Cheetah del 95 (edición Ultimate), imagen oficial de GTA VI"
+  },
+  {
+   "slug": "vapid-stanier-2",
+   "grupo": "vapid-stanier",
+   "refs": [
+    "vintage",
+    "coches"
+   ],
+   "archivo": "VINTAGE_VICE_CITY_PACK_VAPID_STANIER_02.0s2wun4_vzld2.jpg",
+   "alt": "Vapid Stanier del 55 (pack Vintage Vice City), imagen oficial de GTA VI"
+  },
+  {
+   "slug": "vapid-dominator-buggy-1",
+   "grupo": "vapid-dominator-buggy",
+   "refs": [
+    "ultimate",
+    "coches"
+   ],
+   "archivo": "ULTIMATE_EDITION_VAPID_BUGGY_01.0jxfiql~371ik.jpg",
+   "alt": "Vapid Dominator Buggy del 67 (edición Ultimate), imagen oficial de GTA VI"
+  },
+  {
+   "slug": "vapid-dominator-buggy-2",
+   "grupo": "vapid-dominator-buggy",
+   "refs": [
+    "ultimate",
+    "coches"
+   ],
+   "archivo": "ULTIMATE_EDITION_VAPID_BUGGY_02.0tf15jp~61bkj.jpg",
+   "alt": "Vapid Dominator Buggy del 67 (edición Ultimate), imagen oficial de GTA VI"
+  },
+  {
+   "slug": "shitzu-squalo-1",
+   "grupo": "shitzu-squalo",
+   "refs": [
+    "ultimate",
+    "coches"
+   ],
+   "archivo": "ULTIMATE_EDITION_SQUALO_01.0cim7hj58ypb1.jpg",
+   "alt": "Lancha Shitzu Squalo (edición Ultimate), imagen oficial de GTA VI"
+  },
+  {
+   "slug": "shitzu-squalo-2",
+   "grupo": "shitzu-squalo",
+   "refs": [
+    "ultimate",
+    "coches"
+   ],
+   "archivo": "ULTIMATE_EDITION_SQUALO_02.09qplkj.rjnk7.jpg",
+   "alt": "Lancha Shitzu Squalo (edición Ultimate), imagen oficial de GTA VI"
+  },
+  {
+   "slug": "piso-franco-vehiculos-1",
+   "grupo": "piso-franco-vehiculos",
+   "refs": [
+    "ultimate",
+    "coches"
+   ],
+   "archivo": "ULTIMATE_EDITION_SAFEHOUSE_VEHICLES_01.0wv6pw3t-mky3.jpg",
+   "alt": "Vehículos del piso franco de Jason (edición Ultimate), imagen oficial de GTA VI"
+  },
+  {
+   "slug": "dinka-enduro-1",
+   "grupo": "dinka-enduro",
+   "refs": [
+    "ultimate",
+    "coches"
+   ],
+   "archivo": "ULTIMATE_EDITION_SAFEHOUSE_VEHICLES_02.0-2n5rm9n8.rq.jpg",
+   "alt": "Moto Dinka Enduro (edición Ultimate), imagen oficial de GTA VI"
+  },
+  {
+   "slug": "kayak-crest-1",
+   "grupo": "kayak-crest",
+   "refs": [
+    "ultimate",
+    "coches"
+   ],
+   "archivo": "ULTIMATE_EDITION_SAFEHOUSE_VEHICLES_03.0c9.qtpdi.tf..jpg",
+   "alt": "Kayak Crest (edición Ultimate), imagen oficial de GTA VI"
+  },
+  {
+   "slug": "vapid-ganado-retro-1",
+   "grupo": "vapid-ganado-retro",
+   "refs": [
+    "ultimate",
+    "coches"
+   ],
+   "archivo": "ULTIMATE_EDITION_VAPID_GANADO_RETRO_BUILD_01.062dgvkwdynw5.jpg",
+   "alt": "Kit retro para la Vapid Ganado (edición Ultimate), imagen oficial de GTA VI"
+  },
+  {
+   "slug": "coleccion-clasicos-1",
+   "grupo": "coleccion-clasicos",
+   "refs": [
+    "ultimate",
+    "coches"
+   ],
+   "archivo": "ULTIMATE_EDITION_WYMAN_CAR_COLLECTION_01.0swhrm__iu~6b.jpg",
+   "alt": "Colección de coches clásicos (edición Ultimate), imagen oficial de GTA VI"
+  },
+  {
+   "slug": "coleccion-clasicos-2",
+   "grupo": "coleccion-clasicos",
+   "refs": [
+    "ultimate",
+    "coches"
+   ],
+   "archivo": "ULTIMATE_EDITION_WYMAN_CAR_COLLECTION_02.0_biiqjqkpg2b.jpg",
+   "alt": "Colección de coches clásicos (edición Ultimate), imagen oficial de GTA VI"
+  },
+  {
+   "slug": "coleccion-clasicos-3",
+   "grupo": "coleccion-clasicos",
+   "refs": [
+    "ultimate",
+    "coches"
+   ],
+   "archivo": "ULTIMATE_EDITION_WYMAN_CAR_COLLECTION_03.0~0maq32u-4ai.jpg",
+   "alt": "Colección de coches clásicos (edición Ultimate), imagen oficial de GTA VI"
+  },
+  {
+   "slug": "rideout-customs-1",
+   "grupo": "rideout-customs",
+   "refs": [
+    "ultimate",
+    "coches"
+   ],
+   "archivo": "ULTIMATE_EDITION_RIDEOUT_CUSTOMS_01.065-ms8~k8vbq.jpg",
+   "alt": "Taller Rideout Customs (edición Ultimate), imagen oficial de GTA VI"
   }
  ]
 }
