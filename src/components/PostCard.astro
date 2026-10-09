@@ -3,7 +3,8 @@ import { CATEGORIES } from '../config';
 import { formatDate } from '../lib/posts';
 interface Props { post: any; featured?: boolean }
 const { post, featured = false } = Astro.props;
-const { title, description, date, category, image, imageAlt, rumor } = post.data;
+const { title, description, date, updated, category, image, imageAlt, rumor, pilar } = post.data;
+const shown = pilar ? (updated ?? date) : date;
 const href = `/${category}/${post.id}/`;
 const src = image ?? `/img/portadas/${category}.webp`;
 ---
@@ -18,7 +19,7 @@ const src = image ?? `/img/portadas/${category}.webp`;
     </div>
     <h3><a href={href}>{title}</a></h3>
     <p class="muted">{description}</p>
-    <time class="muted small" datetime={date.toISOString()}>{formatDate(date)}</time>
+    <span class="muted small">{pilar && 'Actualizado '}<time datetime={shown.toISOString()} data-rel>{formatDate(shown)}</time></span>
   </div>
 </article>
 <style>

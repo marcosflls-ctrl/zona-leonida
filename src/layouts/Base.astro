@@ -88,6 +88,17 @@ const path = Astro.url.pathname;
     </div>
     <p class="wrap muted small">© {year} {SITE.name}</p>
   </footer>
+  <script is:inline>
+    (function () {
+      var now = Date.now();
+      document.querySelectorAll('time[data-rel]').forEach(function (t) {
+        var m = Math.round((now - new Date(t.getAttribute('datetime')).getTime()) / 6e4);
+        if (m < 0 || m >= 1440) return;
+        t.title = t.textContent;
+        t.textContent = m < 1 ? 'hace un momento' : m < 60 ? 'hace ' + m + ' min' : 'hace ' + Math.round(m / 60) + (Math.round(m / 60) === 1 ? ' hora' : ' horas');
+      });
+    })();
+  </script>
 </body>
 </html>
 

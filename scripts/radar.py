@@ -21,6 +21,8 @@ import os
 import re
 import sys
 import unicodedata
+import calendar
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -29,6 +31,7 @@ FEEDS_FILE = ROOT / "scripts" / "feeds.json"
 STATE_FILE = ROOT / "scripts" / "state" / "seen.json"
 POSTS_DIR = ROOT / "src" / "content" / "posts"
 
+MAX_AGE_HOURS = 48  # no se escriben noticias de fuentes con más de 2 días
 MAX_PER_RUN = int(os.environ.get("MAX_PER_RUN", "3"))
 MODEL = os.environ.get("MODEL", "claude-sonnet-5-5")
 MIN_SOURCE_CHARS = 600          # si no hay texto suficiente, no se escribe (evita inventar)
@@ -142,7 +145,7 @@ def rockstar_entries() -> list[dict]:
             continue
         try:  # "8/10/26 14:00" (día/mes/año con locale es_es): solo noticias de la última semana
             created = datetime.strptime(p.get("created", ""), "%d/%m/%y %H:%M").replace(tzinfo=timezone.utc)
-            if (datetime.now(timezone.utc) - created).days > 7:
+            if (datetime.now(timezone.utc) - created).total_seconds() > MAX_AGE_HOURS * 3600:
                 continue
         except ValueError:
             pass
@@ -194,6 +197,10 @@ def collect_candidates(cfg: dict, state: dict, posts: list[dict]) -> list[dict]:
         print(f"  · {feed['name']}: {len(entries)} entradas")
         for e in entries[:40]:
             link, title = e.get("link", ""), e.get("title", "")
+            # solo noticias recientes: lo antiguo ya no es noticia
+            pub = e.get("published_parsed") or e.get("updated_parsed")
+            if pub and (time.time() - calendar.timegm(pub)) > MAX_AGE_HOURS * 3600:
+                continue
             blob = f"{title} {e.get('summary', '')}".lower()
             # las noticias de Rockstar ya vienen filtradas por la etiqueta de GTA VI
             if not link or link in state["urls"] or not (is_rs or any(k in blob for k in kws)):
