@@ -39,6 +39,28 @@ IMG_DIR = ROOT / "public" / "img" / "radar"
 BANCO_FILE = ROOT / "scripts" / "banco.json"
 BANCO = json.loads(BANCO_FILE.read_text(encoding="utf-8"))["temas"] if BANCO_FILE.exists() else {}
 BANCO_CREDIT = "ilustración de Zona Leonida"
+GALERIA_FILE = ROOT / "scripts" / "galeria.json"
+GALERIA = json.loads(GALERIA_FILE.read_text(encoding="utf-8"))["imagenes"] if GALERIA_FILE.exists() else []
+GALERIA_DIR = ROOT / "public" / "img" / "oficial"
+# Qué significa cada etiqueta de la galería oficial (para la IA y para detectar nombres en el titular)
+GALERIA_REFS = {
+    "jason": ("Jason Duval, protagonista", ["jason"]),
+    "lucia": ("Lucía Caminos, protagonista", ["lucia", "lucía"]),
+    "cal-hampton": ("Cal Hampton", ["cal hampton"]),
+    "boobie-ike": ("Boobie Ike", ["boobie"]),
+    "dre-quan-priest": ("Dre'Quan Priest", ["dre'quan", "drequan", "dre quan"]),
+    "real-dimez": ("Real Dimez, dúo musical", ["real dimez"]),
+    "raul-bautista": ("Raúl Bautista", ["raul bautista", "raúl bautista"]),
+    "brian-heder": ("Brian Heder", ["brian heder"]),
+    "vice-city": ("la ciudad de Vice City", ["vice city"]),
+    "cayos-de-leonida": ("los Cayos de Leonida", ["cayos", "leonida keys"]),
+    "port-gellhorn": ("Port Gellhorn", ["port gellhorn"]),
+    "grassrivers": ("Grassrivers, los pantanos", ["grassrivers"]),
+    "ambrosia": ("Ambrosía", ["ambrosia", "ambrosía"]),
+    "monte-kalaga": ("el parque nacional del monte Kalaga", ["kalaga"]),
+    "ultimate": ("la edición Ultimate", ["ultimate"]),
+    "vintage": ("el pack Vintage Vice City (bonus de reserva)", ["vintage"]),
+}
 
 # Solo se reutilizan imágenes y vídeos OFICIALES (material promocional de Rockstar).
 # Nunca se copian fotos de otros medios ni material filtrado.
@@ -88,6 +110,71 @@ def is_similar(title: str, known: list[str]) -> bool:
     return any(difflib.SequenceMatcher(None, n, k).ratio() >= SIMILARITY_SKIP for k in known)
 
 
+# ---------- Newswire de Rockstar (su web ya no tiene RSS: se lee la misma API que usa la página) ----------
+RS_GRAPH = "https://graph.rockstargames.com/"
+RS_LIST_HASH = "7ec00215aecc70de257b0719a1dfcfa84fe57fdc7bf5c10ec2e8f377defede58"
+RS_POST_HASH = "555658813abe5acc8010de1a1feddd6fd8fddffbdc35d3723d4dc0fe4ded6810"
+RS_GTA6_TAG = 666
+
+
+def _rs_query(operation: str, variables: dict, sha: str) -> dict:
+    import requests
+
+    r = requests.get(RS_GRAPH, timeout=20, headers={"User-Agent": UA}, params={
+        "origin": "https://www.rockstargames.com",
+        "operationName": operation,
+        "variables": json.dumps(variables, separators=(",", ":")),
+        "extensions": json.dumps({"persistedQuery": {"version": 1, "sha256Hash": sha}}, separators=(",", ":")),
+    })
+    r.raise_for_status()
+    return r.json().get("data") or {}
+
+
+def rockstar_entries() -> list[dict]:
+    """Últimas noticias de GTA VI del Newswire, en español, con su imagen oficial."""
+    data = _rs_query("NewswireList", {"tagIdHash": None, "page": 1, "metaUrl": "/newswire",
+                                      "limit": 20, "locale": "es_es"}, RS_LIST_HASH)
+    out = []
+    for p in (data.get("posts") or {}).get("results") or []:
+        if not any(t.get("id") == RS_GTA6_TAG for t in p.get("primary_tags") or []):
+            continue
+        try:  # "8/10/26 14:00" (día/mes/año con locale es_es): solo noticias de la última semana
+            created = datetime.strptime(p.get("created", ""), "%d/%m/%y %H:%M").replace(tzinfo=timezone.utc)
+            if (datetime.now(timezone.utc) - created).days > 7:
+                continue
+        except ValueError:
+            pass
+        img = ((p.get("preview_images_parsed") or {}).get("newswire_block") or {}).get("d16x9")
+        out.append({"title": p.get("title", ""), "link": "https://www.rockstargames.com/es" + p["url"],
+                    "rockstar_id": p["id"], "official_img": img})
+    return out
+
+
+def rockstar_text(post_id: str) -> tuple[str, str]:
+    """(json bruto, texto en español) de una noticia del Newswire."""
+    data = _rs_query("NewswirePost", {"locale": "es_es", "id_hash": post_id}, RS_POST_HASH)
+    tina = (data.get("post") or {}).get("tina") or {}
+    parts: list[str] = []
+
+    def walk(o):
+        if isinstance(o, str):
+            t = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", o).replace("&nbsp;", " ")).strip()
+            if len(t) >= 40 and " " in t and not re.match(r"^(https?:|/|var\()", t) and t not in parts:
+                parts.append(t)
+        elif isinstance(o, list):
+            for x in o:
+                walk(x)
+        elif isinstance(o, dict):
+            for k, v in o.items():
+                if k not in ("alt", "style", "sources"):
+                    walk(v)
+
+    walk(tina.get("variables") or {})          # traducción al español
+    if sum(map(len, parts)) < MIN_SOURCE_CHARS:  # si no está traducida, el original en inglés
+        walk((tina.get("payload") or {}).get("content") or [])
+    return json.dumps(tina, ensure_ascii=False), "\n\n".join(parts)
+
+
 # ---------- 1-2. recoger candidatos ----------
 def collect_candidates(cfg: dict, state: dict, posts: list[dict]) -> list[dict]:
     import feedparser
@@ -96,21 +183,26 @@ def collect_candidates(cfg: dict, state: dict, posts: list[dict]) -> list[dict]:
     known_titles = state["titles"] + [norm_title(p["title"]) for p in posts]
     found = []
     for feed in cfg["feeds"]:
+        is_rs = feed.get("type") == "rockstar"
         try:
-            parsed = feedparser.parse(feed["url"], agent=UA)
+            entries = rockstar_entries() if is_rs else feedparser.parse(feed["url"], agent=UA).entries
         except Exception as e:  # noqa: BLE001
             print(f"  ! {feed['name']}: {e}")
             continue
-        print(f"  · {feed['name']}: {len(parsed.entries)} entradas")
-        for e in parsed.entries[:40]:
+        print(f"  · {feed['name']}: {len(entries)} entradas")
+        for e in entries[:40]:
             link, title = e.get("link", ""), e.get("title", "")
             blob = f"{title} {e.get('summary', '')}".lower()
-            if not link or link in state["urls"] or not any(k in blob for k in kws):
+            # las noticias de Rockstar ya vienen filtradas por la etiqueta de GTA VI
+            if not link or link in state["urls"] or not (is_rs or any(k in blob for k in kws)):
                 continue
             if is_similar(title, known_titles):
                 state["urls"].append(link)
                 continue
-            found.append({"source": feed["name"], "title": title, "url": link})
+            item = {"source": feed["name"], "title": title, "url": link}
+            if is_rs:
+                item.update(rockstar_id=e["rockstar_id"], official_img=e.get("official_img"))
+            found.append(item)
             known_titles.append(norm_title(title))
     return found
 
@@ -230,13 +322,15 @@ FORMATO DE RESPUESTA: solo un objeto JSON válido, sin texto alrededor:
   "category": "noticias" | "guias" | "trucos" | "descubrimientos",
   "rumor": true | false,
   "image_theme": "uno de estos temas de ilustración: {temas}",
+  "official_refs": ["0-2 etiquetas de esta lista SOLO si son el tema central de la noticia (si no, lista vacía): {refs}"],
   "image_alt": "descripción genérica de una imagen promocional oficial de GTA VI (por si hay imagen oficial); nunca la relaciones con la filtración",
   "title": "titular SEO de 50-70 caracteres que empiece por 'GTA 6' o 'GTA VI' cuando suene natural",
   "description": "entradilla/meta description de 130-160 caracteres",
   "tags": ["3-5 etiquetas en minúsculas"],
   "body": "artículo en Markdown, 350-700 palabras, con 2-4 subtítulos ## que respondan dudas que la gente buscaría en Google. Incluye 1-2 enlaces internos a artículos relacionados de la lista si encajan de forma natural. No pongas el título como # al principio."
 }"""
-SYSTEM = SYSTEM_TEMPLATE.replace("{temas}", _TEMAS_TXT)
+_REFS_TXT = "; ".join(f"{k} = {v[0]}" for k, v in GALERIA_REFS.items())
+SYSTEM = SYSTEM_TEMPLATE.replace("{temas}", _TEMAS_TXT).replace("{refs}", _REFS_TXT)
 
 
 
@@ -325,6 +419,35 @@ def pick_banco_image(theme: str, rumor: bool) -> tuple[str, str] | None:
     return f"/img/banco/{t['imagenes'][i]}.webp", t["alt"]
 
 
+def pick_galeria_image(refs: list, title: str) -> tuple[str, str] | None:
+    """Elige una imagen oficial de Rockstar de la galería según los personajes o lugares
+    de la noticia. Primero las etiquetas que da la IA y, si no hay, nombres en el titular."""
+    if not GALERIA:
+        return None
+    wanted = [r for r in (refs or []) if r in GALERIA_REFS]
+    if not wanted:
+        t = title.lower()
+        wanted = [k for k, (_, words) in GALERIA_REFS.items() if any(w in t for w in words)]
+    try:
+        uso = json.loads(_BANCO_STATE.read_text(encoding="utf-8"))
+    except Exception:  # noqa: BLE001
+        uso = {}
+    for ref in wanted:
+        # imágenes de esa etiqueta ya descargadas; primero las que tratan solo de ella
+        opts = [g for g in GALERIA if ref in g["refs"] and (GALERIA_DIR / f"{g['slug']}.webp").exists()]
+        opts.sort(key=lambda g: len(g["refs"]))
+        if not opts:
+            continue
+        key = f"oficial:{ref}"
+        i = (uso.get(key, -1) + 1) % len(opts)
+        uso[key] = i
+        _BANCO_STATE.parent.mkdir(parents=True, exist_ok=True)
+        _BANCO_STATE.write_text(json.dumps(uso, indent=1), encoding="utf-8")
+        g = opts[i]
+        return f"/img/oficial/{g['slug']}.webp", g["alt"]
+    return None
+
+
 def save_post(data: dict, item: dict, html: str = "") -> Path:
     slug = slugify(data["title"])
     path = POSTS_DIR / f"{slug}.md"
@@ -336,13 +459,20 @@ def save_post(data: dict, item: dict, html: str = "") -> Path:
 
     # Imagen oficial (solo si la fuente es Rockstar) y vídeos/tuits oficiales
     image_lines = ""
-    img_url = official_image(html, item["url"]) if html else None
+    img_url = item.get("official_img") or (official_image(html, item["url"]) if html else None)
     local = download_image(img_url, slug) if img_url else None
     if local:
         alt = data.get("image_alt") or data["title"]
         credit = ("Rockstar Games (imagen promocional oficial, no forma parte de la filtración)"
                   if data.get("rumor") else "Rockstar Games")
         image_lines = f"image: {local}\nimageAlt: {yaml_str(alt[:150])}\nimageCredit: {yaml_str(credit)}\n"
+    # Sin imagen en la fuente: imagen oficial de la galería si la noticia habla de un
+    # personaje o lugar concreto (nunca en rumores, para no parecer una confirmación)
+    if not image_lines and not data.get("rumor"):
+        pick = pick_galeria_image(data.get("official_refs", []), data["title"])
+        if pick:
+            img, alt = pick
+            image_lines = f"image: {img}\nimageAlt: {yaml_str(alt)}\nimageCredit: {yaml_str('Rockstar Games')}\n"
     if not image_lines and BANCO:
         pick = pick_banco_image(data.get("image_theme", ""), bool(data.get("rumor")))
         if pick:
@@ -404,7 +534,14 @@ def main() -> int:
         print(f"→ {item['title']}")
         state["urls"].append(item["url"])
         state["titles"].append(norm_title(item["title"]))
-        html, text = fetch_page(item["url"])
+        if item.get("rockstar_id"):
+            try:
+                html, text = rockstar_text(item["rockstar_id"])
+            except Exception as e:  # noqa: BLE001
+                print(f"  ! no se pudo leer la noticia de Rockstar: {e}")
+                html, text = "", ""
+        else:
+            html, text = fetch_page(item["url"])
         if len(text) < MIN_SOURCE_CHARS:
             print("  – texto insuficiente, se omite")
             continue

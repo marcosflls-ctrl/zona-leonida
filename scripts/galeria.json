@@ -1,0 +1,507 @@
+{
+ "base": "https://www.rockstargames.com/VI/_next/static/media/",
+ "credito": "Rockstar Games",
+ "imagenes": [
+  {
+   "slug": "jason-y-lucia-1",
+   "grupo": "jason-y-lucia",
+   "refs": [
+    "jason",
+    "lucia"
+   ],
+   "archivo": "Jason_and_Lucia_01.0naeahss9-1x6.jpg",
+   "alt": "Jason y Lucía, imagen oficial de GTA VI"
+  },
+  {
+   "slug": "jason-y-lucia-2",
+   "grupo": "jason-y-lucia",
+   "refs": [
+    "jason",
+    "lucia"
+   ],
+   "archivo": "Jason_and_Lucia_02.0uig00eojlokf.jpg",
+   "alt": "Jason y Lucía, imagen oficial de GTA VI"
+  },
+  {
+   "slug": "jason-y-lucia-3",
+   "grupo": "jason-y-lucia",
+   "refs": [
+    "jason",
+    "lucia"
+   ],
+   "archivo": "Jason_and_Lucia_03.15z-.c0tptrzs.jpg",
+   "alt": "Jason y Lucía, imagen oficial de GTA VI"
+  },
+  {
+   "slug": "jason-y-lucia-4",
+   "grupo": "jason-y-lucia",
+   "refs": [
+    "jason",
+    "lucia"
+   ],
+   "archivo": "Jason_and_Lucia_04.0m7i~huzhskdw.jpg",
+   "alt": "Jason y Lucía, imagen oficial de GTA VI"
+  },
+  {
+   "slug": "jason-duval-1",
+   "grupo": "jason-duval",
+   "refs": [
+    "jason"
+   ],
+   "archivo": "Jason_Duval_01.07m377xeb6jhq.jpg",
+   "alt": "Jason Duval, imagen oficial de GTA VI"
+  },
+  {
+   "slug": "jason-duval-2",
+   "grupo": "jason-duval",
+   "refs": [
+    "jason"
+   ],
+   "archivo": "Jason_Duval_02.1486~7_v40cn..jpg",
+   "alt": "Jason Duval, imagen oficial de GTA VI"
+  },
+  {
+   "slug": "jason-duval-3",
+   "grupo": "jason-duval",
+   "refs": [
+    "jason"
+   ],
+   "archivo": "Jason_Duval_03.0-1vum7x-3vtp.jpg",
+   "alt": "Jason Duval, imagen oficial de GTA VI"
+  },
+  {
+   "slug": "jason-duval-4",
+   "grupo": "jason-duval",
+   "refs": [
+    "jason"
+   ],
+   "archivo": "Jason_Duval_07.0ca326xbl~oyh.jpg",
+   "alt": "Jason Duval, imagen oficial de GTA VI"
+  },
+  {
+   "slug": "lucia-caminos-1",
+   "grupo": "lucia-caminos",
+   "refs": [
+    "lucia"
+   ],
+   "archivo": "Lucia_Caminos_01.0a7yqvewctkfp.jpg",
+   "alt": "Lucía Caminos, imagen oficial de GTA VI"
+  },
+  {
+   "slug": "lucia-caminos-2",
+   "grupo": "lucia-caminos",
+   "refs": [
+    "lucia"
+   ],
+   "archivo": "Lucia_Caminos_02.16n.5umvlu_48.jpg",
+   "alt": "Lucía Caminos, imagen oficial de GTA VI"
+  },
+  {
+   "slug": "lucia-caminos-3",
+   "grupo": "lucia-caminos",
+   "refs": [
+    "lucia"
+   ],
+   "archivo": "Lucia_Caminos_03.14xgd2y_ymmeg.jpg",
+   "alt": "Lucía Caminos, imagen oficial de GTA VI"
+  },
+  {
+   "slug": "lucia-caminos-4",
+   "grupo": "lucia-caminos",
+   "refs": [
+    "lucia"
+   ],
+   "archivo": "Lucia_Caminos_07.0.c7un8ro7_p2.jpg",
+   "alt": "Lucía Caminos, imagen oficial de GTA VI"
+  },
+  {
+   "slug": "cal-hampton-1",
+   "grupo": "cal-hampton",
+   "refs": [
+    "cal-hampton"
+   ],
+   "archivo": "Cal_Hampton_01.0xlil231_osh4.jpg",
+   "alt": "Cal Hampton, imagen oficial de GTA VI"
+  },
+  {
+   "slug": "cal-hampton-2",
+   "grupo": "cal-hampton",
+   "refs": [
+    "cal-hampton"
+   ],
+   "archivo": "Cal_Hampton_02.05r2t_mck65fe.jpg",
+   "alt": "Cal Hampton, imagen oficial de GTA VI"
+  },
+  {
+   "slug": "cal-hampton-3",
+   "grupo": "cal-hampton",
+   "refs": [
+    "cal-hampton"
+   ],
+   "archivo": "Cal_Hampton_03.0.q68~pt1to9z.jpg",
+   "alt": "Cal Hampton, imagen oficial de GTA VI"
+  },
+  {
+   "slug": "boobie-ike-1",
+   "grupo": "boobie-ike",
+   "refs": [
+    "boobie-ike"
+   ],
+   "archivo": "Boobie_Ike_01.0-wji2pg5anfs.jpg",
+   "alt": "Boobie Ike, imagen oficial de GTA VI"
+  },
+  {
+   "slug": "boobie-ike-2",
+   "grupo": "boobie-ike",
+   "refs": [
+    "boobie-ike"
+   ],
+   "archivo": "Boobie_Ike_02.0sp9mtc.1cdzs.jpg",
+   "alt": "Boobie Ike, imagen oficial de GTA VI"
+  },
+  {
+   "slug": "boobie-ike-3",
+   "grupo": "boobie-ike",
+   "refs": [
+    "boobie-ike"
+   ],
+   "archivo": "Boobie_Ike_03.0neka36~z25b5.jpg",
+   "alt": "Boobie Ike, imagen oficial de GTA VI"
+  },
+  {
+   "slug": "dre-quan-priest-1",
+   "grupo": "dre-quan-priest",
+   "refs": [
+    "dre-quan-priest"
+   ],
+   "archivo": "DreQuan_Priest_01.0_0~wi-ipdj35.jpg",
+   "alt": "Dre'Quan Priest, imagen oficial de GTA VI"
+  },
+  {
+   "slug": "dre-quan-priest-2",
+   "grupo": "dre-quan-priest",
+   "refs": [
+    "dre-quan-priest"
+   ],
+   "archivo": "DreQuan_Priest_02.02u69e~nkk3eo.jpg",
+   "alt": "Dre'Quan Priest, imagen oficial de GTA VI"
+  },
+  {
+   "slug": "dre-quan-priest-3",
+   "grupo": "dre-quan-priest",
+   "refs": [
+    "dre-quan-priest"
+   ],
+   "archivo": "DreQuan_Priest_03.0zbl4i_x_1biu.jpg",
+   "alt": "Dre'Quan Priest, imagen oficial de GTA VI"
+  },
+  {
+   "slug": "real-dimez-1",
+   "grupo": "real-dimez",
+   "refs": [
+    "real-dimez"
+   ],
+   "archivo": "Real_Dimez_01.0djwwboo8-glx.jpg",
+   "alt": "Real Dimez, imagen oficial de GTA VI"
+  },
+  {
+   "slug": "real-dimez-2",
+   "grupo": "real-dimez",
+   "refs": [
+    "real-dimez"
+   ],
+   "archivo": "Real_Dimez_02.1366u9.x.yp0_.jpg",
+   "alt": "Real Dimez, imagen oficial de GTA VI"
+  },
+  {
+   "slug": "real-dimez-3",
+   "grupo": "real-dimez",
+   "refs": [
+    "real-dimez"
+   ],
+   "archivo": "Real_Dimez_03.02o2si7.op.ye.jpg",
+   "alt": "Real Dimez, imagen oficial de GTA VI"
+  },
+  {
+   "slug": "raul-bautista-1",
+   "grupo": "raul-bautista",
+   "refs": [
+    "raul-bautista"
+   ],
+   "archivo": "Raul_Bautista_01.0md1ii-yrn96r.jpg",
+   "alt": "Raúl Bautista, imagen oficial de GTA VI"
+  },
+  {
+   "slug": "raul-bautista-2",
+   "grupo": "raul-bautista",
+   "refs": [
+    "raul-bautista"
+   ],
+   "archivo": "Raul_Bautista_02.10ddy6ogywu-t.jpg",
+   "alt": "Raúl Bautista, imagen oficial de GTA VI"
+  },
+  {
+   "slug": "raul-bautista-3",
+   "grupo": "raul-bautista",
+   "refs": [
+    "raul-bautista"
+   ],
+   "archivo": "Raul_Bautista_03.0-x4xbav_6c40.jpg",
+   "alt": "Raúl Bautista, imagen oficial de GTA VI"
+  },
+  {
+   "slug": "brian-heder-1",
+   "grupo": "brian-heder",
+   "refs": [
+    "brian-heder"
+   ],
+   "archivo": "Brian_Heder_01.0r.ute88os9k-.jpg",
+   "alt": "Brian Heder, imagen oficial de GTA VI"
+  },
+  {
+   "slug": "brian-heder-2",
+   "grupo": "brian-heder",
+   "refs": [
+    "brian-heder"
+   ],
+   "archivo": "Brian_Heder_02.0kmg6iw38f-9o.jpg",
+   "alt": "Brian Heder, imagen oficial de GTA VI"
+  },
+  {
+   "slug": "brian-heder-3",
+   "grupo": "brian-heder",
+   "refs": [
+    "brian-heder"
+   ],
+   "archivo": "Brian_Heder_03.10ntuqh2h6upf.jpg",
+   "alt": "Brian Heder, imagen oficial de GTA VI"
+  },
+  {
+   "slug": "vice-city-1",
+   "grupo": "vice-city",
+   "refs": [
+    "vice-city"
+   ],
+   "archivo": "Vice_City_01.135x56yoeu.6t.jpg",
+   "alt": "Vice City, imagen oficial de GTA VI"
+  },
+  {
+   "slug": "vice-city-2",
+   "grupo": "vice-city",
+   "refs": [
+    "vice-city"
+   ],
+   "archivo": "Vice_City_02.0c5.7qx17u9kl.jpg",
+   "alt": "Vice City, imagen oficial de GTA VI"
+  },
+  {
+   "slug": "vice-city-3",
+   "grupo": "vice-city",
+   "refs": [
+    "vice-city"
+   ],
+   "archivo": "Vice_City_03.0nqz~lrqdmlze.jpg",
+   "alt": "Vice City, imagen oficial de GTA VI"
+  },
+  {
+   "slug": "vice-city-4",
+   "grupo": "vice-city",
+   "refs": [
+    "vice-city"
+   ],
+   "archivo": "Vice_City_10.0f1q-xa_4q8r2.jpg",
+   "alt": "Vice City, imagen oficial de GTA VI"
+  },
+  {
+   "slug": "cayos-de-leonida-1",
+   "grupo": "cayos-de-leonida",
+   "refs": [
+    "cayos-de-leonida"
+   ],
+   "archivo": "Leonida_Keys_01.0zgz7tveur6y8.jpg",
+   "alt": "Cayos de Leónida, imagen oficial de GTA VI"
+  },
+  {
+   "slug": "cayos-de-leonida-2",
+   "grupo": "cayos-de-leonida",
+   "refs": [
+    "cayos-de-leonida"
+   ],
+   "archivo": "Leonida_Keys_02.0~ptk-53gl0lq.jpg",
+   "alt": "Cayos de Leónida, imagen oficial de GTA VI"
+  },
+  {
+   "slug": "cayos-de-leonida-3",
+   "grupo": "cayos-de-leonida",
+   "refs": [
+    "cayos-de-leonida"
+   ],
+   "archivo": "Leonida_Keys_03.0v_3~-9ceyixc.jpg",
+   "alt": "Cayos de Leónida, imagen oficial de GTA VI"
+  },
+  {
+   "slug": "port-gellhorn-1",
+   "grupo": "port-gellhorn",
+   "refs": [
+    "port-gellhorn"
+   ],
+   "archivo": "Port_Gellhorn_01.0fmisvza-5-cq.jpg",
+   "alt": "Port Gellhorn, imagen oficial de GTA VI"
+  },
+  {
+   "slug": "port-gellhorn-2",
+   "grupo": "port-gellhorn",
+   "refs": [
+    "port-gellhorn"
+   ],
+   "archivo": "Port_Gellhorn_02.00e7cz6lwrup-.jpg",
+   "alt": "Port Gellhorn, imagen oficial de GTA VI"
+  },
+  {
+   "slug": "port-gellhorn-3",
+   "grupo": "port-gellhorn",
+   "refs": [
+    "port-gellhorn"
+   ],
+   "archivo": "Port_Gellhorn_03.00c2b0eh7sm~q.jpg",
+   "alt": "Port Gellhorn, imagen oficial de GTA VI"
+  },
+  {
+   "slug": "grassrivers-1",
+   "grupo": "grassrivers",
+   "refs": [
+    "grassrivers"
+   ],
+   "archivo": "Grassrivers_01.1096rw4lbjur_.jpg",
+   "alt": "Grassrivers, imagen oficial de GTA VI"
+  },
+  {
+   "slug": "grassrivers-2",
+   "grupo": "grassrivers",
+   "refs": [
+    "grassrivers"
+   ],
+   "archivo": "Grassrivers_02.0teqs5xe2pem1.jpg",
+   "alt": "Grassrivers, imagen oficial de GTA VI"
+  },
+  {
+   "slug": "grassrivers-3",
+   "grupo": "grassrivers",
+   "refs": [
+    "grassrivers"
+   ],
+   "archivo": "Grassrivers_05.0.dx9~67tljry.jpg",
+   "alt": "Grassrivers, imagen oficial de GTA VI"
+  },
+  {
+   "slug": "ambrosia-1",
+   "grupo": "ambrosia",
+   "refs": [
+    "ambrosia"
+   ],
+   "archivo": "Ambrosia_01.0rqphs0gazkm..jpg",
+   "alt": "Ambrosía, imagen oficial de GTA VI"
+  },
+  {
+   "slug": "ambrosia-2",
+   "grupo": "ambrosia",
+   "refs": [
+    "ambrosia"
+   ],
+   "archivo": "Ambrosia_02.0wtqs05ozl.ym.jpg",
+   "alt": "Ambrosía, imagen oficial de GTA VI"
+  },
+  {
+   "slug": "ambrosia-3",
+   "grupo": "ambrosia",
+   "refs": [
+    "ambrosia"
+   ],
+   "archivo": "Ambrosia_03.0vt46a.1s.7-y.jpg",
+   "alt": "Ambrosía, imagen oficial de GTA VI"
+  },
+  {
+   "slug": "monte-kalaga-1",
+   "grupo": "monte-kalaga",
+   "refs": [
+    "monte-kalaga"
+   ],
+   "archivo": "Mount_Kalaga_National_Park_01.0v5fl0f83hjv_.jpg",
+   "alt": "Parque nacional del monte Kalaga, imagen oficial de GTA VI"
+  },
+  {
+   "slug": "monte-kalaga-2",
+   "grupo": "monte-kalaga",
+   "refs": [
+    "monte-kalaga"
+   ],
+   "archivo": "Mount_Kalaga_National_Park_02.0f24dhopdprvx.jpg",
+   "alt": "Parque nacional del monte Kalaga, imagen oficial de GTA VI"
+  },
+  {
+   "slug": "monte-kalaga-3",
+   "grupo": "monte-kalaga",
+   "refs": [
+    "monte-kalaga"
+   ],
+   "archivo": "Mount_Kalaga_National_Park_03.037k2s87rwuxc.jpg",
+   "alt": "Parque nacional del monte Kalaga, imagen oficial de GTA VI"
+  },
+  {
+   "slug": "ultimate-edition-1",
+   "grupo": "ultimate-edition",
+   "refs": [
+    "ultimate"
+   ],
+   "archivo": "ULTIMATE_EDITION_01.16qc1xq5nigg1.jpg",
+   "alt": "Edición Ultimate, imagen oficial de GTA VI"
+  },
+  {
+   "slug": "ultimate-edition-2",
+   "grupo": "ultimate-edition",
+   "refs": [
+    "ultimate"
+   ],
+   "archivo": "ULTIMATE_EDITION_02.0q-6.nrtf~jj0.jpg",
+   "alt": "Edición Ultimate, imagen oficial de GTA VI"
+  },
+  {
+   "slug": "grotti-cheetah-1",
+   "grupo": "grotti-cheetah",
+   "refs": [
+    "ultimate",
+    "coches"
+   ],
+   "archivo": "ULTIMATE_EDITION_GROTTI_CHEETAH_01.0a.wy3s_ogjey.jpg",
+   "alt": "Grotti Cheetah del 95 (edición Ultimate), imagen oficial de GTA VI"
+  },
+  {
+   "slug": "pack-vintage-vice-city-1",
+   "grupo": "pack-vintage-vice-city",
+   "refs": [
+    "vintage"
+   ],
+   "archivo": "VINTAGE_VICE_CITY_PACK_01.05zaof7o1uz.3.jpg",
+   "alt": "Pack Vintage Vice City, imagen oficial de GTA VI"
+  },
+  {
+   "slug": "pack-vintage-vice-city-2",
+   "grupo": "pack-vintage-vice-city",
+   "refs": [
+    "vintage"
+   ],
+   "archivo": "VINTAGE_VICE_CITY_PACK_02.14mvx9a15z8jv.jpg",
+   "alt": "Pack Vintage Vice City, imagen oficial de GTA VI"
+  },
+  {
+   "slug": "vapid-stanier-1",
+   "grupo": "vapid-stanier",
+   "refs": [
+    "vintage",
+    "coches"
+   ],
+   "archivo": "VINTAGE_VICE_CITY_PACK_VAPID_STANIER_01.004m_8d1~qngy.jpg",
+   "alt": "Vapid Stanier del 55 (pack Vintage Vice City), imagen oficial de GTA VI"
+  }
+ ]
+}
