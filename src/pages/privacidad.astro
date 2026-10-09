@@ -3,9 +3,8 @@ import Page from '../layouts/Page.astro';
 import { SITE } from '../config';
 ---
 <Page title="Política de privacidad" description="Cómo tratamos tus datos personales.">
-  <p><em>Rellena los datos entre corchetes antes de publicar.</em></p>
   <h2>Responsable</h2>
-  <p><strong>[NOMBRE Y APELLIDOS]</strong>, contacto: <strong>[EMAIL]</strong>.</p>
+  <p><strong>{SITE.ownerName}</strong>, contacto: <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.</p>
   <h2>Qué datos tratamos</h2>
   <p>{SITE.name} no tiene registro de usuarios ni formularios. Solo tratamos los datos que nos envíes por correo electrónico, para responderte, y datos técnicos de navegación a través de servicios de terceros:</p>
   <ul>
@@ -13,5 +12,5 @@ import { SITE } from '../config';
     <li><strong>Estadísticas</strong>: medimos visitas de forma agregada para mejorar el contenido.</li>
   </ul>
   <h2>Base legal y derechos</h2>
-  <p>La base legal es tu consentimiento, que puedes retirar en cualquier momento desde el aviso de cookies. Puedes ejercer tus derechos de acceso, rectificación, supresión, oposición, limitación y portabilidad escribiendo a <strong>[EMAIL]</strong>, y reclamar ante la Agencia Española de Protección de Datos (aepd.es).</p>
+  <p>La base legal es tu consentimiento, que puedes retirar en cualquier momento desde el aviso de cookies. Puedes ejercer tus derechos de acceso, rectificación, supresión, oposición, limitación y portabilidad escribiendo a <a href={`mailto:${SITE.email}`}>{SITE.email}</a>, y reclamar ante la Agencia Española de Protección de Datos (aepd.es).</p>
 </Page>

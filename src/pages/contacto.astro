@@ -1,6 +1,7 @@
 ---
 import Page from '../layouts/Page.astro';
-const email = 'contacto@zonaleonida.com'; // ← cambia por tu correo
+import { SITE } from '../config';
+const email = SITE.email;
 ---
 <Page title="Contacto" description="Contacta con la redacción: errores, sugerencias, colaboraciones y publicidad.">
   <p>¿Has encontrado un error, tienes un descubrimiento que compartir o quieres colaborar? Escríbenos a:</p>

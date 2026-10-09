@@ -6,6 +6,10 @@ export const SITE = {
   lang: 'es',
   locale: 'es_LA',
   author: 'Redacción Zona Leonida',
+  email: 'contacto@zonaleonida.com',
+  // Datos legales del titular (aviso legal y privacidad)
+  ownerName: '[NOMBRE Y APELLIDOS]',
+  ownerNif: '', // si lo dejas vacío, no se muestra
   // Fecha de lanzamiento usada por la cuenta atrás (hora peninsular)
   launchDate: '2026-11-19T00:00:00+01:00',
   // AdSense: pega tu ID de editor cuando te aprueben (ej. 'ca-pub-1234567890123456').

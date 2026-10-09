@@ -3,9 +3,8 @@ import Page from '../layouts/Page.astro';
 import { SITE } from '../config';
 ---
 <Page title="Aviso legal" description="Aviso legal e información del titular del sitio web.">
-  <p><em>Rellena los datos entre corchetes antes de publicar.</em></p>
   <h2>Titular</h2>
-  <p>En cumplimiento de la Ley 34/2002 (LSSI-CE), se informa de que el titular de {SITE.url} es <strong>[NOMBRE Y APELLIDOS]</strong>, con NIF <strong>[NIF]</strong> y correo de contacto <strong>[EMAIL]</strong>.</p>
+  <p>En cumplimiento de la Ley 34/2002 (LSSI-CE), se informa de que el titular de {SITE.url} es <strong>{SITE.ownerName}</strong>{SITE.ownerNif && <>, con NIF <strong>{SITE.ownerNif}</strong></>}, y su correo de contacto es <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.</p>
   <h2>Propiedad intelectual</h2>
   <p>Los textos originales de esta web pertenecen a su titular. Grand Theft Auto, GTA, Rockstar Games y los logotipos relacionados son marcas registradas de Take-Two Interactive Software, Inc. Las imágenes del juego se usan con fines informativos y de cita, y pertenecen a sus propietarios.</p>
   <h2>Responsabilidad</h2>
