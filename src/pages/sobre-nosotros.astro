@@ -1,0 +1,12 @@
+---
+import Page from '../layouts/Page.astro';
+import { SITE } from '../config';
+---
+<Page title="Sobre nosotros" description={`Quiénes somos y cómo trabajamos en ${SITE.name}.`}>
+  <p>{SITE.name} es una web de fans en español para seguir todo lo relacionado con <strong>Grand Theft Auto VI</strong>: noticias, guías, trucos y los secretos que la comunidad va descubriendo.</p>
+  <h2>Cómo trabajamos</h2>
+  <p>Seguimos a diario los anuncios oficiales de Rockstar Games y lo que publican otros medios y la comunidad. Usamos herramientas de inteligencia artificial para detectar novedades y preparar borradores, pero <strong>cada artículo lo revisa y edita una persona antes de publicarse</strong>. Siempre enlazamos las fuentes originales.</p>
+  <p>Si ves un error, escríbenos desde la página de <a href="/contacto/">contacto</a> y lo corregiremos.</p>
+  <h2>Independencia</h2>
+  <p>No tenemos relación con Rockstar Games ni con Take-Two Interactive. La web se financia con publicidad.</p>
+</Page>

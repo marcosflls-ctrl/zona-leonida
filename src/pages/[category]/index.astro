@@ -1,0 +1,41 @@
+---
+import Base from '../../layouts/Base.astro';
+import PostCard from '../../components/PostCard.astro';
+import AdSlot from '../../components/AdSlot.astro';
+import { CATEGORIES, SITE, type CategoryKey } from '../../config';
+import { getPublishedPosts } from '../../lib/posts';
+
+export function getStaticPaths() {
+  return Object.keys(CATEGORIES).map((category) => ({ params: { category } }));
+}
+const category = Astro.params.category as CategoryKey;
+const meta = CATEGORIES[category];
+const posts = (await getPublishedPosts()).filter((p) => p.data.category === category);
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Inicio', item: SITE.url + '/' },
+    { '@type': 'ListItem', position: 2, name: meta.label, item: `${SITE.url}/${category}/` },
+  ],
+};
+---
+<Base title={`${meta.label} de GTA VI`} description={meta.desc} jsonLd={jsonLd}>
+  <nav class="breadcrumbs"><a href="/">Inicio</a> › {meta.label}</nav>
+  <h1>{meta.label} de GTA VI</h1>
+  <p class="muted intro">{meta.desc}</p>
+  {posts.length ? (
+    <div class="grid">
+      {posts.map((p, i) => (
+        <>
+          <PostCard post={p} />
+          {i === 5 && <div style="grid-column:1/-1"><AdSlot /></div>}
+        </>
+      ))}
+    </div>
+  ) : <p class="muted">Todavía no hay artículos en esta sección. ¡Vuelve pronto!</p>}
+</Base>
+<style>
+  h1 { font-size: clamp(2.2rem, 6vw, 3.4rem); margin: 8px 0; }
+  .intro { max-width: 680px; margin-bottom: 28px; }
+</style>

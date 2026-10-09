@@ -1,0 +1,13 @@
+{
+  "_nota": "Fuentes que revisa el robot. Solo se usan feeds con enlace directo al artículo (para poder leerlo entero). Añade o quita las que quieras.",
+  "keywords": ["gta 6", "gta vi", "gta6", "grand theft auto vi", "grand theft auto 6", "leonida", "vice city"],
+  "feeds": [
+    { "name": "Rockstar Games (Newswire)", "url": "https://www.rockstargames.com/newswire/rss" },
+    { "name": "Vandal", "url": "https://vandal.elespanol.com/xml.cgi" },
+    { "name": "3DJuegos", "url": "https://www.3djuegos.com/feedburner.xml" },
+    { "name": "Eurogamer España", "url": "https://www.eurogamer.es/feed" },
+    { "name": "IGN", "url": "https://feeds.feedburner.com/ign/games-all" },
+    { "name": "GamesRadar", "url": "https://www.gamesradar.com/feeds/all/" },
+    { "name": "Reddit r/GTA6", "url": "https://www.reddit.com/r/GTA6/top/.rss?t=day" }
+  ]
+}

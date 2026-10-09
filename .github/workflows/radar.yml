@@ -1,0 +1,54 @@
+name: Radar de noticias GTA VI
+
+on:
+  schedule:
+    - cron: "17 */3 * * *"   # cada 3 horas (hora UTC)
+  workflow_dispatch: {}       # botón "Run workflow" para lanzarlo a mano
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r scripts/requirements.txt
+
+      - name: Buscar noticias y redactar
+        id: radar
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          MAX_PER_RUN: ${{ vars.MAX_PER_RUN || '3' }}
+        run: python scripts/radar.py
+
+      # MODO REVISIÓN (por defecto): abre una "pull request" con los borradores.
+      # La apruebas con "Merge" desde la app de GitHub y la web se publica sola.
+      - name: Proponer borradores para revisar
+        if: vars.AUTO_PUBLISH != 'true'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: radar/borradores
+          commit-message: "Radar: nuevos borradores"
+          title: "📰 Borradores nuevos del radar (${{ steps.radar.outputs.count }})"
+          body: |
+            Revisa cada artículo (pestaña *Files changed*). Puedes editarlo ahí mismo con el lápiz.
+            - Para publicar: **Merge pull request**.
+            - Para descartar uno: bórralo del cambio antes de aprobar.
+          labels: radar
+          delete-branch: true
+
+      # MODO AUTOMÁTICO: publica sin revisión (actívalo creando la variable AUTO_PUBLISH=true).
+      - name: Publicar directamente
+        if: vars.AUTO_PUBLISH == 'true'
+        run: |
+          git config user.name "radar-bot"
+          git config user.email "radar-bot@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "Radar: artículos nuevos" && git push

@@ -1,0 +1,147 @@
+---
+import { SITE, CATEGORIES } from '../config';
+interface Props {
+  title: string;
+  description: string;
+  image?: string;
+  type?: 'website' | 'article';
+  jsonLd?: Record<string, unknown> | Record<string, unknown>[];
+  noindex?: boolean;
+}
+const { title, description, image, type = 'website', jsonLd, noindex = false } = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site).href;
+const fullTitle = title === SITE.name ? `${SITE.name} — ${SITE.tagline}` : `${title} | ${SITE.name}`;
+const ogImage = new URL(image ?? '/og-default.png', Astro.site).href;
+const year = new Date().getFullYear();
+const path = Astro.url.pathname;
+---
+<!doctype html>
+<html lang={SITE.lang}>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{fullTitle}</title>
+  <meta name="description" content={description} />
+  <link rel="canonical" href={canonical} />
+  <meta name="robots" content={noindex ? 'noindex' : 'max-image-preview:large'} />
+  <meta property="og:type" content={type} />
+  <meta property="og:site_name" content={SITE.name} />
+  <meta property="og:locale" content={SITE.locale} />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:url" content={canonical} />
+  <meta property="og:image" content={ogImage} />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="alternate" type="application/rss+xml" title={SITE.name} href="/rss.xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+  {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
+  {SITE.cfAnalyticsToken && (
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon={`{"token": "${SITE.cfAnalyticsToken}"}`}></script>
+  )}
+  {SITE.adsenseClient && (
+    <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${SITE.adsenseClient}`} crossorigin="anonymous"></script>
+  )}
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a href="/" class="logo" aria-label={`${SITE.name}, inicio`}>
+        <span class="logo-mark">ZL</span><span class="logo-text">{SITE.name}</span>
+      </a>
+      <nav aria-label="Secciones">
+        {Object.entries(CATEGORIES).map(([key, c]) => (
+          <a href={`/${key}/`} aria-current={path.startsWith(`/${key}/`) ? 'page' : undefined}>{c.label}</a>
+        ))}
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <slot />
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div>
+        <strong>{SITE.name}</strong>
+        <p class="muted">Web de fans independiente. No está afiliada ni respaldada por Rockstar Games ni Take-Two Interactive. Grand Theft Auto y GTA son marcas de sus respectivos propietarios.</p>
+      </div>
+      <nav aria-label="Legal" class="footer-links">
+        <a href="/sobre-nosotros/">Sobre nosotros</a>
+        <a href="/contacto/">Contacto</a>
+        <a href="/aviso-legal/">Aviso legal</a>
+        <a href="/privacidad/">Privacidad</a>
+        <a href="/cookies/">Cookies</a>
+        <a href="/rss.xml">RSS</a>
+      </nav>
+    </div>
+    <p class="wrap muted small">© {year} {SITE.name}</p>
+  </footer>
+</body>
+</html>
+
+<style is:global>
+  :root {
+    --bg: #0d0b14;
+    --surface: #17131f;
+    --surface-2: #211b2c;
+    --text: #f3eef7;
+    --muted: #a99db8;
+    --pink: #ff3d8b;
+    --orange: #ff9a3d;
+    --teal: #2de2c8;
+    --line: #2e2640;
+    --sunset: linear-gradient(100deg, var(--pink), var(--orange));
+    --radius: 14px;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 17px/1.65 Inter, system-ui, sans-serif;
+  }
+  a { color: var(--teal); }
+  img { max-width: 100%; height: auto; }
+  h1, h2, h3 { font-family: Anton, Impact, sans-serif; font-weight: 400; letter-spacing: .01em; line-height: 1.15; }
+  .wrap { max-width: 1120px; margin: 0 auto; padding: 0 16px; }
+  .muted { color: var(--muted); }
+  .small { font-size: .85rem; }
+
+  .site-header { position: sticky; top: 0; z-index: 10; background: rgba(13,11,20,.88); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
+  .site-header nav { max-width: 100%; }
+  .header-inner { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 64px; flex-wrap: wrap; }
+  .logo { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--text); }
+  .logo-mark { font-family: Anton, sans-serif; background: var(--sunset); color: #12091a; padding: 2px 8px; border-radius: 8px; font-size: 1.1rem; }
+  .logo-text { font-weight: 800; }
+  .site-header nav { display: flex; gap: 4px; overflow-x: auto; }
+  .site-header nav a { color: var(--muted); text-decoration: none; font-weight: 600; padding: 8px 12px; border-radius: 999px; white-space: nowrap; }
+  .site-header nav a:hover, .site-header nav a[aria-current] { color: var(--text); background: var(--surface-2); }
+
+  main { min-height: 70vh; padding-top: 24px; padding-bottom: 48px; }
+
+  .site-footer { border-top: 1px solid var(--line); background: var(--surface); padding: 32px 0 16px; margin-top: 48px; }
+  .footer-inner { display: grid; gap: 24px; grid-template-columns: 2fr 1fr; }
+  .footer-links { display: flex; flex-direction: column; gap: 6px; }
+  .footer-links a { color: var(--muted); text-decoration: none; }
+  .footer-links a:hover { color: var(--text); }
+  @media (max-width: 720px) { .footer-inner { grid-template-columns: 1fr; } }
+
+  .tag { display: inline-block; font-size: .75rem; font-weight: 800; text-transform: uppercase; letter-spacing: .06em; padding: 3px 10px; border-radius: 999px; background: var(--surface-2); color: var(--orange); text-decoration: none; }
+  .tag.rumor { background: var(--orange); color: #12091a; }
+  .embed { margin: 1.6em 0; }
+  .embed iframe { width: 100%; aspect-ratio: 16/9; border: 0; border-radius: var(--radius); display: block; }
+  .embed figcaption, .credit { font-size: .8rem; color: var(--muted); margin-top: 6px; }
+  .grid { display: grid; gap: 20px; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
+  .prose { max-width: 720px; }
+  .prose h2 { font-size: 1.8rem; margin-top: 2em; }
+  .prose h3 { font-size: 1.35rem; margin-top: 1.6em; }
+  .prose blockquote { border-left: 3px solid var(--pink); margin: 1.5em 0; padding: .2em 1em; color: var(--muted); }
+  .prose table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
+  .prose th, .prose td { border: 1px solid var(--line); padding: 8px 10px; text-align: left; }
+  .prose code { background: var(--surface-2); padding: 2px 6px; border-radius: 6px; }
+  .breadcrumbs { font-size: .85rem; color: var(--muted); }
+  .breadcrumbs a { color: var(--muted); }
+</style>

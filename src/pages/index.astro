@@ -1,0 +1,57 @@
+---
+import Base from '../layouts/Base.astro';
+import Countdown from '../components/Countdown.astro';
+import PostCard from '../components/PostCard.astro';
+import AdSlot from '../components/AdSlot.astro';
+import { SITE, CATEGORIES } from '../config';
+import { getPublishedPosts } from '../lib/posts';
+
+const posts = await getPublishedPosts();
+const [first, ...rest] = posts;
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: SITE.name,
+  url: SITE.url,
+  inLanguage: 'es',
+  description: SITE.tagline,
+};
+---
+<Base title={SITE.name} description="Noticias de GTA VI al día, guías completas, todos los trucos y los secretos descubiertos, en español." jsonLd={jsonLd}>
+  <h1 class="sr-only">{SITE.name}: noticias, guías y trucos de GTA VI</h1>
+  <Countdown />
+
+  {first && (
+    <section aria-labelledby="h-latest">
+      <h2 id="h-latest" class="section-title">Lo último</h2>
+      <div class="grid">
+        <PostCard post={first} featured />
+        {rest.slice(0, 5).map((p) => <PostCard post={p} />)}
+      </div>
+    </section>
+  )}
+
+  <AdSlot />
+
+  {Object.entries(CATEGORIES).map(([key, c]) => {
+    const list = posts.filter((p) => p.data.category === key).slice(0, 3);
+    return list.length > 0 && (
+      <section class="cat-block">
+        <div class="cat-head">
+          <h2 class="section-title">{c.label}</h2>
+          <a href={`/${key}/`}>Ver todo →</a>
+        </div>
+        <div class="grid">{list.map((p) => <PostCard post={p} />)}</div>
+      </section>
+    );
+  })}
+
+  {posts.length === 0 && <p class="muted">Pronto publicaremos los primeros artículos.</p>}
+</Base>
+<style>
+  .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  .section-title { font-size: 2rem; margin: 0 0 16px; }
+  .cat-block { margin-top: 48px; }
+  .cat-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+  .cat-head a { font-weight: 600; text-decoration: none; }
+</style>
