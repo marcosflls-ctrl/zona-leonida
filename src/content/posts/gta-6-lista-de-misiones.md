@@ -12,7 +12,16 @@ imageCredit: "Rockstar Games"
 sources: []
 ---
 
-<!-- PLANTILLA DEL DÍA DE LANZAMIENTO. Rellenar con datos comprobados en el juego o en fuentes fiables; borrar todos los comentarios RELLENAR; cambiar draft a false y poner la fecha y hora reales en date/updated. -->
+<!-- PLANTILLA DEL DÍA DE LANZAMIENTO. Rellenar con datos comprobados en el juego o en fuentes fiables; borrar todos los comentarios RELLENAR; cambiar draft a false y poner la fecha y hora reales en date/updated.
+IMÁGENES (por orden de preferencia):
+  1. Vídeo de YouTube en el minuto exacto, con crédito al canal:
+     <figure class="yt-guia" data-id="ID_DEL_VIDEO" data-inicio="2:05" data-autor="Nombre del canal"></figure>
+     (ID_DEL_VIDEO es lo que va tras "v=" en el enlace de YouTube; data-inicio en minutos:segundos)
+  2. Gráfico propio (tabla, esquema o mapa dibujado por Zona Leonida).
+  3. Captura enviada por la comunidad CON PERMISO (crédito: "Captura: @usuario").
+  4. Imagen oficial de /img/oficial/ (crédito: Rockstar Games).
+  NUNCA fotogramas recortados de vídeos de otros. -->
+<!-- GRÁFICO: tabla por capítulos (sin spoilers). VÍDEO: solo para misiones difíciles, en el minuto clave; evitar escenas de historia. -->
 > Esta guía no destripa la historia: solo da los nombres de las misiones y dónde empiezan.
 
 La historia de GTA 6 se cuenta por capítulos, como anticipó Rockstar. <!-- RELLENAR: número total de capítulos y misiones principales. -->

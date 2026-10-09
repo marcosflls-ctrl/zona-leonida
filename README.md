@@ -119,3 +119,15 @@ Hay 8 plantillas en borrador (`draft: true`) que no aparecen en la web: trucos, 
 ## Galería oficial automática
 
 La tarea **Galería oficial (revisión diaria)** mira dos veces al día el kit de prensa de Rockstar. Si hay capturas nuevas, las clasifica (las de un personaje o lugar nuevo van a un grupo nuevo), las descarga, las publica en `/imagenes-oficiales/` y en las fichas de personajes, y avisa en el canal de Telegram. Si de golpe apareciesen más de 60, no toca nada (sería un cambio en la web de Rockstar, no imágenes nuevas).
+
+## Imágenes en las guías del lanzamiento
+
+Por orden de preferencia: vídeo de YouTube insertado en el minuto exacto, gráfico propio, captura de la comunidad con permiso, imagen oficial. Nunca fotogramas recortados de vídeos de otros.
+
+Para insertar un vídeo en cualquier artículo (empieza en el segundo indicado y cita al canal):
+
+```html
+<figure class="yt-guia" data-id="ID_DEL_VIDEO" data-inicio="2:05" data-autor="Nombre del canal"></figure>
+```
+
+Las capturas de lectores llegan por `/envia-tu-captura/` (correo o X), con autorización expresa para publicarlas con su nombre.

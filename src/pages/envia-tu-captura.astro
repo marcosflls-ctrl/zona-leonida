@@ -1,0 +1,52 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE } from '../config';
+
+const title = 'Envía tu captura de GTA 6';
+const description = '¿Has encontrado un secreto, un coche escondido o una ubicación interesante en GTA 6? Mándanos tu captura y la publicamos en Zona Leonida con tu nombre.';
+const asunto = encodeURIComponent('Captura para Zona Leonida');
+const cuerpo = encodeURIComponent('Hola, os envío mi captura de GTA 6.\n\n- Qué se ve y dónde está:\n- Cómo quiero que aparezca mi nombre (ej. @usuario):\n- Enlace a mi perfil (opcional):\n\nConfirmo que la captura es mía y autorizo a Zona Leonida a publicarla con mi nombre.');
+---
+<Base title={title} description={description}>
+  <div class="envia">
+    <nav class="breadcrumbs"><a href="/">Inicio</a> › Envía tu captura</nav>
+    <h1>Envía tu captura de GTA 6</h1>
+    <p class="lead">¿Has encontrado un secreto, un coche escondido o una ubicación curiosa? Mándanos tu captura y la publicamos en nuestras guías <strong>con tu nombre y un enlace a tu perfil</strong>.</p>
+
+    <div class="pasos">
+      <div><span>1</span><p><strong>Haz la captura</strong> en tu consola (en PS5, con el botón Crear; en Xbox, con el botón Compartir).</p></div>
+      <div><span>2</span><p><strong>Pásala al móvil</strong> con la PlayStation App o la app de Xbox.</p></div>
+      <div><span>3</span><p><strong>Envíanosla</strong> por correo o por mensaje en X, contando qué se ve y dónde está.</p></div>
+    </div>
+
+    <div class="cta">
+      <a class="prim" href={`mailto:${SITE.email}?subject=${asunto}&body=${cuerpo}`}>Enviar por correo</a>
+      {SITE.social.x && <a class="sec" href={`https://x.com/${SITE.social.x}`} target="_blank" rel="noopener">Mensaje en X (@{SITE.social.x})</a>}
+    </div>
+    <p class="muted small">Correo: <a href={`mailto:${SITE.email}`}>{SITE.email}</a></p>
+
+    <h2>Condiciones</h2>
+    <ul>
+      <li><strong>Tiene que ser tuya</strong>: una captura que hayas hecho tú jugando. No aceptamos imágenes sacadas de vídeos o webs de otras personas.</li>
+      <li>Al enviarla, nos <strong>autorizas a publicarla</strong> en Zona Leonida y en nuestras redes, siempre con el nombre que nos indiques.</li>
+      <li>Puedes pedirnos que la retiremos cuando quieras, escribiendo a {SITE.email}.</li>
+      <li>Nada de filtraciones ni material que no sea del juego publicado, ni datos personales visibles (nombres de usuario de otros, chats…).</li>
+      <li>Usamos tu correo solo para responderte. Más información en la <a href="/privacidad/">política de privacidad</a>.</li>
+    </ul>
+  </div>
+</Base>
+<style>
+  .envia { max-width: 760px; }
+  h1 { font-size: clamp(2.2rem, 6vw, 3.2rem); margin: 8px 0; }
+  .lead { font-size: 1.15rem; color: var(--muted); }
+  .pasos { display: grid; gap: 10px; margin: 24px 0; }
+  .pasos div { display: flex; gap: 14px; align-items: center; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 12px 16px; }
+  .pasos span { flex: none; display: grid; place-items: center; width: 40px; height: 40px; border-radius: 10px; font: 400 1.4rem/1 Anton, sans-serif; color: var(--teal); border: 1px solid #4cf2e655; background: #4cf2e60f; }
+  .pasos p { margin: 0; }
+  .cta { display: flex; flex-wrap: wrap; gap: 10px; margin: 8px 0; }
+  .prim, .sec { font-weight: 800; text-decoration: none; padding: 12px 20px; border-radius: 999px; }
+  .prim { background: var(--pink); color: #1a0612; box-shadow: var(--glow-pink); }
+  .sec { background: var(--surface-2); color: var(--text); border: 1px solid var(--line); }
+  h2 { font-size: 1.8rem; margin-top: 36px; }
+  li { margin-bottom: 8px; }
+</style>

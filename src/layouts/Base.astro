@@ -85,6 +85,7 @@ const path = Astro.url.pathname;
       <nav aria-label="Legal" class="footer-links">
         <a href="/sobre-nosotros/">Sobre nosotros</a>
         <a href="/contacto/">Contacto</a>
+        <a href="/envia-tu-captura/">Envía tu captura</a>
         <a href="/aviso-legal/">Aviso legal</a>
         <a href="/privacidad/">Privacidad</a>
         <a href="/cookies/">Cookies</a>
@@ -96,6 +97,29 @@ const path = Astro.url.pathname;
     <p class="wrap muted small">© {year} {SITE.name}</p>
   </footer>
   <script is:inline>
+    (function () {
+      // Vídeos de YouTube en guías: miniatura ligera que carga el vídeo (desde el segundo indicado) al pulsar
+      document.querySelectorAll('figure.yt-guia[data-id]').forEach(function (f) {
+        var id = f.getAttribute('data-id'), ini = f.getAttribute('data-inicio') || '0', autor = f.getAttribute('data-autor') || '';
+        var seg = ini.split(':').reduce(function (a, b) { return a * 60 + (parseInt(b, 10) || 0); }, 0);
+        var b = document.createElement('button');
+        b.type = 'button'; b.className = 'yt-btn'; b.setAttribute('aria-label', 'Reproducir vídeo' + (autor ? ' de ' + autor : ''));
+        b.innerHTML = '<img src="https://i.ytimg.com/vi/' + id + '/hqdefault.jpg" alt="" loading="lazy" width="480" height="360"><span class="yt-play"></span>' + (seg ? '<span class="yt-ini">Desde ' + ini + '</span>' : '');
+        b.addEventListener('click', function () {
+          var fr = document.createElement('iframe');
+          fr.src = 'https://www.youtube-nocookie.com/embed/' + id + '?autoplay=1&start=' + seg;
+          fr.title = 'Vídeo' + (autor ? ' de ' + autor : '');
+          fr.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen'; fr.allowFullscreen = true;
+          b.replaceWith(fr);
+        }, { once: true });
+        f.insertBefore(b, f.firstChild);
+        if (!f.querySelector('figcaption') && autor) {
+          var c = document.createElement('figcaption');
+          c.innerHTML = 'Vídeo: <a href="https://www.youtube.com/watch?v=' + id + (seg ? '&t=' + seg + 's' : '') + '" target="_blank" rel="noopener">' + autor + '</a> (YouTube)';
+          f.appendChild(c);
+        }
+      });
+    })();
     (function () {
       var btn = document.querySelector('.menu-btn'), nav = document.getElementById('menu');
       if (btn && nav) btn.addEventListener('click', function () {
@@ -207,6 +231,13 @@ const path = Astro.url.pathname;
   .prose th, .prose td { border: 1px solid var(--line); padding: 8px 10px; text-align: left; }
   @media (max-width: 640px) { .prose table { font-size: .85rem; } .prose th, .prose td { padding: 6px 7px; } }
   .prose code { background: var(--surface-2); padding: 2px 6px; border-radius: 6px; }
+  .yt-guia { margin: 1.6em 0; }
+  .yt-guia .yt-btn, .yt-guia iframe { position: relative; display: block; width: 100%; aspect-ratio: 16/9; padding: 0; border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; background: #000; cursor: pointer; }
+  .yt-guia .yt-btn img { width: 100%; height: 100%; object-fit: cover; display: block; opacity: .9; }
+  .yt-guia .yt-play { position: absolute; inset: 0; margin: auto; width: 72px; height: 72px; border-radius: 50%; background: var(--pink); box-shadow: var(--glow-pink); }
+  .yt-guia .yt-play::after { content: ''; position: absolute; left: 29px; top: 22px; border-style: solid; border-width: 14px 0 14px 22px; border-color: transparent transparent transparent #fff; }
+  .yt-guia .yt-ini { position: absolute; left: 10px; bottom: 10px; background: rgba(13,11,20,.85); color: var(--text); font-size: .8rem; font-weight: 700; padding: 4px 10px; border-radius: 999px; }
+  .yt-guia figcaption { font-size: .8rem; color: var(--muted); margin-top: 6px; }
   .breadcrumbs { font-size: .85rem; color: var(--muted); }
   .breadcrumbs a { color: var(--muted); }
 </style>
