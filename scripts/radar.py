@@ -212,6 +212,9 @@ NORMAS OBLIGATORIAS:
 existe y de lo más general; no detalles su contenido.
   · Ten en cuenta si la fuente que la recoge es fiable y menciónalo si no lo es.
 - No menciones imágenes ni vídeos en el texto: si hay material oficial se añade automáticamente.
+- NO REPITAS TEMAS: si la noticia trata básicamente de lo mismo que alguno de los "artículos ya publicados" \
+(aunque la cuente otro medio o con otro enfoque), responde {"skip": true, "reason": "tema ya cubierto: <artículo>"}. \
+Solo escribe si aporta un dato nuevo relevante, y en ese caso céntrate en lo nuevo.
 - Si la fuente NO trata realmente de GTA VI, o es un refrito sin novedad, o es solo una opinión, responde {"skip": true, "reason": "..."}.
 
 FORMATO DE RESPUESTA: solo un objeto JSON válido, sin texto alrededor:
