@@ -24,7 +24,7 @@ sources:
 
 **La edición Ultimate de GTA 6 cuesta 99,99 €**, 20 € más que la estándar (79,99 €). No cambia el juego: la historia, el mapa y las misiones son los mismos. Lo que añade es una colección de vehículos, armas, talleres y tiendas exclusivos que se van sumando a lo largo de la historia de Jason y Lucía.
 
-<div class="oficial-par"><figure class="oficial"><img src="/img/oficial/grotti-cheetah-1.webp" alt="Grotti Cheetah del 95 (edición Ultimate), imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure><figure class="oficial"><img src="/img/oficial/ultimate-edition-1.webp" alt="Edición Ultimate, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure></div>
+<div class="oficial-par"><figure class="oficial"><img src="/img/oficial/grotti-cheetah-1.webp" srcset="/img/oficial/grotti-cheetah-1-400.webp 400w, /img/oficial/grotti-cheetah-1-800.webp 800w, /img/oficial/grotti-cheetah-1.webp 1600w" sizes="(max-width: 760px) 100vw, 720px" alt="Grotti Cheetah del 95 (edición Ultimate), imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure><figure class="oficial"><img src="/img/oficial/ultimate-edition-1.webp" srcset="/img/oficial/ultimate-edition-1-400.webp 400w, /img/oficial/ultimate-edition-1-800.webp 800w, /img/oficial/ultimate-edition-1.webp 1600w" sizes="(max-width: 760px) 100vw, 720px" alt="Edición Ultimate, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure></div>
 
 ## Todo lo que incluye la edición Ultimate
 

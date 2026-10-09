@@ -1,4 +1,5 @@
 ---
+import { srcset } from '../lib/img';
 import Base from '../layouts/Base.astro';
 import Countdown from '../components/Countdown.astro';
 import PostCard from '../components/PostCard.astro';
@@ -38,7 +39,7 @@ const jsonLd = {
       <ul class="esencial-list">
         {pilares.map((p) => (
           <li><a href={`/${p.data.category}/${p.id}/`}>
-            <img src={p.data.image} alt="" width="160" height="90" loading="lazy" />
+            <img src={p.data.image} srcset={srcset(p.data.image)} sizes="(max-width: 640px) 112px, 360px" alt="" width="160" height="90" loading="lazy" />
             <span>{p.data.title}</span>
           </a></li>
         ))}

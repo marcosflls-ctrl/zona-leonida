@@ -33,7 +33,7 @@ Un sedán clásico para recorrer Shore Drive, incluido en el **pack Vintage Vice
 
 ## Vehículos de la edición Ultimate
 
-<figure class="oficial"><img src="/img/oficial/grotti-cheetah-1.webp" alt="Grotti Cheetah del 95 (edición Ultimate), imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure>
+<figure class="oficial"><img src="/img/oficial/grotti-cheetah-1.webp" srcset="/img/oficial/grotti-cheetah-1-400.webp 400w, /img/oficial/grotti-cheetah-1-800.webp 800w, /img/oficial/grotti-cheetah-1.webp 1600w" sizes="(max-width: 760px) 100vw, 720px" alt="Grotti Cheetah del 95 (edición Ultimate), imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure>
 
 ### Grotti Cheetah del 95
 

@@ -1,4 +1,5 @@
 ---
+import { srcset } from '../lib/img';
 import { CATEGORIES } from '../config';
 import { formatDate } from '../lib/posts';
 interface Props { post: any; featured?: boolean }
@@ -10,7 +11,7 @@ const src = image ?? `/img/portadas/${category}.webp`;
 ---
 <article class:list={['card', { featured }]}>
   <a href={href} class="thumb" tabindex="-1" aria-hidden="true">
-    <img src={src} alt={image ? (imageAlt ?? '') : ''} loading="lazy" width="1200" height="675" />
+    <img src={src} srcset={srcset(src)} sizes={featured ? "(max-width: 640px) 100vw, 560px" : "(max-width: 640px) 116px, 360px"} alt={image ? (imageAlt ?? '') : ''} loading="lazy" width="1200" height="675" />
   </a>
   <div class="body">
     <div class="badges">

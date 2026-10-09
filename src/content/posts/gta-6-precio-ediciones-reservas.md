@@ -48,7 +48,7 @@ En Estados Unidos el precio de la edición estándar es de 79,99 dólares. En La
 
 ## ¿Qué incluye la edición Ultimate?
 
-<div class="oficial-par"><figure class="oficial"><img src="/img/oficial/ultimate-edition-2.webp" alt="Edición Ultimate, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure><figure class="oficial"><img src="/img/oficial/grotti-cheetah-1.webp" alt="Grotti Cheetah del 95 (edición Ultimate), imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure></div>
+<div class="oficial-par"><figure class="oficial"><img src="/img/oficial/ultimate-edition-2.webp" srcset="/img/oficial/ultimate-edition-2-400.webp 400w, /img/oficial/ultimate-edition-2-800.webp 800w, /img/oficial/ultimate-edition-2.webp 1600w" sizes="(max-width: 760px) 100vw, 720px" alt="Edición Ultimate, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure><figure class="oficial"><img src="/img/oficial/grotti-cheetah-1.webp" srcset="/img/oficial/grotti-cheetah-1-400.webp 400w, /img/oficial/grotti-cheetah-1-800.webp 800w, /img/oficial/grotti-cheetah-1.webp 1600w" sizes="(max-width: 760px) 100vw, 720px" alt="Grotti Cheetah del 95 (edición Ultimate), imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure></div>
 
 Rockstar la describe como una colección de objetos exclusivos repartidos por toda la historia de Jason y Lucía. Según la información oficial recogida por Gematsu, incluye:
 
@@ -67,7 +67,7 @@ Hay dos regalos por reservar o comprar el juego **antes del 20 de noviembre de 2
 
 ### Pack Vintage Vice City
 
-<div class="oficial-par"><figure class="oficial"><img src="/img/oficial/pack-vintage-vice-city-1.webp" alt="Pack Vintage Vice City, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure><figure class="oficial"><img src="/img/oficial/vapid-stanier-1.webp" alt="Vapid Stanier del 55 (pack Vintage Vice City), imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure></div>
+<div class="oficial-par"><figure class="oficial"><img src="/img/oficial/pack-vintage-vice-city-1.webp" srcset="/img/oficial/pack-vintage-vice-city-1-400.webp 400w, /img/oficial/pack-vintage-vice-city-1-800.webp 800w, /img/oficial/pack-vintage-vice-city-1.webp 1600w" sizes="(max-width: 760px) 100vw, 720px" alt="Pack Vintage Vice City, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure><figure class="oficial"><img src="/img/oficial/vapid-stanier-1.webp" srcset="/img/oficial/vapid-stanier-1-400.webp 400w, /img/oficial/vapid-stanier-1-800.webp 800w, /img/oficial/vapid-stanier-1.webp 1600w" sizes="(max-width: 760px) 100vw, 720px" alt="Vapid Stanier del 55 (pack Vintage Vice City), imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure></div>
 
 Se consigue con cualquier edición, física o digital. Es un guiño a la Vice City de los años ochenta. Según Vandal, incluye:
 

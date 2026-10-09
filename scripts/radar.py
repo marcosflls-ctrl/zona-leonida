@@ -282,6 +282,12 @@ def download_image(url: str, slug: str) -> str | None:
     img.thumbnail((1600, 1600))
     IMG_DIR.mkdir(parents=True, exist_ok=True)
     img.save(IMG_DIR / f"{slug}.webp", "WEBP", quality=82)
+    try:  # versiones pequeñas para móvil y tarjetas
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        from miniaturas import make_variants
+        make_variants(IMG_DIR / f"{slug}.webp")
+    except Exception as e:  # noqa: BLE001
+        print(f"  ! no se pudieron crear miniaturas: {e}")
     return f"/img/radar/{slug}.webp"
 
 

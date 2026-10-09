@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import { SITE } from '../../config';
+import { srcset } from '../../lib/img';
 import { PERSONAJES } from '../../data/personajes';
 
 const title = 'Personajes de GTA 6: todos los confirmados, con fotos oficiales';
@@ -26,7 +27,7 @@ const [jason, lucia, ...resto] = PERSONAJES;
   <ul class="cards grandes">
     {[jason, lucia].map((p) => (
       <li><a href={`/personajes/${p.slug}/`}>
-        <img src={img(p.imagenes[0])} alt={`${p.nombre}, imagen oficial de GTA VI`} width="800" height="450" />
+        <img src={img(p.imagenes[0])} srcset={srcset(img(p.imagenes[0]))} sizes="(max-width: 700px) 100vw, 540px" alt={`${p.nombre}, imagen oficial de GTA VI`} width="800" height="450" />
         <strong>{p.nombre}</strong><span>{p.rol}</span>
       </a></li>
     ))}
@@ -36,7 +37,7 @@ const [jason, lucia, ...resto] = PERSONAJES;
   <ul class="cards">
     {resto.map((p) => (
       <li><a href={`/personajes/${p.slug}/`}>
-        <img src={img(p.imagenes[0])} alt={`${p.nombre}, imagen oficial de GTA VI`} width="400" height="225" loading="lazy" />
+        <img src={img(p.imagenes[0])} srcset={srcset(img(p.imagenes[0]))} sizes="(max-width: 500px) 100vw, 360px" alt={`${p.nombre}, imagen oficial de GTA VI`} width="400" height="225" loading="lazy" />
         <strong>{p.nombre}</strong><span>{p.rol}</span>
       </a></li>
     ))}

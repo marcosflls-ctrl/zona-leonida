@@ -13,6 +13,9 @@ import time
 import requests
 from PIL import Image
 
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from miniaturas import make_variants  # noqa: E402
+
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = json.loads((ROOT / "scripts" / "galeria.json").read_text(encoding="utf-8"))
 OUT = ROOT / "public" / "img" / "oficial"
@@ -38,6 +41,7 @@ def main():
             if im.width > 1600:
                 im = im.resize((1600, round(im.height * 1600 / im.width)), Image.LANCZOS)
             im.save(dest, "WEBP", quality=80, method=6)
+            make_variants(dest)
             nuevas += 1
             print(f"OK  {img['slug']}  ({dest.stat().st_size // 1024} KB)")
         except Exception as e:  # noqa: BLE001

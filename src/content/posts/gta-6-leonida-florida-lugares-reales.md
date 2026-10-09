@@ -25,7 +25,7 @@ Leonida es la versión de Florida de Rockstar, igual que San Andreas era Califor
 
 > Las equivalencias de esta guía son análisis de medios y fans, no datos oficiales de Rockstar. Las descripciones de cada zona sí son oficiales.
 
-<figure class="oficial"><img src="/img/oficial/vice-city-1.webp" alt="Vista de Vice City, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure>
+<figure class="oficial"><img src="/img/oficial/vice-city-1.webp" srcset="/img/oficial/vice-city-1-400.webp 400w, /img/oficial/vice-city-1-800.webp 800w, /img/oficial/vice-city-1.webp 1600w" sizes="(max-width: 760px) 100vw, 720px" alt="Vista de Vice City, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure>
 
 ## Vice City → Miami
 
@@ -37,7 +37,7 @@ Según el periódico Miami New Times, en los tráilers se reconocen Ocean Drive,
 
 Rockstar los describe como un archipiélago tropical donde se vive sin prisas y los bares están llenos. Son los **Cayos de Florida**, unidos por la carretera Overseas Highway. GamingBolt cree reconocer en un tráiler el puente ferroviario inacabado de **Bahia Honda**, una de las imágenes más famosas de la zona.
 
-<div class="oficial-par"><figure class="oficial"><img src="/img/oficial/cayos-de-leonida-1.webp" alt="Cayos de Leonida, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure><figure class="oficial"><img src="/img/oficial/grassrivers-1.webp" alt="Grassrivers, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure></div>
+<div class="oficial-par"><figure class="oficial"><img src="/img/oficial/cayos-de-leonida-1.webp" srcset="/img/oficial/cayos-de-leonida-1-400.webp 400w, /img/oficial/cayos-de-leonida-1-800.webp 800w, /img/oficial/cayos-de-leonida-1.webp 1600w" sizes="(max-width: 760px) 100vw, 720px" alt="Cayos de Leonida, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure><figure class="oficial"><img src="/img/oficial/grassrivers-1.webp" srcset="/img/oficial/grassrivers-1-400.webp 400w, /img/oficial/grassrivers-1-800.webp 800w, /img/oficial/grassrivers-1.webp 1600w" sizes="(max-width: 760px) 100vw, 720px" alt="Grassrivers, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure></div>
 
 ## Grassrivers → los Everglades
 
@@ -55,7 +55,7 @@ El pueblo gira en torno a la refinería de azúcar **Allied Crystal**. Dexerto y
 
 Florida no tiene montañas, así que aquí Rockstar se toma licencias: el parque nacional del monte Kalaga, al norte del estado, con caza, pesca y pistas todoterreno, recuerda más a los **Apalaches** que a cualquier paisaje de Florida, como apunta la web especializada GTABoom.
 
-<div class="oficial-par"><figure class="oficial"><img src="/img/oficial/ambrosia-1.webp" alt="Ambrosía, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure><figure class="oficial"><img src="/img/oficial/monte-kalaga-1.webp" alt="Parque nacional del monte Kalaga, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure></div>
+<div class="oficial-par"><figure class="oficial"><img src="/img/oficial/ambrosia-1.webp" srcset="/img/oficial/ambrosia-1-400.webp 400w, /img/oficial/ambrosia-1-800.webp 800w, /img/oficial/ambrosia-1.webp 1600w" sizes="(max-width: 760px) 100vw, 720px" alt="Ambrosía, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure><figure class="oficial"><img src="/img/oficial/monte-kalaga-1.webp" srcset="/img/oficial/monte-kalaga-1-400.webp 400w, /img/oficial/monte-kalaga-1-800.webp 800w, /img/oficial/monte-kalaga-1.webp 1600w" sizes="(max-width: 760px) 100vw, 720px" alt="Parque nacional del monte Kalaga, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure></div>
 
 ## Otros guiños: condados, aeropuerto y avenidas
 
