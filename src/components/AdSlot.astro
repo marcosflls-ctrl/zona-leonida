@@ -1,11 +1,11 @@
 ---
 // Hueco de anuncio. Mientras no haya ID de AdSense en config.ts, no muestra nada.
-// Cuando te aprueben, crea los bloques en AdSense y pega aquí su "data-ad-slot".
+// Solo se muestra cuando se le pasa un slot (bloque de anuncio creado en AdSense tras la aprobación).
 import { SITE } from '../config';
 interface Props { slot?: string; label?: string }
 const { slot = '', label = 'Publicidad' } = Astro.props;
 ---
-{SITE.adsenseClient && (
+{SITE.adsenseClient && slot && (
   <div class="ad" data-pagefind-ignore>
     <span class="ad-label">{label}</span>
     <ins class="adsbygoogle" style="display:block" data-ad-client={SITE.adsenseClient}
@@ -14,6 +14,6 @@ const { slot = '', label = 'Publicidad' } = Astro.props;
   </div>
 )}
 <style>
-  .ad { margin: 28px 0; min-height: 120px; }
+  .ad { margin: 28px 0; min-height: 120px; grid-column: 1 / -1; }
   .ad-label { display: block; font-size: .7rem; text-transform: uppercase; letter-spacing: .1em; color: var(--muted); margin-bottom: 4px; }
 </style>

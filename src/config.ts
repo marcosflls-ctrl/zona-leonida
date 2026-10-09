@@ -14,7 +14,7 @@ export const SITE = {
   launchDate: '2026-11-19T00:00:00+01:00',
   // AdSense: pega tu ID de editor cuando te aprueben (ej. 'ca-pub-1234567890123456').
   // Mientras esté vacío, no se carga ningún anuncio.
-  adsenseClient: '',
+  adsenseClient: 'ca-pub-2093028838178784',
   // Cloudflare Web Analytics (sin cookies): pega aquí el token cuando lo crees en Cloudflare.
   cfAnalyticsToken: '',
   // Redes sociales
