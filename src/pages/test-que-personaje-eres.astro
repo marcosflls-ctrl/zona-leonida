@@ -87,12 +87,16 @@ const jsonLd = { '@context': 'https://schema.org', '@type': 'WebPage', name: tit
     <h1>¿Qué personaje de GTA 6 eres?</h1>
     <p class="lead">Ocho preguntas y descubrirás quién serías en Leonida. Responde con sinceridad (nadie te está mirando… salvo Cal).</p>
 
-    <div id="q" class="card">
-      <p class="prog"><span id="n">1</span> / {PREGUNTAS.length}</p>
-      <div class="bar"><i id="bar"></i></div>
-      <h2 id="pregunta">{PREGUNTAS[0].q}</h2>
-      <div id="opciones" class="ops">
-        {PREGUNTAS[0].a.map(([t, k]) => <button type="button" data-k={k}>{t}</button>)}
+    <div id="q" class="card qcard">
+      <div class="qhead">
+        <p class="prog">Pregunta <span id="n">1</span><span class="de">/{PREGUNTAS.length}</span></p>
+        <ol class="segs" id="segs" aria-hidden="true">{PREGUNTAS.map((_, k) => <li class={k === 0 ? 'on' : ''}></li>)}</ol>
+      </div>
+      <div id="anim" class="anim">
+        <h2 id="pregunta">{PREGUNTAS[0].q}</h2>
+        <div id="opciones" class="ops">
+          {PREGUNTAS[0].a.map(([t, k], j) => <button type="button" data-k={k}><kbd>{'ABCDE'[j]}</kbd><span>{t}</span></button>)}
+        </div>
       </div>
     </div>
 
@@ -132,15 +136,19 @@ const jsonLd = { '@context': 'https://schema.org', '@type': 'WebPage', name: tit
   function pintar() {
     const p = D.preguntas[i];
     $('n').textContent = String(i + 1);
-    ($('bar') as HTMLElement).style.width = `${(i / D.preguntas.length) * 100}%`;
+    $('segs').querySelectorAll('li').forEach((li, k) => { li.className = k < i ? 'done' : k === i ? 'on' : ''; });
     $('pregunta').textContent = p.q;
     const ops = $('opciones');
     ops.innerHTML = '';
-    p.a.forEach(([t, k]: [string, string]) => {
+    p.a.forEach(([t, k]: [string, string], j: number) => {
       const b = document.createElement('button');
-      b.type = 'button'; b.dataset.k = k; b.textContent = t;
+      b.type = 'button'; b.dataset.k = k;
+      const kb = document.createElement('kbd'); kb.textContent = 'ABCDE'[j];
+      const sp = document.createElement('span'); sp.textContent = t;
+      b.append(kb, sp);
       ops.appendChild(b);
     });
+    const a = $('anim'); a.classList.remove('in'); void a.offsetWidth; a.classList.add('in');
   }
 
   function mostrar(slug: string, propio: boolean) {
@@ -168,15 +176,33 @@ const jsonLd = { '@context': 'https://schema.org', '@type': 'WebPage', name: tit
     $('res').scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 
+  let bloqueado = false;
+  function elegir(b: HTMLButtonElement) {
+    if (bloqueado) return;
+    bloqueado = true;
+    b.classList.add('sel');
+    $('opciones').classList.add('elegido');
+    for (const k of b.dataset.k!) pts[k] = (pts[k] || 0) + (b.dataset.k!.length > 1 ? 1 : 2);
+    setTimeout(() => {
+      bloqueado = false;
+      $('opciones').classList.remove('elegido');
+      i++;
+      if (i < D.preguntas.length) { pintar(); return; }
+      $('segs').querySelectorAll('li').forEach((li) => (li.className = 'done'));
+      const ganador = Object.entries(pts).sort((a, b) => b[1] - a[1] || Math.random() - 0.5)[0][0];
+      mostrar(D.claves[ganador], true);
+    }, 420);
+  }
   $('opciones').addEventListener('click', (e) => {
     const b = (e.target as HTMLElement).closest('button');
-    if (!b) return;
-    for (const k of b.dataset.k!) pts[k] = (pts[k] || 0) + (b.dataset.k!.length > 1 ? 1 : 2);
-    i++;
-    if (i < D.preguntas.length) { pintar(); return; }
-    ($('bar') as HTMLElement).style.width = '100%';
-    const ganador = Object.entries(pts).sort((a, b) => b[1] - a[1] || Math.random() - 0.5)[0][0];
-    mostrar(D.claves[ganador], true);
+    if (b) elegir(b as HTMLButtonElement);
+  });
+  // atajo de teclado: A, B, C, D, E
+  document.addEventListener('keydown', (e) => {
+    if ($('q').hidden || e.ctrlKey || e.metaKey || e.altKey) return;
+    const n = 'abcde'.indexOf(e.key.toLowerCase());
+    const b = $('opciones').querySelectorAll('button')[n];
+    if (b) elegir(b as HTMLButtonElement);
   });
 
   $('otra').addEventListener('click', () => {
@@ -189,19 +215,43 @@ const jsonLd = { '@context': 'https://schema.org', '@type': 'WebPage', name: tit
   const compartido = new URLSearchParams(location.search).get('r');
   if (compartido && D.resultados[compartido]) mostrar(compartido, false);
 </script>
+<style is:global>
+  #opciones { display: grid; gap: 10px; grid-template-columns: 1fr 1fr; }
+  #opciones button:last-child:nth-child(odd) { grid-column: 1 / -1; }
+  @media (max-width: 600px) { #opciones { grid-template-columns: 1fr; } }
+  #opciones button { position: relative; display: flex; align-items: center; gap: 14px; font: inherit; font-size: 1rem; line-height: 1.35; text-align: left;
+    padding: 14px 16px 14px 14px; border-radius: 16px; border: 1px solid var(--line); color: var(--text); cursor: pointer;
+    background: linear-gradient(180deg, #ffffff08, #ffffff00), var(--surface-2);
+    transition: transform .12s, border-color .15s, box-shadow .15s, background .15s, opacity .2s; }
+  #opciones kbd { flex: none; display: grid; place-items: center; width: 38px; height: 38px; border-radius: 10px; font: 400 1.25rem/1 Anton, sans-serif;
+    color: var(--teal); border: 1px solid #4cf2e655; background: #4cf2e60f; box-shadow: inset 0 -3px 0 #4cf2e622; transition: all .15s; }
+  #opciones button:hover { transform: translateY(-2px); border-color: #ff3fae99; box-shadow: 0 6px 22px #ff3fae22; }
+  #opciones button:hover kbd { color: #1a0612; background: var(--pink); border-color: var(--pink); box-shadow: var(--glow-pink); }
+  #opciones button:active { transform: scale(.98); }
+  #opciones.elegido button:not(.sel) { opacity: .35; }
+  #opciones button.sel { border-color: var(--pink); background: linear-gradient(100deg, #ff3fae40, #ff3fae14); box-shadow: var(--glow-pink); animation: pulso .4s ease-out; }
+  #opciones button.sel kbd { color: #1a0612; background: var(--leaf); border-color: var(--leaf); box-shadow: 0 0 14px #5dff8aaa; }
+  @keyframes pulso { 0% { transform: scale(1); } 40% { transform: scale(1.03); } 100% { transform: scale(1); } }
+  @media (prefers-reduced-motion: reduce) { #opciones button.sel { animation: none; } }
+</style>
 <style>
   .quiz { max-width: 720px; }
   h1 { font-size: clamp(2.2rem, 6vw, 3.2rem); margin: 8px 0; }
   .lead { color: var(--muted); font-size: 1.1rem; }
   .card { background: var(--surface); border: 1px solid var(--line); border-radius: 18px; padding: 22px 20px; margin: 20px 0; scroll-margin-top: 80px; }
-  .prog { margin: 0 0 6px; font-weight: 800; color: var(--teal); font-size: .85rem; letter-spacing: .08em; }
-  .bar { height: 6px; background: var(--surface-2); border-radius: 99px; overflow: hidden; margin-bottom: 14px; }
-  .bar i { display: block; height: 100%; width: 0; background: var(--sunset); transition: width .3s; }
-  .card h2 { font-size: clamp(1.5rem, 4.5vw, 2rem); margin: 0 0 16px; }
-  .ops { display: grid; gap: 10px; }
-  .ops button { font: inherit; text-align: left; padding: 14px 16px; border-radius: 14px; border: 1px solid var(--line); background: var(--surface-2); color: var(--text); cursor: pointer; transition: border-color .15s, box-shadow .15s, transform .1s; }
-  .ops button:hover { border-color: var(--pink); box-shadow: var(--glow-pink); }
-  .ops button:active { transform: scale(.98); }
+  .qcard { position: relative; overflow: hidden; padding: 24px 20px 22px;
+    background: radial-gradient(ellipse at 110% -10%, #ff3fae2e, transparent 50%), radial-gradient(ellipse at -10% 110%, #4cf2e622, transparent 50%), var(--surface); }
+  .qhead { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 18px; }
+  .prog { margin: 0; font-family: Anton, sans-serif; text-transform: uppercase; font-size: 1.05rem; letter-spacing: .06em; color: var(--leaf); text-shadow: 0 0 10px #5dff8a66; white-space: nowrap; }
+  .prog .de { color: var(--muted); text-shadow: none; }
+  .segs { list-style: none; display: flex; gap: 5px; margin: 0; padding: 0; flex: 1; max-width: 260px; }
+  .segs li { flex: 1; height: 6px; border-radius: 3px; background: var(--surface-2); transition: background .3s, box-shadow .3s; }
+  .segs li.done { background: var(--teal); box-shadow: 0 0 8px #4cf2e688; }
+  .segs li.on { background: var(--pink); box-shadow: 0 0 10px #ff3faeaa; }
+  .card h2 { font-size: clamp(1.7rem, 5vw, 2.3rem); margin: 0 0 18px; line-height: 1.1; }
+  .anim.in { animation: entra .35s ease-out; }
+  @keyframes entra { from { opacity: 0; transform: translateX(24px); } to { opacity: 1; transform: none; } }
+  @media (prefers-reduced-motion: reduce) { .anim.in, .ops button.sel { animation: none; } }
   .res { text-align: center; }
   .res img { width: 100%; height: auto; border-radius: 14px; border: 1px solid var(--line); display: block; margin: 10px 0 14px; }
   .kicker { margin: 0; font-weight: 800; color: var(--leaf); text-transform: uppercase; letter-spacing: .1em; font-size: .85rem; }
