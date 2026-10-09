@@ -82,6 +82,9 @@ jobs:
             - Para descartarlos todos: **Close pull request**.
           labels: radar
           delete-branch: true
+          # te pide la revisión a ti: la app de GitHub te avisa con una notificación
+          reviewers: ${{ github.repository_owner }}
+          assignees: ${{ github.repository_owner }}
 
       # MODO AUTOMÁTICO: publica sin revisión (actívalo creando la variable AUTO_PUBLISH=true).
       - name: Publicar directamente
