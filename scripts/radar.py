@@ -7,7 +7,8 @@ Radar de noticias de GTA VI.
 4. Lo guarda como .md en src/content/posts/
 
 Uso:
-  ANTHROPIC_API_KEY=... python scripts/radar.py          # normal
+  python scripts/radar.py            # normal (en GitHub usa la federación de identidades, sin clave;
+                                     # en tu PC puedes usar ANTHROPIC_API_KEY=...)
   python scripts/radar.py --dry-run                      # solo lista lo que encontraría
 Variables opcionales: MAX_PER_RUN (3), MODEL (claude-sonnet-5-5)
 """
@@ -322,8 +323,8 @@ def main() -> int:
         for c in candidates:
             print(f"  - [{c['source']}] {c['title']}\n    {c['url']}")
         return 0
-    if not os.environ.get("ANTHROPIC_API_KEY"):
-        print("Falta ANTHROPIC_API_KEY")
+    if not (os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("ANTHROPIC_IDENTITY_TOKEN_FILE")):
+        print("Faltan credenciales: ANTHROPIC_API_KEY o la federación de identidades (ANTHROPIC_IDENTITY_TOKEN_FILE)")
         return 1
 
     written = []

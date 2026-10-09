@@ -8,10 +8,23 @@ on:
 permissions:
   contents: write
   pull-requests: write
+  id-token: write             # permite a GitHub demostrar a Claude que es este robot (sin claves)
+
+concurrency:
+  group: radar
+  cancel-in-progress: false
 
 jobs:
   radar:
     runs-on: ubuntu-latest
+    # Identificadores de la conexión con Claude (federación de identidades).
+    # No son secretos: sin el token que firma GitHub para ESTE repositorio y la rama main no sirven de nada.
+    env:
+      ANTHROPIC_FEDERATION_RULE_ID: fdrl_01SNcWwdK3U7waQD2Edrgqvn
+      ANTHROPIC_ORGANIZATION_ID: fddb11bd-122a-4959-8c54-567a0a116498
+      ANTHROPIC_SERVICE_ACCOUNT_ID: svac_01HHj72HzVqHaVh7MHX6yX5B
+      ANTHROPIC_WORKSPACE_ID: wrkspc_01YBWc8PatV9QZZ5Fc6n4kxq
+      ANTHROPIC_IDENTITY_TOKEN_FILE: /tmp/gha-jwt
     steps:
       - uses: actions/checkout@v4
 
@@ -21,34 +34,55 @@ jobs:
 
       - run: pip install -r scripts/requirements.txt
 
+      - name: Pedir identidad a GitHub
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const fs = require('fs');
+            const token = await core.getIDToken('https://api.anthropic.com');
+            core.setSecret(token);
+            fs.writeFileSync(process.env.ANTHROPIC_IDENTITY_TOKEN_FILE, token);
+
       - name: Buscar noticias y redactar
         id: radar
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           MAX_PER_RUN: ${{ vars.MAX_PER_RUN || '3' }}
         run: python scripts/radar.py
 
-      # MODO REVISIÓN (por defecto): abre una "pull request" con los borradores.
+      # La memoria del robot (qué noticias ya ha visto) se guarda siempre en main,
+      # para no volver a gastar IA en las mismas noticias aunque tardes en aprobar.
+      - name: Guardar memoria del robot
+        run: |
+          git config user.name "radar-bot"
+          git config user.email "radar-bot@users.noreply.github.com"
+          git add scripts/state
+          if ! git diff --cached --quiet; then
+            git commit -m "Radar: actualizar memoria"
+            git push
+          fi
+
+      # MODO REVISIÓN (por defecto): cada ejecución con artículos abre su propia propuesta.
       # La apruebas con "Merge" desde la app de GitHub y la web se publica sola.
       - name: Proponer borradores para revisar
-        if: vars.AUTO_PUBLISH != 'true'
+        if: vars.AUTO_PUBLISH != 'true' && steps.radar.outputs.count != '0'
         uses: peter-evans/create-pull-request@v7
         with:
-          branch: radar/borradores
+          branch: radar/borradores-${{ github.run_number }}
           commit-message: "Radar: nuevos borradores"
           title: "📰 Borradores nuevos del radar (${{ steps.radar.outputs.count }})"
           body: |
             Revisa cada artículo (pestaña *Files changed*). Puedes editarlo ahí mismo con el lápiz.
             - Para publicar: **Merge pull request**.
-            - Para descartar uno: bórralo del cambio antes de aprobar.
+            - Para descartarlos todos: **Close pull request**.
           labels: radar
           delete-branch: true
 
       # MODO AUTOMÁTICO: publica sin revisión (actívalo creando la variable AUTO_PUBLISH=true).
       - name: Publicar directamente
-        if: vars.AUTO_PUBLISH == 'true'
+        if: vars.AUTO_PUBLISH == 'true' && steps.radar.outputs.count != '0'
         run: |
-          git config user.name "radar-bot"
-          git config user.email "radar-bot@users.noreply.github.com"
           git add -A
-          git diff --cached --quiet || git commit -m "Radar: artículos nuevos" && git push
+          if ! git diff --cached --quiet; then
+            git commit -m "Radar: artículos nuevos"
+            git push
+          fi

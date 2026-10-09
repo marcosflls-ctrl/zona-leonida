@@ -60,8 +60,10 @@ Texto en Markdown con subtítulos ## ...
 2. **Cloudflare Pages** (gratis): *Workers & Pages → Create → Pages → Connect to Git*, elige el repositorio.
    Preset: **Astro** · Build command: `npm run build` · Output: `dist`.
 3. **Dominio**: cómpralo (Cloudflare o Hostinger, ~10 €/año), añádelo en *Custom domains* y cámbialo en `src/config.ts` y `astro.config.mjs`.
-4. **Clave de IA**: crea una API key en console.anthropic.com y guárdala en GitHub:
-   *Settings → Secrets and variables → Actions → New repository secret* → nombre `ANTHROPIC_API_KEY`.
+4. **Conexión con Claude (sin clave)**: el robot usa la *federación de identidades*. En la Claude Console
+   (*Settings → Identidad de carga de trabajo*) está la regla `robot-zona-leonida`, que solo acepta ejecuciones
+   de este repositorio en la rama `main`. Los identificadores están en `.github/workflows/radar.yml`.
+   No hay que guardar ninguna clave en GitHub.
 5. **Permiso del robot**: *Settings → Actions → General → Workflow permissions* → marca
    **Read and write** y **Allow GitHub Actions to create and approve pull requests**.
 6. **Probar**: pestaña *Actions → Radar de noticias GTA VI → Run workflow*. En el registro verás cuántas entradas ha leído de cada feed (si alguna da 0, esa URL no vale y hay que cambiarla).
