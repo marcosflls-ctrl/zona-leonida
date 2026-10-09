@@ -6,7 +6,7 @@ interface Props { slot?: string; label?: string }
 const { slot = '', label = 'Publicidad' } = Astro.props;
 ---
 {SITE.adsenseClient && (
-  <div class="ad">
+  <div class="ad" data-pagefind-ignore>
     <span class="ad-label">{label}</span>
     <ins class="adsbygoogle" style="display:block" data-ad-client={SITE.adsenseClient}
       data-ad-slot={slot} data-ad-format="auto" data-full-width-responsive="true"></ins>

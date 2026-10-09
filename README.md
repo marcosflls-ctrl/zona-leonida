@@ -109,3 +109,9 @@ Hay 8 plantillas en borrador (`draft: true`) que no aparecen en la web: trucos, 
 1. Rellenar los comentarios `<!-- RELLENAR -->` con datos comprobados y borrarlos.
 2. Añadir las fuentes en `sources`, cambiar `draft: true` por `draft: false` y poner la fecha real en `date` y `updated`.
 3. Al ser un archivo que ya existía, Telegram no lo publica solo: lanzar la tarea **Telegram** a mano con el nombre del archivo.
+
+## Imágenes rápidas, buscador y test
+
+- `python scripts/miniaturas.py` crea las versiones de 400 y 800 px de las imágenes (el robot y la galería ya lo hacen solos). Si añades imágenes a mano a `public/img/banco/`, ejecútalo.
+- El buscador (`/buscar/`) usa Pagefind: se genera solo al publicar (`npm run build`). Indexa artículos y fichas de personajes; la configuración está en `pagefind.yml`.
+- El test de personajes está en `src/pages/test-que-personaje-eres.astro` (preguntas y puntuación arriba del archivo).

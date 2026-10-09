@@ -1,0 +1,36 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="Buscar en Zona Leonida" description="Busca noticias, guías, trucos y personajes de GTA 6 en Zona Leonida." noindex>
+  <nav class="breadcrumbs"><a href="/">Inicio</a> › Buscar</nav>
+  <h1>Buscar</h1>
+  <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
+  <div id="buscador"></div>
+  <p class="muted small sugerencias">Prueba con: <a href="?q=precio">precio</a>, <a href="?q=Lucía">Lucía</a>, <a href="?q=mapa">mapa</a>, <a href="?q=PS5 Pro">PS5 Pro</a>, <a href="?q=online">online</a></p>
+  <script is:inline src="/pagefind/pagefind-ui.js"></script>
+  <script is:inline>
+    window.addEventListener('DOMContentLoaded', function () {
+      if (!window.PagefindUI) { document.getElementById('buscador').textContent = 'El buscador no está disponible ahora mismo.'; return; }
+      var ui = new PagefindUI({
+        element: '#buscador', showSubResults: true, showImages: true, resetStyles: false,
+        translations: { placeholder: 'Busca noticias, guías, personajes…', zero_results: 'No hay resultados para [SEARCH_TERM]', many_results: '[COUNT] resultados para [SEARCH_TERM]', one_result: '1 resultado para [SEARCH_TERM]', load_more: 'Ver más resultados', clear_search: 'Borrar' }
+      });
+      var q = new URLSearchParams(location.search).get('q');
+      if (q) ui.triggerSearch(q);
+      var input = document.querySelector('#buscador input'); if (input && !q) input.focus();
+    });
+  </script>
+</Base>
+<style is:global>
+  h1 { font-size: clamp(2.2rem, 6vw, 3.2rem); margin: 8px 0 16px; }
+  .sugerencias { margin-top: 10px; }
+  #buscador {
+    --pagefind-ui-scale: 1; --pagefind-ui-primary: #4cf2e6; --pagefind-ui-text: #f3eef7; --pagefind-ui-background: #17131f;
+    --pagefind-ui-border: #2e2640; --pagefind-ui-tag: #211b2c; --pagefind-ui-border-width: 1px; --pagefind-ui-border-radius: 14px;
+    --pagefind-ui-image-border-radius: 10px; --pagefind-ui-image-box-ratio: 16 / 9; --pagefind-ui-font: Inter, system-ui, sans-serif;
+    max-width: 820px;
+  }
+  #buscador .pagefind-ui__result-link { color: var(--text); }
+  #buscador .pagefind-ui__result-excerpt mark { background: #ff3fae55; color: var(--text); }
+  #buscador .pagefind-ui__search-input { background: var(--surface); color: var(--text); }
+</style>

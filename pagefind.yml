@@ -1,0 +1,5 @@
+site: dist
+exclude_selectors:
+  - "figcaption"
+  - ".credit"
+  - ".breadcrumbs"

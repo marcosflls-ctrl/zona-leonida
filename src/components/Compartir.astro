@@ -10,7 +10,7 @@ const links = [
   { name: 'X', href: `https://x.com/intent/post?text=${t}&url=${u}&via=ZonaLeonida`, cls: 'x' },
 ];
 ---
-<div class="compartir" data-url={url} data-title={title}>
+<div class="compartir" data-pagefind-ignore data-url={url} data-title={title}>
   <span class="lbl">{label}</span>
   <div class="btns">
     {links.map((l) => (

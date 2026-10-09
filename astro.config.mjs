@@ -4,5 +4,5 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
   site: 'https://zonaleonida.com', // ← cambia por tu dominio
   trailingSlash: 'always',
-  integrations: [sitemap()],
+  integrations: [sitemap({ filter: (page) => !page.includes('/buscar/') })],
 });

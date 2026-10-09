@@ -48,8 +48,8 @@ const jsonLd = [
 ];
 ---
 <Base title={d.title} description={d.description} image={d.image ?? `/img/portadas/${d.category}.webp`} type="article" jsonLd={jsonLd}>
-  <article class="post">
-    <nav class="breadcrumbs"><a href="/">Inicio</a> › <a href={`/${d.category}/`}>{cat.label}</a></nav>
+  <article class="post" data-pagefind-body>
+    <nav class="breadcrumbs" data-pagefind-ignore><a href="/">Inicio</a> › <a href={`/${d.category}/`}>{cat.label}</a></nav>
     <header>
       <a class="tag" href={`/${d.category}/`}>{cat.label}</a>
       {d.rumor && <span class="tag rumor">Rumor</span>}
@@ -68,7 +68,7 @@ const jsonLd = [
       </p>
     </header>
     <figure class="hero">
-      <img src={d.image ?? `/img/portadas/${d.category}.webp`} srcset={srcset(d.image ?? `/img/portadas/${d.category}.webp`)} sizes="(max-width: 800px) 100vw, 760px" alt={d.image ? (d.imageAlt ?? '') : ''} width="1200" height="675" />
+      <img data-pagefind-meta="image[src]" src={d.image ?? `/img/portadas/${d.category}.webp`} srcset={srcset(d.image ?? `/img/portadas/${d.category}.webp`)} sizes="(max-width: 800px) 100vw, 760px" alt={d.image ? (d.imageAlt ?? '') : ''} width="1200" height="675" />
       {d.image && d.imageCredit && <figcaption class="credit">Imagen: {d.imageCredit}</figcaption>}
     </figure>
     {d.rumor && (

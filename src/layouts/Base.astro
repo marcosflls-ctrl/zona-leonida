@@ -55,6 +55,9 @@ const path = Astro.url.pathname;
       <a href="/" class="logo" aria-label={`${SITE.name}, inicio`}>
         <img class="logo-mark" src="/img/marca/logo-96.webp" alt="" width="40" height="40" /><span class="logo-text">{SITE.name}</span>
       </a>
+      <a class="search-btn" href="/buscar/" aria-label="Buscar">
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+      </a>
       <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú">
         <span></span><span></span><span></span>
       </button>
@@ -152,6 +155,8 @@ const path = Astro.url.pathname;
   .site-header nav { display: flex; gap: 2px; }
   .site-header nav a { color: var(--muted); text-decoration: none; font-weight: 600; font-size: .95rem; padding: 8px 12px; border-radius: 999px; white-space: nowrap; }
   .site-header nav a:hover, .site-header nav a[aria-current] { color: var(--text); background: var(--surface-2); }
+  .search-btn { order: 3; display: grid; place-items: center; width: 40px; height: 40px; border-radius: 12px; color: var(--muted); border: 1px solid transparent; }
+  .search-btn:hover { color: var(--text); background: var(--surface-2); }
   .menu-btn { display: none; width: 44px; height: 44px; padding: 11px 10px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); cursor: pointer; flex-direction: column; justify-content: space-between; }
   .menu-btn span { display: block; height: 2px; border-radius: 2px; background: var(--text); transition: transform .2s, opacity .2s; }
   .menu-btn[aria-expanded="true"] span:nth-child(1) { transform: translateY(9px) rotate(45deg); }
@@ -159,6 +164,8 @@ const path = Astro.url.pathname;
   .menu-btn[aria-expanded="true"] span:nth-child(3) { transform: translateY(-9px) rotate(-45deg); }
   @media (max-width: 900px) {
     .menu-btn { display: flex; }
+    .search-btn { order: 0; margin-left: auto; border-color: var(--line); background: var(--surface); width: 44px; height: 44px; }
+    .header-inner { gap: 10px; }
     .site-header nav { display: none; position: absolute; top: 100%; left: 0; right: 0; padding: 12px 16px 16px; background: rgba(13,11,20,.98); border-bottom: 1px solid var(--line); grid-template-columns: 1fr 1fr; gap: 8px; }
     .site-header nav.open { display: grid; }
     .site-header nav a { font-size: 1rem; padding: 12px 14px; border-radius: 12px; background: var(--surface); border: 1px solid var(--line); text-align: center; }

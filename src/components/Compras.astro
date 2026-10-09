@@ -7,7 +7,7 @@ const tag = SITE.amazonTag;
 const url = (q: string) => `https://www.amazon.es/s?k=${encodeURIComponent(q)}&tag=${encodeURIComponent(tag)}`;
 ---
 {tag && items.length > 0 && (
-  <aside class="compras" aria-labelledby="h-compras">
+  <aside class="compras" data-pagefind-ignore aria-labelledby="h-compras">
     <h2 id="h-compras">Dónde comprarlo</h2>
     <ul>
       {items.map((it) => (
