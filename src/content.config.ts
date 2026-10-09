@@ -13,7 +13,9 @@ const posts = defineCollection({
     image: z.string().optional(),
     imageAlt: z.string().optional(),
     imageCredit: z.string().optional(), // ej. "Rockstar Games"
-    rumor: z.boolean().default(false),  // filtración o rumor sin confirmar → etiqueta visible
+    rumor: z.boolean().default(false),
+    pilar: z.boolean().default(false), // página de referencia que se mantiene actualizada
+    orden: z.number().default(99),       // orden en el bloque "Lo esencial"  // filtración o rumor sin confirmar → etiqueta visible
     sources: z.array(z.object({ name: z.string(), url: z.string().url() })).default([]),
     draft: z.boolean().default(false),
   }),

@@ -19,7 +19,7 @@ Más allá de la ciudad, los tráilers han enseñado pantanos, playas, cayos y z
 
 ## Los protagonistas: Lucía y Jason
 
-Por primera vez en la saga principal hay **una protagonista femenina**: **Lucía**, que comparte historia con **Jason**. La pareja protagoniza una trama inspirada en el clásico dúo de atracadores que acaban metidos en algo mucho más grande de lo que esperaban.
+Por primera vez en la era moderna de la saga hay **una protagonista femenina**: **Lucía**, que comparte historia con **Jason**. La pareja protagoniza una trama inspirada en el clásico dúo de atracadores que acaban metidos en algo mucho más grande de lo que esperaban.
 
 ## Qué iremos ampliando
 

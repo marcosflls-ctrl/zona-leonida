@@ -49,6 +49,7 @@ const jsonLd = [
     <header>
       <a class="tag" href={`/${d.category}/`}>{cat.label}</a>
       {d.rumor && <span class="tag rumor">Rumor</span>}
+      {d.pilar && <span class="tag vivo">Guía actualizada</span>}
       <h1>{d.title}</h1>
       <p class="lead">{d.description}</p>
       <p class="meta muted small">
@@ -90,6 +91,7 @@ const jsonLd = [
   .lead { font-size: 1.2rem; color: var(--muted); margin: 0 0 10px; }
   .hero { margin: 20px 0 0; }
   .hero img { border-radius: var(--radius); width: 100%; display: block; }
+  .tag.vivo { background: #5dff8a22; color: var(--leaf); margin-left: 4px; }
   .rumor-note { border: 1px solid var(--orange); background: #ff9a3d14; border-radius: var(--radius); padding: 12px 16px; font-size: .95rem; margin-top: 20px; }
   .sources { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 18px; margin-top: 32px; font-size: .95rem; }
   .sources ul { margin: 6px 0 0; padding-left: 18px; }

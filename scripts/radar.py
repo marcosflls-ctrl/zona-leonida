@@ -216,6 +216,9 @@ NORMAS OBLIGATORIAS:
 existe y de lo más general; no detalles su contenido.
   · Ten en cuenta si la fuente que la recoge es fiable y menciónalo si no lo es.
 - No menciones imágenes ni vídeos en el texto: si hay material oficial se añade automáticamente.
+- ENLAZA LAS GUÍAS DE REFERENCIA cuando la noticia toque su tema: precio/ediciones → /guias/gta-6-precio-ediciones-reservas/, \
+PC → /guias/gta-6-pc/, tamaño/precarga → /guias/gta-6-cuanto-ocupa/, mapa/zonas → /guias/gta-6-mapa-leonida/, \
+personajes → /guias/gta-6-personajes/.
 - NO REPITAS TEMAS: si la noticia trata básicamente de lo mismo que alguno de los "artículos ya publicados" \
 (aunque la cuente otro medio o con otro enfoque), responde {"skip": true, "reason": "tema ya cubierto: <artículo>"}. \
 Solo escribe si aporta un dato nuevo relevante, y en ese caso céntrate en lo nuevo.
