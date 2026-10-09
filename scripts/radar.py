@@ -567,6 +567,8 @@ def main() -> int:
         if item.get("rockstar_id"):
             try:
                 html, text = rockstar_text(item["rockstar_id"])
+                if not item["title"] and text:
+                    item["title"] = text.split("\n", 1)[0][:160]
             except Exception as e:  # noqa: BLE001
                 print(f"  ! no se pudo leer la noticia de Rockstar: {e}")
                 html, text = "", ""
