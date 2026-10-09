@@ -17,6 +17,14 @@ sources:
     url: "https://www.pcgamesn.com/grand-theft-auto-vi/gta-online-supported-new-version"
   - name: "God is a Geek: el silencio de Take-Two sobre el online de GTA 6"
     url: "https://godisageek.com/2026/08/gta-6-online-silence-take-two/"
+  - name: "Gematsu: edición Ultimate y bonus de reserva"
+    url: "https://www.gematsu.com/2026/06/grand-theft-auto-vi-pricing-ultimate-edition-and-pre-order-bonuses-announced"
+  - name: "Notebookcheck: el online de GTA 6 podría tardar en llegar"
+    url: "https://www.notebookcheck.net/GTA-6-Online-may-not-launch-until-long-after-release-date-despite-sales-potential.1363019.0.html"
+  - name: "IBTimes: GTA+ incluido en las reservas digitales"
+    url: "https://www.ibtimes.co.uk/rockstar-games-gta-vi-pre-order-bonuses-1804927"
+  - name: "TheSixthAxis: edición Ultimate y pack Vintage Vice City"
+    url: "https://www.thesixthaxis.com/2026/06/24/gta-6-ultimate-edition-pre-order-bonus-and-vintage-vice-city-pack-revealed/"
 ---
 
 **De momento, GTA 6 no tiene modo online anunciado.** Rockstar presenta el juego como «una experiencia para un jugador» y no ha dicho nada de un multijugador para el lanzamiento del 19 de noviembre. Esto es lo que se sabe y lo que no.
@@ -35,11 +43,11 @@ Lo que no ha explicado nadie es si habrá un online nuevo basado en el mapa de L
 
 ## Lo que dicen los rumores
 
-Varios medios recogen informaciones sin confirmar según las cuales el próximo GTA Online llegaría **por separado y más tarde** que el modo historia. Rockstar no lo ha confirmado. Con GTA 5 pasó algo parecido: el juego salió en septiembre de 2013 y GTA Online llegó dos semanas después.
+Varios medios recogen informaciones sin confirmar según las cuales el próximo GTA Online llegaría **como un lanzamiento separado**, y Notebookcheck apunta a que podría tardar en llegar tras el estreno. Rockstar no lo ha confirmado. Con GTA 5 pasó algo parecido: el juego salió en septiembre de 2013 y GTA Online llegó dos semanas después.
 
 ## ¿Para qué sirve el mes de GTA+ de la reserva?
 
-Las reservas digitales de GTA 6 incluyen un mes de GTA+, la suscripción de Rockstar. Ojo: según la nota oficial, sus ventajas son para el **GTA Online actual** (dinero del juego, vehículos y descuentos), no para GTA 6. Además, se renueva automáticamente si no la cancelas. Te lo contamos en [precio y ediciones](/guias/gta-6-precio-ediciones-reservas/).
+Las reservas digitales de GTA 6 incluyen un mes de GTA+, la suscripción de Rockstar. Ojo: según Gematsu y TheSixthAxis, sus ventajas son para el **GTA Online actual** (dinero del juego, vehículos y descuentos), no para GTA 6. Además, se renueva automáticamente si no la cancelas. Te lo contamos en [precio y ediciones](/guias/gta-6-precio-ediciones-reservas/).
 
 ## Preguntas frecuentes
 

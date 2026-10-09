@@ -17,6 +17,8 @@ sources:
     url: "https://gamingbolt.com/grand-theft-auto-6-everything-we-know-about-the-map-and-its-locations"
   - name: "Dexerto: localizaciones de GTA 6 en la vida real"
     url: "https://www.dexerto.com/wikis/gta-6/map-locations-in-real-life/"
+  - name: "GTABoom: las regiones reales detrás del tráiler 2"
+    url: "https://www.gtaboom.com/real-world-regions-behind-gta-6-trailer-2-4844"
 ---
 
 Leonida es la versión de Florida de Rockstar, igual que San Andreas era California. Rockstar no ha dicho oficialmente en qué lugares reales se basa cada zona, pero los tráilers y las capturas dejan muchas pistas, y la prensa estadounidense, empezando por la de Miami, las ha ido identificando.
@@ -51,7 +53,7 @@ El pueblo gira en torno a la refinería de azúcar **Allied Crystal**. Dexerto y
 
 ## Monte Kalaga → un toque de los Apalaches
 
-Florida no tiene montañas, así que aquí Rockstar se toma licencias: el parque nacional del monte Kalaga, al norte del estado, con caza, pesca y pistas todoterreno, recuerda más a los **Apalaches** que a cualquier paisaje de Florida.
+Florida no tiene montañas, así que aquí Rockstar se toma licencias: el parque nacional del monte Kalaga, al norte del estado, con caza, pesca y pistas todoterreno, recuerda más a los **Apalaches** que a cualquier paisaje de Florida, como apunta la web especializada GTABoom.
 
 <div class="oficial-par"><figure class="oficial"><img src="/img/oficial/ambrosia-1.webp" alt="Ambrosía, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure><figure class="oficial"><img src="/img/oficial/monte-kalaga-1.webp" alt="Parque nacional del monte Kalaga, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure></div>
 

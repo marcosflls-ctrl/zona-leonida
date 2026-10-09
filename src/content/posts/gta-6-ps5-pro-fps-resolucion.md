@@ -24,6 +24,14 @@ sources:
     url: "https://www.tweaktown.com/news/113337/rockstar-says-gta-6-will-run-at-30-fps-and-its-tech-team-is-still-unsure-about-a-60-fps-mode/index.html"
   - name: "Xataka México: Digital Foundry y la versión de Xbox Series S"
     url: "https://www.xataka.com.mx/videojuegos/digital-foundry-cree-que-gta-6-correra-a-720p-series-s-ps5-xbox-series-x-se-quedara-30-fps-1440p"
+  - name: "Notebookcheck: detalles de la versión de PS5"
+    url: "https://www.notebookcheck.net/Rockstar-shares-new-details-about-GTA-6-s-PS5-version-but-one-major-question-remains-unanswered.1327924.0.html"
+  - name: "TechRadar: «Una mirada extendida» se grabó en una PS5 normal"
+    url: "https://techradar.com/gaming/netflix-confirms-that-the-gta-6-extended-look-has-an-official-runtime-of-just-under-half-an-hour-and-is-captured-on-the-base-ps5"
+  - name: "GTABoom: Zelnick sobre el rendimiento en Xbox Series S"
+    url: "https://www.gtaboom.com/take-two-ceo-confident-gta-6-performance-xbox-series-s/"
+  - name: "OpenCritic: rumor de un modo a 60 FPS"
+    url: "https://opencritic.com/news/33900/rumor-gta-6-could-have-a-60-fps-performance-mode-on-all-platforms"
 ---
 
 **Todo apunta a que GTA 6 saldrá a 30 FPS en consolas.** «Una mirada extendida» se grabó en una PS5 normal a 30 imágenes por segundo, y Rockstar no ha anunciado un modo a 60. Esto es lo oficial, lo que dicen los análisis y lo que todavía son rumores.
@@ -31,8 +39,8 @@ sources:
 ## Lo oficial
 
 - **PS5 Pro:** la ficha de la PlayStation Store lleva la etiqueta «Mejorado para PS5 Pro», pero Rockstar no ha explicado qué mejora: ni resolución ni FPS.
-- **PS5:** el PlayStation Blog confirma vibración háptica y gatillos adaptativos del DualSense, audio 3D y cargas rápidas gracias al SSD.
-- **30 FPS:** «Una mirada extendida» se capturó íntegramente en una PS5 base a 30 FPS.
+- **PS5:** según el PlayStation Blog, recogido por Notebookcheck, el juego aprovechará la vibración háptica y los gatillos adaptativos del DualSense, el audio 3D y las cargas rápidas del SSD.
+- **Grabado en PS5:** Netflix confirmó que «Una mirada extendida» se capturó íntegramente en una PS5 normal, y según TechRadar y Digital Foundry se ve a 30 FPS.
 
 Rob Nelson, codirector de Rockstar North, dijo a un creador de contenido que el juego va a 30 FPS en consolas y que tenía que consultar con el equipo técnico si habrá un modo a 60, al principio o más adelante. No es un comunicado oficial, pero es lo más cercano que hay a una respuesta de Rockstar.
 
@@ -44,15 +52,15 @@ Digital Foundry, el medio de referencia en análisis técnico, estudió «Una mi
 - Va a **30 FPS muy estables**, con las imágenes bien repartidas (sin tirones).
 - Ve **muy improbable un modo a 60 FPS** en consola, porque el límite está en el procesador.
 
-Sobre la **PS5 Pro**, Digital Foundry recuerda que su procesador es casi igual que el de la PS5 normal (alrededor de un 7 % más rápido), así que la mejora probablemente irá por la calidad de imagen y el trazado de rayos, no por duplicar los FPS.
+Sobre la **PS5 Pro**, Digital Foundry recuerda que su procesador es casi igual que el de la PS5 normal, así que la mejora probablemente irá por la calidad de imagen y el trazado de rayos, no por duplicar los FPS.
 
 ## ¿Y en Xbox Series S?
 
-No hay datos oficiales. En 2025, a partir de los tráilers, Digital Foundry calculó que la Series S podría ir a unos **720p y 30 FPS**, con recortes en texturas, sombras y efectos. Strauss Zelnick, director de Take-Two, aseguró que sus estudios saben adaptarse a consolas con distinta potencia.
+No hay datos oficiales. A partir del primer tráiler, Digital Foundry calculó en noviembre de 2024 que la Series S podría ir a unos **720p y 30 FPS**, conservando buena parte de los efectos. Strauss Zelnick, director de Take-Two, aseguró en 2024 que sus estudios saben adaptarse a consolas con distinta potencia, según GTABoom.
 
 ## Lo que dicen los rumores
 
-Un podcast polaco, citando a una fuente cercana a Rockstar, aseguró que habría **un modo rendimiento a 60 FPS** en PS5 y Xbox Series X. Otro rumor de 2025 hablaba de un trabajo conjunto de Sony y Rockstar para lograr 60 FPS en PS5 Pro. Nada de esto está confirmado, y contradice lo que apunta el análisis técnico.
+Según recoge OpenCritic, un podcast polaco que cita a una fuente cercana a Rockstar aseguró que habría **un modo rendimiento a 60 FPS** en PS5 y Xbox Series X. El mismo medio recuerda otro rumor de 2025 sobre un trabajo conjunto de Sony y Rockstar para lograr 60 FPS en PS5 Pro. Nada de esto está confirmado, y contradice lo que apunta el análisis técnico.
 
 ## ¿Merece la pena comprar una PS5 Pro para GTA 6?
 

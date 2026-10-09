@@ -59,7 +59,7 @@ Rockstar la describe como una colección de objetos exclusivos repartidos por to
 
 Lo explicamos con detalle en [¿merece la pena la edición Ultimate?](/guias/gta-6-merece-la-pena-edicion-ultimate/).
 
-Si dudas, puedes comprar la estándar y mejorar más adelante: Rockstar ha confirmado que habrá una mejora a la Ultimate, aunque todavía no ha publicado su precio oficial.
+Si dudas, puedes comprar la estándar y mejorar más adelante: todo apunta a que habrá una mejora a la Ultimate, porque ya aparece en la PlayStation Store, aunque sin precio.
 
 ## Bonus por reservar
 

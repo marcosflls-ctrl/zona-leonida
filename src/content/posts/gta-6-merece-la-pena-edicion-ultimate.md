@@ -37,7 +37,7 @@ Según la información oficial de Rockstar recogida por Gematsu y TheSixthAxis:
 - Para el piso franco de Jason: una moto **Dinka Enduro** o un kayak **Crest**, y un kit retro para su pick-up, la **Vapid Ganado**.
 
 **Talleres y encargos**
-- **Rideout Customs**, en Vice City, para personalizar interiores y llantas.
+- **Rideout Customs**, para personalizar interiores y llantas.
 - **One-Eyed Willie's**, junto al lago Leonida, con piezas todoterreno y pintura a mano.
 - Una **colección de coches clásicos** que restaura el personaje Wyman, con cuatro vehículos exclusivos.
 
@@ -49,7 +49,7 @@ Según la información oficial de Rockstar recogida por Gematsu y TheSixthAxis:
 - La tienda de ropa **Stock 305** y la colección Goodtime Gear.
 - La peluquería **Sara's Unisex Salon**.
 - El estudio **Electric Fang Tattoo**, con más de 50 tatuajes.
-- Un almacén de mercancía ilegal de los PTT Youngin$.
+- Un complejo de la banda PTT Youngin$ en Southside, con mercancía ilegal.
 
 Según TheSixthAxis, el contenido **se va desbloqueando a medida que avanzas** por los capítulos de la historia, no aparece todo de golpe al empezar.
 
@@ -68,7 +68,7 @@ Las reservas digitales suman además un mes de GTA+, que sirve para el GTA Onlin
 
 **No merece la pena si:**
 - Solo quieres jugar la historia: la Ultimate no añade misiones principales.
-- Vas justo de presupuesto. Rockstar ha confirmado que habrá una **mejora de la estándar a la Ultimate**, así que puedes comprar la estándar y decidir más tarde. Todavía no ha publicado su precio oficial.
+- Vas justo de presupuesto. Todo apunta a que habrá una **mejora de la estándar a la Ultimate**: ya aparece en la PlayStation Store, aunque sin precio. Así que puedes comprar la estándar y decidir más tarde.
 
 ## ¿Hay edición Ultimate física?
 

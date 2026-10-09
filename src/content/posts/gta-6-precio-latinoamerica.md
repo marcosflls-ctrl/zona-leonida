@@ -23,6 +23,8 @@ sources:
     url: "https://www.bluradio.com/tecnologia/si-piensa-comprar-gta-6-playstation-advierte-cambio-en-la-tienda-de-colombia-so35"
   - name: "MDZ: bloqueo regional de las copias físicas de PS5 en Argentina"
     url: "https://www.mdzol.com/tecnologia/gta-6-playstation-5-tendra-bloqueo-argentina-cuales-son-los-cambios-y-quienes-afecta-n1575146/amp"
+  - name: "LevelUp: la transición a pesos en la PS Store de México"
+    url: "https://www.levelup.com/noticias/gta-vi-costara-100-mxn-en-mexico-empieza-la-transicion-a-pesos-mexicanos-en-la-ps-store-de-playstation-y-los-precios-confunden-a-los-jugadores/"
 ---
 
 El precio oficial de GTA 6 es de **79,99 dólares la edición estándar y 99,99 dólares la Ultimate**, pero en Latinoamérica lo que pagas depende de la tienda, de los impuestos de cada país y de si la tienda cobra en dólares o en moneda local. Estos son los precios publicados en cada país.
@@ -44,9 +46,9 @@ Precios publicados por Infobae y Xataka México al abrir las reservas, en junio 
 
 ## México
 
-En la **Microsoft Store**, GTA 6 cuesta **1.499 pesos** la estándar y **1.879 pesos** la Ultimate. En tiendas físicas, la estándar está en torno a 1.699 pesos en Gameplanet y 1.799 en Amazon México, según adn40.
+En la **Microsoft Store**, GTA 6 cuesta **1.499 pesos** la estándar y **1.879 pesos** la Ultimate. En tiendas físicas, la estándar está en torno a 1.699 pesos en Gameplanet y 1.799 en Amazon México, según Xataka México y adn40.
 
-En PlayStation hubo lío: la PS Store mexicana cobraba en dólares y **pasó a cobrar en pesos el 20 de agosto de 2026**. Durante el cambio llegó a mostrar por error «79,99 MXN». Si juegas en PS5, mira el precio actual en la tienda.
+En PlayStation hubo lío: la PS Store mexicana cobraba en dólares y **pasó a cobrar en pesos el 20 de agosto de 2026**. Durante el cambio, según LevelUp, llegó a mostrar por error «79,99 MXN». Si juegas en PS5, mira el precio actual en la tienda.
 
 ## Argentina
 
@@ -56,7 +58,7 @@ Ojo con las **copias físicas de PS5**: según MDZ, el código que traen solo se
 
 ## Colombia
 
-En Xbox, **339.900 pesos** la estándar y **424.900** la Ultimate, impuestos incluidos según Noticias RCN e Infobae. La PS Store colombiana **pasa a cobrar en pesos el 8 de octubre de 2026**, con un cambio fijo de 4.000 pesos por dólar, lo que puede encarecer el juego en PS5 respecto a las primeras cifras.
+En Xbox, **339.900 pesos** la estándar y **424.900** la Ultimate, impuestos incluidos según Noticias RCN e Infobae. La PS Store colombiana **pasa a cobrar en pesos el 8 de octubre de 2026**, con un cambio de unos 4.000 pesos por dólar según Blu Radio, lo que puede encarecer el juego en PS5 respecto a las primeras cifras.
 
 ## Chile
 

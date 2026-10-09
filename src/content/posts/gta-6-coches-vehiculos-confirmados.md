@@ -17,6 +17,8 @@ sources:
     url: "https://videogameschronicle.com/news/everything-shown-at-the-grand-theft-auto-6-netflix-special"
   - name: "Gear Live: cómo funciona el robo de coches en GTA 6"
     url: "https://www.gearlive.com/news/article/gta-6-stolen-cars-tools-80-hour-figure"
+  - name: "Dexerto: todo lo que se vio en el especial de Netflix"
+    url: "https://www.dexerto.com/gta/everything-revealed-in-gta-6-netflix-extended-look-3403132/"
 ---
 
 Rockstar todavía no ha publicado una lista completa de coches, pero ya ha enseñado unos cuantos con nombre y apellido, sobre todo en la edición Ultimate y en el bonus de reserva. Esta es la lista de **vehículos confirmados oficialmente**, con el coche real al que se parecen según la prensa del motor.
@@ -59,7 +61,7 @@ Un encargo para encontrar clásicos abandonados que restaura el personaje Wyman,
 
 ## Lo que se vio en «Una mirada extendida»
 
-El especial de agosto de 2026 enseñó cómo se mueven los vehículos por Leonida. Según VGC y Dexerto, aparecen:
+El especial de agosto de 2026 enseñó cómo se mueven los vehículos por Leonida. Según Dexerto, aparecen:
 
 - **Hidrodeslizadores** cruzando los pantanos de Grassrivers, kayaks y motos de agua.
 - **Carreras** en circuito y callejeras, quedadas de coches y carreras de motos de tierra.

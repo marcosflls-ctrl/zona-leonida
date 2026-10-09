@@ -23,6 +23,12 @@ sources:
     url: "https://www.gearlive.com/news/article/rockstar-gta-6-no-microtransactions-no-ai"
   - name: "Rockstar Games Newswire: la música de GTA VI"
     url: "https://www.rockstargames.com/newswire/article/o3982oa93a23k4/the-music-of-grand-theft-auto-vi-in-game-radio-stations"
+  - name: "Beebom: el dinero en efectivo se puede perder en GTA 6"
+    url: "https://beebom.com/ive-never-worried-about-money-in-gta-games-gta-6-changes-that/"
+  - name: "TechJuice: Rockstar confirma que GTA 6 se contará por capítulos"
+    url: "https://www.techjuice.pk/rockstar-confirms-gta-6-will-use-chapters-to-tell-its-story/"
+  - name: "TheSixthAxis: edición Ultimate y pack Vintage Vice City"
+    url: "https://www.thesixthaxis.com/2026/06/24/gta-6-ultimate-edition-pre-order-bonus-and-vintage-vice-city-pack-revealed/"
 ---
 
 GTA 5 salió en 2013, y GTA 6 llega trece años después con cambios importantes en cómo se juega. Estas son las **novedades confirmadas** por Rockstar, sobre todo por boca de Rob Nelson, codirector de Rockstar North, en sus entrevistas con IGN, Famitsu, Dazed y otros medios.
@@ -37,7 +43,7 @@ Como en Red Dead Redemption 2, la historia se cuenta **por capítulos**, con mis
 
 ## 3. El dinero importa (y se puede perder)
 
-En GTA 5 acababas con millones sin saber en qué gastarlos. En GTA 6, Nelson dijo a Famitsu que **solo con las misiones no tendrás dinero suficiente para avanzar** en la historia. Y el efectivo que llevas encima **se pierde si mueres** antes de ingresarlo en el banco.
+En GTA 5 acababas con millones sin saber en qué gastarlos. En GTA 6, Nelson dijo a Famitsu que **solo con las misiones no tendrás dinero suficiente para avanzar** en la historia. Y, según contó a la revista Trois Couleurs, el efectivo que llevas encima **se pierde si mueres** antes de ingresarlo en el banco.
 
 ## 4. Robar (casi) cualquier cosa
 
@@ -63,9 +69,9 @@ El ejercicio cambia la musculatura de los personajes y la comida, su peso. Los p
 
 GTA 6 tiene la selección de emisoras más amplia de la saga y, por primera vez, **pódcasts a la carta**. La radio y los pódcasts se pueden escuchar también a pie, con auriculares conectados al móvil. Repasa las emisoras en nuestra [noticia sobre la música de GTA 6](/noticias/gta-6-presenta-seis-emisoras-de-radio-y-podcast-bajo-demanda/).
 
-## 10. Sin microtransacciones en la historia
+## 10. Sin microtransacciones ni IA generativa
 
-Según Rockstar, el modo historia no tendrá **microtransacciones ni contenido creado con IA generativa**.
+Rob Nelson aseguró en una entrevista, recogida por Gear Live, que el juego no tendrá **microtransacciones ni contenido creado con IA generativa**.
 
 ## ¿Cuánto dura?
 
