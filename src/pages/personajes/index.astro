@@ -1,0 +1,59 @@
+---
+import Base from '../../layouts/Base.astro';
+import { SITE } from '../../config';
+import { PERSONAJES } from '../../data/personajes';
+
+const title = 'Personajes de GTA 6: todos los confirmados, con fotos oficiales';
+const description = 'Fichas de todos los personajes de GTA 6: Jason, Lucía, Cal, Boobie, Dre\'Quan, Real Dimez, Raúl y Brian. Lo que confirma Rockstar, fotos oficiales y rumores.';
+const img = (s: string) => `/img/oficial/${s}.webp`;
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: title,
+  description,
+  url: `${SITE.url}/personajes/`,
+  inLanguage: 'es',
+  hasPart: PERSONAJES.map((p) => ({ '@type': 'Article', headline: p.titulo, url: `${SITE.url}/personajes/${p.slug}/` })),
+};
+const [jason, lucia, ...resto] = PERSONAJES;
+---
+<Base title={title} description={description} image={img('jason-y-lucia-1')} jsonLd={jsonLd}>
+  <nav class="breadcrumbs"><a href="/">Inicio</a> › Personajes</nav>
+  <h1 class="section-title">Personajes de GTA 6</h1>
+  <p class="lead">Todos los personajes que Rockstar ha presentado antes del lanzamiento. En cada ficha: lo que es oficial, sus imágenes y, aparte, lo que dicen los rumores.</p>
+
+  <h2 class="sub">Protagonistas</h2>
+  <ul class="cards grandes">
+    {[jason, lucia].map((p) => (
+      <li><a href={`/personajes/${p.slug}/`}>
+        <img src={img(p.imagenes[0])} alt={`${p.nombre}, imagen oficial de GTA VI`} width="800" height="450" />
+        <strong>{p.nombre}</strong><span>{p.rol}</span>
+      </a></li>
+    ))}
+  </ul>
+
+  <h2 class="sub">Secundarios</h2>
+  <ul class="cards">
+    {resto.map((p) => (
+      <li><a href={`/personajes/${p.slug}/`}>
+        <img src={img(p.imagenes[0])} alt={`${p.nombre}, imagen oficial de GTA VI`} width="400" height="225" loading="lazy" />
+        <strong>{p.nombre}</strong><span>{p.rol}</span>
+      </a></li>
+    ))}
+  </ul>
+  <p class="credit">Imágenes: Rockstar Games</p>
+  <p>¿Quieres verlos en movimiento? Mira los <a href="/trailers/">tráilers oficiales</a>. Y si buscas un resumen rápido, tienes la <a href="/guias/gta-6-personajes/">guía de personajes</a>.</p>
+</Base>
+<style>
+  .section-title { font-size: clamp(2.2rem, 6vw, 3.2rem); margin: 8px 0; }
+  .lead { font-size: 1.15rem; color: var(--muted); max-width: 720px; }
+  .sub { font-size: 1.6rem; margin: 32px 0 12px; }
+  .cards { list-style: none; padding: 0; margin: 0; display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+  .cards.grandes { grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); }
+  .cards a { display: flex; flex-direction: column; gap: 4px; height: 100%; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; text-decoration: none; color: var(--text); transition: border-color .15s, box-shadow .15s; }
+  .cards a:hover { border-color: var(--pink); box-shadow: var(--glow-pink); }
+  .cards img { width: 100%; height: auto; aspect-ratio: 16/9; object-fit: cover; display: block; }
+  .cards strong { padding: 6px 12px 0; font-size: 1.15rem; }
+  .cards.grandes strong { font-family: Anton, sans-serif; font-weight: 400; font-size: 1.8rem; text-transform: uppercase; }
+  .cards span { padding: 0 12px 14px; color: var(--muted); font-size: .92rem; }
+</style>

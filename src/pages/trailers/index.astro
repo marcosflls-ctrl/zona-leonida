@@ -1,0 +1,87 @@
+---
+import Base from '../../layouts/Base.astro';
+import AdSlot from '../../components/AdSlot.astro';
+import { SITE } from '../../config';
+
+const VIDEOS = [
+  {
+    id: 'tJbzMqJGH4k',
+    titulo: 'GTA VI: Una mirada extendida',
+    fecha: '2026-08-27',
+    fechaTxt: '27 de agosto de 2026',
+    texto: 'El vistazo más largo al juego hasta ahora. Se estrenó primero en Netflix y después llegó al canal de YouTube de Rockstar. Enseña mucho más de Leonida, de la historia de Jason y Lucía y de cómo se juega.',
+  },
+  {
+    id: 'VQRLujxTm3c',
+    titulo: 'GTA VI: Tráiler 2',
+    fecha: '2025-05-06',
+    fechaTxt: '6 de mayo de 2025',
+    texto: 'El segundo tráiler profundiza en la relación entre Jason y Lucía y presenta a buena parte de los secundarios. Suena «Hot Together», de The Pointer Sisters.',
+  },
+  {
+    id: 'QdBZY2fkU-0',
+    titulo: 'GTA VI: Tráiler 1',
+    fecha: '2023-12-05',
+    fechaTxt: '5 de diciembre de 2023',
+    texto: 'La presentación oficial del juego: Lucía en la cárcel, la vuelta a Vice City y un repaso a la locura de Leonida, al ritmo de «Love Is a Long Road», de Tom Petty.',
+  },
+];
+const title = 'Tráilers de GTA 6: todos los vídeos oficiales';
+const description = 'Mira todos los tráilers oficiales de GTA 6 en un solo sitio: el tráiler 1, el tráiler 2 y «Una mirada extendida», con lo más importante de cada uno.';
+const jsonLd = VIDEOS.map((v) => ({
+  '@context': 'https://schema.org',
+  '@type': 'VideoObject',
+  name: v.titulo,
+  description: v.texto,
+  uploadDate: v.fecha,
+  thumbnailUrl: `https://i.ytimg.com/vi/${v.id}/maxresdefault.jpg`,
+  embedUrl: `https://www.youtube-nocookie.com/embed/${v.id}`,
+  contentUrl: `https://www.youtube.com/watch?v=${v.id}`,
+  publisher: { '@type': 'Organization', name: 'Rockstar Games' },
+}));
+---
+<Base title={title} description={description} image={`https://i.ytimg.com/vi/${VIDEOS[0].id}/maxresdefault.jpg`} jsonLd={jsonLd}>
+  <nav class="breadcrumbs"><a href="/">Inicio</a> › Tráilers</nav>
+  <h1 class="section-title">Tráilers de GTA 6</h1>
+  <p class="lead">Todos los vídeos oficiales de Rockstar Games, del más reciente al primero. Pulsa en cualquiera para verlo aquí mismo.</p>
+
+  {VIDEOS.map((v, i) => (
+    <section class="video">
+      <h2>{v.titulo}</h2>
+      <p class="muted small"><time datetime={v.fecha}>{v.fechaTxt}</time> · Vídeo: Rockstar Games</p>
+      <button class="yt" data-id={v.id} aria-label={`Reproducir ${v.titulo}`}>
+        <img src={`https://i.ytimg.com/vi/${v.id}/maxresdefault.jpg`} alt={`Miniatura de ${v.titulo}`} width="1280" height="720" loading={i === 0 ? 'eager' : 'lazy'}
+          onerror={`this.onerror=null;this.src='https://i.ytimg.com/vi/${v.id}/hqdefault.jpg'`} />
+        <span class="play" aria-hidden="true"></span>
+      </button>
+      <p>{v.texto}</p>
+      {i === 0 && <AdSlot />}
+    </section>
+  ))}
+
+  <p class="mas">Conoce a los <a href="/personajes/">personajes que salen en los tráilers</a> y repasa <a href="/guias/gta-6-todo-lo-que-sabemos/">todo lo que sabemos de GTA 6</a>.</p>
+</Base>
+<script>
+  document.querySelectorAll<HTMLButtonElement>('.yt').forEach((b) => {
+    b.addEventListener('click', () => {
+      const f = document.createElement('iframe');
+      f.src = `https://www.youtube-nocookie.com/embed/${b.dataset.id}?autoplay=1`;
+      f.title = b.getAttribute('aria-label') ?? 'Vídeo';
+      f.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen';
+      f.allowFullscreen = true;
+      b.replaceWith(f);
+    }, { once: true });
+  });
+</script>
+<style>
+  .section-title { font-size: clamp(2.2rem, 6vw, 3.2rem); margin: 8px 0; }
+  .lead { font-size: 1.15rem; color: var(--muted); max-width: 720px; }
+  .video { margin: 36px 0; max-width: 900px; }
+  .video h2 { font-size: 1.8rem; margin: 0 0 4px; }
+  .yt, .video :global(iframe) { display: block; width: 100%; aspect-ratio: 16/9; border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; padding: 0; background: #000; position: relative; cursor: pointer; }
+  .yt img { width: 100%; height: 100%; object-fit: cover; display: block; transition: opacity .15s; }
+  .yt:hover img { opacity: .85; }
+  .play { position: absolute; inset: 0; margin: auto; width: 84px; height: 84px; border-radius: 50%; background: var(--pink); box-shadow: var(--glow-pink); }
+  .play::after { content: ''; position: absolute; left: 34px; top: 26px; border-style: solid; border-width: 16px 0 16px 26px; border-color: transparent transparent transparent #fff; }
+  .mas { margin-top: 24px; }
+</style>

@@ -17,7 +17,7 @@ sources:
     url: "https://www.pcgamesn.com/grand-theft-auto-6/characters"
 ---
 
-GTA 6 tiene **dos protagonistas jugables, Jason y Lucía**, y un reparto de secundarios que Rockstar ha ido presentando en sus tráilers y en su web. Esta es la lista de personajes confirmados oficialmente, sin rumores, con las imágenes oficiales de Rockstar.
+GTA 6 tiene **dos protagonistas jugables, Jason y Lucía**, y un reparto de secundarios que Rockstar ha ido presentando en sus tráilers y en su web. Esta es la lista de personajes confirmados oficialmente, sin rumores, con las imágenes oficiales de Rockstar. Cada uno tiene además su [ficha completa en la sección de personajes](/personajes/).
 
 ## Los protagonistas
 
@@ -27,6 +27,8 @@ GTA 6 tiene **dos protagonistas jugables, Jason y Lucía**, y un reparto de secu
 
 La primera protagonista femenina de la saga desde los GTA de los años noventa, y la primera de la era moderna. Sale de prisión con la intención de rehacer su vida, pero las circunstancias la empujan de nuevo al crimen junto a Jason.
 
+→ [Ficha completa de Lucía Caminos: imágenes y rumores](/personajes/lucia-caminos/)
+
 ### Jason Duval
 
 <div class="oficial-par"><figure class="oficial"><img src="/img/oficial/jason-duval-1.webp" alt="Jason Duval, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure><figure class="oficial"><img src="/img/oficial/jason-duval-4.webp" alt="Jason Duval, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure></div>
@@ -34,6 +36,8 @@ La primera protagonista femenina de la saga desde los GTA de los años noventa, 
 Exmilitar que se gana la vida con trabajos de todo tipo en Leonida, incluidos encargos para traficantes locales. Conoce a Lucía y su historia cambia por completo.
 
 Rockstar resume la historia de la pareja así: los dos "siempre han sabido que tienen las cartas en contra". La aventura se cuenta por capítulos.
+
+→ [Ficha completa de Jason Duval: imágenes y rumores](/personajes/jason-duval/)
 
 ## Los secundarios confirmados
 
@@ -43,11 +47,15 @@ Rockstar resume la historia de la pareja así: los dos "siempre han sabido que t
 
 Amigo de Jason. Le ayuda en los trabajos y pasa tiempo con la pareja.
 
+→ [Ficha completa de Cal Hampton: imágenes y rumores](/personajes/cal-hampton/)
+
 ### Boobie Ike
 
 <figure class="oficial"><img src="/img/oficial/boobie-ike-1.webp" alt="Boobie Ike, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure>
 
 Una figura conocida de Vice City, con negocios en el sector inmobiliario, clubes y un estudio de grabación.
+
+→ [Ficha completa de Boobie Ike: imágenes y rumores](/personajes/boobie-ike/)
 
 ### Dre'Quan Priest
 
@@ -55,11 +63,15 @@ Una figura conocida de Vice City, con negocios en el sector inmobiliario, clubes
 
 Aspirante a productor musical en el estudio de Boobie, que también se dedica a otros negocios menos legales.
 
+→ [Ficha completa de Dre'Quan Priest: imágenes y rumores](/personajes/dre-quan-priest/)
+
 ### Real Dimez
 
 <figure class="oficial"><img src="/img/oficial/real-dimez-1.webp" alt="Real Dimez, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure>
 
 Un dúo musical formado por Bae-Luxe y Roxy, que fichan por el sello Only Raw Records.
+
+→ [Ficha completa de Real Dimez: imágenes y rumores](/personajes/real-dimez/)
 
 ### Raúl Bautista
 
@@ -67,11 +79,15 @@ Un dúo musical formado por Bae-Luxe y Roxy, que fichan por el sello Only Raw Re
 
 Un atracador de bancos temerario, con pinta de acabar compartiendo golpes con Jason y Lucía.
 
+→ [Ficha completa de Raúl Bautista: imágenes y rumores](/personajes/raul-bautista/)
+
 ### Brian Heder
 
 <figure class="oficial"><img src="/img/oficial/brian-heder-1.webp" alt="Brian Heder, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure>
 
 Un veterano del contrabando que vive en los Cayos de Leonida. Según Rockstar, le deja a Jason un sitio donde vivir a cambio de que le ayude con sus negocios.
+
+→ [Ficha completa de Brian Heder: imágenes y rumores](/personajes/brian-heder/)
 
 ## ¿Habrá más personajes?
 

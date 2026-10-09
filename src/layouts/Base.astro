@@ -59,6 +59,8 @@ const path = Astro.url.pathname;
         {Object.entries(CATEGORIES).map(([key, c]) => (
           <a href={`/${key}/`} aria-current={path.startsWith(`/${key}/`) ? 'page' : undefined}>{c.label}</a>
         ))}
+        <a href="/personajes/" aria-current={path.startsWith('/personajes/') ? 'page' : undefined}>Personajes</a>
+        <a href="/trailers/" aria-current={path.startsWith('/trailers/') ? 'page' : undefined}>Tráilers</a>
       </nav>
     </div>
   </header>

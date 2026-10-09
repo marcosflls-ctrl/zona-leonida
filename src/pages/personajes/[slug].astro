@@ -1,0 +1,134 @@
+---
+import Base from '../../layouts/Base.astro';
+import AdSlot from '../../components/AdSlot.astro';
+import { SITE } from '../../config';
+import { PERSONAJES, bySlug, type Personaje } from '../../data/personajes';
+
+export function getStaticPaths() {
+  return PERSONAJES.map((p) => ({ params: { slug: p.slug }, props: { p } }));
+}
+const { p } = Astro.props as { p: Personaje };
+const url = `${SITE.url}/personajes/${p.slug}/`;
+const img = (s: string) => `/img/oficial/${s}.webp`;
+const [hero, ...galeria] = p.imagenes;
+const relaciones = p.relaciones.map(bySlug).filter(Boolean) as Personaje[];
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: p.titulo,
+    description: p.descripcion,
+    inLanguage: 'es',
+    mainEntityOfPage: url,
+    image: [new URL(img(hero), SITE.url).href],
+    author: { '@type': 'Organization', name: SITE.author, url: SITE.url },
+    publisher: { '@type': 'Organization', name: SITE.name, url: SITE.url },
+    about: { '@type': 'VideoGame', name: 'Grand Theft Auto VI' },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Inicio', item: SITE.url + '/' },
+      { '@type': 'ListItem', position: 2, name: 'Personajes', item: `${SITE.url}/personajes/` },
+      { '@type': 'ListItem', position: 3, name: p.nombre, item: url },
+    ],
+  },
+];
+---
+<Base title={p.titulo} description={p.descripcion} image={img(hero)} type="article" jsonLd={jsonLd}>
+  <article class="ficha">
+    <nav class="breadcrumbs"><a href="/">Inicio</a> › <a href="/personajes/">Personajes</a></nav>
+    <header>
+      <span class="tag">Personaje confirmado</span>
+      <h1>{p.nombre}</h1>
+      <p class="lead">{p.rol}</p>
+    </header>
+    <figure class="hero">
+      <img src={img(hero)} alt={`${p.nombre}, imagen oficial de GTA VI`} width="1600" height="900" fetchpriority="high" />
+      <figcaption class="credit">Imagen: Rockstar Games</figcaption>
+    </figure>
+
+    <blockquote class="frase">«{p.frase}»</blockquote>
+
+    <div class="prose">
+      <h2>Quién es {p.nombre}</h2>
+      {p.bio.map((t) => <p>{t}</p>)}
+      <p class="muted small">Información oficial resumida de la web de Rockstar Games.</p>
+    </div>
+
+    {galeria.length > 0 && (
+      <section>
+        <h2>Imágenes oficiales</h2>
+        <div class="galeria">
+          {galeria.map((s) => (
+            <a href={img(s)} target="_blank" rel="noopener">
+              <img src={img(s)} alt={`${p.nombre}, imagen oficial de GTA VI`} width="1600" height="900" loading="lazy" />
+            </a>
+          ))}
+        </div>
+        <p class="credit">Imágenes: Rockstar Games</p>
+      </section>
+    )}
+
+    <AdSlot />
+
+    <section class="rumores">
+      <h2>Rumores y teorías sobre {p.nombre}</h2>
+      <p class="aviso"><strong>Ojo:</strong> nada de esto está confirmado por Rockstar. Son teorías de fans e informaciones publicadas por medios, que recogemos citando la fuente.</p>
+      {p.rumores.length > 0 ? (
+        <ul>
+          {p.rumores.map((r) => (
+            <li>
+              <span class="tag rumor">Rumor</span>
+              <p>{r.texto}</p>
+              <p class="muted small">Fuente: <a href={r.url} rel="nofollow noopener" target="_blank">{r.medio}</a> · {r.fecha}</p>
+            </li>
+          ))}
+        </ul>
+      ) : (
+        <p class="muted">De momento no hay rumores fiables sobre este personaje. Si aparece alguno en un medio serio, lo añadiremos aquí.</p>
+      )}
+    </section>
+
+    {relaciones.length > 0 && (
+      <section>
+        <h2>Personajes relacionados</h2>
+        <ul class="cards">
+          {relaciones.map((r) => (
+            <li><a href={`/personajes/${r.slug}/`}>
+              <img src={img(r.imagenes[0])} alt="" width="320" height="180" loading="lazy" />
+              <strong>{r.nombre}</strong><span>{r.rol}</span>
+            </a></li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    <p class="mas">Ver <a href="/personajes/">todos los personajes</a>, los <a href="/trailers/">tráilers oficiales</a> o el <a href="/guias/gta-6-mapa-leonida/">mapa de Leonida</a>.</p>
+  </article>
+</Base>
+<style>
+  .ficha { max-width: 860px; }
+  .ficha h1 { font-size: clamp(2.4rem, 7vw, 3.6rem); margin: 10px 0 6px; }
+  .lead { font-size: 1.2rem; color: var(--muted); margin: 0 0 18px; }
+  .hero { margin: 0 0 18px; }
+  .hero img { width: 100%; height: auto; border-radius: var(--radius); border: 1px solid var(--line); display: block; }
+  .frase { font-family: Anton, sans-serif; font-size: clamp(1.4rem, 4vw, 2rem); color: var(--pink); text-shadow: var(--glow-pink); margin: 8px 0 24px; text-transform: uppercase; line-height: 1.15; }
+  section { margin-top: 36px; }
+  section h2 { font-size: 1.8rem; }
+  .galeria { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 10px; }
+  .galeria img { width: 100%; height: auto; aspect-ratio: 16/9; object-fit: cover; border-radius: 12px; border: 1px solid var(--line); display: block; transition: box-shadow .15s; }
+  .galeria a:hover img { box-shadow: var(--glow-teal); }
+  .aviso { background: #ff8a3d1a; border: 1px solid #ff8a3d55; border-radius: 12px; padding: 10px 14px; }
+  .rumores ul { list-style: none; padding: 0; display: grid; gap: 12px; }
+  .rumores li { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 16px; }
+  .rumores li p { margin: 8px 0 0; }
+  .cards { list-style: none; padding: 0; display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); }
+  .cards a { display: flex; flex-direction: column; gap: 4px; height: 100%; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; text-decoration: none; color: var(--text); }
+  .cards a:hover { border-color: var(--teal); box-shadow: var(--glow-teal); }
+  .cards img { width: 100%; height: auto; aspect-ratio: 16/9; object-fit: cover; }
+  .cards strong, .cards span { padding: 0 12px; }
+  .cards span { color: var(--muted); font-size: .9rem; padding-bottom: 12px; }
+  .mas { margin-top: 32px; }
+</style>
