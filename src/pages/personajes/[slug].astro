@@ -6,6 +6,8 @@ import Siguenos from '../../components/Siguenos.astro';
 import { SITE } from '../../config';
 import { srcset } from '../../lib/img';
 import { PERSONAJES, bySlug, type Personaje } from '../../data/personajes';
+import GALERIA from '../../../scripts/galeria.json';
+import fs from 'node:fs';
 
 export function getStaticPaths() {
   return PERSONAJES.map((p) => ({ params: { slug: p.slug }, props: { p } }));
@@ -13,7 +15,15 @@ export function getStaticPaths() {
 const { p } = Astro.props as { p: Personaje };
 const url = `${SITE.url}/personajes/${p.slug}/`;
 const img = (s: string) => `/img/oficial/${s}.webp`;
-const [hero, ...galeria] = p.imagenes;
+const hero = p.imagenes[0];
+// todas las fotos oficiales del personaje que ya estén descargadas (y, para los protagonistas, las de la pareja)
+const grupos = p.slug === 'jason-duval' || p.slug === 'lucia-caminos' ? [p.slug, 'jason-y-lucia'] : [p.slug];
+const galeria = GALERIA.imagenes
+  .filter((g) => grupos.includes(g.grupo) && g.slug !== hero && fs.existsSync(`public/img/oficial/${g.slug}.webp`))
+  .sort((a, b) => grupos.indexOf(a.grupo) - grupos.indexOf(b.grupo));
+const propias = galeria.filter((g) => g.grupo === p.slug).map((g) => g.slug);
+const pareja = galeria.filter((g) => g.grupo === 'jason-y-lucia').map((g) => g.slug);
+const otro = p.slug === 'jason-duval' ? 'Lucía' : 'Jason';
 const relaciones = p.relaciones.map(bySlug).filter(Boolean) as Personaje[];
 const jsonLd = [
   {
@@ -60,17 +70,31 @@ const jsonLd = [
       <p class="muted small">Información oficial resumida de la web de Rockstar Games.</p>
     </div>
 
-    {galeria.length > 0 && (
+    {propias.length > 0 && (
       <section>
         <h2>Imágenes oficiales</h2>
         <div class="galeria">
-          {galeria.map((s) => (
+          {propias.map((s) => (
             <a href={img(s)} target="_blank" rel="noopener">
               <img src={img(s)} srcset={srcset(img(s))} sizes="(max-width: 600px) 100vw, 280px" alt={`${p.nombre}, imagen oficial de GTA VI`} width="1600" height="900" loading="lazy" />
             </a>
           ))}
         </div>
         <p class="credit">Imágenes: Rockstar Games</p>
+      </section>
+    )}
+
+    {pareja.length > 0 && (
+      <section>
+        <h2>Junto a {otro}</h2>
+        <div class="galeria">
+          {pareja.map((s) => (
+            <a href={img(s)} target="_blank" rel="noopener">
+              <img src={img(s)} srcset={srcset(img(s))} sizes="(max-width: 600px) 100vw, 280px" alt="Jason y Lucía, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" />
+            </a>
+          ))}
+        </div>
+        <p class="credit">Imágenes: Rockstar Games · <a href="/imagenes-oficiales/">Ver todas las imágenes oficiales</a></p>
       </section>
     )}
 

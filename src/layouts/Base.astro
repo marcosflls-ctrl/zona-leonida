@@ -67,6 +67,7 @@ const path = Astro.url.pathname;
         ))}
         <a href="/personajes/" aria-current={path.startsWith('/personajes/') ? 'page' : undefined}>Personajes</a>
         <a href="/trailers/" aria-current={path.startsWith('/trailers/') ? 'page' : undefined}>Tráilers</a>
+        <a href="/imagenes-oficiales/" aria-current={path.startsWith('/imagenes-oficiales/') ? 'page' : undefined}>Imágenes</a>
       </nav>
     </div>
   </header>
@@ -168,6 +169,7 @@ const path = Astro.url.pathname;
     .header-inner { gap: 10px; }
     .site-header nav { display: none; position: absolute; top: 100%; left: 0; right: 0; padding: 12px 16px 16px; background: rgba(13,11,20,.98); border-bottom: 1px solid var(--line); grid-template-columns: 1fr 1fr; gap: 8px; }
     .site-header nav.open { display: grid; }
+    .site-header nav a:last-child:nth-child(odd) { grid-column: 1 / -1; }
     .site-header nav a { font-size: 1rem; padding: 12px 14px; border-radius: 12px; background: var(--surface); border: 1px solid var(--line); text-align: center; }
   }
 

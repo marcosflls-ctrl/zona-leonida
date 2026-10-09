@@ -1,0 +1,134 @@
+---
+import fs from 'node:fs';
+import Base from '../layouts/Base.astro';
+import Compartir from '../components/Compartir.astro';
+import Siguenos from '../components/Siguenos.astro';
+import { SITE } from '../config';
+import GALERIA from '../../scripts/galeria.json';
+
+const title = 'Imágenes oficiales de GTA 6: galería completa de Rockstar';
+const description = 'Todas las capturas oficiales de GTA 6 publicadas por Rockstar: Jason y Lucía, personajes, Vice City y Leonida, la edición Ultimate y el pack Vintage Vice City.';
+const url = `${SITE.url}/imagenes-oficiales/`;
+
+// Secciones de la página y grupos que incluye cada una, en orden
+const SECCIONES: { titulo: string; id: string; grupos: [string, string, string?][] }[] = [
+  { titulo: 'Jason y Lucía', id: 'protagonistas', grupos: [['jason-y-lucia', 'Jason y Lucía'], ['jason-duval', 'Jason Duval', '/personajes/jason-duval/'], ['lucia-caminos', 'Lucía Caminos', '/personajes/lucia-caminos/']] },
+  { titulo: 'Personajes secundarios', id: 'personajes', grupos: [
+    ['cal-hampton', 'Cal Hampton', '/personajes/cal-hampton/'], ['boobie-ike', 'Boobie Ike', '/personajes/boobie-ike/'],
+    ['dre-quan-priest', "Dre'Quan Priest", '/personajes/dre-quan-priest/'], ['real-dimez', 'Real Dimez', '/personajes/real-dimez/'],
+    ['raul-bautista', 'Raúl Bautista', '/personajes/raul-bautista/'], ['brian-heder', 'Brian Heder', '/personajes/brian-heder/']] },
+  { titulo: 'Vice City y Leonida', id: 'lugares', grupos: [
+    ['vice-city', 'Vice City'], ['cayos-de-leonida', 'Cayos de Leonida'], ['grassrivers', 'Grassrivers'],
+    ['port-gellhorn', 'Port Gellhorn'], ['ambrosia', 'Ambrosía'], ['monte-kalaga', 'Monte Kalaga']] },
+  { titulo: 'Edición Ultimate', id: 'ultimate', grupos: [
+    ['ultimate-edition', 'Edición Ultimate'], ['grotti-cheetah', 'Grotti Cheetah del 95'], ['vapid-dominator-buggy', 'Vapid Dominator Buggy del 67'],
+    ['shitzu-squalo', 'Shitzu Squalo'], ['piso-franco-vehiculos', 'Piso franco de Jason'], ['dinka-enduro', 'Dinka Enduro'], ['kayak-crest', 'Kayak Crest'],
+    ['vapid-ganado-retro', 'Vapid Ganado retro'], ['coleccion-clasicos', 'Colección de clásicos'], ['rideout-customs', 'Rideout Customs'],
+    ['one-eyed-willies', "One-Eyed Willie's"], ['revolveres-hawk-little-morgan', 'Revólveres Hawk & Little Morgan'], ['armas-personalizadas', 'Armas personalizadas'],
+    ['estilos-vice-city', 'Estilos de Vice City'], ['tienda-stock-305', 'Stock 305'], ['peluqueria-saras', "Sara's Unisex Salon"],
+    ['electric-fang-tattoo', 'Electric Fang Tattoo'], ['goodtime-gear', 'Goodtime Gear'], ['ptt-youngins', 'PTT Youngin$']] },
+  { titulo: 'Pack Vintage Vice City', id: 'vintage', grupos: [
+    ['pack-vintage-vice-city', 'Pack Vintage Vice City'], ['vapid-stanier', 'Vapid Stanier del 55'], ['looks-vintage', 'Atuendos y peinados'], ['patron-armas-vintage', 'Patrón para armas']] },
+];
+const existe = (slug: string) => fs.existsSync(`public/img/oficial/${slug}.webp`);
+const fotos = (grupo: string) => GALERIA.imagenes.filter((g) => g.grupo === grupo && existe(g.slug));
+const secciones = SECCIONES.map((s) => ({ ...s, grupos: s.grupos.map(([g, label, link]) => ({ label, link, fotos: fotos(g) })).filter((g) => g.fotos.length) }))
+  .filter((s) => s.grupos.length);
+const total = secciones.reduce((n, s) => n + s.grupos.reduce((m, g) => m + g.fotos.length, 0), 0);
+const jsonLd = {
+  '@context': 'https://schema.org', '@type': 'ImageGallery', name: title, description, url, inLanguage: 'es',
+  image: secciones.flatMap((s) => s.grupos.flatMap((g) => g.fotos.slice(0, 1))).map((f) => ({
+    '@type': 'ImageObject', contentUrl: `${SITE.url}/img/oficial/${f.slug}.webp`, name: f.alt, creditText: 'Rockstar Games', copyrightNotice: 'Rockstar Games',
+  })),
+};
+---
+<Base title={title} description={description} image="/img/oficial/vice-city-1.webp" jsonLd={jsonLd}>
+  <nav class="breadcrumbs"><a href="/">Inicio</a> › Imágenes oficiales</nav>
+  <h1>Imágenes oficiales de GTA 6</h1>
+  <p class="lead">Las {total} capturas oficiales que Rockstar Games ha publicado en su kit de prensa, ordenadas por personajes, lugares y ediciones. Pulsa cualquiera para verla en grande.</p>
+  <nav class="indice" aria-label="Secciones">
+    {secciones.map((s) => <a href={`#${s.id}`}>{s.titulo}</a>)}
+  </nav>
+
+  {secciones.map((s) => (
+    <section id={s.id} class="sec">
+      <h2>{s.titulo}</h2>
+      {s.grupos.map((g) => (
+        <div class="grupo">
+          <h3>{g.link ? <a href={g.link}>{g.label} →</a> : g.label} <span>{g.fotos.length}</span></h3>
+          <div class="fotos">
+            {g.fotos.map((f) => (
+              <a href={`/img/oficial/${f.slug}.webp`} class="ft" data-alt={f.alt}>
+                <img src={`/img/oficial/${f.slug}-400.webp`} alt={f.alt} width="400" height="225" loading="lazy" />
+              </a>
+            ))}
+          </div>
+        </div>
+      ))}
+    </section>
+  ))}
+
+  <p class="credit">Todas las imágenes: © Rockstar Games. Zona Leonida es una web de fans sin relación con Rockstar Games.</p>
+  <Compartir url={url} title={title} />
+  <Siguenos />
+
+  <dialog id="visor" aria-label="Imagen ampliada">
+    <button class="cerrar" type="button" aria-label="Cerrar">✕</button>
+    <button class="nav prev" type="button" aria-label="Anterior">‹</button>
+    <figure><img id="visor-img" src="" alt="" /><figcaption id="visor-cap"></figcaption></figure>
+    <button class="nav next" type="button" aria-label="Siguiente">›</button>
+  </dialog>
+</Base>
+<script>
+  const links = [...document.querySelectorAll<HTMLAnchorElement>('a.ft')];
+  const dlg = document.getElementById('visor') as HTMLDialogElement;
+  const im = document.getElementById('visor-img') as HTMLImageElement;
+  const cap = document.getElementById('visor-cap')!;
+  let i = 0;
+  const show = (n: number) => {
+    i = (n + links.length) % links.length;
+    im.src = links[i].href; im.alt = links[i].dataset.alt ?? '';
+    cap.textContent = `${links[i].dataset.alt ?? ''} · Imagen: Rockstar Games`;
+  };
+  links.forEach((a, n) => a.addEventListener('click', (e) => { e.preventDefault(); show(n); dlg.showModal(); }));
+  dlg.querySelector('.cerrar')!.addEventListener('click', () => dlg.close());
+  dlg.querySelector('.prev')!.addEventListener('click', () => show(i - 1));
+  dlg.querySelector('.next')!.addEventListener('click', () => show(i + 1));
+  dlg.addEventListener('click', (e) => { if (e.target === dlg) dlg.close(); });
+  document.addEventListener('keydown', (e) => {
+    if (!dlg.open) return;
+    if (e.key === 'ArrowRight') show(i + 1);
+    if (e.key === 'ArrowLeft') show(i - 1);
+  });
+  let x0 = 0;
+  dlg.addEventListener('touchstart', (e) => { x0 = e.touches[0].clientX; }, { passive: true });
+  dlg.addEventListener('touchend', (e) => { const dx = e.changedTouches[0].clientX - x0; if (Math.abs(dx) > 50) show(i + (dx < 0 ? 1 : -1)); });
+</script>
+<style>
+  h1 { font-size: clamp(2.2rem, 6vw, 3.2rem); margin: 8px 0; }
+  .lead { color: var(--muted); font-size: 1.1rem; max-width: 760px; }
+  .indice { display: flex; flex-wrap: wrap; gap: 8px; margin: 18px 0 8px; }
+  .indice a { padding: 8px 14px; border-radius: 999px; background: var(--surface); border: 1px solid var(--line); color: var(--text); text-decoration: none; font-weight: 600; font-size: .92rem; }
+  .indice a:hover { border-color: var(--teal); }
+  .sec { margin-top: 40px; scroll-margin-top: 80px; }
+  .sec h2 { font-size: clamp(1.8rem, 5vw, 2.4rem); margin: 0 0 8px; }
+  .grupo { margin: 18px 0 24px; }
+  .grupo h3 { font-family: Inter, sans-serif; font-weight: 800; font-size: 1.05rem; margin: 0 0 10px; }
+  .grupo h3 a { color: var(--text); text-decoration: none; }
+  .grupo h3 a:hover { color: var(--teal); }
+  .grupo h3 span { color: var(--muted); font-weight: 600; font-size: .85rem; margin-left: 4px; }
+  .fotos { display: grid; gap: 8px; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); }
+  @media (max-width: 500px) { .fotos { grid-template-columns: 1fr 1fr; gap: 6px; } }
+  .ft img { width: 100%; height: auto; aspect-ratio: 16/9; object-fit: cover; border-radius: 10px; border: 1px solid var(--line); display: block; transition: transform .15s, box-shadow .15s; }
+  .ft:hover img { transform: scale(1.02); box-shadow: var(--glow-pink); }
+  dialog { width: min(96vw, 1400px); max-width: none; padding: 0; border: 0; background: transparent; color: var(--text); }
+  dialog::backdrop { background: rgba(5, 3, 10, .92); }
+  dialog figure { margin: 0; }
+  dialog img { width: 100%; height: auto; max-height: 82vh; object-fit: contain; border-radius: 12px; display: block; }
+  dialog figcaption { text-align: center; color: var(--muted); font-size: .85rem; margin-top: 8px; }
+  .cerrar, .nav { position: fixed; z-index: 2; border: 1px solid var(--line); background: rgba(23,19,31,.85); color: var(--text); cursor: pointer; border-radius: 999px; display: grid; place-items: center; }
+  .cerrar { top: 14px; right: 14px; width: 44px; height: 44px; font-size: 1.2rem; }
+  .nav { top: 50%; transform: translateY(-50%); width: 48px; height: 48px; font-size: 2rem; line-height: 1; }
+  .prev { left: 10px; } .next { right: 10px; }
+  .cerrar:hover, .nav:hover { border-color: var(--pink); box-shadow: var(--glow-pink); }
+</style>
