@@ -10,6 +10,13 @@ tags: [tamano, ps5, xbox, precarga]
 image: /img/banco/calle-1.webp
 imageAlt: "Ilustración de una calle de neón de noche en una ciudad tropical"
 imageCredit: "ilustración de Zona Leonida"
+compras:
+  - nombre: "SSD M.2 compatible con PS5 (1-2 TB, con disipador)"
+    busqueda: "SSD M.2 NVMe PS5 disipador 2TB"
+  - nombre: "Tarjeta de expansión para Xbox Series X|S"
+    busqueda: "tarjeta de expansion almacenamiento Xbox Series"
+  - nombre: "GTA 6 para PS5 y Xbox"
+    busqueda: "Grand Theft Auto VI"
 sources:
   - name: "Infobae: cifras estimadas del tamaño de GTA 6"
     url: "https://www.infobae.com/tecno/2026/06/30/gta-6-requerira-un-gran-espacio-en-disco-estas-son-las-cifras-estimadas-para-ps5-y-xbox-series/"

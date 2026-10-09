@@ -3,6 +3,7 @@ import { render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import PostCard from '../../components/PostCard.astro';
 import AdSlot from '../../components/AdSlot.astro';
+import Compras from '../../components/Compras.astro';
 import { CATEGORIES, SITE } from '../../config';
 import { getPublishedPosts, formatDate, readingTime } from '../../lib/posts';
 
@@ -67,6 +68,7 @@ const jsonLd = [
     )}
     <AdSlot />
     <div class="prose"><Content /></div>
+    <Compras items={d.compras} />
 
     {d.sources.length > 0 && (
       <aside class="sources">

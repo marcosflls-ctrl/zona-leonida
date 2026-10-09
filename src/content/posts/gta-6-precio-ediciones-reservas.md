@@ -10,6 +10,15 @@ tags: [precio, ediciones, reservas, ultimate]
 image: /img/banco/dinero-2.webp
 imageAlt: "Ilustración de un maletín con billetes sobre un coche bajo luces de neón"
 imageCredit: "ilustración de Zona Leonida"
+compras:
+  - nombre: "GTA 6 para PS5"
+    busqueda: "Grand Theft Auto VI PS5"
+    nota: "edición estándar"
+  - nombre: "GTA 6 para Xbox Series X|S"
+    busqueda: "Grand Theft Auto VI Xbox Series X"
+    nota: "edición estándar"
+  - nombre: "Mando DualSense para PS5"
+    busqueda: "mando DualSense PS5"
 sources:
   - name: "Rockstar Games: web oficial de GTA VI"
     url: "https://www.rockstargames.com/VI"

@@ -32,6 +32,7 @@ const path = Astro.url.pathname;
   <meta property="og:url" content={canonical} />
   <meta property="og:image" content={ogImage} />
   <meta name="twitter:card" content="summary_large_image" />
+  {SITE.social.x && <meta name="twitter:site" content={`@${SITE.social.x}`} />}
   <link rel="icon" href="/favicon-48.png" type="image/png" sizes="48x48" />
   <link rel="icon" href="/icon-192.png" type="image/png" sizes="192x192" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
@@ -78,6 +79,8 @@ const path = Astro.url.pathname;
         <a href="/aviso-legal/">Aviso legal</a>
         <a href="/privacidad/">Privacidad</a>
         <a href="/cookies/">Cookies</a>
+        {SITE.social.x && <a href={`https://x.com/${SITE.social.x}`} rel="me noopener" target="_blank">X (Twitter)</a>}
+        {SITE.social.telegram && <a href={`https://t.me/${SITE.social.telegram}`} rel="me noopener" target="_blank">Telegram</a>}
         <a href="/rss.xml">RSS</a>
       </nav>
     </div>

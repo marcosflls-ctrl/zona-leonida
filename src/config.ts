@@ -17,6 +17,10 @@ export const SITE = {
   adsenseClient: '',
   // Cloudflare Web Analytics (sin cookies): pega aquí el token cuando lo crees en Cloudflare.
   cfAnalyticsToken: '',
+  // Redes sociales
+  social: { x: 'ZonaLeonida', telegram: '' },
+  // Afiliados: pega tu ID de Amazon Afiliados (termina en -21). Mientras esté vacío no se muestran enlaces.
+  amazonTag: '',
 };
 
 export const CATEGORIES = {
