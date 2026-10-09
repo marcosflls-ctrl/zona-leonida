@@ -1,11 +1,13 @@
 ---
-title: "GTA 6 presenta seis emisoras de radio y pódcast bajo demanda"
-description: "Rockstar confirma seis emisoras de GTA 6, como Flash FM y Cocoteo FM, y estrena pódcast bajo demanda que también se podrán escuchar a pie."
+title: "GTA 6: sus emisoras de radio, canciones y temas de Travis Scott"
+description: "Rockstar confirma seis emisoras de GTA 6, con Bad Bunny o Lana Del Rey, temas inéditos de Travis Scott y Rauw Alejandro, y pódcast que se escuchan a pie."
 date: 2026-10-09T10:21:50+00:00
 category: noticias
-tags: [gta-6, radio, emisoras, musica, rockstar-games]
+tags: [gta-6, radio, banda-sonora, bad-bunny, travis-scott]
 rumor: false
 sources:
+  - name: "3DJuegos: banda sonora de GTA 6, artistas y canciones confirmados"
+    url: "https://www.3djuegos.com/juegos/grand-theft-auto-vi/noticias/solo-rockstar-puede-reunir-a-bad-bunny-travis-scott-lana-rey-para-banda-sonora-gta-6-canciones-artistas-confirmados"
   - name: "Vandal: GTA 6 anuncia sus primeras emisoras de radios, podcast y una gran novedad: podremos escuch"
     url: "https://vandal.elespanol.com/noticia/2026281026/gta-6-anuncia-sus-primeras-emisoras-de-radios-podcast-y-una-gran-novedad-podremos-escucharlos-fuera-del-coche/"
 ---
@@ -39,6 +41,19 @@ El avance de la web de Rockstar ha dejado ver ya algunos temas de cada emisora:
 - **Dirty South Classics:** David Banner y Lil' Flip con «Like A Pimp», JT Money y Solé con «Who Dat», y DJ Khaled con Trick Daddy, Rick Ross y Pitbull en «Born N Raised».
 
 Se trata de un primer adelanto, así que conviene esperar a que Rockstar publique más detalles sobre el repertorio completo.
+
+## Canciones originales creadas para GTA 6
+
+Además de los temas licenciados, Rockstar ha colaborado con artistas de distintos países para estrenar canciones inéditas en el juego, según recoge 3DJuegos. Estas son las anunciadas:
+
+- Yung Lean junto a Future y Metro Boomin: «That's It».
+- Travis Scott: «RHYNO».
+- CA7RIEL y Paco Amoroso, PinkPantheress, Fred again.. y Étienne de Crécy: «Sexy Magic».
+- Morgan Wallen: «Last Thing You Need».
+- Rauw Alejandro: «Macacoa 2000».
+- Keith Richards: «Bright Lights, Big City».
+
+Entre las voces que presentarán las emisoras también figuran Bad Bunny y Lana Del Rey, y la artista puertorriqueña RaiNao interpretará a un personaje del juego. Lo que Rockstar todavía no ha confirmado es quién compone la banda sonora original.
 
 ## ¿Se podrá escuchar la radio fuera del coche?
 
