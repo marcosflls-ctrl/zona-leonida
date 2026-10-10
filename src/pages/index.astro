@@ -32,7 +32,8 @@ const jsonLd = [
     url: SITE.url,
     logo: `${SITE.url}/icon-512.png`,
     email: SITE.email,
-    sameAs: [SITE.social.x && `https://x.com/${SITE.social.x}`, SITE.social.telegram && `https://t.me/${SITE.social.telegram}`].filter(Boolean),
+    sameAs: [SITE.social.x && `https://x.com/${SITE.social.x}`, SITE.social.telegram && `https://t.me/${SITE.social.telegram}`,
+      SITE.social.instagram && `https://www.instagram.com/${SITE.social.instagram}/`, SITE.social.tiktok && `https://www.tiktok.com/@${SITE.social.tiktok}`].filter(Boolean),
   },
 ];
 ---

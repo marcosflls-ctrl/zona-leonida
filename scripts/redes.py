@@ -177,7 +177,7 @@ def final(foto: str | None, seccion: str = "noticias") -> str:
   <div style="font:500 40px/1 Montserrat;letter-spacing:10px;margin-top:46px;color:rgba(255,255,255,.85)">ENLACE EN LA BIO</div>
 </div>
 <div style="position:absolute;left:0;right:0;bottom:250px">{marca_html("ZONALEONIDA.COM")}</div>
-<div style="position:absolute;left:0;right:0;bottom:150px;text-align:center;font:500 32px/1 Montserrat;letter-spacing:6px;color:rgba(255,255,255,.7)">SÍGUENOS · @ZONALEONIDA</div>""", seccion)
+<div style="position:absolute;left:0;right:0;bottom:150px;text-align:center;font:500 32px/1 Montserrat;letter-spacing:6px;color:rgba(255,255,255,.7)">SÍGUENOS · @ZONALEONIDAVI</div>""", seccion)
 
 
 def renderizar(paginas: list[str], carpeta: Path) -> list[Path]:

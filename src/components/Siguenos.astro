@@ -4,10 +4,12 @@ import { SITE } from '../config';
 {(SITE.social.telegram || SITE.social.x) && (
   <aside class="siguenos" data-pagefind-ignore>
     <p class="t">No te pierdas nada de GTA 6</p>
-    <p class="d">Cada noticia y cada guía nueva, al momento y gratis, en nuestro canal de Telegram. También estamos en X.</p>
+    <p class="d">Cada noticia y cada guía nueva, al momento y gratis, en nuestro canal de Telegram. También estamos en X e Instagram.</p>
     <div class="cta">
       {SITE.social.telegram && <a class="tg" href={`https://t.me/${SITE.social.telegram}`} target="_blank" rel="noopener">Unirme al canal de Telegram</a>}
       {SITE.social.x && <a class="x" href={`https://x.com/${SITE.social.x}`} target="_blank" rel="noopener">Seguir en X</a>}
+      {SITE.social.instagram && <a class="x" href={`https://www.instagram.com/${SITE.social.instagram}/`} target="_blank" rel="noopener">Instagram</a>}
+      {SITE.social.tiktok && <a class="x" href={`https://www.tiktok.com/@${SITE.social.tiktok}`} target="_blank" rel="noopener">TikTok</a>}
     </div>
   </aside>
 )}
