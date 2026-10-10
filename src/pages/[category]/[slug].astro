@@ -32,8 +32,13 @@ const jsonLd = [
     inLanguage: 'es',
     mainEntityOfPage: url,
     image: [new URL(d.image ?? `/img/portadas/${d.category}.webp`, SITE.url).href],
-    author: { '@type': 'Organization', name: SITE.author, url: SITE.url },
-    publisher: { '@type': 'Organization', name: SITE.name, url: SITE.url },
+    author: { '@type': 'Organization', name: SITE.author, url: `${SITE.url}/sobre-nosotros/` },
+    publisher: {
+      '@type': 'Organization', name: SITE.name, url: SITE.url,
+      logo: { '@type': 'ImageObject', url: `${SITE.url}/icon-512.png`, width: 512, height: 512 },
+    },
+    isAccessibleForFree: true,
+    articleSection: cat.label,
     about: { '@type': 'VideoGame', name: 'Grand Theft Auto VI' },
   },
   {
@@ -47,7 +52,7 @@ const jsonLd = [
   },
 ];
 ---
-<Base title={d.title} description={d.description} image={d.image ?? `/img/portadas/${d.category}.webp`} type="article" jsonLd={jsonLd}>
+<Base title={d.title} description={d.description} image={d.image ?? `/img/portadas/${d.category}.webp`} type="article" jsonLd={jsonLd} published={d.date} modified={d.updated ?? d.date} section={cat.label}>
   <article class="post" data-pagefind-body>
     <nav class="breadcrumbs" data-pagefind-ignore><a href="/">Inicio</a> › <a href={`/${d.category}/`}>{cat.label}</a></nav>
     <header>
@@ -57,7 +62,7 @@ const jsonLd = [
       <h1>{d.title}</h1>
       <p class="lead">{d.description}</p>
       <p class="meta muted small">
-        Por {SITE.author} ·
+        Por <a href="/sobre-nosotros/" rel="author">{SITE.author}</a> ·
         {d.pilar
           ? <>Actualizado el <time datetime={(d.updated ?? d.date).toISOString()}>{formatDate(d.updated ?? d.date)}</time></>
           : <>
@@ -98,6 +103,7 @@ const jsonLd = [
   )}
 </Base>
 <style>
+  .meta a { color: inherit; text-decoration: underline; text-decoration-color: #ffffff33; text-underline-offset: 3px; }
   .post { max-width: 760px; }
   h1 { font-size: clamp(2rem, 6vw, 3.2rem); margin: 12px 0 10px; }
   .lead { font-size: 1.2rem; color: var(--muted); margin: 0 0 10px; }

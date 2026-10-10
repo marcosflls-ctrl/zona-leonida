@@ -15,14 +15,26 @@ const [first, ...rest] = feed;
 const latest = rest.slice(0, Math.min(6, Math.max(3, Math.floor(rest.length / 3) * 3)));
 // lo que ya sale arriba no se repite en los bloques por categoría
 const shown = new Set([...pilares, ...(first ? [first] : []), ...latest].map((p) => p.id));
-const jsonLd = {
-  '@context': 'https://schema.org',
-  '@type': 'WebSite',
-  name: SITE.name,
-  url: SITE.url,
-  inLanguage: 'es',
-  description: SITE.tagline,
-};
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: SITE.name,
+    url: SITE.url,
+    inLanguage: 'es',
+    description: SITE.tagline,
+    potentialAction: { '@type': 'SearchAction', target: `${SITE.url}/buscar/?q={search_term_string}`, 'query-input': 'required name=search_term_string' },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: SITE.name,
+    url: SITE.url,
+    logo: `${SITE.url}/icon-512.png`,
+    email: SITE.email,
+    sameAs: [SITE.social.x && `https://x.com/${SITE.social.x}`, SITE.social.telegram && `https://t.me/${SITE.social.telegram}`].filter(Boolean),
+  },
+];
 ---
 <Base title={SITE.name} description="Noticias de GTA VI al día, guías completas, todos los trucos y los secretos descubiertos, en español." jsonLd={jsonLd}>
   <h1 class="sr-only">{SITE.name}: noticias, guías y trucos de GTA VI</h1>
