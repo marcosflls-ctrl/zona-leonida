@@ -27,10 +27,6 @@ def ejecuciones(flujo: str, desde: datetime) -> list[dict]:
 
 
 def main() -> int:
-    token, chat = os.environ.get("TELEGRAM_BOT_TOKEN"), os.environ.get("TELEGRAM_AVISOS_CHAT_ID")
-    if not token or not chat:
-        print("Falta TELEGRAM_AVISOS_CHAT_ID (o el token): no se envía el resumen.")
-        return 0
     desde = datetime.now(timezone.utc) - timedelta(hours=24)
     lineas, alertas = [], []
     for flujo, nombre in FLUJOS.items():
@@ -56,6 +52,11 @@ def main() -> int:
         texto += "\n" + "\n".join(f"  · <a href=\"{p['html_url']}\">{p['title']}</a>" for p in pendientes[:5])
     texto += "\n\n" + ("\n".join(alertas) if alertas else "✅ Todo ha funcionado bien.")
 
+    token, chat = os.environ.get("TELEGRAM_BOT_TOKEN"), os.environ.get("TELEGRAM_AVISOS_CHAT_ID")
+    if not token or not chat:
+        print("Falta TELEGRAM_AVISOS_CHAT_ID (o el token): no se envía. Resumen que se habría enviado:\n")
+        print(texto)
+        return 0
     r = requests.post(f"https://api.telegram.org/bot{token}/sendMessage", timeout=30,
                       data={"chat_id": chat, "text": texto, "parse_mode": "HTML", "disable_web_page_preview": "true"})
     print("Enviado" if r.ok else f"Error de Telegram: {r.status_code} {r.text[:200]}")
