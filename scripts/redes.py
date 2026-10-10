@@ -244,7 +244,7 @@ def textos_ia(post: dict) -> dict:
     ultimo_error = None
     for intento in range(3):
         radar.refresh_github_identity()  # pase nuevo por si el SDK necesita renovar el acceso
-        msg = client.messages.create(model=radar.MODEL, max_tokens=2000, system=PROMPT,
+        msg = client.messages.create(model=radar.MODEL, max_tokens=8000, system=PROMPT,
                                      messages=[{"role": "user", "content": user}])
         raw = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text").strip()
         try:
