@@ -154,7 +154,7 @@ Además de noticias, el robot busca descubrimientos de la comunidad (Reddit r/GT
 
 ## Carruseles para Instagram y TikTok
 
-- Al publicarse un artículo nuevo, la IA escribe titular, 3 puntos clave, texto y hashtags; se genera un carrusel de 5 imágenes (1080×1350) con el diseño de la marca y llega por Telegram en privado, junto con el texto para copiar.
+- Al publicarse un artículo nuevo, la IA escribe titular, 3 puntos clave, texto, hashtags y un tuit sugerido (con su respuesta y el enlace); se genera un carrusel de 5 imágenes (1080×1350) con el diseño de la marca y llega por Telegram en privado, junto con el texto para copiar.
 - Cada mañana (10:37) comprueba si toca portada de cuenta atrás: 60, 50, 45, 40, 35, 30, 25, 21, 20, 15, 14, 12 y 10 días, y todos los días de la última semana.
 - A mano: Actions → «Carruseles para Instagram y TikTok» → Run workflow (modo `noticia` con el archivo, o `cuenta-atras`).
 - Probar en local sin IA: `python scripts/redes.py noticia src/content/posts/<archivo>.md --sin-ia --no-enviar` (salen en `redes-salida/`).

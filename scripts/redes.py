@@ -174,8 +174,11 @@ Puedes destacar 1-2 palabras por frase con asteriscos.
 - "texto": pie de publicación de 2-4 frases: empieza con un gancho, resume la noticia y termina con una \
 pregunta para que la gente comente. Sin enlaces (di "enlace en la bio" si hace falta). Algún emoji, sin abusar.
 - "hashtags": 8-12 hashtags relevantes (#GTA6 #GTAVI #GTA6Noticias, y otros según el tema).
+- "tuit": tuit para X de máx. 240 caracteres, SIN enlace: el dato principal contado de forma directa y con gancho, 1-2 hashtags como mucho (#GTA6). Tono de medio informativo cercano, no de bot.
+- "respuesta": respuesta al propio tuit, de máx. 120 caracteres, que invite a leer más (el enlace se añade después).
 
-Responde SOLO con JSON válido: {"titular": "...", "puntos": ["...", "...", "..."], "texto": "...", "hashtags": ["#..."]}"""
+Responde SOLO con JSON válido: {"titular": "...", "puntos": ["...", "...", "..."], "texto": "...", "hashtags": ["#..."], \
+"tuit": "...", "respuesta": "..."}"""
 
 
 def textos_ia(post: dict) -> dict:
@@ -201,12 +204,13 @@ def textos_simples(post: dict) -> dict:
     plano = re.sub(r"<[^>]+>|\[([^\]]+)\]\([^)]+\)|[#*>|_`]", lambda m: m.group(1) or "", post["body"])
     frases = [f.strip() for f in re.split(r"(?<=[.!?])\s+", plano) if 40 < len(f.strip()) < 160][:3]
     return {"titular": titular, "puntos": frases or [post["description"]], "texto": post["description"],
-            "hashtags": ["#GTA6", "#GTAVI", "#GTA6Noticias", "#Rockstar", "#ViceCity"]}
+            "hashtags": ["#GTA6", "#GTAVI", "#GTA6Noticias", "#Rockstar", "#ViceCity"],
+            "tuit": f"{post['title']} #GTA6", "respuesta": "Toda la información aquí 👇"}
 
 
 # ---------- envío ----------
 
-def enviar_telegram(rutas: list[Path], texto: str) -> None:
+def enviar_telegram(rutas: list[Path], texto: str, extra: str = "") -> None:
     import requests
 
     token, chat = os.environ.get("TELEGRAM_BOT_TOKEN"), os.environ.get("TELEGRAM_AVISOS_CHAT_ID")
@@ -223,6 +227,9 @@ def enviar_telegram(rutas: list[Path], texto: str) -> None:
     res = requests.post(f"{api}/sendMessage", data={"chat_id": chat, "text": texto}, timeout=30)
     print("Texto:", res.status_code, "" if res.ok else res.text[:200])
     res.raise_for_status()
+    if extra:
+        res = requests.post(f"{api}/sendMessage", data={"chat_id": chat, "text": extra, "disable_web_page_preview": "true"}, timeout=30)
+        print("Tuit:", res.status_code, "" if res.ok else res.text[:200])
 
 
 # ---------- modos ----------
@@ -244,8 +251,14 @@ def carrusel_noticia(path: Path, sin_ia: bool, enviar: bool) -> None:
     rutas = renderizar(paginas, SALIDA / post["slug"])
     pie = f"{t['texto']}\n\n{' '.join(t['hashtags'])}"
     print(f"  {len(rutas)} imágenes en {SALIDA / post['slug']}\n  Texto:\n{pie}")
+    url = f"https://zonaleonida.com/{post['category']}/{post['slug']}/"
+    tuit = ""
+    if t.get("tuit"):
+        tuit = (f"🐦 Para X (con la imagen 01 de portada)\n\n— Tuit —\n\n{t['tuit']}\n\n"
+                f"— Respuesta al tuit —\n\n{t.get('respuesta', 'Toda la información aquí 👇')} {url}")
+        print(tuit)
     if enviar:
-        enviar_telegram(rutas, f"📲 Carrusel listo: {post['title']}\n\n— Texto para copiar —\n\n{pie}")
+        enviar_telegram(rutas, f"📲 Carrusel listo: {post['title']}\n\n— Texto para Instagram y TikTok —\n\n{pie}", tuit)
 
 
 def galeria_aleatoria() -> tuple[str, str]:
