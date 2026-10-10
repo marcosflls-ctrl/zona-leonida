@@ -1,0 +1,30 @@
+name: Resumen diario del robot
+
+# Cada noche te manda por Telegram (en privado) cómo ha ido el día: ejecuciones del radar,
+# fallos y propuestas pendientes de revisar. Necesita el secreto TELEGRAM_AVISOS_CHAT_ID.
+on:
+  schedule:
+    - cron: "47 19 * * *"   # 21:47 en España en horario de verano (20:47 en invierno)
+  workflow_dispatch:
+
+permissions:
+  actions: read
+  pull-requests: read
+  contents: read
+
+jobs:
+  resumen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Enviar resumen
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_AVISOS_CHAT_ID: ${{ secrets.TELEGRAM_AVISOS_CHAT_ID }}
+        run: |
+          pip install -q requests
+          python scripts/resumen_diario.py

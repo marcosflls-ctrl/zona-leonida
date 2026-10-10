@@ -139,3 +139,15 @@ En GitHub → Actions → «Radar de noticias GTA VI» → «Run workflow»: peg
 ## Modo lanzamiento (desde el 18 de noviembre)
 
 Además de noticias, el robot busca descubrimientos de la comunidad (Reddit r/GTA6 y r/GTA, y canales de YouTube de GTA) y **amplía las guías** (secretos, trucos, coches, dinero, misiones, trofeos, controles, mapa) en una sección «Últimos descubrimientos», con crédito a quien lo encontró, su vídeo en el minuto exacto y la marca «⚠️ Sin comprobar» hasta que se confirme. Llega en la misma propuesta para revisar. Fuentes y fecha de activación en `scripts/feeds.json` → `comunidad`. Para probarlo antes sin escribir nada: «Run workflow» con la casilla «Probar el modo lanzamiento».
+
+## Avisos privados por Telegram
+
+- Si el radar, la galería o la publicación en el canal fallan, el bot te escribe en privado con el enlace al error.
+- Cada noche (21:47 en verano) te manda un resumen: cuántas veces ha funcionado el radar, fallos y propuestas pendientes.
+- Para activarlo: escribe /start a tu bot en Telegram, consigue tu número de chat (por ejemplo con @userinfobot) y guárdalo en GitHub → Settings → Secrets and variables → Actions como `TELEGRAM_AVISOS_CHAT_ID`.
+
+## Google Discover y Google News
+
+- Google ya no admite solicitudes: incluye las webs automáticamente si cumplen sus requisitos.
+- La web ya tiene lo técnico: imágenes de 1600 px con vista previa grande, datos estructurados con logo y fechas, `sitemap-news.xml` (noticias de los últimos 2 días) y página de transparencia (Sobre nosotros).
+- En Search Console, envía también `sitemap-news.xml` en Sitemaps.

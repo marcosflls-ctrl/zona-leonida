@@ -42,3 +42,16 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         run: python scripts/galeria_aviso.py "${{ steps.buscar.outputs.nuevas }}" "${{ steps.buscar.outputs.primera }}" "${{ steps.buscar.outputs.resumen }}"
+
+      # Si algo de lo anterior falla, te avisa en privado por Telegram (necesita el secreto TELEGRAM_AVISOS_CHAT_ID)
+      - name: Avisar del fallo por Telegram
+        if: failure()
+        env:
+          TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TG_CHAT: ${{ secrets.TELEGRAM_AVISOS_CHAT_ID }}
+          URL_EJECUCION: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          [ -z "$TG_TOKEN" ] || [ -z "$TG_CHAT" ] && { echo "Sin chat de avisos configurado"; exit 0; }
+          curl -s -o /dev/null -w "Telegram: %{http_code}\n" -X POST "https://api.telegram.org/bot${TG_TOKEN}/sendMessage" \
+            --data-urlencode "chat_id=${TG_CHAT}" \
+            --data-urlencode "text=❌ Ha fallado «${{ github.workflow }}» de Zona Leonida. Mira qué ha pasado: ${URL_EJECUCION}"
