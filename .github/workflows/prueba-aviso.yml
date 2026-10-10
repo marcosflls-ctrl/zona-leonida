@@ -1,0 +1,28 @@
+name: Prueba de notificación
+
+# Crea una propuesta de prueba (igual que las del robot) para comprobar que llega el aviso al móvil.
+# Después basta con cerrarla sin aprobar.
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  prueba:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo "Prueba de aviso $(date -u)" > scripts/state/prueba-aviso.txt
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          branch: prueba/aviso-${{ github.run_number }}
+          commit-message: "Prueba de notificación"
+          title: "🔔 Prueba de notificación (ciérrala sin aprobar)"
+          body: |
+            Si ves esto en el móvil, las notificaciones funcionan. ✅
+            Pulsa **Close pull request** para cerrarla. No hay que aprobarla.
+          reviewers: ${{ github.repository_owner }}
+          assignees: ${{ github.repository_owner }}
+          delete-branch: true
