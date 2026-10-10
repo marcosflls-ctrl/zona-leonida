@@ -1,0 +1,36 @@
+name: Obtener mi número de chat de Telegram
+
+# Escribe antes cualquier mensaje a tu bot en Telegram. Esta tarea mira los últimos mensajes
+# que ha recibido el bot y te responde a cada persona con su número de chat.
+on:
+  workflow_dispatch:
+
+jobs:
+  chat-id:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Buscar y responder
+        env:
+          TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: |
+          python3 - <<'EOF'
+          import json, os, urllib.request, urllib.parse
+          t = os.environ["TG_TOKEN"]
+          d = json.load(urllib.request.urlopen(f"https://api.telegram.org/bot{t}/getUpdates"))
+          if not d.get("ok"):
+              print("Telegram respondió con error:", d.get("description")); raise SystemExit(1)
+          chats = {}
+          for u in d["result"]:
+              m = u.get("message") or u.get("edited_message") or {}
+              c = m.get("chat") or {}
+              if c.get("type") == "private":
+                  chats[c["id"]] = c.get("first_name", "")
+          if not chats:
+              print("El bot no tiene mensajes privados recientes. Escríbele algo en Telegram y vuelve a lanzar esta tarea.")
+              raise SystemExit(1)
+          for cid, nombre in chats.items():
+              print(f"Chat privado encontrado: {nombre} → {cid}")
+              txt = f"Hola {nombre}. Tu número de chat es: {cid}\nGuárdalo en GitHub como secreto TELEGRAM_AVISOS_CHAT_ID."
+              urllib.request.urlopen(f"https://api.telegram.org/bot{t}/sendMessage",
+                                     data=urllib.parse.urlencode({"chat_id": cid, "text": txt}).encode())
+          EOF
