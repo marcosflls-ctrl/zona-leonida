@@ -84,10 +84,36 @@ def _texto(entry) -> str:
     return htmllib.unescape(re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", raw))).strip(), raw
 
 
+def _leer_feed(url: str):
+    """Descarga un feed. Reddit limita las peticiones seguidas desde la misma IP (responde 429
+    o vacío), así que entre consultas a Reddit se hace una pausa y se reintenta si pide esperar."""
+    import feedparser
+    import requests
+
+    es_reddit = "reddit.com" in url
+    intentos = 3 if es_reddit else 1
+    for n in range(intentos):
+        if es_reddit:
+            time.sleep(4 + 8 * n)
+        try:
+            r = requests.get(url, headers={"User-Agent": UA}, timeout=25)
+        except Exception as e:  # noqa: BLE001
+            print(f"    (error de conexión: {type(e).__name__})")
+            continue
+        if r.status_code == 200:
+            entries = feedparser.parse(r.content).entries
+            if entries or not es_reddit:
+                return entries
+            estado = "200 vacío"
+        else:
+            estado = str(r.status_code)
+        if n < intentos - 1:
+            print(f"    (respuesta {estado}, reintento)")
+    return []
+
+
 def recoger(cfg: dict, state: dict) -> list[dict]:
     """Publicaciones recientes de las fuentes de la comunidad que parecen descubrimientos."""
-    import feedparser
-
     c = cfg.get("comunidad") or {}
     kw_juego = [k.lower() for k in cfg.get("keywords", [])]
     kw = [k.lower() for k in c.get("keywords", [])]
@@ -95,7 +121,7 @@ def recoger(cfg: dict, state: dict) -> list[dict]:
     out = []
     for feed in c.get("feeds", []):
         try:
-            entries = feedparser.parse(feed["url"], agent=UA).entries
+            entries = _leer_feed(feed["url"])
         except Exception as e:  # noqa: BLE001
             print(f"  ! {feed['name']}: {e}")
             continue
