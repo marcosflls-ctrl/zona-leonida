@@ -89,6 +89,7 @@ const path = Astro.url.pathname;
         <a href="/aviso-legal/">Aviso legal</a>
         <a href="/privacidad/">Privacidad</a>
         <a href="/cookies/">Cookies</a>
+        {SITE.adsenseClient && <a href="#" id="gestionar-cookies">Gestionar cookies</a>}
         {SITE.social.x && <a href={`https://x.com/${SITE.social.x}`} rel="me noopener" target="_blank">X (Twitter)</a>}
         {SITE.social.telegram && <a href={`https://t.me/${SITE.social.telegram}`} rel="me noopener" target="_blank">Telegram</a>}
         <a href="/rss.xml">RSS</a>
@@ -97,6 +98,17 @@ const path = Astro.url.pathname;
     <p class="wrap muted small">© {year} {SITE.name}</p>
   </footer>
   <script is:inline>
+    // Reabre el aviso de consentimiento de Google (Privacidad y mensajes de AdSense)
+    (function () {
+      var a = document.getElementById('gestionar-cookies');
+      if (!a) return;
+      a.addEventListener('click', function (e) {
+        e.preventDefault();
+        window.googlefc = window.googlefc || {};
+        window.googlefc.callbackQueue = window.googlefc.callbackQueue || [];
+        window.googlefc.callbackQueue.push(function () { window.googlefc.showRevocationMessage(); });
+      });
+    })();
     (function () {
       // Vídeos de YouTube en guías: miniatura ligera que carga el vídeo (desde el segundo indicado) al pulsar
       document.querySelectorAll('figure.yt-guia[data-id]').forEach(function (f) {
