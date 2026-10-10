@@ -3,3 +3,4 @@ dist/
 .astro/
 .env
 __pycache__/
+redes-salida/

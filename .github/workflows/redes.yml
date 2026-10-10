@@ -1,0 +1,108 @@
+name: Carruseles para Instagram y TikTok
+
+# - Cuando entra en la web un artículo NUEVO, la IA escribe los textos, se genera el carrusel
+#   con el diseño de Zona Leonida y te llega por Telegram en privado, listo para subir.
+# - Cada mañana comprueba si toca portada de cuenta atrás (hitos y la última semana).
+# Necesita el secreto TELEGRAM_AVISOS_CHAT_ID.
+on:
+  push:
+    branches: [main]
+    paths: ["src/content/posts/**.md"]
+  schedule:
+    - cron: "37 8 * * *"   # 10:37 en España (horario de verano)
+  workflow_dispatch:
+    inputs:
+      modo:
+        description: "noticia o cuenta-atras"
+        required: true
+        default: noticia
+      archivos:
+        description: "Para 'noticia': nombres de archivo separados por espacios (ej. gta-6-pc.md)"
+        required: false
+        default: ""
+
+permissions:
+  contents: read
+  id-token: write   # para conectar con Claude sin claves (la misma conexión que el radar)
+
+jobs:
+  carrusel:
+    runs-on: ubuntu-latest
+    env:
+      ANTHROPIC_FEDERATION_RULE_ID: fdrl_01SNcWwdK3U7waQD2Edrgqvn
+      ANTHROPIC_ORGANIZATION_ID: fddb11bd-122a-4959-8c54-567a0a116498
+      ANTHROPIC_SERVICE_ACCOUNT_ID: svac_01HHj72HzVqHaVh7MHX6yX5B
+      ANTHROPIC_WORKSPACE_ID: wrkspc_01YBWc8PatV9QZZ5Fc6n4kxq
+      ANTHROPIC_IDENTITY_TOKEN_FILE: /tmp/gha-jwt
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_AVISOS_CHAT_ID: ${{ secrets.TELEGRAM_AVISOS_CHAT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: ¿Qué hay que hacer?
+        id: tarea
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ] || [ "${{ github.event.inputs.modo }}" = "cuenta-atras" ]; then
+            echo "modo=cuenta-atras" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+          echo "modo=noticia" >> "$GITHUB_OUTPUT"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            FILES=""; for f in ${{ github.event.inputs.archivos }}; do FILES="$FILES src/content/posts/$f"; done
+          else
+            BEFORE="${{ github.event.before }}"
+            if [ -z "$BEFORE" ] || [ "$BEFORE" = "0000000000000000000000000000000000000000" ]; then FILES=""; else
+              FILES=$(git diff --name-only --diff-filter=A "$BEFORE" "${{ github.sha }}" -- 'src/content/posts/*.md' | tr '\n' ' ')
+            fi
+          fi
+          # solo artículos publicados (sin borradores)
+          LISTA=""; for f in $FILES; do grep -q '^draft: true' "$f" || LISTA="$LISTA $f"; done
+          echo "Artículos: $LISTA"
+          echo "archivos=$LISTA" >> "$GITHUB_OUTPUT"
+
+      - name: Preparar
+        if: steps.tarea.outputs.modo == 'cuenta-atras' || steps.tarea.outputs.archivos != ''
+        id: prep
+        run: echo "ok=1" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/setup-python@v5
+        if: steps.prep.outputs.ok == '1'
+        with:
+          python-version: "3.12"
+
+      - name: Instalar
+        if: steps.prep.outputs.ok == '1'
+        run: |
+          pip install -q -r scripts/requirements.txt playwright
+          python -m playwright install --with-deps chromium > /dev/null
+
+      - name: Pedir identidad a GitHub
+        if: steps.tarea.outputs.modo == 'noticia' && steps.prep.outputs.ok == '1'
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const fs = require('fs');
+            const token = await core.getIDToken('https://api.anthropic.com');
+            core.setSecret(token);
+            fs.writeFileSync(process.env.ANTHROPIC_IDENTITY_TOKEN_FILE, token);
+
+      - name: Generar y enviar
+        if: steps.prep.outputs.ok == '1'
+        run: |
+          if [ "${{ steps.tarea.outputs.modo }}" = "cuenta-atras" ]; then
+            python scripts/redes.py cuenta-atras $([ "${{ github.event_name }}" = "workflow_dispatch" ] && echo --forzar)
+          else
+            [ "${{ github.event_name }}" = "push" ] && sleep 30
+            python scripts/redes.py noticia ${{ steps.tarea.outputs.archivos }}
+          fi
+
+      - name: Avisar del fallo por Telegram
+        if: failure()
+        env:
+          URL_EJECUCION: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          [ -z "$TELEGRAM_BOT_TOKEN" ] || [ -z "$TELEGRAM_AVISOS_CHAT_ID" ] && exit 0
+          curl -s -o /dev/null -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            --data-urlencode "chat_id=${TELEGRAM_AVISOS_CHAT_ID}" \
+            --data-urlencode "text=❌ Ha fallado «${{ github.workflow }}» de Zona Leonida: ${URL_EJECUCION}"
