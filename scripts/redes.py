@@ -31,6 +31,16 @@ HITOS = {60, 50, 45, 40, 35, 30, 25, 21, 20, 15, 14, 12, 10}
 
 W, H = 1080, 1350
 
+# Paletas neón Vice City por sección: (color 1, color 2, color 3) del degradado
+PALETAS = {
+    "noticias": ("#b45cff", "#ff4fa6", "#ffb36e"),         # atardecer rosa (la de la marca)
+    "guias": ("#3ff0e0", "#4fa8ff", "#b45cff"),             # turquesa Ocean Drive
+    "trucos": ("#7dff8f", "#3ff0e0", "#4fa8ff"),            # verde palmera neón
+    "descubrimientos": ("#ffd25e", "#ff9b4f", "#ff4fa6"),   # dorado de puesta de sol
+}
+ETIQUETAS = {"OFICIAL", "ÚLTIMA HORA", "RUMOR", "FILTRACIÓN", "GUÍA", "TRUCO", "DESCUBRIMIENTO", "ANÁLISIS", "DESMENTIDO"}
+ETIQUETA_SECCION = {"noticias": "NOTICIA", "guias": "GUÍA", "trucos": "TRUCO", "descubrimientos": "DESCUBRIMIENTO"}
+
 CSS = f"""
 @font-face {{ font-family: Anton; src: url('{(FUENTES / "anton.woff2").as_uri()}'); }}
 @font-face {{ font-family: Montserrat; font-weight: 400; src: url('{(FUENTES / "montserrat-400.woff2").as_uri()}'); }}
@@ -38,19 +48,29 @@ CSS = f"""
 * {{ box-sizing: border-box; margin: 0; padding: 0; }}
 html, body {{ width: {W}px; height: {H}px; background: #000; overflow: hidden; }}
 body {{ position: relative; font-family: Montserrat, sans-serif; color: #fff; }}
-.g {{ background: linear-gradient(90deg, #b45cff 0%, #ff4fa6 55%, #ffb36e 100%);
+.g {{ background: linear-gradient(90deg, var(--c1) 0%, var(--c2) 55%, var(--c3) 100%);
       -webkit-background-clip: text; background-clip: text; color: transparent;
       -webkit-box-decoration-break: clone; box-decoration-break: clone; }}
 .foto {{ position: absolute; left: 0; top: 0; width: {W}px; object-fit: cover; }}
 .fundido {{ position: absolute; left: 0; width: {W}px; background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,.55) 45%, #000 100%); }}
 .marca {{ display: flex; align-items: center; gap: 22px; padding: 0 56px; }}
 .marca i {{ flex: 1; height: 3px; border-radius: 3px; }}
-.marca i:first-child {{ background: linear-gradient(90deg, rgba(180,92,255,0), #b45cff); }}
-.marca i:last-child {{ background: linear-gradient(90deg, #ff5f9e, rgba(255,95,158,0)); }}
+.marca i:first-child {{ background: linear-gradient(90deg, transparent, var(--c1)); }}
+.marca i:last-child {{ background: linear-gradient(90deg, var(--c2), transparent); }}
 .marca b {{ font: 400 50px/1 Anton, sans-serif; letter-spacing: .5px; }}
 .titular {{ font-family: Anton, sans-serif; font-weight: 400; text-transform: uppercase; text-align: center; line-height: 1.02; color: #fff; }}
 .credito {{ position: absolute; right: 34px; top: 30px; font: 500 21px/1 Montserrat; color: rgba(255,255,255,.6); text-shadow: 0 1px 6px rgba(0,0,0,.8); }}
 .pagina {{ position: absolute; left: 0; right: 0; bottom: 46px; display: flex; justify-content: space-between; padding: 0 60px; font: 500 26px/1 Montserrat; color: rgba(255,255,255,.55); letter-spacing: 2px; }}
+.etiqueta {{ display: inline-block; padding: 13px 26px 11px; border-radius: 999px; border: 3px solid var(--c2);
+  font: 500 28px/1 Montserrat; letter-spacing: 7px; color: #fff; background: rgba(0,0,0,.55);
+  box-shadow: 0 0 22px var(--c2), inset 0 0 14px color-mix(in srgb, var(--c2) 45%, transparent);
+  text-shadow: 0 0 10px var(--c2); }}
+.marco {{ position: absolute; padding: 4px; border-radius: 36px; background: linear-gradient(135deg, var(--c1), var(--c2), var(--c3));
+  box-shadow: 0 0 40px color-mix(in srgb, var(--c2) 55%, transparent); }}
+.marco img {{ display: block; width: 100%; height: 100%; object-fit: cover; border-radius: 32px; }}
+.brillo {{ position: absolute; inset: 0; background:
+  radial-gradient(700px 520px at 100% 0%, color-mix(in srgb, var(--c1) 24%, transparent), transparent 70%),
+  radial-gradient(700px 520px at 0% 100%, color-mix(in srgb, var(--c2) 20%, transparent), transparent 70%); }}
 """
 
 # Ajusta el tamaño de letra hasta que el bloque quepa en su caja
@@ -71,8 +91,12 @@ def marcar(texto: str) -> str:
     return t.replace("\n", "<br>")
 
 
-def marca_html() -> str:
-    return '<div class="marca"><i></i><b class="g">ZONALEONIDA</b><i></i></div>'
+def marca_html(texto: str = "ZONALEONIDA") -> str:
+    return f'<div class="marca"><i></i><b class="g">{texto}</b><i></i></div>'
+
+
+def etiqueta_html(etiqueta: str) -> str:
+    return f'<span class="etiqueta">{html.escape(etiqueta)}</span>' if etiqueta else ""
 
 
 def img_uri(ruta: str | None) -> str:
@@ -83,28 +107,54 @@ def img_uri(ruta: str | None) -> str:
     return (PUBLIC / "img" / "marca" / "banner-movil.webp").as_uri()
 
 
-def pagina(cuerpo: str) -> str:
-    return f"<!doctype html><html><head><meta charset='utf-8'><style>{CSS}</style></head><body>{cuerpo}</body></html>"
+def pagina(cuerpo: str, seccion: str = "noticias") -> str:
+    c1, c2, c3 = PALETAS.get(seccion, PALETAS["noticias"])
+    return (f"<!doctype html><html><head><meta charset='utf-8'><style>{CSS}</style></head>"
+            f"<body style='--c1:{c1};--c2:{c2};--c3:{c3}'>{cuerpo}</body></html>")
 
 
-def portada(titular: str, foto: str | None, credito: str = "", grande: bool = False) -> str:
+def portada(titular: str, foto: str | None, credito: str = "", grande: bool = False,
+            seccion: str = "noticias", etiqueta: str = "", diseno: int = 0) -> str:
+    """Tres composiciones: 0 = foto arriba y titular abajo (la plantilla), 1 = foto enmarcada en neón
+    y titular debajo, 2 = foto a pantalla completa con el titular encima y la marca al pie."""
+    cred = f'<div class="credito">{html.escape(credito)}</div>' if credito else ""
+    if diseno == 1:
+        return pagina(f"""
+<div class="brillo"></div>
+<div style="position:absolute;left:0;right:0;top:58px">{marca_html()}</div>
+<div class="marco" style="left:56px;top:140px;width:968px;height:640px"><img src="{img_uri(foto)}"></div>
+{cred.replace('class="credito"', 'class="credito" style="right:80px;top:740px"')}
+<div style="position:absolute;left:70px;right:70px;top:830px;text-align:center">
+  {etiqueta_html(etiqueta)}
+  <div class="titular" data-ajustar data-max="100" data-alto="{360 if etiqueta else 430}" style="margin-top:{26 if etiqueta else 0}px">{marcar(titular)}</div>
+</div>""", seccion)
+    if diseno == 2:
+        return pagina(f"""
+<img class="foto" src="{img_uri(foto)}" style="height:{H}px">
+<div class="fundido" style="top:420px;height:930px;background:linear-gradient(180deg,transparent 0%,rgba(0,0,0,.6) 35%,rgba(0,0,0,.92) 70%,#000 100%)"></div>
+{cred}
+<div style="position:absolute;left:70px;right:70px;bottom:170px;text-align:center">
+  {etiqueta_html(etiqueta)}
+  <div class="titular" data-ajustar data-max="108" data-alto="330" style="margin-top:{28 if etiqueta else 0}px;text-shadow:0 4px 24px rgba(0,0,0,.6)">{marcar(titular)}</div>
+</div>
+<div style="position:absolute;left:0;right:0;bottom:62px">{marca_html()}</div>""", seccion)
     alto_foto = 1060
     max_f, alto_txt = (170, 330) if grande else (104, 300)
-    cred = f'<div class="credito">{html.escape(credito)}</div>' if credito else ""
+    eti = f'<div style="position:absolute;left:0;right:0;top:{alto_foto - 230}px;text-align:center">{etiqueta_html(etiqueta)}</div>' if etiqueta else ""
     return pagina(f"""
 <img class="foto" src="{img_uri(foto)}" style="height:{alto_foto}px">
 <div class="fundido" style="top:{alto_foto - 420}px;height:420px"></div>
-{cred}
+{cred}{eti}
 <div style="position:absolute;left:0;right:0;bottom:64px">
   {marca_html()}
   <div class="titular" data-ajustar data-max="{max_f}" data-alto="{alto_txt}" style="margin:26px 70px 0;max-height:{alto_txt + 40}px">{marcar(titular)}</div>
-</div>""")
+</div>""", seccion)
 
 
-def interior(n: int, total: int, texto: str, foto: str | None, credito: str = "") -> str:
+def interior(n: int, total: int, texto: str, foto: str | None, credito: str = "", seccion: str = "noticias") -> str:
     cred = f'<div class="credito" style="right:84px;top:582px">{html.escape(credito)}</div>' if credito else ""
     return pagina(f"""
-<div style="position:absolute;inset:0;background:radial-gradient(700px 500px at 100% 0%, rgba(180,92,255,.22), transparent 70%),radial-gradient(700px 500px at 0% 100%, rgba(255,79,166,.18), transparent 70%)"></div>
+<div class="brillo"></div>
 <img class="foto" src="{img_uri(foto)}" style="left:60px;top:150px;width:960px;height:470px;border-radius:30px;border:2px solid rgba(255,255,255,.08)">
 {cred}
 <div style="position:absolute;left:0;right:0;top:62px">{marca_html()}</div>
@@ -112,19 +162,22 @@ def interior(n: int, total: int, texto: str, foto: str | None, credito: str = ""
   <div class="g" style="font:400 120px/1 Anton;display:inline-block">{n - 1:02d}</div>
   <div class="titular" data-ajustar data-max="96" data-alto="470" style="text-align:left;margin-top:22px;max-height:500px">{marcar(texto)}</div>
 </div>
-<div class="pagina"><span>{n} / {total}</span><span>ZONALEONIDA.COM</span></div>""")
+<div class="pagina"><span>{n} / {total}</span><span>ZONALEONIDA.COM</span></div>""", seccion)
 
 
-def final(foto: str | None) -> str:
+def final(foto: str | None, seccion: str = "noticias") -> str:
+    frase = {"guias": "LEE LA GUÍA<br><span class='g'>COMPLETA</span>",
+             "trucos": "TODOS LOS TRUCOS<br><span class='g'>EN LA WEB</span>",
+             "descubrimientos": "MÁS SECRETOS<br><span class='g'>EN LA WEB</span>"}.get(seccion, "LEE LA NOTICIA<br><span class='g'>COMPLETA</span>")
     return pagina(f"""
 <img class="foto" src="{img_uri(foto)}" style="height:{H}px;opacity:.32;filter:saturate(1.2)">
 <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.2),#000 85%)"></div>
 <div style="position:absolute;left:0;right:0;top:330px;text-align:center">
-  <div class="titular" style="font-size:118px;margin:0 70px">LEE LA NOTICIA<br><span class="g">COMPLETA</span></div>
+  <div class="titular" data-ajustar data-max="118" data-alto="260" style="margin:0 70px">{frase}</div>
   <div style="font:500 40px/1 Montserrat;letter-spacing:10px;margin-top:46px;color:rgba(255,255,255,.85)">ENLACE EN LA BIO</div>
 </div>
-<div style="position:absolute;left:0;right:0;bottom:250px">{marca_html().replace("ZONALEONIDA", "ZONALEONIDA.COM")}</div>
-<div style="position:absolute;left:0;right:0;bottom:150px;text-align:center;font:500 32px/1 Montserrat;letter-spacing:6px;color:rgba(255,255,255,.7)">SÍGUENOS · @ZONALEONIDA</div>""")
+<div style="position:absolute;left:0;right:0;bottom:250px">{marca_html("ZONALEONIDA.COM")}</div>
+<div style="position:absolute;left:0;right:0;bottom:150px;text-align:center;font:500 32px/1 Montserrat;letter-spacing:6px;color:rgba(255,255,255,.7)">SÍGUENOS · @ZONALEONIDA</div>""", seccion)
 
 
 def renderizar(paginas: list[str], carpeta: Path) -> list[Path]:
@@ -174,11 +227,12 @@ Puedes destacar 1-2 palabras por frase con asteriscos.
 - "texto": pie de publicación de 2-4 frases: empieza con un gancho, resume la noticia y termina con una \
 pregunta para que la gente comente. Sin enlaces (di "enlace en la bio" si hace falta). Algún emoji, sin abusar.
 - "hashtags": 8-12 hashtags relevantes (#GTA6 #GTAVI #GTA6Noticias, y otros según el tema).
+- "etiqueta": UNA de estas, la que mejor describa el artículo: OFICIAL (lo confirma Rockstar/Take-Two), ÚLTIMA HORA (novedad importante e inesperada), RUMOR (no confirmado), FILTRACIÓN, DESMENTIDO (aclara un bulo), ANÁLISIS, GUÍA, TRUCO, DESCUBRIMIENTO. Si hay dudas entre OFICIAL y RUMOR, elige RUMOR.
 - "tuit": tuit para X de máx. 240 caracteres, SIN enlace: el dato principal contado de forma directa y con gancho, 1-2 hashtags como mucho (#GTA6). Tono de medio informativo cercano, no de bot.
 - "respuesta": respuesta al propio tuit, de máx. 120 caracteres, que invite a leer más (el enlace se añade después).
 
 Responde SOLO con JSON válido: {"titular": "...", "puntos": ["...", "...", "..."], "texto": "...", "hashtags": ["#..."], \
-"tuit": "...", "respuesta": "..."}"""
+"etiqueta": "...", "tuit": "...", "respuesta": "..."}"""
 
 
 def textos_ia(post: dict) -> dict:
@@ -234,7 +288,7 @@ def enviar_telegram(rutas: list[Path], texto: str, extra: str = "") -> None:
 
 # ---------- modos ----------
 
-def carrusel_noticia(path: Path, sin_ia: bool, enviar: bool) -> None:
+def carrusel_noticia(path: Path, sin_ia: bool, enviar: bool, diseno_forzado: int | None = None) -> None:
     post = leer_post(path)
     print(f"→ {post['title']}")
     t = textos_simples(post) if sin_ia else textos_ia(post)
@@ -243,11 +297,17 @@ def carrusel_noticia(path: Path, sin_ia: bool, enviar: bool) -> None:
     oficial = lambda f: "Imagen: Rockstar Games" if f and "/oficial/" in f else ""
     cred_portada = f"Imagen: {post['credit']}" if post["credit"] else oficial(post["image"])
     total = len(puntos) + 2
-    paginas = [portada(t["titular"], post["image"], cred_portada)]
+    sec = post["category"] if post["category"] in PALETAS else "noticias"
+    eti = (t.get("etiqueta") or "").upper().strip()
+    if eti not in ETIQUETAS:
+        eti = ETIQUETA_SECCION.get(sec, "")
+    diseno = diseno_forzado if diseno_forzado is not None else sum(post["slug"].encode()) % 3  # alterna las composiciones de portada
+    print(f"  sección {sec} · etiqueta {eti} · composición {diseno}")
+    paginas = [portada(t["titular"], post["image"], cred_portada, seccion=sec, etiqueta=eti, diseno=diseno)]
     for i, p in enumerate(puntos):
         f = fotos[(i + 1) % len(fotos)] if len(fotos) > 1 else post["image"]
-        paginas.append(interior(i + 2, total, p, f, oficial(f) or (cred_portada if f == post["image"] else "")))
-    paginas.append(final(fotos[-1]))
+        paginas.append(interior(i + 2, total, p, f, oficial(f) or (cred_portada if f == post["image"] else ""), sec))
+    paginas.append(final(fotos[-1], sec))
     rutas = renderizar(paginas, SALIDA / post["slug"])
     pie = f"{t['texto']}\n\n{' '.join(t['hashtags'])}"
     print(f"  {len(rutas)} imágenes en {SALIDA / post['slug']}\n  Texto:\n{pie}")
@@ -297,6 +357,7 @@ def main() -> int:
     ap.add_argument("--forzar", action="store_true")
     ap.add_argument("--sin-ia", action="store_true")
     ap.add_argument("--no-enviar", action="store_true")
+    ap.add_argument("--diseno", type=int, choices=[0, 1, 2], help="forzar una composición de portada (pruebas)")
     a = ap.parse_args()
     if a.modo == "cuenta-atras":
         cuenta_atras(a.dias, a.forzar, not a.no_enviar)
@@ -308,7 +369,7 @@ def main() -> int:
             print(f"! no existe {f}")
             continue
         try:
-            carrusel_noticia(p, a.sin_ia, not a.no_enviar)
+            carrusel_noticia(p, a.sin_ia, not a.no_enviar, a.diseno)
         except Exception as e:  # noqa: BLE001
             errores += 1
             print(f"! error con {f}: {type(e).__name__}: {e}")
