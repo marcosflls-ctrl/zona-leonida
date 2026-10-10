@@ -44,7 +44,7 @@ Esta página se actualiza cada vez que Rockstar confirma algo nuevo sobre precio
 | Ultimate | 99,99 € | El juego + contenido extra repartido por la historia |
 | Mejora de Estándar a Ultimate | Sin precio oficial | El contenido extra de la Ultimate |
 
-En Estados Unidos el precio de la edición estándar es de 79,99 dólares. En Latinoamérica el precio varía según el país y la tienda; revisa la PlayStation Store o la Microsoft Store de tu región.
+En Estados Unidos el precio de la edición estándar es de 79,99 dólares. En Latinoamérica el precio varía según el país y la tienda: lo tienes país por país en [el precio de GTA 6 en México, Argentina, Colombia, Chile y Perú](/guias/gta-6-precio-latinoamerica/).
 
 ## ¿Qué incluye la edición Ultimate?
 
