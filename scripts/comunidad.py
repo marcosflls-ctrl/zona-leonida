@@ -94,7 +94,7 @@ def _leer_feed(url: str):
     intentos = 3 if es_reddit else 1
     for n in range(intentos):
         if es_reddit:
-            time.sleep(4 + 8 * n)
+            time.sleep(6 + 15 * n)
         try:
             r = requests.get(url, headers={"User-Agent": UA}, timeout=25)
         except Exception as e:  # noqa: BLE001
@@ -126,7 +126,7 @@ def recoger(cfg: dict, state: dict) -> list[dict]:
             print(f"  ! {feed['name']}: {e}")
             continue
         print(f"  · {feed['name']}: {len(entries)} entradas")
-        for e in entries[:50]:
+        for e in entries[:100]:
             link, title = e.get("link", ""), e.get("title", "")
             if not link or link in state["urls"]:
                 continue

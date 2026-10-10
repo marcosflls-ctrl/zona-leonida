@@ -79,16 +79,7 @@
     "feeds": [
       {
         "name": "Reddit r/GTA6 (nuevo)",
-        "url": "https://www.reddit.com/r/GTA6/new/.rss"
-      },
-      {
-        "name": "Reddit r/GTA6 (lo más votado)",
-        "url": "https://www.reddit.com/r/GTA6/top/.rss?t=day"
-      },
-      {
-        "name": "Reddit r/GTA (lo más votado)",
-        "url": "https://www.reddit.com/r/GTA/top/.rss?t=day",
-        "solo_juego": true
+        "url": "https://www.reddit.com/r/GTA6/new/.rss?limit=100"
       },
       {
         "name": "YouTube: GTA Series Videos",
