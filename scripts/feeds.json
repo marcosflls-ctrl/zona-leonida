@@ -38,5 +38,88 @@
       "name": "Reddit r/GTA6",
       "url": "https://www.reddit.com/r/GTA6/top/.rss?t=day"
     }
-  ]
+  ],
+  "comunidad": {
+    "_nota": "Modo lanzamiento: descubrimientos de la comunidad que amplían las guías. Se activa solo desde 'desde' (hora UTC). Para probar antes: FORZAR_COMUNIDAD=1.",
+    "desde": "2026-11-18T10:00:00+00:00",
+    "max_horas": 24,
+    "keywords": [
+      "secreto",
+      "secret",
+      "easter egg",
+      "escondid",
+      "hidden",
+      "oculto",
+      "truco",
+      "cheat",
+      "encontr",
+      "found",
+      "discover",
+      "descubr",
+      "ubicación",
+      "location",
+      "where to find",
+      "dónde encontrar",
+      "how to get",
+      "cómo conseguir",
+      "how to unlock",
+      "desbloquear",
+      "money method",
+      "dinero rápido",
+      "make money",
+      "trofeo",
+      "trophy",
+      "achievement",
+      "logro",
+      "tip",
+      "consejo",
+      "guide",
+      "guía"
+    ],
+    "feeds": [
+      {
+        "name": "Reddit r/GTA6 (nuevo)",
+        "url": "https://www.reddit.com/r/GTA6/new/.rss"
+      },
+      {
+        "name": "Reddit r/GTA6 (lo más votado)",
+        "url": "https://www.reddit.com/r/GTA6/top/.rss?t=day"
+      },
+      {
+        "name": "Reddit r/GTA (lo más votado)",
+        "url": "https://www.reddit.com/r/GTA/top/.rss?t=day",
+        "solo_juego": true
+      },
+      {
+        "name": "YouTube: GTA Series Videos",
+        "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCuWcjpKbIDAbZfHoru1toFg",
+        "solo_juego": true
+      },
+      {
+        "name": "YouTube: TGG",
+        "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UChLDRvS2OeJ0f5Xi2j7uofA",
+        "solo_juego": true
+      },
+      {
+        "name": "YouTube: GTA BOOM",
+        "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC04M-f6KBdekrc8e5vQA5sA",
+        "solo_juego": true
+      },
+      {
+        "name": "YouTube: Universo GTA",
+        "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCWMvjJ8GcG9aLKsP5Wf5Cig",
+        "solo_juego": true
+      },
+      {
+        "name": "YouTube: Vista Gamer",
+        "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCMgqXTXjYNCAmyS9ci426Gg",
+        "solo_juego": true
+      },
+      {
+        "name": "YouTube: Nelson | WilshonGaming",
+        "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsCNwjHzOGvrbwM22P7D_rQ",
+        "solo_juego": true
+      }
+    ]
+  }
 }

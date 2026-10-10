@@ -9,6 +9,11 @@ on:
         description: "Enlace de una noticia concreta para redactarla ya (déjalo vacío para revisar todas las fuentes)"
         required: false
         default: ""
+      prueba_comunidad:
+        description: "Probar el modo lanzamiento sin escribir nada (solo lista lo que encontraría)"
+        type: boolean
+        required: false
+        default: false
 
 permissions:
   contents: write
@@ -53,7 +58,9 @@ jobs:
         env:
           MAX_PER_RUN: ${{ vars.MAX_PER_RUN || '3' }}
           RADAR_URL: ${{ github.event.inputs.url }}
-        run: python scripts/radar.py
+          FORZAR_COMUNIDAD: ${{ github.event.inputs.prueba_comunidad == 'true' && '1' || '' }}
+        run: |
+          if [ "$FORZAR_COMUNIDAD" = "1" ]; then python scripts/radar.py --dry-run; else python scripts/radar.py; fi
 
       # La memoria del robot (qué noticias ya ha visto) se guarda siempre en main,
       # para no volver a gastar IA en las mismas noticias aunque tardes en aprobar.

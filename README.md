@@ -135,3 +135,7 @@ Las capturas de lectores llegan por `/envia-tu-captura/` (correo o X), con autor
 ## Noticia urgente: redactar ya un enlace concreto
 
 En GitHub → Actions → «Radar de noticias GTA VI» → «Run workflow»: pega el enlace de la noticia en el campo y pulsa el botón verde. El robot la redacta al momento (aunque no sea de sus fuentes) y abre la propuesta para revisar como siempre. Si el campo se deja vacío, revisa todas las fuentes sin esperar a las 3 horas. También se puede hacer desde la app de GitHub en el móvil.
+
+## Modo lanzamiento (desde el 18 de noviembre)
+
+Además de noticias, el robot busca descubrimientos de la comunidad (Reddit r/GTA6 y r/GTA, y canales de YouTube de GTA) y **amplía las guías** (secretos, trucos, coches, dinero, misiones, trofeos, controles, mapa) en una sección «Últimos descubrimientos», con crédito a quien lo encontró, su vídeo en el minuto exacto y la marca «⚠️ Sin comprobar» hasta que se confirme. Llega en la misma propuesta para revisar. Fuentes y fecha de activación en `scripts/feeds.json` → `comunidad`. Para probarlo antes sin escribir nada: «Run workflow» con la casilla «Probar el modo lanzamiento».

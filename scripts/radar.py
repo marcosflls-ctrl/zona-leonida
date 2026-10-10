@@ -26,6 +26,9 @@ import time
 from datetime import datetime, timezone
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import comunidad  # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
 FEEDS_FILE = ROOT / "scripts" / "feeds.json"
 STATE_FILE = ROOT / "scripts" / "state" / "seen.json"
@@ -551,6 +554,8 @@ def main() -> int:
     if args.dry_run:
         for c in candidates:
             print(f"  - [{c['source']}] {c['title']}\n    {c['url']}")
+        if not url_forzada:
+            comunidad.run(cfg, state, None, MODEL, dry_run=True)
         return 0
     if not (os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("ANTHROPIC_IDENTITY_TOKEN_FILE")):
         print("Faltan credenciales: ANTHROPIC_API_KEY o la federación de identidades (ANTHROPIC_IDENTITY_TOKEN_FILE)")
@@ -595,13 +600,26 @@ def main() -> int:
             posts.append({"title": data["title"], "url": f"/{data['category']}/{p.stem}/"})
             print(f"  ✓ {p.relative_to(ROOT)}")
 
+    # Modo lanzamiento: descubrimientos de la comunidad que amplían las guías (activo desde la fecha de feeds.json)
+    guias = []
+    if not url_forzada:
+        def cliente():
+            refresh_github_identity()
+            return get_client()
+        try:
+            guias = comunidad.run(cfg, state, cliente, MODEL, maximo=int(os.environ.get("MAX_COMUNIDAD", "5")))
+        except Exception as e:  # noqa: BLE001
+            print(f"  ! modo lanzamiento: {type(e).__name__}: {str(e)[:200]}")
+
     save_state(state)
     summary = "\n".join(f"- {p.stem}" for p in written)
     print(f"\nArtículos nuevos: {len(written)}\n{summary}")
+    if guias:
+        print(f"Guías ampliadas con descubrimientos: {len(guias)}\n" + "\n".join(f"- {p.stem}" for p in guias))
     gh_out = os.environ.get("GITHUB_OUTPUT")
     if gh_out:
         with open(gh_out, "a", encoding="utf-8") as fh:
-            fh.write(f"count={len(written)}\n")
+            fh.write(f"count={len(written) + len(guias)}\n")
     return 0
 
 
