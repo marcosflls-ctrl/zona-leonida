@@ -152,7 +152,7 @@ def redactar(client, model: str, item: dict) -> dict | None:
     user = (f"FUENTE: {item['fuente']}\nAUTOR: {item['autor'] or 'desconocido'}\nTÍTULO: {item['title']}\n"
             f"ENLACE: {item['url']}\nVÍDEOS ENLAZADOS: {', '.join(item['videos']) or 'ninguno'}\n\n"
             f"TEXTO:\n\"\"\"\n{item['texto']}\n\"\"\"")
-    msg = client.messages.create(model=model, max_tokens=900, system=PROMPT.format(guias=guias),
+    msg = client.messages.create(model=model, max_tokens=6000, system=PROMPT.format(guias=guias),
                                  messages=[{"role": "user", "content": user}])
     raw = "".join(b.text for b in msg.content if b.type == "text").strip()
     raw = re.sub(r"^```(?:json)?|```$", "", raw, flags=re.M).strip()

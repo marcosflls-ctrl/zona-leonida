@@ -392,7 +392,7 @@ def write_article(item: dict, source_text: str, posts: list[dict]) -> dict | Non
         f"ARTÍCULOS YA PUBLICADOS EN NUESTRA WEB (para enlaces internos):\n{related}"
     )
     msg = client.messages.create(
-        model=MODEL, max_tokens=3000, system=SYSTEM,
+        model=MODEL, max_tokens=12000, system=SYSTEM,
         messages=[{"role": "user", "content": user}],
     )
     raw = "".join(b.text for b in msg.content if b.type == "text").strip()
