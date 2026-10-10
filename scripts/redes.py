@@ -241,14 +241,30 @@ def textos_ia(post: dict) -> dict:
 
     client = radar.get_client()
     user = f"TÍTULO: {post['title']}\nRESUMEN: {post['description']}\n\nARTÍCULO:\n{post['body'][:9000]}"
-    msg = client.messages.create(model=radar.MODEL, max_tokens=1200, system=PROMPT,
-                                 messages=[{"role": "user", "content": user}])
-    raw = "".join(b.text for b in msg.content if b.type == "text").strip()
-    raw = re.sub(r"^```(?:json)?|```$", "", raw, flags=re.M).strip()
-    data = json.loads(raw)
-    if not data.get("titular") or len(data.get("puntos", [])) < 2:
-        raise ValueError("faltan campos en la respuesta de la IA")
-    return data
+    ultimo_error = None
+    for intento in range(3):
+        radar.refresh_github_identity()  # pase nuevo por si el SDK necesita renovar el acceso
+        msg = client.messages.create(model=radar.MODEL, max_tokens=2000, system=PROMPT,
+                                     messages=[{"role": "user", "content": user}])
+        raw = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text").strip()
+        try:
+            data = extraer_json(raw)
+            if not data.get("titular") or len(data.get("puntos", [])) < 2:
+                raise ValueError("faltan campos")
+            return data
+        except (ValueError, json.JSONDecodeError) as e:
+            ultimo_error = e
+            print(f"  ! respuesta no válida (intento {intento + 1}, stop={getattr(msg, 'stop_reason', '?')}): {raw[:160]!r}")
+    raise ValueError(f"la IA no devolvió datos válidos: {ultimo_error}")
+
+
+def extraer_json(raw: str) -> dict:
+    """Saca el objeto JSON aunque venga entre ``` o con alguna frase antes o después."""
+    raw = re.sub(r"```(?:json)?", "", raw).strip()
+    ini, fin = raw.find("{"), raw.rfind("}")
+    if ini < 0 or fin <= ini:
+        raise ValueError("no hay JSON en la respuesta")
+    return json.loads(raw[ini:fin + 1])
 
 
 def textos_simples(post: dict) -> dict:
