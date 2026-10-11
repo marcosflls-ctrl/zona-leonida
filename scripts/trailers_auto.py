@@ -33,6 +33,8 @@ def traducir(titulo: str) -> str:
     t = re.sub(r"Gameplay", "Gameplay", t, flags=re.I)
     if not t.lower().startswith("gta vi"):
         t = f"GTA VI: {t}"
+    elif not t[6:7] == ":":
+        t = "GTA VI: " + t[6:].strip()
     return t
 
 

@@ -160,3 +160,8 @@ Además de noticias, el robot busca descubrimientos de la comunidad (Reddit r/GT
 - Cada mañana (10:37) comprueba si toca portada de cuenta atrás: 60, 50, 45, 40, 35, 30, 25, 21, 20, 15, 14, 12 y 10 días, y todos los días de la última semana.
 - A mano: Actions → «Carruseles para Instagram y TikTok» → Run workflow (modo `noticia` con el archivo, o `cuenta-atras`).
 - Probar en local sin IA: `python scripts/redes.py noticia src/content/posts/<archivo>.md --sin-ia --no-enviar` (salen en `redes-salida/`).
+
+## Tráilers automáticos
+
+- Cada media hora se revisa el canal oficial de Rockstar en YouTube. Si sube un vídeo nuevo de GTA VI (no shorts ni GTA Online), se añade a `src/data/trailers.json`, se publica en /trailers/ y llega un aviso por Telegram.
+- Edita el texto de cada vídeo en `src/data/trailers.json` cuando quieras (por defecto pone una frase genérica).
