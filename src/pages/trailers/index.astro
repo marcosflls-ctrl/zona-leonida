@@ -4,30 +4,10 @@ import AdSlot from '../../components/AdSlot.astro';
 import Compartir from '../../components/Compartir.astro';
 import Siguenos from '../../components/Siguenos.astro';
 import { SITE } from '../../config';
+import TRAILERS from '../../data/trailers.json';
 
-const VIDEOS = [
-  {
-    id: 'tJbzMqJGH4k',
-    titulo: 'GTA VI: Una mirada extendida',
-    fecha: '2026-08-27',
-    fechaTxt: '27 de agosto de 2026',
-    texto: 'El vistazo más largo al juego hasta ahora. Se estrenó primero en Netflix y después llegó al canal de YouTube de Rockstar. Enseña mucho más de Leonida, de la historia de Jason y Lucía y de cómo se juega.',
-  },
-  {
-    id: 'VQRLujxTm3c',
-    titulo: 'GTA VI: Tráiler 2',
-    fecha: '2025-05-06',
-    fechaTxt: '6 de mayo de 2025',
-    texto: 'El segundo tráiler profundiza en la relación entre Jason y Lucía y presenta a buena parte de los secundarios. Suena «Hot Together», de The Pointer Sisters.',
-  },
-  {
-    id: 'QdBZY2fkU-0',
-    titulo: 'GTA VI: Tráiler 1',
-    fecha: '2023-12-05',
-    fechaTxt: '5 de diciembre de 2023',
-    texto: 'La presentación oficial del juego: Lucía en la cárcel, la vuelta a Vice City y un repaso a la locura de Leonida, al ritmo de «Love Is a Long Road», de Tom Petty.',
-  },
-];
+// Los vídeos nuevos los añade solo scripts/trailers_auto.py (más recientes primero)
+const VIDEOS = [...TRAILERS].sort((a, b) => b.fecha.localeCompare(a.fecha));
 const title = 'Tráilers de GTA 6: todos los vídeos oficiales';
 const description = 'Mira todos los tráilers oficiales de GTA 6 en un solo sitio: el tráiler 1, el tráiler 2 y «Una mirada extendida», con lo más importante de cada uno.';
 const jsonLd = VIDEOS.map((v) => ({

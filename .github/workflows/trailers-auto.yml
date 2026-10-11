@@ -1,0 +1,71 @@
+name: Tráilers nuevos de Rockstar
+
+# Cada media hora mira el canal oficial de Rockstar en YouTube. Si hay un vídeo nuevo de GTA VI,
+# lo añade a la página de Tráilers, publica el cambio y te avisa por Telegram en privado.
+on:
+  schedule:
+    - cron: "13,43 * * * *"
+  workflow_dispatch:
+    inputs:
+      prueba:
+        description: "Solo mirar (no publicar nada)"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: trailers
+  cancel-in-progress: false
+
+jobs:
+  trailers:
+    runs-on: ubuntu-latest
+    env:
+      TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TG_CHAT: ${{ secrets.TELEGRAM_AVISOS_CHAT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q feedparser requests
+
+      - name: Buscar vídeos nuevos
+        id: buscar
+        run: python scripts/trailers_auto.py ${{ github.event.inputs.prueba == 'true' && '--prueba' || '' }}
+
+      - name: Publicar en la web
+        if: steps.buscar.outputs.nuevos != '0' && steps.buscar.outputs.nuevos != ''
+        run: |
+          git config user.name "zona-leonida-bot"
+          git config user.email "bot@zonaleonida.com"
+          git add src/data/trailers.json
+          git commit -m "Tráilers: vídeo nuevo de Rockstar"
+          git pull --rebase origin main
+          git push
+
+      - name: Avisar por Telegram
+        if: steps.buscar.outputs.nuevos != '0' && steps.buscar.outputs.nuevos != ''
+        env:
+          LISTA: ${{ steps.buscar.outputs.lista }}
+        run: |
+          [ -z "$TG_TOKEN" ] || [ -z "$TG_CHAT" ] && exit 0
+          curl -s -o /dev/null -X POST "https://api.telegram.org/bot${TG_TOKEN}/sendMessage" \
+            --data-urlencode "chat_id=${TG_CHAT}" \
+            --data-urlencode "text=🎬 ¡Rockstar ha subido un vídeo nuevo de GTA VI! Ya está en zonaleonida.com/trailers/
+
+          ${LISTA}
+
+          Si es un tráiler, lanza la noticia urgente desde Actions → Radar → Run workflow con el enlace del vídeo, o pídemelo."
+
+      - name: Avisar del fallo por Telegram
+        if: failure()
+        env:
+          URL_EJECUCION: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          [ -z "$TG_TOKEN" ] || [ -z "$TG_CHAT" ] && exit 0
+          curl -s -o /dev/null -X POST "https://api.telegram.org/bot${TG_TOKEN}/sendMessage" \
+            --data-urlencode "chat_id=${TG_CHAT}" \
+            --data-urlencode "text=❌ Ha fallado «${{ github.workflow }}» de Zona Leonida: ${URL_EJECUCION}"
