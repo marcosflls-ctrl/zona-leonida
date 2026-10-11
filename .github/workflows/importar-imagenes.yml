@@ -1,0 +1,60 @@
+name: Importar imágenes oficiales
+
+# Descarga imágenes oficiales (de Rockstar, PlayStation Store, Xbox Store…) a public/img/oficial,
+# las pasa a WebP a 1600 px de ancho con sus versiones pequeñas y las publica.
+# Uso: Run workflow con líneas "nombre-archivo URL" separadas por ";".
+on:
+  workflow_dispatch:
+    inputs:
+      imagenes:
+        description: "nombre URL; nombre URL; … (el nombre sin extensión, ej. vice-city-2002-1)"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  importar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q requests pillow
+      - name: Descargar y convertir
+        env:
+          LISTA: ${{ github.event.inputs.imagenes }}
+        run: |
+          python3 - <<'EOF'
+          import io, os, re, requests, pathlib
+          from PIL import Image
+          dest = pathlib.Path("public/img/oficial")
+          hechos = []
+          for linea in os.environ["LISTA"].split(";"):
+              linea = linea.strip()
+              if not linea:
+                  continue
+              nombre, url = linea.split(None, 1)
+              if not re.fullmatch(r"[a-z0-9-]+", nombre):
+                  raise SystemExit(f"Nombre no válido: {nombre}")
+              r = requests.get(url.strip(), timeout=60, headers={"User-Agent": "Mozilla/5.0"})
+              r.raise_for_status()
+              im = Image.open(io.BytesIO(r.content)).convert("RGB")
+              if im.width > 1600:
+                  im = im.resize((1600, round(im.height * 1600 / im.width)), Image.LANCZOS)
+              im.save(dest / f"{nombre}.webp", "WEBP", quality=82, method=6)
+              hechos.append(dest / f"{nombre}.webp")
+              print(f"✓ {nombre}: {im.width}x{im.height}")
+          import subprocess
+          subprocess.run(["python", "scripts/miniaturas.py", *map(str, hechos)], check=True)
+          EOF
+      - name: Publicar
+        run: |
+          git config user.name "zona-leonida-bot"
+          git config user.email "bot@zonaleonida.com"
+          git add public/img/oficial
+          if git diff --cached --quiet; then echo "Sin cambios"; exit 0; fi
+          git commit -m "Imágenes oficiales importadas"
+          git pull --rebase origin main
+          git push
