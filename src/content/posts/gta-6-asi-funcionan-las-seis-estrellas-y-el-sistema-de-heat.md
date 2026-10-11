@@ -15,7 +15,7 @@ sources:
 
 El nivel de búsqueda de GTA 6 cambia más de lo que parece. Según explica GamesRadar, ya no bastará con contar estrellas para saber cuántos problemas tienes con la ley: su aspecto también indicará en qué fase está la persecución. A eso se suma un nuevo sistema llamado Heat, que muestra qué información tiene la policía sobre ti.
 
-Conviene una precaución. El medio basa su explicación en lo visto en «Una mirada extendida» y en los avances de prensa, y aclara que el significado de cada estrella es su propia interpretación ("creo que significan lo siguiente"). No es un manual oficial de Rockstar. Para repasar el resto de ese avance, pueden consultar nuestra guía de [todo lo que se vio en «Una mirada extendida»](/guias/gta-6-mirada-extendida-todo-lo-que-se-vio/).
+Conviene una precaución. El medio basa su explicación en lo visto en «Una mirada extendida» y en los avances de prensa, y aclara que el significado de cada estrella es su propia interpretación ("creo que significan lo siguiente"). No es un manual oficial de Rockstar. Para repasar el resto de ese avance, puedes consultar nuestra guía de [todo lo que se vio en «Una mirada extendida»](/guias/gta-6-mirada-extendida-todo-lo-que-se-vio/).
 
 ## ¿Cuántas estrellas tiene el nivel de búsqueda de GTA 6?
 

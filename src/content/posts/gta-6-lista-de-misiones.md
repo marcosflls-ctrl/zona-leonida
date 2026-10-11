@@ -40,6 +40,6 @@ La historia de GTA 6 se cuenta por capítulos, como anticipó Rockstar. <!-- REL
 
 ## ¿Cuántas misiones tiene GTA 6?
 
-<!-- RELLENAR: total principal + secundarias; enlazar a /guias/gta-6-cuanto-dura/ -->
+<!-- RELLENAR: total principal + secundarias. --> Rob Nelson, de Rockstar North, tardó unas 80 horas en terminar la historia. Te lo contamos en [cuánto dura GTA 6](/guias/gta-6-cuanto-dura/).
 
 Conoce a los [personajes de GTA 6](/guias/gta-6-personajes/) y repasa el [mapa de Leonida](/guias/gta-6-mapa-leonida/).

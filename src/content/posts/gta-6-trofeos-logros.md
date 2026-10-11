@@ -40,4 +40,4 @@ GTA 6 tiene <!-- RELLENAR --> trofeos en PS5 y <!-- RELLENAR --> logros en Xbox 
 
 ## ¿Los trucos bloquean los trofeos?
 
-<!-- RELLENAR; enlazar a /trucos/gta-6-trucos-claves-ps5-xbox/ -->
+<!-- RELLENAR con lo que pase en GTA 6. --> En GTA 5, usar un truco desactivaba los trofeos y logros durante esa sesión de juego. Te contamos todo sobre los trucos en [trucos de GTA 6](/trucos/gta-6-trucos-claves-ps5-xbox/).

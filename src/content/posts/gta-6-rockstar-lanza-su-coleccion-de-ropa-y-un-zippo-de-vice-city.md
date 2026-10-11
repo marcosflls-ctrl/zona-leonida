@@ -49,4 +49,4 @@ Además de esta colección, Rockstar tiene anunciada **The Goodtime State Vice C
 
 Según recoge Vandal, Grand Theft Auto VI llegará el **19 de noviembre de 2026** a PlayStation 5 y Xbox Series X|S. Por el momento, Rockstar no ha anunciado oficialmente una versión para PC. El juego aterriza más de trece años después de GTA V y sus creadores lo plantean como la evolución más grande e inmersiva de la serie.
 
-Si quieren repasar todos los detalles del lanzamiento, pueden consultar nuestro artículo sobre la [fecha de lanzamiento y las plataformas de GTA 6](/noticias/gta-6-fecha-de-lanzamiento-plataformas/). Y para conocer mejor el escenario que inspira esta colección, tenemos una guía con [todo lo que sabemos de GTA 6: mapa, protagonistas y ciudad](/guias/gta-6-todo-lo-que-sabemos/).
+Si quieres repasar todos los detalles del lanzamiento, puedes consultar nuestro artículo sobre la [fecha de lanzamiento y las plataformas de GTA 6](/noticias/gta-6-fecha-de-lanzamiento-plataformas/). Y para conocer mejor el escenario que inspira esta colección, tenemos una guía con [todo lo que sabemos de GTA 6: mapa, protagonistas y ciudad](/guias/gta-6-todo-lo-que-sabemos/).

@@ -35,6 +35,6 @@ Conviene no ir más allá de lo dicho. Rockstar no ha detallado de momento qué 
 
 ## Qué más conviene saber
 
-GTA 6 está previsto para el 19 de noviembre de 2026 en PlayStation 5 y Xbox Series X|S. Rockstar no ha anunciado oficialmente una versión para computadora; puedes repasar lo que se sabe en nuestra guía de [GTA 6 en PC](/guias/gta-6-pc/). Si quieren planificar sus incursiones, también tenemos el [mapa de Leonida con todas las zonas confirmadas](/guias/gta-6-mapa-leonida/).
+GTA 6 está previsto para el 19 de noviembre de 2026 en PlayStation 5 y Xbox Series X|S. Rockstar no ha anunciado oficialmente una versión para computadora; puedes repasar lo que se sabe en nuestra guía de [GTA 6 en PC](/guias/gta-6-pc/). Si quieres planificar tus incursiones, también tenemos el [mapa de Leonida con todas las zonas confirmadas](/guias/gta-6-mapa-leonida/).
 
 Con la campaña de promoción ya en marcha, es probable que lleguen más detalles sobre cómo funcionará esta libertad criminal.

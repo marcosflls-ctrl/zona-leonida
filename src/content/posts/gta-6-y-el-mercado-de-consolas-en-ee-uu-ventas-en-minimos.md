@@ -46,4 +46,4 @@ El texto añade, como dato relacionado, que el director ejecutivo de Acer prevé
 
 ## Qué conviene tener en cuenta
 
-Por ahora, lo único confirmado son los datos de ventas y precios de Circana en EE. UU. La idea de que GTA 6 pueda impulsar el mercado es una hipótesis del analista, no una previsión cerrada. Para repasar ediciones y costes del propio juego, pueden consultar nuestra guía de [precio, ediciones y reservas](/guias/gta-6-precio-ediciones-reservas/) y, si están en Latinoamérica, la de [precios en México, Argentina, Colombia, Chile y Perú](/guias/gta-6-precio-latinoamerica/).
+Por ahora, lo único confirmado son los datos de ventas y precios de Circana en EE. UU. La idea de que GTA 6 pueda impulsar el mercado es una hipótesis del analista, no una previsión cerrada. Para repasar ediciones y costes del propio juego, puedes consultar nuestra guía de [precio, ediciones y reservas](/guias/gta-6-precio-ediciones-reservas/) y, si estás en Latinoamérica, la de [precios en México, Argentina, Colombia, Chile y Perú](/guias/gta-6-precio-latinoamerica/).

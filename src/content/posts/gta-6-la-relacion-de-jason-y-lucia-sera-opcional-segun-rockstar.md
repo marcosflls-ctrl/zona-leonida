@@ -19,7 +19,7 @@ La relación entre [Jason Duval](/personajes/jason-duval/) y [Lucía Caminos](/p
 
 Según recoge Vandal, el vínculo entre los dos protagonistas cambiará en función del tiempo de ocio que compartan y de cómo interactúen durante las misiones. El resultado puede ir desde una pareja sólida hasta una simple alianza de amigos que colaboran por intereses comunes.
 
-Hay un límite narrativo: por motivos de la historia, los dos no podrán separar del todo sus caminos. Lo que sí cambiará, según la fuente, son algunas situaciones y diálogos, que se adaptarán al grado de cercanía que haya entre ellos. Si quieren conocer mejor a la pareja, pueden consultar nuestra guía de [personajes de GTA 6](/guias/gta-6-personajes/).
+Hay un límite narrativo: por motivos de la historia, los dos no podrán separar del todo sus caminos. Lo que sí cambiará, según la fuente, son algunas situaciones y diálogos, que se adaptarán al grado de cercanía que haya entre ellos. Si quieres conocer mejor a la pareja, puedes consultar nuestra guía de [personajes de GTA 6](/guias/gta-6-personajes/).
 
 ## ¿Es obligatorio cuidar la relación? No
 
@@ -38,7 +38,7 @@ Para que la relación crezca, Vandal indica que habrá que interactuar con frecu
 
 ## Cuánto durará GTA 6 con este sistema
 
-Vandal recuerda que Rockstar ha mencionado que la historia principal rondará las 80 horas, casi el doble que la de GTA 5. El medio calcula, como estimación propia y no como dato oficial, que dedicar tiempo a este apartado social podría llevar la cifra por encima de las 100 horas, sin contar el contenido opcional ni la exploración del mapa. Si quieren ubicarse en el escenario, pueden repasar el [mapa de Leonida](/guias/gta-6-mapa-leonida/).
+Vandal recuerda que Rockstar ha mencionado que la historia principal rondará las 80 horas, casi el doble que la de GTA 5. El medio calcula, como estimación propia y no como dato oficial, que dedicar tiempo a este apartado social podría llevar la cifra por encima de las 100 horas, sin contar el contenido opcional ni la exploración del mapa. Si quieres ubicarte en el escenario, puedes repasar el [mapa de Leonida](/guias/gta-6-mapa-leonida/).
 
 ## Una mecánica que se suma a la dinámica de pareja
 

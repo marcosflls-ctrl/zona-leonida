@@ -1,6 +1,6 @@
 ---
-title: "GTA 6: podrás separar a Jason y Lucia para despistar a la policía"
-description: "Según Game Informer, en GTA 6 se podrá separar a Jason y Lucia para dividir la atención de la policía, aunque si uno cae, pierdes la partida."
+title: "GTA 6: podrás separar a Jason y Lucía para despistar a la policía"
+description: "Según Game Informer, en GTA 6 se podrá separar a Jason y Lucía para dividir la atención de la policía, aunque si uno cae, pierdes la partida."
 date: 2026-10-10T12:44:50+00:00
 category: noticias
 tags: [gta-6, policia, jason-y-lucia, persecuciones, game-informer]
@@ -15,9 +15,9 @@ sources:
 
 La policía de **GTA 6** va a ser un rival más listo que en entregas anteriores, y Rockstar ya ha dado una pista de cómo se podrá jugar con ese sistema. Según informa Vandal a partir del último número de Game Informer, los jugadores podrán **separar durante un tiempo a los dos protagonistas** para aliviar la presión de las fuerzas del orden.
 
-## ¿Cómo sirve separar a Jason y Lucia para despistar a la policía?
+## ¿Cómo sirve separar a Jason y Lucía para despistar a la policía?
 
-La idea es sencilla. Si los agentes saben que los criminales buscados son un hombre y una mujer, ir cada uno por su lado **divide su atención** y los confunde con más facilidad. Es una forma de aprovechar que, por primera vez en mucho tiempo, la saga tiene una pareja de protagonistas: [Jason Duval](/personajes/jason-duval/) y [Lucia Caminos](/personajes/lucia-caminos/).
+La idea es sencilla. Si los agentes saben que los criminales buscados son un hombre y una mujer, ir cada uno por su lado **divide su atención** y los confunde con más facilidad. Es una forma de aprovechar que, por primera vez en mucho tiempo, la saga tiene una pareja de protagonistas: [Jason Duval](/personajes/jason-duval/) y [Lucía Caminos](/personajes/lucia-caminos/).
 
 El planteamiento encaja con lo que Game Informer ha recordado sobre el sistema de búsqueda. Cualquier testigo o cámara puede darle a la policía información sobre nuestro aspecto y sobre la existencia de dos delincuentes. Tras un atraco u otro delito habrá que cambiar de vehículo, elegir otra ropa o modificar el peinado para dejar de coincidir con la descripción que circula.
 
@@ -37,4 +37,4 @@ Si quieres entender mejor cómo escala la persecución según el nivel de búsqu
 
 La fuente no detalla **cuánto tiempo** se puede mantener separada a la pareja, si se podrá hacer en cualquier momento o en qué situaciones resultará más útil. Tampoco concreta cómo reaccionará la policía una vez que reconozca que hay dos sospechosos distintos. Habrá que esperar a más información oficial o a probarlo en el juego.
 
-Para tener el contexto completo del juego, puedes consultar [todo lo que sabemos de GTA 6](/guias/gta-6-todo-lo-que-sabemos/). Recuerden que el lanzamiento está previsto para el **19 de noviembre de 2026** en PlayStation 5 y Xbox Series X|S.
+Para tener el contexto completo del juego, puedes consultar [todo lo que sabemos de GTA 6](/guias/gta-6-todo-lo-que-sabemos/). Recuerda que el lanzamiento está previsto para el **19 de noviembre de 2026** en PlayStation 5 y Xbox Series X|S.

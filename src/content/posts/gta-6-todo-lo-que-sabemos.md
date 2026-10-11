@@ -2,7 +2,7 @@
 title: "Todo lo que sabemos de GTA 6: fecha, precio, mapa y personajes"
 description: "Resumen actualizado de GTA 6: fecha, plataformas, precio, Leonida, Jason y Lucía, la nueva policía, el dinero, la radio y todo lo que ha confirmado Rockstar."
 date: 2026-10-09T00:06:00+02:00
-updated: 2026-10-11T17:20:00+02:00
+updated: 2026-10-11T17:35:00+02:00
 category: guias
 image: /img/oficial/jason-y-lucia-1.webp
 imageAlt: "Jason y Lucía, imagen oficial de GTA VI"
@@ -33,9 +33,10 @@ Este es el resumen de **todo lo que Rockstar ha confirmado de GTA VI** antes de 
 | **Precio** | 79,99 € la estándar y 99,99 € la Ultimate |
 | **Precarga** | Desde el 12 de noviembre |
 | **Edad** | PEGI 18 en Europa y M (17+) en EE. UU. |
+| **Duración** | Unas 80 horas de historia, según Rockstar North |
 | **Modo online** | No anunciado: es una experiencia para un jugador |
 
-Más detalles en [fecha y plataformas](/noticias/gta-6-fecha-de-lanzamiento-plataformas/), [a qué hora sale en tu país](/guias/gta-6-a-que-hora-sale/), [precio y ediciones](/guias/gta-6-precio-ediciones-reservas/), [precio en Latinoamérica](/guias/gta-6-precio-latinoamerica/), [¿saldrá en PC?](/guias/gta-6-pc/) y [¿tendrá modo online?](/guias/gta-6-modo-online/).
+Más detalles en [fecha y plataformas](/noticias/gta-6-fecha-de-lanzamiento-plataformas/), [a qué hora sale en tu país](/guias/gta-6-a-que-hora-sale/), [precio y ediciones](/guias/gta-6-precio-ediciones-reservas/), [precio en Latinoamérica](/guias/gta-6-precio-latinoamerica/), [¿saldrá en PC?](/guias/gta-6-pc/) [¿tendrá modo online?](/guias/gta-6-modo-online/), [cuánto dura](/guias/gta-6-cuanto-dura/) y [¿tendrá trucos?](/trucos/gta-6-trucos-claves-ps5-xbox/).
 
 ## Dónde transcurre: Leonida y Vice City
 

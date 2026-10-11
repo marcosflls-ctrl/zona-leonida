@@ -23,7 +23,7 @@ Lo más llamativo es que no se tratará solo de una actividad opcional para comp
 
 ## ¿Qué tiene que ver Jason y Lucía?
 
-Según recoge la fuente, el dinero será necesario para que Jason y Lucía salgan de la situación en la que se encuentran. Rockstar no ha detallado cuál es esa situación, así que habrá que esperar a jugar para descubrirlo. Si quieren repasar quién es quién en la historia, pueden consultar nuestra guía de [personajes de GTA 6](/guias/gta-6-personajes/).
+Según recoge la fuente, el dinero será necesario para que Jason y Lucía salgan de la situación en la que se encuentran. Rockstar no ha detallado cuál es esa situación, así que habrá que esperar a jugar para descubrirlo. Si quieres repasar quién es quién en la historia, puedes consultar nuestra guía de [personajes de GTA 6](/guias/gta-6-personajes/).
 
 Lo que sí queda claro es que la motivación económica estará ligada a la trama y no será un simple añadido de la jugabilidad libre. Esto encaja con la idea de una pareja protagonista que necesita ganar dinero para resolver sus problemas.
 
@@ -37,4 +37,4 @@ En conjunto, el planteamiento sugiere un sistema en el que robar, atracar y move
 
 Por ahora, la información oficial se limita a estas declaraciones generales. Rockstar no ha explicado cómo funcionará la economía en detalle, ni cuánto se ganará por cada tipo de actividad. Lo iremos contando en cuanto haya novedades.
 
-Mientras tanto, pueden repasar [todo lo que sabemos de GTA 6](/guias/gta-6-todo-lo-que-sabemos/), desde el mapa hasta los protagonistas, para llegar al lanzamiento con el contexto completo. Recuerden también que, por el momento, Rockstar no ha anunciado oficialmente una versión para computadora.
+Mientras tanto, puedes repasar [todo lo que sabemos de GTA 6](/guias/gta-6-todo-lo-que-sabemos/), desde el mapa hasta los protagonistas, para llegar al lanzamiento con el contexto completo. Recuerden también que, por el momento, Rockstar no ha anunciado oficialmente una versión para computadora.
