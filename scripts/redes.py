@@ -30,6 +30,8 @@ LANZAMIENTO = date(2026, 11, 19)
 HITOS = {60, 50, 45, 40, 35, 30, 25, 21, 20, 15, 14, 12, 10}
 
 W, H = 1080, 1350
+# Los textos de redes son cortos y sencillos: basta un modelo más barato que el de las noticias
+MODELO_REDES = os.environ.get("MODELO_REDES", "claude-haiku-5-5")
 
 # Paletas neón Vice City por sección: (color 1, color 2, color 3) del degradado
 PALETAS = {
@@ -303,7 +305,7 @@ def textos_ia(post: dict) -> dict:
     ultimo_error = None
     for intento in range(3):
         radar.refresh_github_identity()  # pase nuevo por si el SDK necesita renovar el acceso
-        msg = client.messages.create(model=radar.MODEL, max_tokens=8000, system=PROMPT,
+        msg = client.messages.create(model=MODELO_REDES, max_tokens=8000, system=PROMPT,
                                      messages=[{"role": "user", "content": user}])
         raw = "".join(b.text for b in msg.content if getattr(b, "type", "") == "text").strip()
         try:

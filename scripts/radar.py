@@ -614,7 +614,7 @@ def main() -> int:
             refresh_github_identity()
             return get_client()
         try:
-            guias = comunidad.run(cfg, state, cliente, MODEL, maximo=int(os.environ.get("MAX_COMUNIDAD", "5")))
+            guias = comunidad.run(cfg, state, cliente, os.environ.get("MODELO_COMUNIDAD", "claude-haiku-5-5"), maximo=int(os.environ.get("MAX_COMUNIDAD", "5")))
         except Exception as e:  # noqa: BLE001
             print(f"  ! modo lanzamiento: {type(e).__name__}: {str(e)[:200]}")
 
