@@ -156,6 +156,7 @@ Además de noticias, el robot busca descubrimientos de la comunidad (Reddit r/GT
 
 - Al publicarse un artículo nuevo, la IA escribe titular, 3 puntos clave, texto, hashtags y un tuit sugerido (con su respuesta y el enlace); se genera un carrusel de 5 imágenes (1080×1350) con el diseño de la marca y llega por Telegram en privado, junto con el texto para copiar.
 - Variedad: etiqueta según el tipo (OFICIAL, ÚLTIMA HORA, RUMOR, FILTRACIÓN, DESMENTIDO, ANÁLISIS, GUÍA, TRUCO, DESCUBRIMIENTO), paleta neón por sección (rosa noticias, turquesa guías, verde trucos, dorado descubrimientos) y 3 composiciones de portada que se alternan (`--diseno 0|1|2` para forzar una).
+- Serie de personajes: cada día a las 18:52 (desde el 12 de octubre) llega el carrusel de un personaje con la plantilla «Perfil» (8 en total). A mano: modo `personaje` y el slug.
 - Cada mañana (10:37) comprueba si toca portada de cuenta atrás: 60, 50, 45, 40, 35, 30, 25, 21, 20, 15, 14, 12 y 10 días, y todos los días de la última semana.
 - A mano: Actions → «Carruseles para Instagram y TikTok» → Run workflow (modo `noticia` con el archivo, o `cuenta-atras`).
 - Probar en local sin IA: `python scripts/redes.py noticia src/content/posts/<archivo>.md --sin-ia --no-enviar` (salen en `redes-salida/`).

@@ -9,15 +9,16 @@ on:
     branches: [main]
     paths: ["src/content/posts/**.md"]
   schedule:
-    - cron: "37 8 * * *"   # 10:37 en España (horario de verano)
+    - cron: "37 8 * * *"   # 10:37 en España (horario de verano): cuenta atrás
+    - cron: "52 16 * * *"  # 18:52 en España: serie de personajes (uno al día desde el 12 de octubre)
   workflow_dispatch:
     inputs:
       modo:
-        description: "noticia o cuenta-atras"
+        description: "noticia, cuenta-atras o personaje"
         required: true
         default: noticia
       archivos:
-        description: "Para 'noticia': nombres de archivo separados por espacios (ej. gta-6-pc.md)"
+        description: "Para 'noticia': archivos (ej. gta-6-pc.md). Para 'personaje': el slug (ej. jason-duval) o vacío para el del día"
         required: false
         default: ""
 
@@ -44,6 +45,9 @@ jobs:
       - name: ¿Qué hay que hacer?
         id: tarea
         run: |
+          if [ "${{ github.event.schedule }}" = "52 16 * * *" ] || [ "${{ github.event.inputs.modo }}" = "personaje" ]; then
+            echo "modo=personaje" >> "$GITHUB_OUTPUT"; echo "archivos=${{ github.event.inputs.archivos }}" >> "$GITHUB_OUTPUT"; exit 0
+          fi
           if [ "${{ github.event_name }}" = "schedule" ] || [ "${{ github.event.inputs.modo }}" = "cuenta-atras" ]; then
             echo "modo=cuenta-atras" >> "$GITHUB_OUTPUT"; exit 0
           fi
@@ -62,7 +66,7 @@ jobs:
           echo "archivos=$LISTA" >> "$GITHUB_OUTPUT"
 
       - name: Preparar
-        if: steps.tarea.outputs.modo == 'cuenta-atras' || steps.tarea.outputs.archivos != ''
+        if: steps.tarea.outputs.modo != 'noticia' || steps.tarea.outputs.archivos != ''
         id: prep
         run: echo "ok=1" >> "$GITHUB_OUTPUT"
 
@@ -90,7 +94,9 @@ jobs:
       - name: Generar y enviar
         if: steps.prep.outputs.ok == '1'
         run: |
-          if [ "${{ steps.tarea.outputs.modo }}" = "cuenta-atras" ]; then
+          if [ "${{ steps.tarea.outputs.modo }}" = "personaje" ]; then
+            python scripts/redes.py personaje ${{ steps.tarea.outputs.archivos }}
+          elif [ "${{ steps.tarea.outputs.modo }}" = "cuenta-atras" ]; then
             python scripts/redes.py cuenta-atras $([ "${{ github.event_name }}" = "workflow_dispatch" ] && echo --forzar)
           else
             [ "${{ github.event_name }}" = "push" ] && sleep 30

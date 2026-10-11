@@ -203,6 +203,65 @@ def renderizar(paginas: list[str], carpeta: Path) -> list[Path]:
     return rutas
 
 
+def perfil(nombre: str, etiqueta: str, foto: str | None, foto_circulo: str | None) -> str:
+    """Plantilla «Perfil»: retrato a pantalla completa, insignia circular con borde rosa a la izquierda,
+    nombre en degradado, subtítulo espaciado y la marca al pie."""
+    return pagina(f"""
+<img class="foto" src="{img_uri(foto)}" style="height:1120px;object-position:60% 30%">
+<div class="fundido" style="top:640px;height:480px"></div>
+<div class="credito">Imagen: Rockstar Games</div>
+<div style="position:absolute;left:24px;top:500px;width:390px;height:390px;border-radius:50%;border:6px solid #ff7ac2;
+  box-shadow:0 0 30px rgba(255,79,166,.55);overflow:hidden;background:#111">
+  <img src="{img_uri(foto_circulo)}" style="width:100%;height:100%;object-fit:cover;object-position:50% 30%">
+</div>
+<div style="position:absolute;left:0;right:0;bottom:62px;text-align:center">
+  <div class="titular" data-ajustar data-max="150" data-alto="170" style="margin:0 60px"><span class="g">{html.escape(nombre)}</span></div>
+  <div data-ajustar data-max="44" data-alto="60" style="font:400 44px/1.2 Montserrat;letter-spacing:8px;margin:14px 60px 30px">{html.escape(etiqueta)}</div>
+  {marca_html()}
+</div>""")
+
+
+def cita(frase: str, nombre: str, foto: str | None) -> str:
+    return pagina(f"""
+<img class="foto" src="{img_uri(foto)}" style="height:{H}px;opacity:.28;filter:saturate(1.2)">
+<div class="brillo"></div>
+<div style="position:absolute;left:0;right:0;top:62px">{marca_html()}</div>
+<div style="position:absolute;left:80px;right:80px;top:330px">
+  <div class="g" style="font:500 300px/0.75 Montserrat;display:inline-block">“</div>
+  <div class="titular" data-ajustar data-max="110" data-alto="520" style="text-align:left;margin-top:10px">{html.escape(frase)}</div>
+  <div style="font:500 36px/1 Montserrat;letter-spacing:6px;margin-top:40px;color:rgba(255,255,255,.75)">— {html.escape(nombre.upper())}</div>
+</div>""")
+
+
+def parrafo(n: int, total: int, titulo: str, texto: str, foto: str | None, etiqueta: str = "", fuente: str = "") -> str:
+    """Diapositiva de texto largo en letra de lectura (para biografías y teorías)."""
+    eti = f'<span class="etiqueta" style="margin-bottom:22px">{html.escape(etiqueta)}</span><br>' if etiqueta else ""
+    pie = f'<div style="font:500 26px/1.3 Montserrat;color:rgba(255,255,255,.55);margin-top:26px">{html.escape(fuente)}</div>' if fuente else ""
+    return pagina(f"""
+<div class="brillo"></div>
+<img class="foto" src="{img_uri(foto)}" style="left:60px;top:150px;width:960px;height:400px;border-radius:30px;border:2px solid rgba(255,255,255,.08)">
+<div class="credito" style="right:84px;top:512px">Imagen: Rockstar Games</div>
+<div style="position:absolute;left:0;right:0;top:62px">{marca_html()}</div>
+<div style="position:absolute;left:70px;right:70px;top:590px">
+  {eti}<div class="titular" style="text-align:left;font-size:76px"><span class="g">{html.escape(titulo)}</span></div>
+  <div data-ajustar data-max="44" data-alto="{560 - (70 if etiqueta else 0) - (60 if fuente else 0)}" style="font:500 44px/1.38 Montserrat;margin-top:18px">{html.escape(texto)}</div>
+  {pie}
+</div>
+<div class="pagina"><span>{n} / {total}</span><span>ZONALEONIDA.COM</span></div>""")
+
+
+def final_personaje(nombre: str, foto: str | None) -> str:
+    return pagina(f"""
+<img class="foto" src="{img_uri(foto)}" style="height:{H}px;opacity:.32;filter:saturate(1.2)">
+<div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.2),#000 85%)"></div>
+<div style="position:absolute;left:0;right:0;top:330px;text-align:center">
+  <div class="titular" data-ajustar data-max="112" data-alto="260" style="margin:0 70px">TODO SOBRE<br><span class="g">{html.escape(nombre.upper())}</span></div>
+  <div style="font:500 40px/1 Montserrat;letter-spacing:10px;margin-top:46px;color:rgba(255,255,255,.85)">ENLACE EN LA BIO</div>
+</div>
+<div style="position:absolute;left:0;right:0;bottom:250px">{marca_html("ZONALEONIDA.COM")}</div>
+<div style="position:absolute;left:0;right:0;bottom:150px;text-align:center;font:500 32px/1 Montserrat;letter-spacing:6px;color:rgba(255,255,255,.7)">SÍGUENOS · @ZONALEONIDAVI</div>""")
+
+
 # ---------- textos ----------
 
 def leer_post(path: Path) -> dict:
@@ -337,6 +396,43 @@ def carrusel_noticia(path: Path, sin_ia: bool, enviar: bool, diseno_forzado: int
         enviar_telegram(rutas, f"📲 Carrusel listo: {post['title']}\n\n— Texto para Instagram y TikTok —\n\n{pie}", tuit)
 
 
+PERSONAJES = ROOT / "scripts" / "redes" / "personajes.json"
+INICIO_SERIE = date(2026, 10, 12)  # un personaje al día a partir de esta fecha
+
+
+def carrusel_personaje(slug: str | None, enviar: bool) -> None:
+    datos = json.loads(PERSONAJES.read_text(encoding="utf-8"))
+    if slug is None:  # modo diario: toca el personaje del día
+        i = (datetime.now(timezone.utc).astimezone().date() - INICIO_SERIE).days
+        if not 0 <= i < len(datos):
+            print("Hoy no toca personaje (la serie ya terminó o no ha empezado).")
+            return
+        p = datos[i]
+    else:
+        p = next(x for x in datos if x["slug"] == slug)
+    fotos = [f"/img/oficial/{x}.webp" for x in p["imagenes"]]
+    f = lambda k: fotos[k % len(fotos)]
+    bio = p["bio"][:2]
+    rumor = (p.get("rumores") or [None])[0]
+    total = 2 + len(bio) + (1 if rumor else 0) + 1
+    paginas = [perfil(p["nombre"], p["etiqueta"], f(0), f(1)), cita(p["frase"], p["nombre"], f(2))]
+    for k, b in enumerate(bio):
+        paginas.append(parrafo(3 + k, total, "QUIÉN ES" if k == 0 else "SU HISTORIA", b, f(3 + k)))
+    if rumor:
+        paginas.append(parrafo(total - 1, total, "LA TEORÍA DE LOS FANS", rumor["texto"], f(1), etiqueta="RUMOR",
+                               fuente=f"Fuente: {rumor['medio']}. Rockstar no lo ha confirmado."))
+    paginas.append(final_personaje(p["nombre"], f(0)))
+    rutas = renderizar(paginas, SALIDA / f"personaje-{p['slug']}")
+    url = f"https://zonaleonida.com/personajes/{p['slug']}/"
+    pie = (f"🌴 Personajes de GTA 6: {p['nombre']}. {p['rol']}\n\n"
+           f"«{p['frase']}»\n\n¿Qué esperas de este personaje? Te leemos 👇\n\n"
+           f"#GTA6 #GTAVI #{p['nombre'].replace(' ', '').replace('í', 'i').replace('é', 'e')} #ViceCity #Leonida #RockstarGames #GTA6Personajes")
+    tuit = f"🐦 Para X\n\n— Tuit —\n\n{p['nombre']}: {p['rol']} Todo lo que sabemos 👇 #GTA6\n\n— Respuesta al tuit —\n\n{url}"
+    print(f"  {len(rutas)} imágenes · {p['nombre']}")
+    if enviar:
+        enviar_telegram(rutas, f"📲 Serie de personajes: {p['nombre']}\n\n— Texto para Instagram y TikTok —\n\n{pie}", tuit)
+
+
 def galeria_aleatoria() -> tuple[str, str]:
     data = json.loads((ROOT / "scripts" / "galeria.json").read_text(encoding="utf-8"))
     ok = [g for g in data["imagenes"] if (PUBLIC / "img" / "oficial" / f"{g['slug']}.webp").exists()
@@ -367,7 +463,7 @@ def cuenta_atras(dias: int | None, forzar: bool, enviar: bool) -> None:
 
 def main() -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("modo", choices=["noticia", "cuenta-atras"])
+    ap.add_argument("modo", choices=["noticia", "cuenta-atras", "personaje"])
     ap.add_argument("archivos", nargs="*")
     ap.add_argument("--dias", type=int)
     ap.add_argument("--forzar", action="store_true")
@@ -377,6 +473,9 @@ def main() -> int:
     a = ap.parse_args()
     if a.modo == "cuenta-atras":
         cuenta_atras(a.dias, a.forzar, not a.no_enviar)
+        return 0
+    if a.modo == "personaje":
+        carrusel_personaje(a.archivos[0] if a.archivos else None, not a.no_enviar)
         return 0
     errores = 0
     for f in a.archivos:
