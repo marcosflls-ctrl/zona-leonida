@@ -325,6 +325,11 @@ NORMAS OBLIGATORIAS:
   · Si la filtración procede de un hackeo o robo de datos (por ejemplo, el de septiembre de 2022), limítate a informar de que \
 existe y de lo más general; no detalles su contenido.
   · Ten en cuenta si la fuente que la recoge es fiable y menciónalo si no lo es.
+  · VÍDEOS O VERSIONES FILTRADAS DEL JUEGO (Cyberleek o cualquier otro filtrador): es nuestra línea editorial no \
+difundirlas. Informa SOLO del hecho (que se ha publicado material, cuándo, quién, cuánto dura) y del contexto (respuesta de \
+Rockstar/Take-Two, acciones legales, polémica). NO describas lo que se ve: ni misiones, ni historia, ni personajes, ni \
+mecánicas, ni escenas. Avisa de que no lo enlazamos para no hacer spoilers y enlaza nuestra postura: \
+/noticias/gta-6-cyberleek-nueva-filtracion-take-two/
 - No menciones imágenes ni vídeos en el texto: si hay material oficial se añade automáticamente.
 - ENLAZA LAS GUÍAS DE REFERENCIA cuando la noticia toque su tema: precio/ediciones → /guias/gta-6-precio-ediciones-reservas/, \
 PC → /guias/gta-6-pc/, tamaño/precarga → /guias/gta-6-cuanto-ocupa/, mapa/zonas → /guias/gta-6-mapa-leonida/, \
