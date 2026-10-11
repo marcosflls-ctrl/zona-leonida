@@ -165,3 +165,7 @@ Además de noticias, el robot busca descubrimientos de la comunidad (Reddit r/GT
 
 - Cada media hora se revisa el canal oficial de Rockstar en YouTube. Si sube un vídeo nuevo de GTA VI (no shorts ni GTA Online), se añade a `src/data/trailers.json`, se publica en /trailers/ y llega un aviso por Telegram.
 - Edita el texto de cada vídeo en `src/data/trailers.json` cuando quieras (por defecto pone una frase genérica).
+
+## Vigía de trofeos
+
+`trofeos-vigia.yml` mira cada dos horas las noticias (los feeds del radar y búsquedas de Google News) por si sale la lista de trofeos de GTA VI o algo del platino, y avisa por Telegram en privado. No visita las webs de trofeos: bloquean a los robots. La primera ejecución solo memoriza lo que ya existe. La guía `gta-6-trofeos-logros` está preparada (oculta) para rellenarla en cuanto la lista sea oficial: primero la lista y los perdibles, y tras jugar, el plan del platino.

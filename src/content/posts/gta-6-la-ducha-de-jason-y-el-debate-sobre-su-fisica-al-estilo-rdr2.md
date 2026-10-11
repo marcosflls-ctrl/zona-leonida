@@ -19,7 +19,7 @@ Una escena de ducha se ha convertido, de forma inesperada, en uno de los temas d
 
 ## ¿Qué se ha visto realmente de Jason en GTA 6?
 
-IGN explicó en su avance que la escena de la ducha sirvió para algo más que para provocar sonrisas: Rockstar la usó para mostrar cómo se puede cambiar de perspectiva entre Jason y [Lucía Caminos](/personajes/lucia-caminos/) a voluntad, de modo que una misma escena se vea desde el punto de vista de cada protagonista. Si quieren repasar quién es quién, tenemos una [guía de personajes de GTA 6](/guias/gta-6-personajes/).
+IGN explicó en su avance que la escena de la ducha sirvió para algo más que para provocar sonrisas: Rockstar la usó para mostrar cómo se puede cambiar de perspectiva entre Jason y [Lucía Caminos](/personajes/lucia-caminos/) a voluntad, de modo que una misma escena se vea desde el punto de vista de cada protagonista. Si quieres repasar quién es quién, tenemos una [guía de personajes de GTA 6](/guias/gta-6-personajes/).
 
 La reacción de los fans fue inmediata. Tanto, que el propio IGN publicó después otra pieza para aclarar que no habían visto nada más atrevido que el torso del personaje. Según resume GamesRadar, el encuadre fue discreto, al estilo de lo que se espera en una producción de Hollywood, para mantener la escena dentro de lo apto para el trabajo. Además, se trataba de un evento profesional de presentación a la prensa.
 
@@ -37,6 +37,6 @@ El autor del artículo, por su parte, opina que un desnudo frontal es poco proba
 
 ## Lo que sí sabemos sobre la mecánica de cambio de perspectiva
 
-Lo más relevante para el juego es la demostración de IGN: ver una misma escena desde la perspectiva de Jason o de Lucía a voluntad apunta a una forma de narrar más flexible, con dos protagonistas con peso propio. Para el contexto general, pueden consultar [todo lo que sabemos de GTA 6](/guias/gta-6-todo-lo-que-sabemos/) y [las novedades respecto a GTA 5](/guias/gta-6-novedades-respecto-gta-5/).
+Lo más relevante para el juego es la demostración de IGN: ver una misma escena desde la perspectiva de Jason o de Lucía a voluntad apunta a una forma de narrar más flexible, con dos protagonistas con peso propio. Para el contexto general, puedes consultar [todo lo que sabemos de GTA 6](/guias/gta-6-todo-lo-que-sabemos/) y [las novedades respecto a GTA 5](/guias/gta-6-novedades-respecto-gta-5/).
 
 Según GamesRadar, la espera está a punto de terminar y pronto se verá cómo es realmente el juego. Hasta entonces, conviene tomar los memes como lo que son y esperar a lo que Rockstar confirme oficialmente.

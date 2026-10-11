@@ -35,6 +35,6 @@ Si lo que buscan es material oficial de forma segura, la compañía ya ha puesto
 
 ## Cuenta atrás hacia el 19 de noviembre
 
-IGN recuerda que GTA 6 llegará el 19 de noviembre a PlayStation 5 y Xbox Series X/S. Si quieren repasar todos los detalles del estreno, tienen disponible nuestra noticia con la [fecha de lanzamiento y las plataformas](/noticias/gta-6-fecha-de-lanzamiento-plataformas/) y la guía sobre [a qué hora sale el juego en cada país](/guias/gta-6-a-que-hora-sale/).
+IGN recuerda que GTA 6 llegará el 19 de noviembre a PlayStation 5 y Xbox Series X/S. Si quieres repasar todos los detalles del estreno, tienes nuestra noticia con la [fecha de lanzamiento y las plataformas](/noticias/gta-6-fecha-de-lanzamiento-plataformas/) y la guía sobre [a qué hora sale el juego en cada país](/guias/gta-6-a-que-hora-sale/).
 
 Mientras llega el día, la comunidad sigue pendiente de cada novedad, desde las emisoras de radio hasta las nuevas capturas. Este pequeño gesto, confirmado o no, refleja el ambiente de esta recta final.

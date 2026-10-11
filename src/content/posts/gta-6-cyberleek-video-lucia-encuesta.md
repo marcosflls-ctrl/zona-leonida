@@ -12,7 +12,7 @@ sources:
   - name: "VGTimes: el hacker publica un nuevo vídeo filtrado de Lucía"
     url: "https://vgtimes.com/gaming-news/170684-hacker-finally-shows-nude-lucia-from-gta-6-in-the-new-leak-she-parachutes-off-a-skyscraper-roof.html"
   - name: "Notebookcheck: la encuesta de Cyberleek apunta a un vídeo de Lucía"
-    url: "https://notebookcheck.org/El-filtrador-de-GTA-6-vuelve-con-otra-encuesta-cuyos-votos-indican-que-las-nuevas-imagenes-se-centraran-en-Lucia.1420548.0.html"
+    url: "https://notebookcheck.org/El-filtrador-de-GTA-6-vuelve-con-otra-encuesta-cuyos-votos-indican-que-las-nuevas-imagenes-se-centraran-en-Lucía.1420548.0.html"
   - name: "Generación Xbox: Cyberleek liga sus filtraciones a la cotización de su criptomoneda"
     url: "https://generacionxbox.com/cyberleek-filtra-a-lucia-de-gta-6-desnuda-a-cambio-de-dinero/"
   - name: "Vandal: el filtrador cobra por votar en sus encuestas"

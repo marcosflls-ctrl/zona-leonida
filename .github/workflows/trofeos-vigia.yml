@@ -1,0 +1,57 @@
+name: Vigía de trofeos
+
+# Cada dos horas mira las noticias por si sale la lista de trofeos/logros de GTA VI o algo del platino,
+# y te avisa por Telegram en privado. Lo ya avisado se guarda en scripts/state/trofeos.json.
+on:
+  schedule:
+    - cron: "27 */2 * * *"
+  workflow_dispatch:
+    inputs:
+      prueba:
+        description: "Solo mirar (no avisar ni guardar)"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: trofeos
+  cancel-in-progress: false
+
+jobs:
+  vigia:
+    runs-on: ubuntu-latest
+    env:
+      TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TG_CHAT: ${{ secrets.TELEGRAM_AVISOS_CHAT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q feedparser requests
+
+      - name: Buscar noticias de trofeos
+        run: python scripts/trofeos_vigia.py ${{ github.event.inputs.prueba == 'true' && '--prueba' || '' }}
+
+      - name: Guardar lo avisado
+        if: github.event.inputs.prueba != 'true'
+        run: |
+          git config user.name "zona-leonida-bot"
+          git config user.email "bot@zonaleonida.com"
+          git add scripts/state/trofeos.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Vigía de trofeos: estado [skip ci]"
+          git pull --rebase origin main
+          git push
+
+      - name: Avisar del fallo por Telegram
+        if: failure()
+        env:
+          URL_EJECUCION: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          [ -z "$TG_TOKEN" ] || [ -z "$TG_CHAT" ] && exit 0
+          curl -s -o /dev/null -X POST "https://api.telegram.org/bot${TG_TOKEN}/sendMessage" \
+            --data-urlencode "chat_id=${TG_CHAT}" \
+            --data-urlencode "text=❌ Ha fallado «${{ github.workflow }}» de Zona Leonida: ${URL_EJECUCION}"

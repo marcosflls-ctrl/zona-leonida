@@ -42,8 +42,11 @@ IMÁGENES (por orden de preferencia):
 
 ## Cambiar entre Jason y Lucía
 
-<!-- RELLENAR -->
+<!-- RELLENAR: botón para cambiar de personaje y cuándo se puede. -->
+Según Game Informer, se puede separar a la pareja para dividir la atención de la policía, aunque si arrestan o matan a uno de los dos, la misión se acaba. Más en [separar a Jason y Lucía](/noticias/gta-6-podras-separar-a-jason-y-lucia-para-despistar-a-la-policia/).
 
 ## Ajustes recomendados para empezar
 
-<!-- RELLENAR: sensibilidad, apuntado asistido, subtítulos, modo de imagen (rendimiento/calidad en PS5 Pro, etc.). -->
+<!-- RELLENAR: sensibilidad, apuntado asistido, modo de imagen (rendimiento/calidad en PS5 Pro, etc.). -->
+- **Idioma y subtítulos:** el juego llega con textos en español de España y de México y voces en inglés. Te explicamos cómo configurarlo en [idiomas de GTA 6](/guias/gta-6-idiomas-espanol-doblaje/).
+- **Imagen:** «Una mirada extendida» se grabó a 30 FPS en una PS5 normal. Lo que sabemos de cada consola está en [PS5 Pro, FPS y resolución](/guias/gta-6-ps5-pro-fps-resolucion/).

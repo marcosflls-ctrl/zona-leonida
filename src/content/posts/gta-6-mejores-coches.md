@@ -22,7 +22,9 @@ IMÁGENES (por orden de preferencia):
   4. Imagen oficial de /img/oficial/ (crédito: Rockstar Games).
   NUNCA fotogramas recortados de vídeos de otros. -->
 <!-- VÍDEO: uno por coche difícil de encontrar, en el minuto de su ubicación. IMAGEN: oficiales de /img/oficial/ (grotti-cheetah, vapid-stanier, buggy...). -->
-<!-- RELLENAR: introducción breve. Mencionar los coches ya confirmados por Rockstar: Grotti Cheetah del 95 (edición Ultimate) y Vapid Stanier del 55 (pack Vintage Vice City de la reserva). -->
+Leonida está llena de coches, lanchas y motos, y no todos se pueden robar igual. Esta guía reúne los más rápidos, los que puedes conseguir gratis y dónde encontrarlos. <!-- RELLENAR: 1-2 frases con el coche más rápido y el mejor para empezar. -->
+
+> **Antes de robar:** según Rockstar, algunos coches necesitan herramientas que se consiguen avanzando en la historia, y la app WAiNK te dice qué seguridad tiene cada uno y cuánto vale. Más en [así funciona WAiNK](/noticias/gta-6-la-app-waink-servira-para-robar-coches-de-lujo/).
 
 ## Los coches más rápidos
 
@@ -36,13 +38,20 @@ IMÁGENES (por orden de preferencia):
 
 ## Coches de la edición Ultimate y de la reserva
 
-- **Grotti Cheetah del 95**: incluido en la edición Ultimate.
-- **Vapid Stanier del 55**: incluido en el pack Vintage Vice City para quien lo reservó.
+- **Vapid Stanier del 55**: pack Vintage Vice City, para quien reservó o compró antes del 20 de noviembre. Viene con un garaje en Shore Court.
+- **Grotti Cheetah del 95**: edición Ultimate.
+- **Vapid Dominator Buggy del 67**: edición Ultimate, en el garaje Paradise Garage.
+- **Lancha Shitzu Squalo**: edición Ultimate, amarrada en Washington Beach con una caja de armas y explosivos.
+- **Moto Dinka Enduro o kayak Crest** (a elegir): edición Ultimate, para el piso franco de Jason.
+- **Kit retro para la Vapid Ganado**, la pick-up de Jason: edición Ultimate.
+- **Colección de coches clásicos**: encargo de la edición Ultimate para encontrar cuatro clásicos abandonados que restaura Wyman.
+
+Todos tienen imágenes oficiales en [vehículos confirmados](/guias/gta-6-coches-vehiculos-confirmados/).
 
 <!-- RELLENAR: cómo se reclaman en el juego. -->
 
 ## Personalización y talleres
 
-<!-- RELLENAR -->
+La edición Ultimate incluye dos talleres exclusivos: **Rideout Customs** (interiores, llantas y coches elevados al estilo *donk*) y **One-Eyed Willie's**, junto al lago Leonida (piezas todoterreno y pintura a mano). <!-- RELLENAR: talleres para todos los jugadores, qué se puede modificar y precios. -->
 
 Más información sobre las ediciones en [precio y ediciones de GTA 6](/guias/gta-6-precio-ediciones-reservas/).

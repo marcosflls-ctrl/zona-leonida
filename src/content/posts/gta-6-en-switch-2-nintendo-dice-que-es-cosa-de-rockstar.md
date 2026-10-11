@@ -25,7 +25,7 @@ Es decir, ni confirmación ni desmentido. Nintendo no cierra la puerta, pero tam
 
 Según IGN, Switch 2 es bastante más potente que la consola original y ya es capaz de mover títulos como *Cyberpunk 2077* y el reciente remaster de *The Witcher 3*. Además, con su llegada se ha abierto la puerta a que lleguen juegos de terceros que antes se saltaban las consolas de Nintendo; el medio cita como ejemplo *Call of Duty: Modern Warfare 4*.
 
-Otro argumento que menciona la fuente es que GTA 6 saldrá en Xbox Series S, una consola menos potente que sus hermanas mayores. Eso demuestra que el juego se va a adaptar a hardware más modesto, aunque de ahí no se puede deducir que vaya a haber una versión para Switch 2. Si quieren ver cómo se plantea el rendimiento en otras consolas, tenemos una guía sobre [GTA 6 en PS5, PS5 Pro y Xbox Series S: FPS y resolución](/guias/gta-6-ps5-pro-fps-resolucion/).
+Otro argumento que menciona la fuente es que GTA 6 saldrá en Xbox Series S, una consola menos potente que sus hermanas mayores. Eso demuestra que el juego se va a adaptar a hardware más modesto, aunque de ahí no se puede deducir que vaya a haber una versión para Switch 2. Si quieres ver cómo se plantea el rendimiento en otras consolas, tenemos una guía sobre [GTA 6 en PS5, PS5 Pro y Xbox Series S: FPS y resolución](/guias/gta-6-ps5-pro-fps-resolucion/).
 
 ## Rockstar y las consolas de Nintendo
 
@@ -37,7 +37,7 @@ Pritchard también insistió en la filosofía de la compañía: Nintendo ha dich
 
 La fuente señala además una curiosa coincidencia de calendario: el remake de *The Legend of Zelda: Ocarina of Time* llega el 5 de noviembre, solo dos semanas antes de GTA 6. IGN apunta que es de los lanzamientos de gran presupuesto que más se han acercado a una fecha de Rockstar, y menciona que un sketch reciente de *Saturday Night Live* bromeó con esta doble cita llamándola el «Barbenheimer» de los videojuegos.
 
-Si quieren repasar el calendario completo, pueden consultar la [fecha de lanzamiento y plataformas de GTA 6](/noticias/gta-6-fecha-de-lanzamiento-plataformas/) y el [horario de salida por país](/guias/gta-6-a-que-hora-sale/).
+Si quieres repasar el calendario completo, puedes consultar la [fecha de lanzamiento y plataformas de GTA 6](/noticias/gta-6-fecha-de-lanzamiento-plataformas/) y el [horario de salida por país](/guias/gta-6-a-que-hora-sale/).
 
 ## En resumen
 
