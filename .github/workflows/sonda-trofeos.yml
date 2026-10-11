@@ -2,13 +2,16 @@ name: Sonda trofeos (temporal)
 on:
   push:
     branches: [tmp/sonda-trofeos]
+permissions:
+  contents: write
 jobs:
   sonda:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
       - run: pip install -q requests beautifulsoup4
       - run: |
-          python3 - <<'PY'
+          python3 - > sonda.txt <<'PY'
           import requests, re
           from bs4 import BeautifulSoup
           UA={"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36","Accept-Language":"en-US,en;q=0.9"}
@@ -32,3 +35,6 @@ jobs:
                   print("  txt:",txt[:400])
               except Exception as e: print("ERR",u,e)
           PY
+      - run: |
+          git config user.name bot; git config user.email bot@zonaleonida.com
+          git add sonda.txt; git commit -m 'resultado [skip ci]'; git push
