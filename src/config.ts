@@ -27,7 +27,7 @@ export const CATEGORIES = {
   noticias: { label: 'Noticias', desc: 'Últimas noticias de GTA VI: fechas, tráilers, filtraciones confirmadas y anuncios oficiales.' },
   guias: { label: 'Guías', desc: 'Guías completas de GTA VI: misiones, coleccionables, mapa, personajes y mucho más.' },
   trucos: { label: 'Trucos', desc: 'Todos los trucos y códigos de GTA VI para PS5 y Xbox Series, y consejos para jugar mejor.' },
-  descubrimientos: { label: 'Descubrimientos', desc: 'Secretos, easter eggs y detalles ocultos descubiertos en GTA VI.' },
+  descubrimientos: { label: 'Descubrimientos', desc: 'Secretos, easter eggs, detalles ocultos y lugares reales de Florida descubiertos en GTA VI.' },
 } as const;
 
 export type CategoryKey = keyof typeof CATEGORIES;

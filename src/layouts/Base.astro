@@ -13,7 +13,8 @@ interface Props {
 }
 const { title, description, image, type = 'website', jsonLd, noindex = false, published, modified, section } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
-const fullTitle = title === SITE.name ? `${SITE.name} — ${SITE.tagline}` : `${title} | ${SITE.name}`;
+// La marca solo se añade si cabe: Google corta los títulos a unos 60 caracteres
+const fullTitle = title === SITE.name ? `${SITE.name} — ${SITE.tagline}` : title.length > 47 ? title : `${title} | ${SITE.name}`;
 const ogImage = new URL(image ?? '/og-default.png', Astro.site).href;
 // tamaño real de la imagen para redes y Discover: portadas y fotos de artículos miden 1600x900; la genérica 1200x630
 const ogSize = image ? (image.startsWith('/img/') ? [1600, 900] : null) : [1200, 630];
