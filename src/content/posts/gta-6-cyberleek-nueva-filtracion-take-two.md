@@ -2,6 +2,7 @@
 title: "Cyberleek amenaza con filtrar GTA 6 entero: por qué no lo difundiremos"
 description: "Tras filtrar 25 minutos de GTA 6, Cyberleek amenaza con publicar el juego entero si no revive su criptomoneda. Qué se sabe y por qué no lo difundiremos."
 date: 2026-10-10T20:10:00+02:00
+updated: 2026-10-11T13:05:00+02:00
 category: noticias
 tags: [gta-6, filtraciones, cyberleek, rockstar, take-two]
 rumor: false
@@ -9,6 +10,8 @@ image: /img/oficial/vice-city-10.webp
 imageAlt: "Vice City, imagen oficial de GTA VI"
 imageCredit: "Rockstar Games"
 sources:
+  - name: "GamesRadar: Stop Killing Games se desmarca de Cyberleek"
+    url: "https://www.gamesradar.com/games/grand-theft-auto/latest-gta-6-leaks-see-cyberleek-threaten-rockstar-with-lucia-story-spoilers-and-closely-examine-naked-npcs/"
   - name: "Dexerto: Cyberleek amenaza con publicar una versión jugable de principio a fin"
     url: "https://www.dexerto.com/gta/gta-6-leaker-cyberleek-threatens-to-release-playable-build-from-start-to-finish-3417786/"
   - name: "Dexerto: Cyberleek vuelve con una filtración de 25 minutos de GTA 6"
@@ -47,6 +50,8 @@ Ni Rockstar ni Take-Two se han pronunciado sobre este nuevo vídeo, y su autenti
 Es un filtrador anónimo que empezó a publicar vídeos del juego el **18 de agosto de 2026**. Según Dexerto, asegura que lo hace como **protesta contra los juegos solo digitales, las reservas anticipadas y las microtransacciones**.
 
 Su discurso choca con sus actos, y la amenaza lo deja aún más claro: una de sus condiciones para no publicar el juego es que alguien reviva su criptomoneda. Junto a los vídeos, Cyberleek ya había **promocionado esa criptomoneda**, algo que varios medios señalaban como motivo para dudar de sus intenciones. LevelUp estima que habría ganado unos **270.000 dólares** vendiéndola. Con la última filtración, además, ha pedido a sus seguidores **donaciones** para un «proyecto secreto» que, según él, no tiene que ver con Rockstar y «necesita hardware caro». Según el mismo medio, planea usar futuras filtraciones para seguir recaudando dinero.
+
+Ni siquiera quienes defienden causas parecidas lo apoyan. Según GamesRadar, **Stop Killing Games**, el movimiento de consumidores que pide que los juegos no dejen de funcionar cuando se cierran sus servidores, se desmarcó del grupo en agosto con una frase clara: **«usar medios ilegales para defender una idea es inaceptable»**.
 
 ## ¿Qué ha dicho Rockstar?
 
