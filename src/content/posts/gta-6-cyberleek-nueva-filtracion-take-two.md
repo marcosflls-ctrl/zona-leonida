@@ -40,7 +40,7 @@ La amenaza llega dos días después de su última filtración. El 8 de octubre, 
 
 Ni Rockstar ni Take-Two se han pronunciado sobre este nuevo vídeo, y su autenticidad no se ha verificado de forma independiente.
 
-> **En Zona Leonida no vamos a enlazar, compartir ni describir el contenido de estas filtraciones.** Te contamos lo que se sabe del caso, pero sin destriparte el juego que llevas años esperando.
+> **En Zona Leonida no vamos a enlazar ni compartir estas filtraciones, ni a contarte nada de la historia.** Como mucho, te resumiremos en líneas generales lo que cuenten los medios que las han visto, siempre sin spoilers, para que sepas de qué se habla sin destriparte el juego que llevas años esperando.
 
 ## ¿Quién es Cyberleek?
 

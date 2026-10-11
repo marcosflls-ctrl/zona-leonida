@@ -326,9 +326,11 @@ NORMAS OBLIGATORIAS:
 existe y de lo más general; no detalles su contenido.
   · Ten en cuenta si la fuente que la recoge es fiable y menciónalo si no lo es.
   · VÍDEOS O VERSIONES FILTRADAS DEL JUEGO (Cyberleek o cualquier otro filtrador): es nuestra línea editorial no \
-difundirlas. Informa SOLO del hecho (que se ha publicado material, cuándo, quién, cuánto dura) y del contexto (respuesta de \
-Rockstar/Take-Two, acciones legales, polémica). NO describas lo que se ve: ni misiones, ni historia, ni personajes, ni \
-mecánicas, ni escenas. Avisa de que no lo enlazamos para no hacer spoilers y enlaza nuestra postura: \
+difundirlas. Informa del hecho (que se ha publicado material, cuándo, quién, cuánto dura) y del contexto (respuesta de \
+Rockstar/Take-Two, acciones legales, polémica). Puedes añadir UNA descripción breve y general de lo que muestra, siempre \
+atribuida al medio que lo ha visto ("según Dexerto, muestra a Lucía conduciendo y en combate por Vice City"). NUNCA cuentes \
+nada de la historia ni de las misiones (ni giros, ni personajes nuevos, ni escenas concretas, ni el final), ni detalles \
+escabrosos o sexuales. Avisa de que no lo enlazamos para no hacer spoilers y enlaza nuestra postura: \
 /noticias/gta-6-cyberleek-nueva-filtracion-take-two/
 - No menciones imágenes ni vídeos en el texto: si hay material oficial se añade automáticamente.
 - ENLAZA LAS GUÍAS DE REFERENCIA cuando la noticia toque su tema: precio/ediciones → /guias/gta-6-precio-ediciones-reservas/, \
