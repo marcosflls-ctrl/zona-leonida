@@ -1,0 +1,34 @@
+name: Sonda trofeos (temporal)
+on:
+  push:
+    branches: [tmp/sonda-trofeos]
+jobs:
+  sonda:
+    runs-on: ubuntu-latest
+    steps:
+      - run: pip install -q requests beautifulsoup4
+      - run: |
+          python3 - <<'PY'
+          import requests, re
+          from bs4 import BeautifulSoup
+          UA={"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36","Accept-Language":"en-US,en;q=0.9"}
+          urls=["https://www.trueachievements.com/game/Grand-Theft-Auto-VI/achievements",
+          "https://www.truetrophies.com/game/Grand-Theft-Auto-VI/trophies",
+          "https://www.truetrophies.com/game/Grand-Theft-Auto-VI-PS5/trophies",
+          "https://www.exophase.com/game/grand-theft-auto-vi-ps5/trophies/",
+          "https://www.exophase.com/game/grand-theft-auto-vi-xbox/achievements/",
+          "https://psnprofiles.com/search/games?q=grand+theft+auto+vi",
+          "https://www.trueachievements.com/game/Grand-Theft-Auto-V/achievements",
+          "https://www.exophase.com/game/grand-theft-auto-v-ps5/trophies/",
+          "https://psnprofiles.com/trophies/15843-grand-theft-auto-v"]
+          for u in urls:
+              try:
+                  r=requests.get(u,headers=UA,timeout=30)
+                  s=BeautifulSoup(r.text,"html.parser"); t=s.title.string.strip() if s.title and s.title.string else ""
+                  txt=" ".join(s.get_text(" ").split())
+                  print(f"\n### {r.status_code} {len(r.text)} {r.url}\nTITLE: {t}")
+                  for m in re.finditer(r"(\d+)\s+(achievements|trophies)",txt,re.I):
+                      print("  hit:",txt[max(0,m.start()-60):m.end()+40]); break
+                  print("  txt:",txt[:400])
+              except Exception as e: print("ERR",u,e)
+          PY
