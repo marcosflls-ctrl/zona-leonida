@@ -30,7 +30,7 @@ La información apunta a una especie de escala de dificultad:
 - **Modelos potentes y caros:** pueden requerir herramientas especializadas. Los más lujosos pueden llevar sistemas de seguridad avanzados o localizadores, que habrá que desactivar antes con WAiNK.
 - **Otros vehículos:** necesitarán clonadores de llaves u otros dispositivos que no se consiguen al principio, sino al avanzar en la aventura.
 
-Es decir, ustedes no podrán llevarse cualquier coche desde la primera hora de juego. Rockstar ya había advertido de esto hace unas semanas, según la fuente.
+Es decir, no podrás llevarte cualquier coche desde la primera hora de juego. Rockstar ya había advertido de esto hace unas semanas, según la fuente.
 
 ## Un robo ya visto en el gameplay
 

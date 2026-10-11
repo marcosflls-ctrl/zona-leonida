@@ -14,7 +14,8 @@ import requests
 REPO = os.environ["GITHUB_REPOSITORY"]
 API = f"https://api.github.com/repos/{REPO}"
 GH = {"Authorization": f"Bearer {os.environ['GITHUB_TOKEN']}", "Accept": "application/vnd.github+json"}
-FLUJOS = {"radar.yml": "Radar de noticias", "galeria-auto.yml": "Galería oficial", "telegram.yml": "Canal de Telegram"}
+FLUJOS = {"radar.yml": "Radar de noticias", "galeria-auto.yml": "Galería oficial", "telegram.yml": "Canal de Telegram",
+          "redes.yml": "Carruseles de redes", "trailers-auto.yml": "Tráilers automáticos"}
 
 
 def ejecuciones(flujo: str, desde: datetime) -> list[dict]:

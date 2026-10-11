@@ -21,7 +21,7 @@ Sí. Según recoge Vandal, el juego incluirá aplicaciones de redes sociales, en
 
 Estas redes se integran con RydeMe, la aplicación tipo Uber que ya se había dado a conocer para el viaje rápido. Mientras el vehículo nos lleva a nuestro destino, podremos charlar con otros pasajeros o, si lo preferimos, consultar las redes sociales.
 
-RydeMe no será la única forma de recorrer el mapa de Leonida. También se podrá conducir un vehículo propio y escuchar las emisoras del juego. Si quieren repasar las zonas, tienen nuestra [guía del mapa de Leonida](/guias/gta-6-mapa-leonida/), y si les interesa la música, [las emisoras de radio confirmadas](/noticias/gta-6-presenta-seis-emisoras-de-radio-y-podcast-bajo-demanda/).
+RydeMe no será la única forma de recorrer el mapa de Leonida. También se podrá conducir un vehículo propio y escuchar las emisoras del juego. Si quieres repasar las zonas, tienes nuestra [guía del mapa de Leonida](/guias/gta-6-mapa-leonida/), y si te interesa la música, [las emisoras de radio confirmadas](/noticias/gta-6-presenta-seis-emisoras-de-radio-y-podcast-bajo-demanda/).
 
 ## ¿Por qué Jason y Lucia no publicarán nada?
 

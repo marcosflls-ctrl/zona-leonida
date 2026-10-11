@@ -1,6 +1,6 @@
 ---
 title: "GTA 6: así funcionan las seis estrellas y el sistema de Heat"
-description: "GamesRadar detalla cómo funcionarían los seis niveles de búsqueda de GTA 6 y los iconos de Heat que muestran qué sabe la policía sobre ustedes."
+description: "GamesRadar detalla cómo funcionarían los seis niveles de búsqueda de GTA 6 y los iconos de Heat que muestran qué sabe la policía sobre ti."
 date: 2026-10-09T18:22:47+00:00
 category: noticias
 tags: [gta-6, nivel-de-busqueda, heat, policia, jugabilidad]
@@ -13,7 +13,7 @@ sources:
     url: "https://www.gamesradar.com/games/grand-theft-auto/gta-6-wanted-levels-heat/"
 ---
 
-El nivel de búsqueda de GTA 6 cambia más de lo que parece. Según explica GamesRadar, ya no bastará con contar estrellas para saber cuánto problema tienen con la ley: su aspecto también indicará en qué fase está la persecución. A eso se suma un nuevo sistema llamado Heat, que muestra qué información tiene la policía sobre ustedes.
+El nivel de búsqueda de GTA 6 cambia más de lo que parece. Según explica GamesRadar, ya no bastará con contar estrellas para saber cuántos problemas tienes con la ley: su aspecto también indicará en qué fase está la persecución. A eso se suma un nuevo sistema llamado Heat, que muestra qué información tiene la policía sobre ti.
 
 Conviene una precaución. El medio basa su explicación en lo visto en «Una mirada extendida» y en los avances de prensa, y aclara que el significado de cada estrella es su propia interpretación ("creo que significan lo siguiente"). No es un manual oficial de Rockstar. Para repasar el resto de ese avance, pueden consultar nuestra guía de [todo lo que se vio en «Una mirada extendida»](/guias/gta-6-mirada-extendida-todo-lo-que-se-vio/).
 
@@ -24,9 +24,9 @@ Según GamesRadar, el medidor sube a seis estrellas. Esto permite más matices e
 Por primera vez en la saga, las estrellas cambian de aspecto según la situación. Esta es la lectura del medio:
 
 - **Estrellas en blanco y negro:** la policía investiga un delito, pero no sabe quién es el responsable. Si pasan desapercibidos, pueden escabullirse.
-- **Estrellas grises:** los agentes investigan y ya tienen datos sobre ustedes, según los iconos de Heat, así que los buscan activamente.
+- **Estrellas grises:** los agentes investigan y ya tienen datos sobre ti, según los iconos de Heat, así que te buscan activamente.
 - **Estrellas blancas:** la policía los persigue y los tiene a la vista.
-- **Estrellas rojas:** lograron escapar, pero los agentes conservan información sobre ustedes. Hay que eliminarla antes de que los identifiquen de nuevo.
+- **Estrellas rojas:** has logrado escapar, pero los agentes conservan información sobre ti. Hay que eliminarla antes de que te identifiquen de nuevo.
 
 GamesRadar añade que, con niveles altos de búsqueda, el minimapa parece quedar tapado por luces rojas y azules intermitentes. Ya no servirá para rastrear a los agentes cercanos, y habrá que localizarlos a simple vista y esconderse.
 
@@ -51,4 +51,4 @@ El marcador de cómplice tiene una mecánica particular. Para quitarlo, [Jason](
 
 ## Qué significa para la jugabilidad
 
-Todo apunta a un sistema de persecuciones más táctico que en entregas anteriores: importa lo que la policía sabe de ustedes, no solo cuántas estrellas tienen. Si quieren comparar con la entrega anterior, tenemos una guía con las [novedades de GTA 6 respecto a GTA 5](/guias/gta-6-novedades-respecto-gta-5/). Como siempre, habrá que esperar a ver el sistema en el juego final para confirmar los detalles.
+Todo apunta a un sistema de persecuciones más táctico que en entregas anteriores: importa lo que la policía sabe de ti, no solo cuántas estrellas tienes. Si quieres comparar con la entrega anterior, tenemos una guía con las [novedades de GTA 6 respecto a GTA 5](/guias/gta-6-novedades-respecto-gta-5/). Como siempre, habrá que esperar a ver el sistema en el juego final para confirmar los detalles.

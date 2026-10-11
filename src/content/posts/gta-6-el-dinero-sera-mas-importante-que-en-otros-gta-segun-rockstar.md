@@ -17,7 +17,7 @@ Con el lanzamiento de GTA VI fijado para el **19 de noviembre de 2026** en PlayS
 
 ## ¿Qué ha dicho Rockstar sobre el dinero en GTA 6?
 
-Nelson explicó, en una entrevista recogida por Vandal, que el estudio ha trabajado para que el dinero tenga un papel más relevante que en los GTA anteriores. Habrá momentos en los que ustedes no tendrán otra opción que salir a la calle a conseguirlo, ya sea robando vehículos o planeando atracos.
+Nelson explicó, en una entrevista recogida por Vandal, que el estudio ha trabajado para que el dinero tenga un papel más relevante que en los GTA anteriores. Habrá momentos en los que no tendrás otra opción que salir a la calle a conseguirlo, ya sea robando vehículos o planeando atracos.
 
 Lo más llamativo es que no se tratará solo de una actividad opcional para comprar cosas. Según el responsable de Rockstar North, en ciertos puntos de la historia será necesario reunir dinero para poder avanzar en las misiones. Es decir, la economía se integra directamente en la campaña principal.
 

@@ -39,7 +39,7 @@ Con esto, los precios de la colección van desde los 4,99 euros de las pegatinas
 
 ## ¿Dónde se compra y hay disponibilidad para todos?
 
-Todos estos productos se pueden ver en la **tienda oficial de Rockstar**, aunque, como advierte la fuente, su disponibilidad puede variar. Conviene, por tanto, revisar el catálogo con regularidad, sobre todo si tienen interés en las gorras, que todavía no están a la venta.
+Todos estos productos se pueden ver en la **tienda oficial de Rockstar**, aunque, como advierte la fuente, su disponibilidad puede variar. Conviene, por tanto, revisar el catálogo con regularidad, sobre todo si te interesan las gorras, que todavía no están a la venta.
 
 ## ¿Y la caja de coleccionista de 399,99 euros?
 

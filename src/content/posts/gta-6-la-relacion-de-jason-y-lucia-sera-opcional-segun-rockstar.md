@@ -13,7 +13,7 @@ sources:
     url: "https://vandal.elespanol.com/noticia/2026284001/rockstar-tranquiliza-gta-6-no-te-obligara-a-usar-sus-mecanicas-de-rol-de-pareja-entre-jason-y-lucia/"
 ---
 
-La relación entre [Jason Duval](/personajes/jason-duval/) y [Lucía Caminos](/personajes/lucia-caminos/) tendrá peso en GTA 6, pero nadie les va a obligar a ocuparse de ella. Según informa Vandal, Rockstar Games ha confirmado que este sistema es completamente opcional y que el juego avanzará igual con independencia de cómo se lleve la pareja.
+La relación entre [Jason Duval](/personajes/jason-duval/) y [Lucía Caminos](/personajes/lucia-caminos/) tendrá peso en GTA 6, pero nadie te va a obligar a ocuparte de ella. Según informa Vandal, Rockstar Games ha confirmado que este sistema es completamente opcional y que el juego avanzará igual con independencia de cómo se lleve la pareja.
 
 ## ¿Cómo funciona la relación entre Jason y Lucía en GTA 6?
 
