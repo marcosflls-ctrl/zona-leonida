@@ -3,8 +3,7 @@ name: Vigía de trofeos
 # Cada dos horas mira las noticias por si sale la lista de trofeos/logros de GTA VI o algo del platino,
 # y te avisa por Telegram en privado. Lo ya avisado se guarda en scripts/state/trofeos.json.
 on:
-  schedule:
-    - cron: "27 */2 * * *"
+  # Ya no tiene horario propio: lo comprueba el radar en cada pasada. Esto queda para lanzarlo a mano.
   workflow_dispatch:
     inputs:
       prueba:

@@ -44,6 +44,42 @@ jobs:
 
       - run: pip install -r scripts/requirements.txt
 
+      # Comprobaciones rápidas que van en la misma pasada para ahorrar minutos de GitHub:
+      # tráilers nuevos de Rockstar y noticias de trofeos. Si fallan, el radar sigue igual.
+      - name: Tráilers nuevos de Rockstar
+        id: trailers
+        if: github.event.inputs.url == ''
+        continue-on-error: true
+        env:
+          TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TG_CHAT: ${{ secrets.TELEGRAM_AVISOS_CHAT_ID }}
+        run: |
+          python scripts/trailers_auto.py
+          N=$(grep -m1 '^nuevos=' "$GITHUB_OUTPUT" | cut -d= -f2)
+          LISTA=$(grep -m1 '^lista=' "$GITHUB_OUTPUT" | cut -d= -f2-)
+          [ "${N:-0}" = "0" ] && exit 0
+          git config user.name "zona-leonida-bot"
+          git config user.email "bot@zonaleonida.com"
+          git add src/data/trailers.json
+          git commit -m "Tráilers: vídeo nuevo de Rockstar"
+          git pull --rebase origin main && git push
+          [ -z "$TG_TOKEN" ] || [ -z "$TG_CHAT" ] && exit 0
+          curl -s -o /dev/null -X POST "https://api.telegram.org/bot${TG_TOKEN}/sendMessage" \
+            --data-urlencode "chat_id=${TG_CHAT}" \
+            --data-urlencode "text=🎬 ¡Rockstar ha subido un vídeo nuevo de GTA VI! Ya está en zonaleonida.com/trailers/
+
+          ${LISTA}
+
+          Si es un tráiler, pídeme la noticia urgente o lánzala desde Actions → Radar → Run workflow con el enlace."
+
+      - name: Noticias de trofeos
+        if: github.event.inputs.url == ''
+        continue-on-error: true
+        env:
+          TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TG_CHAT: ${{ secrets.TELEGRAM_AVISOS_CHAT_ID }}
+        run: python scripts/trofeos_vigia.py
+
       - name: Pedir identidad a GitHub
         uses: actions/github-script@v8
         with:

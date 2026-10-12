@@ -3,8 +3,7 @@ name: Tráilers nuevos de Rockstar
 # Cada media hora mira el canal oficial de Rockstar en YouTube. Si hay un vídeo nuevo de GTA VI,
 # lo añade a la página de Tráilers, publica el cambio y te avisa por Telegram en privado.
 on:
-  schedule:
-    - cron: "13,43 * * * *"
+  # Ya no tiene horario propio: lo comprueba el radar en cada pasada. Esto queda para lanzarlo a mano.
   workflow_dispatch:
     inputs:
       prueba:
