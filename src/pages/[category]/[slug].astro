@@ -9,7 +9,7 @@ import Compras from '../../components/Compras.astro';
 import Compartir from '../../components/Compartir.astro';
 import Siguenos from '../../components/Siguenos.astro';
 import { CATEGORIES, SITE } from '../../config';
-import { getPublishedPosts, formatDate, formatDateTime, readingTime } from '../../lib/posts';
+import { getPublishedPosts, formatDate, formatDateTime, readingTime, relacionados } from '../../lib/posts';
 
 export async function getStaticPaths() {
   const posts = await getPublishedPosts();
@@ -20,7 +20,7 @@ const { Content } = await render(post);
 const d = post.data;
 const cat = CATEGORIES[d.category];
 const url = `${SITE.url}/${d.category}/${post.id}/`;
-const related = all.filter((p: any) => p.id !== post.id && (p.data.category === d.category || p.data.tags.some((t: string) => d.tags.includes(t)))).slice(0, 3);
+const related = relacionados(post, all, 3);
 
 const jsonLd = [
   {
