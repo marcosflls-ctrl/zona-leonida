@@ -47,7 +47,7 @@ const total = secciones.reduce((n, s) => n + s.grupos.reduce((m, g) => m + g.fot
 const jsonLd = {
   '@context': 'https://schema.org', '@type': 'ImageGallery', name: title, description, url, inLanguage: 'es',
   image: secciones.flatMap((s) => s.grupos.flatMap((g) => g.fotos.slice(0, 1))).map((f) => ({
-    '@type': 'ImageObject', contentUrl: `${SITE.url}/img/oficial/${f.slug}.webp`, name: f.alt, creditText: 'Rockstar Games', copyrightNotice: 'Rockstar Games',
+    '@type': 'ImageObject', contentUrl: `${SITE.url}/img/oficial/${f.slug}.webp`, name: f.alt, creditText: 'Rockstar Games', copyrightNotice: 'Rockstar Games', creator: { '@type': 'Organization', name: 'Rockstar Games' },
   })),
 };
 ---
