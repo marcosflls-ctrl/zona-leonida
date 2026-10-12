@@ -1,6 +1,6 @@
 ---
-title: "¿Cuánto ocupa GTA 6? Espacio necesario en PS5 y Xbox"
-description: "Rockstar no ha confirmado el tamaño de GTA 6. Estas son las estimaciones de GB para PS5 y Xbox Series, y cómo preparar tu consola para la precarga."
+title: "¿Cuánto ocupa GTA 6 en PS5 y Xbox? Los GB que necesitas"
+description: "Necesitarás entre 100 y 150 GB libres en PS5 o Xbox, según las estimaciones (Rockstar aún no lo ha confirmado). Cuánto espacio tiene tu consola y cómo hacer hueco."
 date: 2026-10-09T12:10:00+02:00
 updated: 2026-10-09T12:10:00+02:00
 category: guias
