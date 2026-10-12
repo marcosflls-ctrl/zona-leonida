@@ -5,7 +5,7 @@ date: 2026-10-11T17:31:00+02:00
 updated: 2026-10-11T17:31:00+02:00
 category: trucos
 tags: [trucos, claves, ps5, xbox, gta-5]
-image: /img/oficial/jason-y-lucia-2.webp
+image: /img/oficial/jason-y-lucia-7.webp
 imageAlt: "Jason y Lucía, imagen oficial de GTA VI"
 imageCredit: "Rockstar Games"
 sources:

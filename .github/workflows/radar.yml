@@ -98,6 +98,10 @@ jobs:
         run: |
           if [ "$FORZAR_COMUNIDAD" = "1" ]; then python scripts/radar.py --dry-run; else python scripts/radar.py; fi
 
+      - name: Recortes de las portadas (4:3 y 1:1 para Discover)
+        continue-on-error: true
+        run: python scripts/miniaturas.py
+
       # La memoria del robot (qué noticias ya ha visto) se guarda siempre en main,
       # para no volver a gastar IA en las mismas noticias aunque tardes en aprobar.
       - name: Guardar memoria del robot

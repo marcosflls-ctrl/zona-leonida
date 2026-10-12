@@ -5,8 +5,8 @@ date: 2026-10-12T20:30:00+02:00
 updated: 2026-10-12T20:30:00+02:00
 category: guias
 tags: [ps4, xbox-one, plataformas, consolas, nube]
-image: /img/oficial/vice-city-3.webp
-imageAlt: "Vice City, imagen oficial de GTA VI"
+image: /img/oficial/jason-y-lucia-13.webp
+imageAlt: "Jason y Lucía, imagen oficial de GTA VI"
 imageCredit: "Rockstar Games"
 compras:
   - nombre: "PS5"

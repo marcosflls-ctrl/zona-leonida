@@ -5,7 +5,7 @@ date: 2026-10-11T19:00:58+00:00
 category: noticias
 tags: [gta-6, rockstar-games, peatones, guion, vice-city]
 rumor: false
-image: /img/oficial/vice-city-1.webp
+image: /img/oficial/vice-city-12.webp
 imageAlt: "Vice City, imagen oficial de GTA VI"
 imageCredit: "Rockstar Games"
 sources:

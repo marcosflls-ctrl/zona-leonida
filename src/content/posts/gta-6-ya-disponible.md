@@ -6,7 +6,7 @@ updated: 2026-11-19T00:00:00+01:00
 category: noticias
 draft: true
 tags: [lanzamiento, disponible, guia, ps5, xbox]
-image: /img/oficial/jason-y-lucia-3.webp
+image: /img/oficial/jason-y-lucia-11.webp
 imageAlt: "Jason y Lucía, imagen oficial de GTA VI"
 imageCredit: "Rockstar Games"
 sources: []

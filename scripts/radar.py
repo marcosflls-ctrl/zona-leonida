@@ -467,6 +467,17 @@ def pick_banco_image(theme: str, rumor: bool) -> tuple[str, str] | None:
     return f"/img/banco/{t['imagenes'][i]}.webp", t["alt"]
 
 
+NO_PORTADA = {"vice-city-6", "vice-city-7", "vice-city-8"}
+
+
+def _portada_usada(img: str) -> bool:
+    """True si algún artículo ya usa esa imagen como portada."""
+    for f in (ROOT / "src" / "content" / "posts").glob("*.md"):
+        if re.search(rf"^image:\s*{re.escape(img)}\s*$", f.read_text(encoding="utf-8"), re.M):
+            return True
+    return False
+
+
 def pick_galeria_image(refs: list, title: str) -> tuple[str, str] | None:
     """Elige una imagen oficial de Rockstar de la galería según los personajes o lugares
     de la noticia. Primero las etiquetas que da la IA y, si no hay, nombres en el titular."""
@@ -480,10 +491,21 @@ def pick_galeria_image(refs: list, title: str) -> tuple[str, str] | None:
         uso = json.loads(_BANCO_STATE.read_text(encoding="utf-8"))
     except Exception:  # noqa: BLE001
         uso = {}
+    # portadas que ya usa algún artículo: Discover muestra menos las imágenes repetidas
+    usadas = set()
+    for f in (ROOT / "src" / "content" / "posts").glob("*.md"):
+        m = re.search(r"^image:\s*/img/oficial/([\w-]+)\.webp", f.read_text(encoding="utf-8"), re.M)
+        if m:
+            usadas.add(m.group(1))
     for ref in wanted:
         # imágenes de esa etiqueta ya descargadas; primero las que tratan solo de ella
         opts = [g for g in GALERIA if ref in g["refs"] and (GALERIA_DIR / f"{g['slug']}.webp").exists()]
         opts.sort(key=lambda g: len(g["refs"]))
+        # nunca de portada: imágenes con tono sugerente (Discover las muestra menos)
+        opts = [g for g in opts if g["slug"] not in NO_PORTADA]
+        libres = [g for g in opts if g["slug"] not in usadas]
+        if libres:
+            opts = libres
         if not opts:
             continue
         key = f"oficial:{ref}"
@@ -521,6 +543,15 @@ def save_post(data: dict, item: dict, html: str = "") -> Path:
         if pick:
             img, alt = pick
             image_lines = f"image: {img}\nimageAlt: {yaml_str(alt)}\nimageCredit: {yaml_str('Rockstar Games')}\n"
+    # Si la noticia no es un rumor y no habla de nadie en concreto, una imagen oficial genérica
+    # (Vice City, Leonida, Jason y Lucía…) que no use ya otro artículo: así las portadas no se repiten
+    if not image_lines and not data.get("rumor"):
+        for ref in ["vice-city", "jason", "lucia", "cayos-de-leonida", "grassrivers", "port-gellhorn", "ambrosia", "monte-kalaga"]:
+            pick = pick_galeria_image([ref], "")
+            if pick and not _portada_usada(pick[0]):
+                img, alt = pick
+                image_lines = f"image: {img}\nimageAlt: {yaml_str(alt)}\nimageCredit: {yaml_str('Rockstar Games')}\n"
+                break
     if not image_lines and BANCO:
         pick = pick_banco_image(data.get("image_theme", ""), bool(data.get("rumor")))
         if pick:

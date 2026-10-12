@@ -5,8 +5,8 @@ date: 2026-10-11T17:15:00+02:00
 updated: 2026-10-11T17:15:00+02:00
 category: guias
 tags: [vice-city, gta-vice-city, comparativa, leonida, mapa]
-image: /img/oficial/vice-city-7.webp
-imageAlt: "Neón del Ocean View en Vice City, imagen oficial de GTA VI"
+image: /img/oficial/vice-city-definitive-1.webp
+imageAlt: "Vice City en GTA: Vice City – The Definitive Edition, imagen oficial de Rockstar Games"
 imageCredit: "Rockstar Games"
 sources:
   - name: "Rockstar Games: página oficial de GTA Vice City"

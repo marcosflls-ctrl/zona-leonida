@@ -1,4 +1,5 @@
 ---
+import fs from 'node:fs';
 import HoraLocal from '../../components/HoraLocal.astro';
 import { srcset } from '../../lib/img';
 import { render } from 'astro:content';
@@ -21,6 +22,10 @@ const d = post.data;
 const cat = CATEGORIES[d.category];
 const url = `${SITE.url}/${d.category}/${post.id}/`;
 const related = relacionados(post, all, 3);
+// La portada en 16:9, 4:3 y 1:1 (si existen los recortes), como recomienda Google para Discover
+const imagenesSchema = (src: string) => [src, src.replace(/\.webp$/, '-4x3.webp'), src.replace(/\.webp$/, '-1x1.webp')]
+  .filter((s, i) => i === 0 || fs.existsSync(`public${s}`))
+  .map((s) => new URL(s, SITE.url).href);
 
 const jsonLd = [
   {
@@ -32,7 +37,7 @@ const jsonLd = [
     dateModified: (d.updated ?? d.date).toISOString(),
     inLanguage: 'es',
     mainEntityOfPage: url,
-    image: [new URL(d.image ?? `/img/portadas/${d.category}.webp`, SITE.url).href],
+    image: imagenesSchema(d.image ?? `/img/portadas/${d.category}.webp`),
     author: { '@type': 'Organization', name: SITE.author, url: `${SITE.url}/sobre-nosotros/` },
     publisher: {
       '@type': 'Organization', name: SITE.name, url: SITE.url,
@@ -74,7 +79,7 @@ const jsonLd = [
       </p>
     </header>
     <figure class="hero">
-      <img data-pagefind-meta="image[src]" src={d.image ?? `/img/portadas/${d.category}.webp`} srcset={srcset(d.image ?? `/img/portadas/${d.category}.webp`)} sizes="(max-width: 800px) 100vw, 760px" alt={d.image ? (d.imageAlt ?? '') : ''} width="1200" height="675" />
+      <img data-pagefind-meta="image[src]" fetchpriority="high" decoding="async" src={d.image ?? `/img/portadas/${d.category}.webp`} srcset={srcset(d.image ?? `/img/portadas/${d.category}.webp`)} sizes="(max-width: 800px) 100vw, 760px" alt={d.image ? (d.imageAlt ?? '') : ''} width="1200" height="675" />
       {d.image && d.imageCredit && <figcaption class="credit">Imagen: {d.imageCredit}</figcaption>}
     </figure>
     {d.rumor && (

@@ -5,7 +5,7 @@ date: 2026-10-11T17:30:00+02:00
 updated: 2026-10-11T17:30:00+02:00
 category: guias
 tags: [duracion, historia, horas, rdr2, gta-5]
-image: /img/oficial/vice-city-2.webp
+image: /img/oficial/vice-city-11.webp
 imageAlt: "Vice City, imagen oficial de GTA VI"
 imageCredit: "Rockstar Games"
 sources:

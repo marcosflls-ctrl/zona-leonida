@@ -6,7 +6,7 @@ updated: 2026-11-19T00:00:00+01:00
 category: guias
 draft: true
 tags: [controles, ps5, xbox, ajustes]
-image: /img/oficial/jason-duval-1.webp
+image: /img/oficial/jason-duval-5.webp
 imageAlt: "Jason Duval, imagen oficial de GTA VI"
 imageCredit: "Rockstar Games"
 sources: []

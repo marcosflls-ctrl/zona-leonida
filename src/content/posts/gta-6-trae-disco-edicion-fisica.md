@@ -5,8 +5,8 @@ date: 2026-10-11T16:13:00+02:00
 updated: 2026-10-11T16:13:00+02:00
 category: guias
 tags: [edicion-fisica, disco, precarga, ps5, xbox]
-image: /img/oficial/ultimate-edition-1.webp
-imageAlt: "Edición Ultimate, imagen oficial de GTA VI"
+image: /img/oficial/pack-vintage-vice-city-1.webp
+imageAlt: "Pack Vintage Vice City, imagen oficial de GTA VI"
 imageCredit: "Rockstar Games"
 sources:
   - name: "IBTimes: GTA+ incluido en las reservas digitales"

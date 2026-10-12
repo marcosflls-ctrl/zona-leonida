@@ -5,8 +5,8 @@ date: 2026-10-11T16:12:00+02:00
 updated: 2026-10-11T16:12:00+02:00
 category: guias
 tags: [pegi, edad, padres, clasificacion, lanzamiento]
-image: /img/oficial/vice-city-6.webp
-imageAlt: "Vice City, imagen oficial de GTA VI"
+image: /img/oficial/port-gellhorn-2.webp
+imageAlt: "Port Gellhorn, imagen oficial de GTA VI"
 imageCredit: "Rockstar Games"
 sources:
   - name: "ESRB: ficha de Grand Theft Auto VI"

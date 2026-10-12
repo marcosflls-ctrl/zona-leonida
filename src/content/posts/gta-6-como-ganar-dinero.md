@@ -6,8 +6,8 @@ updated: 2026-11-19T00:00:00+01:00
 category: guias
 draft: true
 tags: [dinero, guia, golpes, negocios]
-image: /img/oficial/ultimate-edition-1.webp
-imageAlt: "Edición Ultimate, imagen oficial de GTA VI"
+image: /img/oficial/jason-duval-6.webp
+imageAlt: "Jason Duval, imagen oficial de GTA VI"
 imageCredit: "Rockstar Games"
 sources:
   - name: "Vandal: El dinero importa más en GTA 6 que en anteriores juegos de la saga"

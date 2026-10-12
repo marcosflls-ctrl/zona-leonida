@@ -5,9 +5,9 @@ date: 2026-10-09T16:45:06+00:00
 category: noticias
 tags: [gta-6, xbox-cloud-gaming, streaming, microsoft, pc]
 rumor: false
-image: /img/banco/mando-1.webp
-imageAlt: "Ilustración de un mando de consola iluminado por neones"
-imageCredit: "ilustración de Zona Leonida"
+image: /img/oficial/jason-duval-8.webp
+imageAlt: "Jason Duval, imagen oficial de GTA VI"
+imageCredit: "Rockstar Games"
 sources:
   - name: "Eurogamer España: Microsoft niega los rumores que apuntaban a una exclusividad en el streaming en la nube de"
     url: "https://www.eurogamer.es/microsoft-niega-los-rumores-que-apuntaban-a-una-exclusividad-en-el-streaming-en-la-nube-de-gta-6"

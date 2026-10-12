@@ -7,7 +7,7 @@ category: guias
 pilar: true
 orden: 5
 tags: [personajes, lucia, jason, historia]
-image: /img/oficial/jason-y-lucia-1.webp
+image: /img/oficial/jason-y-lucia-6.webp
 imageAlt: "Jason y Lucía, imagen oficial de GTA VI"
 imageCredit: "Rockstar Games"
 sources:

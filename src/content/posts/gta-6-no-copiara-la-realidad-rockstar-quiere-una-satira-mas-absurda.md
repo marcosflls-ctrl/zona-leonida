@@ -5,9 +5,9 @@ date: 2026-10-11T22:59:23+00:00
 category: noticias
 tags: [gta-6, rockstar-games, satira, leonida, narrativa]
 rumor: false
-image: /img/banco/calle-1.webp
-imageAlt: "Ilustración de una calle de neón de noche en una ciudad tropical"
-imageCredit: "ilustración de Zona Leonida"
+image: /img/oficial/tienda-stock-305-1.webp
+imageAlt: "Tienda de ropa Stock 305 (edición Ultimate), imagen oficial de GTA VI"
+imageCredit: "Rockstar Games"
 sources:
   - name: "3DJuegos: Rockstar lo ha dejado claro: no quiere que GTA 6 sea un espejo de la realidad. Para que su"
     url: "https://www.3djuegos.com/juegos/grand-theft-auto-vi/noticias/rockstar-ha-dejado-claro-no-quiere-que-gta-6-sea-espejo-realidad-su-satira-funcione-necesita-mundo-absurdo"

@@ -5,9 +5,9 @@ date: 2026-10-10T06:03:44+00:00
 category: noticias
 tags: [gta-6, rockstar-games, poster, comunidad, merchandising]
 rumor: false
-image: /img/banco/dinero-1.webp
-imageAlt: "Ilustración de fajos de billetes bajo luces de neón"
-imageCredit: "ilustración de Zona Leonida"
+image: /img/oficial/pack-vintage-vice-city-2.webp
+imageAlt: "Pack Vintage Vice City, imagen oficial de GTA VI"
+imageCredit: "Rockstar Games"
 sources:
   - name: "IGN: GTA 6 Fan Says Rockstar Sent Them a Poster Just Because They Asked Nicely"
     url: "https://www.ign.com/articles/gta-6-fan-says-rockstar-sent-them-a-poster-just-because-they-asked-nicely"

@@ -5,8 +5,8 @@ date: 2026-10-12T20:21:06+00:00
 category: noticias
 tags: [gta-6, rockstar, narrativa, vice-city, sueno-americano]
 rumor: false
-image: /img/oficial/vice-city-2.webp
-imageAlt: "Vice City, imagen oficial de GTA VI"
+image: /img/oficial/jason-y-lucia-12.webp
+imageAlt: "Jason y Lucía, imagen oficial de GTA VI"
 imageCredit: "Rockstar Games"
 sources:
   - name: "GamesRadar: Ahead of GTA 6, Rockstar narrative lead says the American Dream is \"more modest now\" but s"

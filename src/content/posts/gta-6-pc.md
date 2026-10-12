@@ -7,9 +7,9 @@ category: guias
 pilar: true
 orden: 2
 tags: [pc, plataformas, steam]
-image: /img/banco/mando-1.webp
-imageAlt: "Ilustración de un mando de consola iluminado por neones"
-imageCredit: "ilustración de Zona Leonida"
+image: /img/oficial/lucia-caminos-5.webp
+imageAlt: "Lucía Caminos, imagen oficial de GTA VI"
+imageCredit: "Rockstar Games"
 sources:
   - name: "Rockstar Games: web oficial de GTA VI"
     url: "https://www.rockstargames.com/VI"

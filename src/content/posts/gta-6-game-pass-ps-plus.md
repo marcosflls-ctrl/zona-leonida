@@ -5,7 +5,7 @@ date: 2026-10-12T20:31:00+02:00
 updated: 2026-10-12T20:31:00+02:00
 category: guias
 tags: [game-pass, ps-plus, suscripcion, xbox, ps5]
-image: /img/oficial/jason-y-lucia-5.webp
+image: /img/oficial/jason-y-lucia-9.webp
 imageAlt: "Jason y Lucía, imagen oficial de GTA VI"
 imageCredit: "Rockstar Games"
 sources:

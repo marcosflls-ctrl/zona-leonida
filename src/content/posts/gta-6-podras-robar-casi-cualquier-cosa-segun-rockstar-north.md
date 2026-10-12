@@ -5,9 +5,9 @@ date: 2026-10-09T16:44:41+00:00
 category: noticias
 tags: [gta-6, rockstar-north, robos, jugabilidad, leonida]
 rumor: false
-image: /img/banco/dinero-2.webp
-imageAlt: "Ilustración de fajos de billetes bajo luces de neón"
-imageCredit: "ilustración de Zona Leonida"
+image: /img/oficial/revolveres-hawk-little-morgan-1.webp
+imageAlt: "Revólveres Hawk & Little Morgan (edición Ultimate), imagen oficial de GTA VI"
+imageCredit: "Rockstar Games"
 sources:
   - name: "Vandal: GTA 6 ofrecerá más libertad que nunca y Rockstar asegura que 'podrás robar prácticamente c"
     url: "https://vandal.elespanol.com/noticia/2026282016/gta-6-ofrecera-mas-libertad-que-nunca-y-rockstar-asegura-que-podras-robar-practicamente-cualquier-cosa/"
