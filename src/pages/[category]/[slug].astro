@@ -40,7 +40,7 @@ const jsonLd = [
     image: imagenesSchema(d.image ?? `/img/portadas/${d.category}.webp`),
     author: { '@type': 'Organization', name: SITE.author, url: `${SITE.url}/sobre-nosotros/` },
     publisher: {
-      '@type': 'Organization', name: SITE.name, url: SITE.url,
+      '@type': 'Organization', name: SITE.name, url: SITE.url, publishingPrinciples: `${SITE.url}/politica-editorial/`,
       logo: { '@type': 'ImageObject', url: `${SITE.url}/icon-512.png`, width: 512, height: 512 },
     },
     isAccessibleForFree: true,

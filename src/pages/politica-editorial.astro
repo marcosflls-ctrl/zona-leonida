@@ -1,0 +1,46 @@
+---
+import Page from '../layouts/Page.astro';
+import { SITE } from '../config';
+---
+<Page title="Política editorial" description={`Cómo trabajamos en ${SITE.name}: fuentes, rumores y filtraciones, correcciones y uso de herramientas de inteligencia artificial.`}>
+  <p>En {SITE.name} queremos que puedas fiarte de lo que lees. Esta página explica cómo elegimos, contrastamos y publicamos la información sobre <strong>GTA VI</strong>.</p>
+
+  <h2>Fuentes</h2>
+  <ul>
+    <li>Nuestra fuente principal es <strong>Rockstar Games</strong>: su web, su Newswire, sus tráilers y sus redes oficiales. También las tiendas oficiales (PlayStation Store, Xbox Store) y los organismos de clasificación como PEGI y ESRB.</li>
+    <li>Cuando la información viene de otro medio, lo decimos en el texto («según IGN…», «como informa Vandal…») y <strong>enlazamos el artículo original</strong> en el apartado «Fuentes» al final de cada página.</li>
+    <li>No publicamos cifras, fechas ni citas que no aparezcan en una fuente. Si algo no está confirmado, lo decimos.</li>
+  </ul>
+
+  <h2>Oficial, rumor o filtración</h2>
+  <ul>
+    <li>Distinguimos siempre lo <strong>oficial</strong> de lo que es un <strong>rumor</strong>. Los artículos sobre rumores llevan la etiqueta «Rumor» y un aviso visible al principio.</li>
+    <li><strong>No difundimos filtraciones del juego.</strong> Podemos informar de que se ha producido una filtración y de su contexto (la respuesta de Rockstar, las acciones legales…), pero no enlazamos el material, no lo describimos con detalle y nunca contamos nada de la historia. Lo explicamos en <a href="/noticias/gta-6-cyberleek-nueva-filtracion-take-two/">nuestra postura sobre las filtraciones</a>.</li>
+    <li>Nunca usamos una imagen oficial de Rockstar como si confirmara un rumor.</li>
+  </ul>
+
+  <h2>Spoilers</h2>
+  <p>No destripamos la historia de GTA VI. Cuando una guía necesite mencionar algo de la trama, lo avisaremos antes y lo ocultaremos para que solo lo vea quien quiera.</p>
+
+  <h2>Cómo usamos la inteligencia artificial</h2>
+  <p>Usamos herramientas de inteligencia artificial para vigilar las novedades a todas horas y para preparar borradores a partir de las fuentes. <strong>Ningún artículo se publica sin que una persona lo revise y lo apruebe</strong>: comprobamos los datos contra las fuentes, corregimos lo que haga falta y descartamos lo que no aporta nada nuevo. Las guías y los análisis los escribimos y contrastamos con el mismo cuidado.</p>
+
+  <h2>Imágenes</h2>
+  <ul>
+    <li>Las imágenes del juego son <strong>material oficial de Rockstar Games</strong> y se indica en cada una.</li>
+    <li>Algunas noticias llevan ilustraciones propias de {SITE.name}, que no muestran el juego, y también se indica.</li>
+    <li>Las capturas de la comunidad solo se publican con permiso de su autor y citándolo.</li>
+  </ul>
+
+  <h2>Correcciones y actualizaciones</h2>
+  <ul>
+    <li>Si nos equivocamos, lo corregimos en cuanto lo sabemos. Si el error afecta a un dato importante, lo indicamos en el propio artículo.</li>
+    <li>Las guías se actualizan cuando hay información nueva y muestran la fecha de su última actualización.</li>
+    <li>¿Has visto un error? Escríbenos desde la página de <a href="/contacto/">contacto</a> o a <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.</li>
+  </ul>
+
+  <h2>Independencia y publicidad</h2>
+  <p>{SITE.name} es una web de fans y no tiene relación con Rockstar Games ni con Take-Two Interactive. Nos financiamos con publicidad y con enlaces de afiliado de Amazon, que se señalan como tales. Ni los anunciantes ni las comisiones deciden lo que publicamos ni lo que opinamos.</p>
+
+  <p class="muted small">Última actualización: 13 de octubre de 2026.</p>
+</Page>
