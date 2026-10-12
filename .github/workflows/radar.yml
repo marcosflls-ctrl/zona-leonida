@@ -107,7 +107,9 @@ jobs:
           git add scripts/state
           if ! git diff --cached --quiet; then
             git commit -m "Radar: actualizar memoria"
-            git push
+            # si mientras tanto ha cambiado main (otro robot, una aprobación…), se pone al día antes de subir;
+            # --autostash conserva los borradores sin confirmar para la propuesta
+            for i in 1 2 3; do git pull --rebase --autostash origin main && git push && break; sleep 5; done
           fi
 
       # MODO REVISIÓN (por defecto): cada ejecución con artículos abre su propia propuesta.
@@ -136,7 +138,7 @@ jobs:
           git add -A
           if ! git diff --cached --quiet; then
             git commit -m "Radar: artículos nuevos"
-            git push
+            git pull --rebase origin main && git push
           fi
 
       # Si algo de lo anterior falla, te avisa en privado por Telegram (necesita el secreto TELEGRAM_AVISOS_CHAT_ID)
