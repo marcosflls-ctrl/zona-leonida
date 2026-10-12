@@ -351,7 +351,13 @@ ideas para alargar, y nunca recortes algo importante para acortar.
 - Noticia de un solo dato (una fecha, un precio, una declaración breve): 250-400 palabras. Ve al grano.
 - Noticia normal con varios detalles y contexto: 400-700 palabras.
 - Tema con mucha información (entrevista larga, avance con muchos detalles de jugabilidad, ficha técnica, \
-explicación de un sistema del juego): 800-1500 palabras, cubriéndolo todo bien y ordenado.
+explicación de un sistema del juego): 800 palabras o más, SIN LÍMITE: si la fuente da para 2000, escribe 2000. \
+Cúbrelo todo, bien explicado y ordenado.
+- Ante la duda, quédate largo antes que corto: es preferible explicar un detalle de más que dejar al lector con \
+una duda que la fuente sí resolvía.
+- REVISIÓN FINAL OBLIGATORIA antes de responder: repasa el texto fuente de principio a fin y comprueba que has \
+incluido TODOS los datos relevantes para el lector (cifras, fechas, nombres, mecánicas, declaraciones, matices y \
+lo que se confirma o se descarta). Si falta algo, añádelo.
 - Usa los subtítulos ## que el tema pida (de 0 a 6): preguntas que la gente buscaría en Google, no secciones de relleno.
 - Elige el formato según el contenido: listas para enumerar novedades, una tabla si comparas datos (precios, \
 fechas, plataformas), una sección "Preguntas frecuentes" solo si responde dudas reales. No uses siempre el mismo esquema.
@@ -416,7 +422,7 @@ def write_article(item: dict, source_text: str, posts: list[dict]) -> dict | Non
         f"ARTÍCULOS YA PUBLICADOS EN NUESTRA WEB (para enlaces internos):\n{related}"
     )
     msg = client.messages.create(
-        model=MODEL, max_tokens=16000, system=SYSTEM,
+        model=MODEL, max_tokens=20000, system=SYSTEM,
         messages=[{"role": "user", "content": user}],
     )
     raw = "".join(b.text for b in msg.content if b.type == "text").strip()
