@@ -27,7 +27,7 @@ En nuestro análisis sobre [la cripto de Cyberleek](/noticias/filtracion-de-gta-
 
 ## Qué más dice tener
 
-Dexerto cuenta que, además de la versión de 200 GB, Cyberleek afirma tener grabaciones de vehículos militares y aeronaves, tiroteos con la policía, disparos en la playa y un choque de trenes. No entramos en más detalle ni enlazamos el material, para no hacerte spoilers.
+Dexerto cuenta que, además de la versión de 200 GB, Cyberleek afirma tener más grabaciones, sobre todo de vehículos y de tiroteos con la policía. No entramos en más detalle ni enlazamos el material, para no hacerte spoilers.
 
 ## Lo que se sabe de sus publicaciones anteriores
 
