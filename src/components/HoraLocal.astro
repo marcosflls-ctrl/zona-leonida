@@ -1,0 +1,140 @@
+---
+// Cuenta atrás personalizada para la guía «¿A qué hora sale GTA 6?».
+// Detecta la zona horaria de quien visita, calcula cuándo se desbloquea el juego en su país
+// (medianoche local; en EE. UU., medianoche de la costa este) y lo traduce a la hora de España.
+const PAISES = [
+  { id: 'Europe/Madrid', nombre: 'España (península y Baleares)', estado: 'Según la PlayStation Store' },
+  { id: 'Atlantic/Canary', nombre: 'España (Canarias)', estado: 'Según la PlayStation Store', desbloqueo: 'Europe/Madrid' },
+  { id: 'America/Mexico_City', nombre: 'México', estado: 'Previsto, sin confirmar' },
+  { id: 'America/Argentina/Buenos_Aires', nombre: 'Argentina', estado: 'Previsto, sin confirmar' },
+  { id: 'America/Bogota', nombre: 'Colombia', estado: 'Previsto, sin confirmar' },
+  { id: 'America/Santiago', nombre: 'Chile', estado: 'Previsto, sin confirmar' },
+  { id: 'America/Lima', nombre: 'Perú', estado: 'Previsto, sin confirmar' },
+  { id: 'America/Caracas', nombre: 'Venezuela', estado: 'Previsto, sin confirmar' },
+  { id: 'America/Guayaquil', nombre: 'Ecuador', estado: 'Previsto, sin confirmar' },
+  { id: 'America/La_Paz', nombre: 'Bolivia', estado: 'Previsto, sin confirmar' },
+  { id: 'America/Asuncion', nombre: 'Paraguay', estado: 'Previsto, sin confirmar' },
+  { id: 'America/Montevideo', nombre: 'Uruguay', estado: 'Previsto, sin confirmar' },
+  { id: 'America/Guatemala', nombre: 'Guatemala', estado: 'Previsto, sin confirmar' },
+  { id: 'America/Tegucigalpa', nombre: 'Honduras', estado: 'Previsto, sin confirmar' },
+  { id: 'America/El_Salvador', nombre: 'El Salvador', estado: 'Previsto, sin confirmar' },
+  { id: 'America/Managua', nombre: 'Nicaragua', estado: 'Previsto, sin confirmar' },
+  { id: 'America/Costa_Rica', nombre: 'Costa Rica', estado: 'Previsto, sin confirmar' },
+  { id: 'America/Panama', nombre: 'Panamá', estado: 'Previsto, sin confirmar' },
+  { id: 'America/Santo_Domingo', nombre: 'República Dominicana', estado: 'Previsto, sin confirmar' },
+  { id: 'America/Puerto_Rico', nombre: 'Puerto Rico', estado: 'Previsto, sin confirmar' },
+  { id: 'America/Havana', nombre: 'Cuba', estado: 'Previsto, sin confirmar' },
+  { id: 'America/New_York', nombre: 'EE. UU. (hora del Este)', estado: 'Según la PlayStation Store', desbloqueo: 'America/New_York' },
+  { id: 'America/Chicago', nombre: 'EE. UU. (hora del Centro)', estado: 'Según la PlayStation Store', desbloqueo: 'America/New_York' },
+  { id: 'America/Denver', nombre: 'EE. UU. (hora de la Montaña)', estado: 'Según la PlayStation Store', desbloqueo: 'America/New_York' },
+  { id: 'America/Los_Angeles', nombre: 'EE. UU. (hora del Pacífico)', estado: 'Según la PlayStation Store', desbloqueo: 'America/New_York' },
+];
+---
+<section class="hora-local" data-paises={JSON.stringify(PAISES)} aria-label="Cuenta atrás de GTA 6 en tu país">
+  <label class="pais">
+    <span>GTA 6 en</span>
+    <select>
+      {PAISES.map((p) => <option value={p.id}>{p.nombre}</option>)}
+    </select>
+  </label>
+  <p class="cuando">Se desbloquea el <strong data-x="fecha">19 de noviembre a las 00:00</strong></p>
+  <div class="units">
+    <div><span data-u="d">--</span><small>días</small></div>
+    <div><span data-u="h">--</span><small>horas</small></div>
+    <div><span data-u="m">--</span><small>min</small></div>
+    <div><span data-u="s">--</span><small>seg</small></div>
+  </div>
+  <p class="extra"><span data-x="espana"></span> <span class="estado" data-x="estado"></span></p>
+  <p class="done" hidden>¡GTA 6 ya está disponible en tu país! Empieza con nuestras <a href="/guias/">guías</a>.</p>
+  <button type="button" class="compartir">Compartir mi hora</button>
+</section>
+
+<script>
+  const box = document.querySelector<HTMLElement>('.hora-local');
+  if (box) {
+    type Pais = { id: string; nombre: string; estado: string; desbloqueo?: string };
+    const paises: Pais[] = JSON.parse(box.dataset.paises!);
+    const sel = box.querySelector('select')!;
+    const $ = (k: string) => box.querySelector<HTMLElement>(`[data-x="${k}"]`)!;
+
+    // Desfase (ms) de una zona horaria en un instante dado
+    const desfase = (tz: string, t: number) => {
+      const p = new Intl.DateTimeFormat('en-US', { timeZone: tz, hourCycle: 'h23', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', second: '2-digit' })
+        .formatToParts(new Date(t)).reduce((o: any, x) => (o[x.type] = x.value, o), {});
+      return Date.UTC(+p.year, +p.month - 1, +p.day, +p.hour, +p.minute, +p.second) - t;
+    };
+    // Instante en que son las 00:00 del 19 de noviembre de 2026 en esa zona
+    const medianoche = (tz: string) => {
+      const base = Date.UTC(2026, 10, 19, 0, 0, 0);
+      let t = base - desfase(tz, base);
+      return base - desfase(tz, t);
+    };
+    const fmt = (t: number, tz: string, op: Intl.DateTimeFormatOptions) => new Intl.DateTimeFormat('es-ES', { timeZone: tz, ...op }).format(new Date(t));
+
+    // País inicial: el de la zona horaria del navegador, si está en la lista
+    let tzNav = 'Europe/Madrid';
+    try { tzNav = Intl.DateTimeFormat().resolvedOptions().timeZone || tzNav; } catch {}
+    const alias: Record<string, string> = { 'America/Buenos_Aires': 'America/Argentina/Buenos_Aires', 'America/Cancun': 'America/Mexico_City', 'America/Monterrey': 'America/Mexico_City', 'America/Merida': 'America/Mexico_City', 'America/Phoenix': 'America/Denver', 'America/Detroit': 'America/New_York', 'Europe/Ceuta': 'Europe/Madrid' };
+    const inicial = paises.find((p) => p.id === (alias[tzNav] ?? tzNav));
+    if (!inicial) { // zona no listada: la añadimos como "tu zona horaria"
+      const o = document.createElement('option'); o.value = tzNav; o.textContent = `Tu zona horaria (${tzNav.split('/').pop()!.replace(/_/g, ' ')})`;
+      sel.prepend(o); paises.unshift({ id: tzNav, nombre: o.textContent, estado: 'Previsto: medianoche de tu país, sin confirmar' });
+    }
+    sel.value = inicial ? inicial.id : tzNav;
+
+    let objetivo = 0, timer = 0;
+    const set = (u: string, v: number) => { const n = box.querySelector(`[data-u="${u}"]`); if (n) n.textContent = String(v).padStart(2, '0'); };
+    const tick = () => {
+      const diff = objetivo - Date.now();
+      const acabado = diff <= 0;
+      box.querySelector('.units')!.toggleAttribute('hidden', acabado);
+      box.querySelector('.done')!.toggleAttribute('hidden', !acabado);
+      if (acabado) return;
+      set('d', Math.floor(diff / 864e5)); set('h', Math.floor(diff / 36e5) % 24);
+      set('m', Math.floor(diff / 6e4) % 60); set('s', Math.floor(diff / 1e3) % 60);
+      timer = window.setTimeout(tick, 1000);
+    };
+    const pintar = () => {
+      const p = paises.find((x) => x.id === sel.value)!;
+      objetivo = medianoche(p.desbloqueo ?? p.id);
+      const dia = fmt(objetivo, p.id, { weekday: 'long', day: 'numeric', month: 'long' });
+      const hora = fmt(objetivo, p.id, { hour: '2-digit', minute: '2-digit' });
+      $('fecha').textContent = `${dia} a las ${hora}`;
+      const enEspana = p.id === 'Europe/Madrid' ? '' : `En la España peninsular serán las ${fmt(objetivo, 'Europe/Madrid', { hour: '2-digit', minute: '2-digit' })} del ${fmt(objetivo, 'Europe/Madrid', { weekday: 'long', day: 'numeric' })}.`;
+      $('espana').textContent = enEspana;
+      $('estado').textContent = `(${p.estado})`;
+      clearTimeout(timer); tick();
+    };
+    sel.addEventListener('change', pintar);
+    pintar();
+
+    box.querySelector('.compartir')!.addEventListener('click', async () => {
+      const p = paises.find((x) => x.id === sel.value)!;
+      const texto = `GTA 6 se desbloquea en ${p.nombre.replace(/^Tu zona horaria/, 'mi zona')} el ${$('fecha').textContent} 🌴 Mira la hora en tu país:`;
+      const url = location.origin + location.pathname;
+      try {
+        if (navigator.share) { await navigator.share({ text: texto, url }); return; }
+      } catch { return; }
+      window.open(`https://wa.me/?text=${encodeURIComponent(`${texto} ${url}`)}`, '_blank', 'noopener');
+    });
+  }
+</script>
+
+<style>
+  .hora-local { border-radius: 20px; padding: 24px 18px; text-align: center; margin: 0 0 32px;
+    background: radial-gradient(ellipse at 15% 130%, #ff3d8b55, transparent 60%), radial-gradient(ellipse at 90% -20%, #2de2c844, transparent 55%), linear-gradient(180deg, #2a1636, #17131f);
+    border: 1px solid var(--line); }
+  .pais { display: inline-flex; align-items: center; gap: 10px; flex-wrap: wrap; justify-content: center; font-weight: 800; text-transform: uppercase; letter-spacing: .1em; font-size: .8rem; color: var(--leaf); }
+  .pais select { font: inherit; text-transform: none; letter-spacing: 0; font-weight: 600; font-size: 1rem; color: var(--text); background: var(--surface-2); border: 1px solid var(--teal); border-radius: 10px; padding: 8px 10px; max-width: 100%; }
+  .cuando { margin: 14px 0 12px; color: var(--text); }
+  .cuando strong { color: #ffe6f4; }
+  .units { display: flex; justify-content: center; gap: clamp(10px, 4vw, 32px); }
+  .units div { display: flex; flex-direction: column; min-width: 58px; }
+  .units span { font-family: Anton, sans-serif; font-size: clamp(2.2rem, 9vw, 4rem); line-height: 1; color: #ffe6f4; text-shadow: var(--glow-pink); }
+  .units small { color: var(--muted); text-transform: uppercase; letter-spacing: .1em; font-size: .7rem; margin-top: 6px; }
+  .extra { margin: 14px 0 0; font-size: .85rem; color: var(--muted); }
+  .estado { white-space: nowrap; }
+  .done { font-size: 1.15rem; font-weight: 600; margin: 8px 0 0; }
+  .compartir { margin-top: 16px; font: inherit; font-weight: 700; cursor: pointer; color: #17131f; background: var(--teal); border: 0; border-radius: 999px; padding: 10px 20px; box-shadow: var(--glow-teal); }
+  .compartir:hover { filter: brightness(1.1); }
+</style>

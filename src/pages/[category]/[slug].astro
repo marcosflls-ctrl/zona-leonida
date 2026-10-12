@@ -1,4 +1,5 @@
 ---
+import HoraLocal from '../../components/HoraLocal.astro';
 import { srcset } from '../../lib/img';
 import { render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
@@ -80,6 +81,7 @@ const jsonLd = [
       <p class="rumor-note"><strong>Información sin confirmar.</strong> Este artículo trata sobre rumores o filtraciones que Rockstar Games no ha confirmado oficialmente. Puede que no sean ciertos.</p>
     )}
     <AdSlot />
+    {d.cuentaAtras && <HoraLocal />}
     <div class="prose"><Content /></div>
     <Compras items={d.compras} />
     <Compartir url={url} title={d.title} />

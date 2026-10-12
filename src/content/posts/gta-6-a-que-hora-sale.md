@@ -2,9 +2,10 @@
 title: "¿A qué hora sale GTA 6? Horario de lanzamiento por país"
 description: "GTA 6 se desbloquea a las 00:00 del 19 de noviembre en España. Te contamos el horario por país, cuándo empieza la precarga y por qué no sale a la vez en todo el mundo."
 date: 2026-10-09T18:45:00+02:00
-updated: 2026-10-09T18:45:00+02:00
+updated: 2026-10-12T23:40:00+02:00
 category: guias
 pilar: true
+cuentaAtras: true
 orden: 6
 tags: [lanzamiento, horario, precarga, ps5, xbox]
 image: /img/oficial/vice-city-1.webp
