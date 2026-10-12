@@ -346,6 +346,18 @@ personajes → /guias/gta-6-personajes/, hora de salida por país → /guias/gta
 Solo escribe si aporta un dato nuevo relevante, y en ese caso céntrate en lo nuevo.
 - Si la fuente NO trata realmente de GTA VI, o es un refrito sin novedad, o es solo una opinión, responde {"skip": true, "reason": "..."}.
 
+LONGITUD Y ESTRUCTURA: la longitud la marca lo que hay que contar, no una cifra fija. Nunca rellenes ni repitas \
+ideas para alargar, y nunca recortes algo importante para acortar.
+- Noticia de un solo dato (una fecha, un precio, una declaración breve): 250-400 palabras. Ve al grano.
+- Noticia normal con varios detalles y contexto: 400-700 palabras.
+- Tema con mucha información (entrevista larga, avance con muchos detalles de jugabilidad, ficha técnica, \
+explicación de un sistema del juego): 800-1500 palabras, cubriéndolo todo bien y ordenado.
+- Usa los subtítulos ## que el tema pida (de 0 a 6): preguntas que la gente buscaría en Google, no secciones de relleno.
+- Elige el formato según el contenido: listas para enumerar novedades, una tabla si comparas datos (precios, \
+fechas, plataformas), una sección "Preguntas frecuentes" solo si responde dudas reales. No uses siempre el mismo esquema.
+- Primer párrafo: lo esencial de la noticia (qué, quién, cuándo) en 2-3 frases. Último párrafo: contexto útil o \
+qué falta por saber, sin frases hechas de cierre.
+
 FORMATO DE RESPUESTA: solo un objeto JSON válido, sin texto alrededor:
 {
   "skip": false,
@@ -357,7 +369,7 @@ FORMATO DE RESPUESTA: solo un objeto JSON válido, sin texto alrededor:
   "title": "titular SEO de 50-70 caracteres que empiece por 'GTA 6' o 'GTA VI' cuando suene natural",
   "description": "entradilla/meta description de 130-160 caracteres",
   "tags": ["3-5 etiquetas en minúsculas"],
-  "body": "artículo en Markdown, 350-700 palabras, con 2-4 subtítulos ## que respondan dudas que la gente buscaría en Google. Incluye 1-2 enlaces internos a artículos relacionados de la lista si encajan de forma natural. No pongas el título como # al principio."
+  "body": "artículo en Markdown (ver LONGITUD Y ESTRUCTURA). Incluye 1-3 enlaces internos a artículos relacionados de la lista si encajan de forma natural. No pongas el título como # al principio."
 }"""
 _REFS_TXT = "; ".join(f"{k} = {v[0]}" for k, v in GALERIA_REFS.items())
 SYSTEM = SYSTEM_TEMPLATE.replace("{temas}", _TEMAS_TXT).replace("{refs}", _REFS_TXT)
@@ -400,11 +412,11 @@ def write_article(item: dict, source_text: str, posts: list[dict]) -> dict | Non
     related = "\n".join(f"- {p['title']} → {p['url']}" for p in posts[:60]) or "(ninguno aún)"
     user = (
         f"FUENTE: {item['source']}\nTÍTULO ORIGINAL: {item['title']}\nURL: {item['url']}\n\n"
-        f"TEXTO FUENTE:\n\"\"\"\n{source_text[:12000]}\n\"\"\"\n\n"
+        f"TEXTO FUENTE:\n\"\"\"\n{source_text[:25000]}\n\"\"\"\n\n"
         f"ARTÍCULOS YA PUBLICADOS EN NUESTRA WEB (para enlaces internos):\n{related}"
     )
     msg = client.messages.create(
-        model=MODEL, max_tokens=12000, system=SYSTEM,
+        model=MODEL, max_tokens=16000, system=SYSTEM,
         messages=[{"role": "user", "content": user}],
     )
     raw = "".join(b.text for b in msg.content if b.type == "text").strip()
