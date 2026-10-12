@@ -1,0 +1,141 @@
+---
+import Base from '../layouts/Base.astro';
+import Compartir from '../components/Compartir.astro';
+import Siguenos from '../components/Siguenos.astro';
+import AdSlot from '../components/AdSlot.astro';
+import { SITE } from '../config';
+
+const title = 'Mapa de GTA 6: las 6 zonas de Leonida en un mapa interactivo';
+const description = 'Explora Leonida, el estado de GTA 6: Vice City, los Cayos, Grassrivers, Port Gellhorn, Ambrosía y el monte Kalaga, con imágenes oficiales y el lugar real en el que se inspira cada zona.';
+const url = `${SITE.url}/mapa/`;
+
+// x, y: posición del punto en % sobre el mapa esquemático (aproximada, según el lugar real de Florida que inspira cada zona)
+const ZONAS = [
+  { id: 'port-gellhorn', nombre: 'Port Gellhorn', x: 16, y: 16, img: 'port-gellhorn-1',
+    oficial: 'La costa olvidada de Leonida: moteles baratos, atracciones cerradas y centros comerciales de carretera. El reverso de la Leonida de postal.',
+    real: 'El Panhandle, la franja noroeste de Florida, con ciudades como Panama City.' },
+  { id: 'monte-kalaga', nombre: 'Monte Kalaga', x: 52.5, y: 14, img: 'monte-kalaga-1',
+    oficial: 'Un parque natural en el norte del estado, famoso por la caza, la pesca y las rutas todoterreno. Apunta a ser la zona más salvaje del mapa.',
+    real: 'Florida no tiene montañas: según GTABoom, recuerda más a los Apalaches.' },
+  { id: 'ambrosia', nombre: 'Ambrosía', x: 70.5, y: 57, img: 'ambrosia-1',
+    oficial: 'Un pueblo agrícola dominado por la refinería de azúcar Allied Crystal y por una banda local de moteros.',
+    real: 'Clewiston, al sur del lago Okeechobee, donde está la gran refinería de U.S. Sugar.' },
+  { id: 'grassrivers', nombre: 'Grassrivers', x: 68, y: 68, img: 'grassrivers-1',
+    oficial: 'Humedales y manglares con caimanes y flamencos, y peligros escondidos entre la vegetación.',
+    real: 'Los Everglades, el gran parque nacional de pantanos del sur de Florida.' },
+  { id: 'vice-city', nombre: 'Vice City', x: 84.5, y: 75, img: 'vice-city-1',
+    oficial: '«El lado más oscuro del lugar más soleado de América». La gran ciudad del juego, con barrios como Ocean Beach y Little Cuba.',
+    real: 'Miami: Ocean Beach es South Beach y Little Cuba, Little Havana.' },
+  { id: 'cayos', nombre: 'Cayos de Leonida', x: 62.5, y: 88.5, img: 'cayos-de-leonida-1',
+    oficial: 'Una cadena de islas tropicales con ambiente relajado, fiestas y aguas peligrosas.',
+    real: 'Los Cayos de Florida, unidos por la Overseas Highway.' },
+];
+const jsonLd = {
+  '@context': 'https://schema.org', '@type': 'ItemList', name: 'Zonas de Leonida en GTA 6',
+  itemListElement: ZONAS.map((z, i) => ({ '@type': 'ListItem', position: i + 1, name: z.nombre, url: `${url}#${z.id}` })),
+};
+---
+<Base title={title} description={description} image={`${SITE.url}/img/oficial/vice-city-1.webp`} jsonLd={jsonLd}>
+  <nav class="breadcrumbs"><a href="/">Inicio</a> › <a href="/guias/">Guías</a> › Mapa</nav>
+  <h1 class="section-title">Mapa de GTA 6: Leonida</h1>
+  <p class="lead">Las seis zonas que Rockstar ha enseñado de Leonida, la versión de Florida de GTA 6. Pulsa en cada punto para ver cómo es, sus imágenes oficiales y el lugar real en el que se inspira.</p>
+
+  <p class="aviso"><strong>Mapa esquemático.</strong> Rockstar todavía no ha publicado el mapa oficial. Colocamos cada zona de forma aproximada según el lugar real de Florida en el que se inspira, a partir de los análisis de la prensa. El 19 de noviembre lo cambiaremos por el mapa del juego, con ubicaciones de coches, coleccionables y secretos.</p>
+
+  <div class="mapa-wrap">
+    <div class="mapa" role="group" aria-label="Mapa esquemático de Leonida">
+      <svg viewBox="0 0 400 440" aria-hidden="true">
+        <defs>
+          <linearGradient id="tierra" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2b2140"/><stop offset="1" stop-color="#3a1f3c"/></linearGradient>
+          <linearGradient id="mar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0f2a3a"/><stop offset="1" stop-color="#14183a"/></linearGradient>
+        </defs>
+        <rect width="400" height="440" fill="url(#mar)"/>
+        <!-- Leonida: silueta inspirada en Florida, simplificada -->
+        <path d="M14 48 L238 40 L254 46 L276 74 L300 130 L320 192 L338 252 L350 300 L352 334 L344 360 L326 374 L306 378 L288 368 L270 344 L250 316 L230 286 L212 252 L200 214 L192 176 L182 146 L166 122 L144 108 L116 100 L84 96 L52 94 L14 86 Z"
+          fill="url(#tierra)" stroke="#ff3d8b" stroke-width="1.6" stroke-linejoin="round" opacity=".95"/>
+        <!-- lago -->
+        <ellipse cx="282" cy="226" rx="18" ry="14" fill="#0f2a3a" stroke="#2de2c8" stroke-width="1" opacity=".9"/>
+        <!-- cayos -->
+        <g fill="url(#tierra)" stroke="#ff3d8b" stroke-width="1.2">
+          <ellipse cx="300" cy="392" rx="9" ry="3.5" transform="rotate(-20 300 392)"/>
+          <ellipse cx="278" cy="400" rx="9" ry="3.2" transform="rotate(-12 278 400)"/>
+          <ellipse cx="256" cy="405" rx="8" ry="3" transform="rotate(-6 256 405)"/>
+          <ellipse cx="234" cy="408" rx="7" ry="3"/>
+          <ellipse cx="214" cy="409" rx="6" ry="2.6"/>
+        </g>
+        <!-- palmeras decorativas -->
+        <g stroke="#5dff8a" stroke-width="1.4" fill="none" opacity=".55">
+          <path d="M360 400 q2 -18 0 -30 M360 370 q-10 -2 -16 4 M360 370 q10 -2 16 4 M360 370 q-6 -8 -14 -8 M360 370 q6 -8 14 -8"/>
+        </g>
+        <text x="12" y="434" fill="#c7b8d8" font-size="11" font-family="Inter, sans-serif" opacity=".7">Esquema aproximado · no es el mapa oficial</text>
+      </svg>
+      {ZONAS.map((z) => (
+        <button type="button" class="pin" style={`left:${z.x}%;top:${z.y}%`} data-zona={z.id} aria-label={`Ver ${z.nombre}`}>
+          <span class="dot"></span><span class="lbl">{z.nombre}</span>
+        </button>
+      ))}
+    </div>
+
+    <aside class="panel" aria-live="polite">
+      {ZONAS.map((z, i) => (
+        <article class="ficha" id={z.id} hidden={i !== 4}>
+          <img src={`/img/oficial/${z.img}-800.webp`} srcset={`/img/oficial/${z.img}-400.webp 400w, /img/oficial/${z.img}-800.webp 800w`} sizes="(max-width: 900px) 100vw, 380px" alt={`${z.nombre}, imagen oficial de GTA VI`} width="800" height="450" loading="lazy" />
+          <h2>{z.nombre}</h2>
+          <p>{z.oficial}</p>
+          <p class="real"><strong>Inspirada en:</strong> {z.real}</p>
+          <p class="credito">Imagen: Rockstar Games</p>
+        </article>
+      ))}
+    </aside>
+  </div>
+
+  <AdSlot />
+
+  <section class="prose">
+    <h2>Las 6 zonas de Leonida, de un vistazo</h2>
+    <ul>
+      {ZONAS.map((z) => <li><strong><a href={`#${z.id}`} data-zona={z.id}>{z.nombre}</a>:</strong> {z.oficial}</li>)}
+    </ul>
+    <p>Lo explicamos todo con más imágenes en la <a href="/guias/gta-6-mapa-leonida/">guía del mapa de Leonida</a>, y los lugares reales de Florida que inspiran cada zona en <a href="/descubrimientos/gta-6-leonida-florida-lugares-reales/">Leonida y Florida</a>. Si vienes del juego de 2002, compara la ciudad en <a href="/guias/gta-6-vice-city-2002-vs-gta-6/">Vice City en 2002 y en GTA 6</a>.</p>
+    <h2>¿Cuándo saldrá el mapa completo?</h2>
+    <p>Rockstar no ha publicado el mapa oficial y no lo hará, previsiblemente, hasta el lanzamiento del <strong>19 de noviembre</strong>, cuando suele incluirse en el propio juego. Ese día convertiremos esta página en el mapa completo de GTA 6, con barrios, tiendas, garajes, coches, coleccionables y secretos. Desconfía de los mapas «filtrados» o hechos por fans que circulan: son reconstrucciones a partir de los tráilers.</p>
+  </section>
+
+  <Compartir url={url} title={title} />
+  <Siguenos />
+
+  <script>
+    const fichas = document.querySelectorAll<HTMLElement>('.ficha');
+    const pins = document.querySelectorAll<HTMLElement>('.pin');
+    const mostrar = (id: string, mover = false) => {
+      fichas.forEach((f) => f.hidden = f.id !== id);
+      pins.forEach((p) => p.classList.toggle('activo', p.dataset.zona === id));
+      if (mover && window.innerWidth < 900) document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    };
+    document.querySelectorAll<HTMLElement>('[data-zona]').forEach((el) => el.addEventListener('click', (e) => {
+      e.preventDefault(); mostrar(el.dataset.zona!, true);
+      history.replaceState(null, '', `#${el.dataset.zona}`);
+    }));
+    const inicial = location.hash.slice(1);
+    mostrar([...fichas].some((f) => f.id === inicial) ? inicial : 'vice-city');
+  </script>
+</Base>
+
+<style>
+  .aviso { font-size: .9rem; color: var(--muted); border-left: 3px solid var(--orange); padding: 8px 12px; background: var(--surface); border-radius: 0 10px 10px 0; }
+  .mapa-wrap { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 20px; margin: 24px 0; align-items: start; }
+  @media (max-width: 900px) { .mapa-wrap { grid-template-columns: 1fr; } }
+  .mapa { position: relative; border-radius: 18px; overflow: hidden; border: 1px solid var(--line); box-shadow: var(--glow-pink); }
+  .mapa svg { display: block; width: 100%; height: auto; }
+  .pin { position: absolute; transform: translate(-50%, -50%); background: none; border: 0; padding: 6px; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 4px; color: var(--text); font: inherit; }
+  .dot { width: 16px; height: 16px; border-radius: 50%; background: var(--pink); box-shadow: 0 0 0 4px #ff3d8b44, var(--glow-pink); transition: transform .15s; }
+  .pin:hover .dot, .pin:focus-visible .dot, .pin.activo .dot { transform: scale(1.35); background: var(--teal); box-shadow: 0 0 0 5px #2de2c855, var(--glow-teal); }
+  .lbl { font-size: .72rem; font-weight: 700; letter-spacing: .03em; background: #17131fcc; padding: 2px 7px; border-radius: 999px; white-space: nowrap; }
+  @media (max-width: 480px) { .lbl { font-size: .62rem; padding: 1px 5px; } .dot { width: 13px; height: 13px; } }
+  .panel { background: var(--surface); border: 1px solid var(--line); border-radius: 18px; overflow: hidden; }
+  .ficha img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; }
+  .ficha h2 { margin: 14px 18px 6px; font-size: 1.6rem; }
+  .ficha p { margin: 0 18px 10px; }
+  .ficha .real { color: var(--muted); font-size: .92rem; }
+  .ficha .credito { font-size: .75rem; color: var(--muted); margin-bottom: 16px; }
+</style>

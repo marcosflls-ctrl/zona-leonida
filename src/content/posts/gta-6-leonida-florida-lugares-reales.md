@@ -63,4 +63,4 @@ Florida no tiene montañas, así que aquí Rockstar se toma licencias: el parque
 - **Leonard County**, en un coche patrulla, imitaría al sheriff del condado de Broward.
 - El **aeropuerto VCI** sería el de Miami (MIA), y **Catalan Boulevard**, el Biscayne Boulevard.
 
-Cuando salga el juego comprobaremos todas estas teorías sobre el terreno. Mientras, tienes las seis zonas oficiales con sus imágenes en el [mapa de GTA 6](/guias/gta-6-mapa-leonida/).
+Cuando salga el juego comprobaremos todas estas teorías sobre el terreno. Mientras, tienes las seis zonas oficiales con sus imágenes en el [mapa de GTA 6](/guias/gta-6-mapa-leonida/) y, sobre un esquema de Florida, en nuestro [mapa interactivo](/mapa/).

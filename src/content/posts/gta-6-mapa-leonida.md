@@ -17,7 +17,7 @@ sources:
     url: "https://www.gfinityesports.com/article/gta-6-map-guide-every-confirmed-location-in-leonida"
 ---
 
-GTA 6 transcurre en **Leonida**, el estado ficticio inspirado en Florida, y su gran ciudad es **Vice City**. Estas son las zonas que Rockstar ha mostrado oficialmente antes del lanzamiento. Cuando salga el juego, esta página se convertirá en la guía completa del mapa.
+GTA 6 transcurre en **Leonida**, el estado ficticio inspirado en Florida, y su gran ciudad es **Vice City**. Estas son las zonas que Rockstar ha mostrado oficialmente antes del lanzamiento. Puedes explorarlas también en nuestro **[mapa interactivo de Leonida](/mapa/)**. Cuando salga el juego, esta página se convertirá en la guía completa del mapa.
 
 ## Las 6 zonas confirmadas
 
