@@ -95,7 +95,7 @@ Rockstar también vende **The Goodtime State – Vice City Collection**, una caj
 
 ## Preguntas frecuentes
 
-**¿Sale en PS4 o Xbox One?** No. Solo en PS5 (incluida PS5 Pro) y Xbox Series X|S.
+**¿Sale en PS4 o Xbox One?** No. Solo en PS5 (incluida PS5 Pro) y Xbox Series X|S. Qué cambia en cada consola, en [FPS y resolución](/guias/gta-6-ps5-pro-fps-resolucion/).
 
 **¿Y en PC?** De momento no está anunciado. Lo explicamos en [GTA 6 en PC](/guias/gta-6-pc/).
 

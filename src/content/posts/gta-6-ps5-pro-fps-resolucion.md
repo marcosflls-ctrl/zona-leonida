@@ -2,7 +2,7 @@
 title: "GTA 6 en PS5, PS5 Pro y Xbox Series S: FPS y resolución"
 description: "¿GTA 6 irá a 30 o 60 FPS? Qué ha confirmado Rockstar, qué mejora la PS5 Pro, cómo se verá en Xbox Series S y qué dice el análisis de Digital Foundry."
 date: 2026-10-09T19:20:00+02:00
-updated: 2026-10-09T19:20:00+02:00
+updated: 2026-10-12T20:55:00+02:00
 category: guias
 tags: [ps5-pro, fps, rendimiento, xbox-series-s, graficos]
 image: /img/oficial/vice-city-4.webp
@@ -30,11 +30,27 @@ sources:
     url: "https://techradar.com/gaming/netflix-confirms-that-the-gta-6-extended-look-has-an-official-runtime-of-just-under-half-an-hour-and-is-captured-on-the-base-ps5"
   - name: "GTABoom: Zelnick sobre el rendimiento en Xbox Series S"
     url: "https://www.gtaboom.com/take-two-ceo-confident-gta-6-performance-xbox-series-s/"
+  - name: "Vandal: GTA 6 funciona a 30 FPS y Rockstar no puede confirmar un modo a 60"
+    url: "https://vandal.elespanol.com/noticia/2026240015/gta-6-funciona-actualmente-a-30-fps-en-consolas-y-rockstar-no-puede-confirmar-todavia-un-modo-a-60-fps/"
+  - name: "TechRadar: analistas sobre los 60 FPS y un posible modo a 40"
+    url: "https://www.techradar.com/gaming/60fps-feels-like-a-bridge-too-far-gta-6-is-likely-to-only-run-at-30fps-on-ps5-consoles-due-to-cpu-limitations-tech-analysts-say-but-theres-hope-that-a-40fps-mode-would-be-a-good-option-if-60-is-off-the-table"
+  - name: "VICE: el rumor de HipHopGamer sobre 60 FPS en PS5 Pro"
+    url: "https://www.vice.com/en/article/gta-6-60-fps-ps5-pro-leak/"
   - name: "OpenCritic: rumor de un modo a 60 FPS"
     url: "https://opencritic.com/news/33900/rumor-gta-6-could-have-a-60-fps-performance-mode-on-all-platforms"
 ---
 
 **Todo apunta a que GTA 6 saldrá a 30 FPS en consolas.** «Una mirada extendida» se grabó en una PS5 normal a 30 imágenes por segundo, y Rockstar no ha anunciado un modo a 60. Esto es lo oficial, lo que dicen los análisis y lo que todavía son rumores.
+
+## Consola por consola
+
+| Consola | Lo que se sabe | Lo previsible |
+|---|---|---|
+| **PS5** | «Una mirada extendida» se grabó en ella a 30 FPS | 30 FPS y unos 1440p reescalados a 4K, según Digital Foundry |
+| **PS5 Pro** | Etiqueta «Mejorado para PS5 Pro», sin detalles | Imagen más nítida y mejor iluminación; los 60 FPS se ven improbables |
+| **Xbox Series X** | Nada oficial | Algo muy parecido a PS5 |
+| **Xbox Series S** | Nada oficial | Unos 720p y 30 FPS, según un cálculo de Digital Foundry de 2024 |
+| **PC** | Sin anunciar | [Lo que se sabe de GTA 6 en PC](/guias/gta-6-pc/) |
 
 ## Lo oficial
 
@@ -62,8 +78,20 @@ No hay datos oficiales. A partir del primer tráiler, Digital Foundry calculó e
 
 Según recoge OpenCritic, un podcast polaco que cita a una fuente cercana a Rockstar aseguró que habría **un modo rendimiento a 60 FPS** en PS5 y Xbox Series X. El mismo medio recuerda otro rumor de 2025 sobre un trabajo conjunto de Sony y Rockstar para lograr 60 FPS en PS5 Pro. Nada de esto está confirmado, y contradice lo que apunta el análisis técnico.
 
+Otro nombre que circula es el de **HipHopGamer**, un conocido creador de contenido que aseguró en agosto que el juego irá a 60 FPS en PS5 Pro. Según VICE, no es un filtrador habitual de Rockstar y nadie lo ha confirmado.
+
+## ¿Y un modo a 40 FPS?
+
+Es la opción intermedia que proponen algunos analistas, según TechRadar: si el procesador no da para 60, un modo a 40 FPS se notaría bastante más fluido que 30 sin exigir tanto. Algunos juegos de PS5 ya lo ofrecen. Eso sí, **solo funciona con televisores de 120 Hz**: en una tele normal de 60 Hz no aparece la opción. Rockstar no ha dicho nada de un modo así.
+
+## ¿Qué tele necesito?
+
+- **Con una tele 4K normal** verás el juego tal y como se ha enseñado: a 30 FPS y con la imagen reescalada a 4K.
+- **Una tele de 120 Hz con HDMI 2.1** solo marcaría la diferencia si Rockstar añade un modo a 40 o a 60 FPS, o si se pudiera jugar con los FPS sin límite (VRR).
+- **Activa el «modo juego» de la tele** en cualquier caso: reduce el retraso entre que pulsas un botón y lo ves en pantalla, algo que a 30 FPS se nota más.
+
 ## ¿Merece la pena comprar una PS5 Pro para GTA 6?
 
-Con lo que se sabe hoy, **no esperes 60 FPS** por tener una PS5 Pro. Lo previsible es que se vea más nítido y con mejor iluminación. Si ya tienes una PS5, puedes jugar perfectamente; si vas a comprar consola de todos modos y te importa la calidad de imagen, la Pro es la opción más vistosa. Esperaremos a los análisis del lanzamiento para dar una respuesta definitiva.
+Con lo que se sabe hoy, **no esperes 60 FPS** por tener una PS5 Pro. Lo previsible es que se vea más nítido y con mejor iluminación. Si ya tienes una PS5, puedes jugar perfectamente; si vas a comprar consola de todos modos y te importa la calidad de imagen, la Pro es la opción más vistosa. Esperaremos a los análisis del lanzamiento para dar una respuesta definitiva, y actualizaremos esta guía en cuanto Rockstar diga algo nuevo.
 
 ¿Y en ordenador? Te contamos lo que se sabe en [GTA 6 en PC](/guias/gta-6-pc/). Y si vas justo de espacio, revisa [cuánto ocupa GTA 6](/guias/gta-6-cuanto-ocupa/).

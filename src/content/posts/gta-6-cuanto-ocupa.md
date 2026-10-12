@@ -48,7 +48,7 @@ La **precarga empieza el 12 de noviembre de 2026**, una semana antes del lanzami
 | Xbox Series X | 1 TB | ~802 GB |
 | Xbox Series S | 512 GB | ~364 GB |
 
-Si tienes una **Xbox Series S**, es la que más se va a notar: GTA 6 podría ocupar casi la mitad de su espacio útil.
+Si tienes una **Xbox Series S**, es la que más se va a notar: GTA 6 podría ocupar casi la mitad de su espacio útil. Y si te preguntas cómo se verá en ella, lo contamos en [FPS y resolución en cada consola](/guias/gta-6-ps5-pro-fps-resolucion/).
 
 ## Cómo preparar la consola
 

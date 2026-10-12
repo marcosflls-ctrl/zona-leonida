@@ -21,6 +21,8 @@ De lanzamiento, el juego estará disponible en:
 - **PlayStation 5** (incluida PS5 Pro)
 - **Xbox Series X y Xbox Series S**
 
+¿A cuántos FPS irá en cada una? Lo explicamos en [GTA 6 en PS5, PS5 Pro y Xbox Series S: FPS y resolución](/guias/gta-6-ps5-pro-fps-resolucion/).
+
 No sale en PS4 ni en Xbox One: GTA VI es un juego exclusivo de la generación actual de consolas.
 
 ## ¿Y la versión de PC?
