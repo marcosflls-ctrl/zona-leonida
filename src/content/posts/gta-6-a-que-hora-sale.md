@@ -2,7 +2,7 @@
 title: "¿A qué hora sale GTA 6? Hora exacta en España y en tu país"
 description: "GTA 6 se desbloquea a las 00:00 del 19 de noviembre en España. Mira la hora exacta en tu país con nuestra cuenta atrás y cuándo empieza la precarga."
 date: 2026-10-09T18:45:00+02:00
-updated: 2026-10-12T23:40:00+02:00
+updated: 2026-10-16T19:00:00+02:00
 category: guias
 pilar: true
 cuentaAtras: true
@@ -29,18 +29,19 @@ El lanzamiento **no es simultáneo en todo el mundo**: el juego se va desbloquea
 
 ## Horario de GTA 6 por país
 
-| País | Cuándo se desbloquea | Estado |
-|---|---|---|
-| España (península y Baleares) | 00:00 del jueves 19 de noviembre | Según la PlayStation Store |
-| España (Canarias) | 23:00 del miércoles 18 de noviembre | Según la PlayStation Store |
-| México | Medianoche del 19 de noviembre, hora local | Previsto, sin confirmar |
-| Argentina | Medianoche del 19 de noviembre, hora local | Previsto, sin confirmar |
-| Colombia | Medianoche del 19 de noviembre, hora local | Previsto, sin confirmar |
-| Chile | Medianoche del 19 de noviembre, hora local | Previsto, sin confirmar |
-| Perú | Medianoche del 19 de noviembre, hora local | Previsto, sin confirmar |
-| Estados Unidos | 00:00 del 19 de noviembre, hora del Este | Según la PlayStation Store |
+| País | Se desbloquea | En España serían las… | Estado |
+|---|---|---|---|
+| España (península y Baleares) | 00:00 del jueves 19 | 00:00 del jueves 19 | Según la PlayStation Store |
+| España (Canarias) | 23:00 del miércoles 18 | 00:00 del jueves 19 | Según la PlayStation Store |
+| Estados Unidos | 00:00 del jueves 19, hora del Este (21:00 del miércoles en la costa oeste) | 06:00 del jueves 19 | Según la PlayStation Store |
+| México | 00:00 del jueves 19 (hora del centro) | 07:00 del jueves 19 | Previsto, sin confirmar |
+| Guatemala, El Salvador, Honduras, Nicaragua y Costa Rica | 00:00 del jueves 19 | 07:00 del jueves 19 | Previsto, sin confirmar |
+| Colombia, Perú y Ecuador | 00:00 del jueves 19 | 06:00 del jueves 19 | Previsto, sin confirmar |
+| Panamá y Cuba | 00:00 del jueves 19 | 06:00 del jueves 19 | Previsto, sin confirmar |
+| Venezuela, Bolivia, República Dominicana y Puerto Rico | 00:00 del jueves 19 | 05:00 del jueves 19 | Previsto, sin confirmar |
+| Argentina, Chile, Uruguay y Paraguay | 00:00 del jueves 19 | 04:00 del jueves 19 | Previsto, sin confirmar |
 
-En Latinoamérica lo habitual es que el juego se desbloquee a medianoche de cada país, pero las tiendas todavía no lo muestran igual en todas las regiones. **Rockstar no ha publicado un horario oficial por países**: actualizaremos esta tabla en cuanto lo confirme o en cuanto aparezca en las tiendas de cada país.
+**¿Quieres la hora exacta de tu país?** La cuenta atrás de arriba detecta tu zona horaria y te dice cuánto falta. En Latinoamérica lo habitual es que el juego se desbloquee a medianoche de cada país, pero las tiendas todavía no lo muestran igual en todas las regiones. **Rockstar no ha publicado un horario oficial por países**: actualizaremos esta tabla en cuanto lo confirme o en cuanto aparezca en las tiendas de cada país.
 
 **El truco para salir de dudas:** si ya lo has reservado, entra en la ficha del juego en la PlayStation Store o en la Microsoft Store con tu cuenta. Ahí aparece la hora exacta de desbloqueo para tu región.
 
