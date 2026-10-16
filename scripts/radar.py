@@ -108,9 +108,11 @@ def existing_posts() -> list[dict]:
             continue  # las plantillas en borrador no existen aún en la web
         t = re.search(r'^title:\s*"?(.*?)"?\s*$', txt, re.M)
         c = re.search(r"^category:\s*(\w+)", txt, re.M)
+        d = re.search(r"^date:\s*(\S+)", txt, re.M)
         if t and c:
-            out.append({"title": t.group(1), "url": f"/{c.group(1)}/{f.stem}/"})
-    return out
+            out.append({"title": t.group(1), "url": f"/{c.group(1)}/{f.stem}/", "_fecha": d.group(1) if d else ""})
+    out.sort(key=lambda x: x["_fecha"], reverse=True)  # lo más reciente primero: es lo que más se puede repetir
+    return [{"title": x["title"], "url": x["url"]} for x in out]
 
 
 def is_similar(title: str, known: list[str]) -> bool:
@@ -415,7 +417,7 @@ def get_client():
 def write_article(item: dict, source_text: str, posts: list[dict]) -> dict | None:
     client = get_client()
     refresh_github_identity()  # deja preparado un pase nuevo por si el SDK necesita renovar
-    related = "\n".join(f"- {p['title']} → {p['url']}" for p in posts[:60]) or "(ninguno aún)"
+    related = "\n".join(f"- {p['title']} → {p['url']}" for p in posts[:200]) or "(ninguno aún)"
     user = (
         f"FUENTE: {item['source']}\nTÍTULO ORIGINAL: {item['title']}\nURL: {item['url']}\n\n"
         f"TEXTO FUENTE:\n\"\"\"\n{source_text[:25000]}\n\"\"\"\n\n"
@@ -594,6 +596,11 @@ def main() -> int:
     cfg = json.loads(FEEDS_FILE.read_text(encoding="utf-8"))
     state = load_state()
     posts = existing_posts()
+    # también los borradores de ejecuciones anteriores que aún esperan aprobación (no están publicados)
+    vistos_urls = {x["url"] for x in posts}
+    for e in reversed(state.get("escritos", [])):
+        if e["url"] not in vistos_urls:
+            posts.insert(0, e)
 
     print("Buscando novedades…")
     url_forzada = (args.url or os.environ.get("RADAR_URL", "")).strip()
@@ -658,7 +665,11 @@ def main() -> int:
         if data:
             p = save_post(data, item, html)
             written.append(p)
-            posts.append({"title": data["title"], "url": f"/{data['category']}/{p.stem}/"})
+            # al principio de la lista: el modelo solo ve los primeros, y así sabe lo que acaba de escribir
+            nuevo = {"title": data["title"], "url": f"/{data['category']}/{p.stem}/"}
+            posts.insert(0, nuevo)
+            state.setdefault("escritos", []).append(nuevo)
+            state["escritos"] = state["escritos"][-80:]
             print(f"  ✓ {p.relative_to(ROOT)}")
 
     # Modo lanzamiento: descubrimientos de la comunidad que amplían las guías (activo desde la fecha de feeds.json)
