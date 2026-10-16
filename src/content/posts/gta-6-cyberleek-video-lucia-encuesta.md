@@ -2,6 +2,7 @@
 title: "Cyberleek publica un vídeo filtrado de Lucía tras su encuesta de pago"
 description: "El filtrador de GTA 6 publica unos cinco minutos con Lucía, el tema que ganó su encuesta, y sigue ligando sus filtraciones a su criptomoneda. Qué se sabe."
 date: 2026-10-11T14:05:00+02:00
+updated: 2026-10-16T19:05:00+02:00
 category: noticias
 tags: [gta-6, filtraciones, cyberleek, lucia, take-two]
 rumor: true
@@ -23,7 +24,12 @@ sources:
 
 Rockstar no ha confirmado el material ni ha comentado este vídeo, y la versión del juego que se ve es de desarrollo, así que puede diferir de la definitiva.
 
-> **En Zona Leonida no enlazamos ni compartimos estas filtraciones, y no te contaremos nada de la historia.** Te explicamos [por qué no lo difundimos](/noticias/gta-6-cyberleek-nueva-filtracion-take-two/).
+> **¿Buscas el vídeo?** No lo enlazamos: es material robado que Take-Two retira en cuanto aparece, y los enlaces que prometen «el vídeo completo» suelen ser trampas para robar cuentas. Te explicamos [por qué no lo difundimos](/noticias/gta-6-cyberleek-nueva-filtracion-take-two/).
+>
+> **Lo que sí puedes ver de Lucía, sin spoilers y en buena calidad:**
+> - El [tráiler de lanzamiento](/noticias/gta-6-estrena-trailer-de-lanzamiento-con-nuevo-tema-de-justice/), publicado por Rockstar el 15 de octubre, y [todos los tráilers oficiales](/trailers/).
+> - Su [ficha completa](/personajes/lucia-caminos/): quién es, su historia y lo que ha confirmado Rockstar.
+> - La [galería de imágenes oficiales](/imagenes-oficiales/#protagonistas) de Jason y Lucía.
 
 ## ¿Qué se ve en el vídeo?
 
@@ -39,6 +45,12 @@ El vídeo deja más claro todavía que, detrás del discurso de «protesta» de 
 
 Es decir: cada persona que compra su criptomoneda para «desbloquear» vídeos está financiando la filtración del juego que lleva años esperando.
 
+## Qué ha pasado después
+
+- El 14 de octubre, Cyberleek anunció que **dejaba de publicar clips**, aunque amenazó con difundir spoilers: lo contamos en [Cyberleek cierra sus clips](/noticias/filtracion-gta-6-cyberleek-cierra-sus-clips-y-amenaza-con-spoilers/).
+- Su criptomoneda **se hundió** sin llegar a los 30 millones, así que la supuesta versión jugable no se ha publicado: [la cripto de Cyberleek se hunde](/noticias/filtracion-gta-6-la-cripto-de-cyberleek-se-hunde-y-no-hay-build/).
+- Según IGN, después habría difundido un último vídeo antes de decir que lo deja: [Cyberleek publica otro vídeo y dice que deja de filtrar](/noticias/rumor-gta-6-cyberleek-publica-otro-video-y-dice-que-deja-de-filtrar/).
+
 ## Take-Two sigue buscándolo
 
 Take-Two continúa con su investigación para identificar al responsable. A las citaciones a Microsoft y Discord se habría sumado otra a **X**, según VGTimes. Rockstar no ha hecho declaraciones sobre este nuevo vídeo.
@@ -47,4 +59,4 @@ Take-Two continúa con su investigación para identificar al responsable. A las 
 
 Si no quieres ver nada antes del 19 de noviembre, silencia en X palabras como «Cyberleek», «GTA 6 leak» o «Lucia leak», y no abras enlaces ni archivos que prometan «el vídeo completo»: son un cebo habitual para colar virus y robar cuentas.
 
-Mientras tanto, puedes conocer mejor a [Lucía Caminos](/personajes/lucia-caminos/) con lo que Rockstar ha enseñado oficialmente, o mirar [a qué hora sale GTA 6 en tu país](/guias/gta-6-a-que-hora-sale/).
+Falta muy poco para verlo todo de forma oficial: GTA 6 sale el **19 de noviembre**. Mira [a qué hora se desbloquea en tu país](/guias/gta-6-a-que-hora-sale/), con cuenta atrás incluida, y repasa [todo lo que sabemos de GTA 6](/guias/gta-6-todo-lo-que-sabemos/).
