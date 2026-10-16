@@ -374,8 +374,8 @@ FORMATO DE RESPUESTA: solo un objeto JSON válido, sin texto alrededor:
   "image_theme": "uno de estos temas de ilustración: {temas}",
   "official_refs": ["0-2 etiquetas de esta lista SOLO si son el tema central de la noticia (si no, lista vacía): {refs}"],
   "image_alt": "descripción genérica de una imagen promocional oficial de GTA VI (por si hay imagen oficial); nunca la relaciones con la filtración",
-  "title": "titular SEO de 50-70 caracteres que empiece por 'GTA 6' o 'GTA VI' cuando suene natural",
-  "description": "entradilla/meta description de 130-160 caracteres",
+  "title": "titular SEO de 50-70 caracteres que empiece por 'GTA 6' o 'GTA VI' cuando suene natural. Concreto y con el dato clave (una cifra, una fecha, la plataforma o la pregunta que se hace la gente, con sus signos ¿?). Mayúscula solo al principio y en nombres propios. Nunca exagerado ni engañoso: debe cumplir exactamente lo que promete",
+  "description": "entradilla/meta description de 130-160 caracteres que dé la respuesta o el dato principal y empiece con un verbo o con el hecho, no con 'En este artículo'",
   "tags": ["3-5 etiquetas en minúsculas"],
   "body": "artículo en Markdown (ver LONGITUD Y ESTRUCTURA). Incluye 1-3 enlaces internos a artículos relacionados de la lista si encajan de forma natural. No pongas el título como # al principio."
 }"""

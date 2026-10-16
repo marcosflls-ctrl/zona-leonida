@@ -33,7 +33,7 @@ const path = Astro.url.pathname;
   <title>{fullTitle}</title>
   <meta name="description" content={description} />
   <link rel="canonical" href={canonical} />
-  <meta name="robots" content={noindex ? 'noindex' : 'max-image-preview:large'} />
+  <meta name="robots" content={noindex ? 'noindex' : 'max-image-preview:large, max-snippet:-1, max-video-preview:-1'} />
   <meta property="og:type" content={type} />
   <meta property="og:site_name" content={SITE.name} />
   <meta property="og:locale" content={SITE.locale} />

@@ -12,7 +12,28 @@ for (const f of fs.readdirSync('src/content/posts').filter((f) => f.endsWith('.m
   if (fecha && cat && !Number.isNaN(Date.parse(fecha))) lastmod[`/${cat}/${f.replace(/\.md$/, '')}/`] = new Date(fecha).toISOString();
 }
 
+// Caja de Telegram a mitad de los artículos largos (antes del segundo subtítulo), para no depender del robot
+const telegram = (fs.readFileSync('src/config.ts', 'utf8').match(/telegram:\s*'([^']+)'/) || [])[1];
+function cajaTelegram() {
+  return (tree) => {
+    if (!telegram) return;
+    const h2 = tree.children.map((n, i) => (n.type === 'element' && n.tagName === 'h2' ? i : -1)).filter((i) => i >= 0);
+    if (h2.length < 3) return;
+    const t = (value) => ({ type: 'text', value });
+    tree.children.splice(h2[1], 0, {
+      type: 'element', tagName: 'aside', properties: { className: ['tg-callout'], dataPagefindIgnore: true },
+      children: [{ type: 'element', tagName: 'p', properties: {}, children: [
+        { type: 'element', tagName: 'strong', properties: {}, children: [t('¿No quieres perderte nada de GTA 6?')] },
+        t(' Te avisamos de cada novedad al momento en nuestro '),
+        { type: 'element', tagName: 'a', properties: { href: `https://t.me/${telegram}`, target: '_blank', rel: ['noopener'] }, children: [t('canal de Telegram')] },
+        t('.'),
+      ] }],
+    });
+  };
+}
+
 export default defineConfig({
+  markdown: { rehypePlugins: [cajaTelegram] },
   site: 'https://zonaleonida.com',
   trailingSlash: 'always',
   integrations: [sitemap({
