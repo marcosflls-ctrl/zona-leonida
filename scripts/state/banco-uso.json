@@ -2,13 +2,13 @@
  "dinero": 1,
  "gaming": 0,
  "policia": 0,
- "oficial:jason": 4,
+ "oficial:jason": 5,
  "coches": 0,
- "oficial:vice-city": 5,
+ "oficial:vice-city": 6,
  "ciudad": 0,
  "misterio": 0,
- "oficial:lucia": 16,
- "oficial:cayos-de-leonida": 5,
- "oficial:grassrivers": 0,
- "oficial:port-gellhorn": 2
+ "oficial:lucia": 17,
+ "oficial:cayos-de-leonida": 0,
+ "oficial:grassrivers": 1,
+ "oficial:port-gellhorn": 1
 }
