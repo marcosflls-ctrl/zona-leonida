@@ -1,7 +1,8 @@
 ---
-title: "GTA 6: fecha de lanzamiento, plataformas y todo lo que debes saber"
-description: "GTA VI sale el 19 de noviembre de 2026 en PS5 y Xbox Series X|S. Te contamos qué se sabe de la fecha, las plataformas y la versión de PC."
+title: "GTA 6 sale el 19 de noviembre: plataformas, hora y PC"
+description: "GTA VI sale el 19 de noviembre de 2026 en PS5 y Xbox Series X|S, no en PS4 ni en Xbox One. A qué hora se desbloquea y qué se sabe de la versión de PC."
 date: 2026-10-09T00:05:00+02:00
+updated: 2026-10-17T23:55:00+02:00
 category: noticias
 image: /img/banco/lanzamiento-1.webp
 imageAlt: "Ilustración de un reloj de neón en una pared de ladrillo"
@@ -31,7 +32,7 @@ Rockstar no ha anunciado todavía una versión para PC. Es lo habitual en la com
 
 ## ¿A qué hora se podrá jugar en España y Latinoamérica?
 
-Rockstar no ha detallado aún el horario de desbloqueo por regiones. En lanzamientos anteriores, la versión digital se activó a medianoche hora local. En cuanto se confirme, lo publicaremos aquí.
+Según la ficha de la PlayStation Store, en España se podrá jugar desde las **00:00 del jueves 19 de noviembre** (23:00 del miércoles 18 en Canarias). En el resto de países el juego se desbloquea a medianoche de cada zona horaria. Tienes la tabla por países en [a qué hora sale GTA 6](/guias/gta-6-a-que-hora-sale/).
 
 ## Qué hacer mientras tanto
 

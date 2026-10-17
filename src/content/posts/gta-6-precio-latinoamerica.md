@@ -1,6 +1,6 @@
 ---
-title: "Precio de GTA 6 en México, Argentina, Colombia, Chile y Perú"
-description: "Cuánto cuesta GTA 6 en México, Argentina, Colombia, Chile y Perú: precios de la estándar y la Ultimate en Xbox y PS5, revisados en la PS Store en octubre."
+title: "Cuánto cuesta GTA 6 en México, Argentina, Colombia, Chile y Perú"
+description: "México: 1.499 pesos. Chile: 74.990. Colombia: 339.900. Precio de la estándar y la Ultimate en Xbox y PS5 en cada país, con impuestos, revisado en octubre."
 date: 2026-10-09T19:16:00+02:00
 updated: 2026-10-10T12:45:00+02:00
 category: guias
