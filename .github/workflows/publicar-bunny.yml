@@ -1,0 +1,56 @@
+name: Publicar en Bunny
+
+# Construye la web y la sube a Bunny.net (servidores que no bloquean los operadores durante el fútbol).
+# Se lanza con cada cambio en main, cuando terminan los robots que publican (sus commits no disparan
+# otros flujos por sí solos), cada mañana para que salgan los artículos programados, y a mano.
+on:
+  push:
+    branches: [main]
+    paths-ignore: ["scripts/state/**", ".github/**", "README.md"]
+  workflow_run:
+    workflows: ["Radar de noticias GTA VI", "Galería oficial (revisión diaria)", "Galería oficial de Rockstar", "Importar imágenes oficiales", "Tráilers nuevos de Rockstar", "Vigía de trofeos"]
+    types: [completed]
+  schedule:
+    - cron: "7 5 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: publicar-bunny
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: npm ci --no-audit --no-fund
+      - run: npm run build
+      - run: pip install -q requests
+      - name: Subir a Bunny
+        env:
+          BUNNY_STORAGE_ZONE: zona-leonida
+          BUNNY_STORAGE_PASSWORD: ${{ secrets.BUNNY_STORAGE_PASSWORD }}
+          BUNNY_API_KEY: ${{ secrets.BUNNY_API_KEY }}
+          BUNNY_PULLZONE_ID: "6819505"
+          BUNNY_HOSTNAME: zonaleonida.com,www.zonaleonida.com,zonaleonida.b-cdn.net
+        run: python scripts/publicar_bunny.py dist
+      - name: Avisar del fallo por Telegram
+        if: failure()
+        env:
+          TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TG_CHAT: ${{ secrets.TELEGRAM_AVISOS_CHAT_ID }}
+          URL_EJECUCION: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          [ -z "$TG_TOKEN" ] || [ -z "$TG_CHAT" ] && exit 0
+          curl -s -o /dev/null -X POST "https://api.telegram.org/bot${TG_TOKEN}/sendMessage" \
+            --data-urlencode "chat_id=${TG_CHAT}" \
+            --data-urlencode "text=❌ Ha fallado la publicación de Zona Leonida en Bunny: ${URL_EJECUCION}"
