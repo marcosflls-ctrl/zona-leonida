@@ -1,6 +1,6 @@
 ---
-title: "Dónde comprar GTA 6 más barato: tiendas, ofertas y Black Friday"
-description: "GTA 6 cuesta 79,99 € en casi todas las tiendas, pero hay formas de pagar menos. Te contamos dónde reservarlo, qué ofertas ha habido y qué esperar del Black Friday."
+title: "Dónde comprar GTA 6 más barato: precios por tienda y ofertas"
+description: "79,99 € en casi todas las tiendas, pero llegó a bajar a 64,90 € con un código de Amazon. Comparamos tiendas, caja o digital y qué esperar del Black Friday."
 date: 2026-10-12T20:32:00+02:00
 updated: 2026-10-12T20:32:00+02:00
 category: guias
