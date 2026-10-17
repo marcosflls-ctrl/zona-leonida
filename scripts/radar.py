@@ -79,7 +79,18 @@ OFFICIAL_YT_AUTHORS = {"rockstar games"}         # canales de YouTube que se pue
 def slugify(text: str, max_len: int = 70) -> str:
     text = unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode()
     text = re.sub(r"[^a-zA-Z0-9]+", "-", text.lower()).strip("-")
-    return text[:max_len].rstrip("-") or "articulo"
+    if len(text) > max_len:
+        corte = text[:max_len + 1]
+        # Cortar siempre en un guion para no dejar palabras a medias
+        text = corte[:corte.rfind("-")] if "-" in corte else text[:max_len]
+        # Y no terminar en palabras vacías ("...para-reclamar-el")
+        vacias = {"a", "al", "con", "de", "del", "el", "en", "la", "las", "lo", "los",
+                  "o", "para", "por", "que", "se", "su", "un", "una", "y"}
+        partes = text.split("-")
+        while len(partes) > 1 and partes[-1] in vacias:
+            partes.pop()
+        text = "-".join(partes)
+    return text.rstrip("-") or "articulo"
 
 
 def norm_title(t: str) -> str:
