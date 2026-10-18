@@ -2,7 +2,7 @@
 title: "Dónde comprar GTA 6 más barato: precios por tienda y ofertas"
 description: "79,99 € en casi todas las tiendas, pero llegó a bajar a 64,90 € con un código de Amazon. Comparamos tiendas, caja o digital y qué esperar del Black Friday."
 date: 2026-10-12T20:32:00+02:00
-updated: 2026-10-12T20:32:00+02:00
+updated: 2026-10-18T20:00:00+02:00
 category: guias
 tags: [precio, ofertas, comprar, black-friday, reservas]
 image: /img/oficial/vice-city-5.webp
@@ -19,6 +19,10 @@ compras:
     busqueda: "SSD NVMe PS5 disipador 2TB"
     nota: "por si te falta espacio"
 sources:
+  - name: "MediaMarkt: GTA 6"
+    url: "https://www.mediamarkt.es/es/specials/gta-6"
+  - name: "Vandal: todas las tiendas para reservar GTA 6 en España (25 de junio)"
+    url: "https://vandal.elespanol.com/noticia/1350791139/todas-las-tiendas-para-reservar-gta-6-ya-puedes-comprar-la-esperada-aventura-de-rockstar-games-en-espana/"
   - name: "Hardware Premium: reservas de GTA 6 en España (12 de octubre)"
     url: "https://www.hardwarepremium.com/noticias/68008/gta-6-agotado-tiendas-reservas-espana/"
   - name: "Vandal: el código de Amazon que rebajó GTA 6 a 64,90 €"
@@ -41,8 +45,13 @@ sources:
 | **Amazon** | Varía | Caja con código. Ha tenido códigos de descuento puntuales: mira el precio actual en el enlace de abajo |
 | **GAME** | 79,99 € | Reserva pagando 5 € por adelantado |
 | **Fnac** | 79,99 € | Caja con código |
+| **MediaMarkt** | 79,99 € | Caja con código, en tienda y online |
+| **Xtralife** | 79,99 € | Caja con código |
+| **PC Componentes** | 79,99 € | Caja con código |
 
-*Precios de GAME y Fnac comprobados por Hardware Premium el 12 de octubre de 2026; los de PlayStation y Xbox son los oficiales. Pueden cambiar en cualquier momento.*
+*Precios de GAME y Fnac comprobados por Hardware Premium el 12 de octubre de 2026; el de MediaMarkt, en su web el 18 de octubre; los de Xtralife y PC Componentes, según Vandal al abrirse las reservas (25 de junio). Los de PlayStation y Xbox son los oficiales. Pueden cambiar en cualquier momento.*
+
+**En resumen:** hoy cuesta lo mismo en todas partes. La única forma de pagar menos ha sido algún código de descuento puntual, así que la diferencia la marcan los detalles: si quieres la caja o el digital, el mes de GTA+ de la reserva digital y que reserves antes del 20 de noviembre para llevarte el pack Vintage Vice City.
 
 Si estás en América, mira [el precio de GTA 6 en tu país](/guias/gta-6-precio-latinoamerica/).
 
