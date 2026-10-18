@@ -37,6 +37,60 @@
     {
       "name": "Reddit r/GTA6",
       "url": "https://www.reddit.com/r/GTA6/top/.rss?t=day"
+    },
+    {
+      "name": "PlayStation Blog España",
+      "url": "https://blog.es.playstation.com/feed/",
+      "oficial": true,
+      "arranque": true
+    },
+    {
+      "name": "PlayStation Blog Latinoamérica",
+      "url": "https://blog.latam.playstation.com/feed/",
+      "oficial": true,
+      "arranque": true
+    },
+    {
+      "name": "Xbox Wire",
+      "url": "https://news.xbox.com/en-us/feed/",
+      "oficial": true,
+      "arranque": true
+    },
+    {
+      "name": "Take-Two (notas de prensa)",
+      "url": "https://ir.take2games.com/rss/news-releases.xml",
+      "oficial": true,
+      "arranque": true
+    },
+    {
+      "name": "Meristation",
+      "url": "https://feeds.as.com/mrss-s/pages/as/site/as.com/section/meristation/portada/",
+      "arranque": true
+    },
+    {
+      "name": "HobbyConsolas",
+      "url": "https://www.hobbyconsolas.com/rss",
+      "arranque": true
+    },
+    {
+      "name": "Dexerto (GTA)",
+      "url": "https://www.dexerto.com/gta/feed/",
+      "arranque": true
+    },
+    {
+      "name": "Rockstar Intel",
+      "url": "https://www.rockstarintel.com/feed",
+      "arranque": true
+    },
+    {
+      "name": "Insider Gaming",
+      "url": "https://insider-gaming.com/feed/",
+      "arranque": true
+    },
+    {
+      "name": "VGC",
+      "url": "https://www.videogameschronicle.com/feed/",
+      "arranque": true
     }
   ],
   "comunidad": {
@@ -112,5 +166,6 @@
         "solo_juego": true
       }
     ]
-  }
+  },
+  "_nota_fuentes": "El 18/10/2026 se añaden fuentes primarias y medios de mucho tráfico, probados con «Probar fuentes». «arranque»: la primera vez solo se apuntan sus entradas actuales, para no escribir sobre noticias antiguas."
 }
