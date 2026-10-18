@@ -360,6 +360,7 @@ Solo escribe si aporta un dato nuevo relevante, y en ese caso céntrate en lo nu
 Cuenta como repetición aunque el título sea distinto: el mismo informe, entrevista o reportaje contado por \
 otro medio (por ejemplo, el mismo reportaje de Bloomberg o las mismas declaraciones de un directivo), o un \
 detalle secundario de una noticia ya publicada. Revisa sobre todo los primeros de la lista, que son los más recientes.
+- APORTA ALGO PROPIO (obligatorio): no te limites a resumir la fuente. El artículo debe responder también a "¿y esto qué significa para mí como jugador?" con al menos una de estas aportaciones, siempre sin inventar: (a) relacionarlo con lo que ya está confirmado y enlazar la guía o el artículo nuestro que lo amplía; (b) explicar qué cambia respecto a GTA 5, RDR 2 u otra entrega, solo si la fuente o nuestros artículos lo permiten; (c) dejar claro qué ha confirmado Rockstar y qué no; (d) una tabla o lista que ordene la información mejor que el original. Si la noticia es tan menor que solo podrías resumirla (una opinión, una anécdota, otro medio que comenta o analiza algo que ya hemos publicado), descártala con {"skip": true, "reason": "sin valor propio: ..."}.
 - Si la fuente NO trata realmente de GTA VI, o es un refrito sin novedad, o es solo una opinión, responde {"skip": true, "reason": "..."}.
 
 LONGITUD Y ESTRUCTURA: la longitud la marca lo que hay que contar, no una cifra fija. Nunca rellenes ni repitas \
