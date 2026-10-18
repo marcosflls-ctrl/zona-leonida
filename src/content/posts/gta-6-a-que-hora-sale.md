@@ -2,7 +2,7 @@
 title: "¿A qué hora sale GTA 6? 00:00 en España y horario por país"
 description: "En España se juega desde las 00:00 del 19 de noviembre (23:00 en Canarias). Tabla con la hora de cada país de Latinoamérica y cuándo empieza la precarga."
 date: 2026-10-09T18:45:00+02:00
-updated: 2026-10-16T19:00:00+02:00
+updated: 2026-10-18T20:00:00+02:00
 category: guias
 pilar: true
 cuentaAtras: true
@@ -17,6 +17,8 @@ compras:
   - nombre: "GTA 6 para Xbox Series X|S"
     busqueda: "Grand Theft Auto VI Xbox Series X"
 sources:
+  - name: "Generación Xbox: horarios previstos de GTA 6 en Xbox (7 de septiembre)"
+    url: "https://generacionxbox.com/gta-6-ya-apunta-a-su-hora-de-estreno-en-xbox-estos-serian-los-horarios-en-espana-y-latinoamerica/"
   - name: "Hipertextual: GTA 6 no tendrá un debut simultáneo en todo el mundo"
     url: "https://hipertextual.com/videojuegos/ya-es-oficial-gta-6-no-tendra-un-debut-simultaneo-en-todo-el-mundo-te-contamos-a-que-hora-podras-jugar/"
   - name: "Notebookcheck: horas de disponibilidad de GTA 6 en PS5"
@@ -53,12 +55,21 @@ Si lo has reservado en digital, podrás **descargarlo desde el 12 de noviembre**
 
 La caja física trae un **código de descarga, no un disco**. Las tiendas pueden enviarlo unos días antes, pero el juego no se podrá jugar hasta la hora de desbloqueo de tu región. Además, tendrás que descargarlo entero, así que conviene canjear el código cuanto antes para aprovechar la precarga.
 
+## Cómo estar listo a medianoche
+
+1. **Resérvalo antes del 12 de noviembre** si lo quieres en digital, para poder precargarlo.
+2. **Si tienes la caja, canjea el código cuanto antes.** Sin canjearlo no empieza la descarga.
+3. **Deja espacio libre de sobra**: te contamos cuánto en [cuánto ocupa GTA 6](/guias/gta-6-cuanto-ocupa/).
+4. **Deja la consola en modo reposo con conexión** la noche del 18. Así descarga sola el parche del primer día, si lo hay, y a las 00:00 solo tienes que abrir el juego.
+
+Tienes todos los pasos en la [lista para el día del lanzamiento](/guias/gta-6-checklist-lanzamiento/).
+
 ## ¿Se puede jugar antes cambiando de región?
 
 En Xbox es fácil cambiar la región de la consola, y algunos medios apuntan a que eso podría permitir jugar antes, como ya pasó con otros lanzamientos. No lo recomendamos: Rockstar no lo ha confirmado, puede dar problemas con la tienda y con tu cuenta, y la diferencia son unas pocas horas.
 
 ## Preguntas frecuentes
 
-**¿Sale a la misma hora en PS5 y en Xbox?** Lo previsto es que sí, a medianoche de cada región, aunque los horarios publicados por ahora son los de la PlayStation Store.
+**¿Sale a la misma hora en PS5 y en Xbox?** Lo previsto es que sí, a medianoche de cada región. Generación Xbox apunta a las 00:00 del jueves 19 en Xbox, tanto en España como en México, Colombia, Chile o Argentina, pero lo toma de los horarios de la PlayStation Store: ni Rockstar ni Microsoft lo han confirmado para Xbox.
 
 **¿Cuánto cuesta?** 79,99 € la edición estándar y 99,99 € la Ultimate. Todos los detalles en [precio y ediciones](/guias/gta-6-precio-ediciones-reservas/).

@@ -1,8 +1,8 @@
 ---
-title: "¿Cuánto ocupa GTA 6 en PS5 y Xbox? Deja 150 GB libres"
-description: "Las estimaciones apuntan a 100-150 GB (aún sin cifra oficial). Qué pasa en la Series S, cuánto espacio libre dejar y cuándo empieza la precarga."
+title: "¿Cuánto ocupa GTA 6 en PS5 y Xbox? Deja 200 GB libres por si acaso"
+description: "Las estimaciones van de 100 a 200 GB (aún sin cifra oficial). Cuánto espacio dejar, qué pasa en la Series S y por qué no podrás jugarlo desde un USB."
 date: 2026-10-09T12:10:00+02:00
-updated: 2026-10-16T19:00:00+02:00
+updated: 2026-10-18T20:00:00+02:00
 category: guias
 pilar: true
 orden: 3
@@ -18,13 +18,17 @@ compras:
   - nombre: "GTA 6 para PS5 y Xbox"
     busqueda: "Grand Theft Auto VI"
 sources:
+  - name: "Timesaver: GTA 6 file size, estimaciones recopiladas (17 de octubre)"
+    url: "https://timesaver.gg/blog/gta-6-file-size-storage-ps5-xbox"
+  - name: "PlayStation: almacenamiento ampliado USB en PS5"
+    url: "https://www.playstation.com/es-es/support/hardware/ps5-extended-storage/"
   - name: "Infobae: cifras estimadas del tamaño de GTA 6"
     url: "https://www.infobae.com/tecno/2026/06/30/gta-6-requerira-un-gran-espacio-en-disco-estas-son-las-cifras-estimadas-para-ps5-y-xbox-series/"
   - name: "Vandal: guía de reserva de GTA 6"
     url: "https://vandal.elespanol.com/noticia/1350791112/guia-de-reserva-de-gta-6-precio-hora-ediciones-y-todas-las-novedades-confirmadas-por-rockstar/"
 ---
 
-**Rockstar todavía no ha confirmado cuánto ocupa GTA 6.** Las estimaciones apuntan a que necesitarás **entre 100 y 150 GB libres**, y hasta 200 GB en el peor de los casos. Actualizaremos esta página en cuanto aparezca el tamaño oficial en las tiendas, normalmente unos días antes de la precarga.
+**Rockstar todavía no ha confirmado cuánto ocupa GTA 6.** Las primeras estimaciones hablaban de **100-150 GB**, y las más recientes suben a **150-200 GB**. Para ir sobre seguro, deja **unos 200 GB libres**. Actualizaremos esta página en cuanto aparezca el tamaño oficial en las tiendas, normalmente unos días antes de la precarga.
 
 ## Estimaciones de tamaño
 
@@ -33,19 +37,19 @@ sources:
 | Instalación base | 100-130 GB |
 | Con todo el contenido del lanzamiento | 150-200 GB |
 
-Estas cifras son estimaciones de analistas recogidas por medios como Infobae, no datos oficiales. Como referencia, GTA 5 en PS5 ocupa unos 87 GB, y Red Dead Redemption 2 supera los 100 GB.
+Estas cifras son estimaciones de analistas recogidas por medios como Infobae, no datos oficiales. Algunas estimaciones más recientes, de octubre, suben la instalación base a **150-200 GB**, y hasta 200-250 GB con el parche del primer día; tampoco están confirmadas. Como referencia, GTA 5 en PS5 ocupa unos 87 GB, y Red Dead Redemption 2 supera los 100 GB.
 
 ## ¿Cuánto ocupa GTA 6 en PS5?
 
-Según las estimaciones, **entre 100 y 150 GB**. En una PS5 de 825 GB (unos 667 GB útiles) cabe sin problema, pero si tienes la consola llena tendrás que hacer sitio. Rockstar no ha confirmado la cifra: el tamaño oficial suele aparecer en la ficha de la PlayStation Store unos días antes de la precarga, que empieza el 12 de noviembre.
+Según las estimaciones, **entre 100 y 200 GB**. En una PS5 de 825 GB (unos 667 GB útiles) cabe sin problema, pero si tienes la consola llena tendrás que hacer sitio. Rockstar no ha confirmado la cifra: el tamaño oficial suele aparecer en la ficha de la PlayStation Store unos días antes de la precarga, que empieza el 12 de noviembre.
 
 ## ¿Y en Xbox Series X y Series S?
 
-La cifra prevista es la misma, **entre 100 y 150 GB**. En la **Series X** (unos 802 GB útiles) no debería haber problema. En la **Series S** (unos 364 GB útiles), GTA 6 podría ocupar casi la mitad del espacio, así que es la consola en la que más conviene hacer limpieza antes.
+La cifra prevista es la misma, **entre 100 y 200 GB**. En la **Series X** (unos 802 GB útiles) no debería haber problema. En la **Series S** (unos 364 GB útiles), GTA 6 podría ocupar casi la mitad del espacio, así que es la consola en la que más conviene hacer limpieza antes.
 
 ## ¿Cuánto espacio libre necesito?
 
-Deja **al menos 150 GB libres**. Además del juego, hay que contar con el parche del primer día, que es habitual en los grandes lanzamientos, y con las actualizaciones posteriores.
+Para ir sobre seguro, deja **unos 200 GB libres**. Con 150 GB seguramente te bastaría si se cumplen las primeras estimaciones, pero las más recientes son más altas, y además hay que contar con el parche del primer día, habitual en los grandes lanzamientos, y con las actualizaciones posteriores. Cuando Rockstar publique el tamaño oficial en las tiendas, lo pondremos aquí.
 
 ## ¿Cuándo empieza la descarga?
 
@@ -61,6 +65,17 @@ La **precarga empieza el 12 de noviembre de 2026**, una semana antes del lanzami
 | Xbox Series S | 512 GB | ~364 GB |
 
 Si tienes una **Xbox Series S**, es la que más se va a notar: GTA 6 podría ocupar casi la mitad de su espacio útil. Y si te preguntas cómo se verá en ella, lo contamos en [FPS y resolución en cada consola](/guias/gta-6-ps5-pro-fps-resolucion/).
+
+## ¿Puedo jugar a GTA 6 desde un disco duro USB?
+
+**No.** Un disco externo USB sirve para guardar juegos, pero no para jugar a los de nueva generación. En PS5, la propia PlayStation lo deja claro: «Los juegos de PlayStation 5 no se pueden jugar directamente desde el almacenamiento ampliado USB». Tendrías que copiarlo de vuelta a la consola cada vez. En Xbox Series X|S pasa lo mismo con los juegos optimizados para la consola: se juegan desde el almacenamiento interno o desde la tarjeta de expansión oficial.
+
+Lo que sí puedes hacer es **mover al USB otros juegos** que no vayas a usar esos días para dejar sitio a GTA 6, y recuperarlos después sin volver a descargarlos.
+
+## Cómo ver cuánto espacio libre tienes
+
+- **En PS5:** Ajustes → Almacenamiento → Almacenamiento de la consola. Ahí ves el espacio libre y lo que ocupa cada juego.
+- **En Xbox Series X|S:** Configuración → Sistema → Dispositivos de almacenamiento. También puedes entrar en «Mis juegos y aplicaciones» y ordenar por tamaño para ver qué borrar primero.
 
 ## Cómo preparar la consola
 
