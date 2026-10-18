@@ -211,6 +211,13 @@ def collect_candidates(cfg: dict, state: dict, posts: list[dict]) -> list[dict]:
             print(f"  ! {feed['name']}: {e}")
             continue
         print(f"  · {feed['name']}: {len(entries)} entradas")
+        # Fuente recién añadida ("arranque": true): la primera vez solo se apunta lo que ya tenía publicado,
+        # para no escribir sobre noticias antiguas (algunas fuentes, como el INE, no ponen fecha a sus entradas)
+        if feed.get("arranque") and feed["url"] not in state.setdefault("feeds_iniciados", []):
+            state["urls"].extend(x.get("link", "") for x in entries if x.get("link"))
+            state["feeds_iniciados"].append(feed["url"])
+            print("    (fuente nueva: se apuntan sus entradas actuales y se empieza a vigilar desde ahora)")
+            continue
         for e in entries[:40]:
             link, title = e.get("link", ""), e.get("title", "")
             # solo noticias recientes: lo antiguo ya no es noticia
