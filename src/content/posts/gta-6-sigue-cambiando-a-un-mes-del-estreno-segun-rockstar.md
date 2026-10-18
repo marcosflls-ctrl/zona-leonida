@@ -34,6 +34,6 @@ En el caso de GTA 6, la escala hace que cada retoque cuente. Han pasado 13 años
 
 ## Qué puedes esperar
 
-La cita de Hooker no indica que el juego vaya a salir incompleto. Describe una forma de trabajar en la que el desarrollo no se detiene del todo. Si quieres repasar cómo se ha llegado hasta aquí, tienes la [cronología de GTA 6](/guias/gta-6-cronologia/). Para organizar el día del estreno, consulta [a qué hora sale GTA 6 por país](/guias/gta-6-a-que-hora-sale/). Y si te interesa otro dato del mismo reportaje, [GTA 6 iba a desarrollarse junto a Red Dead 2, según Bloomberg](/noticias/gta-6-iba-a-desarrollarse-junto-a-red-dead-2-segun-bloomberg/).
+La cita de Hooker no indica que el juego vaya a salir incompleto. Describe una forma de trabajar en la que el desarrollo no se detiene del todo. Si quieres repasar cómo se ha llegado hasta aquí, tienes la [cronología de GTA 6](/guias/gta-6-cronologia/). Para organizar el día del estreno, consulta [a qué hora sale GTA 6 por país](/guias/gta-6-a-que-hora-sale/). Y si te interesa otro dato del mismo reportaje, [por qué GTA 6 tardó ocho años, según Bloomberg](/noticias/gta-6-tardo-ocho-anos-por-un-liderazgo-a-tres-bandas-y-la-pandemia/).
 
 Queda por ver cuánto pesará el parche del primer día y qué incluirá. Rockstar no ha dado detalles al respecto.

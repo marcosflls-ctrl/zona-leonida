@@ -44,6 +44,6 @@ El reportaje subraya el contraste con la industria, marcada en los últimos año
 
 ## Qué significa para los próximos juegos
 
-Según Bloomberg, el tamaño del equipo y las herramientas creadas durante GTA 6 deberían permitir a Rockstar trabajar más rápido en sus próximos proyectos. La idea es evitar que vuelvan a pasar ocho años entre sus grandes lanzamientos. Es una línea que enlaza con lo que la compañía ya dijo sobre que [su próximo juego no tardará ocho años](/noticias/gta-6-rockstar-asegura-que-su-proximo-juego-no-tardara-ocho-anos/).
+Según Bloomberg, el tamaño del equipo y las herramientas creadas durante GTA 6 deberían permitir a Rockstar trabajar más rápido en sus próximos proyectos. La idea es evitar que vuelvan a pasar ocho años entre sus grandes lanzamientos. Es una línea que enlaza con lo que la compañía ya dijo sobre que [su próximo juego no tardará ocho años](/noticias/gta-6-tardo-ocho-anos-por-un-liderazgo-a-tres-bandas-y-la-pandemia/).
 
 Si quieres repasar cómo se ha llegado hasta aquí, tienes la [cronología de GTA 6](/guias/gta-6-cronologia/) y el resumen de [todo lo que sabemos del juego](/guias/gta-6-todo-lo-que-sabemos/). La gran incógnita es si este modelo de equipo más grande y jornadas más sanas se mantendrá en los próximos proyectos del estudio.

@@ -2,6 +2,7 @@
 title: "GTA 6 iba a incluir Norteamérica y Sudamérica, según Rockstar"
 description: "Rob Nelson, director de desarrollo de Rockstar, confirma que GTA 6 nació como «Project Americas», un mundo mucho más grande que acabó centrado en Vice City."
 date: 2026-10-14T12:01:47+00:00
+updated: 2026-10-18T12:15:00+02:00
 category: noticias
 tags: [gta-6, rockstar-games, project-americas, desarrollo, vice-city]
 rumor: false
@@ -11,9 +12,11 @@ imageCredit: "Rockstar Games"
 sources:
   - name: "Vandal: GTA 6 iba a ser mucho más grande: Rockstar confirma que planeó incluir Norteamérica y Suda"
     url: "https://vandal.elespanol.com/noticia/2026287014/gta-6-iba-a-ser-mucho-mas-grande-rockstar-confirma-que-planeo-incluir-norteamerica-y-sudamerica/"
+  - name: "GamesRadar: GTA 6 was delayed for years after Rockstar scaled back \"Project Americas\""
+    url: "https://www.gamesradar.com/games/grand-theft-auto/gta-6-was-delayed-for-years-after-rockstar-scaled-back-project-americas-which-would-have-been-set-across-north-and-south-america/"
 ---
 
-GTA 6 iba a ser todavía más grande de lo que verás en noviembre. Rockstar Games ha confirmado que, en sus primeros planes, el juego abarcaba grandes regiones de Norteamérica y Sudamérica. Con el tiempo, el estudio descartó esa idea y centró la aventura en Vice City y sus alrededores. Lo cuenta Vandal a partir de un extenso reportaje de Jason Schreier en Bloomberg.
+GTA 6 iba a ser todavía más grande de lo que verás en noviembre. Rockstar Games ha confirmado que, en sus primeros planes, el juego abarcaba grandes regiones de Norteamérica y Sudamérica. Con el tiempo, el estudio descartó esa idea y centró la aventura en Vice City y sus alrededores. Lo cuentan Vandal y GamesRadar a partir de un extenso reportaje de Jason Schreier en Bloomberg.
 
 ## ¿Qué era Project Americas?
 
@@ -27,7 +30,9 @@ Nelson no concreta qué escenarios se barajaron ni hasta qué punto llegaron a d
 
 El directivo explica también que Rockstar quería desarrollar GTA 6 a la vez que Red Dead Redemption 2, un proyecto liderado por el estudio de San Diego. Pero la ambición de este último creció tanto que Nelson tuvo que movilizar a buena parte de la compañía, incluidos sus principales responsables, para ayudar a terminarlo.
 
-Esa decisión obligó a retrasar varios años el desarrollo de GTA 6. A cambio, el juego pudo aprovechar la experiencia y las herramientas creadas para Red Dead Redemption 2. Desde entonces, Rockstar ha cambiado su forma de trabajar y concentra a la mayor parte de sus equipos en un único gran proyecto.
+Esa decisión obligó a retrasar varios años el desarrollo de GTA 6. A cambio, según Nelson, lo que el equipo construyó entonces «dará sus frutos» en el juego. Desde entonces, Rockstar ha cambiado su forma de trabajar: aunque suele tener varios juegos en marcha, la mayor parte de la plantilla de sus estudios trabaja ahora en un solo proyecto a la vez.
+
+El dato ayuda a entender una espera de 13 años desde GTA 5. Muchos fans pensaban que Rockstar alternaba entregas de GTA y Red Dead, sobre todo porque GTA 6 solo se confirmó oficialmente en 2022, pero los planes empezaron mucho antes. Tienes el resto del reportaje de Bloomberg en [por qué GTA 6 tardó ocho años](/noticias/gta-6-tardo-ocho-anos-por-un-liderazgo-a-tres-bandas-y-la-pandemia/).
 
 ## Una historia definida a finales de 2019
 
