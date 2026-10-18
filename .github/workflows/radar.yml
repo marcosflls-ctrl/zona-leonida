@@ -10,7 +10,7 @@ on:
         required: false
         default: ""
       prueba_comunidad:
-        description: "Probar el modo lanzamiento sin escribir nada (solo lista lo que encontraría)"
+        description: "Probar el modo lanzamiento (descubrimientos y guías del 19 de noviembre) sin escribir nada: solo lista lo que encontraría"
         type: boolean
         required: false
         default: false
@@ -95,6 +95,7 @@ jobs:
           MAX_PER_RUN: ${{ vars.MAX_PER_RUN || '3' }}
           RADAR_URL: ${{ github.event.inputs.url }}
           FORZAR_COMUNIDAD: ${{ github.event.inputs.prueba_comunidad == 'true' && '1' || '' }}
+          FORZAR_LANZAMIENTO: ${{ github.event.inputs.prueba_comunidad == 'true' && '1' || '' }}
         run: |
           if [ "$FORZAR_COMUNIDAD" = "1" ]; then python scripts/radar.py --dry-run; else python scripts/radar.py; fi
 

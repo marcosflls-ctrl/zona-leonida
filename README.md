@@ -104,7 +104,11 @@ python scripts/radar.py --dry-run   # ver qué noticias encontraría, sin gastar
 
 ## Día del lanzamiento (19 de noviembre)
 
-Hay 8 plantillas en borrador (`draft: true`) que no aparecen en la web: trucos, cómo ganar dinero, misiones, cuánto dura, mejores coches, secretos, controles y trofeos. Para publicar cada una:
+Hay 8 plantillas en borrador (`draft: true`) que no aparecen en la web: ya disponible, notas de los análisis, controles, misiones, mejores coches, cómo ganar dinero, secretos y trofeos.
+
+**Automático (`scripts/lanzamiento.py`):** desde el 19 de noviembre a las 00:00 (las notas, desde el 10 de noviembre) y durante 21 días, cada pasada del radar busca en sus fuentes noticias que encajen con cada guía. Cuando hay fuentes nuevas, la IA rellena la plantilla solo con lo que dicen y, si la guía ya cumple lo que promete el título, la pasa a `draft: false` con la fecha real y llega en la propuesta de borradores para revisar. Si faltan datos no toca nada y lo reintenta con más fuentes. Al aceptarla, el canal de Telegram la anuncia solo. Fechas en `scripts/feeds.json` → `lanzamiento`. Para ver qué fuentes encontraría sin escribir nada: «Run workflow» con la casilla «Probar el modo lanzamiento».
+
+**A mano**, si quieres adelantarte o completar una guía:
 
 1. Rellenar los comentarios `<!-- RELLENAR -->` con datos comprobados y borrarlos.
 2. Añadir las fuentes en `sources`, cambiar `draft: true` por `draft: false` y poner la fecha real en `date` y `updated`.

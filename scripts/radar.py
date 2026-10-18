@@ -28,6 +28,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import comunidad  # noqa: E402
+import lanzamiento  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 FEEDS_FILE = ROOT / "scripts" / "feeds.json"
@@ -646,6 +647,7 @@ def main() -> int:
             print(f"  - [{c['source']}] {c['title']}\n    {c['url']}")
         if not url_forzada:
             comunidad.run(cfg, state, None, MODEL, dry_run=True)
+            lanzamiento.run(cfg, state, None, MODEL, fetch_page, rockstar_entries, rockstar_text, dry_run=True)
         return 0
     if not (os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("ANTHROPIC_IDENTITY_TOKEN_FILE")):
         print("Faltan credenciales: ANTHROPIC_API_KEY o la federación de identidades (ANTHROPIC_IDENTITY_TOKEN_FILE)")
@@ -705,15 +707,26 @@ def main() -> int:
         except Exception as e:  # noqa: BLE001
             print(f"  ! modo lanzamiento: {type(e).__name__}: {str(e)[:200]}")
 
+    # Día del lanzamiento: rellena las guías preparadas en borrador y las propone para publicar
+    preparadas = []
+    if not url_forzada:
+        try:
+            preparadas = lanzamiento.run(cfg, state, cliente, MODEL, fetch_page, rockstar_entries, rockstar_text,
+                                         maximo=int(os.environ.get("MAX_LANZAMIENTO", "2")))
+        except Exception as e:  # noqa: BLE001
+            print(f"  ! guías del lanzamiento: {type(e).__name__}: {str(e)[:200]}")
+
     save_state(state)
     summary = "\n".join(f"- {p.stem}" for p in written)
     print(f"\nArtículos nuevos: {len(written)}\n{summary}")
     if guias:
         print(f"Guías ampliadas con descubrimientos: {len(guias)}\n" + "\n".join(f"- {p.stem}" for p in guias))
+    if preparadas:
+        print(f"Guías del lanzamiento listas para publicar: {len(preparadas)}\n" + "\n".join(f"- {p.stem}" for p in preparadas))
     gh_out = os.environ.get("GITHUB_OUTPUT")
     if gh_out:
         with open(gh_out, "a", encoding="utf-8") as fh:
-            fh.write(f"count={len(written) + len(guias)}\n")
+            fh.write(f"count={len(written) + len(guias) + len(preparadas)}\n")
     return 0
 
 

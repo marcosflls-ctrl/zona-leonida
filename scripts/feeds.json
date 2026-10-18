@@ -167,5 +167,13 @@
       }
     ]
   },
-  "_nota_fuentes": "El 18/10/2026 se añaden fuentes primarias y medios de mucho tráfico, probados con «Probar fuentes». «arranque»: la primera vez solo se apuntan sus entradas actuales, para no escribir sobre noticias antiguas."
+  "_nota_fuentes": "El 18/10/2026 se añaden fuentes primarias y medios de mucho tráfico, probados con «Probar fuentes». «arranque»: la primera vez solo se apuntan sus entradas actuales, para no escribir sobre noticias antiguas.",
+  "lanzamiento": {
+    "_nota": "Guías del 19 de noviembre (borradores con draft: true): desde 'desde' y durante 'dias' días, el robot las rellena con fuentes publicadas tras el estreno y propone publicarlas. Las notas de los análisis pueden salir antes del estreno, por eso tienen su propia fecha.",
+    "desde": "2026-11-18T23:00:00+00:00",
+    "dias": 21,
+    "desde_por_guia": {
+      "gta-6-notas-analisis": "2026-11-10T00:00:00+00:00"
+    }
+  }
 }
