@@ -55,4 +55,4 @@ GTA 5 logró 1.000 millones de dólares en tres días en 2013, y se convirtió e
 
 GTA 5 lleva casi 230 millones de unidades distribuidas y es el segundo juego más vendido de la historia, solo por detrás de Minecraft, con 400 millones.
 
-El reportaje de Bloomberg recoge además que Rockstar ha prometido que su próximo juego no tardará otros ocho años. Lo contamos en [esta noticia](/noticias/gta-6-rockstar-asegura-que-su-proximo-juego-no-tardara-ocho-anos/). Queda por saber cuánto costó GTA 6 de verdad: por ahora Rockstar solo ha dicho que no pasó de 1.500 millones.
+El reportaje de Bloomberg recoge además que Rockstar ha prometido que su próximo juego no tardará otros ocho años. Lo contamos en [esta noticia](/noticias/gta-6-tardo-ocho-anos-por-un-liderazgo-a-tres-bandas-y-la-pandemia/). Queda por saber cuánto costó GTA 6 de verdad: por ahora Rockstar solo ha dicho que no pasó de 1.500 millones.
