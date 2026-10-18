@@ -356,7 +356,10 @@ PC → /guias/gta-6-pc/, tamaño/precarga → /guias/gta-6-cuanto-ocupa/, mapa/z
 personajes → /guias/gta-6-personajes/, hora de salida por país → /guias/gta-6-a-que-hora-sale/, tráilers → /trailers/, online/multijugador → /guias/gta-6-modo-online/, edición Ultimate → /guias/gta-6-merece-la-pena-edicion-ultimate/, precios en Latinoamérica → /guias/gta-6-precio-latinoamerica/, FPS/PS5 Pro/rendimiento → /guias/gta-6-ps5-pro-fps-resolucion/, coches → /guias/gta-6-coches-vehiculos-confirmados/, idiomas/doblaje/subtítulos → /guias/gta-6-idiomas-espanol-doblaje/, PEGI/ESRB/edad → /guias/gta-6-pegi-edad-recomendada/, edición física/disco/código → /guias/gta-6-trae-disco-edicion-fisica/, preparativos del lanzamiento → /guias/gta-6-checklist-lanzamiento/, retrasos/historia del desarrollo → /guias/gta-6-cronologia/, comparativas con GTA Vice City de 2002 → /guias/gta-6-vice-city-2002-vs-gta-6/, duración/horas de juego → /guias/gta-6-cuanto-dura/, trucos/claves → /trucos/gta-6-trucos-claves-ps5-xbox/. Para un resumen general, enlaza /guias/gta-6-todo-lo-que-sabemos/. Si la noticia habla de un personaje, enlaza su ficha: /personajes/jason-duval/, /personajes/lucia-caminos/, /personajes/cal-hampton/, /personajes/boobie-ike/, /personajes/dre-quan-priest/, /personajes/real-dimez/, /personajes/raul-bautista/, /personajes/brian-heder/.
 - NO REPITAS TEMAS: si la noticia trata básicamente de lo mismo que alguno de los "artículos ya publicados" \
 (aunque la cuente otro medio o con otro enfoque), responde {"skip": true, "reason": "tema ya cubierto: <artículo>"}. \
-Solo escribe si aporta un dato nuevo relevante, y en ese caso céntrate en lo nuevo.
+Solo escribe si aporta un dato nuevo relevante, y en ese caso céntrate en lo nuevo. \
+Cuenta como repetición aunque el título sea distinto: el mismo informe, entrevista o reportaje contado por \
+otro medio (por ejemplo, el mismo reportaje de Bloomberg o las mismas declaraciones de un directivo), o un \
+detalle secundario de una noticia ya publicada. Revisa sobre todo los primeros de la lista, que son los más recientes.
 - Si la fuente NO trata realmente de GTA VI, o es un refrito sin novedad, o es solo una opinión, responde {"skip": true, "reason": "..."}.
 
 LONGITUD Y ESTRUCTURA: la longitud la marca lo que hay que contar, no una cifra fija. Nunca rellenes ni repitas \
