@@ -15,8 +15,11 @@ for (const f of fs.readdirSync('src/content/posts').filter((f) => f.endsWith('.m
 // Caja de Telegram a mitad de los artículos largos (antes del segundo subtítulo), para no depender del robot
 const telegram = (fs.readFileSync('src/config.ts', 'utf8').match(/telegram:\s*'([^']+)'/) || [])[1];
 function cajaTelegram() {
-  return (tree) => {
+  return (tree, file) => {
     if (!telegram) return;
+    // Las guías en inglés no llevan la caja (está en español)
+    const ruta = String((file && (file.path || (file.history && file.history[0]))) || '');
+    if (ruta.includes('/content/en/')) return;
     const h2 = tree.children.map((n, i) => (n.type === 'element' && n.tagName === 'h2' ? i : -1)).filter((i) => i >= 0);
     if (h2.length < 3) return;
     const t = (value) => ({ type: 'text', value });

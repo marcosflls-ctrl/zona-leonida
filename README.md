@@ -182,3 +182,11 @@ AdSense rechazó la web por «contenido de poco valor» el 19/10/2026. Cambios h
 - Sobre nosotros y Contacto, ampliadas.
 - El robot publica menos y más completo: máximo 2 por ejecución, descarta marketing suelto y detalles que ya cubre una guía, y nunca pone «según X» en el título.
 - Volver a pedir la revisión una o dos semanas después de publicar los cambios.
+
+## Guías en inglés (/en/)
+
+Desde octubre de 2026 hay una sección en inglés para Estados Unidos, con las guías clave traducidas y adaptadas (hora por zona horaria de EE. UU., precio en dólares, tamaño y jugabilidad).
+- El contenido está en `src/content/en/*.md`. El campo `es` apunta a la guía equivalente en español: con él se generan las etiquetas hreflang y los enlaces «Read in English» / «Leer en español».
+- Plantillas: `src/pages/en/index.astro` y `src/pages/en/[slug].astro`. `Base.astro` acepta `lang="en"` y `alternates`.
+- El robot y el lanzamiento automático solo escriben en español: las guías en inglés se actualizan a mano (o pidiéndoselo a Claude) cuando cambia la versión en español.
+- Para el público hispano de EE. UU. está la guía en español `gta-6-estados-unidos-hora-precio-espanol`.
