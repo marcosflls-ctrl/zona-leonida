@@ -1,6 +1,6 @@
 ---
-title: "¿A qué hora sale GTA 6? 00:00 en España y horario por país"
-description: "En España se juega desde las 00:00 del 19 de noviembre (23:00 en Canarias). Tabla con la hora de cada país de Latinoamérica y cuándo empieza la precarga."
+title: "¿A qué hora sale GTA 6? Hora en España, México, Colombia, Argentina y cada país"
+description: "GTA 6 se desbloquea a las 00:00 del 19 de noviembre en España. Hora en México, Colombia, Argentina, Chile, Perú y cada país, con cuenta atrás y precarga."
 date: 2026-10-09T18:45:00+02:00
 updated: 2026-10-18T20:00:00+02:00
 category: guias
