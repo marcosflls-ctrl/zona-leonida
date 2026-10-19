@@ -36,6 +36,8 @@ sources:
     url: "https://www.3djuegos.com/juegos/grand-theft-auto-vi/noticias/rockstar-ha-dejado-claro-no-quiere-que-gta-6-sea-espejo-realidad-su-satira-funcione-necesita-mundo-absurdo"
   - name: "GamesRadar: el sueño americano, «más modesto», según el responsable de narrativa de Rockstar"
     url: "https://www.gamesradar.com/games/grand-theft-auto/ahead-of-gta-6-rockstar-narrative-lead-says-the-american-dream-previous-grand-theft-auto-games-were-critical-of-is-more-modest-now-but-still-out-of-reach-for-the-average-person/"
+  - name: "Dexerto: Rockstar probó «un millón» de alternativas a la rueda de armas (Jason Schreier)"
+    url: "https://www.dexerto.com/gta/gta-6-devs-tried-a-million-weapon-wheel-alternatives-as-struggles-with-rdr2-realism-led-some-to-quit-3420111/"
   - name: "Vandal: Rockstar habla de su próximo juego, no tardará otros ocho años"
     url: "https://vandal.elespanol.com/noticia/2026287017/rockstar-ya-habla-de-su-proximo-juego-tras-gta-6-y-lo-confirma-no-tardaran-otros-ocho-anos/"
 ---
@@ -68,6 +70,8 @@ Nelson habla de un «periodo oscuro» en el que no tenían claro qué querían h
 ## La cerveza, el sándwich y el realismo
 
 Un ejemplo de esos debates, según Schreier: con unos gráficos tan realistas, ¿basta con pulsar un botón para comprar una cerveza, o hay que ir a la nevera, llevarla al mostrador y pagar? Y si un sándwich mejora al personaje, ¿hay que comprar los ingredientes y prepararlo? El equipo probaba distintas soluciones hasta dar con la que no restara diversión. El reportaje no cuenta qué decidió en cada caso: se verá al jugar.
+
+**La rueda de armas.** Un ejemplo de esa tensión, contado por Schreier en un vídeo posterior al reportaje: el equipo pasó «meses, si no años, probando un millón de cosas distintas» para sustituir la rueda de armas por algo más realista, como en Red Dead Redemption 2, donde solo llevas unas pocas armas. Probaron bandejas, «telarañas» de selección e incluso quitar la interfaz. Nada convenció, y en el juego final vuelve a haber una rueda de armas. Lo que cambia es lo que hay detrás: según Dexerto, hay un límite de armas que puedes llevar encima y los peatones reaccionan si llevas una a la vista. Schreier sitúa la fase más difícil entre 2019 y 2022: el juego no empezó a encajar hasta finales de 2022 y principios de 2023, poco antes del primer tráiler.
 
 ## Por qué se retrasó dos veces
 

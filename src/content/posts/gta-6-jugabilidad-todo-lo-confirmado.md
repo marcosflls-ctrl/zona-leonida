@@ -30,6 +30,8 @@ sources:
     url: "https://vandal.elespanol.com/noticia/2026290001/los-coches-de-gta-6-tendran-un-maletero-real-podras-guardar-ropa-y-armas-en-ellos/"
   - name: "Vandal: habrá redes sociales en GTA 6, pero Jason y Lucía no publicarán"
     url: "https://vandal.elespanol.com/noticia/2026283001/habra-redes-sociales-en-gta-6-pero-ni-jason-ni-lucia-publicaran-en-ellas-por-una-logica-razon/"
+  - name: "Dexerto: la rueda de armas de GTA 6 y el límite de armas (Jason Schreier)"
+    url: "https://www.dexerto.com/gta/gta-6-devs-tried-a-million-weapon-wheel-alternatives-as-struggles-with-rdr2-realism-led-some-to-quit-3420111/"
   - name: "GamesRadar: GTA 6 tiene un sistema de sudor realista (según Jason Schreier, Bloomberg)"
     url: "https://www.gamesradar.com/games/grand-theft-auto/as-if-you-needed-another-reminder-of-why-gta-6-took-so-long-it-has-a-realistic-sweat-system-that-makes-jason-and-lucia-perspire-based-on-how-hard-they-dance/"
   - name: "Vandal: Rockstar podría haber corregido un fallo de animación de hace 18 años (Digital Foundry)"
@@ -83,6 +85,8 @@ A cambio, hay más formas de conseguirlo. Nelson asegura que se podrá robar **�
 | Otros | Con clonadores de llaves y aparatos que se consiguen al avanzar en el juego |
 
 **WAiNK** escanea la seguridad del coche y además dice cuánto cuesta registrarlo como tuyo y cuánto vale si lo vendes. Es decir, robar un coche también es una forma de hacer dinero, y no podrás llevarte cualquier modelo desde la primera hora.
+
+**Armas.** Vuelve la rueda de armas de siempre, pero con un límite de armas que puedes llevar encima, más al estilo de Red Dead Redemption 2, y los peatones reaccionan si llevas una a la vista, según Dexerto a partir de lo contado por Jason Schreier. Rockstar probó durante mucho tiempo alternativas a la rueda; lo contamos en [cómo se hizo GTA 6](/guias/gta-6-como-se-hizo-desarrollo-retrasos/).
 
 ## Jason y Lucía: cómo se juega con la pareja
 
