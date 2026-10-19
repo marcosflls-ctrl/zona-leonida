@@ -173,3 +173,12 @@ Además de noticias, el robot busca descubrimientos de la comunidad (Reddit r/GT
 ## Vigía de trofeos
 
 `trofeos-vigia.yml` mira cada dos horas las noticias (los feeds del radar y búsquedas de Google News) por si sale la lista de trofeos de GTA VI o algo del platino, y avisa por Telegram en privado. No visita las webs de trofeos: bloquean a los robots. La primera ejecución solo memoriza lo que ya existe. La guía `gta-6-trofeos-logros` está preparada (oculta) para rellenarla en cuanto la lista sea oficial: primero la lista y los perdibles, y tras jugar, el plan del platino.
+
+## Revisión de AdSense (octubre de 2026)
+
+AdSense rechazó la web por «contenido de poco valor» el 19/10/2026. Cambios hechos:
+- 44 noticias cortas o repetidas se unieron en 4 guías (jugabilidad, cómo se hizo, filtraciones de Cyberleek y campaña de promoción), con redirecciones 301 en `public/_redirects`. Dos noticias más se redirigieron a guías existentes.
+- La galería de imágenes oficiales es `noindex`, no sale en el sitemap y no lleva anuncios (en `Base.astro`, las páginas `noindex` no cargan AdSense).
+- Sobre nosotros y Contacto, ampliadas.
+- El robot publica menos y más completo: máximo 2 por ejecución, descarta marketing suelto y detalles que ya cubre una guía, y nunca pone «según X» en el título.
+- Volver a pedir la revisión una o dos semanas después de publicar los cambios.

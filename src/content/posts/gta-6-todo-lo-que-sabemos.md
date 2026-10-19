@@ -36,7 +36,7 @@ Este es el resumen de **todo lo que Rockstar ha confirmado de GTA VI** antes de 
 | **Duración** | Unas 80 horas de historia, según Rockstar North |
 | **Modo online** | No anunciado: es una experiencia para un jugador |
 
-Más detalles en [fecha y plataformas](/noticias/gta-6-fecha-de-lanzamiento-plataformas/), [a qué hora sale en tu país](/guias/gta-6-a-que-hora-sale/), [precio y ediciones](/guias/gta-6-precio-ediciones-reservas/), [precio en Latinoamérica](/guias/gta-6-precio-latinoamerica/), [¿saldrá en PC?](/guias/gta-6-pc/) [¿tendrá modo online?](/guias/gta-6-modo-online/), [cuánto dura](/guias/gta-6-cuanto-dura/) y [¿tendrá trucos?](/trucos/gta-6-trucos-claves-ps5-xbox/).
+Más detalles en [fecha y plataformas](/guias/gta-6-a-que-hora-sale/), [a qué hora sale en tu país](/guias/gta-6-a-que-hora-sale/), [precio y ediciones](/guias/gta-6-precio-ediciones-reservas/), [precio en Latinoamérica](/guias/gta-6-precio-latinoamerica/), [¿saldrá en PC?](/guias/gta-6-pc/) [¿tendrá modo online?](/guias/gta-6-modo-online/), [cuánto dura](/guias/gta-6-cuanto-dura/) y [¿tendrá trucos?](/trucos/gta-6-trucos-claves-ps5-xbox/).
 
 ## Dónde transcurre: Leonida y Vice City
 
@@ -48,17 +48,17 @@ Rockstar ha enseñado seis zonas: **Vice City, los Cayos de Leonida, Grassrivers
 
 Por primera vez en la era moderna de la saga hay **una protagonista**: [Lucía Caminos](/personajes/lucia-caminos/), recién salida de la prisión de Leonida, que comparte historia con [Jason Duval](/personajes/jason-duval/), un exmilitar que hace encargos para narcos en los cayos.
 
-- Su relación **es opcional**: según Rockstar, cambia según el tiempo que pasen juntos y cómo se traten, pero la historia avanza igual. Lo explicamos en [la relación de Jason y Lucía](/noticias/gta-6-la-relacion-de-jason-y-lucia-sera-opcional-segun-rockstar/).
+- Su relación **es opcional**: según Rockstar, cambia según el tiempo que pasen juntos y cómo se traten, pero la historia avanza igual. Lo explicamos en [la relación de Jason y Lucía](/guias/gta-6-jugabilidad-todo-lo-confirmado/).
 - Les acompañan secundarios como Cal Hampton, Boobie Ike, Dre'Quan Priest, Real Dimez, Raúl Bautista y Brian Heder. Conócelos en [todos los personajes](/guias/gta-6-personajes/).
 
 ## Cómo se juega: lo que ha contado Rockstar
 
-- **Una policía más lista.** Según GamesRadar, el nivel de búsqueda llega a **seis estrellas** y hay un nuevo sistema, Heat, que muestra qué sabe la policía de ti. Testigos y cámaras pasan tu descripción, así que habrá que cambiar de coche o de ropa para despistar. Te lo contamos en [las seis estrellas y el Heat](/noticias/gta-6-asi-funcionan-las-seis-estrellas-y-el-sistema-de-heat/).
-- **Separar a la pareja.** Según Game Informer, se podrá separar a Jason y Lucía para dividir la atención policial, aunque si arrestan o matan a uno, se acaba la partida. Más en [separar a Jason y Lucía](/noticias/gta-6-podras-separar-a-jason-y-lucia-para-despistar-a-la-policia/).
-- **El dinero importa más que nunca.** Según Rob Nelson, de Rockstar North, en algunos momentos de la historia habrá que reunir dinero para avanzar. Lo explicamos en [el dinero en GTA 6](/noticias/gta-6-el-dinero-sera-mas-importante-que-en-otros-gta-segun-rockstar/).
-- **Robar casi cualquier cosa.** Rockstar quiere que se pueda saquear mucho más que en GTA 5, también fuera de las misiones: [robar casi cualquier cosa](/noticias/gta-6-podras-robar-casi-cualquier-cosa-segun-rockstar-north/).
-- **WAiNK, la app para robar coches de lujo**, que escanea su seguridad y te dice cuánto vale cada uno: [así funciona WAiNK](/noticias/gta-6-la-app-waink-servira-para-robar-coches-de-lujo/).
-- **Redes sociales en el juego**, con una parodia de Instagram, aunque Jason y Lucía no publicarán sus golpes: [las redes sociales de GTA 6](/noticias/gta-6-tendra-redes-sociales-pero-jason-y-lucia-no-publicaran/).
+- **Una policía más lista.** Según GamesRadar, el nivel de búsqueda llega a **seis estrellas** y hay un nuevo sistema, Heat, que muestra qué sabe la policía de ti. Testigos y cámaras pasan tu descripción, así que habrá que cambiar de coche o de ropa para despistar. Te lo contamos en [las seis estrellas y el Heat](/guias/gta-6-jugabilidad-todo-lo-confirmado/).
+- **Separar a la pareja.** Según Game Informer, se podrá separar a Jason y Lucía para dividir la atención policial, aunque si arrestan o matan a uno, se acaba la partida. Más en [separar a Jason y Lucía](/guias/gta-6-jugabilidad-todo-lo-confirmado/).
+- **El dinero importa más que nunca.** Según Rob Nelson, de Rockstar North, en algunos momentos de la historia habrá que reunir dinero para avanzar. Lo explicamos en [el dinero en GTA 6](/guias/gta-6-jugabilidad-todo-lo-confirmado/).
+- **Robar casi cualquier cosa.** Rockstar quiere que se pueda saquear mucho más que en GTA 5, también fuera de las misiones: [robar casi cualquier cosa](/guias/gta-6-jugabilidad-todo-lo-confirmado/).
+- **WAiNK, la app para robar coches de lujo**, que escanea su seguridad y te dice cuánto vale cada uno: [así funciona WAiNK](/guias/gta-6-jugabilidad-todo-lo-confirmado/).
+- **Redes sociales en el juego**, con una parodia de Instagram, aunque Jason y Lucía no publicarán sus golpes: [las redes sociales de GTA 6](/guias/gta-6-jugabilidad-todo-lo-confirmado/).
 - **Radio y pódcast.** Ya hay seis emisoras confirmadas y, por primera vez, pódcast bajo demanda que se escuchan también a pie: [la radio de GTA 6](/noticias/gta-6-presenta-seis-emisoras-de-radio-y-podcast-bajo-demanda/).
 - **Coches**: Rockstar ya ha enseñado varios con nombre propio. Tienes la lista en [vehículos confirmados](/guias/gta-6-coches-vehiculos-confirmados/).
 

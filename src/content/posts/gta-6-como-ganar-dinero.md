@@ -36,10 +36,10 @@ Rockstar ha explicado que en GTA 6 el dinero importa más que en anteriores entr
 
 <!-- PREPARADO ANTES DEL LANZAMIENTO con información oficial. Comprobar en el juego y ajustar o recortar si algo cambia. -->
 
-- **El dinero hace falta para avanzar.** Según Rob Nelson, de Rockstar North, en algunos momentos de la historia tendrás que reunir dinero antes de seguir, robando vehículos o planeando atracos. Más en [el dinero en GTA 6](/noticias/gta-6-el-dinero-sera-mas-importante-que-en-otros-gta-segun-rockstar/).
-- **Se puede robar casi cualquier cosa**, también fuera de las misiones, y algunos objetivos se descubren simplemente explorando: [podrás robar casi cualquier cosa](/noticias/gta-6-podras-robar-casi-cualquier-cosa-segun-rockstar-north/).
-- **Los coches de lujo se venden.** La app WAiNK escanea la seguridad de un coche y te dice cuánto vale, aunque los más protegidos exigen herramientas que se consiguen avanzando en la historia: [así funciona WAiNK](/noticias/gta-6-la-app-waink-servira-para-robar-coches-de-lujo/).
-- **Ojo con la policía:** si arrestan o matan a Jason o a Lucía durante un golpe, se acaba la misión. Más en [separar a Jason y Lucía](/noticias/gta-6-podras-separar-a-jason-y-lucia-para-despistar-a-la-policia/).
+- **El dinero hace falta para avanzar.** Según Rob Nelson, de Rockstar North, en algunos momentos de la historia tendrás que reunir dinero antes de seguir, robando vehículos o planeando atracos. Más en [el dinero en GTA 6](/guias/gta-6-jugabilidad-todo-lo-confirmado/).
+- **Se puede robar casi cualquier cosa**, también fuera de las misiones, y algunos objetivos se descubren simplemente explorando: [podrás robar casi cualquier cosa](/guias/gta-6-jugabilidad-todo-lo-confirmado/).
+- **Los coches de lujo se venden.** La app WAiNK escanea la seguridad de un coche y te dice cuánto vale, aunque los más protegidos exigen herramientas que se consiguen avanzando en la historia: [así funciona WAiNK](/guias/gta-6-jugabilidad-todo-lo-confirmado/).
+- **Ojo con la policía:** si arrestan o matan a Jason o a Lucía durante un golpe, se acaba la misión. Más en [separar a Jason y Lucía](/guias/gta-6-jugabilidad-todo-lo-confirmado/).
 
 ## Los mejores métodos al principio de la historia
 

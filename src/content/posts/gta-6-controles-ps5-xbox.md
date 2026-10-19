@@ -43,7 +43,7 @@ IMÁGENES (por orden de preferencia):
 ## Cambiar entre Jason y Lucía
 
 <!-- RELLENAR: botón para cambiar de personaje y cuándo se puede. -->
-Según Game Informer, se puede separar a la pareja para dividir la atención de la policía, aunque si arrestan o matan a uno de los dos, la misión se acaba. Más en [separar a Jason y Lucía](/noticias/gta-6-podras-separar-a-jason-y-lucia-para-despistar-a-la-policia/).
+Según Game Informer, se puede separar a la pareja para dividir la atención de la policía, aunque si arrestan o matan a uno de los dos, la misión se acaba. Más en [separar a Jason y Lucía](/guias/gta-6-jugabilidad-todo-lo-confirmado/).
 
 ## Ajustes recomendados para empezar
 

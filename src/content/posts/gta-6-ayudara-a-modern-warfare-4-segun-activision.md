@@ -1,5 +1,5 @@
 ---
-title: "GTA 6 ayudará a Modern Warfare 4, según Activision"
+title: "Activision cree que GTA 6 ayudará a Modern Warfare 4: por qué"
 description: "El director de marketing de Activision cree que GTA 6 beneficiará a Call of Duty: Modern Warfare 4 y que ambos serán los dos juegos más grandes de 2026."
 date: 2026-10-15T16:01:53+00:00
 updated: 2026-10-18T12:15:00+02:00

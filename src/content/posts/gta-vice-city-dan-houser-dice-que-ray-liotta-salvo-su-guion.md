@@ -39,4 +39,4 @@ Houser recuerda que el primer día Liotta no parecía muy motivado. Al siguiente
 
 Hoy Rockstar cuenta con grandes nombres en sus juegos, y *GTA 6* lo demuestra con su [banda sonora y sus emisoras](/noticias/gta-6-presenta-seis-emisoras-de-radio-y-podcast-bajo-demanda/). Pero poner a un actor de ese calibre como protagonista de *Vice City* fue una apuesta importante hace más de dos décadas.
 
-Si te interesa ver cómo ha cambiado la ciudad desde entonces, tienes la comparativa en nuestra guía de [Vice City en 2002 y en GTA 6](/guias/gta-6-vice-city-2002-vs-gta-6/). Y si quieres saber cómo cuida Rockstar hoy sus textos, puedes leer que [GTA 6 tiene un equipo de guionistas solo para peatones](/noticias/gta-6-tiene-un-equipo-de-guionistas-solo-para-peatones/).
+Si te interesa ver cómo ha cambiado la ciudad desde entonces, tienes la comparativa en nuestra guía de [Vice City en 2002 y en GTA 6](/guias/gta-6-vice-city-2002-vs-gta-6/). Y si quieres saber cómo cuida Rockstar hoy sus textos, puedes leer que [GTA 6 tiene un equipo de guionistas solo para peatones](/guias/gta-6-como-se-hizo-desarrollo-retrasos/).

@@ -92,7 +92,7 @@ jobs:
       - name: Buscar noticias y redactar
         id: radar
         env:
-          MAX_PER_RUN: ${{ vars.MAX_PER_RUN || '3' }}
+          MAX_PER_RUN: ${{ vars.MAX_PER_RUN || '2' }}
           RADAR_URL: ${{ github.event.inputs.url }}
           FORZAR_COMUNIDAD: ${{ github.event.inputs.prueba_comunidad == 'true' && '1' || '' }}
           FORZAR_LANZAMIENTO: ${{ github.event.inputs.prueba_comunidad == 'true' && '1' || '' }}

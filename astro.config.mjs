@@ -37,7 +37,7 @@ export default defineConfig({
   site: 'https://zonaleonida.com',
   trailingSlash: 'always',
   integrations: [sitemap({
-    filter: (page) => !page.includes('/buscar/'),
+    filter: (page) => !page.includes('/buscar/') && !page.includes('/imagenes-oficiales/'),
     serialize: (item) => {
       const m = lastmod[new URL(item.url).pathname];
       return m ? { ...item, lastmod: m } : item;

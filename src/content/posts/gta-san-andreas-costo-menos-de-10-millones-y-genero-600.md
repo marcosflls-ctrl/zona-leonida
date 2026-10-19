@@ -31,8 +31,8 @@ Vandal compara esa cifra con la de Clair Obscur: Expedition 33. El RPG de Sandfa
 
 ## ¿Y GTA 6?
 
-Rockstar no ha comunicado el coste de GTA 6. Algunas estimaciones lo sitúan por encima de los 1000 millones de dólares, pero conviene tomarlas con cautela. De hecho, la compañía [ha negado que costara más de 1.500 millones](/noticias/gta-6-rockstar-niega-que-costara-mas-de-1-500-millones-de-dolares/).
+Rockstar no ha comunicado el coste de GTA 6. Algunas estimaciones lo sitúan por encima de los 1000 millones de dólares, pero conviene tomarlas con cautela. De hecho, la compañía [ha negado que costara más de 1.500 millones](/guias/gta-6-como-se-hizo-desarrollo-retrasos/).
 
-Lo que sí cambia es la escala del proyecto. Según Vandal, San Andreas lo hizo un equipo relativamente pequeño. GTA 6 implica a numerosos estudios y a cientos de profesionales, con más ambición técnica y tiempos de desarrollo muy superiores a los de hace veinte años. Puedes repasar esa evolución en nuestra [cronología de GTA 6](/guias/gta-6-cronologia/) y en la noticia sobre cómo [ha crecido la plantilla de Rockstar](/noticias/gta-6-ha-duplicado-la-plantilla-de-rockstar-ya-son-4711/).
+Lo que sí cambia es la escala del proyecto. Según Vandal, San Andreas lo hizo un equipo relativamente pequeño. GTA 6 implica a numerosos estudios y a cientos de profesionales, con más ambición técnica y tiempos de desarrollo muy superiores a los de hace veinte años. Puedes repasar esa evolución en nuestra [cronología de GTA 6](/guias/gta-6-cronologia/) y en la noticia sobre cómo [ha crecido la plantilla de Rockstar](/guias/gta-6-como-se-hizo-desarrollo-retrasos/).
 
 Para hacerte una idea de lo que se sabe del juego, tienes el resumen de [todo lo que sabemos de GTA 6](/guias/gta-6-todo-lo-que-sabemos/).

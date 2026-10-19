@@ -66,4 +66,4 @@ Los pódcast bajo demanda se incorporan por primera vez a la serie y complementa
 
 ## ¿Cuándo sale GTA 6 y en qué plataformas?
 
-GTA 6 llegará el **19 de noviembre de 2026** a PlayStation 5 y Xbox Series X|S. Por el momento, Rockstar no ha anunciado oficialmente una versión para computadora. Si quieres repasar todos los detalles, tenemos una guía con la [fecha de lanzamiento y las plataformas](/noticias/gta-6-fecha-de-lanzamiento-plataformas/) y otra con [todo lo que sabemos del juego](/guias/gta-6-todo-lo-que-sabemos/), incluidos mapa, protagonistas y ciudad.
+GTA 6 llegará el **19 de noviembre de 2026** a PlayStation 5 y Xbox Series X|S. Por el momento, Rockstar no ha anunciado oficialmente una versión para computadora. Si quieres repasar todos los detalles, tenemos una guía con la [fecha de lanzamiento y las plataformas](/guias/gta-6-a-que-hora-sale/) y otra con [todo lo que sabemos del juego](/guias/gta-6-todo-lo-que-sabemos/), incluidos mapa, protagonistas y ciudad.

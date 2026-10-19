@@ -43,6 +43,6 @@ El precio tampoco se ha movido por esto. Según HobbyConsolas, la edición está
 
 ## Alternativas oficiales para coleccionar
 
-Si quieres algo físico y fiable, la fuente menciona la banda sonora en CD o vinilo, el merchandising ya disponible y la Collector's Box. Puedes ver parte de ese catálogo en nuestra noticia sobre la [colección de ropa y el Zippo de Vice City](/noticias/gta-6-rockstar-lanza-su-coleccion-de-ropa-y-un-zippo-de-vice-city/).
+Si quieres algo físico y fiable, la fuente menciona la banda sonora en CD o vinilo, el merchandising ya disponible y la Collector's Box. Puedes ver parte de ese catálogo en nuestra noticia sobre la [colección de ropa y el Zippo de Vice City](/guias/gta-6-campana-marketing-miami-y-fiebre-del-lanzamiento/).
 
 HobbyConsolas concluye que, casi con seguridad, no habrá una edición oficial en disco. La demanda del formato físico sigue viva y, de momento, quienes la aprovechan son los vendedores de réplicas. Si te las cruzas, comprueba siempre que el anuncio deje claro que no incluyen el juego.

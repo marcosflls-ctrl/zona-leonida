@@ -43,8 +43,8 @@ Aún no hay cifras para completar GTA 6 al 100 %. Como referencia, en Red Dead R
 
 En GTA 6 hay además mucho contenido opcional que puede alargar la partida:
 
-- **La relación entre Jason y Lucía**, que es opcional y cambia según el tiempo que pasen juntos. Vandal calcula, como estimación propia, que dedicarle tiempo podría llevar la partida por encima de las 100 horas. Te lo contamos en [la relación de Jason y Lucía](/noticias/gta-6-la-relacion-de-jason-y-lucia-sera-opcional-segun-rockstar/).
-- **Robos y golpes fuera de las misiones**, que Rockstar quiere que se puedan planear por libre: [podrás robar casi cualquier cosa](/noticias/gta-6-podras-robar-casi-cualquier-cosa-segun-rockstar-north/).
+- **La relación entre Jason y Lucía**, que es opcional y cambia según el tiempo que pasen juntos. Vandal calcula, como estimación propia, que dedicarle tiempo podría llevar la partida por encima de las 100 horas. Te lo contamos en [la relación de Jason y Lucía](/guias/gta-6-jugabilidad-todo-lo-confirmado/).
+- **Robos y golpes fuera de las misiones**, que Rockstar quiere que se puedan planear por libre: [podrás robar casi cualquier cosa](/guias/gta-6-jugabilidad-todo-lo-confirmado/).
 - **Explorar Leonida**, con seis zonas que van de Vice City a los pantanos de Grassrivers: [el mapa de Leonida](/guias/gta-6-mapa-leonida/).
 
 ## Duración de GTA 6 tras el lanzamiento

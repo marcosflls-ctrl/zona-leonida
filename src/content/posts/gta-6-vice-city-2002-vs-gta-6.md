@@ -39,7 +39,7 @@ sources:
 
 La Vice City de 2002 era un homenaje al Miami de los 80: trajes pastel, música synthpop y la estética de las películas de gánsteres de la época. Rockstar la presentaba como una ciudad que iba «de la playa a los pantanos y del glamur al gueto».
 
-La de GTA 6 es la misma ciudad, pero hoy: rascacielos de cristal, playas abarrotadas y una vida digital que forma parte del juego, con [redes sociales y aplicaciones](/noticias/gta-6-tendra-redes-sociales-pero-jason-y-lucia-no-publicaran/) que comentan lo que pasa en la calle. Y ya no está sola: es la capital de un estado entero, con cayos, pantanos y zonas rurales que puedes recorrer en el [mapa de Leonida](/guias/gta-6-mapa-leonida/).
+La de GTA 6 es la misma ciudad, pero hoy: rascacielos de cristal, playas abarrotadas y una vida digital que forma parte del juego, con [redes sociales y aplicaciones](/guias/gta-6-jugabilidad-todo-lo-confirmado/) que comentan lo que pasa en la calle. Y ya no está sola: es la capital de un estado entero, con cayos, pantanos y zonas rurales que puedes recorrer en el [mapa de Leonida](/guias/gta-6-mapa-leonida/).
 
 ## Ocean Drive y el neón, un guiño que se mantiene
 
@@ -53,12 +53,12 @@ Algunas cosas no cambian. El neón de los hoteles de Ocean Drive, el paseo marí
 
 En 2002 manejábamos a **Tommy Vercetti**, un mafioso recién salido de la cárcel que quería quedarse con la ciudad, al que puso voz el actor Ray Liotta. Su historia era la de un ascenso al poder en solitario.
 
-GTA 6 cambia el planteamiento: hay **dos protagonistas**, [Jason](/personajes/jason-duval/) y [Lucía](/personajes/lucia-caminos/), y la historia gira en torno a su relación, que además [es opcional](/noticias/gta-6-la-relacion-de-jason-y-lucia-sera-opcional-segun-rockstar/). Como Tommy, Lucía también empieza la historia saliendo de prisión.
+GTA 6 cambia el planteamiento: hay **dos protagonistas**, [Jason](/personajes/jason-duval/) y [Lucía](/personajes/lucia-caminos/), y la historia gira en torno a su relación, que además [es opcional](/guias/gta-6-jugabilidad-todo-lo-confirmado/). Como Tommy, Lucía también empieza la historia saliendo de prisión.
 
 ## Cómo se juega: lo que ha cambiado
 
-- **La policía:** en 2002 había seis estrellas de búsqueda, y en GTA 6 vuelven las seis, pero con un sistema que tiene en cuenta testigos y cámaras. Te lo explicamos en [las seis estrellas y el Heat](/noticias/gta-6-asi-funcionan-las-seis-estrellas-y-el-sistema-de-heat/).
-- **El dinero:** una de las novedades del original fue poder comprar negocios y propiedades. En GTA 6, según Rockstar, habrá momentos de la historia en los que tendrás que [reunir dinero para avanzar](/noticias/gta-6-el-dinero-sera-mas-importante-que-en-otros-gta-segun-rockstar/).
+- **La policía:** en 2002 había seis estrellas de búsqueda, y en GTA 6 vuelven las seis, pero con un sistema que tiene en cuenta testigos y cámaras. Te lo explicamos en [las seis estrellas y el Heat](/guias/gta-6-jugabilidad-todo-lo-confirmado/).
+- **El dinero:** una de las novedades del original fue poder comprar negocios y propiedades. En GTA 6, según Rockstar, habrá momentos de la historia en los que tendrás que [reunir dinero para avanzar](/guias/gta-6-jugabilidad-todo-lo-confirmado/).
 - **La radio:** las emisoras de Vice City, con música de los 80, son de las más recordadas de la saga. GTA 6 mantiene la radio y añade [pódcast bajo demanda](/noticias/gta-6-presenta-seis-emisoras-de-radio-y-podcast-bajo-demanda/).
 
 ## ¿Hace falta jugar al Vice City original?

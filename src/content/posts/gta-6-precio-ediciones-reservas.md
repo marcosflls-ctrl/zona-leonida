@@ -101,4 +101,4 @@ Rockstar también vende **The Goodtime State – Vice City Collection**, una caj
 
 **¿Tiene multijugador?** Rockstar presenta GTA 6 como una experiencia para un jugador. No ha detallado ningún modo online para el lanzamiento.
 
-¿Quieres saber más? Repasa la [fecha de lanzamiento y las plataformas](/noticias/gta-6-fecha-de-lanzamiento-plataformas/) o [todo lo que sabemos del juego](/guias/gta-6-todo-lo-que-sabemos/).
+¿Quieres saber más? Repasa la [fecha de lanzamiento y las plataformas](/guias/gta-6-a-que-hora-sale/) o [todo lo que sabemos del juego](/guias/gta-6-todo-lo-que-sabemos/).

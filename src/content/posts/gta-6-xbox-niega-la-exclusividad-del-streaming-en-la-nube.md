@@ -42,4 +42,4 @@ Microsoft también está probando un nivel con anuncios dentro del programa Xbox
 
 La conclusión práctica es que, por ahora, no hay confirmación de que Xbox vaya a tener un monopolio del streaming de GTA VI. La propia Microsoft lo niega. Quedan por aclarar el acceso desde Xbox Cloud en consolas y el alcance real de la mención a PC.
 
-Si quieres seguir el resto de datos confirmados, puedes consultar nuestro resumen sobre la [fecha de lanzamiento y las plataformas](/noticias/gta-6-fecha-de-lanzamiento-plataformas/) o la guía de [precio, ediciones y reservas](/guias/gta-6-precio-ediciones-reservas/). Seguiremos atentos por si Rockstar o Microsoft precisan más detalles.
+Si quieres seguir el resto de datos confirmados, puedes consultar nuestro resumen sobre la [fecha de lanzamiento y las plataformas](/guias/gta-6-a-que-hora-sale/) o la guía de [precio, ediciones y reservas](/guias/gta-6-precio-ediciones-reservas/). Seguiremos atentos por si Rockstar o Microsoft precisan más detalles.
