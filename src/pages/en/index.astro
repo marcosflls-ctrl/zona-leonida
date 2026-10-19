@@ -1,0 +1,26 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { SITE } from '../../config';
+const guias = (await getCollection('en')).filter((g) => !g.data.draft).sort((a, b) => a.data.orden - b.data.orden);
+const title = 'GTA 6 guides: release time, price, file size and everything we know';
+const description = 'Clear, sourced guides to Grand Theft Auto VI: US release time by time zone, price and editions, file size and everything Rockstar has confirmed.';
+const jsonLd = { '@context': 'https://schema.org', '@type': 'CollectionPage', name: title, description, url: `${SITE.url}/en/`, inLanguage: 'en' };
+---
+<Base title={title} description={description} lang="en" alternates={{ en: '/en/', es: '/' }} jsonLd={jsonLd}>
+  <h1>GTA 6 guides</h1>
+  <p class="lead">Zona Leonida is an independent fan site about Grand Theft Auto VI. Our main site is in Spanish; these are our key guides in English, written for US players and kept up to date until and after launch on November 19, 2026. We separate what Rockstar has confirmed from rumors, and we link every source.</p>
+  <ul class="lista">
+    {guias.map((g) => (
+      <li><a href={`/en/${g.id}/`}><strong>{g.data.title}</strong></a><br /><span class="muted">{g.data.description}</span></li>
+    ))}
+  </ul>
+  <p class="muted small">We don't share leaked footage or story spoilers. Spotted a mistake? Email us at {SITE.email}.</p>
+</Base>
+<style>
+  h1 { font-size: clamp(2.2rem, 7vw, 3.4rem); margin: 8px 0; }
+  .lead { color: var(--muted); font-size: 1.15rem; max-width: 760px; }
+  .lista { list-style: none; padding: 0; display: grid; gap: 14px; max-width: 760px; }
+  .lista li { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 18px; }
+  .lista a { text-decoration: none; }
+</style>

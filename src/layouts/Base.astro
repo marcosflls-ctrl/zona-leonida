@@ -14,8 +14,13 @@ interface Props {
   published?: Date;
   modified?: Date;
   section?: string;
+  lang?: 'es' | 'en';
+  // Versiones del mismo contenido en otro idioma (rutas), para las etiquetas hreflang
+  alternates?: { es?: string; en?: string };
 }
-const { title, description, image, type = 'website', jsonLd, noindex = false, published, modified, section } = Astro.props;
+const { title, description, image, type = 'website', jsonLd, noindex = false, published, modified, section, lang = 'es', alternates } = Astro.props;
+const en = lang === 'en';
+const abs = (p: string) => new URL(p, Astro.site).href;
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
 // La marca solo se añade si cabe: Google corta los títulos a unos 60 caracteres
 const fullTitle = title === SITE.name ? `${SITE.name} — ${SITE.tagline}` : title.length > 47 ? title : `${title} | ${SITE.name}`;
@@ -26,7 +31,7 @@ const year = new Date().getFullYear();
 const path = Astro.url.pathname;
 ---
 <!doctype html>
-<html lang={SITE.lang}>
+<html lang={en ? 'en' : SITE.lang}>
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -36,7 +41,10 @@ const path = Astro.url.pathname;
   <meta name="robots" content={noindex ? 'noindex' : 'max-image-preview:large, max-snippet:-1, max-video-preview:-1'} />
   <meta property="og:type" content={type} />
   <meta property="og:site_name" content={SITE.name} />
-  <meta property="og:locale" content={SITE.locale} />
+  <meta property="og:locale" content={en ? 'en_US' : SITE.locale} />
+  {alternates?.es && <link rel="alternate" hreflang="es" href={abs(alternates.es)} />}
+  {alternates?.en && <link rel="alternate" hreflang="en" href={abs(alternates.en)} />}
+  {alternates?.es && <link rel="alternate" hreflang="x-default" href={abs(alternates.es)} />}
   <meta property="og:title" content={title} />
   <meta property="og:description" content={description} />
   <meta property="og:url" content={canonical} />
@@ -66,15 +74,21 @@ const path = Astro.url.pathname;
 <body>
   <header class="site-header">
     <div class="wrap header-inner">
-      <a href="/" class="logo" aria-label={`${SITE.name}, inicio`}>
+      <a href={en ? '/en/' : '/'} class="logo" aria-label={en ? `${SITE.name}, home` : `${SITE.name}, inicio`}>
         <img class="logo-mark" src="/img/marca/logo-96.webp" alt="" width="30" height="30" /><span class="logo-text">{SITE.name}</span>
       </a>
-      <a class="search-btn" href="/buscar/" aria-label="Buscar">
+      {!en && <a class="search-btn" href="/buscar/" aria-label="Buscar">
         <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
-      </a>
+      </a>}
       <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú">
         <span></span><span></span><span></span>
       </button>
+      {en ? (
+      <nav id="menu" aria-label="Sections">
+        <a href="/en/" aria-current={path === '/en/' ? 'page' : undefined}>GTA 6 guides</a>
+        <a href={alternates?.es ?? '/'} lang="es">Español</a>
+      </nav>
+      ) : (
       <nav id="menu" aria-label="Secciones">
         {Object.entries(CATEGORIES).map(([key, c]) => (
           <a href={`/${key}/`} aria-current={path.startsWith(`/${key}/`) ? 'page' : undefined}>{c.label}</a>
@@ -82,7 +96,9 @@ const path = Astro.url.pathname;
         <a href="/personajes/" aria-current={path.startsWith('/personajes/') ? 'page' : undefined}>Personajes</a>
         <a href="/trailers/" aria-current={path.startsWith('/trailers/') ? 'page' : undefined}>Tráilers</a>
         <a href="/imagenes-oficiales/" aria-current={path.startsWith('/imagenes-oficiales/') ? 'page' : undefined}>Imágenes</a>
+        <a href={alternates?.en ?? '/en/'} lang="en">English</a>
       </nav>
+      )}
     </div>
   </header>
 
@@ -94,17 +110,19 @@ const path = Astro.url.pathname;
     <div class="wrap footer-inner">
       <div>
         <strong>{SITE.name}</strong>
-        <p class="muted">Web de fans independiente. No está afiliada ni respaldada por Rockstar Games ni Take-Two Interactive. Grand Theft Auto y GTA son marcas de sus respectivos propietarios.</p>
+        <p class="muted">{en
+          ? 'Independent fan site. Not affiliated with or endorsed by Rockstar Games or Take-Two Interactive. Grand Theft Auto and GTA are trademarks of their respective owners.'
+          : 'Web de fans independiente. No está afiliada ni respaldada por Rockstar Games ni Take-Two Interactive. Grand Theft Auto y GTA son marcas de sus respectivos propietarios.'}</p>
       </div>
       <nav aria-label="Legal" class="footer-links">
-        <a href="/sobre-nosotros/">Sobre nosotros</a>
-        <a href="/contacto/">Contacto</a>
-        <a href="/envia-tu-captura/">Envía tu captura</a>
-        <a href="/politica-editorial/">Política editorial</a>
-        <a href="/aviso-legal/">Aviso legal</a>
-        <a href="/privacidad/">Privacidad</a>
-        <a href="/cookies/">Cookies</a>
-        {SITE.adsenseClient && <a href="#" id="gestionar-cookies">Gestionar cookies</a>}
+        <a href="/sobre-nosotros/">{en ? 'About us (in Spanish)' : 'Sobre nosotros'}</a>
+        <a href="/contacto/">{en ? 'Contact' : 'Contacto'}</a>
+        {!en && <a href="/envia-tu-captura/">Envía tu captura</a>}
+        <a href="/politica-editorial/">{en ? 'Editorial policy (in Spanish)' : 'Política editorial'}</a>
+        <a href="/aviso-legal/">{en ? 'Legal notice' : 'Aviso legal'}</a>
+        <a href="/privacidad/">{en ? 'Privacy' : 'Privacidad'}</a>
+        <a href="/cookies/">{en ? 'Cookies' : 'Cookies'}</a>
+        {SITE.adsenseClient && <a href="#" id="gestionar-cookies">{en ? 'Cookie settings' : 'Gestionar cookies'}</a>}
         {SITE.social.x && <a href={`https://x.com/${SITE.social.x}`} rel="me noopener" target="_blank">X (Twitter)</a>}
         {SITE.social.telegram && <a href={`https://t.me/${SITE.social.telegram}`} rel="me noopener" target="_blank">Telegram</a>}
         {SITE.social.instagram && <a href={`https://www.instagram.com/${SITE.social.instagram}/`} rel="me noopener" target="_blank">Instagram</a>}

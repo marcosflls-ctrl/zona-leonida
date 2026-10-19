@@ -2,7 +2,7 @@
 import fs from 'node:fs';
 import HoraLocal from '../../components/HoraLocal.astro';
 import { srcset } from '../../lib/img';
-import { render } from 'astro:content';
+import { render, getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import PostCard from '../../components/PostCard.astro';
 import AdSlot from '../../components/AdSlot.astro';
@@ -22,6 +22,9 @@ const d = post.data;
 const cat = CATEGORIES[d.category];
 const url = `${SITE.url}/${d.category}/${post.id}/`;
 const related = relacionados(post, all, 3);
+// Versión en inglés de esta guía, si existe (src/content/en, campo es)
+const enVersion = (await getCollection('en')).find((g) => !g.data.draft && g.data.es === `/${d.category}/${post.id}/`);
+const alternates = enVersion ? { es: `/${d.category}/${post.id}/`, en: `/en/${enVersion.id}/` } : undefined;
 // La portada en 16:9, 4:3 y 1:1 (si existen los recortes), como recomienda Google para Discover
 const imagenesSchema = (src: string) => [src, src.replace(/\.webp$/, '-4x3.webp'), src.replace(/\.webp$/, '-1x1.webp')]
   .filter((s, i) => i === 0 || fs.existsSync(`public${s}`))
@@ -58,7 +61,7 @@ const jsonLd = [
   },
 ];
 ---
-<Base title={d.title} description={d.description} image={d.image ?? `/img/portadas/${d.category}.webp`} type="article" jsonLd={jsonLd} published={d.date} modified={d.updated ?? d.date} section={cat.label}>
+<Base title={d.title} description={d.description} image={d.image ?? `/img/portadas/${d.category}.webp`} type="article" jsonLd={jsonLd} published={d.date} modified={d.updated ?? d.date} section={cat.label} alternates={alternates}>
   <article class="post" data-pagefind-body>
     <nav class="breadcrumbs" data-pagefind-ignore><a href="/">Inicio</a> › <a href={`/${d.category}/`}>{cat.label}</a></nav>
     <header>
@@ -76,6 +79,7 @@ const jsonLd = [
               {d.updated && d.updated.getTime() - d.date.getTime() > 36e5 && <> · Actualizado el <time datetime={d.updated.toISOString()}>{formatDate(d.updated)}</time></>}
             </>}
         · {readingTime(post.body ?? '')} min de lectura
+        {alternates && <> · <a href={alternates.en} lang="en">Read in English</a></>}
       </p>
     </header>
     <figure class="hero">
