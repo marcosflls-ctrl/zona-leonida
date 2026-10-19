@@ -35,7 +35,7 @@ sources:
 
 ## La semana del lanzamiento
 
-**7. Silencia los spoilers.** Con las filtraciones de las últimas semanas, es fácil que te destripen algo. En X, silencia palabras como «GTA 6 leak», «spoiler GTA 6» o «Cyberleek» (Configuración y privacidad → Privacidad y seguridad → Silenciar y bloquear → Palabras silenciadas). Te explicamos [por qué no difundimos esas filtraciones](/noticias/gta-6-cyberleek-nueva-filtracion-take-two/).
+**7. Silencia los spoilers.** Con las filtraciones de las últimas semanas, es fácil que te destripen algo. En X, silencia palabras como «GTA 6 leak», «spoiler GTA 6» o «Cyberleek» (Configuración y privacidad → Privacidad y seguridad → Silenciar y bloquear → Palabras silenciadas). Te explicamos [por qué no difundimos esas filtraciones](/guias/gta-6-filtraciones-cyberleek-que-ha-pasado/).
 
 **8. Mira a qué hora se desbloquea.** En España, a las **00:00 del 19 de noviembre** (23:00 del miércoles 18 en Canarias). En Latinoamérica depende del país: consulta [la hora de salida en tu país](/guias/gta-6-a-que-hora-sale/).
 

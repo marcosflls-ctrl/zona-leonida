@@ -23,7 +23,7 @@ Aquí tienes lo que sí se sabe, cómo funcionaban en entregas anteriores y lo q
 
 No está confirmado, pero hay buenas razones para pensar que sí: **todos los GTA principales han tenido trucos**, desde GTA III hasta GTA 5. Lo que no sabemos es cómo se activarán ni qué permitirán.
 
-Una duda razonable es si encajan con el nuevo sistema de policía, que tiene en cuenta testigos y cámaras: un truco para quitar las estrellas tendría que borrar también lo que la policía sabe de ti. Lo explicamos en [las seis estrellas y el sistema de Heat](/noticias/gta-6-asi-funcionan-las-seis-estrellas-y-el-sistema-de-heat/).
+Una duda razonable es si encajan con el nuevo sistema de policía, que tiene en cuenta testigos y cámaras: un truco para quitar las estrellas tendría que borrar también lo que la policía sabe de ti. Lo explicamos en [las seis estrellas y el sistema de Heat](/guias/gta-6-jugabilidad-todo-lo-confirmado/).
 
 ## Cómo funcionaban los trucos en GTA 5
 
@@ -41,7 +41,7 @@ Había trucos de salud y armadura, armas, vehículos (desde un avión de acrobac
 
 ## ¿Hay trucos para conseguir dinero?
 
-En GTA 5 no los había, y no hay nada que indique que vaya a cambiar. En GTA 6, además, el dinero tiene más peso: según Rockstar, habrá momentos de la historia en los que **tendrás que reunir dinero para avanzar**. Te lo contamos en [el dinero en GTA 6](/noticias/gta-6-el-dinero-sera-mas-importante-que-en-otros-gta-segun-rockstar/).
+En GTA 5 no los había, y no hay nada que indique que vaya a cambiar. En GTA 6, además, el dinero tiene más peso: según Rockstar, habrá momentos de la historia en los que **tendrás que reunir dinero para avanzar**. Te lo contamos en [el dinero en GTA 6](/guias/gta-6-jugabilidad-todo-lo-confirmado/).
 
 <!-- RELLENAR EL DÍA DE LANZAMIENTO:
 ## Cómo activar los trucos

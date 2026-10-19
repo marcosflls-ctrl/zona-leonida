@@ -63,4 +63,4 @@ Ten en cuenta el espacio: GTA 6 podría ocupar entre 100 y 150 GB. Lo explicamos
 
 **¿Y en PC?** Tampoco sale de momento. Te contamos todo en [¿saldrá GTA 6 en PC?](/guias/gta-6-pc/).
 
-Repasa todas las [fechas y plataformas de GTA 6](/noticias/gta-6-fecha-de-lanzamiento-plataformas/) y el [precio de cada edición](/guias/gta-6-precio-ediciones-reservas/).
+Repasa todas las [fechas y plataformas de GTA 6](/guias/gta-6-a-que-hora-sale/) y el [precio de cada edición](/guias/gta-6-precio-ediciones-reservas/).

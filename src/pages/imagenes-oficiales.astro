@@ -10,6 +10,7 @@ const title = 'Imágenes oficiales de GTA 6: galería completa de Rockstar';
 const description = 'Todas las capturas oficiales de GTA 6 publicadas por Rockstar: Jason y Lucía, personajes, Vice City y Leonida, la edición Ultimate y el pack Vintage Vice City.';
 const url = `${SITE.url}/imagenes-oficiales/`;
 
+// Página noindex y sin anuncios: es contenido de Rockstar sin aportación propia (revisión de AdSense, octubre de 2026).
 // Secciones de la página y grupos que incluye cada una, en orden
 const SECCIONES: { titulo: string; id: string; grupos: [string, string, string?][] }[] = [
   { titulo: 'Jason y Lucía', id: 'protagonistas', grupos: [['jason-y-lucia', 'Jason y Lucía'], ['jason-duval', 'Jason Duval', '/personajes/jason-duval/'], ['lucia-caminos', 'Lucía Caminos', '/personajes/lucia-caminos/']] },
@@ -51,7 +52,7 @@ const jsonLd = {
   })),
 };
 ---
-<Base title={title} description={description} image="/img/oficial/vice-city-1.webp" jsonLd={jsonLd}>
+<Base title={title} description={description} image="/img/oficial/vice-city-1.webp" jsonLd={jsonLd} noindex>
   <nav class="breadcrumbs"><a href="/">Inicio</a> › Imágenes oficiales</nav>
   <h1>Imágenes oficiales de GTA 6</h1>
   <p class="lead">Las {total} capturas oficiales que Rockstar Games ha publicado en su kit de prensa, ordenadas por personajes, lugares y ediciones. Pulsa cualquiera para verla en grande.</p>

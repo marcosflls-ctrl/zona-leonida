@@ -24,7 +24,7 @@ IMÁGENES (por orden de preferencia):
 <!-- VÍDEO: uno por coche difícil de encontrar, en el minuto de su ubicación. IMAGEN: oficiales de /img/oficial/ (grotti-cheetah, vapid-stanier, buggy...). -->
 Leonida está llena de coches, lanchas y motos, y no todos se pueden robar igual. Esta guía reúne los más rápidos, los que puedes conseguir gratis y dónde encontrarlos. <!-- RELLENAR: 1-2 frases con el coche más rápido y el mejor para empezar. -->
 
-> **Antes de robar:** según Rockstar, algunos coches necesitan herramientas que se consiguen avanzando en la historia, y la app WAiNK te dice qué seguridad tiene cada uno y cuánto vale. Más en [así funciona WAiNK](/noticias/gta-6-la-app-waink-servira-para-robar-coches-de-lujo/).
+> **Antes de robar:** según Rockstar, algunos coches necesitan herramientas que se consiguen avanzando en la historia, y la app WAiNK te dice qué seguridad tiene cada uno y cuánto vale. Más en [así funciona WAiNK](/guias/gta-6-jugabilidad-todo-lo-confirmado/).
 
 ## Los coches más rápidos
 

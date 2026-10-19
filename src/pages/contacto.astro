@@ -3,8 +3,22 @@ import Page from '../layouts/Page.astro';
 import { SITE } from '../config';
 const email = SITE.email;
 ---
-<Page title="Contacto" description="Contacta con la redacción: errores, sugerencias, colaboraciones y publicidad.">
-  <p>¿Has encontrado un error, tienes un descubrimiento que compartir o quieres colaborar? Escríbenos a:</p>
-  <p><a href={`mailto:${email}`}><strong>{email}</strong></a></p>
-  <p>Intentamos responder en 48 horas.</p>
+<Page title="Contacto" description="Contacta con Zona Leonida: errores, descubrimientos, capturas, sugerencias, colaboraciones y publicidad.">
+  <p>Puedes escribirnos a <a href={`mailto:${email}`}><strong>{email}</strong></a>. Leemos todos los mensajes e intentamos responder en 48 horas.</p>
+
+  <h2>Para qué puedes escribirnos</h2>
+  <ul>
+    <li><strong>Has visto un error.</strong> Dinos en qué página está y qué dato es incorrecto, con un enlace a la fuente si la tienes. Lo comprobamos y, si hay que corregirlo, lo hacemos y lo indicamos en el artículo.</li>
+    <li><strong>Has descubierto algo en GTA 6.</strong> Un secreto, un guiño a otro juego, una localización real o un detalle de los tráilers. Cuéntanoslo y, si lo publicamos, citaremos tu nombre o tu usuario si quieres. También puedes <a href="/envia-tu-captura/">enviarnos tu captura</a>.</li>
+    <li><strong>Echas en falta una guía.</strong> Muchas de nuestras guías nacen de preguntas de lectores. Si buscas algo sobre GTA 6 que no encuentras, pregúntanos.</li>
+    <li><strong>Colaboraciones y publicidad.</strong> Escríbenos con tu propuesta. Los contenidos patrocinados, si los hubiera, irían siempre señalados como tales.</li>
+  </ul>
+
+  <h2>Lo que no hacemos</h2>
+  <ul>
+    <li>No compartimos enlaces, vídeos ni archivos de filtraciones del juego, y no publicamos spoilers de la historia.</li>
+    <li>No somos Rockstar Games: no podemos ayudarte con problemas de tu cuenta, de tus compras o del Social Club. Para eso, usa el <a href="https://support.rockstargames.com/" rel="nofollow">soporte oficial de Rockstar</a>.</li>
+  </ul>
+
+  <p>Si quieres saber cómo trabajamos y cómo elegimos las fuentes, lo tienes en <a href="/sobre-nosotros/">sobre nosotros</a> y en nuestra <a href="/politica-editorial/">política editorial</a>.</p>
 </Page>

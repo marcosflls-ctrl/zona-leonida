@@ -37,7 +37,7 @@ Pritchard también insistió en la filosofía de la compañía: Nintendo ha dich
 
 La fuente señala además una curiosa coincidencia de calendario: el remake de *The Legend of Zelda: Ocarina of Time* llega el 5 de noviembre, solo dos semanas antes de GTA 6. IGN apunta que es de los lanzamientos de gran presupuesto que más se han acercado a una fecha de Rockstar, y menciona que un sketch reciente de *Saturday Night Live* bromeó con esta doble cita llamándola el «Barbenheimer» de los videojuegos.
 
-Si quieres repasar el calendario completo, puedes consultar la [fecha de lanzamiento y plataformas de GTA 6](/noticias/gta-6-fecha-de-lanzamiento-plataformas/) y el [horario de salida por país](/guias/gta-6-a-que-hora-sale/).
+Si quieres repasar el calendario completo, puedes consultar la [fecha de lanzamiento y plataformas de GTA 6](/guias/gta-6-a-que-hora-sale/) y el [horario de salida por país](/guias/gta-6-a-que-hora-sale/).
 
 ## En resumen
 

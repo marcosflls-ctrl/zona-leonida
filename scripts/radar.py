@@ -10,7 +10,7 @@ Uso:
   python scripts/radar.py            # normal (en GitHub usa la federación de identidades, sin clave;
                                      # en tu PC puedes usar ANTHROPIC_API_KEY=...)
   python scripts/radar.py --dry-run                      # solo lista lo que encontraría
-Variables opcionales: MAX_PER_RUN (3), MODEL (claude-sonnet-5-5)
+Variables opcionales: MAX_PER_RUN (2), MODEL (claude-sonnet-5-5)
 """
 from __future__ import annotations
 
@@ -36,7 +36,7 @@ STATE_FILE = ROOT / "scripts" / "state" / "seen.json"
 POSTS_DIR = ROOT / "src" / "content" / "posts"
 
 MAX_AGE_HOURS = 48  # no se escriben noticias de fuentes con más de 2 días
-MAX_PER_RUN = int(os.environ.get("MAX_PER_RUN", "3"))
+MAX_PER_RUN = int(os.environ.get("MAX_PER_RUN", "2"))
 MODEL = os.environ.get("MODEL", "claude-sonnet-5-5")
 MIN_SOURCE_CHARS = 600          # si no hay texto suficiente, no se escribe (evita inventar)
 SIMILARITY_SKIP = 0.62          # títulos muy parecidos = misma noticia ya cubierta
@@ -357,11 +357,11 @@ Rockstar/Take-Two, acciones legales, polémica). Puedes añadir UNA descripción
 atribuida al medio que lo ha visto ("según Dexerto, muestra a Lucía conduciendo y en combate por Vice City"). NUNCA cuentes \
 nada de la historia ni de las misiones (ni giros, ni personajes nuevos, ni escenas concretas, ni el final), ni detalles \
 escabrosos o sexuales. Avisa de que no lo enlazamos para no hacer spoilers y enlaza nuestra postura: \
-/noticias/gta-6-cyberleek-nueva-filtracion-take-two/
+/guias/gta-6-filtraciones-cyberleek-que-ha-pasado/
 - No menciones imágenes ni vídeos en el texto: si hay material oficial se añade automáticamente.
 - ENLAZA LAS GUÍAS DE REFERENCIA cuando la noticia toque su tema: precio/ediciones → /guias/gta-6-precio-ediciones-reservas/, \
 PC → /guias/gta-6-pc/, tamaño/precarga → /guias/gta-6-cuanto-ocupa/, mapa/zonas → /guias/gta-6-mapa-leonida/, \
-personajes → /guias/gta-6-personajes/, hora de salida por país → /guias/gta-6-a-que-hora-sale/, tráilers → /trailers/, online/multijugador → /guias/gta-6-modo-online/, edición Ultimate → /guias/gta-6-merece-la-pena-edicion-ultimate/, precios en Latinoamérica → /guias/gta-6-precio-latinoamerica/, FPS/PS5 Pro/rendimiento → /guias/gta-6-ps5-pro-fps-resolucion/, coches → /guias/gta-6-coches-vehiculos-confirmados/, idiomas/doblaje/subtítulos → /guias/gta-6-idiomas-espanol-doblaje/, PEGI/ESRB/edad → /guias/gta-6-pegi-edad-recomendada/, edición física/disco/código → /guias/gta-6-trae-disco-edicion-fisica/, preparativos del lanzamiento → /guias/gta-6-checklist-lanzamiento/, retrasos/historia del desarrollo → /guias/gta-6-cronologia/, comparativas con GTA Vice City de 2002 → /guias/gta-6-vice-city-2002-vs-gta-6/, duración/horas de juego → /guias/gta-6-cuanto-dura/, trucos/claves → /trucos/gta-6-trucos-claves-ps5-xbox/. Para un resumen general, enlaza /guias/gta-6-todo-lo-que-sabemos/. Si la noticia habla de un personaje, enlaza su ficha: /personajes/jason-duval/, /personajes/lucia-caminos/, /personajes/cal-hampton/, /personajes/boobie-ike/, /personajes/dre-quan-priest/, /personajes/real-dimez/, /personajes/raul-bautista/, /personajes/brian-heder/.
+personajes → /guias/gta-6-personajes/, hora de salida por país → /guias/gta-6-a-que-hora-sale/, tráilers → /trailers/, online/multijugador → /guias/gta-6-modo-online/, edición Ultimate → /guias/gta-6-merece-la-pena-edicion-ultimate/, precios en Latinoamérica → /guias/gta-6-precio-latinoamerica/, FPS/PS5 Pro/rendimiento → /guias/gta-6-ps5-pro-fps-resolucion/, coches → /guias/gta-6-coches-vehiculos-confirmados/, idiomas/doblaje/subtítulos → /guias/gta-6-idiomas-espanol-doblaje/, PEGI/ESRB/edad → /guias/gta-6-pegi-edad-recomendada/, edición física/disco/código → /guias/gta-6-trae-disco-edicion-fisica/, preparativos del lanzamiento → /guias/gta-6-checklist-lanzamiento/, retrasos/historia del desarrollo → /guias/gta-6-como-se-hizo-desarrollo-retrasos/ y /guias/gta-6-cronologia/, mecánicas de juego (policía, dinero, robos, Jason y Lucía) → /guias/gta-6-jugabilidad-todo-lo-confirmado/, filtraciones → /guias/gta-6-filtraciones-cyberleek-que-ha-pasado/, campaña de promoción y merchandising → /guias/gta-6-campana-marketing-miami-y-fiebre-del-lanzamiento/, comparativas con GTA Vice City de 2002 → /guias/gta-6-vice-city-2002-vs-gta-6/, duración/horas de juego → /guias/gta-6-cuanto-dura/, trucos/claves → /trucos/gta-6-trucos-claves-ps5-xbox/. Para un resumen general, enlaza /guias/gta-6-todo-lo-que-sabemos/. Si la noticia habla de un personaje, enlaza su ficha: /personajes/jason-duval/, /personajes/lucia-caminos/, /personajes/cal-hampton/, /personajes/boobie-ike/, /personajes/dre-quan-priest/, /personajes/real-dimez/, /personajes/raul-bautista/, /personajes/brian-heder/.
 - NO REPITAS TEMAS: si la noticia trata básicamente de lo mismo que alguno de los "artículos ya publicados" \
 (aunque la cuente otro medio o con otro enfoque), responde {"skip": true, "reason": "tema ya cubierto: <artículo>"}. \
 Solo escribe si aporta un dato nuevo relevante, y en ese caso céntrate en lo nuevo. \
@@ -369,11 +369,12 @@ Cuenta como repetición aunque el título sea distinto: el mismo informe, entrev
 otro medio (por ejemplo, el mismo reportaje de Bloomberg o las mismas declaraciones de un directivo), o un \
 detalle secundario de una noticia ya publicada. Revisa sobre todo los primeros de la lista, que son los más recientes.
 - APORTA ALGO PROPIO (obligatorio): no te limites a resumir la fuente. El artículo debe responder también a "¿y esto qué significa para mí como jugador?" con al menos una de estas aportaciones, siempre sin inventar: (a) relacionarlo con lo que ya está confirmado y enlazar la guía o el artículo nuestro que lo amplía; (b) explicar qué cambia respecto a GTA 5, RDR 2 u otra entrega, solo si la fuente o nuestros artículos lo permiten; (c) dejar claro qué ha confirmado Rockstar y qué no; (d) una tabla o lista que ordene la información mejor que el original. Si la noticia es tan menor que solo podrías resumirla (una opinión, una anécdota, otro medio que comenta o analiza algo que ya hemos publicado), descártala con {"skip": true, "reason": "sin valor propio: ..."}.
+- MENOS NOTICIAS, MÁS COMPLETAS: la web se valora por su contenido propio, no por el número de noticias. Descarta con {"skip": true, "reason": "menor: ..."} las acciones de marketing sueltas (un cartel, un coche, un anuncio), las anécdotas de famosos o fans, los comentarios de otros medios y los detalles menores de jugabilidad que ya cubre una de nuestras guías (jugabilidad, cómo se hizo, filtraciones, campaña de promoción): esos datos se añaden a la guía, no se publican como noticia. Publica solo novedades oficiales de Rockstar o Take-Two, datos nuevos importantes o temas que den para un artículo completo.
 - Si la fuente NO trata realmente de GTA VI, o es un refrito sin novedad, o es solo una opinión, responde {"skip": true, "reason": "..."}.
 
 LONGITUD Y ESTRUCTURA: la longitud la marca lo que hay que contar, no una cifra fija. Nunca rellenes ni repitas \
 ideas para alargar, y nunca recortes algo importante para acortar.
-- Noticia de un solo dato (una fecha, un precio, una declaración breve): 250-400 palabras. Ve al grano.
+- Noticia de un solo dato (una fecha, un precio, una declaración breve): solo si es una novedad oficial importante, y con el contexto que necesita el lector: 400-500 palabras como mínimo.
 - Noticia normal con varios detalles y contexto: 400-700 palabras.
 - Tema con mucha información (entrevista larga, avance con muchos detalles de jugabilidad, ficha técnica, \
 explicación de un sistema del juego): 800 palabras o más, SIN LÍMITE: si la fuente da para 2000, escribe 2000. \
@@ -397,7 +398,7 @@ FORMATO DE RESPUESTA: solo un objeto JSON válido, sin texto alrededor:
   "image_theme": "uno de estos temas de ilustración: {temas}",
   "official_refs": ["0-2 etiquetas de esta lista SOLO si son el tema central de la noticia (si no, lista vacía): {refs}"],
   "image_alt": "descripción genérica de una imagen promocional oficial de GTA VI (por si hay imagen oficial); nunca la relaciones con la filtración",
-  "title": "titular SEO de 50-70 caracteres que empiece por 'GTA 6' o 'GTA VI' cuando suene natural. Concreto y con el dato clave (una cifra, una fecha, la plataforma o la pregunta que se hace la gente, con sus signos ¿?). Mayúscula solo al principio y en nombres propios. Nunca exagerado ni engañoso: debe cumplir exactamente lo que promete",
+  "title": "titular SEO de 50-70 caracteres que empiece por 'GTA 6' o 'GTA VI' cuando suene natural. Concreto y con el dato clave (una cifra, una fecha, la plataforma o la pregunta que se hace la gente, con sus signos ¿?). Mayúscula solo al principio y en nombres propios. Nunca exagerado ni engañoso: debe cumplir exactamente lo que promete. NUNCA pongas en el título el medio de origen ni «según X»: la atribución va en el texto",
   "description": "entradilla/meta description de 130-160 caracteres que dé la respuesta o el dato principal y empiece con un verbo o con el hecho, no con 'En este artículo'",
   "tags": ["3-5 etiquetas en minúsculas"],
   "body": "artículo en Markdown (ver LONGITUD Y ESTRUCTURA). Incluye 1-3 enlaces internos a artículos relacionados de la lista si encajan de forma natural. No pongas el título como # al principio."

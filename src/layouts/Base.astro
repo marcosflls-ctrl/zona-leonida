@@ -58,7 +58,8 @@ const path = Astro.url.pathname;
   {SITE.cfAnalyticsToken && (
     <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon={`{"token": "${SITE.cfAnalyticsToken}"}`}></script>
   )}
-  {SITE.adsenseClient && (
+  {/* Sin anuncios en páginas noindex (por ejemplo, la galería de imágenes oficiales) */}
+  {SITE.adsenseClient && !noindex && (
     <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${SITE.adsenseClient}`} crossorigin="anonymous"></script>
   )}
 </head>
