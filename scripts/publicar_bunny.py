@@ -3,15 +3,17 @@ Publica la web construida (dist/) en Bunny.net: almacenamiento (Storage Zone) + 
 
 - Sube solo los archivos que han cambiado desde la última publicación (guarda una lista con sus huellas
   en el propio almacenamiento) y borra los que ya no existen.
-- Convierte las redirecciones de public/_redirects en páginas que redirigen (Bunny no lee ese archivo).
+- Convierte las redirecciones de public/_redirects en reglas de Bunny (Edge Rules) que responden con una
+  redirección 301 de verdad, y deja además una página que redirige por si las reglas fallan.
+- Redirige con 301 los otros dominios (www y b-cdn.net) al principal, el primero de BUNNY_HOSTNAME.
 - Limpia la caché de las direcciones que han cambiado para que se vean al momento.
 
 Variables de entorno (secretos de GitHub):
   BUNNY_STORAGE_ZONE      nombre del almacenamiento (p. ej. zona-leonida)
   BUNNY_STORAGE_PASSWORD  contraseña del almacenamiento (FTP & API access)
-  BUNNY_API_KEY           clave de la cuenta (para limpiar la caché)
+  BUNNY_API_KEY           clave de la cuenta (para limpiar la caché y crear las reglas de redirección)
   BUNNY_PULLZONE_ID       número de la distribución
-  BUNNY_HOSTNAME          dominio público (p. ej. zonaleonida.com), para limpiar la caché por dirección
+  BUNNY_HOSTNAME          dominios públicos separados por comas, el principal primero (p. ej. zonaleonida.com), para limpiar la caché por dirección
   BUNNY_STORAGE_HOST      opcional, por defecto storage.bunnycdn.com (Fráncfort)
 Uso: python scripts/publicar_bunny.py [carpeta]   (por defecto dist)
 """
@@ -39,6 +41,89 @@ MANIFIESTO = ".publicado.json"
 BASE = f"https://{HOST}/{ZONE}/"
 S = requests.Session()
 S.headers["AccessKey"] = PASSWORD
+
+
+def leer_redirecciones() -> list[tuple[str, str]]:
+    """Pares (origen, destino) de _redirects; se ignoran comodines y direcciones con dominio."""
+    f = DIST / "_redirects"
+    if not f.exists():
+        return []
+    pares = []
+    for linea in f.read_text(encoding="utf-8").splitlines():
+        partes = linea.split()
+        if len(partes) < 2 or linea.lstrip().startswith("#") or "*" in partes[0] or ":" in partes[0]:
+            continue
+        pares.append((partes[0], partes[1]))
+    return pares
+
+
+PREFIJO = "auto:"  # las reglas que gestiona este script; las demás de Bunny no se tocan
+
+
+def reglas(pares: list[tuple[str, str]]) -> bool:
+    """Sincroniza las Edge Rules de redirección de la distribución. Devuelve False si algo falla."""
+    if not API_KEY or not PULLZONE or not HOSTNAMES:
+        print("· Sin clave de API: no se actualizan las reglas de redirección")
+        return True
+    dominio = HOSTNAMES[0]
+    base = f"https://{dominio}"
+    deseadas: dict[str, dict] = {}
+
+    def regla(nombre: str, destino: str, patrones: list[str]) -> None:
+        deseadas[f"{PREFIJO} {nombre}"] = {
+            "ActionType": 1,  # redirección
+            "ActionParameter1": destino,
+            "ActionParameter2": "301",
+            "TriggerMatchingType": 0,
+            "Enabled": True,
+            "Triggers": [{"Type": 0, "PatternMatchingType": 0, "PatternMatches": patrones}],  # Type 0 = URL
+        }
+
+    otros = HOSTNAMES[1:]
+    if otros:
+        regla(f"otros dominios a {dominio}", base + "{{path}}", [f"*://{h}/*" for h in otros])
+    por_destino: dict[str, list[str]] = {}
+    for origen, destino in pares:
+        destino = destino if destino.startswith("http") else base + destino
+        pats = por_destino.setdefault(destino, [])
+        for o in {origen, origen.rstrip("/")} - {""}:
+            pats.append(f"*://{dominio}{o}")
+    for destino, pats in por_destino.items():
+        pats = sorted(set(pats))
+        for i in range(0, len(pats), 10):  # pocas condiciones por regla
+            regla(f"{destino[len(base):] or '/'} #{i // 10 + 1}", destino, pats[i:i + 10])
+
+    h = {"AccessKey": API_KEY}
+    r = requests.get(f"https://api.bunny.net/pullzone/{PULLZONE}", headers=h, timeout=60)
+    if r.status_code != 200:
+        print(f"::warning title=Reglas de Bunny::No se pudo leer la distribución ({r.status_code}): {r.text[:200]}")
+        return False
+    existentes = {e.get("Description") or "": e for e in r.json().get("EdgeRules") or []}
+    ok, cambios = True, 0
+    for nombre, cuerpo in deseadas.items():
+        e = existentes.get(nombre)
+        if e and e.get("ActionParameter1") == cuerpo["ActionParameter1"] and str(e.get("ActionParameter2")) == "301" \
+                and e.get("Enabled") and sorted(sum((t.get("PatternMatches") or [] for t in e.get("Triggers") or []), [])) \
+                == sorted(cuerpo["Triggers"][0]["PatternMatches"]):
+            continue
+        datos = dict(cuerpo, Description=nombre)
+        if e:
+            datos["Guid"] = e["Guid"]
+        r = requests.post(f"https://api.bunny.net/pullzone/{PULLZONE}/edgerules/addOrUpdate", headers=h, json=datos, timeout=60)
+        if r.status_code not in (200, 201, 204):
+            ok = False
+            print(f"::warning title=Reglas de Bunny::No se pudo guardar «{nombre}» ({r.status_code}): {r.text[:200]}")
+        else:
+            cambios += 1
+    for nombre, e in existentes.items():
+        if nombre.startswith(PREFIJO) and nombre not in deseadas:
+            r = requests.delete(f"https://api.bunny.net/pullzone/{PULLZONE}/edgerules/{e['Guid']}", headers=h, timeout=60)
+            cambios += r.status_code in (200, 204)
+    print(f"Reglas de redirección: {len(deseadas)} ({cambios} cambiadas)")
+    if cambios:
+        requests.post(f"https://api.bunny.net/pullzone/{PULLZONE}/purgeCache", headers=h, timeout=60)
+        print("· Caché limpiada entera por cambio de reglas")
+    return ok
 
 
 def redirecciones() -> int:
@@ -112,6 +197,7 @@ def main() -> int:
     if not DIST.is_dir():
         print(f"! No existe {DIST}")
         return 1
+    pares = leer_redirecciones()
     print(f"Redirecciones convertidas: {redirecciones()}")
     local = {p.relative_to(DIST).as_posix(): huella(p) for p in DIST.rglob("*") if p.is_file()}
     r = S.get(BASE + MANIFIESTO, timeout=60)
@@ -136,9 +222,12 @@ def main() -> int:
 
     # Solo hace falta limpiar la caché de lo que ya existía (lo nuevo aún no está en caché)
     purgar([c for c in cambiados if c in remoto and c not in fallos] + sobran)
+    reglas_ok = reglas(pares)
     if fallos:
         return 1
     print("✓ Publicado")
+    if not reglas_ok:
+        return 1
     return 0
 
 
