@@ -43,6 +43,9 @@ S.headers["AccessKey"] = PASSWORD
 
 def redirecciones() -> int:
     """Crea una página de redirección por cada línea de _redirects (origen destino [código])."""
+    # Bunny no hace redirecciones 301 desde el almacenamiento: se crea una página con redirección inmediata
+    # (meta refresh 0) y canonical al destino, que Google trata como una redirección permanente. Sin noindex,
+    # para que la dirección antigua pase su valor a la nueva.
     f = DIST / "_redirects"
     if not f.exists():
         return 0
@@ -59,7 +62,7 @@ def redirecciones() -> int:
         dest.parent.mkdir(parents=True, exist_ok=True)
         dest.write_text(
             f'<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Redirigiendo…</title>'
-            f'<link rel="canonical" href="{d}"><meta name="robots" content="noindex">'
+            f'<link rel="canonical" href="{d}">'
             f'<meta http-equiv="refresh" content="0; url={d}"><script>location.replace("{d}")</script></head>'
             f'<body><p>Esta página se ha movido a <a href="{d}">{d}</a>.</p></body></html>', encoding="utf-8")
         n += 1

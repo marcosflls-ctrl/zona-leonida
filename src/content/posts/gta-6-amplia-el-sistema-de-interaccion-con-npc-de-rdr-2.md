@@ -9,11 +9,15 @@ image: /img/oficial/vice-city-10.webp
 imageAlt: "Vice City, imagen oficial de GTA VI"
 imageCredit: "Rockstar Games"
 sources:
+  - name: "Bloomberg (Jason Schreier): Inside the Making of Grand Theft Auto 6"
+    url: "https://www.bloomberg.com/features/2026-grand-theft-auto-6-making-of/"
+  - name: "GamesRadar: Rob Nelson a IGN, la interacción con NPC vuelve y evoluciona"
+    url: "https://www.gamesradar.com/games/grand-theft-auto/rockstar-lead-says-gta-6-takes-npc-interactions-much-further-than-red-dead-redemption-2-and-its-system-is-returning-and-evolved/"
   - name: "GamesRadar: A Red Dead Redemption 2 system that greatly shaped GTA 6 almost wasn't pitched"
     url: "https://www.gamesradar.com/games/grand-theft-auto/a-fundamental-red-dead-redemption-2-system-provided-the-basis-for-how-gta-6s-npcs-work-but-it-was-nearly-cut-because-of-an-ambitious-rockstar-studio-head/"
 ---
 
-GTA 6 recuperará y ampliará el sistema de interacción con personajes no jugables (NPC) de Red Dead Redemption 2. Lo ha confirmado Rob Nelson, jefe de Rockstar North, en declaraciones a IGN. Además, según cuenta el periodista de Bloomberg Jason Schreier tras visitar Rockstar para ver el juego, esta tecnología estuvo a punto de no llegar nunca a manos de Nelson.
+GTA 6 recuperará y ampliará el sistema de interacción con personajes no jugables (NPC) de Red Dead Redemption 2. Lo ha confirmado Rob Nelson, jefe de Rockstar North, en declaraciones a IGN. Además, según cuenta el periodista Jason Schreier en su [reportaje de Bloomberg](https://www.bloomberg.com/features/2026-grand-theft-auto-6-making-of/) tras visitar Rockstar para ver el juego, esta tecnología estuvo a punto de no llegar nunca a manos de Nelson.
 
 ## Qué ha confirmado Rockstar sobre los NPC de GTA 6
 
