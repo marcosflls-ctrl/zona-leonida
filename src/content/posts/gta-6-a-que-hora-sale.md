@@ -55,6 +55,8 @@ El lanzamiento **no es simultáneo en todo el mundo**: el juego se desbloquea a 
 
 **El truco para salir de dudas:** si ya lo has reservado, entra en la ficha del juego en la PlayStation Store o en la Microsoft Store con tu cuenta. Ahí aparece la hora exacta de desbloqueo para tu región.
 
+**Todo lo de tu país en una página** (hora, precio y dónde comprarlo): [México](/guias/gta-6-en-mexico/) · [Colombia](/guias/gta-6-en-colombia/) · [Argentina](/guias/gta-6-en-argentina/) · [Chile](/guias/gta-6-en-chile/) · [Perú](/guias/gta-6-en-peru/) · [España](/guias/gta-6-en-espana/).
+
 ## ¿Cuándo empieza la precarga?
 
 Si lo has reservado en digital, podrás **descargarlo desde el 12 de noviembre**, una semana antes. Así, cuando llegue la medianoche del 19, solo tendrás que abrirlo. Antes de esa fecha, asegúrate de tener espacio libre: te lo explicamos en [cuánto ocupa GTA 6](/guias/gta-6-cuanto-ocupa/).

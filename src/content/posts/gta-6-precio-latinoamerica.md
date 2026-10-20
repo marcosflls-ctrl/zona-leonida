@@ -40,6 +40,8 @@ El precio oficial de GTA 6 es de **79,99 dólares la edición estándar y 99,99 
 
 > Los precios de Xbox son los de la Microsoft Store de cada país. Los de PS5 los hemos revisado en la PlayStation Store de cada país el 10 de octubre de 2026. Comprueba siempre el precio final en la tienda antes de pagar: los impuestos y el tipo de cambio pueden moverlo.
 
+**Guía completa de tu país** (hora, precio, tiendas e impuestos): [México](/guias/gta-6-en-mexico/) · [Colombia](/guias/gta-6-en-colombia/) · [Argentina](/guias/gta-6-en-argentina/) · [Chile](/guias/gta-6-en-chile/) · [Perú](/guias/gta-6-en-peru/) · [España](/guias/gta-6-en-espana/).
+
 ## Resumen de precios
 
 | País | Estándar Xbox | Ultimate Xbox | PS5 (estándar / Ultimate) |
