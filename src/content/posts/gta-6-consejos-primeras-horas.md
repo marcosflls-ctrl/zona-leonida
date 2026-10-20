@@ -1,5 +1,5 @@
 ---
-title: "Consejos para empezar en GTA 6: lo que debes saber en tus primeras horas"
+title: "Consejos para empezar GTA 6: qué saber en tus primeras horas"
 description: "Consejos para tus primeras horas en GTA 6: qué hacer primero, cómo ganar dinero al principio, la policía, el móvil y los errores que conviene evitar."
 date: 2026-11-19T00:00:00+01:00
 updated: 2026-11-19T00:00:00+01:00

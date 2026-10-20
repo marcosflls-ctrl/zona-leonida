@@ -1,5 +1,5 @@
 ---
-title: "Filtraciones de GTA 6 y Cyberleek: qué ha pasado, fecha a fecha, y cómo evitar spoilers"
+title: "Filtraciones de GTA 6 y Cyberleek: qué pasó y cómo evitar spoilers"
 description: "Quién es Cyberleek, qué filtró, cómo funcionaba su criptomoneda, qué han hecho Rockstar y Take-Two y por qué no enlazamos nada. Con consejos para evitar spoilers."
 date: 2026-10-19T19:31:00+02:00
 category: guias

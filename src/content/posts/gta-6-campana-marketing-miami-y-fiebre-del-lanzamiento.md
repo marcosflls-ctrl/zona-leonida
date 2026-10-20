@@ -1,5 +1,5 @@
 ---
-title: "La campaña de GTA 6: Vice City toma Miami, el merchandising oficial y la fiebre del 19 de noviembre"
+title: "La campaña de GTA 6: Vice City toma Miami y llega la fiebre del 19N"
 description: "El cartel del Kaseya Center, el partido de los Heat, el dirigible, los coches de la policía en Miami y Nueva York, la colección oficial y cómo el estreno altera agendas."
 date: 2026-10-19T19:33:00+02:00
 category: guias

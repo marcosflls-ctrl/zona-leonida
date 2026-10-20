@@ -1,5 +1,5 @@
 ---
-title: "GTA 6 en Argentina: hora de salida, precio con impuestos y cómo comprarlo"
+title: "GTA 6 en Argentina: hora de salida, precio con impuestos y tiendas"
 description: "En Argentina, GTA 6 sale a la medianoche del 19 de noviembre (previsto). Precio en Xbox y PS5, qué impuestos se suman con tarjeta y el bloqueo de la caja."
 date: 2026-10-20T18:15:00+02:00
 category: guias
