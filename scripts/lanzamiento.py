@@ -1,6 +1,6 @@
 """Día del lanzamiento: rellena las guías preparadas en borrador y las propone para publicar.
 
-Las 8 plantillas del 19 de noviembre (draft: true) tienen huecos <!-- RELLENAR -->. A partir de la
+Las plantillas del 19 de noviembre (draft: true) tienen huecos <!-- RELLENAR -->. A partir de la
 fecha de feeds.json → "lanzamiento", cada pasada del radar:
 
 1. Busca en las fuentes del radar (y en el Newswire de Rockstar) noticias de GTA VI que encajen con
@@ -64,6 +64,21 @@ PLANTILLAS: dict[str, tuple[list[str], str]] = {
         ["secretos", "secreto", "easter egg", "easter eggs", "secret", "secrets", "hidden", "oculto", "escondido",
          "referencia a", "guiño"],
         "al menos tres secretos o easter eggs concretos, con dónde están",
+    ),
+    "gta-6-problemas-errores": (
+        ["error", "errores", "fallo", "fallos", "bug", "bugs", "crash", "se cierra", "no carga", "no descarga",
+         "servidores", "servers", "caído", "down", "parche", "patch", "hotfix", "solución", "fix"],
+        "al menos tres problemas concretos (descarga, cierres, código de error o servidores) con su solución o lo que ha dicho Rockstar",
+    ),
+    "gta-6-consejos-primeras-horas": (
+        ["consejos", "tips", "beginner", "principiantes", "primeras horas", "first hours", "things to know",
+         "lo que debes saber", "antes de empezar", "trucos para empezar"],
+        "al menos cinco consejos concretos para empezar, sacados de fuentes que ya han jugado",
+    ),
+    "gta-6-ajustes-calidad-rendimiento": (
+        ["modo calidad", "modo rendimiento", "quality mode", "performance mode", "digital foundry", "fps",
+         "resolución", "resolution", "ajustes gráficos", "graphics settings", "ps5 pro"],
+        "qué modos gráficos tiene en al menos dos consolas, con resolución y FPS medidos por un análisis técnico",
     ),
     "gta-6-trofeos-logros": (
         ["trofeos", "trofeo", "trophies", "trophy", "logros", "achievements", "platino", "platinum"],
