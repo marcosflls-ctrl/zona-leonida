@@ -1,5 +1,5 @@
 ---
-title: "Jugabilidad de GTA 6: policía, dinero, robos y la pareja, todo lo confirmado"
+title: "Jugabilidad de GTA 6: policía, dinero, robos y todo lo confirmado"
 description: "Cómo funcionan las seis estrellas y el Heat, el dinero, el robo de coches con WAiNK, el cambio entre Jason y Lucía, el perfil criminal y la vida diaria en GTA 6."
 date: 2026-10-19T19:30:00+02:00
 category: guias

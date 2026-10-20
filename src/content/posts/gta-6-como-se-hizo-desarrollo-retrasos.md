@@ -1,5 +1,5 @@
 ---
-title: "Cómo se hizo GTA 6: por qué tardó tanto, cuánto costó y quién lo dirigió"
+title: "Cómo se hizo GTA 6: por qué tardó tanto, cuánto costó y quién lo hizo"
 description: "Ocho años de desarrollo, Project Americas, dos retrasos, un estudio que se duplicó y cómo Rockstar planteó la sátira y los peatones. La historia de GTA 6 por dentro."
 date: 2026-10-19T19:32:00+02:00
 category: guias

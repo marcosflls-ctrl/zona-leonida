@@ -1,5 +1,5 @@
 ---
-title: "GTA 6 en Estados Unidos: hora de salida en cada estado, precio en dólares y en español"
+title: "GTA 6 en Estados Unidos: hora por estado, precio y si está en español"
 description: "A qué hora se desbloquea GTA 6 en Nueva York, Texas, California o Florida, cuánto cuesta en dólares con impuestos, dónde comprarlo y cómo jugarlo en español."
 date: 2026-10-19T23:00:00+02:00
 category: guias
