@@ -60,8 +60,19 @@ def leer_redirecciones() -> list[tuple[str, str]]:
 PREFIJO = "auto:"  # las reglas que gestiona este script; las demás de Bunny no se tocan
 
 
+def igual(e: dict, cuerpo: dict) -> bool:
+    """¿La regla que ya está en Bunny coincide con la que queremos?"""
+    def condiciones(r: dict) -> list:
+        return sorted((t.get("Type"), tuple(sorted(t.get("PatternMatches") or []))) for t in r.get("Triggers") or [])
+    return (e.get("ActionType") == cuerpo["ActionType"]
+            and str(e.get("ActionParameter1") or "") == cuerpo["ActionParameter1"]
+            and str(e.get("ActionParameter2") or "") == cuerpo["ActionParameter2"]
+            and e.get("TriggerMatchingType") == cuerpo["TriggerMatchingType"]
+            and e.get("Enabled") and condiciones(e) == condiciones(cuerpo))
+
+
 def reglas(pares: list[tuple[str, str]]) -> bool:
-    """Sincroniza las Edge Rules de redirección de la distribución. Devuelve False si algo falla."""
+    """Sincroniza las Edge Rules de la distribución (redirecciones y caché del navegador). Devuelve False si algo falla."""
     if not API_KEY or not PULLZONE or not HOSTNAMES:
         print("· Sin clave de API: no se actualizan las reglas de redirección")
         return True
@@ -80,6 +91,20 @@ def reglas(pares: list[tuple[str, str]]) -> bool:
             "Triggers": [{"Type": 0, "PatternMatchingType": 0, "PatternMatches": patrones[i:i + 5]}
                          for i in range(0, len(patrones), 5)],
         }
+
+    # Páginas y feeds: el navegador las guarda solo 1 minuto, para que quien vuelve vea la versión nueva.
+    # La CDN sigue guardándolas (se limpian al publicar) y las imágenes, CSS y JS mantienen sus 30 días.
+    deseadas[f"{PREFIJO} páginas siempre frescas en el navegador"] = {
+        "ActionType": 16,  # Override Browser Cache Time (segundos)
+        "ActionParameter1": "60",
+        "ActionParameter2": "",
+        "TriggerMatchingType": 0,  # basta con que se cumpla una condición
+        "Enabled": True,
+        "Triggers": [
+            {"Type": 0, "PatternMatchingType": 0, "PatternMatches": [f"*://{dominio}/", f"*://{dominio}/*/"]},
+            {"Type": 3, "PatternMatchingType": 0, "PatternMatches": ["html", "xml", "json", "txt"]},
+        ],
+    }
 
     otros = HOSTNAMES[1:]
     if otros:
@@ -104,9 +129,7 @@ def reglas(pares: list[tuple[str, str]]) -> bool:
     ok, cambios = True, 0
     for nombre, cuerpo in deseadas.items():
         e = existentes.get(nombre)
-        if e and e.get("ActionParameter1") == cuerpo["ActionParameter1"] and str(e.get("ActionParameter2")) == "301" \
-                and e.get("Enabled") and sorted(sum((t.get("PatternMatches") or [] for t in e.get("Triggers") or []), [])) \
-                == sorted(sum((t["PatternMatches"] for t in cuerpo["Triggers"]), [])):
+        if e and igual(e, cuerpo):
             continue
         datos = dict(cuerpo, Description=nombre)
         if e:
@@ -121,7 +144,7 @@ def reglas(pares: list[tuple[str, str]]) -> bool:
         if nombre.startswith(PREFIJO) and nombre not in deseadas:
             r = requests.delete(f"https://api.bunny.net/pullzone/{PULLZONE}/edgerules/{e['Guid']}", headers=h, timeout=60)
             cambios += r.status_code in (200, 204)
-    print(f"Reglas de redirección: {len(deseadas)} ({cambios} cambiadas)")
+    print(f"Reglas de Bunny: {len(deseadas)} ({cambios} cambiadas)")
     if cambios:
         requests.post(f"https://api.bunny.net/pullzone/{PULLZONE}/purgeCache", headers=h, timeout=60)
         print("· Caché limpiada entera por cambio de reglas")
