@@ -1,0 +1,83 @@
+---
+// Guías en inglés. El contenido está en src/content/en/*.md
+import { getCollection, render } from 'astro:content';
+import { srcset } from '../../lib/img';
+import Base from '../../layouts/Base.astro';
+import AdSlot from '../../components/AdSlot.astro';
+import { SITE } from '../../config';
+
+export async function getStaticPaths() {
+  const guias = (await getCollection('en')).filter((g) => !g.data.draft);
+  return guias.map((g) => ({ params: { slug: g.id }, props: { g, todas: guias } }));
+}
+const { g, todas } = Astro.props;
+const { Content } = await render(g);
+const d = g.data;
+const url = `${SITE.url}/en/${g.id}/`;
+const fecha = (x: Date) => x.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'America/New_York' });
+const otras = todas.filter((x: any) => x.id !== g.id).sort((a: any, b: any) => a.data.orden - b.data.orden);
+const jsonLd = [
+  {
+    '@context': 'https://schema.org', '@type': 'Article',
+    headline: d.title, description: d.description,
+    datePublished: d.date.toISOString(), dateModified: (d.updated ?? d.date).toISOString(),
+    inLanguage: 'en', mainEntityOfPage: url,
+    image: d.image ? [new URL(d.image, SITE.url).href] : undefined,
+    author: { '@type': 'Organization', name: 'Zona Leonida', url: `${SITE.url}/en/` },
+    publisher: { '@type': 'Organization', name: SITE.name, url: SITE.url, logo: { '@type': 'ImageObject', url: `${SITE.url}/icon-512.png`, width: 512, height: 512 } },
+    about: { '@type': 'VideoGame', name: 'Grand Theft Auto VI' },
+  },
+  {
+    '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'GTA 6 guides', item: `${SITE.url}/en/` },
+      { '@type': 'ListItem', position: 2, name: d.title, item: url },
+    ],
+  },
+];
+---
+<Base title={d.title} description={d.description} image={d.image} type="article" jsonLd={jsonLd} published={d.date} modified={d.updated ?? d.date} lang="en" alternates={{ en: `/en/${g.id}/`, es: d.es }}>
+  <article class="post">
+    <nav class="breadcrumbs"><a href="/en/">GTA 6 guides</a></nav>
+    <header>
+      <span class="tag vivo">Updated guide</span>
+      <h1>{d.title}</h1>
+      <p class="lead">{d.description}</p>
+      <p class="meta muted small">By the Zona Leonida team · Updated <time datetime={(d.updated ?? d.date).toISOString()}>{fecha(d.updated ?? d.date)}</time>{d.es && <> · <a href={d.es} lang="es">Leer en español</a></>}</p>
+    </header>
+    {d.image && (
+      <figure class="hero">
+        <img fetchpriority="high" decoding="async" src={d.image} srcset={srcset(d.image)} sizes="(max-width: 800px) 100vw, 760px" alt={d.imageAlt ?? ''} width="1200" height="675" />
+        {d.imageCredit && <figcaption class="credit">Image: {d.imageCredit}</figcaption>}
+      </figure>
+    )}
+    <AdSlot />
+    <div class="prose"><Content /></div>
+    {d.sources.length > 0 && (
+      <aside class="sources">
+        <strong>Sources</strong>
+        <ul>{d.sources.map((s: any) => <li><a href={s.url} rel="nofollow noopener" target="_blank">{s.name}</a></li>)}</ul>
+      </aside>
+    )}
+    <AdSlot />
+    {otras.length > 0 && (
+      <section class="more">
+        <h2>More GTA 6 guides</h2>
+        <ul>{otras.map((x: any) => <li><a href={`/en/${x.id}/`}>{x.data.title}</a></li>)}</ul>
+      </section>
+    )}
+  </article>
+</Base>
+<style>
+  .post { max-width: 760px; }
+  h1 { font-size: clamp(2rem, 6vw, 3.2rem); margin: 12px 0 10px; }
+  .lead { font-size: 1.2rem; color: var(--muted); margin: 0 0 10px; }
+  .meta a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
+  .hero { margin: 20px 0 0; }
+  .hero img { border-radius: var(--radius); width: 100%; display: block; }
+  .tag.vivo { background: #5dff8a22; color: var(--leaf); }
+  .sources { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 18px; margin-top: 32px; font-size: .95rem; }
+  .sources ul { margin: 6px 0 0; padding-left: 18px; }
+  .more { margin-top: 48px; }
+  .more h2 { font-size: 1.8rem; }
+</style>

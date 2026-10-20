@@ -51,6 +51,8 @@ El lanzamiento **no es simultáneo en todo el mundo**: el juego se desbloquea a 
 | Venezuela, Bolivia, República Dominicana y Puerto Rico | 00:00 del jueves 19 | 05:00 del jueves 19 | Previsto, sin confirmar |
 | Argentina, Chile, Uruguay y Paraguay | 00:00 del jueves 19 | 04:00 del jueves 19 | Previsto, sin confirmar |
 
+**¿Vives en Estados Unidos?** Tienes la hora de cada zona horaria, el precio en dólares y cómo jugarlo en español en [GTA 6 en Estados Unidos](/guias/gta-6-estados-unidos-hora-precio-espanol/).
+
 **¿Quieres la hora exacta de tu país?** La cuenta atrás de arriba detecta tu zona horaria y te dice cuánto falta. En Latinoamérica lo habitual es que el juego se desbloquee a medianoche de cada país, pero las tiendas todavía no lo muestran igual en todas las regiones. Actualizaremos esta tabla en cuanto aparezca en las tiendas de cada país.
 
 **El truco para salir de dudas:** si ya lo has reservado, entra en la ficha del juego en la PlayStation Store o en la Microsoft Store con tu cuenta. Ahí aparece la hora exacta de desbloqueo para tu región.
