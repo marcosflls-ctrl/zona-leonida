@@ -7,7 +7,7 @@ category: descubrimientos
 draft: true
 tags: [secretos, easter-eggs, descubrimientos]
 image: /img/oficial/monte-kalaga-1.webp
-imageAlt: "Parque nacional del monte Kalaga, imagen oficial de GTA VI"
+imageAlt: "Parque nacional del monte Kalaga, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources: []
 ---

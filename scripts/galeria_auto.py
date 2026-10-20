@@ -50,7 +50,7 @@ def main() -> int:
     tipos = {}
     for g in imgs:
         pref = base(g["archivo"]).rsplit("_", 1)[0]
-        tipos.setdefault(pref, {"grupo": g["grupo"], "refs": g["refs"], "label": g["alt"].replace(", imagen oficial de GTA VI", "")})
+        tipos.setdefault(pref, {"grupo": g["grupo"], "refs": g["refs"], "label": g["alt"].replace(", imagen oficial de GTA 6", "")})
 
     r = requests.get(URL, headers={"User-Agent": UA, "Accept-Language": "es-ES,es;q=0.9"}, timeout=40)
     r.raise_for_status()
@@ -91,7 +91,7 @@ def main() -> int:
         slug = f"{t['grupo']}-{n}"
         usados.add(slug)
         imgs.append({"slug": slug, "grupo": t["grupo"], "refs": t["refs"], "archivo": archivo,
-                     "alt": f"{t['label']}, imagen oficial de GTA VI"})
+                     "alt": f"{t['label']}, imagen oficial de GTA 6"})
         grupos_nuevos[t["label"]] += 1
         print(f"  + {slug}  ({archivo})")
 

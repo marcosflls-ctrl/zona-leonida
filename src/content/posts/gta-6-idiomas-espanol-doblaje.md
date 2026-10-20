@@ -6,7 +6,7 @@ updated: 2026-10-11T16:11:00+02:00
 category: guias
 tags: [idiomas, espanol, doblaje, subtitulos, lanzamiento]
 image: /img/oficial/jason-y-lucia-5.webp
-imageAlt: "Jason y Lucía, imagen oficial de GTA VI"
+imageAlt: "Jason y Lucía, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "Vandal: GTA 6 llegará sin doblaje al español, según la Microsoft Store"

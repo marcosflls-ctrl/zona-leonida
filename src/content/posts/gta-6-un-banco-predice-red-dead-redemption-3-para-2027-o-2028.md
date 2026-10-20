@@ -6,7 +6,7 @@ category: noticias
 tags: [red-dead-redemption-3, rockstar-games, citi, prevision, gta-6]
 rumor: false
 image: /img/oficial/cayos-de-leonida-5.webp
-imageAlt: "Cayos de Leónida, imagen oficial de GTA VI"
+imageAlt: "Cayos de Leónida, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "3DJuegos: GTA 6 no ha salido aún, pero un banco se marca un triple y predice cuándo llegará Red Dead"

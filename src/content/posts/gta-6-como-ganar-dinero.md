@@ -7,7 +7,7 @@ category: guias
 draft: true
 tags: [dinero, guia, golpes, negocios]
 image: /img/oficial/jason-duval-6.webp
-imageAlt: "Jason Duval, imagen oficial de GTA VI"
+imageAlt: "Jason Duval, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "Vandal: El dinero importa más en GTA 6 que en anteriores juegos de la saga"

@@ -6,7 +6,7 @@ updated: 2026-10-11T16:14:00+02:00
 category: guias
 tags: [lanzamiento, precarga, checklist, ps5, xbox]
 image: /img/oficial/jason-y-lucia-8.webp
-imageAlt: "Jason y Lucía, imagen oficial de GTA VI"
+imageAlt: "Jason y Lucía, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "Vandal: Rockstar confirma la fecha de precarga de GTA 6"

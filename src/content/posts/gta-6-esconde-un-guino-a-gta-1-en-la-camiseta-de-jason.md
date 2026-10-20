@@ -6,7 +6,7 @@ category: descubrimientos
 tags: [gta-6, easter-egg, jason-y-lucia, gta-1, trailer-de-lanzamiento]
 rumor: false
 image: /img/oficial/jason-y-lucia-4.webp
-imageAlt: "Jason y Lucía, imagen oficial de GTA VI"
+imageAlt: "Jason y Lucía, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "HobbyConsolas: Descubren en GTA 6 un pequeño guiño al primer juego de la saga que, además, podría dar una"

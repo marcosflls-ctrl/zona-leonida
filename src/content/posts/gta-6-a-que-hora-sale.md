@@ -9,7 +9,7 @@ cuentaAtras: true
 orden: 6
 tags: [lanzamiento, horario, precarga, ps5, xbox]
 image: /img/oficial/vice-city-1.webp
-imageAlt: "Vista de Vice City, imagen oficial de GTA VI"
+imageAlt: "Vista de Vice City, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 compras:
   - nombre: "GTA 6 para PS5"

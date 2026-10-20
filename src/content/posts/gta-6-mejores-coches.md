@@ -7,7 +7,7 @@ category: guias
 draft: true
 tags: [coches, vehiculos, guia]
 image: /img/oficial/grotti-cheetah-1.webp
-imageAlt: "Grotti Cheetah del 95 (edición Ultimate), imagen oficial de GTA VI"
+imageAlt: "Grotti Cheetah del 95 (edición Ultimate), imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources: []
 ---

@@ -6,7 +6,7 @@ category: noticias
 tags: [gta-6, jason-y-lucia, relacion, encuesta, yougov]
 rumor: false
 image: /img/oficial/jason-y-lucia-6.webp
-imageAlt: "Jason y Lucía, imagen oficial de GTA VI"
+imageAlt: "Jason y Lucía, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "IGN: With GTA 6's Dating System Incoming, a Surprising Percentage of Adults Think Investing in"
