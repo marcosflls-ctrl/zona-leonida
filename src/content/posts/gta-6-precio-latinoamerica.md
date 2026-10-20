@@ -4,6 +4,7 @@ description: "México: 1.499 pesos. Chile: 74.990. Colombia: 339.900. Precio de 
 date: 2026-10-09T19:16:00+02:00
 updated: 2026-10-10T12:45:00+02:00
 category: guias
+comparadorPrecio: true
 tags: [precio, latinoamerica, mexico, argentina, colombia, chile, peru]
 image: /img/oficial/vice-city-2.webp
 imageAlt: "Vice City, imagen oficial de GTA VI"

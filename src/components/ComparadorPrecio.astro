@@ -1,0 +1,69 @@
+---
+// Comparador «¿dónde sale más barato GTA 6 al cambio de hoy?»: pasa el precio oficial de cada país
+// a dólares y euros con el cambio del día (scripts/divisas.py → src/data/divisas.json).
+import fs from 'node:fs';
+import { PRECIOS_GTA6 } from '../data/precios-gta6';
+
+let dv: { fecha: string; tasas: Record<string, number> } | null = null;
+try { dv = JSON.parse(fs.readFileSync('src/data/divisas.json', 'utf8')); } catch { dv = null; }
+
+const MESES = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
+const fechaTxt = dv ? `${parseInt(dv.fecha.slice(8, 10), 10)} de ${MESES[parseInt(dv.fecha.slice(5, 7), 10) - 1]}` : '';
+const tasa = (m: string) => (m === 'USD' ? 1 : dv?.tasas[m]);
+const filas = dv
+  ? PRECIOS_GTA6.filter((p) => tasa(p.moneda)).map((p) => {
+      const usd = p.estandar / tasa(p.moneda)!;
+      return { ...p, usd, eur: usd * dv!.tasas.EUR, usdUlt: p.ultimate / tasa(p.moneda)! };
+    }).sort((a, b) => a.usd - b.usd)
+  : [];
+const fmt = (n: number, d = 2) => n.toLocaleString('es-ES', { minimumFractionDigits: d, maximumFractionDigits: d, useGrouping: 'always' } as any);
+const local = (n: number, m: string) => `${fmt(n, m === 'EUR' || m === 'USD' ? 2 : 0)} ${m}`;
+const minimo = filas[0]?.usd ?? 0;
+---
+{filas.length > 0 && (
+  <section class="comparador" aria-labelledby="comparador-titulo">
+    <h2 id="comparador-titulo">¿Dónde sale más barato al cambio de hoy?</h2>
+    <p class="intro">El precio de la edición estándar de cada país pasado a dólares y euros con el tipo de cambio del {fechaTxt}. Ordenado de más barato a más caro.</p>
+    <div class="scroll">
+      <table>
+        <thead><tr><th scope="col">País</th><th scope="col">Precio oficial</th><th scope="col">En dólares</th><th scope="col">En euros</th><th scope="col">Ultimate en dólares</th></tr></thead>
+        <tbody>
+          {filas.map((f, i) => (
+            <tr class={i === 0 ? 'top' : ''}>
+              <th scope="row">{f.pais}<small>{f.nota}</small></th>
+              <td>{local(f.estandar, f.moneda)}</td>
+              <td><strong>{fmt(f.usd)} $</strong>{i > 0 && <small>+{fmt(((f.usd - minimo) / minimo) * 100, 0)} %</small>}</td>
+              <td>{fmt(f.eur)} €</td>
+              <td>{fmt(f.usdUlt)} $</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <p class="nota">Es una comparación orientativa: el cambio se mueve cada día y no incluye las comisiones de tu banco ni los impuestos extra a las compras en dólares (como en Argentina). En la PS Store de Argentina, Colombia, Chile y Perú se paga en dólares (79,99 la estándar). Cambio del dólar: <a href="https://www.exchangerate-api.com" rel="noopener" target="_blank">Rates By Exchange Rate API</a>.</p>
+  </section>
+)}
+
+<style>
+  .comparador { margin: 36px 0 28px; padding: 22px 18px; border-radius: var(--radius); border: 1px solid var(--line);
+    background: radial-gradient(ellipse at 90% -20%, #2de2c833, transparent 55%), var(--surface); }
+  .comparador h2 { margin: 0 0 8px; }
+  .intro { margin: 0 0 14px; color: var(--muted); }
+  .scroll { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+  th, td { padding: 10px 12px 10px 0; border-bottom: 1px solid var(--line); text-align: right; white-space: nowrap; }
+  th:first-child { text-align: left; }
+  thead th { font-size: .75rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); font-weight: 700; }
+  tbody th { font-weight: 700; }
+  small { display: block; font-size: .72rem; color: var(--muted); font-weight: 400; }
+  td strong { color: var(--text); }
+  tr.top th, tr.top td strong { color: var(--leaf); }
+  .nota { margin: 14px 0 0; font-size: .8rem; color: var(--muted); }
+  .nota a { color: var(--teal); }
+  @media (max-width: 560px) {
+    .comparador { padding: 18px 14px; }
+    th:nth-child(4), td:nth-child(4), th:nth-child(5), td:nth-child(5) { display: none; }
+    th, td { padding-right: 8px; font-size: .9rem; }
+    th:last-child, td:last-child { padding-right: 0; }
+  }
+</style>

@@ -1,6 +1,7 @@
 ---
 import fs from 'node:fs';
 import HoraLocal from '../../components/HoraLocal.astro';
+import ComparadorPrecio from '../../components/ComparadorPrecio.astro';
 import { srcset } from '../../lib/img';
 import { render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
@@ -88,6 +89,7 @@ const jsonLd = [
     <AdSlot />
     {d.cuentaAtras && <HoraLocal />}
     <div class="prose"><Content /></div>
+    {d.comparadorPrecio && <ComparadorPrecio />}
     <Compras items={d.compras} />
     <Compartir url={url} title={d.title} />
 

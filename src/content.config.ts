@@ -15,7 +15,8 @@ const posts = defineCollection({
     imageCredit: z.string().optional(), // ej. "Rockstar Games"
     rumor: z.boolean().default(false),
     pilar: z.boolean().default(false),
-    cuentaAtras: z.boolean().default(false), // muestra la cuenta atrás por país (guía de la hora de salida) // página de referencia que se mantiene actualizada
+    cuentaAtras: z.boolean().default(false),
+    comparadorPrecio: z.boolean().default(false), // tabla «¿dónde sale más barato al cambio de hoy?» (guía de precios) // muestra la cuenta atrás por país (guía de la hora de salida) // página de referencia que se mantiene actualizada
     orden: z.number().default(99),
     // Productos recomendados (enlaces de afiliado). busqueda = texto que se busca en Amazon.
     compras: z.array(z.object({ nombre: z.string(), busqueda: z.string(), nota: z.string().optional() })).default([]),       // orden en el bloque "Lo esencial"  // filtración o rumor sin confirmar → etiqueta visible

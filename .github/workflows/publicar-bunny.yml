@@ -8,7 +8,7 @@ on:
     branches: [main]
     paths-ignore: ["scripts/state/**", ".github/**", "README.md"]
   workflow_run:
-    workflows: ["Radar de noticias GTA VI", "Galería oficial (revisión diaria)", "Galería oficial de Rockstar", "Importar imágenes oficiales", "Tráilers nuevos de Rockstar", "Vigía de trofeos"]
+    workflows: ["Radar de noticias GTA VI", "Galería oficial (revisión diaria)", "Galería oficial de Rockstar", "Importar imágenes oficiales", "Tráilers nuevos de Rockstar", "Vigía de trofeos", "Cambio de divisas"]
     types: [completed]
   schedule:
     - cron: "7 5 * * *"

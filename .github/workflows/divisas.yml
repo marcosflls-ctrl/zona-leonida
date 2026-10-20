@@ -1,0 +1,46 @@
+name: Cambio de divisas
+
+# Descarga el cambio del dólar con las monedas de Latinoamérica (API abierta de ExchangeRate-API, sin clave)
+# para el comparador de precios de GTA 6. La API se actualiza una vez al día. Hora en UTC.
+on:
+  schedule:
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: datos
+  cancel-in-progress: false
+
+jobs:
+  divisas:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q requests
+      - run: python scripts/divisas.py
+      - name: Publicar si hay cambios
+        run: |
+          git config user.name "divisas-bot"
+          git config user.email "divisas-bot@users.noreply.github.com"
+          git add src/data/divisas.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Divisas: cambio del día"
+            for i in 1 2 3; do git pull --rebase origin main && git push && break; sleep 5; done
+          fi
+      - name: Avisar del fallo por Telegram
+        if: failure()
+        env:
+          TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TG_CHAT: ${{ secrets.TELEGRAM_AVISOS_CHAT_ID }}
+          URL_EJECUCION: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          [ -z "$TG_TOKEN" ] || [ -z "$TG_CHAT" ] && exit 0
+          curl -s -o /dev/null -X POST "https://api.telegram.org/bot${TG_TOKEN}/sendMessage" \
+            --data-urlencode "chat_id=${TG_CHAT}" \
+            --data-urlencode "text=❌ Ha fallado el cambio de divisas de Zona Leonida: ${URL_EJECUCION}"
