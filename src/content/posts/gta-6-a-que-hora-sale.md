@@ -1,8 +1,8 @@
 ---
-title: "¿A qué hora sale GTA 6? 00:00 en España y horario por país"
-description: "En España se juega desde las 00:00 del 19 de noviembre (23:00 en Canarias). Tabla con la hora de cada país de Latinoamérica y cuándo empieza la precarga."
+title: "¿A qué hora sale GTA 6? España, México, Colombia, Chile y más"
+description: "España: 00:00 del 19 de noviembre, según la PlayStation Store. México, Colombia, Chile, Argentina y el resto de Latinoamérica: medianoche local, previsto."
 date: 2026-10-09T18:45:00+02:00
-updated: 2026-10-18T20:00:00+02:00
+updated: 2026-10-20T18:30:00+02:00
 category: guias
 pilar: true
 cuentaAtras: true
@@ -25,14 +25,22 @@ sources:
     url: "https://www.notebookcheck.org/Se-han-revelado-las-fechas-de-lanzamiento-y-las-horas-de-disponibilidad-de-GTA-6-para-PS5-pero-es-posible-que-las-reservas-para-Xbox-tengan-alguna-ventaja.1392684.0.html"
 ---
 
-**En España, GTA 6 se podrá jugar desde las 00:00 del jueves 19 de noviembre de 2026**, es decir, en la noche del miércoles 18 al jueves 19. Así aparece en la ficha del juego de la PlayStation Store. En Canarias es una hora antes: a las 23:00 del miércoles 18.
+**Respuesta rápida:**
 
-El lanzamiento **no es simultáneo en todo el mundo**: el juego se va desbloqueando a medianoche según la zona horaria de cada región, empezando por Oceanía. Según Hipertextual, entre los primeros jugadores y los últimos habrá unas 19 horas de diferencia.
+- **España:** a las **00:00 del jueves 19 de noviembre de 2026** (23:00 del miércoles 18 en Canarias). Así figura en la PlayStation Store.
+- **Estados Unidos:** a las 00:00 del jueves 19, hora del Este (21:00 del miércoles 18 en la costa oeste), también según la PlayStation Store.
+- **México, Colombia, Chile, Argentina y el resto de Latinoamérica:** lo previsto es a la **medianoche del jueves 19, hora de cada país**. Es lo que apuntan medios como Generación Xbox, pero **todavía no está confirmado** en las tiendas de todos los países.
+
+**Rockstar no ha publicado un horario oficial por países.** Lo que hay son los datos de la PlayStation Store y las previsiones de la prensa. Actualizaremos esta guía en cuanto se confirme.
+
+El lanzamiento **no es simultáneo en todo el mundo**: el juego se desbloquea a medianoche de cada región, empezando por Oceanía. Hipertextual calcula unas 19 horas de diferencia entre los primeros jugadores y los últimos: si se cumple lo previsto, van de Nueva Zelanda (12:00 del miércoles en España) a México y Centroamérica (07:00 del jueves).
 
 ## Horario de GTA 6 por país
 
 | País | Se desbloquea | En España serían las… | Estado |
 |---|---|---|---|
+| Nueva Zelanda | 00:00 del jueves 19 | 12:00 del miércoles 18 | Previsto, sin confirmar |
+| Australia (Sídney) | 00:00 del jueves 19 | 14:00 del miércoles 18 | Previsto, sin confirmar |
 | España (península y Baleares) | 00:00 del jueves 19 | 00:00 del jueves 19 | Según la PlayStation Store |
 | España (Canarias) | 23:00 del miércoles 18 | 00:00 del jueves 19 | Según la PlayStation Store |
 | Estados Unidos | 00:00 del jueves 19, hora del Este (21:00 del miércoles en la costa oeste) | 06:00 del jueves 19 | Según la PlayStation Store |
@@ -43,7 +51,7 @@ El lanzamiento **no es simultáneo en todo el mundo**: el juego se va desbloquea
 | Venezuela, Bolivia, República Dominicana y Puerto Rico | 00:00 del jueves 19 | 05:00 del jueves 19 | Previsto, sin confirmar |
 | Argentina, Chile, Uruguay y Paraguay | 00:00 del jueves 19 | 04:00 del jueves 19 | Previsto, sin confirmar |
 
-**¿Quieres la hora exacta de tu país?** La cuenta atrás de arriba detecta tu zona horaria y te dice cuánto falta. En Latinoamérica lo habitual es que el juego se desbloquee a medianoche de cada país, pero las tiendas todavía no lo muestran igual en todas las regiones. **Rockstar no ha publicado un horario oficial por países**: actualizaremos esta tabla en cuanto lo confirme o en cuanto aparezca en las tiendas de cada país.
+**¿Quieres la hora exacta de tu país?** La cuenta atrás de arriba detecta tu zona horaria y te dice cuánto falta. En Latinoamérica lo habitual es que el juego se desbloquee a medianoche de cada país, pero las tiendas todavía no lo muestran igual en todas las regiones. Actualizaremos esta tabla en cuanto aparezca en las tiendas de cada país.
 
 **El truco para salir de dudas:** si ya lo has reservado, entra en la ficha del juego en la PlayStation Store o en la Microsoft Store con tu cuenta. Ahí aparece la hora exacta de desbloqueo para tu región.
 
