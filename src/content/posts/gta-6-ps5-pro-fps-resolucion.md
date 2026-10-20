@@ -1,8 +1,8 @@
 ---
-title: "GTA 6 en PS5, PS5 Pro y Xbox Series S: FPS y resolución"
+title: "¿A cuántos FPS irá GTA 6? PS5, PS5 Pro, Series X y Series S"
 description: "¿GTA 6 irá a 30 o 60 FPS? Qué ha confirmado Rockstar, qué mejora la PS5 Pro, cómo se verá en Xbox Series S y qué dice el análisis de Digital Foundry."
 date: 2026-10-09T19:20:00+02:00
-updated: 2026-10-12T20:55:00+02:00
+updated: 2026-10-20T19:30:00+02:00
 category: guias
 tags: [ps5-pro, fps, rendimiento, xbox-series-s, graficos]
 image: /img/oficial/cayos-de-leonida-1.webp

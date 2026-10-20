@@ -1,8 +1,8 @@
 ---
-title: "¿GTA 6 está en español? Idiomas, subtítulos y doblaje"
+title: "¿GTA 6 estará en español? Sí, con subtítulos y sin doblaje"
 description: "GTA 6 llegará con textos y subtítulos en español de España y de México, pero con voces solo en inglés. Te contamos todos los idiomas y cómo cambiarlos."
 date: 2026-10-11T16:11:00+02:00
-updated: 2026-10-11T16:11:00+02:00
+updated: 2026-10-20T19:30:00+02:00
 category: guias
 tags: [idiomas, espanol, doblaje, subtitulos, lanzamiento]
 image: /img/oficial/jason-y-lucia-5.webp

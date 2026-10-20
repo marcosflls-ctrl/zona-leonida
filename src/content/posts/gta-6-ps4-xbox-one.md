@@ -1,8 +1,8 @@
 ---
-title: "¿GTA 6 sale en PS4 o Xbox One? Respuesta y alternativas"
+title: "¿GTA 6 saldrá en Xbox One o PS4? No: solo PS5 y Xbox Series"
 description: "GTA 6 no saldrá en PS4 ni en Xbox One: solo en PS5 y Xbox Series X|S. Te explicamos por qué, qué pasa con la nube y qué consola te conviene si vas a cambiar."
 date: 2026-10-12T20:30:00+02:00
-updated: 2026-10-12T20:30:00+02:00
+updated: 2026-10-20T19:30:00+02:00
 category: guias
 tags: [ps4, xbox-one, plataformas, consolas, nube]
 image: /img/oficial/jason-y-lucia-13.webp
@@ -53,7 +53,7 @@ Más detalles en [Xbox niega la exclusividad del streaming en la nube](/noticias
 | **Xbox Series X** | Potencia similar a PS5 | — |
 | **Xbox Series S** | La más barata | Menos resolución y solo 512 GB de almacenamiento, justos para un juego tan grande |
 
-Ten en cuenta el espacio: GTA 6 podría ocupar entre 100 y 150 GB. Lo explicamos en [cuánto ocupa GTA 6](/guias/gta-6-cuanto-ocupa/).
+Ten en cuenta el espacio: según las estimaciones, GTA 6 podría ocupar entre 100 y 200 GB. Lo explicamos en [cuánto ocupa GTA 6](/guias/gta-6-cuanto-ocupa/).
 
 ## Preguntas frecuentes
 
