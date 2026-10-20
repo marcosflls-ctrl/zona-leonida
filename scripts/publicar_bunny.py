@@ -76,7 +76,9 @@ def reglas(pares: list[tuple[str, str]]) -> bool:
             "ActionParameter2": "301",
             "TriggerMatchingType": 0,
             "Enabled": True,
-            "Triggers": [{"Type": 0, "PatternMatchingType": 0, "PatternMatches": patrones}],  # Type 0 = URL
+            # Bunny admite como mucho 5 patrones por condición: se reparten en varias condiciones (Type 0 = URL)
+            "Triggers": [{"Type": 0, "PatternMatchingType": 0, "PatternMatches": patrones[i:i + 5]}
+                         for i in range(0, len(patrones), 5)],
         }
 
     otros = HOSTNAMES[1:]
@@ -90,8 +92,8 @@ def reglas(pares: list[tuple[str, str]]) -> bool:
             pats.append(f"*://{dominio}{o}")
     for destino, pats in por_destino.items():
         pats = sorted(set(pats))
-        for i in range(0, len(pats), 10):  # pocas condiciones por regla
-            regla(f"{destino[len(base):] or '/'} #{i // 10 + 1}", destino, pats[i:i + 10])
+        for i in range(0, len(pats), 20):  # hasta 4 condiciones de 5 patrones por regla
+            regla(f"{destino[len(base):] or '/'} #{i // 20 + 1}", destino, pats[i:i + 20])
 
     h = {"AccessKey": API_KEY}
     r = requests.get(f"https://api.bunny.net/pullzone/{PULLZONE}", headers=h, timeout=60)
@@ -104,7 +106,7 @@ def reglas(pares: list[tuple[str, str]]) -> bool:
         e = existentes.get(nombre)
         if e and e.get("ActionParameter1") == cuerpo["ActionParameter1"] and str(e.get("ActionParameter2")) == "301" \
                 and e.get("Enabled") and sorted(sum((t.get("PatternMatches") or [] for t in e.get("Triggers") or []), [])) \
-                == sorted(cuerpo["Triggers"][0]["PatternMatches"]):
+                == sorted(sum((t["PatternMatches"] for t in cuerpo["Triggers"]), [])):
             continue
         datos = dict(cuerpo, Description=nombre)
         if e:
