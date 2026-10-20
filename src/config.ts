@@ -1,7 +1,7 @@
 // ⚙️ CONFIGURACIÓN GENERAL — cambia aquí el nombre, dominio y AdSense
 export const SITE = {
   name: 'Zona Leonida',
-  tagline: 'Noticias, guías y trucos de GTA VI en español',
+  tagline: 'Noticias, guías y trucos de GTA 6 (GTA VI) en español',
   url: 'https://zonaleonida.com', // ← tu dominio definitivo (también en astro.config.mjs)
   lang: 'es',
   locale: 'es_LA',
@@ -24,10 +24,10 @@ export const SITE = {
 };
 
 export const CATEGORIES = {
-  noticias: { label: 'Noticias', desc: 'Últimas noticias de GTA VI: fechas, tráilers, filtraciones confirmadas y anuncios oficiales.' },
-  guias: { label: 'Guías', desc: 'Guías completas de GTA VI: misiones, coleccionables, mapa, personajes y mucho más.' },
-  trucos: { label: 'Trucos', desc: 'Todos los trucos y códigos de GTA VI para PS5 y Xbox Series, y consejos para jugar mejor.' },
-  descubrimientos: { label: 'Descubrimientos', desc: 'Secretos, easter eggs, detalles ocultos y lugares reales de Florida descubiertos en GTA VI.' },
+  noticias: { label: 'Noticias', desc: 'Últimas noticias de GTA 6: fechas, tráilers, filtraciones confirmadas y anuncios oficiales.' },
+  guias: { label: 'Guías', desc: 'Guías completas de GTA 6: misiones, coleccionables, mapa, personajes y mucho más.' },
+  trucos: { label: 'Trucos', desc: 'Todos los trucos y códigos de GTA 6 para PS5 y Xbox Series, y consejos para jugar mejor.' },
+  descubrimientos: { label: 'Descubrimientos', desc: 'Secretos, easter eggs, detalles ocultos y lugares reales de Florida descubiertos en GTA 6.' },
 } as const;
 
 export type CategoryKey = keyof typeof CATEGORIES;

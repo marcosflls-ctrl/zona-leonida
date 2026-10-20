@@ -6,7 +6,7 @@ category: noticias
 tags: [gta-6, edicion-fisica, disco, falsificaciones, ps5]
 rumor: false
 image: /img/oficial/port-gellhorn-4.webp
-imageAlt: "Port Gellhorn, imagen oficial de GTA VI"
+imageAlt: "Port Gellhorn, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "HobbyConsolas: GTA 6 tendrá edición en disco \"Made in China\", pero no te hagas muchas ilusiones de usarla"

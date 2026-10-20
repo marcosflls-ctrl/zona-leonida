@@ -6,7 +6,7 @@ updated: 2026-10-11T16:13:00+02:00
 category: guias
 tags: [edicion-fisica, disco, precarga, ps5, xbox]
 image: /img/oficial/pack-vintage-vice-city-1.webp
-imageAlt: "Pack Vintage Vice City, imagen oficial de GTA VI"
+imageAlt: "Pack Vintage Vice City, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "IBTimes: GTA+ incluido en las reservas digitales"

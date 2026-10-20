@@ -6,7 +6,7 @@ updated: 2026-10-11T17:30:00+02:00
 category: guias
 tags: [duracion, historia, horas, rdr2, gta-5]
 image: /img/oficial/vice-city-11.webp
-imageAlt: "Vice City, imagen oficial de GTA VI"
+imageAlt: "Vice City, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "Vandal: Rockstar habla de la duración de la historia de GTA 6 (entrevista de The New York Times)"

@@ -6,7 +6,7 @@ category: noticias
 tags: [the-game-awards, juego-del-ano, fecha-de-lanzamiento, gta-6, premios]
 rumor: false
 image: /img/oficial/grassrivers-2.webp
-imageAlt: "Grassrivers, imagen oficial de GTA VI"
+imageAlt: "Grassrivers, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "IGN: GTA 6 Will Make The Game Awards Cutoff Date for Eligibility by the Skin of Its Teeth, Conf"

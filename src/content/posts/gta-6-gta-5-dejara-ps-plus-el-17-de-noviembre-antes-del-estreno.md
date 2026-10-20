@@ -6,7 +6,7 @@ category: noticias
 tags: [gta-6, gta-5, ps-plus, playstation, lanzamiento]
 rumor: false
 image: /img/oficial/grassrivers-5.webp
-imageAlt: "Grassrivers, imagen oficial de GTA VI"
+imageAlt: "Grassrivers, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "IGN: Sony Reminds PlayStation Plus Subscribers That GTA 5 Leaves the Library 2 Days Before GTA"

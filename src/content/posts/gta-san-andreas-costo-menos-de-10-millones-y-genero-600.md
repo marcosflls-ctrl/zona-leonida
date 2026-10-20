@@ -6,7 +6,7 @@ category: noticias
 tags: [gta-san-andreas, presupuesto, rockstar, industria, gta-6]
 rumor: false
 image: /img/oficial/grassrivers-6.webp
-imageAlt: "Grassrivers, imagen oficial de GTA VI"
+imageAlt: "Grassrivers, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "Vandal: GTA San Andreas costó menos de 10 millones de dólares y llegó a generar unos 600 millones"

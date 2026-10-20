@@ -8,7 +8,7 @@ pilar: true
 orden: 5
 tags: [personajes, lucia, jason, historia]
 image: /img/oficial/jason-y-lucia-6.webp
-imageAlt: "Jason y Lucía, imagen oficial de GTA VI"
+imageAlt: "Jason y Lucía, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "Rockstar Games: web oficial de GTA VI"
@@ -23,7 +23,7 @@ GTA 6 tiene **dos protagonistas jugables, Jason y Lucía**, y un reparto de secu
 
 ### Lucía Caminos
 
-<div class="oficial-par"><figure class="oficial"><img src="/img/oficial/lucia-caminos-1.webp" srcset="/img/oficial/lucia-caminos-1-400.webp 400w, /img/oficial/lucia-caminos-1-800.webp 800w, /img/oficial/lucia-caminos-1.webp 1600w" sizes="(max-width: 760px) 100vw, 720px" alt="Lucía Caminos, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure><figure class="oficial"><img src="/img/oficial/lucia-caminos-4.webp" srcset="/img/oficial/lucia-caminos-4-400.webp 400w, /img/oficial/lucia-caminos-4-800.webp 800w, /img/oficial/lucia-caminos-4.webp 1600w" sizes="(max-width: 760px) 100vw, 720px" alt="Lucía Caminos, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure></div>
+<div class="oficial-par"><figure class="oficial"><img src="/img/oficial/lucia-caminos-1.webp" srcset="/img/oficial/lucia-caminos-1-400.webp 400w, /img/oficial/lucia-caminos-1-800.webp 800w, /img/oficial/lucia-caminos-1.webp 1600w" sizes="(max-width: 760px) 100vw, 720px" alt="Lucía Caminos, imagen oficial de GTA 6" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure><figure class="oficial"><img src="/img/oficial/lucia-caminos-4.webp" srcset="/img/oficial/lucia-caminos-4-400.webp 400w, /img/oficial/lucia-caminos-4-800.webp 800w, /img/oficial/lucia-caminos-4.webp 1600w" sizes="(max-width: 760px) 100vw, 720px" alt="Lucía Caminos, imagen oficial de GTA 6" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure></div>
 
 La primera protagonista femenina de la saga desde los GTA de los años noventa, y la primera de la era moderna. Sale de prisión con la intención de rehacer su vida, pero las circunstancias la empujan de nuevo al crimen junto a Jason.
 
@@ -31,7 +31,7 @@ La primera protagonista femenina de la saga desde los GTA de los años noventa, 
 
 ### Jason Duval
 
-<div class="oficial-par"><figure class="oficial"><img src="/img/oficial/jason-duval-1.webp" srcset="/img/oficial/jason-duval-1-400.webp 400w, /img/oficial/jason-duval-1-800.webp 800w, /img/oficial/jason-duval-1.webp 1600w" sizes="(max-width: 760px) 100vw, 720px" alt="Jason Duval, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure><figure class="oficial"><img src="/img/oficial/jason-duval-4.webp" srcset="/img/oficial/jason-duval-4-400.webp 400w, /img/oficial/jason-duval-4-800.webp 800w, /img/oficial/jason-duval-4.webp 1600w" sizes="(max-width: 760px) 100vw, 720px" alt="Jason Duval, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure></div>
+<div class="oficial-par"><figure class="oficial"><img src="/img/oficial/jason-duval-1.webp" srcset="/img/oficial/jason-duval-1-400.webp 400w, /img/oficial/jason-duval-1-800.webp 800w, /img/oficial/jason-duval-1.webp 1600w" sizes="(max-width: 760px) 100vw, 720px" alt="Jason Duval, imagen oficial de GTA 6" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure><figure class="oficial"><img src="/img/oficial/jason-duval-4.webp" srcset="/img/oficial/jason-duval-4-400.webp 400w, /img/oficial/jason-duval-4-800.webp 800w, /img/oficial/jason-duval-4.webp 1600w" sizes="(max-width: 760px) 100vw, 720px" alt="Jason Duval, imagen oficial de GTA 6" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure></div>
 
 Exmilitar que se gana la vida con trabajos de todo tipo en Leonida, incluidos encargos para traficantes locales. Conoce a Lucía y su historia cambia por completo.
 
@@ -43,7 +43,7 @@ Rockstar resume la historia de la pareja así: los dos "siempre han sabido que t
 
 ### Cal Hampton
 
-<figure class="oficial"><img src="/img/oficial/cal-hampton-1.webp" srcset="/img/oficial/cal-hampton-1-400.webp 400w, /img/oficial/cal-hampton-1-800.webp 800w, /img/oficial/cal-hampton-1.webp 1600w" sizes="(max-width: 760px) 100vw, 720px" alt="Cal Hampton, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure>
+<figure class="oficial"><img src="/img/oficial/cal-hampton-1.webp" srcset="/img/oficial/cal-hampton-1-400.webp 400w, /img/oficial/cal-hampton-1-800.webp 800w, /img/oficial/cal-hampton-1.webp 1600w" sizes="(max-width: 760px) 100vw, 720px" alt="Cal Hampton, imagen oficial de GTA 6" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure>
 
 Amigo de Jason. Le ayuda en los trabajos y pasa tiempo con la pareja.
 
@@ -51,7 +51,7 @@ Amigo de Jason. Le ayuda en los trabajos y pasa tiempo con la pareja.
 
 ### Boobie Ike
 
-<figure class="oficial"><img src="/img/oficial/boobie-ike-1.webp" srcset="/img/oficial/boobie-ike-1-400.webp 400w, /img/oficial/boobie-ike-1-800.webp 800w, /img/oficial/boobie-ike-1.webp 1600w" sizes="(max-width: 760px) 100vw, 720px" alt="Boobie Ike, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure>
+<figure class="oficial"><img src="/img/oficial/boobie-ike-1.webp" srcset="/img/oficial/boobie-ike-1-400.webp 400w, /img/oficial/boobie-ike-1-800.webp 800w, /img/oficial/boobie-ike-1.webp 1600w" sizes="(max-width: 760px) 100vw, 720px" alt="Boobie Ike, imagen oficial de GTA 6" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure>
 
 Una figura conocida de Vice City, con negocios en el sector inmobiliario, clubes y un estudio de grabación.
 
@@ -59,7 +59,7 @@ Una figura conocida de Vice City, con negocios en el sector inmobiliario, clubes
 
 ### Dre'Quan Priest
 
-<figure class="oficial"><img src="/img/oficial/dre-quan-priest-1.webp" srcset="/img/oficial/dre-quan-priest-1-400.webp 400w, /img/oficial/dre-quan-priest-1-800.webp 800w, /img/oficial/dre-quan-priest-1.webp 1600w" sizes="(max-width: 760px) 100vw, 720px" alt="Dre'Quan Priest, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure>
+<figure class="oficial"><img src="/img/oficial/dre-quan-priest-1.webp" srcset="/img/oficial/dre-quan-priest-1-400.webp 400w, /img/oficial/dre-quan-priest-1-800.webp 800w, /img/oficial/dre-quan-priest-1.webp 1600w" sizes="(max-width: 760px) 100vw, 720px" alt="Dre'Quan Priest, imagen oficial de GTA 6" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure>
 
 Aspirante a productor musical en el estudio de Boobie, que también se dedica a otros negocios menos legales.
 
@@ -67,7 +67,7 @@ Aspirante a productor musical en el estudio de Boobie, que también se dedica a 
 
 ### Real Dimez
 
-<figure class="oficial"><img src="/img/oficial/real-dimez-1.webp" srcset="/img/oficial/real-dimez-1-400.webp 400w, /img/oficial/real-dimez-1-800.webp 800w, /img/oficial/real-dimez-1.webp 1600w" sizes="(max-width: 760px) 100vw, 720px" alt="Real Dimez, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure>
+<figure class="oficial"><img src="/img/oficial/real-dimez-1.webp" srcset="/img/oficial/real-dimez-1-400.webp 400w, /img/oficial/real-dimez-1-800.webp 800w, /img/oficial/real-dimez-1.webp 1600w" sizes="(max-width: 760px) 100vw, 720px" alt="Real Dimez, imagen oficial de GTA 6" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure>
 
 Un dúo musical formado por Bae-Luxe y Roxy, que fichan por el sello Only Raw Records.
 
@@ -75,7 +75,7 @@ Un dúo musical formado por Bae-Luxe y Roxy, que fichan por el sello Only Raw Re
 
 ### Raúl Bautista
 
-<figure class="oficial"><img src="/img/oficial/raul-bautista-1.webp" srcset="/img/oficial/raul-bautista-1-400.webp 400w, /img/oficial/raul-bautista-1-800.webp 800w, /img/oficial/raul-bautista-1.webp 1600w" sizes="(max-width: 760px) 100vw, 720px" alt="Raúl Bautista, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure>
+<figure class="oficial"><img src="/img/oficial/raul-bautista-1.webp" srcset="/img/oficial/raul-bautista-1-400.webp 400w, /img/oficial/raul-bautista-1-800.webp 800w, /img/oficial/raul-bautista-1.webp 1600w" sizes="(max-width: 760px) 100vw, 720px" alt="Raúl Bautista, imagen oficial de GTA 6" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure>
 
 Un atracador de bancos temerario, con pinta de acabar compartiendo golpes con Jason y Lucía.
 
@@ -83,7 +83,7 @@ Un atracador de bancos temerario, con pinta de acabar compartiendo golpes con Ja
 
 ### Brian Heder
 
-<figure class="oficial"><img src="/img/oficial/brian-heder-1.webp" srcset="/img/oficial/brian-heder-1-400.webp 400w, /img/oficial/brian-heder-1-800.webp 800w, /img/oficial/brian-heder-1.webp 1600w" sizes="(max-width: 760px) 100vw, 720px" alt="Brian Heder, imagen oficial de GTA VI" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure>
+<figure class="oficial"><img src="/img/oficial/brian-heder-1.webp" srcset="/img/oficial/brian-heder-1-400.webp 400w, /img/oficial/brian-heder-1-800.webp 800w, /img/oficial/brian-heder-1.webp 1600w" sizes="(max-width: 760px) 100vw, 720px" alt="Brian Heder, imagen oficial de GTA 6" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure>
 
 Un veterano del contrabando que vive en los Cayos de Leonida. Según Rockstar, le deja a Jason un sitio donde vivir a cambio de que le ayude con sus negocios.
 

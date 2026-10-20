@@ -6,7 +6,7 @@ updated: 2026-10-09T19:24:00+02:00
 category: guias
 tags: [mirada-extendida, netflix, trailer, jugabilidad]
 image: /img/oficial/jason-y-lucia-4.webp
-imageAlt: "Jason y Lucía, imagen oficial de GTA VI"
+imageAlt: "Jason y Lucía, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "Variety: GTA 6 se estrena en Netflix y YouTube el 27 de agosto"

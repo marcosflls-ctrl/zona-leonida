@@ -2,11 +2,11 @@
 title: "Dónde comprar GTA 6 más barato: precios por tienda y ofertas"
 description: "79,99 € en casi todas las tiendas, pero llegó a bajar a 64,90 € con un código de Amazon. Comparamos tiendas, caja o digital y qué esperar del Black Friday."
 date: 2026-10-12T20:32:00+02:00
-updated: 2026-10-18T20:00:00+02:00
+updated: 2026-10-20T19:00:00+02:00
 category: guias
 tags: [precio, ofertas, comprar, black-friday, reservas]
 image: /img/oficial/vice-city-5.webp
-imageAlt: "Vice City, imagen oficial de GTA VI"
+imageAlt: "Vice City, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 compras:
   - nombre: "GTA 6 para PS5"
@@ -53,7 +53,19 @@ sources:
 
 **En resumen:** hoy cuesta lo mismo en todas partes. La única forma de pagar menos ha sido algún código de descuento puntual, así que la diferencia la marcan los detalles: si quieres la caja o el digital, el mes de GTA+ de la reserva digital y que reserves antes del 20 de noviembre para llevarte el pack Vintage Vice City.
 
-Si estás en América, mira [el precio de GTA 6 en tu país](/guias/gta-6-precio-latinoamerica/).
+## ¿Y en Latinoamérica?
+
+En América el precio depende de la tienda y de si cobra en moneda local o en dólares. La edición estándar cuesta:
+
+| País | Xbox (Microsoft Store) | PS5 (PlayStation Store) |
+|---|---|---|
+| México | 1.499 MXN | Unos 1.499 MXN con IVA |
+| Argentina | 113.299 ARS | 79,99 USD + impuestos |
+| Colombia | 339.900 COP | 79,99 USD |
+| Chile | 74.990 CLP | 79,99 USD |
+| Perú | Unos 274 PEN | 79,99 USD |
+
+En Argentina, Colombia, Chile y Perú la PlayStation Store cobra en dólares, así que también cuenta la comisión de tu banco por pagar en otra moneda. La Ultimate y los detalles de cada país están en [el precio de GTA 6 en tu país](/guias/gta-6-precio-latinoamerica/).
 
 ## La oferta más baja hasta ahora: 64,90 €
 
