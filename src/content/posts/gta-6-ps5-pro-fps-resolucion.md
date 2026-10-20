@@ -6,7 +6,7 @@ updated: 2026-10-12T20:55:00+02:00
 category: guias
 tags: [ps5-pro, fps, rendimiento, xbox-series-s, graficos]
 image: /img/oficial/cayos-de-leonida-1.webp
-imageAlt: "Cayos de Leonida, imagen oficial de GTA VI"
+imageAlt: "Cayos de Leonida, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 compras:
   - nombre: "PS5 Pro"

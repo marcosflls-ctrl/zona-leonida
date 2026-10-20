@@ -6,7 +6,7 @@ category: noticias
 tags: [gta-6, npc, red-dead-redemption-2, rockstar-north, jugabilidad]
 rumor: false
 image: /img/oficial/vice-city-10.webp
-imageAlt: "Vice City, imagen oficial de GTA VI"
+imageAlt: "Vice City, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "GamesRadar: A Red Dead Redemption 2 system that greatly shaped GTA 6 almost wasn't pitched"

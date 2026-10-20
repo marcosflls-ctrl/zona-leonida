@@ -71,7 +71,7 @@ const jsonLd = [
       <p class="meta muted small">
         Por <a href="/sobre-nosotros/" rel="author">{SITE.author}</a> ·
         {d.pilar
-          ? <>Actualizado el <time datetime={(d.updated ?? d.date).toISOString()}>{formatDate(d.updated ?? d.date)}</time></>
+          ? <>Publicado el <time datetime={d.date.toISOString()}>{formatDate(d.date)}</time>{d.updated && d.updated.getTime() - d.date.getTime() > 36e5 && <> · Actualizado el <time datetime={d.updated.toISOString()}>{formatDate(d.updated)}</time></>}</>
           : <>
               <time datetime={d.date.toISOString()} data-rel>{d.category === 'noticias' ? formatDateTime(d.date) : formatDate(d.date)}</time>
               {d.updated && d.updated.getTime() - d.date.getTime() > 36e5 && <> · Actualizado el <time datetime={d.updated.toISOString()}>{formatDate(d.updated)}</time></>}

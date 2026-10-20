@@ -36,7 +36,7 @@ const cubiertos = new Set(SECCIONES.flatMap((s) => s.grupos.map((g) => g[0])));
 const nuevos = [...new Set(GALERIA.imagenes.map((g) => g.grupo))].filter((g) => !cubiertos.has(g));
 if (nuevos.length) {
   SECCIONES.unshift({ titulo: 'Nuevas imágenes', id: 'nuevas', grupos: nuevos.map((g) => {
-    const alt = GALERIA.imagenes.find((x) => x.grupo === g)!.alt.replace(', imagen oficial de GTA VI', '');
+    const alt = GALERIA.imagenes.find((x) => x.grupo === g)!.alt.replace(', imagen oficial de GTA 6', '');
     return [g, alt] as [string, string];
   }) });
 }

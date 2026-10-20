@@ -156,7 +156,7 @@ const jsonLd = { '@context': 'https://schema.org', '@type': 'WebPage', name: tit
     if (!r) return;
     $('q').hidden = true; $('res').hidden = false;
     $('res-kicker').textContent = propio ? 'Tu personaje de GTA 6 es…' : 'A tu amigo le ha salido…';
-    const img = $('res-img') as HTMLImageElement; img.src = r.img; img.alt = `${r.nombre}, imagen oficial de GTA VI`;
+    const img = $('res-img') as HTMLImageElement; img.src = r.img; img.alt = `${r.nombre}, imagen oficial de GTA 6`;
     $('res-nombre').textContent = r.nombre;
     $('res-frase').textContent = `«${r.frase}»`;
     $('res-porque').textContent = r.porque;

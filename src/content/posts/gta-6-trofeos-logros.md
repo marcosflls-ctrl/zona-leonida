@@ -7,7 +7,7 @@ category: guias
 draft: true
 tags: [trofeos, logros, platino, ps5, xbox]
 image: /img/oficial/lucia-caminos-2.webp
-imageAlt: "Lucía Caminos, imagen oficial de GTA VI"
+imageAlt: "Lucía Caminos, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources: []
 ---

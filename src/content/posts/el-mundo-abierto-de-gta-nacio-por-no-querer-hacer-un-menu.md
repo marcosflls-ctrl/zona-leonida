@@ -6,7 +6,7 @@ category: noticias
 tags: [gta, dma-design, historia-de-gta, mundo-abierto, gta-1997]
 rumor: false
 image: /img/oficial/port-gellhorn-5.webp
-imageAlt: "Port Gellhorn, imagen oficial de GTA VI"
+imageAlt: "Port Gellhorn, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "Vandal: GTA fue de mundo abierto por la pereza de sus creadores: 'No queríamos crear un menú para"

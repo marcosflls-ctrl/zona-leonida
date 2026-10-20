@@ -6,7 +6,7 @@ updated: 2026-10-11T17:12:00+02:00
 category: guias
 tags: [cronologia, historia, fecha, retrasos, trailers]
 image: /img/oficial/vice-city-9.webp
-imageAlt: "Vice City, imagen oficial de GTA VI"
+imageAlt: "Vice City, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "Tom's Guide: Rockstar confirma el desarrollo del próximo GTA (4 de febrero de 2022)"

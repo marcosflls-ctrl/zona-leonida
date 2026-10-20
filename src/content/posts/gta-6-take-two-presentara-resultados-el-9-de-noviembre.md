@@ -6,7 +6,7 @@ category: noticias
 tags: [take-two, gta-6, resultados-financieros, lanzamiento, strauss-zelnick]
 rumor: false
 image: /img/oficial/jason-duval-10.webp
-imageAlt: "Jason Duval, imagen oficial de GTA VI"
+imageAlt: "Jason Duval, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "Vandal: Take Two pone fecha al próximo informe del año fiscal: será a las puertas de GTA 6"

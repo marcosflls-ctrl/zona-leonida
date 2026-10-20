@@ -7,7 +7,7 @@ category: guias
 comparadorPrecio: true
 tags: [precio, latinoamerica, mexico, argentina, colombia, chile, peru]
 image: /img/oficial/vice-city-2.webp
-imageAlt: "Vice City, imagen oficial de GTA VI"
+imageAlt: "Vice City, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "Infobae: precio de GTA 6 en Argentina, Colombia, México y España"

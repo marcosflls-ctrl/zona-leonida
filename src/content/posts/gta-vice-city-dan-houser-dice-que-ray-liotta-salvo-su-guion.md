@@ -6,7 +6,7 @@ category: noticias
 tags: [dan-houser, ray-liotta, vice-city, tommy-vercetti, rockstar]
 rumor: false
 image: /img/oficial/vice-city-12.webp
-imageAlt: "Vice City, imagen oficial de GTA VI"
+imageAlt: "Vice City, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "GamesRadar: Ray Liotta saved GTA: Vice City's \"awful\" writing, Rockstar co-founder Dan Houser says"

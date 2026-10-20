@@ -7,7 +7,7 @@ category: guias
 draft: true
 tags: [misiones, historia, capitulos, guia]
 image: /img/oficial/jason-y-lucia-3.webp
-imageAlt: "Jason y Lucía, imagen oficial de GTA VI"
+imageAlt: "Jason y Lucía, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources: []
 ---

@@ -6,7 +6,7 @@ updated: 2026-10-11T16:12:00+02:00
 category: guias
 tags: [pegi, edad, padres, clasificacion, lanzamiento]
 image: /img/oficial/port-gellhorn-2.webp
-imageAlt: "Port Gellhorn, imagen oficial de GTA VI"
+imageAlt: "Port Gellhorn, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "ESRB: ficha de Grand Theft Auto VI"

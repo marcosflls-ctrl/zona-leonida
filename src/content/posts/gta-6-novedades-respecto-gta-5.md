@@ -6,7 +6,7 @@ updated: 2026-10-09T19:28:00+02:00
 category: guias
 tags: [novedades, jugabilidad, gta-5, comparativa]
 image: /img/oficial/lucia-caminos-3.webp
-imageAlt: "Lucía Caminos, imagen oficial de GTA VI"
+imageAlt: "Lucía Caminos, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "VGC: Rockstar desvela nuevos detalles de GTA 6"

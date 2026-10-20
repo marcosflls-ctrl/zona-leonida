@@ -6,7 +6,7 @@ updated: 2026-10-12T20:31:00+02:00
 category: guias
 tags: [game-pass, ps-plus, suscripcion, xbox, ps5]
 image: /img/oficial/jason-y-lucia-9.webp
-imageAlt: "Jason y Lucía, imagen oficial de GTA VI"
+imageAlt: "Jason y Lucía, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "PlayStation LifeStyle: Take-Two sobre los juegos de lanzamiento en suscripciones"

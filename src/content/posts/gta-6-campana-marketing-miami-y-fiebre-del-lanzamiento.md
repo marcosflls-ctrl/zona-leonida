@@ -5,7 +5,7 @@ date: 2026-10-19T19:33:00+02:00
 category: guias
 tags: [marketing, miami, merchandising, lanzamiento, curiosidades]
 image: /img/oficial/vice-city-9.webp
-imageAlt: "Vice City, imagen oficial de GTA VI"
+imageAlt: "Vice City, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "IGN: la campaña millonaria de Rockstar en Miami sigue creciendo pese a las quejas de algunos cargos"

@@ -6,7 +6,7 @@ category: noticias
 tags: [gta-6, xbox-cloud-gaming, streaming, microsoft, pc]
 rumor: false
 image: /img/oficial/jason-duval-8.webp
-imageAlt: "Jason Duval, imagen oficial de GTA VI"
+imageAlt: "Jason Duval, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "Eurogamer España: Microsoft niega los rumores que apuntaban a una exclusividad en el streaming en la nube de"

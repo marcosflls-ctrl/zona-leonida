@@ -6,7 +6,7 @@ category: noticias
 tags: [ps5, sony, midnight-black, consola, lanzamiento]
 rumor: false
 image: /img/oficial/jason-duval-9.webp
-imageAlt: "Jason Duval, imagen oficial de GTA VI"
+imageAlt: "Jason Duval, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "GamesRadar: Sony announces cheaper Midnight Black PS5 to launch alongside GTA 6, it's just a shame we"

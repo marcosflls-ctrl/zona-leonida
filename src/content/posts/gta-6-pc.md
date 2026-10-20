@@ -8,7 +8,7 @@ pilar: true
 orden: 2
 tags: [pc, plataformas, steam]
 image: /img/oficial/lucia-caminos-5.webp
-imageAlt: "Lucía Caminos, imagen oficial de GTA VI"
+imageAlt: "Lucía Caminos, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "Rockstar Games: web oficial de GTA VI"

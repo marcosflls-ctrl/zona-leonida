@@ -7,7 +7,7 @@ category: noticias
 tags: [gta-6, call-of-duty, modern-warfare-4, activision, noviembre-2026]
 rumor: false
 image: /img/oficial/port-gellhorn-1.webp
-imageAlt: "Port Gellhorn, imagen oficial de GTA VI"
+imageAlt: "Port Gellhorn, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "IGN: Activision Thinks GTA 6 Will Actually Help Modern Warfare 4: 'No Offense to Zelda, but [GT"

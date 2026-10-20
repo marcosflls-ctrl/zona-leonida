@@ -5,7 +5,7 @@ date: 2026-10-09T00:06:00+02:00
 updated: 2026-10-11T17:35:00+02:00
 category: guias
 image: /img/oficial/jason-y-lucia-1.webp
-imageAlt: "Jason y Lucía, imagen oficial de GTA VI"
+imageAlt: "Jason y Lucía, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 tags: [resumen, fecha, precio, mapa, protagonistas, novedades]
 sources:

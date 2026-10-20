@@ -6,7 +6,7 @@ category: noticias
 tags: [gta-6, switch-2, nintendo, rockstar-games, plataformas]
 rumor: false
 image: /img/oficial/jason-duval-7.webp
-imageAlt: "Jason Duval, imagen oficial de GTA VI"
+imageAlt: "Jason Duval, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "IGN: GTA 6 on Switch 2? 'That's a Conversation for Take-Two and Rockstar,' Nintendo Says"

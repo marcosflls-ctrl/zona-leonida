@@ -7,7 +7,7 @@ category: noticias
 draft: true
 tags: [analisis, notas, metacritic, opencritic, review]
 image: /img/oficial/jason-y-lucia-10.webp
-imageAlt: "Jason y Lucía, imagen oficial de GTA VI"
+imageAlt: "Jason y Lucía, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources: []
 ---
