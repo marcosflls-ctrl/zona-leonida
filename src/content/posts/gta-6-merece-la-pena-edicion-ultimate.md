@@ -1,8 +1,8 @@
 ---
-title: "¿Merece la pena la edición Ultimate de GTA 6? Qué incluye"
+title: "¿Vale la pena la Ultimate Edition de GTA 6? Qué trae y precio"
 description: "La edición Ultimate de GTA 6 cuesta 99,99 €, 20 € más que la estándar. Te contamos todo lo que incluye, qué trae el bonus de reserva y para quién compensa."
 date: 2026-10-09T19:04:00+02:00
-updated: 2026-10-09T19:04:00+02:00
+updated: 2026-10-20T19:30:00+02:00
 category: guias
 tags: [ultimate, ediciones, precio, reservas]
 image: /img/oficial/ultimate-edition-2.webp
@@ -23,6 +23,8 @@ sources:
 ---
 
 **La edición Ultimate de GTA 6 cuesta 99,99 €**, 20 € más que la estándar (79,99 €). No cambia el juego: la historia, el mapa y las misiones son los mismos. Lo que añade es una colección de vehículos, armas, talleres y tiendas exclusivos que se van sumando a lo largo de la historia de Jason y Lucía.
+
+**En resumen:** compensa si te gusta coleccionar coches y vas a exprimir el juego durante meses. Si solo quieres jugar la historia, basta con la estándar, y todo apunta a que podrás mejorarla a la Ultimate más adelante. Lo explicamos en [para quién merece la pena](#para-quién-merece-la-pena).
 
 <div class="oficial-par"><figure class="oficial"><img src="/img/oficial/grotti-cheetah-1.webp" srcset="/img/oficial/grotti-cheetah-1-400.webp 400w, /img/oficial/grotti-cheetah-1-800.webp 800w, /img/oficial/grotti-cheetah-1.webp 1600w" sizes="(max-width: 760px) 100vw, 720px" alt="Grotti Cheetah del 95 (edición Ultimate), imagen oficial de GTA 6" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure><figure class="oficial"><img src="/img/oficial/ultimate-edition-1.webp" srcset="/img/oficial/ultimate-edition-1-400.webp 400w, /img/oficial/ultimate-edition-1-800.webp 800w, /img/oficial/ultimate-edition-1.webp 1600w" sizes="(max-width: 760px) 100vw, 720px" alt="Edición Ultimate, imagen oficial de GTA 6" width="1600" height="900" loading="lazy" /><figcaption>Imagen: Rockstar Games</figcaption></figure></div>
 

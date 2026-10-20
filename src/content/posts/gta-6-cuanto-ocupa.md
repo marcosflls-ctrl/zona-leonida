@@ -1,8 +1,8 @@
 ---
-title: "¿Cuánto ocupa GTA 6 en PS5 y Xbox? Deja 200 GB libres por si acaso"
-description: "Las estimaciones van de 100 a 200 GB (aún sin cifra oficial). Cuánto espacio dejar, qué pasa en la Series S y por qué no podrás jugarlo desde un USB."
+title: "¿Cuánto ocupa GTA 6 en PS5? Espacio libre que necesitas"
+description: "Sin cifra oficial: las estimaciones van de 100 a 200 GB en PS5 y Xbox Series. Deja unos 200 GB libres antes de la precarga del 12 de noviembre."
 date: 2026-10-09T12:10:00+02:00
-updated: 2026-10-18T20:00:00+02:00
+updated: 2026-10-20T19:30:00+02:00
 category: guias
 pilar: true
 orden: 3
