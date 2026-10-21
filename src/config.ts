@@ -23,6 +23,8 @@ export const SITE = {
   amazonTag: 'zonaleonida-21',
   // Amazon México (programa de afiliados aparte, amazon.com.mx). Mientras esté vacío, las páginas con tienda: mx no muestran enlaces.
   amazonTagMx: '',
+  // Amazon Estados Unidos: a quien visita desde EE. UU. (por su zona horaria) las cajas le llevan a amazon.com con este ID.
+  amazonTagUs: 'zonaleonida-20',
 };
 
 export const CATEGORIES = {

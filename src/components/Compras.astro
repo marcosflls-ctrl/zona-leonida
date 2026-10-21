@@ -6,22 +6,46 @@ const { items, tienda = 'es' } = Astro.props;
 const mx = tienda === 'mx';
 const tag = mx ? (SITE as any).amazonTagMx : SITE.amazonTag;
 const dominio = mx ? 'www.amazon.com.mx' : 'www.amazon.es';
+const tagUs = mx ? '' : ((SITE as any).amazonTagUs as string) || '';
 const url = (q: string) => `https://${dominio}/s?k=${encodeURIComponent(q)}&tag=${encodeURIComponent(tag)}`;
 ---
 {tag && items.length > 0 && (
-  <aside class="compras" data-pagefind-ignore aria-labelledby="h-compras">
+  <aside class="compras" data-pagefind-ignore aria-labelledby="h-compras" data-tag-us={tagUs}>
     <h2 id="h-compras">Dónde comprarlo</h2>
     <ul>
       {items.map((it) => (
         <li>
           <div><strong>{it.nombre}</strong>{it.nota && <span class="muted small"> · {it.nota}</span>}</div>
-          <a class="btn" href={url(it.busqueda)} rel="sponsored nofollow noopener" target="_blank">{mx ? 'Ver en Amazon México' : 'Ver en Amazon'}</a>
+          <a class="btn" href={url(it.busqueda)} data-q={it.busqueda} rel="sponsored nofollow noopener" target="_blank">{mx ? 'Ver en Amazon México' : 'Ver en Amazon'}</a>
         </li>
       ))}
     </ul>
     <p class="muted small">Enlaces de afiliado: como Afiliado de Amazon, obtenemos ingresos por las compras adscritas que cumplen los requisitos aplicables. A ti no te cuesta nada más.</p>
   </aside>
 )}
+<script>
+  // Visitantes de Estados Unidos (según la zona horaria del dispositivo): enlaces a amazon.com con el ID de EE. UU.
+  const EEUU = ['America/New_York', 'America/Chicago', 'America/Denver', 'America/Phoenix', 'America/Los_Angeles', 'America/Anchorage',
+    'America/Adak', 'America/Boise', 'America/Detroit', 'America/Juneau', 'America/Sitka', 'America/Nome', 'America/Menominee',
+    'America/Metlakatla', 'America/Yakutat', 'Pacific/Honolulu', 'America/Puerto_Rico'];
+  const INGLES: [RegExp, string][] = [[/disipador/gi, 'heatsink'], [/tarjeta de expansion almacenamiento/gi, 'storage expansion card'],
+    [/mando/gi, 'controller'], [/auriculares/gi, 'headset']];
+  let tz = '';
+  try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; } catch { tz = ''; }
+  const esEEUU = EEUU.includes(tz) || tz.startsWith('America/Indiana/') || tz.startsWith('America/Kentucky/') || tz.startsWith('America/North_Dakota/');
+  if (esEEUU) {
+    document.querySelectorAll<HTMLElement>('.compras[data-tag-us]').forEach((caja) => {
+      const tag = caja.dataset.tagUs;
+      if (!tag) return;
+      caja.querySelectorAll<HTMLAnchorElement>('a[data-q]').forEach((a) => {
+        let q = a.dataset.q || '';
+        for (const [re, en] of INGLES) q = q.replace(re, en);
+        a.href = `https://www.amazon.com/s?k=${encodeURIComponent(q)}&tag=${encodeURIComponent(tag)}`;
+        a.textContent = 'Ver en Amazon.com';
+      });
+    });
+  }
+</script>
 <style>
   .compras { margin: 32px 0; padding: 18px 20px; border: 1px solid var(--teal); border-radius: var(--radius); background: #4cf2e60d; box-shadow: var(--glow-teal); }
   .compras h2 { margin: 0 0 10px; font-size: 1.5rem; }
