@@ -51,6 +51,8 @@ La cifra prevista es la misma, **entre 100 y 200 GB**. En la **Series X** (unos 
 
 Para ir sobre seguro, deja **unos 200 GB libres**. Con 150 GB seguramente te bastaría si se cumplen las primeras estimaciones, pero las más recientes son más altas, y además hay que contar con el parche del primer día, habitual en los grandes lanzamientos, y con las actualizaciones posteriores. Cuando Rockstar publique el tamaño oficial en las tiendas, lo pondremos aquí.
 
+**¿Te cabe en tu consola?** Pon el espacio libre que te marca en la calculadora [¿Te cabe GTA 6?](/guias/te-cabe-gta-6/) y te decimos cuánto tienes que liberar.
+
 ## ¿Cuándo empieza la descarga?
 
 La **precarga empieza el 12 de noviembre de 2026**, una semana antes del lanzamiento, para quienes lo hayan reservado. Recuerda que la edición física también trae un código de descarga, no un disco, así que tendrás que descargarlo igualmente.

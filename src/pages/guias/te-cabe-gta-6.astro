@@ -1,0 +1,127 @@
+---
+// Herramienta «¿Te cabe GTA 6?»: compara el espacio libre de tu consola con lo que se estima que ocupará.
+// Las cifras de tamaño son las de la guía /guias/gta-6-cuanto-ocupa/: si cambian allí (o sale el tamaño oficial),
+// hay que cambiarlas aquí también.
+import Base from '../../layouts/Base.astro';
+import Siguenos from '../../components/Siguenos.astro';
+import Compartir from '../../components/Compartir.astro';
+import Compras from '../../components/Compras.astro';
+import { SITE } from '../../config';
+
+const TAMANO = { min: 100, max: 200, conParche: 250, oficial: false };
+const CONSOLAS = [
+  { id: 'ps5', nombre: 'PS5 (modelo original, 825 GB)', util: 667 },
+  { id: 'ps5slim', nombre: 'PS5 Slim (1 TB)', util: 848 },
+  { id: 'ps5pro', nombre: 'PS5 Pro (2 TB)', util: 1800 },
+  { id: 'xsx', nombre: 'Xbox Series X (1 TB)', util: 802 },
+  { id: 'xss', nombre: 'Xbox Series S (512 GB)', util: 364 },
+];
+const title = '¿Te cabe GTA 6? Calcula si tienes espacio en tu PS5 o Xbox';
+const description = 'Pon el espacio libre de tu consola y te decimos si te cabe GTA 6, cuánto tienes que liberar antes de la precarga del 12 de noviembre y cómo hacerlo.';
+const url = `${SITE.url}/guias/te-cabe-gta-6/`;
+const jsonLd = [
+  { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Inicio', item: SITE.url + '/' },
+    { '@type': 'ListItem', position: 2, name: 'Guías', item: `${SITE.url}/guias/` },
+    { '@type': 'ListItem', position: 3, name: '¿Te cabe GTA 6?', item: url } ] },
+  { '@context': 'https://schema.org', '@type': 'WebApplication', name: title, url, applicationCategory: 'UtilitiesApplication', operatingSystem: 'Any', inLanguage: 'es', offers: { '@type': 'Offer', price: '0', priceCurrency: 'EUR' } },
+];
+const compras = [
+  { nombre: 'SSD M.2 compatible con PS5 (1-2 TB, con disipador)', busqueda: 'SSD M.2 NVMe PS5 disipador 2TB', nota: 'se instala dentro de la consola' },
+  { nombre: 'Tarjeta de expansión para Xbox Series X|S', busqueda: 'tarjeta de expansion almacenamiento Xbox Series' },
+];
+---
+<Base title={title} description={description} jsonLd={jsonLd}>
+  <nav class="breadcrumbs"><a href="/">Inicio</a> › <a href="/guias/">Guías</a></nav>
+  <article class="herramienta">
+    <h1>¿Te cabe GTA 6?</h1>
+    <p class="lead">Dinos qué consola tienes y cuánto espacio libre te marca, y te decimos si te cabe GTA 6 y cuánto tienes que liberar antes de la <a href="/guias/gta-6-precarga-como-descargar/">precarga del 12 de noviembre</a>.</p>
+
+    <form id="cabe" class="formulario" onsubmit="return false">
+      <label><span>Tu consola</span>
+        <select name="consola">{CONSOLAS.map((c) => <option value={c.id} data-util={c.util}>{c.nombre}</option>)}</select>
+      </label>
+      <label><span>Espacio libre que te marca (GB)</span>
+        <input name="libre" type="number" inputmode="numeric" min="0" step="1" value="150" />
+      </label>
+      <p class="donde"><strong>¿Dónde lo miro?</strong> En PS5: <em>Ajustes → Almacenamiento</em>. En Xbox: <em>Mis juegos y aplicaciones → Administrar → Almacenamiento</em>.</p>
+    </form>
+
+    <section class="resultado" aria-live="polite">
+      <p class="veredicto" id="veredicto">—</p>
+      <div class="barra" aria-hidden="true"><span class="ocupado" id="b-ocupado"></span><span class="gta" id="b-gta"></span></div>
+      <p class="leyenda"><span class="l-ocupado"></span>Lo que ya tienes ocupado <span class="l-gta"></span>Lo que ocuparía GTA 6 (estimación alta)</p>
+      <p id="detalle" class="detalle"></p>
+    </section>
+
+    <p class="aviso"><strong>Ojo:</strong> Rockstar {TAMANO.oficial ? 'ha confirmado' : 'aún no ha confirmado'} el tamaño. Calculamos con las estimaciones: entre {TAMANO.min} y {TAMANO.max} GB, y hasta {TAMANO.conParche} GB contando el parche del primer día. Lo actualizaremos en cuanto aparezca la cifra oficial en las tiendas. Todos los detalles, en <a href="/guias/gta-6-cuanto-ocupa/">cuánto ocupa GTA 6</a>.</p>
+
+    <Compartir url={url} title={title} />
+
+    <div class="prose">
+      <h2>Cómo hacer sitio sin perder nada</h2>
+      <ol>
+        <li><strong>Borra los juegos que no juegas.</strong> Tus partidas guardadas no se pierden: en PS5 se guardan en la nube con PS Plus y en Xbox siempre. Puedes volver a descargarlos cuando quieras.</li>
+        <li><strong>Mira las capturas y los vídeos.</strong> Los clips en 4K ocupan mucho. En PS5 están en la Galería multimedia; en Xbox, en Capturas.</li>
+        <li><strong>Usa un disco USB para los juegos de PS4 o los que no juegas.</strong> En PS5 puedes guardar ahí juegos de PS5, aunque para jugarlos hay que devolverlos al almacenamiento interno, y mover un juego es mucho más rápido que descargarlo.</li>
+        <li><strong>Amplía el almacenamiento si siempre vas justo.</strong> En PS5, con un SSD M.2 compatible que se instala dentro de la consola; en Xbox Series, con la tarjeta de expansión oficial.</li>
+      </ol>
+      <p>Cuando lo tengas, repasa la <a href="/guias/gta-6-checklist-lanzamiento/">lista de lo que hay que preparar para el día 19</a> y <a href="/guias/gta-6-a-que-hora-sale/">a qué hora sale en tu país</a>.</p>
+    </div>
+
+    <Compras items={compras} />
+    <Siguenos />
+  </article>
+</Base>
+
+<script define:vars={{ TAMANO }}>
+  window.__tamanoGta = TAMANO;
+</script>
+<script>
+  const T = (window as any).__tamanoGta as { min: number; max: number; conParche: number };
+  const form = document.getElementById('cabe') as HTMLFormElement;
+  const $ = (id: string) => document.getElementById(id)!;
+  const gb = (n: number) => `${Math.round(n).toLocaleString('es-ES')} GB`;
+  function calcular() {
+    const sel = form.consola as HTMLSelectElement;
+    const util = +(sel.selectedOptions[0]?.dataset.util || 667);
+    const libre = Math.max(0, Math.min(util, +(form.libre as HTMLInputElement).value || 0));
+    const ocupado = util - libre;
+    let veredicto: string, clase: string;
+    if (libre >= T.conParche) { veredicto = '✅ Te cabe de sobra, incluso con el parche del primer día.'; clase = 'bien'; }
+    else if (libre >= T.max) { veredicto = '✅ Te cabe. Con margen justo si el parche del primer día es grande.'; clase = 'bien'; }
+    else if (libre >= T.min) { veredicto = `⚠️ Puede que no te quepa. Libera unos ${gb(T.max - libre)} para ir sobre seguro.`; clase = 'medio'; }
+    else { veredicto = `❌ No te cabe. Necesitas liberar al menos ${gb(T.min - libre)}, y mejor ${gb(T.max - libre)}.`; clase = 'mal'; }
+    const v = $('veredicto'); v.textContent = veredicto; v.className = `veredicto ${clase}`;
+    const pct = (n: number) => `${Math.max(0, Math.min(100, (n / util) * 100)).toFixed(1)}%`;
+    ($('b-ocupado') as HTMLElement).style.width = pct(ocupado);
+    ($('b-gta') as HTMLElement).style.width = pct(Math.min(T.max, util - ocupado));
+    $('detalle').textContent = `GTA 6 ocuparía entre el ${Math.round((T.min / util) * 100)} % y el ${Math.round((T.max / util) * 100)} % del espacio útil de tu consola (${gb(util)}). Ahora tienes libre ${gb(libre)}.`;
+  }
+  form.addEventListener('input', calcular);
+  calcular();
+</script>
+
+<style>
+  .herramienta { max-width: 760px; margin: 0 auto; }
+  h1 { margin: 4px 0 12px; }
+  .lead { font-size: 1.1rem; }
+  .formulario { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 20px 0; }
+  .formulario label { display: flex; flex-direction: column; gap: 6px; font-weight: 700; }
+  .formulario select, .formulario input { font: inherit; padding: 10px 12px; border-radius: 12px; border: 1px solid var(--line); background: #0f0b16; color: inherit; }
+  .donde { grid-column: 1 / -1; margin: 0; font-size: .9rem; color: var(--muted); }
+  .resultado { padding: 20px; border-radius: 16px; border: 1px solid var(--line); background: linear-gradient(180deg, #2a1636, #17131f); }
+  .veredicto { font-size: 1.3rem; font-weight: 800; margin: 0 0 14px; }
+  .veredicto.bien { color: var(--leaf); }
+  .veredicto.medio { color: #ffd166; }
+  .veredicto.mal { color: var(--pink); }
+  .barra { height: 18px; border-radius: 999px; background: #ffffff1a; overflow: hidden; display: flex; }
+  .barra .ocupado { background: #8b8b9e; }
+  .barra .gta { background: var(--pink); box-shadow: var(--glow-pink); }
+  .leyenda { font-size: .82rem; color: var(--muted); display: flex; align-items: center; gap: 6px; flex-wrap: wrap; margin: 8px 0 0; }
+  .leyenda span { width: 12px; height: 12px; border-radius: 3px; display: inline-block; margin-left: 6px; }
+  .l-ocupado { background: #8b8b9e; } .l-gta { background: var(--pink); }
+  .detalle { margin: 10px 0 0; font-size: .95rem; }
+  .aviso { margin: 18px 0; font-size: .92rem; color: var(--muted); }
+  @media (max-width: 600px) { .formulario { grid-template-columns: 1fr; } }
+</style>
