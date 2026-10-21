@@ -95,7 +95,7 @@ const jsonLd = [
     {d.cuentaAtras && <HoraLocal />}
     <div class="prose"><Content /></div>
     {d.comparadorPrecio && <ComparadorPrecio />}
-    <Compras items={d.compras} />
+    <Compras items={d.compras} tienda={d.tienda} />
     <Compartir url={url} title={d.title} />
     <LanzamientoBox actual={post.id} />
 

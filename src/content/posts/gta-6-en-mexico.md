@@ -9,6 +9,17 @@ tags: [mexico, precio, lanzamiento, latinoamerica]
 image: /img/oficial/cayos-de-leonida-2.webp
 imageAlt: "Los Cayos de Leonida, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
+tienda: mx
+compras:
+  - nombre: "GTA 6 para PS5"
+    busqueda: "Grand Theft Auto VI PS5"
+    nota: "caja con código de descarga"
+  - nombre: "GTA 6 para Xbox Series X|S"
+    busqueda: "Grand Theft Auto VI Xbox Series X"
+    nota: "caja con código de descarga"
+  - nombre: "SSD para PS5"
+    busqueda: "SSD NVMe PS5 disipador 2TB"
+    nota: "por si te falta espacio"
 sources:
   - name: "PlayStation Store México (consultada el 20/10/2026)"
     url: "https://store.playstation.com/es-mx/search/grand%20theft%20auto%20vi"

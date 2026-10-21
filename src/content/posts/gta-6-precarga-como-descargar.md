@@ -9,6 +9,14 @@ tags: [precarga, descarga, lanzamiento, ps5, xbox]
 image: /img/oficial/vice-city-3.webp
 imageAlt: "Vice City, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
+compras:
+  - nombre: "SSD M.2 compatible con PS5 (1-2 TB, con disipador)"
+    busqueda: "SSD M.2 NVMe PS5 disipador 2TB"
+    nota: "si te falta espacio para la precarga"
+  - nombre: "Tarjeta de expansión para Xbox Series X|S"
+    busqueda: "tarjeta de expansion almacenamiento Xbox Series"
+  - nombre: "GTA 6 en caja (código de descarga)"
+    busqueda: "Grand Theft Auto VI"
 sources:
   - name: "TheSixthAxis: ediciones, bonus de reserva y precarga de GTA 6 (24/06/2026)"
     url: "https://www.thesixthaxis.com/2026/06/24/gta-6-ultimate-edition-pre-order-bonus-and-vintage-vice-city-pack-revealed/"
