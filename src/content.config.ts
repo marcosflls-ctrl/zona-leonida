@@ -19,7 +19,8 @@ const posts = defineCollection({
     comparadorPrecio: z.boolean().default(false), // tabla «¿dónde sale más barato al cambio de hoy?» (guía de precios) // muestra la cuenta atrás por país (guía de la hora de salida) // página de referencia que se mantiene actualizada
     orden: z.number().default(99),
     // Productos recomendados (enlaces de afiliado). busqueda = texto que se busca en Amazon.
-    compras: z.array(z.object({ nombre: z.string(), busqueda: z.string(), nota: z.string().optional() })).default([]),       // orden en el bloque "Lo esencial"  // filtración o rumor sin confirmar → etiqueta visible
+    compras: z.array(z.object({ nombre: z.string(), busqueda: z.string(), nota: z.string().optional() })).default([]),
+    tienda: z.enum(['es', 'mx']).default('es'), // Amazon de los enlaces de «Dónde comprarlo»: España o México       // orden en el bloque "Lo esencial"  // filtración o rumor sin confirmar → etiqueta visible
     sources: z.array(z.object({ name: z.string(), url: z.string().url() })).default([]),
     draft: z.boolean().default(false),
   }),

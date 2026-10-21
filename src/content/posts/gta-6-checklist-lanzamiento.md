@@ -8,6 +8,16 @@ tags: [lanzamiento, precarga, checklist, ps5, xbox]
 image: /img/oficial/jason-y-lucia-8.webp
 imageAlt: "Jason y Lucía, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
+compras:
+  - nombre: "GTA 6 para PS5"
+    busqueda: "Grand Theft Auto VI PS5"
+  - nombre: "GTA 6 para Xbox Series X|S"
+    busqueda: "Grand Theft Auto VI Xbox Series X"
+  - nombre: "SSD para PS5"
+    busqueda: "SSD NVMe PS5 disipador 2TB"
+    nota: "por si te falta espacio"
+  - nombre: "Mando DualSense para PS5"
+    busqueda: "mando DualSense PS5"
 sources:
   - name: "Vandal: Rockstar confirma la fecha de precarga de GTA 6"
     url: "https://vandal.elespanol.com/noticia/1350791129/rockstar-confirma-la-fecha-de-precarga-de-gta-6-tanto-para-su-version-fisica-como-digital/"

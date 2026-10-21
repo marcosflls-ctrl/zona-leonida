@@ -21,6 +21,8 @@ export const SITE = {
   social: { x: 'ZonaLeonida', telegram: 'zonaleonida', instagram: 'zonaleonidavi', tiktok: '' },
   // Afiliados: pega tu ID de Amazon Afiliados (termina en -21). Mientras esté vacío no se muestran enlaces.
   amazonTag: 'zonaleonida-21',
+  // Amazon México (programa de afiliados aparte, amazon.com.mx). Mientras esté vacío, las páginas con tienda: mx no muestran enlaces.
+  amazonTagMx: '',
 };
 
 export const CATEGORIES = {

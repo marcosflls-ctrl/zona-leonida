@@ -1,10 +1,12 @@
 ---
 // Caja "Dónde comprarlo" con enlaces de afiliado de Amazon. Solo aparece si hay amazonTag en config.ts.
 import { SITE } from '../config';
-interface Props { items: { nombre: string; busqueda: string; nota?: string }[] }
-const { items } = Astro.props;
-const tag = SITE.amazonTag;
-const url = (q: string) => `https://www.amazon.es/s?k=${encodeURIComponent(q)}&tag=${encodeURIComponent(tag)}`;
+interface Props { items: { nombre: string; busqueda: string; nota?: string }[]; tienda?: 'es' | 'mx' }
+const { items, tienda = 'es' } = Astro.props;
+const mx = tienda === 'mx';
+const tag = mx ? (SITE as any).amazonTagMx : SITE.amazonTag;
+const dominio = mx ? 'www.amazon.com.mx' : 'www.amazon.es';
+const url = (q: string) => `https://${dominio}/s?k=${encodeURIComponent(q)}&tag=${encodeURIComponent(tag)}`;
 ---
 {tag && items.length > 0 && (
   <aside class="compras" data-pagefind-ignore aria-labelledby="h-compras">
@@ -13,7 +15,7 @@ const url = (q: string) => `https://www.amazon.es/s?k=${encodeURIComponent(q)}&t
       {items.map((it) => (
         <li>
           <div><strong>{it.nombre}</strong>{it.nota && <span class="muted small"> · {it.nota}</span>}</div>
-          <a class="btn" href={url(it.busqueda)} rel="sponsored nofollow noopener" target="_blank">Ver en Amazon</a>
+          <a class="btn" href={url(it.busqueda)} rel="sponsored nofollow noopener" target="_blank">{mx ? 'Ver en Amazon México' : 'Ver en Amazon'}</a>
         </li>
       ))}
     </ul>
