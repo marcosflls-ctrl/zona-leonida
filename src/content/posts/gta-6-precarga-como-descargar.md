@@ -48,6 +48,8 @@ Es descargar el juego **antes de que salga**. Cuando llegue la hora de desbloque
 
 Rockstar no ha confirmado el tamaño. Las estimaciones van de **100 a 200 GB**, así que deja **unos 200 GB libres** por si acaso. Lo explicamos, consola por consola, en [cuánto ocupa GTA 6](/guias/gta-6-cuanto-ocupa/).
 
+Compruébalo en un momento con la calculadora [¿Te cabe GTA 6?](/guias/te-cabe-gta-6/).
+
 ## ¿Puedo precargar con la caja física?
 
 **Sí.** La caja no trae disco: dentro hay un **código de descarga** que se canjea en tu cuenta. Algunas tiendas la entregan el mismo 12 de noviembre o antes. En cuanto la tengas, **canjea el código** y la descarga empezará igual que en digital. Ojo: el código de la caja de PS5 está ligado a una región. Te lo contamos en [¿GTA 6 trae disco?](/guias/gta-6-trae-disco-edicion-fisica/)
