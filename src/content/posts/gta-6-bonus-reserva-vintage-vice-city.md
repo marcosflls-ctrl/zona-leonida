@@ -4,7 +4,7 @@ description: "El pack Vintage Vice City trae el Vapid Stanier del 55, un garaje 
 date: 2026-10-20T18:20:00+02:00
 category: guias
 pilar: true
-orden: 8
+orden: 7
 tags: [reserva, bonus, vintage-vice-city, ediciones]
 image: /img/oficial/estilos-vice-city-1.webp
 imageAlt: "Estilos de Vice City, imagen oficial de GTA 6"

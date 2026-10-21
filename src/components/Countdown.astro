@@ -10,6 +10,7 @@ import { SITE } from '../config';
     <div><span data-u="s">--</span><small>seg</small></div>
   </div>
   <p class="local">Hasta las 00:00 en tu hora local</p>
+  <p class="atajos"><a href="/guias/gta-6-a-que-hora-sale/">Hora en tu país</a><a href="/guias/gta-6-precarga-como-descargar/">Precarga</a><a href="/guias/gta-6-cuanto-ocupa/">Cuánto ocupa</a><a href="/guias/gta-6-checklist-lanzamiento/">Qué preparar</a></p>
   <p class="done" hidden>¡GTA VI ya está disponible! Echa un vistazo a nuestras <a href="/guias/">guías</a> y <a href="/trucos/">trucos</a>.</p>
 </section>
 <script>
@@ -37,6 +38,9 @@ import { SITE } from '../config';
   .units { display: flex; justify-content: center; gap: clamp(10px, 4vw, 36px); }
   .units div { display: flex; flex-direction: column; min-width: 62px; }
   .units span { font-family: Anton, sans-serif; font-size: clamp(2.4rem, 9vw, 4.4rem); line-height: 1; color: #ffe6f4; text-shadow: var(--glow-pink); }
+  .atajos { margin: 16px 0 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
+  .atajos a { padding: 6px 12px; border-radius: 999px; border: 1px solid var(--line); text-decoration: none; font-size: .85rem; color: #ffe6f4; }
+  .atajos a:hover { border-color: var(--leaf); }
   .units small { color: var(--muted); text-transform: uppercase; letter-spacing: .1em; font-size: .7rem; margin-top: 6px; }
   .local { margin: 10px 0 0; font-size: .75rem; color: var(--muted); }
   .done { font-size: 1.2rem; font-weight: 600; margin: 0; }

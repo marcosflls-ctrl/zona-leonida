@@ -31,6 +31,8 @@ sources:
     url: "https://vandal.elespanol.com/noticia/1350791112/guia-de-reserva-de-gta-6-precio-hora-ediciones-y-todas-las-novedades-confirmadas-por-rockstar/"
   - name: "MDZ: bloqueo regional de las copias físicas de PS5 en Argentina"
     url: "https://www.mdzol.com/tecnologia/gta-6-playstation-5-tendra-bloqueo-argentina-cuales-son-los-cambios-y-quienes-afecta-n1575146/amp"
+orden: 5
+pilar: true
 ---
 
 <!-- ACTUALIZAR: revisar ofertas cada pocos días hasta el lanzamiento y durante el Black Friday (27 de noviembre). Poner solo ofertas comprobadas, con fecha y tienda. -->

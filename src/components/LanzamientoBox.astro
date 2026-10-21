@@ -1,0 +1,27 @@
+---
+// Caja «Prepárate para el lanzamiento» al final de cada artículo, hasta una semana después de la salida.
+// Refuerza el enlazado interno hacia las guías que más se buscan esos días. Se quita sola al reconstruir la web.
+interface Props { actual: string }
+const GUIAS = [
+  { slug: 'gta-6-a-que-hora-sale', texto: 'A qué hora sale en tu país' },
+  { slug: 'gta-6-precarga-como-descargar', texto: 'Cuándo empieza la precarga' },
+  { slug: 'gta-6-cuanto-ocupa', texto: 'Cuánto espacio necesitas' },
+  { slug: 'gta-6-donde-comprar-mas-barato', texto: 'Dónde comprarlo más barato' },
+  { slug: 'gta-6-checklist-lanzamiento', texto: 'Lista para el día 19' },
+];
+const visible = Date.now() < Date.parse('2026-11-26T00:00:00+01:00');
+const guias = GUIAS.filter((g) => g.slug !== Astro.props.actual);
+---
+{visible && (
+  <aside class="lanzamiento" aria-label="Guías para el lanzamiento de GTA 6">
+    <strong>Prepárate para el 19 de noviembre</strong>
+    <ul>{guias.map((g) => <li><a href={`/guias/${g.slug}/`}>{g.texto}</a></li>)}</ul>
+  </aside>
+)}
+<style>
+  .lanzamiento { margin: 28px 0; padding: 16px 18px; border: 1px solid var(--line); border-radius: 14px; background: linear-gradient(180deg, #2a1636, #17131f); }
+  .lanzamiento strong { display: block; margin-bottom: 8px; color: var(--leaf); text-transform: uppercase; letter-spacing: .06em; font-size: .85rem; }
+  .lanzamiento ul { margin: 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 8px; }
+  .lanzamiento a { display: inline-block; padding: 7px 12px; border-radius: 999px; border: 1px solid var(--line); text-decoration: none; font-size: .9rem; }
+  .lanzamiento a:hover { border-color: var(--leaf); }
+</style>

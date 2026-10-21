@@ -4,7 +4,7 @@ description: "La precarga de GTA 6 empieza el 12 de noviembre, también con el c
 date: 2026-10-20T18:20:00+02:00
 category: guias
 pilar: true
-orden: 7
+orden: 2
 tags: [precarga, descarga, lanzamiento, ps5, xbox]
 image: /img/oficial/vice-city-3.webp
 imageAlt: "Vice City, imagen oficial de GTA 6"

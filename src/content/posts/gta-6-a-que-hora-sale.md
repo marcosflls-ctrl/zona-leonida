@@ -6,7 +6,7 @@ updated: 2026-10-20T18:30:00+02:00
 category: guias
 pilar: true
 cuentaAtras: true
-orden: 6
+orden: 1
 tags: [lanzamiento, horario, precarga, ps5, xbox]
 image: /img/oficial/vice-city-1.webp
 imageAlt: "Vista de Vice City, imagen oficial de GTA 6"

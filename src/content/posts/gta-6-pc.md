@@ -5,7 +5,7 @@ date: 2026-10-09T12:05:00+02:00
 updated: 2026-10-21T00:30:00+02:00
 category: guias
 pilar: true
-orden: 2
+orden: 9
 tags: [pc, plataformas, steam]
 image: /img/oficial/lucia-caminos-5.webp
 imageAlt: "Lucía Caminos, imagen oficial de GTA 6"

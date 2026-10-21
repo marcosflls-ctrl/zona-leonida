@@ -10,6 +10,7 @@ import AdSlot from '../../components/AdSlot.astro';
 import Compras from '../../components/Compras.astro';
 import Compartir from '../../components/Compartir.astro';
 import Siguenos from '../../components/Siguenos.astro';
+import LanzamientoBox from '../../components/LanzamientoBox.astro';
 import { CATEGORIES, SITE } from '../../config';
 import { getPublishedPosts, formatDate, formatDateTime, readingTime, relacionados } from '../../lib/posts';
 
@@ -96,6 +97,7 @@ const jsonLd = [
     {d.comparadorPrecio && <ComparadorPrecio />}
     <Compras items={d.compras} />
     <Compartir url={url} title={d.title} />
+    <LanzamientoBox actual={post.id} />
 
     {d.sources.length > 0 && (
       <aside class="sources">

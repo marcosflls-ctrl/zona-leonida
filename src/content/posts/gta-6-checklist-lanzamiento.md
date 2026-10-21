@@ -13,6 +13,8 @@ sources:
     url: "https://vandal.elespanol.com/noticia/1350791129/rockstar-confirma-la-fecha-de-precarga-de-gta-6-tanto-para-su-version-fisica-como-digital/"
   - name: "Vandal: guía de reserva de GTA 6"
     url: "https://vandal.elespanol.com/noticia/1350791112/guia-de-reserva-de-gta-6-precio-hora-ediciones-y-todas-las-novedades-confirmadas-por-rockstar/"
+orden: 6
+pilar: true
 ---
 
 **GTA 6 sale el 19 de noviembre de 2026** en PS5 y Xbox Series X|S. Para jugar en cuanto se desbloquee, sin quedarte mirando una barra de descarga, conviene dejar unas cuantas cosas preparadas. Esta es la lista, por orden.
