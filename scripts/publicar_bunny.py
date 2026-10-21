@@ -15,6 +15,8 @@ Variables de entorno (secretos de GitHub):
   BUNNY_PULLZONE_ID       número de la distribución
   BUNNY_HOSTNAME          dominios públicos separados por comas, el principal primero (p. ej. zonaleonida.com), para limpiar la caché por dirección
   BUNNY_STORAGE_HOST      opcional, por defecto storage.bunnycdn.com (Fráncfort)
+  INDEXNOW_KEY            clave pública de IndexNow (su archivo está en public/<clave>.txt). Con ella se avisa a
+                          Bing, Yandex y otros buscadores de las páginas nuevas o cambiadas en cuanto se publican.
 Uso: python scripts/publicar_bunny.py [carpeta]   (por defecto dist)
 """
 from __future__ import annotations
@@ -37,6 +39,7 @@ HOST = os.environ.get("BUNNY_STORAGE_HOST", "storage.bunnycdn.com")
 API_KEY = os.environ.get("BUNNY_API_KEY", "")
 PULLZONE = os.environ.get("BUNNY_PULLZONE_ID", "")
 HOSTNAMES = [h.strip() for h in os.environ.get("BUNNY_HOSTNAME", "").split(",") if h.strip()]
+INDEXNOW_KEY = os.environ.get("INDEXNOW_KEY", "").strip()
 MANIFIESTO = ".publicado.json"
 BASE = f"https://{HOST}/{ZONE}/"
 S = requests.Session()
@@ -218,6 +221,33 @@ def purgar(rutas: list[str]) -> None:
     print(f"· Caché limpiada en {total} direcciones")
 
 
+def indexnow(rutas: list[str]) -> None:
+    """Avisa a los buscadores que usan IndexNow (Bing, Yandex, Seznam...) de las páginas nuevas o cambiadas.
+    Nunca hace fallar la publicación: si no responde, se avisa con un warning y ya está."""
+    if not INDEXNOW_KEY or not HOSTNAMES:
+        return
+    dominio = HOSTNAMES[0]
+    urls = []
+    for r in rutas:
+        if r.endswith("index.html") and not r.startswith("404"):
+            urls.append(f"https://{dominio}/{r[: -len('index.html')]}")
+        elif r.endswith(".xml") and "sitemap" in r:
+            urls.append(f"https://{dominio}/{r}")
+    if not urls:
+        return
+    try:
+        resp = requests.post("https://api.indexnow.org/indexnow", timeout=60, json={
+            "host": dominio, "key": INDEXNOW_KEY, "keyLocation": f"https://{dominio}/{INDEXNOW_KEY}.txt",
+            "urlList": urls[:10000],
+        })
+        if resp.status_code in (200, 202):
+            print(f"· IndexNow: avisadas {len(urls[:10000])} direcciones")
+        else:
+            print(f"::warning title=IndexNow::Respuesta {resp.status_code}: {resp.text[:200]}")
+    except requests.RequestException as e:
+        print(f"::warning title=IndexNow::{type(e).__name__}: {e}")
+
+
 def main() -> int:
     if not DIST.is_dir():
         print(f"! No existe {DIST}")
@@ -247,6 +277,7 @@ def main() -> int:
 
     # Solo hace falta limpiar la caché de lo que ya existía (lo nuevo aún no está en caché)
     purgar([c for c in cambiados if c in remoto and c not in fallos] + sobran)
+    indexnow([c for c in cambiados if c not in fallos])
     reglas_ok = reglas(pares)
     if fallos:
         return 1

@@ -4,7 +4,7 @@ description: "La reserva digital de GTA 6 regala un mes de GTA+. Qué incluye (b
 date: 2026-10-20T18:20:00+02:00
 category: guias
 pilar: true
-orden: 9
+orden: 8
 tags: [gta-plus, suscripcion, reserva, gta-online]
 image: /img/oficial/vice-city-9.webp
 imageAlt: "Vice City, imagen oficial de GTA 6"

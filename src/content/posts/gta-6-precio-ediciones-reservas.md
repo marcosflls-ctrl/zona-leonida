@@ -5,7 +5,7 @@ date: 2026-10-09T12:00:00+02:00
 updated: 2026-10-09T19:30:00+02:00
 category: guias
 pilar: true
-orden: 1
+orden: 4
 tags: [precio, ediciones, reservas, ultimate]
 image: /img/oficial/ultimate-edition-1.webp
 imageAlt: "Edición Ultimate, imagen oficial de GTA 6"

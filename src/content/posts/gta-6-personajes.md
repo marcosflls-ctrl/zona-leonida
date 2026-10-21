@@ -5,7 +5,7 @@ date: 2026-10-09T12:20:00+02:00
 updated: 2026-10-09T19:00:00+02:00
 category: guias
 pilar: true
-orden: 5
+orden: 11
 tags: [personajes, lucia, jason, historia]
 image: /img/oficial/jason-y-lucia-6.webp
 imageAlt: "Jason y Lucía, imagen oficial de GTA 6"

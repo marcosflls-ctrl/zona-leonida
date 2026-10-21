@@ -42,6 +42,7 @@ jobs:
           BUNNY_API_KEY: ${{ secrets.BUNNY_API_KEY }}
           BUNNY_PULLZONE_ID: "6819505"
           BUNNY_HOSTNAME: zonaleonida.com,www.zonaleonida.com,zonaleonida.b-cdn.net
+          INDEXNOW_KEY: "1967974c2713496d17457e34c44af568"
         run: python scripts/publicar_bunny.py dist
       - name: Avisar del fallo por Telegram
         if: failure()

@@ -5,7 +5,7 @@ date: 2026-10-09T12:15:00+02:00
 updated: 2026-10-09T19:00:00+02:00
 category: guias
 pilar: true
-orden: 4
+orden: 10
 tags: [mapa, leonida, vice-city, zonas]
 image: /img/oficial/vice-city-4.webp
 imageAlt: "Vice City, imagen oficial de GTA 6"
