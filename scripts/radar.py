@@ -29,6 +29,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import comunidad  # noqa: E402
 import lanzamiento  # noqa: E402
+from filtro import prefiltrar  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 FEEDS_FILE = ROOT / "scripts" / "feeds.json"
@@ -37,6 +38,9 @@ POSTS_DIR = ROOT / "src" / "content" / "posts"
 
 MAX_AGE_HOURS = 48  # no se escriben noticias de fuentes con más de 2 días
 MAX_PER_RUN = int(os.environ.get("MAX_PER_RUN", "2"))
+# Ahorro: cuánto texto de la fuente lee el redactor y cuántos artículos recientes ve para enlazar y no repetir
+MAX_FUENTE = int(os.environ.get("MAX_FUENTE", "12000"))
+RECIENTES = int(os.environ.get("RECIENTES", "50"))
 MODEL = os.environ.get("MODEL", "claude-sonnet-5-5")
 MIN_SOURCE_CHARS = 600          # si no hay texto suficiente, no se escribe (evita inventar)
 SIMILARITY_SKIP = 0.62          # títulos muy parecidos = misma noticia ya cubierta
@@ -409,6 +413,16 @@ _REFS_TXT = "; ".join(f"{k} = {v[0]}" for k, v in GALERIA_REFS.items())
 SYSTEM = SYSTEM_TEMPLATE.replace("{temas}", _TEMAS_TXT).replace("{refs}", _REFS_TXT)
 
 
+# Caché de Claude: las instrucciones y la lista de artículos son iguales en todas las llamadas de una
+# ejecución, así que a partir de la segunda se cobran a una fracción del precio.
+SYSTEM_CACHE = [{"type": "text", "text": SYSTEM, "cache_control": {"type": "ephemeral"}}]
+
+
+def con_cache(contexto: str, resto: str) -> list[dict]:
+    return [{"type": "text", "text": contexto, "cache_control": {"type": "ephemeral"}},
+            {"type": "text", "text": resto}]
+
+
 
 _CLIENT = None
 
@@ -443,15 +457,15 @@ def get_client():
 def write_article(item: dict, source_text: str, posts: list[dict]) -> dict | None:
     client = get_client()
     refresh_github_identity()  # deja preparado un pase nuevo por si el SDK necesita renovar
-    related = "\n".join(f"- {p['title']} → {p['url']}" for p in posts[:200]) or "(ninguno aún)"
+    related = "\n".join(f"- {p['title']} → {p['url']}" for p in posts[:RECIENTES]) or "(ninguno aún)"
+    contexto = f"ARTÍCULOS YA PUBLICADOS EN NUESTRA WEB (para enlaces internos):\n{related}"
     user = (
         f"FUENTE: {item['source']}\nTÍTULO ORIGINAL: {item['title']}\nURL: {item['url']}\n\n"
-        f"TEXTO FUENTE:\n\"\"\"\n{source_text[:25000]}\n\"\"\"\n\n"
-        f"ARTÍCULOS YA PUBLICADOS EN NUESTRA WEB (para enlaces internos):\n{related}"
+        f"TEXTO FUENTE:\n\"\"\"\n{source_text[:MAX_FUENTE]}\n\"\"\""
     )
     msg = client.messages.create(
-        model=MODEL, max_tokens=20000, system=SYSTEM,
-        messages=[{"role": "user", "content": user}],
+        model=MODEL, max_tokens=20000, system=SYSTEM_CACHE,
+        messages=[{"role": "user", "content": con_cache(contexto, user)}],
     )
     raw = "".join(b.text for b in msg.content if b.type == "text").strip()
     raw = re.sub(r"^```(?:json)?|```$", "", raw, flags=re.M).strip()
@@ -656,10 +670,18 @@ def main() -> int:
         print("Faltan credenciales: ANTHROPIC_API_KEY o la federación de identidades (ANTHROPIC_IDENTITY_TOKEN_FILE)")
         return 1
 
+    if not url_forzada and len(candidates) > 1:
+        candidates, quitadas = prefiltrar(get_client(), candidates, posts, SYSTEM)
+        for c, motivo in quitadas:  # se recuerdan como vistas para no volver a revisarlas
+            state["urls"].append(c["url"])
+            state["titles"].append(norm_title(c["title"]))
+
     written = []
     errors = 0
+    intentos = 0
     for item in candidates:
-        if len(written) >= MAX_PER_RUN:
+        # cada candidata cuesta una consulta a la IA aunque se descarte: tope para no gastar de más
+        if len(written) >= MAX_PER_RUN or intentos >= MAX_PER_RUN * 4:
             break
         print(f"→ {item['title']}")
         state["urls"].append(item["url"])
@@ -677,6 +699,7 @@ def main() -> int:
         if len(text) < MIN_SOURCE_CHARS:
             print("  – texto insuficiente, se omite")
             continue
+        intentos += 1
         try:
             data = write_article(item, text, posts)
         except Exception as e:  # noqa: BLE001 — un fallo no debe tirar toda la ejecución
