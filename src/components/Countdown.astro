@@ -11,7 +11,9 @@ import { SITE } from '../config';
   </div>
   <p class="local">Hasta las 00:00 en tu hora local</p>
   <p class="atajos"><a href="/guias/gta-6-a-que-hora-sale/">Hora en tu país</a><a href="/guias/gta-6-precarga-como-descargar/">Precarga</a><a href="/guias/gta-6-cuanto-ocupa/">Cuánto ocupa</a><a href="/guias/gta-6-checklist-lanzamiento/">Qué preparar</a></p>
-  <p class="done" hidden>¡GTA VI ya está disponible! Echa un vistazo a nuestras <a href="/guias/">guías</a> y <a href="/trucos/">trucos</a>.</p>
+  <!-- El aviso de «ya disponible» va en una plantilla para que no aparezca en el texto de la página (Google, lectores) antes de tiempo -->
+  <p class="done" hidden data-nosnippet></p>
+  <template class="done-tpl">¡GTA VI ya está disponible! Echa un vistazo a nuestras <a href="/guias/">guías</a> y <a href="/trucos/">trucos</a>.</template>
 </section>
 <script>
   const el = document.querySelector<HTMLElement>('.countdown');
@@ -22,7 +24,7 @@ import { SITE } from '../config';
     const set = (u: string, v: number) => { const n = el.querySelector(`[data-u="${u}"]`); if (n) n.textContent = String(v).padStart(2, '0'); };
     const tick = () => {
       const diff = target - Date.now();
-      if (diff <= 0) { el.querySelector('.units')?.setAttribute('hidden', ''); el.querySelector('.local')?.setAttribute('hidden', ''); el.querySelector('.done')?.removeAttribute('hidden'); return; }
+      if (diff <= 0) { el.querySelector('.units')?.setAttribute('hidden', ''); el.querySelector('.local')?.setAttribute('hidden', ''); const d = el.querySelector<HTMLElement>('.done'); const t = el.querySelector<HTMLTemplateElement>('.done-tpl'); if (d && t && !d.childNodes.length) d.append(t.content.cloneNode(true)); d?.removeAttribute('hidden'); return; }
       set('d', Math.floor(diff / 864e5)); set('h', Math.floor(diff / 36e5) % 24);
       set('m', Math.floor(diff / 6e4) % 60); set('s', Math.floor(diff / 1e3) % 60);
       setTimeout(tick, 1000);
