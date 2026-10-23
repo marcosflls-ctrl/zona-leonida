@@ -52,4 +52,4 @@ La advertencia de Hooker no era infundada: implementar el sistema supuso mucho t
 | Acciones concretas, opciones y reacciones | No detalladas por Rockstar |
 | Origen del prototipo en 2014 o 2015 | Relato de Nelson recogido por Schreier |
 
-Si quieres ver cómo encaja esto con lo ya anunciado, repasa nuestra guía de [jugabilidad de GTA 6](/guias/gta-6-jugabilidad-todo-lo-confirmado/) y el artículo sobre por qué [el perfil criminal no será un sistema de honor como RDR 2](/noticias/gta-6-el-perfil-criminal-no-sera-un-sistema-de-honor-como-rdr-2/). Para el contexto del desarrollo, tienes [cómo se hizo GTA 6](/guias/gta-6-como-se-hizo-desarrollo-retrasos/) y todo lo que cambia en [las novedades respecto a GTA 5](/guias/gta-6-novedades-respecto-gta-5/).
+Si quieres ver cómo encaja esto con lo ya anunciado, repasa nuestra guía de [jugabilidad de GTA 6](/guias/gta-6-jugabilidad-todo-lo-confirmado/). Para el contexto del desarrollo, tienes [cómo se hizo GTA 6](/guias/gta-6-como-se-hizo-desarrollo-retrasos/) y todo lo que cambia en [las novedades respecto a GTA 5](/guias/gta-6-novedades-respecto-gta-5/).
