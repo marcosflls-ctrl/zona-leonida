@@ -63,8 +63,8 @@ const path = Astro.url.pathname;
   <meta name="theme-color" content="#0b0a12" />
   <link rel="alternate" type="application/rss+xml" title={SITE.name} href="/rss.xml" />
   {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
-  {SITE.cfAnalyticsToken && (
-    <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon={`{"token": "${SITE.cfAnalyticsToken}"}`}></script>
+  {SITE.goatcounterCode && (
+    <script async data-goatcounter={`https://${SITE.goatcounterCode}.goatcounter.com/count`} src="https://gc.zgo.at/count.js"></script>
   )}
   {/* Sin anuncios en páginas noindex (por ejemplo, la galería de imágenes oficiales) */}
   {SITE.adsenseClient && !noindex && (
