@@ -15,8 +15,9 @@ export const SITE = {
   // AdSense: pega tu ID de editor cuando te aprueben (ej. 'ca-pub-1234567890123456').
   // Mientras esté vacío, no se carga ningún anuncio.
   adsenseClient: 'ca-pub-2093028838178784',
-  // Cloudflare Web Analytics (sin cookies): pega aquí el token cuando lo crees en Cloudflare.
-  cfAnalyticsToken: '',
+  // Contador de visitas GoatCounter (gratis, sin cookies). Es el nombre de tu cuenta en goatcounter.com.
+  // Déjalo vacío para desactivarlo.
+  goatcounterCode: 'zonaleonida',
   // Redes sociales
   social: { x: 'ZonaLeonida', telegram: 'zonaleonida', instagram: 'zonaleonidavi', tiktok: '' },
   // Afiliados: pega tu ID de Amazon Afiliados (termina en -21). Mientras esté vacío no se muestran enlaces.
