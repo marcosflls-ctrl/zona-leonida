@@ -1562,7 +1562,9 @@
   "https://as.com/meristation/noticias/la-fiebre-por-gta-6-catapulta-a-este-salvaje-juego-gratuito-un-mini-gta-de-policias-y-ladrones-f202611-n/",
   "https://vandal.elespanol.com/noticia/2026311002/gta-6-muestra-nuevas-imagenes-de-seis-de-sus-coches-y-sus-replicas-en-la-vida-real/",
   "https://www.hobbyconsolas.com/videojuegos/lanzamiento-zelda-ocarina-of-time-remake-ha-empezado-muy-fuerte-ventas-animado-usuarios-mostrar-habilidad-tocando-ocarina_7058438_0.html",
-  "https://vandal.elespanol.com/noticia/2026311001/gta-6-tendra-una-mecanica-inspirada-en-el-meme-mas-famoso-de-gta-iv/"
+  "https://vandal.elespanol.com/noticia/2026311001/gta-6-tendra-una-mecanica-inspirada-en-el-meme-mas-famoso-de-gta-iv/",
+  "https://www.3djuegos.com/juegos/grand-theft-auto-vi/noticias/cd-projekt-aprendio-malas-dueno-gta-6-no-quiere-hacerlo-eso-ha-permitido-que-rockstar-no-este-esclavizada-calendario",
+  "https://www.hobbyconsolas.com/videojuegos/primer-vistazo-las-zapatillas-gta-6-travis-scott-nike-que-ademas-los-colores-principales-juego-tambien-tienen-las-iconicas-estrellas-busqueda_7058444_0.html"
  ],
  "titles": [
   "nuevas ima genes de gta 6 3 capturas oficiales revelan la vida en vice city y sus espectaculares gra ficos",
@@ -2724,13 +2726,11 @@
   "la fiebre por gta 6 catapulta a este salvaje juego gratuito un mini gta de polici as y ladrones",
   "gta 6 muestra nuevas ima genes de seis de sus coches y sus re plicas en la vida real",
   "el lanzamiento de zelda ocarina of time remake ha empezado muy fuerte en ventas y ha animado a los usuarios a mostrar su habilidad tocando la ocarina",
-  "gta 6 tendra una meca nica inspirada en el meme ma s famoso de gta iv"
+  "gta 6 tendra una meca nica inspirada en el meme ma s famoso de gta iv",
+  "cd projekt lo aprendio por las malas el duen o de gta 6 no quiso hacerlo y por eso permitio que rockstar no estuviera esclavizada por el calendario",
+  "primer vistazo a las zapatillas de gta 6 de travis scott y nike que adema s de los colores principales del juego tambie n tienen las ico nicas estrellas de bu squeda"
  ],
  "escritos": [
-  {
-   "title": "GTA San Andreas costó menos de 10 millones y generó 600",
-   "url": "/noticias/gta-san-andreas-costo-menos-de-10-millones-y-genero-600/"
-  },
   {
    "title": "El mundo abierto de GTA nació por no querer hacer un menú",
    "url": "/noticias/el-mundo-abierto-de-gta-nacio-por-no-querer-hacer-un-menu/"
@@ -3046,6 +3046,10 @@
   {
    "title": "GTA 6 tendrá una app «Scooter Brothers» para pedir coches",
    "url": "/noticias/gta-6-tendra-una-app-scooter-brothers-para-pedir-coches/"
+  },
+  {
+   "title": "GTA 6: Travis Scott enseña unas Air Force 1 que no se venden",
+   "url": "/noticias/gta-6-travis-scott-ensena-unas-air-force-1-que-no-se-venden/"
   }
  ],
  "feeds_iniciados": [
