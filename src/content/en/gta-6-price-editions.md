@@ -60,6 +60,6 @@ Rockstar also sells **The Goodtime State – Vice City Collection**, a collector
 
 **Is GTA 6 on PS4, Xbox One or PC?** No. It's out on PS5 (including PS5 Pro) and Xbox Series X|S only. A PC version hasn't been announced.
 
-**When can I preload?** From November 12, 2026, if you bought or pre-ordered digitally. See [what time GTA 6 comes out](/en/gta-6-release-time/) and [how much space you need](/en/gta-6-file-size/).
+**When can I preload?** Now: the preload opened on November 10, 2026, for digital pre-orders and for boxed copies once you redeem the code. See [what time GTA 6 comes out](/en/gta-6-release-time/) and [how much space you need](/en/gta-6-file-size/).
 
 **Is there online multiplayer at launch?** Rockstar presents GTA 6 as a single-player experience and hasn't detailed an online mode for launch.

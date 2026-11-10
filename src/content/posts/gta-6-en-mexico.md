@@ -1,8 +1,8 @@
 ---
-title: "GTA 6 en México: hora de salida, precio en pesos y dónde comprarlo"
-description: "En México, GTA 6 sale a la medianoche del 19 de noviembre (previsto) y cuesta 1.499 pesos en PS5 y Xbox. Tiendas, meses sin intereses y bloqueo regional."
+title: "¿A qué hora sale GTA 6 en México? Hora confirmada y precio"
+description: "En México, GTA 6 sale a la medianoche del 19 de noviembre (hora confirmada) y cuesta 1.499 pesos en PS5 y Xbox. Tiendas, meses sin intereses y bloqueo regional."
 date: 2026-10-20T18:15:00+02:00
-updated: 2026-11-10T18:00:00+01:00
+updated: 2026-11-10T23:30:00+01:00
 category: guias
 pilar: true
 orden: 20
@@ -22,6 +22,8 @@ compras:
     busqueda: "SSD NVMe PS5 disipador 2TB"
     nota: "por si te falta espacio"
 sources:
+  - name: "Timesaver: Rockstar confirma el desbloqueo a medianoche local del 19 de noviembre en todas las regiones (3/11/2026)"
+    url: "https://timesaver.gg/blog/gta-6-release-time-unlock-countdown-2026"
   - name: "Vandal: Rockstar confirma el tamaño de GTA 6 y la precarga desde el 10 de noviembre (03/11/2026)"
     url: "https://vandal.elespanol.com/noticia/2026307025/cuanto-ocupara-gta-6-rockstar-confirma-el-tamano-de-la-descarga-en-ps5-y-xbox-series/"
   - name: "Infobae: horarios de la precarga de GTA 6 en PS5 y Xbox (05/11/2026)"
@@ -40,11 +42,11 @@ sources:
     url: "https://tierragamer.com/noticias/videojuegos/gta-6-cuanto-costara-en-playstation-ahora-que-cambiaron-los-precios-a-pesos-mexicanos/"
 ---
 
-**Respuesta rápida:** en México, GTA 6 se podrá jugar desde la **medianoche del jueves 19 de noviembre de 2026**, hora del centro (previsto, sin confirmar por Rockstar). Cuesta **1.499 pesos** la edición estándar y **1.879 pesos** la Ultimate, tanto en PS5 como en Xbox, con IVA incluido. En tiendas físicas, la estándar ronda los **1.699 pesos**.
+**Respuesta rápida:** en México, GTA 6 se podrá jugar desde la **medianoche del jueves 19 de noviembre de 2026**, hora del centro (confirmado por Rockstar). Cuesta **1.499 pesos** la edición estándar y **1.879 pesos** la Ultimate, tanto en PS5 como en Xbox, con IVA incluido. En tiendas físicas, la estándar ronda los **1.699 pesos**.
 
 ## ¿A qué hora sale GTA 6 en México?
 
-Lo previsto es que se desbloquee a las **00:00 del jueves 19 de noviembre, hora del centro de México** (las 07:00 en España). Es lo que apuntan medios como Generación Xbox a partir de la PlayStation Store, pero **Rockstar no ha publicado un horario oficial por países**. Si ya lo reservaste, la hora exacta para tu cuenta aparece en la ficha del juego en la tienda de tu consola.
+Se desbloquea a las **00:00 del jueves 19 de noviembre, hora del centro de México** (las 07:00 en España). Rockstar lo confirmó el 3 de noviembre: el juego se desbloquea **a medianoche, hora local, en todas las regiones**. Si ya lo reservaste, la hora exacta para tu cuenta aparece también en la ficha del juego en la tienda.
 
 Si vives en otra zona horaria del país (Baja California, Sonora o Quintana Roo), comprueba la hora en la ficha del juego: Rockstar no ha detallado si cada zona tendrá su propia medianoche. Tienes la tabla de todos los países en [a qué hora sale GTA 6](/guias/gta-6-a-que-hora-sale/).
 

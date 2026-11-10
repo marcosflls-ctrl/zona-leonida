@@ -1,8 +1,8 @@
 ---
-title: "¿A qué hora sale GTA 6? España, México, Colombia, Chile y más"
-description: "España: 00:00 del 19 de noviembre, según la PlayStation Store. México, Colombia, Chile, Argentina y el resto de Latinoamérica: medianoche local, previsto."
+title: "¿A qué hora sale GTA 6? Hora confirmada en España y Latinoamérica"
+description: "Confirmado por Rockstar: GTA 6 sale a las 00:00 del 19 de noviembre, hora local, en España, México, Colombia, Chile, Argentina, Venezuela y el resto de países."
 date: 2026-10-09T18:45:00+02:00
-updated: 2026-10-20T18:30:00+02:00
+updated: 2026-11-10T23:30:00+01:00
 category: guias
 pilar: true
 cuentaAtras: true
@@ -17,6 +17,8 @@ compras:
   - nombre: "GTA 6 para Xbox Series X|S"
     busqueda: "Grand Theft Auto VI Xbox Series X"
 sources:
+  - name: "Timesaver: Rockstar confirma el desbloqueo a medianoche local del 19 de noviembre en todas las regiones (3/11/2026)"
+    url: "https://timesaver.gg/blog/gta-6-release-time-unlock-countdown-2026"
   - name: "Generación Xbox: horarios previstos de GTA 6 en Xbox (7 de septiembre)"
     url: "https://generacionxbox.com/gta-6-ya-apunta-a-su-hora-de-estreno-en-xbox-estos-serian-los-horarios-en-espana-y-latinoamerica/"
   - name: "Hipertextual: GTA 6 no tendrá un debut simultáneo en todo el mundo"
@@ -29,27 +31,28 @@ sources:
 
 - **España:** a las **00:00 del jueves 19 de noviembre de 2026** (23:00 del miércoles 18 en Canarias). Así figura en la PlayStation Store.
 - **Estados Unidos:** a las 00:00 del jueves 19, hora del Este (21:00 del miércoles 18 en la costa oeste), también según la PlayStation Store.
-- **México, Colombia, Chile, Argentina y el resto de Latinoamérica:** lo previsto es a la **medianoche del jueves 19, hora de cada país**. Es lo que apuntan medios como Generación Xbox, pero **todavía no está confirmado** en las tiendas de todos los países.
+- **México, Colombia, Chile, Argentina, Venezuela y el resto de Latinoamérica:** a la **medianoche del jueves 19, hora de cada país**.
 
-**Rockstar no ha publicado un horario oficial por países.** Lo que hay son los datos de la PlayStation Store y las previsiones de la prensa. Actualizaremos esta guía en cuanto se confirme.
+**Ya es oficial.** Rockstar lo confirmó el 3 de noviembre en su página de soporte: GTA 6 se desbloquea «a medianoche, hora local, el 19 de noviembre de 2026, en todas las regiones», en PS5 y en Xbox Series X|S.
 
-El lanzamiento **no es simultáneo en todo el mundo**: el juego se desbloquea a medianoche de cada región, empezando por Oceanía. Hipertextual calcula unas 19 horas de diferencia entre los primeros jugadores y los últimos: si se cumple lo previsto, van de Nueva Zelanda (12:00 del miércoles en España) a México y Centroamérica (07:00 del jueves).
+El lanzamiento **no es simultáneo en todo el mundo**: el juego se desbloquea a medianoche de cada región, empezando por Oceanía. Hipertextual calcula unas 19 horas de diferencia entre los primeros jugadores y los últimos: van de Nueva Zelanda (12:00 del miércoles en España) a México y Centroamérica (07:00 del jueves).
 
 ## Horario de GTA 6 por país
 
 | País | Se desbloquea | En España serían las… | Estado |
 |---|---|---|---|
-| Nueva Zelanda | 00:00 del jueves 19 | 12:00 del miércoles 18 | Previsto, sin confirmar |
-| Australia (Sídney) | 00:00 del jueves 19 | 14:00 del miércoles 18 | Previsto, sin confirmar |
+| Nueva Zelanda | 00:00 del jueves 19 | 12:00 del miércoles 18 | Confirmado |
+| Australia (Sídney) | 00:00 del jueves 19 | 14:00 del miércoles 18 | Confirmado |
 | España (península y Baleares) | 00:00 del jueves 19 | 00:00 del jueves 19 | Según la PlayStation Store |
 | España (Canarias) | 23:00 del miércoles 18 | 00:00 del jueves 19 | Según la PlayStation Store |
 | Estados Unidos | 00:00 del jueves 19, hora del Este (21:00 del miércoles en la costa oeste) | 06:00 del jueves 19 | Según la PlayStation Store |
-| México | 00:00 del jueves 19 (hora del centro) | 07:00 del jueves 19 | Previsto, sin confirmar |
-| Guatemala, El Salvador, Honduras, Nicaragua y Costa Rica | 00:00 del jueves 19 | 07:00 del jueves 19 | Previsto, sin confirmar |
-| Colombia, Perú y Ecuador | 00:00 del jueves 19 | 06:00 del jueves 19 | Previsto, sin confirmar |
-| Panamá y Cuba | 00:00 del jueves 19 | 06:00 del jueves 19 | Previsto, sin confirmar |
-| Venezuela, Bolivia, República Dominicana y Puerto Rico | 00:00 del jueves 19 | 05:00 del jueves 19 | Previsto, sin confirmar |
-| Argentina, Chile, Uruguay y Paraguay | 00:00 del jueves 19 | 04:00 del jueves 19 | Previsto, sin confirmar |
+| México | 00:00 del jueves 19 (hora del centro) | 07:00 del jueves 19 | Confirmado |
+| Guatemala, El Salvador, Honduras, Nicaragua y Costa Rica | 00:00 del jueves 19 | 07:00 del jueves 19 | Confirmado |
+| Colombia, Perú y Ecuador | 00:00 del jueves 19 | 06:00 del jueves 19 | Confirmado |
+| Panamá y Cuba | 00:00 del jueves 19 | 06:00 del jueves 19 | Confirmado |
+| Venezuela | 00:00 del jueves 19 | 05:00 del jueves 19 | Confirmado |
+| Bolivia, República Dominicana y Puerto Rico | 00:00 del jueves 19 | 05:00 del jueves 19 | Confirmado |
+| Argentina, Chile, Uruguay y Paraguay | 00:00 del jueves 19 | 04:00 del jueves 19 | Confirmado |
 
 **¿Vives en Estados Unidos?** Tienes la hora de cada zona horaria, el precio en dólares y cómo jugarlo en español en [GTA 6 en Estados Unidos](/guias/gta-6-estados-unidos-hora-precio-espanol/).
 
@@ -82,6 +85,6 @@ En Xbox es fácil cambiar la región de la consola, y algunos medios apuntan a q
 
 ## Preguntas frecuentes
 
-**¿Sale a la misma hora en PS5 y en Xbox?** Lo previsto es que sí, a medianoche de cada región. Generación Xbox apunta a las 00:00 del jueves 19 en Xbox, tanto en España como en México, Colombia, Chile o Argentina, pero lo toma de los horarios de la PlayStation Store: ni Rockstar ni Microsoft lo han confirmado para Xbox.
+**¿Sale a la misma hora en PS5 y en Xbox?** Sí. Rockstar confirma la medianoche local del 19 de noviembre en las dos consolas. Ojo: la precarga sí empezó a horas distintas (en Xbox, a la misma hora en todo el mundo).
 
 **¿Cuánto cuesta?** 79,99 € la edición estándar y 99,99 € la Ultimate. Todos los detalles en [precio y ediciones](/guias/gta-6-precio-ediciones-reservas/).

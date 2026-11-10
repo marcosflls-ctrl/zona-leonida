@@ -1,8 +1,8 @@
 ---
-title: "GTA 6 en Chile: hora de salida, precio en pesos y dónde comprarlo"
-description: "En Chile, GTA 6 sale a la medianoche del 19 de noviembre (previsto). Cuesta 74.990 pesos en Xbox, 79,99 dólares en PS5 y unos 94.990 en caja."
+title: "¿A qué hora sale GTA 6 en Chile? Hora confirmada y precio"
+description: "En Chile, GTA 6 sale a la medianoche del 19 de noviembre (hora confirmada). Cuesta 74.990 pesos en Xbox, 79,99 dólares en PS5 y unos 94.990 en caja."
 date: 2026-10-20T18:15:00+02:00
-updated: 2026-11-10T18:00:00+01:00
+updated: 2026-11-10T23:30:00+01:00
 category: guias
 pilar: true
 orden: 20
@@ -11,6 +11,8 @@ image: /img/oficial/cayos-de-leonida-4.webp
 imageAlt: "Los Cayos de Leonida, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
+  - name: "Timesaver: Rockstar confirma el desbloqueo a medianoche local del 19 de noviembre en todas las regiones (3/11/2026)"
+    url: "https://timesaver.gg/blog/gta-6-release-time-unlock-countdown-2026"
   - name: "Vandal: Rockstar confirma el tamaño de GTA 6 y la precarga desde el 10 de noviembre (03/11/2026)"
     url: "https://vandal.elespanol.com/noticia/2026307025/cuanto-ocupara-gta-6-rockstar-confirma-el-tamano-de-la-descarga-en-ps5-y-xbox-series/"
   - name: "Infobae: horarios de la precarga de GTA 6 en PS5 y Xbox (05/11/2026)"
@@ -27,11 +29,11 @@ sources:
     url: "https://www.infobae.com/tecno/2026/06/25/gta-6-precio-en-preventa-cuanto-cuesta-el-juego-de-rockstar-en-argentina-colombia-mexico-y-espana/"
 ---
 
-**Respuesta rápida:** en Chile, GTA 6 se podrá jugar desde la **medianoche del jueves 19 de noviembre de 2026** (previsto, sin confirmar por Rockstar). En Xbox cuesta **74.990 pesos** la estándar y **93.990** la Ultimate. La PS Store chilena sigue cobrando en dólares: **79,99 y 99,99**. En caja, las tiendas lo venden en torno a **94.990 pesos**.
+**Respuesta rápida:** en Chile, GTA 6 se podrá jugar desde la **medianoche del jueves 19 de noviembre de 2026** (confirmado por Rockstar). En Xbox cuesta **74.990 pesos** la estándar y **93.990** la Ultimate. La PS Store chilena sigue cobrando en dólares: **79,99 y 99,99**. En caja, las tiendas lo venden en torno a **94.990 pesos**.
 
 ## ¿A qué hora sale GTA 6 en Chile?
 
-Lo previsto es a las **00:00 del jueves 19 de noviembre, hora de Chile continental** (las 04:00 en España, con el horario de verano chileno). **Rockstar no lo ha confirmado por países**: la hora exacta para tu cuenta aparece en la ficha del juego si ya lo reservaste. Más detalles en [a qué hora sale GTA 6](/guias/gta-6-a-que-hora-sale/).
+Se desbloquea a las **00:00 del jueves 19 de noviembre, hora de Chile continental** (las 04:00 en España, con el horario de verano chileno). Rockstar lo confirmó el 3 de noviembre: el juego se desbloquea **a medianoche, hora local, en todas las regiones**. Si ya lo reservaste, la hora exacta para tu cuenta aparece también en la ficha del juego en la tienda. Más detalles en [a qué hora sale GTA 6](/guias/gta-6-a-que-hora-sale/).
 
 ## ¿Cuánto cuesta GTA 6 en Chile?
 
