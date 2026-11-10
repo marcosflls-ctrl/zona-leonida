@@ -1,8 +1,8 @@
 ---
-title: "GTA 6 en Argentina: hora de salida, precio con impuestos y tiendas"
-description: "En Argentina, GTA 6 sale a la medianoche del 19 de noviembre (previsto). Precio en Xbox y PS5, qué impuestos se suman con tarjeta y el bloqueo de la caja."
+title: "¿A qué hora sale GTA 6 en Argentina? Hora confirmada y precio"
+description: "En Argentina, GTA 6 sale a la medianoche del 19 de noviembre (hora confirmada). Precio en Xbox y PS5, qué impuestos se suman con tarjeta y el bloqueo de la caja."
 date: 2026-10-20T18:15:00+02:00
-updated: 2026-11-10T18:00:00+01:00
+updated: 2026-11-10T23:30:00+01:00
 category: guias
 pilar: true
 orden: 20
@@ -11,6 +11,8 @@ image: /img/oficial/ambrosia-1.webp
 imageAlt: "Ambrosia, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
+  - name: "Timesaver: Rockstar confirma el desbloqueo a medianoche local del 19 de noviembre en todas las regiones (3/11/2026)"
+    url: "https://timesaver.gg/blog/gta-6-release-time-unlock-countdown-2026"
   - name: "Vandal: Rockstar confirma el tamaño de GTA 6 y la precarga desde el 10 de noviembre (03/11/2026)"
     url: "https://vandal.elespanol.com/noticia/2026307025/cuanto-ocupara-gta-6-rockstar-confirma-el-tamano-de-la-descarga-en-ps5-y-xbox-series/"
   - name: "Infobae: horarios de la precarga de GTA 6 en PS5 y Xbox (05/11/2026)"
@@ -29,11 +31,11 @@ sources:
     url: "https://www.lanacion.com.ar/tecnologia/gta-vi-cuanto-cuesta-la-reserva-que-incluye-cada-edicion-y-como-comprarlo-en-argentina-nid12102026/"
 ---
 
-**Respuesta rápida:** en Argentina, GTA 6 se podrá jugar desde la **medianoche del jueves 19 de noviembre de 2026** (previsto, sin confirmar por Rockstar). En Xbox figura a **113.299 pesos** la estándar y **141.990** la Ultimate; en la PS Store, a **79,99 y 99,99 dólares**. Al pagar con tarjeta se suman el **IVA del 21 %** y la percepción de Ingresos Brutos de tu provincia.
+**Respuesta rápida:** en Argentina, GTA 6 se podrá jugar desde la **medianoche del jueves 19 de noviembre de 2026** (confirmado por Rockstar). En Xbox figura a **113.299 pesos** la estándar y **141.990** la Ultimate; en la PS Store, a **79,99 y 99,99 dólares**. Al pagar con tarjeta se suman el **IVA del 21 %** y la percepción de Ingresos Brutos de tu provincia.
 
 ## ¿A qué hora sale GTA 6 en Argentina?
 
-Lo previsto es a las **00:00 del jueves 19 de noviembre, hora de Argentina** (las 04:00 en España). **Rockstar no lo ha confirmado por países**: si ya lo reservaste, la hora exacta para tu cuenta aparece en la ficha del juego en la tienda. Más detalles en [a qué hora sale GTA 6](/guias/gta-6-a-que-hora-sale/).
+Se desbloquea a las **00:00 del jueves 19 de noviembre, hora de Argentina** (las 04:00 en España). Rockstar lo confirmó el 3 de noviembre: el juego se desbloquea **a medianoche, hora local, en todas las regiones**. Si ya lo reservaste, la hora exacta para tu cuenta aparece también en la ficha del juego en la tienda. Más detalles en [a qué hora sale GTA 6](/guias/gta-6-a-que-hora-sale/).
 
 ## ¿Cuánto cuesta GTA 6 en Argentina?
 
