@@ -1,8 +1,8 @@
 ---
-title: "GTA 6 en Colombia: hora de salida, precio en pesos y dónde comprarlo"
-description: "En Colombia, GTA 6 sale a la medianoche del 19 de noviembre (previsto). Cuesta 339.900 pesos en Xbox y 79,99 dólares más IVA en PS5. Tiendas y consejos."
+title: "¿A qué hora sale GTA 6 en Colombia? Hora confirmada y precio"
+description: "En Colombia, GTA 6 sale a la medianoche del 19 de noviembre (hora confirmada). Cuesta 339.900 pesos en Xbox y 79,99 dólares más IVA en PS5. Tiendas y consejos."
 date: 2026-10-20T18:15:00+02:00
-updated: 2026-11-10T18:00:00+01:00
+updated: 2026-11-10T23:30:00+01:00
 category: guias
 pilar: true
 orden: 20
@@ -11,6 +11,8 @@ image: /img/oficial/grassrivers-1.webp
 imageAlt: "Grassrivers, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
+  - name: "Timesaver: Rockstar confirma el desbloqueo a medianoche local del 19 de noviembre en todas las regiones (3/11/2026)"
+    url: "https://timesaver.gg/blog/gta-6-release-time-unlock-countdown-2026"
   - name: "Vandal: Rockstar confirma el tamaño de GTA 6 y la precarga desde el 10 de noviembre (03/11/2026)"
     url: "https://vandal.elespanol.com/noticia/2026307025/cuanto-ocupara-gta-6-rockstar-confirma-el-tamano-de-la-descarga-en-ps5-y-xbox-series/"
   - name: "Infobae: horarios de la precarga de GTA 6 en PS5 y Xbox (05/11/2026)"
@@ -27,11 +29,11 @@ sources:
     url: "https://gameplay.com.co/products/gta-vi-ps5"
 ---
 
-**Respuesta rápida:** en Colombia, GTA 6 se podrá jugar desde la **medianoche del jueves 19 de noviembre de 2026** (previsto, sin confirmar por Rockstar). En Xbox cuesta **339.900 pesos** la estándar y **424.900** la Ultimate. En PS5, la tienda todavía cobra en dólares: **79,99 la estándar y 99,99 la Ultimate**, más impuestos.
+**Respuesta rápida:** en Colombia, GTA 6 se podrá jugar desde la **medianoche del jueves 19 de noviembre de 2026** (confirmado por Rockstar). En Xbox cuesta **339.900 pesos** la estándar y **424.900** la Ultimate. En PS5, la tienda todavía cobra en dólares: **79,99 la estándar y 99,99 la Ultimate**, más impuestos.
 
 ## ¿A qué hora sale GTA 6 en Colombia?
 
-Lo previsto es a las **00:00 del jueves 19 de noviembre, hora de Colombia** (las 06:00 en España), como en el resto de Latinoamérica. **Rockstar no lo ha confirmado por países**: la hora exacta para tu cuenta aparece en la ficha del juego en la tienda de tu consola si ya lo reservaste. Más detalles en [a qué hora sale GTA 6](/guias/gta-6-a-que-hora-sale/).
+Se desbloquea a las **00:00 del jueves 19 de noviembre, hora de Colombia** (las 06:00 en España). Rockstar lo confirmó el 3 de noviembre: el juego se desbloquea **a medianoche, hora local, en todas las regiones**. Si ya lo reservaste, la hora exacta para tu cuenta aparece también en la ficha del juego en la tienda. Más detalles en [a qué hora sale GTA 6](/guias/gta-6-a-que-hora-sale/).
 
 ## ¿Cuánto cuesta GTA 6 en Colombia?
 
