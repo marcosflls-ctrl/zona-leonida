@@ -1728,7 +1728,10 @@
   "https://www.3djuegos.com/juegos/baldurs-gate-3/noticias/12-anos-historia-solo-juego-ha-logrado-ser-elegido-juego-ano-critica-jugadores-the-game-awards",
   "https://vandal.elespanol.com/noticia/2026314018/el-jefe-de-taketwo-rechaza-que-gta-6-pueda-ser-creado-por-la-ia-y-explica-medidas-para-combatir-los-clones/",
   "https://www.3djuegos.com/pc/noticias/tienes-steam-deck-valve-acaba-estrenar-sus-mejores-funciones-no-iras-a-ciegas-rendimiento-cada-juego",
-  "https://www.gamesradar.com/games/grand-theft-auto/take-two-boss-isnt-worried-about-gta-6-players-jailbreaking-ps5-consoles-and-modding-it-because-if-the-game-is-great-then-the-monetization-takes-care-of-itself/"
+  "https://www.gamesradar.com/games/grand-theft-auto/take-two-boss-isnt-worried-about-gta-6-players-jailbreaking-ps5-consoles-and-modding-it-because-if-the-game-is-great-then-the-monetization-takes-care-of-itself/",
+  "https://www.gamesradar.com/games/grand-theft-auto/gta-6-ceo-says-this-business-has-been-largely-immune-to-piracy-concerns-but-ai-generated-recomps-are-making-it-more-of-a-challenge/",
+  "https://vandal.elespanol.com/noticia/2026314022/el-ceo-de-taketwo-afirma-que-gta-se-disfruta-igual-en-consolas-que-en-pc-tienden-a-ser-lo-mismo/",
+  "https://vandal.elespanol.com/noticia/2026314021/tendremos-que-esperar-otros-13-anos-para-gta-7-taketwo-habla-del-futuro-de-la-saga-tras-gta-6/"
  ],
  "titles": [
   "nuevas ima genes de gta 6 3 capturas oficiales revelan la vida en vice city y sus espectaculares gra ficos",
@@ -3039,13 +3042,12 @@
   "en 12 an os de historia un solo juego ha logrado ser elegido juego del an o por la cri tica y los jugadores en los the game awards",
   "el jefe de take two rechaza que gta 6 pueda ser creado por la ia y explica medidas para combatir los clones",
   "si tienes una steam deck valve acaba de estrenar una de sus mejores funciones ya no ira s a ciegas con el rendimiento de cada juego",
-  "take two boss isn t worried about gta 6 players jailbreaking ps5 consoles and modding it"
+  "take two boss isn t worried about gta 6 players jailbreaking ps5 consoles and modding it",
+  "gta 6 ceo says ai generated recomps are making piracy concerns more of a challenge",
+  "el ceo de take two afirma que gta se disfruta igual en consolas que en pc tienden a ser lo mismo",
+  "tendremos que esperar otros 13 an os para gta 7 take two habla del futuro de la saga tras gta 6"
  ],
  "escritos": [
-  {
-   "title": "GTA 6: The Album llega el 19 de noviembre con 34 temas",
-   "url": "/noticias/gta-6-the-album-llega-el-19-de-noviembre-con-34-temas/"
-  },
   {
    "title": "GTA 6: el caótico desarrollo de GTA 3, según un veterano",
    "url": "/noticias/gta-6-el-caotico-desarrollo-de-gta-3-segun-un-veterano/"
@@ -3361,6 +3363,10 @@
   {
    "title": "GTA 6: Take-Two no aclara PC, Switch 2 ni edición en disco",
    "url": "/noticias/gta-6-take-two-no-aclara-pc-switch-2-ni-edicion-en-disco/"
+  },
+  {
+   "title": "GTA 6: Zelnick ve PC y consola «básicamente lo mismo»",
+   "url": "/noticias/gta-6-zelnick-ve-pc-y-consola-basicamente-lo-mismo/"
   }
  ],
  "feeds_iniciados": [
