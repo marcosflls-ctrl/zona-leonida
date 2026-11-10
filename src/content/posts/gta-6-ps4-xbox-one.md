@@ -53,7 +53,7 @@ Más detalles en [Xbox niega la exclusividad del streaming en la nube](/noticias
 | **Xbox Series X** | Potencia similar a PS5 | — |
 | **Xbox Series S** | La más barata | Menos resolución y solo 512 GB de almacenamiento, justos para un juego tan grande |
 
-Ten en cuenta el espacio: según las estimaciones, GTA 6 podría ocupar entre 100 y 200 GB. Lo explicamos en [cuánto ocupa GTA 6](/guias/gta-6-cuanto-ocupa/).
+Ten en cuenta el espacio: Rockstar pide hasta 212 GB libres. Lo explicamos en [cuánto ocupa GTA 6](/guias/gta-6-cuanto-ocupa/).
 
 ## Preguntas frecuentes
 

@@ -2,6 +2,7 @@
 title: "GTA 6 en Perú: hora de salida, precio en soles y dónde comprarlo"
 description: "En Perú, GTA 6 sale a la medianoche del 19 de noviembre (previsto). Unos 274 soles en Xbox, 79,99 dólares en PS5 y entre 349 y 360 soles en caja."
 date: 2026-10-20T18:15:00+02:00
+updated: 2026-11-10T18:00:00+01:00
 category: guias
 pilar: true
 orden: 20
@@ -10,6 +11,10 @@ image: /img/oficial/vice-city-7.webp
 imageAlt: "Vice City, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
+  - name: "Vandal: Rockstar confirma el tamaño de GTA 6 y la precarga desde el 10 de noviembre (03/11/2026)"
+    url: "https://vandal.elespanol.com/noticia/2026307025/cuanto-ocupara-gta-6-rockstar-confirma-el-tamano-de-la-descarga-en-ps5-y-xbox-series/"
+  - name: "Infobae: horarios de la precarga de GTA 6 en PS5 y Xbox (05/11/2026)"
+    url: "https://www.infobae.com/tecno/2026/11/05/gta-6-se-podra-descargar-antes-de-su-lanzamiento-desde-el-10-de-noviembre-para-playstation-5-y-xbox-series-xs/"
   - name: "PlayStation Store Perú (consultada el 20/10/2026)"
     url: "https://store.playstation.com/es-pe/search/grand%20theft%20auto%20vi"
   - name: "Infobae: precio de GTA 6 en Argentina, Colombia, México y España"
@@ -42,12 +47,12 @@ Según Infobae, el precio de Xbox en soles depende del tipo de cambio y de los i
 ## ¿Dónde comprarlo?
 
 - **En digital:** en la PlayStation Store o en la Microsoft Store, con tu cuenta peruana.
-- **En caja:** **Phantom** lo vende por **359,90 soles** y empieza a enviarlo el **12 de noviembre**, para que canjees el código y precargues el juego. **Falabella** lo tenía desde **349 soles** con descuento el 20 de octubre. Oechsle y otras tiendas departamentales no habían confirmado preventa física.
+- **En caja:** **Phantom** lo vende por **359,90 soles** y empieza a enviarlo el **12 de noviembre**; en cuanto canjees el código podrás precargar el juego, que ya está disponible para descargar. **Falabella** lo tenía desde **349 soles** con descuento el 20 de octubre. Oechsle y otras tiendas departamentales no habían confirmado preventa física.
 - **Formas de pago:** las tiendas departamentales suelen ofrecer cuotas con sus tarjetas; revisa el coste total antes de pagar a plazos.
 
 ## Precarga y edición física
 
-- **Precarga:** si lo reservas en digital, podrás descargarlo **desde el 12 de noviembre**. Antes, haz sitio: te contamos [cuánto ocupa GTA 6](/guias/gta-6-cuanto-ocupa/).
+- **Precarga:** está abierta **desde el 10 de noviembre** para quien lo tenga reservado o haya canjeado el código de la caja. Necesitas hasta **212 GB** libres: te contamos [cuánto ocupa GTA 6](/guias/gta-6-cuanto-ocupa/).
 - **La caja no trae disco**, sino un **código de descarga**. Canjéalo en cuanto lo tengas para aprovechar la precarga. Te lo explicamos en [¿GTA 6 trae disco?](/guias/gta-6-trae-disco-edicion-fisica/)
 - **Bonus de reserva:** si lo reservas antes del 20 de noviembre, cualquier edición incluye el pack Vintage Vice City (en formato físico, hasta agotar existencias).
 

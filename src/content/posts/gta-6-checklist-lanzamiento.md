@@ -2,7 +2,7 @@
 title: "Qué hacer antes de que salga GTA 6: lista para el 19 de noviembre"
 description: "Reserva, espacio, precarga, hora de salida y spoilers: la lista con todo lo que tienes que preparar para jugar a GTA 6 en cuanto se desbloquee el 19 de noviembre."
 date: 2026-10-11T16:14:00+02:00
-updated: 2026-10-11T16:14:00+02:00
+updated: 2026-11-10T18:00:00+01:00
 category: guias
 tags: [lanzamiento, precarga, checklist, ps5, xbox]
 image: /img/oficial/jason-y-lucia-8.webp
@@ -19,6 +19,10 @@ compras:
   - nombre: "Mando DualSense para PS5"
     busqueda: "mando DualSense PS5"
 sources:
+  - name: "Vandal: Rockstar confirma el tamaño de GTA 6 y la precarga desde el 10 de noviembre (03/11/2026)"
+    url: "https://vandal.elespanol.com/noticia/2026307025/cuanto-ocupara-gta-6-rockstar-confirma-el-tamano-de-la-descarga-en-ps5-y-xbox-series/"
+  - name: "Infobae: horarios de la precarga de GTA 6 en PS5 y Xbox (05/11/2026)"
+    url: "https://www.infobae.com/tecno/2026/11/05/gta-6-se-podra-descargar-antes-de-su-lanzamiento-desde-el-10-de-noviembre-para-playstation-5-y-xbox-series-xs/"
   - name: "Vandal: Rockstar confirma la fecha de precarga de GTA 6"
     url: "https://vandal.elespanol.com/noticia/1350791129/rockstar-confirma-la-fecha-de-precarga-de-gta-6-tanto-para-su-version-fisica-como-digital/"
   - name: "Vandal: guía de reserva de GTA 6"
@@ -29,19 +33,19 @@ pilar: true
 
 **GTA 6 sale el 19 de noviembre de 2026** en PS5 y Xbox Series X|S. Para jugar en cuanto se desbloquee, sin quedarte mirando una barra de descarga, conviene dejar unas cuantas cosas preparadas. Esta es la lista, por orden.
 
-## Antes del 12 de noviembre
+## Antes de precargar
 
 **1. Reserva el juego (o cómpralo).** Solo quien lo tenga reservado o comprado podrá precargarlo. Además, las reservas y compras hechas **antes del 20 de noviembre** incluyen el pack Vintage Vice City. Repasa [precios y ediciones](/guias/gta-6-precio-ediciones-reservas/), si te interesa [la edición Ultimate](/guias/gta-6-merece-la-pena-edicion-ultimate/) y, si estás en América, [el precio en tu país](/guias/gta-6-precio-latinoamerica/).
 
 **2. Si compras la caja, que te llegue a tiempo.** La edición física [no trae disco, solo un código](/guias/gta-6-trae-disco-edicion-fisica/). Canjéalo en cuanto lo tengas para poder precargar.
 
-**3. Haz hueco en la consola.** Rockstar no ha confirmado el tamaño, pero las estimaciones hablan de **100 a 150 GB**. Te lo contamos en [cuánto ocupa GTA 6](/guias/gta-6-cuanto-ocupa/), con trucos para liberar espacio.
+**3. Haz hueco en la consola.** Rockstar pide **hasta 212 GB** libres. Te lo contamos en [cuánto ocupa GTA 6](/guias/gta-6-cuanto-ocupa/), con trucos para liberar espacio.
 
 **4. Actualiza la consola.** Instala la última versión del sistema de tu PS5 o Xbox para que no te pida una actualización justo en el momento de jugar.
 
-## El 12 de noviembre: precarga
+## Desde el 10 de noviembre: precarga
 
-**5. Precarga el juego.** Según Rockstar, la precarga se abre el **12 de noviembre** para la versión digital y para la física. Empieza la descarga ese mismo día: es un juego enorme, y en los días de lanzamiento los servidores van más lentos.
+**5. Precarga el juego.** La precarga está abierta **desde el 10 de noviembre** para la versión digital y para la física (con el código de la caja, que llega a las tiendas el 12). Empieza la descarga cuanto antes: es un juego enorme, y en los días de lanzamiento los servidores van más lentos.
 
 **6. Déjalo descargando con la consola en reposo.** En PS5 y Xbox puedes activar las descargas en modo reposo para que siga bajando aunque no estés jugando.
 

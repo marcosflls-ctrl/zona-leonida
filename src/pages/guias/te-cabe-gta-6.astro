@@ -1,14 +1,14 @@
 ---
 // Herramienta «¿Te cabe GTA 6?»: compara el espacio libre de tu consola con lo que se estima que ocupará.
-// Las cifras de tamaño son las de la guía /guias/gta-6-cuanto-ocupa/: si cambian allí (o sale el tamaño oficial),
-// hay que cambiarlas aquí también.
+// Las cifras de tamaño son las de la guía /guias/gta-6-cuanto-ocupa/: si cambian allí, hay que cambiarlas aquí también.
+// Desde el 3 de noviembre son oficiales: Rockstar pide hasta 212 GB para la precarga.
 import Base from '../../layouts/Base.astro';
 import Siguenos from '../../components/Siguenos.astro';
 import Compartir from '../../components/Compartir.astro';
 import Compras from '../../components/Compras.astro';
 import { SITE } from '../../config';
 
-const TAMANO = { min: 100, max: 200, conParche: 250, oficial: false };
+const TAMANO = { min: 212, max: 212, conParche: 250, oficial: true };
 const CONSOLAS = [
   { id: 'ps5', nombre: 'PS5 (modelo original, 825 GB)', util: 667 },
   { id: 'ps5slim', nombre: 'PS5 Slim (1 TB)', util: 848 },
@@ -16,8 +16,8 @@ const CONSOLAS = [
   { id: 'xsx', nombre: 'Xbox Series X (1 TB)', util: 802 },
   { id: 'xss', nombre: 'Xbox Series S (512 GB)', util: 364 },
 ];
-const title = '¿Te cabe GTA 6? Calcula si tienes espacio en tu PS5 o Xbox';
-const description = 'Pon el espacio libre de tu consola y te decimos si te cabe GTA 6, cuánto tienes que liberar antes de la precarga del 12 de noviembre y cómo hacerlo.';
+const title = '¿Te cabe GTA 6? Espacio y tiempo de descarga en PS5 y Xbox';
+const description = 'GTA 6 pide hasta 212 GB. Pon el espacio libre de tu consola y tu velocidad de internet y te decimos si te cabe y cuánto tardará la precarga, que ya está abierta.';
 const url = `${SITE.url}/guias/te-cabe-gta-6/`;
 const jsonLd = [
   { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
@@ -35,14 +35,20 @@ const compras = [
   <nav class="breadcrumbs"><a href="/">Inicio</a> › <a href="/guias/">Guías</a></nav>
   <article class="herramienta">
     <h1>¿Te cabe GTA 6?</h1>
-    <p class="lead">Dinos qué consola tienes y cuánto espacio libre te marca, y te decimos si te cabe GTA 6 y cuánto tienes que liberar antes de la <a href="/guias/gta-6-precarga-como-descargar/">precarga del 12 de noviembre</a>.</p>
+    <p class="lead">GTA 6 pide <strong>hasta 212 GB</strong>, y la <a href="/guias/gta-6-precarga-como-descargar/">precarga ya está abierta desde el 10 de noviembre</a>. Dinos qué consola tienes, cuánto espacio libre te marca y qué internet tienes, y te decimos si te cabe y cuánto tardará en descargarse.</p>
 
     <form id="cabe" class="formulario" onsubmit="return false">
       <label><span>Tu consola</span>
         <select name="consola">{CONSOLAS.map((c) => <option value={c.id} data-util={c.util}>{c.nombre}</option>)}</select>
       </label>
       <label><span>Espacio libre que te marca (GB)</span>
-        <input name="libre" type="number" inputmode="numeric" min="0" step="1" value="150" />
+        <input name="libre" type="number" inputmode="numeric" min="0" step="1" value="300" />
+      </label>
+      <label><span>Tu velocidad de internet (Mb/s)</span>
+        <input name="velocidad" type="number" inputmode="numeric" min="1" step="1" value="300" />
+      </label>
+      <label><span>Cómo está conectada la consola</span>
+        <select name="conexion"><option value="0.85">Por cable</option><option value="0.6" selected>Por wifi</option></select>
       </label>
       <p class="donde"><strong>¿Dónde lo miro?</strong> En PS5: <em>Ajustes → Almacenamiento</em>. En Xbox: <em>Mis juegos y aplicaciones → Administrar → Almacenamiento</em>.</p>
     </form>
@@ -50,11 +56,12 @@ const compras = [
     <section class="resultado" aria-live="polite">
       <p class="veredicto" id="veredicto">—</p>
       <div class="barra" aria-hidden="true"><span class="ocupado" id="b-ocupado"></span><span class="gta" id="b-gta"></span></div>
-      <p class="leyenda"><span class="l-ocupado"></span>Lo que ya tienes ocupado <span class="l-gta"></span>Lo que ocuparía GTA 6 (estimación alta)</p>
+      <p class="leyenda"><span class="l-ocupado"></span>Lo que ya tienes ocupado <span class="l-gta"></span>Lo que ocupa GTA 6 (212 GB)</p>
       <p id="detalle" class="detalle"></p>
+      <p class="descarga" id="descarga"></p>
     </section>
 
-    <p class="aviso"><strong>Ojo:</strong> Rockstar {TAMANO.oficial ? 'ha confirmado' : 'aún no ha confirmado'} el tamaño. Calculamos con las estimaciones: entre {TAMANO.min} y {TAMANO.max} GB, y hasta {TAMANO.conParche} GB contando el parche del primer día. Lo actualizaremos en cuanto aparezca la cifra oficial en las tiendas. Todos los detalles, en <a href="/guias/gta-6-cuanto-ocupa/">cuánto ocupa GTA 6</a>.</p>
+    <p class="aviso"><strong>Cómo calculamos:</strong> Rockstar pide hasta {TAMANO.max} GB, y recomendamos dejar {TAMANO.conParche} GB para el parche del primer día. El tiempo de descarga es orientativo: la velocidad real suele ser menor que la contratada, sobre todo por wifi, y los primeros días los servidores van más cargados. La velocidad de la consola la ves en PS5 en <em>Ajustes → Red → Ver estado de la conexión</em> y en Xbox en <em>Configuración → General → Configuración de red → Probar velocidad de red</em>. Todos los detalles, en <a href="/guias/gta-6-cuanto-ocupa/">cuánto ocupa GTA 6</a>.</p>
 
     <Compartir url={url} title={title} />
 
@@ -89,14 +96,20 @@ const compras = [
     const ocupado = util - libre;
     let veredicto: string, clase: string;
     if (libre >= T.conParche) { veredicto = '✅ Te cabe de sobra, incluso con el parche del primer día.'; clase = 'bien'; }
-    else if (libre >= T.max) { veredicto = '✅ Te cabe. Con margen justo si el parche del primer día es grande.'; clase = 'bien'; }
-    else if (libre >= T.min) { veredicto = `⚠️ Puede que no te quepa. Libera unos ${gb(T.max - libre)} para ir sobre seguro.`; clase = 'medio'; }
-    else { veredicto = `❌ No te cabe. Necesitas liberar al menos ${gb(T.min - libre)}, y mejor ${gb(T.max - libre)}.`; clase = 'mal'; }
+    else if (libre >= T.max) { veredicto = `⚠️ Te cabe, pero justo. Libera unos ${gb(T.conParche - libre)} más para el parche del primer día.`; clase = 'medio'; }
+    else { veredicto = `❌ No te cabe. Necesitas liberar al menos ${gb(T.max - libre)}, y mejor ${gb(T.conParche - libre)}.`; clase = 'mal'; }
     const v = $('veredicto'); v.textContent = veredicto; v.className = `veredicto ${clase}`;
     const pct = (n: number) => `${Math.max(0, Math.min(100, (n / util) * 100)).toFixed(1)}%`;
     ($('b-ocupado') as HTMLElement).style.width = pct(ocupado);
     ($('b-gta') as HTMLElement).style.width = pct(Math.min(T.max, util - ocupado));
-    $('detalle').textContent = `GTA 6 ocuparía entre el ${Math.round((T.min / util) * 100)} % y el ${Math.round((T.max / util) * 100)} % del espacio útil de tu consola (${gb(util)}). Ahora tienes libre ${gb(libre)}.`;
+    $('detalle').textContent = `GTA 6 ocupa hasta el ${Math.round((T.max / util) * 100)} % del espacio útil de tu consola (${gb(util)}). Ahora tienes libre ${gb(libre)}.`;
+    // Tiempo de descarga: 212 GB = 212 × 8.000 megabits, a la velocidad contratada por el rendimiento típico de la conexión
+    const mbps = Math.max(1, +(form.velocidad as HTMLInputElement).value || 1);
+    const efic = +(form.conexion as HTMLSelectElement).value || 0.6;
+    const seg = (T.max * 8000) / (mbps * efic);
+    const h = Math.floor(seg / 3600), m = Math.round((seg % 3600) / 60);
+    const dur = h ? `${h} h ${m} min` : `${m} min`;
+    $('descarga').innerHTML = `⏱️ <strong>Descarga: unas ${dur}</strong> con ${mbps.toLocaleString('es-ES')} Mb/s. ` + (seg > 6 * 3600 ? 'Déjala esta noche con la consola en reposo y las descargas automáticas activadas.' : 'Te da tiempo de sobra antes del 19 de noviembre.');
   }
   form.addEventListener('input', calcular);
   calcular();
@@ -122,6 +135,7 @@ const compras = [
   .leyenda span { width: 12px; height: 12px; border-radius: 3px; display: inline-block; margin-left: 6px; }
   .l-ocupado { background: #8b8b9e; } .l-gta { background: var(--pink); }
   .detalle { margin: 10px 0 0; font-size: .95rem; }
+  .descarga { margin: 12px 0 0; font-size: 1.05rem; }
   .aviso { margin: 18px 0; font-size: .92rem; color: var(--muted); }
   @media (max-width: 600px) { .formulario { grid-template-columns: 1fr; } }
 </style>

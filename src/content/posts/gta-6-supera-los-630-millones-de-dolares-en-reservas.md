@@ -2,6 +2,7 @@
 title: "GTA 6 supera los 630 millones de dólares en reservas"
 description: "Sensor Tower estima 6,45 millones de reservas y 630 millones de dólares en ingresos; el 74 % corresponde a PS5, según Insider Gaming."
 date: 2026-10-20T16:02:09+00:00
+updated: 2026-11-10T18:00:00+01:00
 category: noticias
 tags: [reservas, ventas, sensor-tower, ps5, xbox-series]
 rumor: false
@@ -9,6 +10,10 @@ image: /img/oficial/jason-duval-4.webp
 imageAlt: "Jason Duval, imagen oficial de GTA VI"
 imageCredit: "Rockstar Games"
 sources:
+  - name: "Vandal: Rockstar confirma el tamaño de GTA 6 y la precarga desde el 10 de noviembre (03/11/2026)"
+    url: "https://vandal.elespanol.com/noticia/2026307025/cuanto-ocupara-gta-6-rockstar-confirma-el-tamano-de-la-descarga-en-ps5-y-xbox-series/"
+  - name: "Infobae: horarios de la precarga de GTA 6 en PS5 y Xbox (05/11/2026)"
+    url: "https://www.infobae.com/tecno/2026/11/05/gta-6-se-podra-descargar-antes-de-su-lanzamiento-desde-el-10-de-noviembre-para-playstation-5-y-xbox-series-xs/"
   - name: "Insider Gaming: GTA 6 Has Already Made Over $600 Million in Pre-Order Sales"
     url: "https://insider-gaming.com/gta-6-600-million-pre-order-sales/"
 ---
@@ -31,7 +36,7 @@ Hay un detalle que sale de dividir ingresos entre copias. Lo hemos calculado nos
 
 ## Qué se espera para la semana de lanzamiento
 
-Insider Gaming apunta que estas cifras seguirán subiendo. La precarga de GTA 6 empieza el 12 de noviembre, una semana antes del lanzamiento del 19 de noviembre, y eso podría provocar otro pico de compras.
+Insider Gaming apunta que estas cifras seguirán subiendo. La precarga de GTA 6 empezó el 10 de noviembre, nueve días antes del lanzamiento del 19 de noviembre, y eso podría provocar otro pico de compras.
 
 La previsión de otra firma, Newzoo, es todavía más alta: calcula que el juego podría facturar hasta 5.200 millones de dólares solo en su primera semana. Es una proyección, no un dato de ventas reales, y el "hasta" marca un techo, no una cifra segura.
 
@@ -39,6 +44,6 @@ La previsión de otra firma, Newzoo, es todavía más alta: calcula que el juego
 
 - **Las cifras no son oficiales.** Son estimaciones de analistas externos. Rockstar no ha confirmado cuántas reservas tiene el juego.
 - **No afectan a tu reserva.** Que haya millones de compradores no cambia la fecha ni las condiciones de tu copia. Si aún no has comprado, puedes revisar [dónde comprar GTA 6 más barato](/guias/gta-6-donde-comprar-mas-barato/).
-- **Prepara la precarga.** Si has reservado, el 12 de noviembre podrás empezar a descargarlo. Deja espacio libre con nuestra guía de [cuánto ocupa GTA 6](/guias/gta-6-cuanto-ocupa/) y consulta la [hora de salida por país](/guias/gta-6-a-que-hora-sale/).
+- **Prepara la precarga.** Si has reservado, ya puedes descargarlo: la precarga se abrió el 10 de noviembre. Deja espacio libre con nuestra guía de [cuánto ocupa GTA 6](/guias/gta-6-cuanto-ocupa/) y consulta la [hora de salida por país](/guias/gta-6-a-que-hora-sale/).
 
 Take-Two [presentará resultados el 9 de noviembre](/noticias/gta-6-take-two-presentara-resultados-el-9-de-noviembre/). Habrá que ver si la compañía da cifras propias de reservas o si se queda en las previsiones. Para repasar todo lo confirmado hasta ahora, tienes [lo que sabemos de GTA 6](/guias/gta-6-todo-lo-que-sabemos/).
