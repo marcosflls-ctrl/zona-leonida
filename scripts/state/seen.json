@@ -1707,7 +1707,9 @@
   "https://insider-gaming.com/nba-2k27-missed-sales-expectations/",
   "https://www.ign.com/articles/gta-6-caused-some-gamers-to-hold-off-on-buying-new-games-including-take-twos-own-nba-2k27-strauss-zelnick-says",
   "https://www.ign.com/articles/take-two-boss-strauss-zelnick-on-gta-6-expectations-gta-online-and-the-decade-to-come",
-  "https://insider-gaming.com/gta-6-disc-and-pc-version-update-come-rockstar-take-two/"
+  "https://insider-gaming.com/gta-6-disc-and-pc-version-update-come-rockstar-take-two/",
+  "https://vandal.elespanol.com/noticia/2026314001/gta-6-ya-se-puede-descargar-en-espana-comienza-la-cuenta-atras-para-jugar-al-sandbox-de-rockstar/",
+  "https://insider-gaming.com/take-two-ceo-gta-7-development/"
  ],
  "titles": [
   "nuevas ima genes de gta 6 3 capturas oficiales revelan la vida en vice city y sus espectaculares gra ficos",
@@ -3000,7 +3002,9 @@
   "nba 2k27 missed sales expectations due to gta6",
   "gta 6 caused some gamers to hold off on buying new games including take two s own nba 2k27 strauss zelnick says",
   "take two boss strauss zelnick on gta 6 expectations gta online and the decade to come",
-  "gta 6 disc release and pc version update would come from rockstar take two ceo says"
+  "gta 6 disc release and pc version update would come from rockstar take two ceo says",
+  "gta 6 ya se puede descargar en espan a comienza la cuenta atra s para jugar al sandbox de rockstar",
+  "gta 7 won t take as long as gta 6 says take two ceo"
  ],
  "escritos": [
   {
@@ -3335,5 +3339,17 @@
   "https://www.rockstarintel.com/feed",
   "https://insider-gaming.com/feed/",
   "https://www.videogameschronicle.com/feed/"
- ]
+ ],
+ "lanzamiento": {
+  "gta-6-notas-analisis": {
+   "fuentes": [
+    "https://www.rockstargames.com/es/newswire/article/39ak8a12395591/grand-theft-auto-vi-original-score-by-justice",
+    "https://www.3djuegos.com/juegos/rob-run/noticias/nuevo-bombazo-steam-gratis-tiene-toques-gta-online-mundo-abierto-donde-ser-ladron-policia-que-esta-haciendo-numeros",
+    "https://www.gamesradar.com/games/simulation/days-before-gta-6-crime-game-for-thousands-of-players-blows-up-on-steam-despite-50-percent-positive-reviews-and-gen-ai-use/",
+    "https://as.com/meristation/analisis/analisis-de-queens-domain-un-milagro-que-se-cuela-en-la-fiesta-de-zelda-y-gta-6-f202611-n/"
+   ],
+   "ultimo": 1794268916.7571673,
+   "intentos": 1
+  }
+ }
 }
