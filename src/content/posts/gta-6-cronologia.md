@@ -2,13 +2,17 @@
 title: "Cronología de GTA 6: del anuncio al lanzamiento, fecha a fecha"
 description: "Todas las fechas clave de GTA 6: el anuncio en 2022, la gran filtración, los tráilers, los dos retrasos, las reservas, «Una mirada extendida» y el lanzamiento."
 date: 2026-10-11T17:12:00+02:00
-updated: 2026-10-11T17:12:00+02:00
+updated: 2026-11-10T18:00:00+01:00
 category: guias
 tags: [cronologia, historia, fecha, retrasos, trailers]
 image: /img/oficial/vice-city-9.webp
 imageAlt: "Vice City, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
+  - name: "Vandal: Rockstar confirma el tamaño de GTA 6 y la precarga desde el 10 de noviembre (03/11/2026)"
+    url: "https://vandal.elespanol.com/noticia/2026307025/cuanto-ocupara-gta-6-rockstar-confirma-el-tamano-de-la-descarga-en-ps5-y-xbox-series/"
+  - name: "Infobae: horarios de la precarga de GTA 6 en PS5 y Xbox (05/11/2026)"
+    url: "https://www.infobae.com/tecno/2026/11/05/gta-6-se-podra-descargar-antes-de-su-lanzamiento-desde-el-10-de-noviembre-para-playstation-5-y-xbox-series-xs/"
   - name: "Tom's Guide: Rockstar confirma el desarrollo del próximo GTA (4 de febrero de 2022)"
     url: "https://www.tomsguide.com/news/grand-theft-auto-vi-official"
   - name: "TechCrunch: el primer tráiler bate el récord de visualizaciones"
@@ -57,7 +61,8 @@ Desde que Rockstar confirmó que trabajaba en un nuevo GTA hasta el lanzamiento 
 
 ## Lo que queda
 
-- **12 de noviembre:** empieza la **precarga**.
+- **10 de noviembre:** empieza la **precarga** (hasta 212 GB).
+- **12 de noviembre:** las ediciones en caja, con código de descarga, llegan a las tiendas.
 - **19 de noviembre:** **lanzamiento** en PS5 y Xbox Series X|S. En España se desbloquea a las 00:00. Mira [a qué hora sale en tu país](/guias/gta-6-a-que-hora-sale/) y [qué preparar antes](/guias/gta-6-checklist-lanzamiento/).
 
 ¿Quieres ver los vídeos de los que hablamos? Están todos en nuestra página de [tráilers](/trailers/). Y para tenerlo todo resumido, lee [todo lo que sabemos de GTA 6](/guias/gta-6-todo-lo-que-sabemos/).

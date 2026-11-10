@@ -2,7 +2,7 @@
 title: "Dónde comprar GTA 6 más barato: precios por tienda y ofertas"
 description: "79,99 € en casi todas las tiendas, pero llegó a bajar a 64,90 € con un código de Amazon. Comparamos tiendas, caja o digital y qué esperar del Black Friday."
 date: 2026-10-12T20:32:00+02:00
-updated: 2026-10-20T19:00:00+02:00
+updated: 2026-11-10T18:00:00+01:00
 category: guias
 tags: [precio, ofertas, comprar, black-friday, reservas]
 image: /img/oficial/vice-city-5.webp
@@ -19,6 +19,10 @@ compras:
     busqueda: "SSD NVMe PS5 disipador 2TB"
     nota: "por si te falta espacio"
 sources:
+  - name: "Vandal: Rockstar confirma el tamaño de GTA 6 y la precarga desde el 10 de noviembre (03/11/2026)"
+    url: "https://vandal.elespanol.com/noticia/2026307025/cuanto-ocupara-gta-6-rockstar-confirma-el-tamano-de-la-descarga-en-ps5-y-xbox-series/"
+  - name: "Infobae: horarios de la precarga de GTA 6 en PS5 y Xbox (05/11/2026)"
+    url: "https://www.infobae.com/tecno/2026/11/05/gta-6-se-podra-descargar-antes-de-su-lanzamiento-desde-el-10-de-noviembre-para-playstation-5-y-xbox-series-xs/"
   - name: "MediaMarkt: GTA 6"
     url: "https://www.mediamarkt.es/es/specials/gta-6"
   - name: "Vandal: todas las tiendas para reservar GTA 6 en España (25 de junio)"
@@ -89,7 +93,7 @@ Ten en cuenta que **el pack Vintage Vice City solo se da con las reservas y comp
 ## Consejos para no pagar de más (ni llevarte un susto)
 
 1. **Reserva en una tienda que te deje cancelar.** Así puedes cambiarte si aparece una oferta mejor antes del lanzamiento.
-2. **Compra antes del 12 de noviembre** si quieres [precargarlo](/guias/gta-6-checklist-lanzamiento/): con la caja, necesitas canjear el código para empezar a descargar.
+2. **Compra cuanto antes** si quieres [precargarlo](/guias/gta-6-checklist-lanzamiento/), que ya está abierto: con la caja, necesitas canjear el código para empezar a descargar.
 3. **Cuidado con las tiendas de claves.** Las webs que venden códigos de terceros pueden tener precios más bajos, pero a veces son códigos de otra región que no funcionan en tu cuenta. En Argentina, por ejemplo, según MDZ, el código de la caja de PS5 solo se canjea en cuentas de la región latinoamericana.
 4. **Desconfía de los chollos imposibles.** Nadie vende GTA 6 legal a 20 €: si lo ves, es una estafa.
 5. **La Ultimate solo merece la pena si te interesa su contenido extra.** Lo analizamos en [¿merece la pena la edición Ultimate?](/guias/gta-6-merece-la-pena-edicion-ultimate/).

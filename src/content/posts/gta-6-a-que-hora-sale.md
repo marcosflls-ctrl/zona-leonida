@@ -69,7 +69,7 @@ La caja física trae un **código de descarga, no un disco**. Las tiendas pueden
 
 ## Cómo estar listo a medianoche
 
-1. **Resérvalo antes del 12 de noviembre** si lo quieres en digital, para poder precargarlo.
+1. **Resérvalo en digital** si quieres precargarlo: la precarga ya está abierta desde el 10 de noviembre.
 2. **Si tienes la caja, canjea el código cuanto antes.** Sin canjearlo no empieza la descarga.
 3. **Deja espacio libre de sobra**: te contamos cuánto en [cuánto ocupa GTA 6](/guias/gta-6-cuanto-ocupa/).
 4. **Deja la consola en modo reposo con conexión** la noche del 18. Así descarga sola el parche del primer día, si lo hay, y a las 00:00 solo tienes que abrir el juego.

@@ -2,6 +2,7 @@
 title: "GTA 6: Rockstar votará su sindicato del 12 al 26 de noviembre"
 description: "Los empleados de Rockstar votarán su sindicato del 12 al 26 de noviembre, justo cuando empieza la precarga y una semana antes del lanzamiento de GTA 6."
 date: 2026-10-27T21:01:54+00:00
+updated: 2026-11-10T18:00:00+01:00
 category: noticias
 tags: [rockstar, sindicato, precarga, lanzamiento, iwgb]
 rumor: false
@@ -9,6 +10,10 @@ image: /img/oficial/lucia-caminos-9.webp
 imageAlt: "Lucía Caminos, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
+  - name: "Vandal: Rockstar confirma el tamaño de GTA 6 y la precarga desde el 10 de noviembre (03/11/2026)"
+    url: "https://vandal.elespanol.com/noticia/2026307025/cuanto-ocupara-gta-6-rockstar-confirma-el-tamano-de-la-descarga-en-ps5-y-xbox-series/"
+  - name: "Infobae: horarios de la precarga de GTA 6 en PS5 y Xbox (05/11/2026)"
+    url: "https://www.infobae.com/tecno/2026/11/05/gta-6-se-podra-descargar-antes-de-su-lanzamiento-desde-el-10-de-noviembre-para-playstation-5-y-xbox-series-xs/"
   - name: "GamesRadar: The day GTA 6 pre-loading starts, unionizing Rockstar developers will vote on the studio's"
     url: "https://www.gamesradar.com/games/grand-theft-auto/the-day-gta-6-pre-loading-starts-unionizing-rockstar-developers-will-vote-on-the-future-of-the-legendary-studio-this-is-our-moment/"
 ---
@@ -21,7 +26,8 @@ La información procede de un comunicado del Independent Workers' Union of Great
 
 | Fecha | Qué ocurre |
 |---|---|
-| 12 de noviembre | Empieza la votación y la precarga de GTA 6 en PS5 y Xbox Series X |
+| 10 de noviembre | Empieza la precarga de GTA 6 en PS5 y Xbox Series X\|S |
+| 12 de noviembre | Empieza la votación |
 | 19 de noviembre | Lanzamiento de GTA 6 |
 | 26 de noviembre | Termina la votación |
 

@@ -1,8 +1,8 @@
 ---
 title: "¿Cuánto ocupa GTA 6 en PS5? Espacio libre que necesitas"
-description: "Sin cifra oficial: las estimaciones van de 100 a 200 GB en PS5 y Xbox Series. Deja unos 200 GB libres antes de la precarga del 12 de noviembre."
+description: "Rockstar lo confirma: la precarga de GTA 6 pide hasta 212 GB libres en PS5 y Xbox Series. Cuánto ocupa en cada consola y cómo hacer sitio."
 date: 2026-10-09T12:10:00+02:00
-updated: 2026-10-20T19:30:00+02:00
+updated: 2026-11-10T18:00:00+01:00
 category: guias
 pilar: true
 orden: 3
@@ -18,6 +18,10 @@ compras:
   - nombre: "GTA 6 para PS5 y Xbox"
     busqueda: "Grand Theft Auto VI"
 sources:
+  - name: "Vandal: Rockstar confirma el tamaño de GTA 6 y la precarga desde el 10 de noviembre (03/11/2026)"
+    url: "https://vandal.elespanol.com/noticia/2026307025/cuanto-ocupara-gta-6-rockstar-confirma-el-tamano-de-la-descarga-en-ps5-y-xbox-series/"
+  - name: "Infobae: horarios de la precarga de GTA 6 en PS5 y Xbox (05/11/2026)"
+    url: "https://www.infobae.com/tecno/2026/11/05/gta-6-se-podra-descargar-antes-de-su-lanzamiento-desde-el-10-de-noviembre-para-playstation-5-y-xbox-series-xs/"
   - name: "Timesaver: GTA 6 file size, estimaciones recopiladas (17 de octubre)"
     url: "https://timesaver.gg/blog/gta-6-file-size-storage-ps5-xbox"
   - name: "PlayStation: almacenamiento ampliado USB en PS5"
@@ -28,34 +32,35 @@ sources:
     url: "https://vandal.elespanol.com/noticia/1350791112/guia-de-reserva-de-gta-6-precio-hora-ediciones-y-todas-las-novedades-confirmadas-por-rockstar/"
 ---
 
-**Rockstar todavía no ha confirmado cuánto ocupa GTA 6.** Las primeras estimaciones hablaban de **100-150 GB**, y las más recientes suben a **150-200 GB**. Para ir sobre seguro, deja **unos 200 GB libres**. Actualizaremos esta página en cuanto aparezca el tamaño oficial en las tiendas, normalmente unos días antes de la precarga.
+**Ya es oficial: GTA 6 necesita hasta 212 GB libres.** Rockstar lo confirmó al anunciar la precarga, que se abrió el **10 de noviembre**, y avisa de que la cifra varía un poco según la consola. En las primeras descargas, la PS5 marca unos 210 GB, y en Xbox la tienda indica 225 GB, que la consola muestra como unos 210 GB porque cuenta los gigas de otra forma. Deja **algo más de 212 GB** para el parche del primer día.
 
-## Estimaciones de tamaño
+## Tamaño oficial
 
-| Escenario | Tamaño estimado |
+| | Tamaño |
 |---|---|
-| Instalación base | 100-130 GB |
-| Con todo el contenido del lanzamiento | 150-200 GB |
+| Espacio que pide Rockstar para la precarga | Hasta 212 GB |
+| PS5 (lo que marca la descarga) | Unos 210 GB |
+| Xbox Series X\|S (lo que marca la consola) | Unos 210 GB (225 GB en la ficha de la tienda) |
 
-Estas cifras son estimaciones de analistas recogidas por medios como Infobae, no datos oficiales. Algunas estimaciones más recientes, de octubre, suben la instalación base a **150-200 GB**, y hasta 200-250 GB con el parche del primer día; tampoco están confirmadas. Como referencia, GTA 5 en PS5 ocupa unos 87 GB, y Red Dead Redemption 2 supera los 100 GB.
+Antes de la cifra oficial, las estimaciones iban de 100 a 200 GB: se quedaron cortas. Como referencia, GTA 5 en PS5 ocupa unos 87 GB, y Red Dead Redemption 2 supera los 100 GB.
 
 ## ¿Cuánto ocupa GTA 6 en PS5?
 
-Según las estimaciones, **entre 100 y 200 GB**. En una PS5 de 825 GB (unos 667 GB útiles) cabe sin problema, pero si tienes la consola llena tendrás que hacer sitio. Rockstar no ha confirmado la cifra: el tamaño oficial suele aparecer en la ficha de la PlayStation Store unos días antes de la precarga, que empieza el 12 de noviembre.
+**Hasta 212 GB.** En una PS5 de 825 GB (unos 667 GB útiles) es casi un tercio del espacio: cabe, pero si tienes la consola llena tendrás que hacer sitio.
 
 ## ¿Y en Xbox Series X y Series S?
 
-La cifra prevista es la misma, **entre 100 y 200 GB**. En la **Series X** (unos 802 GB útiles) no debería haber problema. En la **Series S** (unos 364 GB útiles), GTA 6 podría ocupar casi la mitad del espacio, así que es la consola en la que más conviene hacer limpieza antes.
+Lo mismo, **hasta 212 GB**. En la **Series X** (unos 802 GB útiles) no debería haber problema. En la **Series S** (unos 364 GB útiles), GTA 6 ocupa más de la mitad del espacio, así que es la consola en la que más conviene hacer limpieza antes.
 
 ## ¿Cuánto espacio libre necesito?
 
-Para ir sobre seguro, deja **unos 200 GB libres**. Con 150 GB seguramente te bastaría si se cumplen las primeras estimaciones, pero las más recientes son más altas, y además hay que contar con el parche del primer día, habitual en los grandes lanzamientos, y con las actualizaciones posteriores. Cuando Rockstar publique el tamaño oficial en las tiendas, lo pondremos aquí.
+Rockstar pide **hasta 212 GB**. Para ir sobre seguro, deja **unos 250 GB**: hay que contar con el parche del primer día, habitual en los grandes lanzamientos, y con las actualizaciones posteriores.
 
 **¿Te cabe en tu consola?** Pon el espacio libre que te marca en la calculadora [¿Te cabe GTA 6?](/guias/te-cabe-gta-6/) y te decimos cuánto tienes que liberar.
 
 ## ¿Cuándo empieza la descarga?
 
-La **precarga empieza el 12 de noviembre de 2026**, una semana antes del lanzamiento, para quienes lo hayan reservado. Recuerda que la edición física también trae un código de descarga, no un disco, así que tendrás que descargarlo igualmente.
+La **precarga está abierta desde el 10 de noviembre de 2026**, nueve días antes del lanzamiento, para quienes lo hayan reservado. Te lo explicamos en [cómo precargar GTA 6](/guias/gta-6-precarga-como-descargar/). Recuerda que la edición física también trae un código de descarga, no un disco, así que tendrás que descargarlo igualmente.
 
 ## Cuánto espacio tiene tu consola
 

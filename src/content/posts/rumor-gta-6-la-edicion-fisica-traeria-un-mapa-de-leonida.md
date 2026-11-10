@@ -41,6 +41,6 @@ Rockstar vende una caja de coleccionista de Vice City con varios artículos y un
 
 ## Fechas que debes tener en cuenta
 
-GTA 6 sale el 19 de noviembre en PS5 y Xbox Series X|S. Las ediciones en caja empezarán a distribuirse el 12 de noviembre, el mismo día en que arranca la precarga. Cuando haya confirmación oficial sobre el mapa, lo actualizaremos aquí.
+GTA 6 sale el 19 de noviembre en PS5 y Xbox Series X|S. Las ediciones en caja empezarán a distribuirse el 12 de noviembre; la precarga está abierta desde el 10. Cuando haya confirmación oficial sobre el mapa, lo actualizaremos aquí.
 
 Mientras tanto, puedes repasar las zonas ya conocidas en nuestro [mapa de GTA 6](/guias/gta-6-mapa-leonida/) y comprobar los detalles de compra en la guía de [precio, ediciones y reservas](/guias/gta-6-precio-ediciones-reservas/).

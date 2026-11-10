@@ -2,7 +2,7 @@
 title: "GTA 6: precio, ediciones y cómo reservarlo"
 description: "Cuánto cuesta GTA 6, qué incluye la edición Ultimate, los bonus por reservar y qué trae la versión física. Toda la información oficial, actualizada."
 date: 2026-10-09T12:00:00+02:00
-updated: 2026-10-09T19:30:00+02:00
+updated: 2026-11-10T18:00:00+01:00
 category: guias
 pilar: true
 orden: 4
@@ -20,6 +20,10 @@ compras:
   - nombre: "Mando DualSense para PS5"
     busqueda: "mando DualSense PS5"
 sources:
+  - name: "Vandal: Rockstar confirma el tamaño de GTA 6 y la precarga desde el 10 de noviembre (03/11/2026)"
+    url: "https://vandal.elespanol.com/noticia/2026307025/cuanto-ocupara-gta-6-rockstar-confirma-el-tamano-de-la-descarga-en-ps5-y-xbox-series/"
+  - name: "Infobae: horarios de la precarga de GTA 6 en PS5 y Xbox (05/11/2026)"
+    url: "https://www.infobae.com/tecno/2026/11/05/gta-6-se-podra-descargar-antes-de-su-lanzamiento-desde-el-10-de-noviembre-para-playstation-5-y-xbox-series-xs/"
   - name: "Rockstar Games: web oficial de GTA VI"
     url: "https://www.rockstargames.com/VI"
   - name: "Vandal: guía de reserva de GTA 6"
@@ -87,7 +91,7 @@ Las tiendas españolas que lo venden a 79,99 € son, entre otras, GAME, Amazon,
 
 ## Precarga: ¿cuándo se puede descargar?
 
-Si reservas, podrás **precargar el juego desde el 12 de noviembre de 2026**, una semana antes del lanzamiento. Así el 19 de noviembre solo tendrás que encender la consola y jugar. Prepara espacio: te lo contamos en [cuánto ocupa GTA 6](/guias/gta-6-cuanto-ocupa/).
+Si reservas, puedes **precargar el juego desde el 10 de noviembre de 2026**, nueve días antes del lanzamiento. Así el 19 de noviembre solo tendrás que encender la consola y jugar. Prepara espacio: te lo contamos en [cuánto ocupa GTA 6](/guias/gta-6-cuanto-ocupa/).
 
 ## La caja de coleccionista "Vice City Collection"
 

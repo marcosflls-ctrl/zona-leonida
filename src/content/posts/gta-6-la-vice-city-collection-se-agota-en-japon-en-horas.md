@@ -2,6 +2,7 @@
 title: "GTA 6: la Vice City Collection se agota en Japón en horas"
 description: "Capcom abrió la reserva de la Vice City Collection en Japón por 99.980 yenes y, según Vandal, se agotó en pocas horas en su tienda online."
 date: 2026-10-30T10:02:00+00:00
+updated: 2026-11-10T18:00:00+01:00
 category: noticias
 tags: [gta-6, vice-city-collection, japon, capcom, merchandising]
 rumor: false
@@ -9,6 +10,10 @@ image: /img/oficial/vice-city-11.webp
 imageAlt: "Vice City, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
+  - name: "Vandal: Rockstar confirma el tamaño de GTA 6 y la precarga desde el 10 de noviembre (03/11/2026)"
+    url: "https://vandal.elespanol.com/noticia/2026307025/cuanto-ocupara-gta-6-rockstar-confirma-el-tamano-de-la-descarga-en-ps5-y-xbox-series/"
+  - name: "Infobae: horarios de la precarga de GTA 6 en PS5 y Xbox (05/11/2026)"
+    url: "https://www.infobae.com/tecno/2026/11/05/gta-6-se-podra-descargar-antes-de-su-lanzamiento-desde-el-10-de-noviembre-para-playstation-5-y-xbox-series-xs/"
   - name: "Vandal: Capcom puso a la venta GTA 6 en Japón con su edición más cara y se ha agotado en pocas hor"
     url: "https://vandal.elespanol.com/noticia/2026303007/capcom-puso-a-la-venta-gta-6-en-japon-con-su-edicion-mas-cara-y-se-ha-agotado-en-pocas-horas/"
 ---
@@ -58,7 +63,8 @@ Para ti, la lección práctica es que este tipo de cajas puede desaparecer en ho
 Vandal resume el calendario del lanzamiento en PS5 y Xbox Series:
 
 - **19 de noviembre:** estreno del juego.
-- **12 de noviembre:** la edición en caja llega a las tiendas y empieza la precarga en PS Store y Tienda Microsoft.
+- **10 de noviembre:** empieza la precarga en PS Store y Tienda Microsoft.
+- **12 de noviembre:** la edición en caja llega a las tiendas.
 - **Edición física:** no incluye disco.
 - **Ultimate Edition:** solo en formato digital.
 

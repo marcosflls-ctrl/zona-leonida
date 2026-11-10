@@ -2,13 +2,17 @@
 title: "Todo lo que sabemos de GTA 6: fecha, precio, mapa y personajes"
 description: "Resumen actualizado de GTA 6: fecha, plataformas, precio, Leonida, Jason y Lucía, la nueva policía, el dinero, la radio y todo lo que ha confirmado Rockstar."
 date: 2026-10-09T00:06:00+02:00
-updated: 2026-10-11T17:35:00+02:00
+updated: 2026-11-10T18:00:00+01:00
 category: guias
 image: /img/oficial/jason-y-lucia-1.webp
 imageAlt: "Jason y Lucía, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 tags: [resumen, fecha, precio, mapa, protagonistas, novedades]
 sources:
+  - name: "Vandal: Rockstar confirma el tamaño de GTA 6 y la precarga desde el 10 de noviembre (03/11/2026)"
+    url: "https://vandal.elespanol.com/noticia/2026307025/cuanto-ocupara-gta-6-rockstar-confirma-el-tamano-de-la-descarga-en-ps5-y-xbox-series/"
+  - name: "Infobae: horarios de la precarga de GTA 6 en PS5 y Xbox (05/11/2026)"
+    url: "https://www.infobae.com/tecno/2026/11/05/gta-6-se-podra-descargar-antes-de-su-lanzamiento-desde-el-10-de-noviembre-para-playstation-5-y-xbox-series-xs/"
   - name: "Rockstar Games (Business Wire): anuncio de las reservas de GTA VI"
     url: "https://www.businesswire.com/news/home/20260624539426/en/Rockstar-Games-Announces-Pre-Orders-for-Grand-Theft-Auto-VI"
   - name: "Vandal: guía de reserva de GTA 6"
@@ -31,7 +35,7 @@ Este es el resumen de **todo lo que Rockstar ha confirmado de GTA VI** antes de 
 | **Plataformas** | PS5 (con mejoras para PS5 Pro) y Xbox Series X\|S |
 | **PC** | Sin anunciar |
 | **Precio** | 79,99 € la estándar y 99,99 € la Ultimate |
-| **Precarga** | Desde el 12 de noviembre |
+| **Precarga** | Desde el 10 de noviembre; hasta 212 GB |
 | **Edad** | PEGI 18 en Europa y M (17+) en EE. UU. |
 | **Duración** | Unas 80 horas de historia, según Rockstar North |
 | **Modo online** | No anunciado: es una experiencia para un jugador |

@@ -2,6 +2,7 @@
 title: "GTA 6 en Estados Unidos: hora por estado, precio y si está en español"
 description: "A qué hora se desbloquea GTA 6 en Nueva York, Texas, California o Florida, cuánto cuesta en dólares con impuestos, dónde comprarlo y cómo jugarlo en español."
 date: 2026-10-19T23:00:00+02:00
+updated: 2026-11-10T18:00:00+01:00
 category: guias
 orden: 7
 tags: [estados-unidos, horario, precio, dolares, espanol]
@@ -9,6 +10,10 @@ image: /img/oficial/vice-city-4.webp
 imageAlt: "Vice City, imagen oficial de GTA VI"
 imageCredit: "Rockstar Games"
 sources:
+  - name: "Vandal: Rockstar confirma el tamaño de GTA 6 y la precarga desde el 10 de noviembre (03/11/2026)"
+    url: "https://vandal.elespanol.com/noticia/2026307025/cuanto-ocupara-gta-6-rockstar-confirma-el-tamano-de-la-descarga-en-ps5-y-xbox-series/"
+  - name: "Infobae: horarios de la precarga de GTA 6 en PS5 y Xbox (05/11/2026)"
+    url: "https://www.infobae.com/tecno/2026/11/05/gta-6-se-podra-descargar-antes-de-su-lanzamiento-desde-el-10-de-noviembre-para-playstation-5-y-xbox-series-xs/"
   - name: "Notebookcheck: horas de disponibilidad de GTA 6 en PS5 (PlayStation Store)"
     url: "https://www.notebookcheck.org/Se-han-revelado-las-fechas-de-lanzamiento-y-las-horas-de-disponibilidad-de-GTA-6-para-PS5-pero-es-posible-que-las-reservas-para-Xbox-tengan-alguna-ventaja.1392684.0.html"
   - name: "Gematsu: precio de GTA VI, edición Ultimate y bonus de reserva"
@@ -31,7 +36,7 @@ sources:
 - **Precio:** 79,99 dólares la edición estándar y 99,99 la Ultimate, más el impuesto de ventas de tu estado.
 - **Consolas:** PS5 y Xbox Series X|S. No sale en PS4, Xbox One ni, de momento, en PC.
 - **En español:** sí, con menús y subtítulos en español de México o de España. Las voces son en inglés.
-- **Precarga:** desde el 12 de noviembre si lo reservas en digital.
+- **Precarga:** abierta desde el 9 de noviembre por la noche en Estados Unidos (a medianoche del 10 en PS5; a las 19:00 del 9, hora del Este, en Xbox).
 
 ## A qué hora sale en cada zona horaria
 
@@ -64,7 +69,7 @@ Qué trae exactamente la edición cara lo explicamos en [¿merece la pena la edi
 
 ## Dónde comprarlo
 
-- **En digital:** en la PlayStation Store o la Microsoft Store de tu consola. Es la forma de precargarlo desde el 12 de noviembre y jugar justo a la hora de desbloqueo.
+- **En digital:** en la PlayStation Store o la Microsoft Store de tu consola. Es la forma de precargarlo ya y jugar justo a la hora de desbloqueo.
 - **En tienda:** las grandes cadenas de Estados Unidos que venden videojuegos, como GameStop, Best Buy, Walmart o Target, y también Amazon. Compara precios y, si lo compras en tienda, mira si incluye los bonus de reserva.
 
 **Ojo con la caja:** la edición física **no trae disco, sino un código de descarga**. Tendrás que descargar el juego entero igual que en digital. Lo explicamos en [¿GTA 6 trae disco?](/guias/gta-6-trae-disco-edicion-fisica/).
@@ -80,7 +85,7 @@ El español de México usa el vocabulario de Latinoamérica («carro», «celula
 
 ## Antes del 19 de noviembre
 
-1. **Resérvalo en digital antes del 12 de noviembre** si quieres precargarlo.
+1. **Resérvalo en digital** si quieres precargarlo: la precarga ya está abierta.
 2. **Si compras la caja, canjea el código cuanto antes** para que empiece la descarga.
 3. **Deja espacio libre de sobra:** te contamos cuánto en [cuánto ocupa GTA 6](/guias/gta-6-cuanto-ocupa/).
 4. **Deja la consola en reposo con conexión** la noche del 18, para que baje sola el parche del primer día.

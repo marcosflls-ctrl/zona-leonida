@@ -2,13 +2,17 @@
 title: "¿GTA 6 trae disco? La edición física solo incluye un código"
 description: "La caja de GTA 6 no trae disco, solo un código de descarga. Te explicamos por qué, qué implica para la precarga y la segunda mano, y si saldrá en disco más adelante."
 date: 2026-10-11T16:13:00+02:00
-updated: 2026-10-11T16:13:00+02:00
+updated: 2026-11-10T18:00:00+01:00
 category: guias
 tags: [edicion-fisica, disco, precarga, ps5, xbox]
 image: /img/oficial/pack-vintage-vice-city-1.webp
 imageAlt: "Pack Vintage Vice City, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
+  - name: "Vandal: Rockstar confirma el tamaño de GTA 6 y la precarga desde el 10 de noviembre (03/11/2026)"
+    url: "https://vandal.elespanol.com/noticia/2026307025/cuanto-ocupara-gta-6-rockstar-confirma-el-tamano-de-la-descarga-en-ps5-y-xbox-series/"
+  - name: "Infobae: horarios de la precarga de GTA 6 en PS5 y Xbox (05/11/2026)"
+    url: "https://www.infobae.com/tecno/2026/11/05/gta-6-se-podra-descargar-antes-de-su-lanzamiento-desde-el-10-de-noviembre-para-playstation-5-y-xbox-series-xs/"
   - name: "IBTimes: GTA+ incluido en las reservas digitales"
     url: "https://www.ibtimes.co.uk/rockstar-games-gta-vi-pre-order-bonuses-1804927"
   - name: "MDZ: bloqueo regional de las copias físicas de PS5 en Argentina"
@@ -35,7 +39,7 @@ Rockstar no ha dado una explicación oficial. Strauss Zelnick, consejero delegad
 
 ## ¿Puedo precargarlo si compro la caja?
 
-**Sí.** Según Vandal, Rockstar confirmó que la versión física también permite la **precarga desde el 12 de noviembre**, canjeando el código. Así que, si compras en tienda, intenta tenerlo antes de esa fecha y canjéalo en cuanto llegue.
+**Sí.** Según Rockstar, la versión física también permite precargar canjeando el código. La precarga está abierta **desde el 10 de noviembre**, y las cajas llegan a las tiendas el 12. Así que, si compras en tienda, intenta tenerlo antes de esa fecha y canjéalo en cuanto llegue.
 
 ## ¿Qué pasa con la segunda mano y los préstamos?
 

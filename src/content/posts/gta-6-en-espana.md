@@ -2,6 +2,7 @@
 title: "GTA 6 en España: hora de salida, precio y dónde comprarlo más barato"
 description: "En España, GTA 6 sale a las 00:00 del 19 de noviembre (23:00 en Canarias). Cuesta 79,99 € la estándar y 99,99 € la Ultimate. Tiendas, ofertas y precarga."
 date: 2026-10-20T18:15:00+02:00
+updated: 2026-11-10T18:00:00+01:00
 category: guias
 pilar: true
 orden: 20
@@ -20,6 +21,10 @@ compras:
     busqueda: "SSD NVMe PS5 disipador 2TB"
     nota: "por si te falta espacio"
 sources:
+  - name: "Vandal: Rockstar confirma el tamaño de GTA 6 y la precarga desde el 10 de noviembre (03/11/2026)"
+    url: "https://vandal.elespanol.com/noticia/2026307025/cuanto-ocupara-gta-6-rockstar-confirma-el-tamano-de-la-descarga-en-ps5-y-xbox-series/"
+  - name: "Infobae: horarios de la precarga de GTA 6 en PS5 y Xbox (05/11/2026)"
+    url: "https://www.infobae.com/tecno/2026/11/05/gta-6-se-podra-descargar-antes-de-su-lanzamiento-desde-el-10-de-noviembre-para-playstation-5-y-xbox-series-xs/"
   - name: "PlayStation Store España"
     url: "https://store.playstation.com/es-es/search/grand%20theft%20auto%20vi"
   - name: "Hipertextual: GTA 6 no tendrá un debut simultáneo en todo el mundo"
@@ -43,20 +48,20 @@ Hoy **cuesta lo mismo en casi todas partes**. La única forma de pagar menos has
 
 ## ¿Digital o en caja?
 
-- **Digital:** puedes precargarlo desde el 12 de noviembre y jugar a las 00:00 en punto. Si reservas, recibes además un mes de GTA+.
+- **Digital:** puedes precargarlo desde el 10 de noviembre y jugar a las 00:00 en punto. Si reservas, recibes además un mes de GTA+.
 - **Caja:** puedes revenderla o regalarla, pero **no trae disco**: dentro hay un código que tendrás que canjear y descargar. Si la tienda la envía antes del día 19, canjéala en cuanto llegue.
 
 ## Antes del día 19
 
 1. Haz sitio en la consola: deja unos 200 GB libres ([cuánto ocupa GTA 6](/guias/gta-6-cuanto-ocupa/)).
-2. Si lo tienes en digital, comprueba que la precarga ha empezado el 12 de noviembre.
+2. Si lo tienes en digital, comprueba que la precarga ha empezado: se abrió el 10 de noviembre a las 00:00 en PS5 y a la 01:00 en Xbox.
 3. La noche del 18, deja la consola en reposo con conexión para que descargue el parche del primer día.
 
 Todos los pasos están en la [lista para el día del lanzamiento](/guias/gta-6-checklist-lanzamiento/).
 
 ## Precarga y edición física
 
-- **Precarga:** si lo reservas en digital, podrás descargarlo **desde el 12 de noviembre**. Antes, haz sitio: te contamos [cuánto ocupa GTA 6](/guias/gta-6-cuanto-ocupa/).
+- **Precarga:** está abierta **desde el 10 de noviembre** para quien lo tenga reservado o haya canjeado el código de la caja. Necesitas hasta **212 GB** libres: te contamos [cuánto ocupa GTA 6](/guias/gta-6-cuanto-ocupa/).
 - **La caja no trae disco**, sino un **código de descarga**. Canjéalo en cuanto lo tengas para aprovechar la precarga. Te lo explicamos en [¿GTA 6 trae disco?](/guias/gta-6-trae-disco-edicion-fisica/)
 - **Bonus de reserva:** si lo reservas antes del 20 de noviembre, cualquier edición incluye el pack Vintage Vice City (en formato físico, hasta agotar existencias).
 

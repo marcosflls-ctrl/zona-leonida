@@ -2,6 +2,7 @@
 title: "GTA 6 en Chile: hora de salida, precio en pesos y dónde comprarlo"
 description: "En Chile, GTA 6 sale a la medianoche del 19 de noviembre (previsto). Cuesta 74.990 pesos en Xbox, 79,99 dólares en PS5 y unos 94.990 en caja."
 date: 2026-10-20T18:15:00+02:00
+updated: 2026-11-10T18:00:00+01:00
 category: guias
 pilar: true
 orden: 20
@@ -10,6 +11,10 @@ image: /img/oficial/cayos-de-leonida-4.webp
 imageAlt: "Los Cayos de Leonida, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
+  - name: "Vandal: Rockstar confirma el tamaño de GTA 6 y la precarga desde el 10 de noviembre (03/11/2026)"
+    url: "https://vandal.elespanol.com/noticia/2026307025/cuanto-ocupara-gta-6-rockstar-confirma-el-tamano-de-la-descarga-en-ps5-y-xbox-series/"
+  - name: "Infobae: horarios de la precarga de GTA 6 en PS5 y Xbox (05/11/2026)"
+    url: "https://www.infobae.com/tecno/2026/11/05/gta-6-se-podra-descargar-antes-de-su-lanzamiento-desde-el-10-de-noviembre-para-playstation-5-y-xbox-series-xs/"
   - name: "PlayStation Store Chile (consultada el 20/10/2026)"
     url: "https://store.playstation.com/es-cl/search/grand%20theft%20auto%20vi"
   - name: "Infobae: la PS Store cambia a moneda local en México, Colombia y Chile (19/09/2026)"
@@ -48,7 +53,7 @@ Sony anunció que la PlayStation Store chilena **pasaría a pesos** tras un cier
 
 ## Precarga y edición física
 
-- **Precarga:** si lo reservas en digital, podrás descargarlo **desde el 12 de noviembre**. Antes, haz sitio: te contamos [cuánto ocupa GTA 6](/guias/gta-6-cuanto-ocupa/).
+- **Precarga:** está abierta **desde el 10 de noviembre** para quien lo tenga reservado o haya canjeado el código de la caja. Necesitas hasta **212 GB** libres: te contamos [cuánto ocupa GTA 6](/guias/gta-6-cuanto-ocupa/).
 - **La caja no trae disco**, sino un **código de descarga**. Canjéalo en cuanto lo tengas para aprovechar la precarga. Te lo explicamos en [¿GTA 6 trae disco?](/guias/gta-6-trae-disco-edicion-fisica/)
 - **Bonus de reserva:** si lo reservas antes del 20 de noviembre, cualquier edición incluye el pack Vintage Vice City (en formato físico, hasta agotar existencias).
 
