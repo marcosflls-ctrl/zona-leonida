@@ -3,7 +3,7 @@ title: "GTA 6 gameplay: wanted levels, Heat, money, car theft and Jason and Luci
 description: "How GTA 6's six-star wanted system and Heat work, why money matters more, how car theft and the WAiNK app work, and how switching between Jason and Lucia plays."
 date: 2026-10-19T23:00:00+02:00
 es: /guias/gta-6-jugabilidad-todo-lo-confirmado/
-orden: 4
+orden: 6
 image: /img/oficial/jason-y-lucia-4.webp
 imageAlt: "Jason and Lucia, official GTA VI image"
 imageCredit: "Rockstar Games"

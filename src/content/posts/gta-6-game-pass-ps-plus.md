@@ -1,8 +1,8 @@
 ---
-title: "¿GTA 6 estará en Game Pass o PS Plus? Lo que sabemos"
+title: "¿GTA 6 estará en Game Pass o PS Plus? No: esto es lo confirmado"
 description: "GTA 6 no entrará en Game Pass ni en PS Plus en su lanzamiento: habrá que comprarlo. Te explicamos por qué, qué pasa con la nube de Xbox y si llegará más adelante."
 date: 2026-10-12T20:31:00+02:00
-updated: 2026-10-12T20:31:00+02:00
+updated: 2026-11-12T00:30:00+01:00
 category: guias
 tags: [game-pass, ps-plus, suscripcion, xbox, ps5]
 image: /img/oficial/jason-y-lucia-9.webp
@@ -19,7 +19,7 @@ sources:
     url: "https://vandal.elespanol.com/noticia/2026280001/xbox-desmiente-que-gta-6-vaya-a-poder-jugarse-en-pc-mediante-la-nube-desde-su-lanzamiento/"
 ---
 
-**No: GTA 6 no estará en Game Pass ni en PS Plus cuando salga.** Ni Rockstar ni Microsoft ni Sony lo han anunciado, y Take-Two, la empresa propietaria de Rockstar, lleva años diciendo que sus grandes lanzamientos no van a las suscripciones desde el primer día. Para jugar el 19 de noviembre habrá que **comprarlo**.
+**No: GTA 6 no estará en Game Pass ni en PS Plus cuando salga.** Ni Rockstar ni Microsoft ni Sony lo han anunciado, y Take-Two, la empresa propietaria de Rockstar, lleva años diciendo que sus grandes lanzamientos no van a las suscripciones desde el primer día. Para jugar el 19 de noviembre habrá que **comprarlo**, y ya se puede [precargar](/guias/gta-6-precarga-como-descargar/).
 
 ## ¿Por qué no entra en las suscripciones?
 
