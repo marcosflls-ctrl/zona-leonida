@@ -5,8 +5,8 @@ date: 2026-11-10T16:02:42+00:00
 category: noticias
 tags: [lanzamiento, reino-unido, estudio, vacaciones, 19-de-noviembre]
 rumor: false
-image: /img/oficial/vice-city-26.webp
-imageAlt: "Vice City, imagen oficial de GTA 6"
+image: /img/oficial/piso-franco-vehiculos-1.webp
+imageAlt: "Vehículos del piso franco de Jason (edición Ultimate), imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "Meristation: El peso del lanzamiento de GTA 6 en la economía británica: más de 80.000 días de vacacione"

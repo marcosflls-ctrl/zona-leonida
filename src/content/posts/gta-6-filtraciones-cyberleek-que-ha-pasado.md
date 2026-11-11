@@ -4,8 +4,9 @@ description: "Quién es Cyberleek, qué filtró, cómo funcionaba su criptomoned
 date: 2026-10-19T19:31:00+02:00
 category: guias
 tags: [filtraciones, cyberleek, spoilers, take-two, rockstar]
-image: /img/banco/misterio-1.webp
-imageAlt: "Imagen ilustrativa de una filtración"
+image: /img/banco/policia-1.webp
+imageAlt: "Ilustración de luces de policía reflejadas en una calle mojada"
+imageCredit: "ilustración de Zona Leonida"
 sources:
   - name: "Dexerto: Cyberleek amenaza con publicar una versión jugable completa"
     url: "https://www.dexerto.com/gta/gta-6-leaker-cyberleek-threatens-to-release-playable-build-from-start-to-finish-3417786/"

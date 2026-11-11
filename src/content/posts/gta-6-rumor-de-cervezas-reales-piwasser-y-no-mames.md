@@ -5,9 +5,9 @@ date: 2026-10-26T11:02:26+00:00
 category: noticias
 tags: [gta-6, rumor, merchandising, cerveza, piwasser]
 rumor: true
-image: /img/banco/misterio-1.webp
-imageAlt: "Ilustración de un callejón misterioso con luz de neón"
-imageCredit: "ilustración de Zona Leonida"
+image: /img/oficial/coleccion-clasicos-1.webp
+imageAlt: "Colección de coches clásicos (edición Ultimate), imagen oficial de GTA 6"
+imageCredit: "Rockstar Games"
 sources:
   - name: "Vandal: GTA 6 tendrá cervezas con las marcas ficticias del juego, incluyendo la nueva No Mames Vic"
     url: "https://vandal.elespanol.com/noticia/2026299012/gta-6-tendra-cervezas-con-las-marcas-ficticias-del-juego-incluyendo-la-nueva-no-mames-vice-city/"

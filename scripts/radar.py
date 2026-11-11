@@ -490,14 +490,41 @@ def yaml_str(s: str) -> str:
 _BANCO_STATE = ROOT / "scripts" / "state" / "banco-uso.json"
 
 
+def _portadas_usadas() -> set[str]:
+    """Todas las portadas que ya usa algún artículo (ruta /img/...)."""
+    usadas = set()
+    for f in (ROOT / "src" / "content" / "posts").glob("*.md"):
+        m = re.search(r"^image:\s*(\S+)", f.read_text(encoding="utf-8"), re.M)
+        if m:
+            usadas.add(m.group(1))
+    return usadas
+
+
 def pick_banco_image(theme: str, rumor: bool) -> tuple[str, str] | None:
-    """Elige una ilustración del banco para el tema, rotando para no repetir la última usada."""
+    """Elige una ilustración del banco para el tema sin repetir portada: primero una libre del tema,
+    después una libre de otro tema y, si no queda ninguna, una imagen oficial libre de paisaje o de
+    coches (sin personajes, para no asociarla a ningún rumor). Solo si todo está usado, rota."""
     theme = (theme or "").strip().lower()
     if rumor:
         theme = "misterio"
     if theme not in BANCO:
         theme = "ciudad" if "ciudad" in BANCO else next(iter(BANCO))
+    usadas = _portadas_usadas()
     t = BANCO[theme]
+    for img in t["imagenes"]:
+        if f"/img/banco/{img}.webp" not in usadas:
+            return f"/img/banco/{img}.webp", t["alt"]
+    for otro in BANCO.values():
+        for img in otro["imagenes"]:
+            if f"/img/banco/{img}.webp" not in usadas:
+                return f"/img/banco/{img}.webp", otro["alt"]
+    personas = {"jason", "lucia", "cal-hampton", "boobie-ike", "dre-quan-priest", "real-dimez", "raul-bautista", "brian-heder"}
+    for g in sorted(GALERIA, key=lambda g: len(g["refs"])):
+        img = f"/img/oficial/{g['slug']}.webp"
+        if img in usadas or g["slug"] in NO_PORTADA or set(g["refs"]) & personas or not (GALERIA_DIR / f"{g['slug']}.webp").exists():
+            continue
+        if "coches" in g["refs"] or g.get("grupo") in ("vice-city", "cayos-de-leonida", "grassrivers", "monte-kalaga", "port-gellhorn", "ambrosia"):
+            return img, g["alt"]
     try:
         uso = json.loads(_BANCO_STATE.read_text(encoding="utf-8"))
     except Exception:  # noqa: BLE001
@@ -598,7 +625,12 @@ def save_post(data: dict, item: dict, html: str = "") -> Path:
         pick = pick_banco_image(data.get("image_theme", ""), bool(data.get("rumor")))
         if pick:
             img, alt = pick
-            image_lines = f"image: {img}\nimageAlt: {yaml_str(alt)}\nimageCredit: {yaml_str(BANCO_CREDIT)}\n"
+            if img.startswith("/img/oficial/"):
+                credit = ("Rockstar Games (imagen promocional oficial, no forma parte de la filtración)"
+                          if data.get("rumor") else "Rockstar Games")
+            else:
+                credit = BANCO_CREDIT
+            image_lines = f"image: {img}\nimageAlt: {yaml_str(alt)}\nimageCredit: {yaml_str(credit)}\n"
     body = data["body"].strip()
     # En artículos de rumores no se incrustan vídeos ni tuits, para que no parezcan una confirmación
     embeds = official_embeds(html) if html and not data.get("rumor") else []

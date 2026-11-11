@@ -5,8 +5,8 @@ date: 2026-11-10T17:03:07+00:00
 category: noticias
 tags: [reservas, ventas, sensor-tower, cyberpunk-2077, take-two]
 rumor: false
-image: /img/oficial/vice-city-22.webp
-imageAlt: "Vice City, imagen oficial de GTA 6"
+image: /img/oficial/rideout-customs-2.webp
+imageAlt: "Taller Rideout Customs (edición Ultimate), imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "Rockstar Intel: GTA 6 Has Made Nearly $1B From 10M Pre-Orders Says Report"

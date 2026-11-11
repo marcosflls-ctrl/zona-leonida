@@ -5,9 +5,9 @@ date: 2026-11-09T10:03:28+00:00
 category: noticias
 tags: [gta-6-online, multijugador, rumor, precarga, instalacion]
 rumor: true
-image: /img/banco/misterio-1.webp
-imageAlt: "Ilustración de un callejón misterioso con luz de neón"
-imageCredit: "ilustración de Zona Leonida"
+image: /img/oficial/grotti-cheetah-3.webp
+imageAlt: "Grotti Cheetah del 95 (edición Ultimate), imagen oficial de GTA 6"
+imageCredit: "Rockstar Games"
 sources:
   - name: "Dexerto (GTA): GTA 6 Online files discovered and show major changes from GTA 5"
     url: "https://www.dexerto.com/gta/gta-6-online-files-discovered-and-show-major-changes-from-gta-5-3425922/"

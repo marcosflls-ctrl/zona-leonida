@@ -5,8 +5,8 @@ date: 2026-10-26T12:03:07+00:00
 category: noticias
 tags: [lucia, rumor, reparto, manni-perez, instagram]
 rumor: true
-image: /img/banco/misterio-2.webp
-imageAlt: "Ilustración de un callejón misterioso con luz de neón"
+image: /img/banco/movil-1.webp
+imageAlt: "Ilustración de un móvil con un mapa luminoso"
 imageCredit: "ilustración de Zona Leonida"
 sources:
   - name: "VGC: The actor rumoured to be playing Lucia in GTA 6 actively ignored questions about it during"

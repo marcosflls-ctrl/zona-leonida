@@ -5,8 +5,8 @@ date: 2026-11-09T12:02:44+00:00
 category: noticias
 tags: [gta-6-online, rumor, multijugador, precarga, playstation-store]
 rumor: true
-image: /img/banco/misterio-2.webp
-imageAlt: "Ilustración de un callejón misterioso con luz de neón"
+image: /img/banco/dinero-1.webp
+imageAlt: "Ilustración de fajos de billetes bajo luces de neón"
 imageCredit: "ilustración de Zona Leonida"
 sources:
   - name: "GamesRadar: GTA 6 launch files already hint at online multiplayer, PlayStation Store sleuth reports"

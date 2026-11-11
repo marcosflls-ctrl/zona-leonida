@@ -6,8 +6,8 @@ updated: 2026-11-19T00:00:00+01:00
 category: guias
 draft: true
 tags: [ajustes, graficos, fps, ps5-pro, rendimiento]
-image: /img/oficial/vice-city-1.webp
-imageAlt: "Vista de Vice City, imagen oficial de GTA 6"
+image: /img/oficial/rideout-customs-3.webp
+imageAlt: "Taller Rideout Customs (edición Ultimate), imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources: []
 ---

@@ -6,7 +6,7 @@ updated: 2026-11-19T00:00:00+01:00
 category: guias
 draft: true
 tags: [consejos, principiantes, primeras-horas, guia]
-image: /img/oficial/jason-y-lucia-6.webp
+image: /img/oficial/jason-y-lucia-19.webp
 imageAlt: "Jason y Lucía, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources: []

@@ -5,7 +5,7 @@ date: 2026-10-19T16:02:09+00:00
 category: descubrimientos
 tags: [gta-6, easter-egg, jason-y-lucia, gta-1, trailer-de-lanzamiento]
 rumor: false
-image: /img/oficial/jason-y-lucia-4.webp
+image: /img/oficial/jason-y-lucia-14.webp
 imageAlt: "Jason y Lucía, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:

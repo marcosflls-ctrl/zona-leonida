@@ -6,8 +6,8 @@ category: guias
 pilar: true
 orden: 13
 tags: [radio, musica, emisoras, canciones, banda-sonora]
-image: /img/oficial/vice-city-5.webp
-imageAlt: "Vice City, imagen oficial de GTA 6"
+image: /img/oficial/monte-kalaga-6.webp
+imageAlt: "Parque nacional del monte Kalaga, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "Rockstar Games: la música de GTA VI (adelantos de las emisoras)"

@@ -4,8 +4,8 @@ description: "Ocho años de desarrollo, Project Americas, dos retrasos, un estud
 date: 2026-10-19T19:32:00+02:00
 category: guias
 tags: [desarrollo, rockstar, retrasos, bloomberg, historia]
-image: /img/oficial/vice-city-3.webp
-imageAlt: "Vice City, imagen oficial de GTA 6"
+image: /img/oficial/cayos-de-leonida-7.webp
+imageAlt: "Cayos de Leónida, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "3DJuegos: ocho años de desarrollo, el juego que GTA 6 ha tardado en ver la luz (reportaje de Bloomberg)"

@@ -4,7 +4,7 @@ description: "Cómo funcionan las seis estrellas y el Heat, el dinero, el robo d
 date: 2026-10-19T19:30:00+02:00
 category: guias
 tags: [jugabilidad, policia, dinero, jason-y-lucia, novedades]
-image: /img/oficial/jason-y-lucia-4.webp
+image: /img/oficial/jason-y-lucia-16.webp
 imageAlt: "Jason y Lucía, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:

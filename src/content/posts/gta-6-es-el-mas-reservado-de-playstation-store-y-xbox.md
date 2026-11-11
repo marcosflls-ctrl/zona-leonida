@@ -5,8 +5,8 @@ date: 2026-11-10T17:02:39+00:00
 category: noticias
 tags: [reservas, precarga, playstation, xbox, sensor-tower]
 rumor: false
-image: /img/oficial/vice-city-15.webp
-imageAlt: "Vice City, imagen oficial de GTA 6"
+image: /img/oficial/rideout-customs-1.webp
+imageAlt: "Taller Rideout Customs (edición Ultimate), imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "IGN: Sony Confirms GTA 6 Is Now the Most Preordered Game in PlayStation Store History, Issues O"

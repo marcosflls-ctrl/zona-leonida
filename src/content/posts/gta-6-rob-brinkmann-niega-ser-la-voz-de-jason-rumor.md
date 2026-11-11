@@ -5,8 +5,8 @@ date: 2026-10-29T13:02:03+00:00
 category: noticias
 tags: [gta-6, jason-duval, reparto, rumor, actores-de-voz]
 rumor: true
-image: /img/banco/misterio-2.webp
-imageAlt: "Ilustración de un callejón misterioso con luz de neón"
+image: /img/banco/motel-1.webp
+imageAlt: "Ilustración de una calle de neón de noche en una ciudad tropical"
 imageCredit: "ilustración de Zona Leonida"
 sources:
   - name: "Dexerto (GTA): Rumored GTA 6 actor denies claims he’s playing Jason"

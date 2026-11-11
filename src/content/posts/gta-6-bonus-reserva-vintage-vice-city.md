@@ -6,8 +6,8 @@ category: guias
 pilar: true
 orden: 7
 tags: [reserva, bonus, vintage-vice-city, ediciones]
-image: /img/oficial/estilos-vice-city-1.webp
-imageAlt: "Estilos de Vice City, imagen oficial de GTA 6"
+image: /img/oficial/estilos-vice-city-2.webp
+imageAlt: "Estilos de Vice City (edición Ultimate), imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "TheSixthAxis: edición Ultimate y pack Vintage Vice City (24/06/2026)"

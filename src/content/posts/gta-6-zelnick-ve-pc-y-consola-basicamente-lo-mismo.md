@@ -5,8 +5,8 @@ date: 2026-11-10T13:02:05+00:00
 category: noticias
 tags: [gta-6, pc, take-two, fivem, strauss-zelnick]
 rumor: false
-image: /img/oficial/vice-city-25.webp
-imageAlt: "Vice City, imagen oficial de GTA 6"
+image: /img/oficial/kayak-crest-1.webp
+imageAlt: "Kayak Crest (edición Ultimate), imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "Vandal: El CEO de Take-Two afirma que GTA se disfruta igual en consolas que en PC: 'Tienden a ser"

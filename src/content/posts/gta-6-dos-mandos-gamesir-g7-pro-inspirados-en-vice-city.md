@@ -5,8 +5,8 @@ date: 2026-10-28T14:02:01+00:00
 category: noticias
 tags: [gta-6, gamesir, mandos, merchandising, xbox]
 rumor: false
-image: /img/oficial/vice-city-4.webp
-imageAlt: "Vice City, imagen oficial de GTA 6"
+image: /img/oficial/coleccion-clasicos-3.webp
+imageAlt: "Colección de coches clásicos (edición Ultimate), imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "GamesRadar: Just in time for GTA 6, GameSir is launching two Vice City-inspired versions of the G7 Pro"
