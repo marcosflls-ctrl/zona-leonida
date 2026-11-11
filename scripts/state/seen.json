@@ -1840,7 +1840,9 @@
   "https://www.dexerto.com/gta/gta-6-fans-convinced-iconic-gta-4-characters-cameo-has-been-revealed-3427340/",
   "https://www.videogameschronicle.com/news/the-games-that-defined-this-generation/",
   "https://as.com/meristation/noticias/a-que-hora-se-podra-jugar-a-gta-6-en-espana-horarios-de-lanzamiento-y-desbloqueo-f202611-n/",
-  "https://rockstarintel.com/gta-vi-pre-loading-shatters-broadband-usage-records/"
+  "https://rockstarintel.com/gta-vi-pre-loading-shatters-broadband-usage-records/",
+  "https://vandal.elespanol.com/noticia/2026315042/los-estudios-indie-no-le-temen-a-gta-6-y-explican-el-motivo-lo-vemos-como-una-oportunidad/",
+  "https://vandal.elespanol.com/noticia/2026315041/todas-las-ediciones-de-gta-6-diferencias-contenido-y-precio-en-espana/"
  ],
  "titles": [
   "nuevas ima genes de gta 6 3 capturas oficiales revelan la vida en vice city y sus espectaculares gra ficos",
@@ -3240,13 +3242,11 @@
   "all gta 6 radio stations songs full soundtrack",
   "gta 6 fans convinced iconic gta 4 character s cameo has been revealed",
   "the games that defined this generation",
-  "gta vi pre loading shatters broadband usage records"
+  "gta vi pre loading shatters broadband usage records",
+  "los estudios indie no le temen a gta 6 y explican el motivo lo vemos como una oportunidad",
+  "todas las ediciones de gta 6 diferencias contenido y precio en espan a"
  ],
  "escritos": [
-  {
-   "title": "GTA 6: Rockstar votará su sindicato del 12 al 26 de noviembre",
-   "url": "/noticias/gta-6-rockstar-votara-su-sindicato-del-12-al-26-de-noviembre/"
-  },
   {
    "title": "GTA 6 ya suma 6,92 millones de reservas, según Sensor Tower",
    "url": "/noticias/gta-6-ya-suma-6-92-millones-de-reservas-segun-sensor-tower/"
@@ -3562,6 +3562,10 @@
   {
    "title": "GTA 6 bate el récord de tráfico de Virgin Media O2",
    "url": "/noticias/gta-6-bate-el-record-de-trafico-de-virgin-media-o2/"
+  },
+  {
+   "title": "GTA 6: ediciones y precios, de 79,99 a 99,99 euros",
+   "url": "/noticias/gta-6-ediciones-y-precios-de-79-99-a-99-99-euros/"
   }
  ],
  "feeds_iniciados": [
