@@ -1818,7 +1818,13 @@
   "https://www.hobbyconsolas.com/videojuegos/gta-6-ya-es-juego-mas-reservado-historia-ps-store-celebra-con-un-nuevo-trailer-que-repasa-las-caracteristicas-exclusivas-juego-ps5_7059569_0.html",
   "https://www.hobbyconsolas.com/videojuegos/playstation-confirma-que-ps5-ya-ha-vendido-mas-100-millones-consolas-pocos-dias-lanzamiento-gta-6-su-juego-estrella-para-estas-navidades_7059580_0.html",
   "https://vandal.elespanol.com/noticia/2026315017/leyendas-urbanas-de-grand-theft-auto-y-trucos-que-jamas-vieron-la-luz/",
-  "https://as.com/meristation/noticias/gta-6-amenaza-a-los-videojuegos-mas-populares-de-2026-fortnite-minecraft-y-roblox-podrian-perder-millones-de-jugadores-f202611-n/"
+  "https://as.com/meristation/noticias/gta-6-amenaza-a-los-videojuegos-mas-populares-de-2026-fortnite-minecraft-y-roblox-podrian-perder-millones-de-jugadores-f202611-n/",
+  "https://as.com/meristation/noticias/nuevo-trailer-de-gta-6-rockstar-nos-avisa-de-la-precarga-con-metraje-nunca-antes-visto-f202611-n/",
+  "https://vandal.elespanol.com/noticia/2026315022/el-ceo-de-taketwo-aplaude-la-nota-de-zelda-ocarina-of-time-remake-antes-del-estreno-de-gta-6-es-fantastica/",
+  "https://www.3djuegos.com/juegos/phantom-blade-zero/noticias/phantom-blade-zero-bestia-graficos-asi-cambia-usas-ray-tracing-path-tracing",
+  "https://as.com/meristation/noticias/cuanto-ocupa-gta-6-en-ps5-y-xbox-tamano-de-descarga-y-espacio-necesario-para-instalarlo-f202611-n/",
+  "https://vandal.elespanol.com/noticia/2026315020/un-coche-de-gta-6-se-hace-realidad-y-esta-a-la-venta-cuesta-un-millon-de-libras-y-es-un-ferrari-modificado/",
+  "https://www.dexerto.com/gta/gta-6-is-causing-internet-issues-as-players-rush-to-preload-3427231/"
  ],
  "titles": [
   "nuevas ima genes de gta 6 3 capturas oficiales revelan la vida en vice city y sus espectaculares gra ficos",
@@ -3200,13 +3206,14 @@
   "gta 6 ya es el juego ma s reservado en la historia de ps store y lo celebra con un nuevo tra iler que repasa las caracteri sticas exclusivas del juego en ps5",
   "playstation confirma que ps5 ya ha vendido ma s de 100 millones de consolas a pocos di as del lanzamiento de gta 6 su juego estrella para estas navidades",
   "leyendas urbanas de grand theft auto y trucos que jama s vieron la luz",
-  "gta 6 amenaza a los videojuegos ma s populares de 2026 fortnite minecraft y roblox podri an perder millones de jugadores"
+  "gta 6 amenaza a los videojuegos ma s populares de 2026 fortnite minecraft y roblox podri an perder millones de jugadores",
+  "el ceo de take two aplaude la nota de zelda ocarina of time remake antes del estreno de gta 6 es fanta stica",
+  "phantom blade zero es una bestia en gra ficos y asi cambia si usas ray tracing o path tracing",
+  "cua nto ocupa gta 6 en ps5 y xbox taman o de descarga y espacio necesario para instalarlo",
+  "un coche de gta 6 se hace realidad y esta a la venta cuesta un millo n de libras y es un ferrari modificado",
+  "gta 6 is causing internet issues as players rush to preload"
  ],
  "escritos": [
-  {
-   "title": "GTA 6: los análisis se publicarán el 18 de noviembre",
-   "url": "/noticias/gta-6-los-analisis-se-publicaran-el-18-de-noviembre/"
-  },
   {
    "title": "GTA 6 dispara hasta un 17 % las peticiones de día libre",
    "url": "/noticias/gta-6-dispara-hasta-un-17-las-peticiones-de-dia-libre/"
@@ -3522,6 +3529,10 @@
   {
    "title": "GTA 6 en la nube de Xbox: acuerdo de 10 años con Take-Two",
    "url": "/noticias/gta-6-en-la-nube-de-xbox-acuerdo-de-10-anos-con-take-two/"
+  },
+  {
+   "title": "GTA 6 satura la red de YouFibre por la precarga",
+   "url": "/noticias/gta-6-satura-la-red-de-youfibre-por-la-precarga/"
   }
  ],
  "feeds_iniciados": [
@@ -3546,10 +3557,12 @@
     "https://www.3djuegos.com/juegos/baldurs-gate-3/noticias/12-anos-historia-solo-juego-ha-logrado-ser-elegido-juego-ano-critica-jugadores-the-game-awards",
     "https://www.3djuegos.com/pc/noticias/tienes-steam-deck-valve-acaba-estrenar-sus-mejores-funciones-no-iras-a-ciegas-rendimiento-cada-juego",
     "https://vandal.elespanol.com/noticia/2026314026/gta-6-ira-a-30-fps-en-todas-las-consolas-y-rockstar-confirma-estas-mejoras-en-ps5-pro/",
-    "https://www.3djuegos.com/juegos/grand-theft-auto-vi/noticias/gta-6-todavia-no-ha-salido-ha-hecho-historia-playstation-xbox"
+    "https://www.3djuegos.com/juegos/grand-theft-auto-vi/noticias/gta-6-todavia-no-ha-salido-ha-hecho-historia-playstation-xbox",
+    "https://vandal.elespanol.com/noticia/2026315022/el-ceo-de-taketwo-aplaude-la-nota-de-zelda-ocarina-of-time-remake-antes-del-estreno-de-gta-6-es-fantastica/",
+    "https://www.3djuegos.com/juegos/phantom-blade-zero/noticias/phantom-blade-zero-bestia-graficos-asi-cambia-usas-ray-tracing-path-tracing"
    ],
-   "ultimo": 1794376900.9431667,
-   "intentos": 8
+   "ultimo": 1794394941.0820882,
+   "intentos": 9
   }
  }
 }
