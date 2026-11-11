@@ -39,7 +39,7 @@ PLANTILLAS: dict[str, tuple[list[str], str]] = {
     ),
     "gta-6-notas-analisis": (
         ["análisis", "review", "reviews", "reseña", "metacritic", "opencritic", "puntuación", "puntuaciones",
-         "la crítica", "critics", "score"],
+         "la crítica", "critics", "review score", "nota media"],
         "la nota media de Metacritic u OpenCritic, o al menos cinco notas de medios con su cifra",
     ),
     "gta-6-controles-ps5-xbox": (
@@ -179,11 +179,16 @@ def buscar_fuentes(cfg: dict, slugs: list[str], rockstar_entries, max_horas: int
         if e["fuente"] != "Rockstar Games (Newswire)" and not any(k in blob for k in kws_juego):
             continue
         for s in slugs:
-            if any(k in blob for k in PLANTILLAS[s][0]):
+            if coincide(blob, PLANTILLAS[s][0]):
                 out[s].append(e)
     for s in out:  # lo oficial primero
         out[s].sort(key=lambda x: not x.get("oficial"))
     return out
+
+
+def coincide(texto: str, palabras: list[str]) -> bool:
+    """Busca palabras completas: así «down» no salta con «download» ni «fix» con «prefix»."""
+    return any(re.search(r"(?<!\w)" + re.escape(k) + r"(?!\w)", texto) for k in palabras)
 
 
 def _yaml(s: str) -> str:
