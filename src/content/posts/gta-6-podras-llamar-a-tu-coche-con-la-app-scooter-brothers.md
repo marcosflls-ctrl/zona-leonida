@@ -35,7 +35,7 @@ Queda sin resolver si estos personajes tendrán líneas de diálogo propias que 
 
 Pedir tu coche no es nuevo en la saga. GTA Online permite llamarlo desde su lanzamiento, y Red Dead Redemption deja invocar al caballo si está a una distancia razonable. Según IGN, es la primera vez que puedes hacerlo en el modo historia de GTA sin usar trucos.
 
-Tiene sentido por otra razón. Como te contamos en nuestro artículo sobre [el maletero de los coches](/noticias/gta-6-los-coches-tendran-maletero-para-guardar-ropa-y-armas/), tu arsenal y parte del equipo importante se guardan en el vehículo. Si lo pierdes o lo dejas lejos, necesitas una forma de recuperarlo.
+Tiene sentido por otra razón. Como te contamos en nuestro artículo sobre el maletero de los coches, tu arsenal y parte del equipo importante se guardan en el vehículo. Si lo pierdes o lo dejas lejos, necesitas una forma de recuperarlo.
 
 IGN apunta, además, que tus coches probablemente serán menos desechables que en entregas anteriores. Es una deducción del medio, no una confirmación de Rockstar. Si en GTA 5 abandonabas un coche sin pensarlo, aquí quizá te convenga cuidarlo.
 

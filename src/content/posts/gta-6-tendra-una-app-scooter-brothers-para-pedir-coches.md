@@ -19,7 +19,7 @@ La revista Edge ha desvelado, según recoge Vandal, que GTA 6 tendrá una aplica
 
 Según la información de Edge, la aplicación te permitirá pedir un vehículo desde el teléfono. Un NPC te lo traerá hasta donde estés. Cuando termine el servicio, se marchará en una moto que, presumiblemente, conducirá su «hermano».
 
-Es un detalle sencillo, pero encaja con lo que ya sabemos de los coches del juego. Si quieres ver qué se ha confirmado hasta ahora, tienes nuestra guía de [coches y vehículos confirmados](/guias/gta-6-coches-vehiculos-confirmados/). Sobre otro detalle del mundo del automóvil, ya contamos que [los coches tendrán maletero para guardar ropa y armas](/noticias/gta-6-los-coches-tendran-maletero-para-guardar-ropa-y-armas/).
+Es un detalle sencillo, pero encaja con lo que ya sabemos de los coches del juego. Si quieres ver qué se ha confirmado hasta ahora, tienes nuestra guía de [coches y vehículos confirmados](/guias/gta-6-coches-vehiculos-confirmados/). Sobre otro detalle del mundo del automóvil, ya contamos que los coches tendrán maletero para guardar ropa y armas.
 
 ## ¿De dónde viene el nombre?
 
