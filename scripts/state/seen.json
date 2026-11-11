@@ -1842,7 +1842,9 @@
   "https://as.com/meristation/noticias/a-que-hora-se-podra-jugar-a-gta-6-en-espana-horarios-de-lanzamiento-y-desbloqueo-f202611-n/",
   "https://rockstarintel.com/gta-vi-pre-loading-shatters-broadband-usage-records/",
   "https://vandal.elespanol.com/noticia/2026315042/los-estudios-indie-no-le-temen-a-gta-6-y-explican-el-motivo-lo-vemos-como-una-oportunidad/",
-  "https://vandal.elespanol.com/noticia/2026315041/todas-las-ediciones-de-gta-6-diferencias-contenido-y-precio-en-espana/"
+  "https://vandal.elespanol.com/noticia/2026315041/todas-las-ediciones-de-gta-6-diferencias-contenido-y-precio-en-espana/",
+  "https://as.com/meristation/noticias/este-es-el-primer-pais-del-mundo-donde-se-podra-jugar-a-gta-6-12-horas-antes-que-en-espana-f202611-n/",
+  "https://www.gamesradar.com/games/grand-theft-auto/gta-6-censorship-worries-bubble-up-in-japan-the-install-size-is-different-to-everywhere-else-and-the-age-rating-drops-sex-and-drugs/"
  ],
  "titles": [
   "nuevas ima genes de gta 6 3 capturas oficiales revelan la vida en vice city y sus espectaculares gra ficos",
@@ -3244,13 +3246,11 @@
   "the games that defined this generation",
   "gta vi pre loading shatters broadband usage records",
   "los estudios indie no le temen a gta 6 y explican el motivo lo vemos como una oportunidad",
-  "todas las ediciones de gta 6 diferencias contenido y precio en espan a"
+  "todas las ediciones de gta 6 diferencias contenido y precio en espan a",
+  "este es el primer pai s del mundo donde se podra jugar a gta 6 12 horas antes que en espan a",
+  "gta 6 censorship worries bubble up in japan the install size is different and the age rating drops sex and drugs"
  ],
  "escritos": [
-  {
-   "title": "GTA 6 ya suma 6,92 millones de reservas, según Sensor Tower",
-   "url": "/noticias/gta-6-ya-suma-6-92-millones-de-reservas-segun-sensor-tower/"
-  },
   {
    "title": "GTA 6: dos mandos GameSir G7 Pro inspirados en Vice City",
    "url": "/noticias/gta-6-dos-mandos-gamesir-g7-pro-inspirados-en-vice-city/"
@@ -3566,6 +3566,10 @@
   {
    "title": "GTA 6: ediciones y precios, de 79,99 a 99,99 euros",
    "url": "/noticias/gta-6-ediciones-y-precios-de-79-99-a-99-99-euros/"
+  },
+  {
+   "title": "GTA 6: rumor de censura en Japón por tamaño y edad",
+   "url": "/noticias/gta-6-rumor-de-censura-en-japon-por-tamano-y-edad/"
   }
  ],
  "feeds_iniciados": [
