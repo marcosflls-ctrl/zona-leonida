@@ -1,8 +1,8 @@
 ---
-title: "GTA 6: precio, ediciones y cómo reservarlo"
-description: "Cuánto cuesta GTA 6, qué incluye la edición Ultimate, los bonus por reservar y qué trae la versión física. Toda la información oficial, actualizada."
+title: "Precio de GTA 6: 79,99 € la estándar y 99,99 € la Ultimate"
+description: "GTA 6 cuesta 79,99 € (estándar) y 99,99 € (Ultimate) en PS5 y Xbox Series. Qué incluye cada edición, los bonus por reservar y qué trae la caja."
 date: 2026-10-09T12:00:00+02:00
-updated: 2026-11-10T18:00:00+01:00
+updated: 2026-11-12T00:30:00+01:00
 category: guias
 pilar: true
 orden: 4

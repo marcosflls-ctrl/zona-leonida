@@ -3,7 +3,7 @@ title: "GTA 6 price: Standard vs. Ultimate Edition, pre-order bonuses and what's
 description: "GTA 6 costs $79.99 (Standard) or $99.99 (Ultimate) on PS5 and Xbox Series X|S. What the Ultimate adds, the pre-order bonuses and why the box has no disc."
 date: 2026-10-19T23:00:00+02:00
 es: /guias/gta-6-precio-ediciones-reservas/
-orden: 2
+orden: 3
 image: /img/oficial/ultimate-edition-1.webp
 imageAlt: "Ultimate Edition, official GTA VI image"
 imageCredit: "Rockstar Games"

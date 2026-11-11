@@ -4,7 +4,7 @@ description: "It's official: GTA 6 needs up to 212 GB free on PS5 and Xbox Serie
 date: 2026-10-19T23:00:00+02:00
 updated: 2026-11-10T23:30:00+01:00
 es: /guias/gta-6-cuanto-ocupa/
-orden: 3
+orden: 4
 image: /img/oficial/cayos-de-leonida-2.webp
 imageAlt: "Leonida Keys, official GTA VI image"
 imageCredit: "Rockstar Games"
