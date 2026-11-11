@@ -5,9 +5,9 @@ date: 2026-11-02T17:02:18+00:00
 category: noticias
 tags: [gta-6, merchandising, nike, travis-scott, rumor]
 rumor: true
-image: /img/banco/misterio-2.webp
-imageAlt: "Ilustración de un callejón misterioso con luz de neón"
-imageCredit: "ilustración de Zona Leonida"
+image: /img/oficial/coleccion-clasicos-6.webp
+imageAlt: "Colección de coches clásicos (edición Ultimate), imagen oficial de GTA 6"
+imageCredit: "Rockstar Games"
 sources:
   - name: "HobbyConsolas: Las zapatillas de GTA 6 son reales: Nike y Rockstar preparan una colección exclusiva de la"
     url: "https://www.hobbyconsolas.com/videojuegos/las-zapatillas-gta-6-son-reales-nike-rockstar-preparan-una-coleccion-exclusiva-marca-travis-scott-que-llegara-muy-pronto-las-tiendas_7056240_0.html"

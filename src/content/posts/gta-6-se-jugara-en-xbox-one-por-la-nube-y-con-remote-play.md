@@ -5,8 +5,8 @@ date: 2026-11-10T15:02:30+00:00
 category: noticias
 tags: [gta-6, xbox-cloud-gaming, xbox-one, remote-play, pc]
 rumor: false
-image: /img/oficial/vice-city-15.webp
-imageAlt: "Vice City, imagen oficial de GTA 6"
+image: /img/oficial/one-eyed-willies-1.webp
+imageAlt: "Taller One-Eyed Willie's (edición Ultimate), imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "Vandal: Rockstar detalla el juego en la nube de GTA 6: Podrás jugar en XBOX One y Remote Play abri"

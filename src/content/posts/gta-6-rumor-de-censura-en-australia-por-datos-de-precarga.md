@@ -5,8 +5,8 @@ date: 2026-11-09T14:02:10+00:00
 category: noticias
 tags: [gta-6, rumor, precarga, censura, australia]
 rumor: true
-image: /img/banco/misterio-1.webp
-imageAlt: "Ilustración de un callejón misterioso con luz de neón"
+image: /img/banco/calle-2.webp
+imageAlt: "Ilustración de una calle de neón de noche en una ciudad tropical"
 imageCredit: "ilustración de Zona Leonida"
 sources:
   - name: "VGC: GTA 6 may be censored in Australia and other regions, dataminer suggests"

@@ -5,8 +5,8 @@ date: 2026-11-10T15:02:56+00:00
 category: noticias
 tags: [gta-6, trailer, precarga, tove-lo, gta-vi-the-album]
 rumor: false
-image: /img/oficial/vice-city-19.webp
-imageAlt: "Vice City, imagen oficial de GTA 6"
+image: /img/oficial/one-eyed-willies-2.webp
+imageAlt: "Taller One-Eyed Willie's (edición Ultimate), imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "Vandal: Nuevo tráiler de GTA 6: Rockstar anuncia la apertura de la precarga con un vídeo con imáge"

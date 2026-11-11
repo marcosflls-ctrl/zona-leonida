@@ -5,9 +5,9 @@ date: 2026-11-04T13:01:58+00:00
 category: noticias
 tags: [ps5-pro, pssr, ray-tracing, rumor, rendimiento]
 rumor: true
-image: /img/banco/misterio-1.webp
-imageAlt: "Ilustración de un callejón misterioso con luz de neón"
-imageCredit: "ilustración de Zona Leonida"
+image: /img/oficial/dinka-enduro-1.webp
+imageAlt: "Moto Dinka Enduro (edición Ultimate), imagen oficial de GTA 6"
+imageCredit: "Rockstar Games"
 sources:
   - name: "Vandal: ¿Primeros detalles de GTA 6 en PS5 Pro? PlayStation listó por error las mejoras en su cons"
     url: "https://vandal.elespanol.com/noticia/2026308027/primeros-detalles-de-gta-6-en-ps5-pro-playstation-listo-por-error-las-mejoras-en-su-consola-mas-potente/"

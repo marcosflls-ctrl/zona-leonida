@@ -6,8 +6,8 @@ updated: 2026-11-19T00:00:00+01:00
 category: guias
 draft: true
 tags: [errores, problemas, soluciones, descarga, lanzamiento]
-image: /img/oficial/vice-city-4.webp
-imageAlt: "Vice City, imagen oficial de GTA 6"
+image: /img/oficial/shitzu-squalo-3.webp
+imageAlt: "Lancha Shitzu Squalo (edición Ultimate), imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources: []
 ---

@@ -6,8 +6,8 @@ updated: 2026-11-10T18:00:00+01:00
 category: noticias
 tags: [gta-6, vice-city-collection, japon, capcom, merchandising]
 rumor: false
-image: /img/oficial/vice-city-11.webp
-imageAlt: "Vice City, imagen oficial de GTA 6"
+image: /img/oficial/coleccion-clasicos-5.webp
+imageAlt: "Colección de coches clásicos (edición Ultimate), imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "Vandal: Rockstar confirma el tamaño de GTA 6 y la precarga desde el 10 de noviembre (03/11/2026)"

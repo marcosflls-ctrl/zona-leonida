@@ -5,7 +5,7 @@ date: 2026-10-29T13:02:26+00:00
 category: noticias
 tags: [gta-6, historia, jason-y-lucia, edge, rockstar]
 rumor: false
-image: /img/oficial/jason-y-lucia-6.webp
+image: /img/oficial/jason-y-lucia-17.webp
 imageAlt: "Jason y Lucía, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:

@@ -7,8 +7,8 @@ category: guias
 pilar: true
 orden: 2
 tags: [precarga, descarga, lanzamiento, ps5, xbox]
-image: /img/oficial/vice-city-3.webp
-imageAlt: "Vice City, imagen oficial de GTA 6"
+image: /img/oficial/monte-kalaga-4.webp
+imageAlt: "Parque nacional del monte Kalaga, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 compras:
   - nombre: "SSD M.2 compatible con PS5 (1-2 TB, con disipador)"

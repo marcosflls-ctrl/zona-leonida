@@ -5,9 +5,9 @@ date: 2026-11-09T08:02:07+00:00
 category: noticias
 tags: [gta-6, rumor, creditos, duracion, rockstar]
 rumor: true
-image: /img/banco/misterio-2.webp
-imageAlt: "Ilustración de un callejón misterioso con luz de neón"
-imageCredit: "ilustración de Zona Leonida"
+image: /img/oficial/grotti-cheetah-2.webp
+imageAlt: "Grotti Cheetah del 95 (edición Ultimate), imagen oficial de GTA 6"
+imageCredit: "Rockstar Games"
 sources:
   - name: "HobbyConsolas: Rumores apuntan a que GTA 6 tendrá unos créditos finales de más de una hora y no es descab"
     url: "https://www.hobbyconsolas.com/videojuegos/rumores-apuntan-que-gta-6-tendra-unos-creditos-finales-que-duraran-mas-una-hora-no-es-descabellado-si-listan-las-mas-4000-personas-que-han-trabajado_7058773_0.html"

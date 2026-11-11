@@ -6,8 +6,8 @@ category: guias
 pilar: true
 orden: 8
 tags: [gta-plus, suscripcion, reserva, gta-online]
-image: /img/oficial/vice-city-9.webp
-imageAlt: "Vice City, imagen oficial de GTA 6"
+image: /img/oficial/monte-kalaga-2.webp
+imageAlt: "Parque nacional del monte Kalaga, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "TheSixthAxis: ediciones y bonus de reserva de GTA 6 (24/06/2026)"

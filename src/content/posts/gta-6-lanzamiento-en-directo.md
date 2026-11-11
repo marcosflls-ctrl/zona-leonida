@@ -6,9 +6,9 @@ updated: 2026-11-18T10:00:00+01:00
 category: noticias
 draft: true
 tags: [lanzamiento, directo, servidores, horario, errores]
-image: /img/oficial/vice-city-1.webp
-imageAlt: "Vista de Vice City, imagen oficial de GTA 6"
-imageCredit: "Rockstar Games"
+image: /img/banco/lanzamiento-1.webp
+imageAlt: "Ilustración de un reloj de neón en una pared de ladrillo"
+imageCredit: "ilustración de Zona Leonida"
 sources:
   - name: "Rockstar Games: estado de los servicios"
     url: "https://support.rockstargames.com/servicestatus"

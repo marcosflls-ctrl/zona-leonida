@@ -5,9 +5,9 @@ date: 2026-10-27T18:02:07+00:00
 category: noticias
 tags: [gta-6, tamano, ps5, 210-gb, precarga]
 rumor: true
-image: /img/banco/misterio-1.webp
-imageAlt: "Ilustración de un callejón misterioso con luz de neón"
-imageCredit: "ilustración de Zona Leonida"
+image: /img/oficial/coleccion-clasicos-2.webp
+imageAlt: "Colección de coches clásicos (edición Ultimate), imagen oficial de GTA 6"
+imageCredit: "Rockstar Games"
 sources:
   - name: "3DJuegos: Si vas a jugar a GTA 6 de lanzamiento, más te vale tener espacio en tu consola. El juego d"
     url: "https://www.3djuegos.com/juegos/grand-theft-auto-vi/noticias/vas-a-jugar-a-gta-6-lanzamiento-te-vale-tener-espacio-tu-consola-juego-rockstar-no-sera-precisamente-pequeno"

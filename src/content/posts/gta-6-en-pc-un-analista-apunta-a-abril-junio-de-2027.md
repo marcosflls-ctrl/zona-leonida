@@ -5,9 +5,9 @@ date: 2026-10-29T17:02:02+00:00
 category: noticias
 tags: [gta-6, plataformas, pc, ps5, xbox-series]
 rumor: true
-image: /img/banco/misterio-1.webp
-imageAlt: "Ilustración de un callejón misterioso con luz de neón"
-imageCredit: "ilustración de Zona Leonida"
+image: /img/oficial/coleccion-clasicos-4.webp
+imageAlt: "Colección de coches clásicos (edición Ultimate), imagen oficial de GTA 6"
+imageCredit: "Rockstar Games"
 sources:
   - name: "Insider Gaming: Which Platforms Is GTA 6 Coming Out On? PlayStation, XBOX, Nintendo & PC Status"
     url: "https://insider-gaming.com/platforms-gta-6/"

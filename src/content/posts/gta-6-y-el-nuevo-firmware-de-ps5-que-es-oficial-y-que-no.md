@@ -5,9 +5,9 @@ date: 2026-10-21T07:49:59+00:00
 category: noticias
 tags: [ps5, firmware, pirateria, lanzamiento, sony]
 rumor: true
-image: /img/banco/misterio-2.webp
-imageAlt: "Ilustración de un callejón misterioso con luz de neón"
-imageCredit: "ilustración de Zona Leonida"
+image: /img/oficial/port-gellhorn-7.webp
+imageAlt: "Port Gellhorn, imagen oficial de GTA 6"
+imageCredit: "Rockstar Games"
 sources:
   - name: "HobbyConsolas: PS5 recibe la actualización de firmware 26.07-14.20.00, con mejoras menores, pero pensada"
     url: "https://www.hobbyconsolas.com/videojuegos/ps5-recibe-actualizacion-firmware-26-07-14-20-00-una-actualizacion-menor-pensada-para-gta-6-poner-freno-pirateria_7051355_0.html"

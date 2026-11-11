@@ -6,8 +6,8 @@ updated: 2026-11-10T18:00:00+01:00
 category: guias
 orden: 7
 tags: [estados-unidos, horario, precio, dolares, espanol]
-image: /img/oficial/vice-city-4.webp
-imageAlt: "Vice City, imagen oficial de GTA VI"
+image: /img/oficial/grassrivers-8.webp
+imageAlt: "Grassrivers, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "Vandal: Rockstar confirma el tamaño de GTA 6 y la precarga desde el 10 de noviembre (03/11/2026)"

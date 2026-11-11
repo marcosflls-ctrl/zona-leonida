@@ -5,7 +5,7 @@ date: 2026-11-01T16:01:50+00:00
 category: noticias
 tags: [gta-6, jason-y-lucia, rob-nelson, relaciones, red-dead-redemption-2]
 rumor: false
-image: /img/oficial/jason-y-lucia-12.webp
+image: /img/oficial/jason-y-lucia-18.webp
 imageAlt: "Jason y Lucía, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:

@@ -5,8 +5,8 @@ date: 2026-11-10T16:02:18+00:00
 category: noticias
 tags: [ps5-pro, ps5, xbox-series, rendimiento, pssr]
 rumor: false
-image: /img/oficial/vice-city-19.webp
-imageAlt: "Vice City, imagen oficial de GTA 6"
+image: /img/oficial/one-eyed-willies-3.webp
+imageAlt: "Taller One-Eyed Willie's (edición Ultimate), imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "3DJuegos: ¿Cómo funcionará GTA 6 en PS5, PS5 Pro y XBOX Series? Rockstar resuelve las dudas técnicas"

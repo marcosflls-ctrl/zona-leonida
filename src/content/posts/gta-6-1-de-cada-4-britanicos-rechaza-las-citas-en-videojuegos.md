@@ -5,7 +5,7 @@ date: 2026-10-19T17:02:13+00:00
 category: noticias
 tags: [gta-6, jason-y-lucia, relacion, encuesta, yougov]
 rumor: false
-image: /img/oficial/jason-y-lucia-6.webp
+image: /img/oficial/jason-y-lucia-15.webp
 imageAlt: "Jason y Lucía, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:

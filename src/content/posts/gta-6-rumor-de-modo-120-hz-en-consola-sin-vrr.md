@@ -5,9 +5,9 @@ date: 2026-11-09T15:02:26+00:00
 category: noticias
 tags: [gta-6, rumor, ps5-pro, 120hz, rendimiento]
 rumor: true
-image: /img/banco/misterio-2.webp
-imageAlt: "Ilustración de un callejón misterioso con luz de neón"
-imageCredit: "ilustración de Zona Leonida"
+image: /img/oficial/grotti-cheetah-4.webp
+imageAlt: "Grotti Cheetah del 95 (edición Ultimate), imagen oficial de GTA 6"
+imageCredit: "Rockstar Games"
 sources:
   - name: "Insider Gaming: GTA 6 Datamine Reveals Possible 120Hz Mode, But No VRR Support"
     url: "https://insider-gaming.com/gta-6-datamine-reveals-possible-120hz-mode-but-no-vrr-support/"

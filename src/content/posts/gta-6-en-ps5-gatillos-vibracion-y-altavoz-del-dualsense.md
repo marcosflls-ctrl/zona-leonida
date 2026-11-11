@@ -5,8 +5,8 @@ date: 2026-11-10T17:59:20+00:00
 category: noticias
 tags: [ps5, dualsense, playstation, vibracion-haptica, gta-6]
 rumor: false
-image: /img/oficial/vice-city-18.webp
-imageAlt: "Vice City, imagen oficial de GTA 6"
+image: /img/oficial/shitzu-squalo-1.webp
+imageAlt: "Lancha Shitzu Squalo (edición Ultimate), imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "VGC: New GTA 6 trailer showcases PS5-exclusive DualSense features"
