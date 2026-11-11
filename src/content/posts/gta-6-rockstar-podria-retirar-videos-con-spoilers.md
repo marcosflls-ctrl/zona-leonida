@@ -1,19 +1,19 @@
 ---
 title: "GTA 6: Rockstar podría retirar vídeos con spoilers"
 description: "Rockstar prohíbe en su política publicar el final o escenas clave aisladas, y eso podría afectar a streamers y creadores de GTA 6 tras el lanzamiento."
-date: 2026-11-04T09:02:02+00:00
+date: 2026-11-14T18:00:00+01:00
 category: noticias
 tags: [spoilers, rockstar, streamers, copyright, lanzamiento]
 rumor: false
-image: /img/oficial/monte-kalaga-2.webp
-imageAlt: "Parque nacional del monte Kalaga, imagen oficial de GTA 6"
+image: /img/oficial/port-gellhorn-1.webp
+imageAlt: "Port Gellhorn, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "Insider Gaming: Rockstar Might DMCA GTA 6 Spoilers, Even After Launch"
     url: "https://insider-gaming.com/rockstar-might-dmca-gta-6-spoilers/"
 ---
 
-Rockstar Games tiene una política pública sobre el uso de su material con derechos de autor que prohíbe subir spoilers de la historia. Según informa Insider Gaming, esa norma podría aplicarse a GTA VI incluso después del lanzamiento, previsto en unas dos semanas según el medio. Rockstar no ha anunciado ninguna medida específica para este juego.
+Rockstar Games tiene una política pública sobre el uso de su material con derechos de autor que prohíbe subir spoilers de la historia. Según informa Insider Gaming, esa norma podría aplicarse a GTA VI incluso después del lanzamiento, previsto para el 19 de noviembre. Rockstar no ha anunciado ninguna medida específica para este juego.
 
 ## Qué dice la política de Rockstar sobre los spoilers
 

@@ -1,12 +1,12 @@
 ---
 title: "GTA 6: su mapa es casi el doble de grande que el de GTA 5"
 description: "Rockstar asegura a Edge que el mapa de GTA 6 es casi el doble que el de GTA 5 y que prima la densidad: cada rincón de Leonida está pensado."
-date: 2026-10-29T01:53:06+00:00
+date: 2026-11-13T08:30:00+01:00
 category: noticias
 tags: [gta-6, mapa, leonida, edge-magazine, rockstar]
 rumor: false
-image: /img/oficial/grassrivers-4.webp
-imageAlt: "Grassrivers, imagen oficial de GTA 6"
+image: /img/oficial/port-gellhorn-5.webp
+imageAlt: "Port Gellhorn, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "Insider Gaming: GTA 6 Map Size Officially Revealed—How Big Is It?"

@@ -1,12 +1,12 @@
 ---
 title: "GTA 6 ya tiene un Guinness y irá a por el de más coches"
 description: "GTA 6 ya posee un récord Guinness por su tráiler y se perfila para quitarle a GTA 5 el de más vehículos de la saga: se han contado al menos 302."
-date: 2026-10-31T09:01:47+00:00
+date: 2026-11-15T13:00:00+01:00
 category: noticias
 tags: [gta-6, record-guinness, vehiculos, gta-5, trailer]
 rumor: false
-image: /img/oficial/ambrosia-3.webp
-imageAlt: "Ambrosía, imagen oficial de GTA 6"
+image: /img/oficial/port-gellhorn-4.webp
+imageAlt: "Port Gellhorn, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "Vandal: GTA 6 no ha salido y ya ha pulverizado un Récord Guinness de GTA V: será el juego con más"
@@ -45,7 +45,7 @@ Bell también apunta a la cantidad de desarrolladores que han trabajado en el pr
 
 Si te gusta conducir, volar o navegar por el mapa, el dato apunta a un catálogo de vehículos más amplio que el de GTA 5. Aún no sabemos cuántos se podrán conducir ni cómo se conseguirá cada uno.
 
-En nuestra guía de [coches y vehículos confirmados](/guias/gta-6-coches-vehiculos-confirmados/) tienes lo que se ha visto hasta ahora. Y si quieres saber qué podrás hacer con ellos, como guardar ropa y armas, lee que [los coches tendrán maletero](/noticias/gta-6-los-coches-tendran-maletero-para-guardar-ropa-y-armas/).
+En nuestra guía de [coches y vehículos confirmados](/guias/gta-6-coches-vehiculos-confirmados/) tienes lo que se ha visto hasta ahora. Y si quieres saber qué podrás hacer con ellos, como guardar ropa y armas, lee que los coches tendrán maletero.
 
 ## Qué falta por saber
 

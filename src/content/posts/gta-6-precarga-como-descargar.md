@@ -29,7 +29,7 @@ sources:
     url: "https://www.digitalcitizen.life/gta-6-preloads-begin-on-november-12-for-digital-and-physical-code-copies/"
 ---
 
-**La precarga de GTA 6 está abierta desde el lunes 10 de noviembre de 2026**, nueve días antes del lanzamiento. Pueden hacerla quienes lo hayan reservado en digital y quienes tengan la **caja**, que trae un código de descarga en lugar de disco.
+**La precarga de GTA 6 está abierta desde el martes 10 de noviembre de 2026**, nueve días antes del lanzamiento. Pueden hacerla quienes lo hayan reservado en digital y quienes tengan la **caja**, que trae un código de descarga en lugar de disco.
 
 | Consola | Cuándo se abrió en España |
 |---|---|

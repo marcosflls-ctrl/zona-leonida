@@ -37,7 +37,7 @@ No se han dado más datos sobre cómo funciona el sistema. No sabemos si hay ind
 
 ## La influencia de Red Dead Redemption 2
 
-Nelson sitúa el origen de esta idea en el desarrollo de [Red Dead Redemption 2](/noticias/gta-6-el-perfil-criminal-no-sera-un-sistema-de-honor-como-rdr-2/). Los mundos abiertos de Rockstar suelen dar mucho dinero al jugador. En RDR 2, el estudio quiso que te plantearas en qué gastarlo: en ti (ropa, caballos, sillas de montar) o en la "familia adoptiva" de la banda.
+Nelson sitúa el origen de esta idea en el desarrollo de Red Dead Redemption 2. Los mundos abiertos de Rockstar suelen dar mucho dinero al jugador. En RDR 2, el estudio quiso que te plantearas en qué gastarlo: en ti (ropa, caballos, sillas de montar) o en la "familia adoptiva" de la banda.
 
 El objetivo era que sintieras el conflicto interno de Arthur Morgan entre egoísmo y generosidad en todo momento, no solo en las escenas. Según Nelson, Arthur es Arthur Morgan "todo el tiempo", y no puede escapar de sí mismo.
 

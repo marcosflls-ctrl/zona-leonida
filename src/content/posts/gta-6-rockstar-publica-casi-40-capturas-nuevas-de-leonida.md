@@ -5,8 +5,8 @@ date: 2026-11-05T16:01:58+00:00
 category: noticias
 tags: [gta-6, capturas, rockstar, leonida, lanzamiento]
 rumor: false
-image: /img/oficial/vice-city-19.webp
-imageAlt: "Vice City, imagen oficial de GTA 6"
+image: /img/oficial/grassrivers-6.webp
+imageAlt: "Grassrivers, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "VGC: Rockstar releases nearly 40 new GTA 6 screenshots ahead of launch"

@@ -525,15 +525,25 @@ def pick_banco_image(theme: str, rumor: bool) -> tuple[str, str] | None:
             continue
         if "coches" in g["refs"] or g.get("grupo") in ("vice-city", "cayos-de-leonida", "grassrivers", "monte-kalaga", "port-gellhorn", "ambrosia"):
             return img, g["alt"]
-    try:
-        uso = json.loads(_BANCO_STATE.read_text(encoding="utf-8"))
-    except Exception:  # noqa: BLE001
-        uso = {}
-    i = (uso.get(theme, -1) + 1) % len(t["imagenes"])
-    uso[theme] = i
-    _BANCO_STATE.parent.mkdir(parents=True, exist_ok=True)
-    _BANCO_STATE.write_text(json.dumps(uso, indent=1), encoding="utf-8")
-    return f"/img/banco/{t['imagenes'][i]}.webp", t["alt"]
+    # Todo usado: se repite la imagen oficial de paisaje o coches que lleve más tiempo sin salir (y menos veces)
+    usos: dict[str, list[str]] = {}
+    for f in (ROOT / "src" / "content" / "posts").glob("*.md"):
+        txt = f.read_text(encoding="utf-8")
+        m = re.search(r"^image:\s*(\S+)", txt, re.M)
+        d = re.search(r"^date:\s*(\S+)", txt, re.M)
+        if m:
+            usos.setdefault(m.group(1), []).append(d.group(1) if d else "")
+    cands = []
+    for g in GALERIA:
+        img = f"/img/oficial/{g['slug']}.webp"
+        if g["slug"] in NO_PORTADA or set(g["refs"]) & personas or not (GALERIA_DIR / f"{g['slug']}.webp").exists():
+            continue
+        if "coches" in g["refs"] or g.get("grupo") in ("vice-city", "cayos-de-leonida", "grassrivers", "monte-kalaga", "port-gellhorn", "ambrosia"):
+            cands.append((len(usos.get(img, [])), max(usos.get(img, [""])), img, g["alt"]))
+    if cands:
+        cands.sort()
+        return cands[0][2], cands[0][3]
+    return f"/img/banco/{t['imagenes'][0]}.webp", t["alt"]
 
 
 NO_PORTADA = {"vice-city-6", "vice-city-7", "vice-city-8"}

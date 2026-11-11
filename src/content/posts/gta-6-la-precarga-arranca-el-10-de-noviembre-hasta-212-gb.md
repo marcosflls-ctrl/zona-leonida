@@ -5,8 +5,8 @@ date: 2026-11-03T15:22:03+00:00
 category: noticias
 tags: [precarga, tamano, 212-gb, ps5, xbox-series-x-s]
 rumor: false
-image: /img/oficial/monte-kalaga-4.webp
-imageAlt: "Parque nacional del monte Kalaga, imagen oficial de GTA 6"
+image: /img/oficial/vice-city-2.webp
+imageAlt: "Vice City, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "VGC: Rockstar details Grand Theft Auto 6 pre-load date and time, and file size"

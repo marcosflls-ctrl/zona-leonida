@@ -1,13 +1,13 @@
 ---
 title: "GTA 6: el clima afectará a barcos, aviones y peatones"
 description: "Aaron Garbut, de Rockstar, explica que el clima de GTA 6 es más detallado: el viento mece tu barco, las tormentas dañan tu avión y los peatones buscan refugio."
-date: 2026-11-04T01:01:58+00:00
+date: 2026-11-14T09:00:00+01:00
 category: noticias
 tags: [clima, meteorologia, aaron-garbut, edge, vice-city]
 rumor: false
-image: /img/oficial/monte-kalaga-4.webp
-imageAlt: "Parque nacional del monte Kalaga, imagen oficial de GTA 6"
-imageCredit: "Rockstar Games"
+image: /img/banco/coche-1.webp
+imageAlt: "Ilustración de un coche deportivo bajo luces de neón"
+imageCredit: "ilustración de Zona Leonida"
 sources:
   - name: "GamesRadar: GTA 6's weather will rock your boat, damage your plane, and send Vice City denizens seekin"
     url: "https://www.gamesradar.com/games/grand-theft-auto/gta-6s-weather-will-rock-your-boat-damage-your-plane-and-send-vice-city-denizens-seeking-shelter/"

@@ -1,12 +1,12 @@
 ---
 title: "GTA 6 pondrá bloqueos entre misiones: dinero o robar coche"
 description: "Según Edge, algunas misiones de GTA 6 exigirán antes reunir dinero o robar un coche concreto, con conductores armados y rastreo policial."
-date: 2026-10-29T12:02:56+00:00
+date: 2026-11-13T19:30:00+01:00
 category: noticias
 tags: [gta-6, misiones, jugabilidad, edge, policia]
 rumor: false
-image: /img/oficial/port-gellhorn-6.webp
-imageAlt: "Port Gellhorn, imagen oficial de GTA 6"
+image: /img/oficial/grassrivers-5.webp
+imageAlt: "Grassrivers, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "Eurogamer España: GTA 6 introducirá varios bloqueos para evitar que vayamos directos a completar la misión p"

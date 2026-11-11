@@ -1,12 +1,12 @@
 ---
-title: "GTA 6: recogida física el 12 de noviembre y póster gratis"
+title: "GTA 6: la edición física se recoge desde hoy, 12 de noviembre"
 description: "Rockstar confirma que podrás recoger la edición física desde el 12 de noviembre y que el 19 regalará un póster y un mapa de Leonida digitales."
-date: 2026-11-03T16:02:28+00:00
+date: 2026-11-12T08:00:00+01:00
 category: noticias
 tags: [gta-6, edicion-fisica, precarga, poster, mapa-de-leonida]
 rumor: false
-image: /img/oficial/monte-kalaga-5.webp
-imageAlt: "Parque nacional del monte Kalaga, imagen oficial de GTA 6"
+image: /img/oficial/grassrivers-2.webp
+imageAlt: "Grassrivers, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "HobbyConsolas: GTA 6 detalla las fechas y horarios de precarga en PS5 y Xbox Series X|S, recogida de las"
@@ -23,7 +23,7 @@ Tener la caja en casa no significa poder jugar. El juego no se desbloquea hasta 
 
 ## Horarios de precarga en PS5 y Xbox Series X|S
 
-La precarga se abre en la madrugada del lunes 9 al martes 10 de noviembre. En PS5 empieza a las 00:00 hora peninsular española. En Xbox Series X|S lo hace una hora después, a la 01:00, porque se activa a las 12:00 AM GMT.
+La precarga se abrió en la madrugada del lunes 9 al martes 10 de noviembre. En PS5 empezó a las 00:00, hora peninsular española. En Xbox Series X|S lo hizo una hora después, a la 01:00, porque se activó a las 12:00 AM GMT.
 
 La fuente solo da la hora de España. Estas son las equivalencias que calculamos nosotros para Latinoamérica, con los husos horarios que se aplican en esas fechas:
 
@@ -39,7 +39,7 @@ Es un cálculo nuestro, no un dato oficial por país. Antes de dar por hecho tu 
 
 ## Cuánto espacio necesitas
 
-La precarga requiere **212 GB libres** en PS5 y Xbox Series X|S. HobbyConsolas añade que es lo que ocupará el juego «de momento», así que ese tamaño podría cambiar. Ya repasamos el dato en nuestra noticia sobre [la precarga del 10 de noviembre](/noticias/gta-6-la-precarga-arranca-el-10-de-noviembre-hasta-212-gb/). Si vas justo de almacenamiento, libera espacio esta semana con la guía de [cuánto ocupa GTA 6](/guias/gta-6-cuanto-ocupa/).
+La precarga requiere **212 GB libres** en PS5 y Xbox Series X|S. HobbyConsolas añade que es lo que ocupará el juego «de momento», así que ese tamaño podría cambiar. Lo explicamos en [cómo precargar GTA 6](/guias/gta-6-precarga-como-descargar/). Si vas justo de almacenamiento, libera espacio esta semana con la guía de [cuánto ocupa GTA 6](/guias/gta-6-cuanto-ocupa/).
 
 ## Póster y mapa de Leonida: qué regala Rockstar
 

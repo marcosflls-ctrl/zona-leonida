@@ -1,13 +1,13 @@
 ---
 title: "GTA 6 tendría 55 trofeos y logros, más que GTA 5 y RDR 2"
 description: "Insider Gaming apunta a 55 trofeos y logros en GTA 6, más que GTA 5 (51) y RDR 2 (52), con platino y logro Mythic. Rockstar no lo ha confirmado."
-date: 2026-11-08T08:02:00+00:00
+date: 2026-11-12T21:30:00+01:00
 category: noticias
 tags: [trofeos, logros, platino, xbox, ps5]
 rumor: true
-image: /img/banco/misterio-1.webp
-imageAlt: "Ilustración de un callejón misterioso con luz de neón"
-imageCredit: "ilustración de Zona Leonida"
+image: /img/oficial/vice-city-12.webp
+imageAlt: "Vice City, imagen oficial de GTA 6"
+imageCredit: "Rockstar Games (imagen promocional oficial, no forma parte de la filtración)"
 sources:
   - name: "Insider Gaming: Grand Theft Auto 6 Will Have 55 Trophies/Achievements"
     url: "https://insider-gaming.com/gta-6-55-trophies-achievements-mythic-platinum/"

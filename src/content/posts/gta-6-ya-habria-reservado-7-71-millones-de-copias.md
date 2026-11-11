@@ -5,8 +5,8 @@ date: 2026-11-03T20:02:31+00:00
 category: noticias
 tags: [reservas, sensor-tower, ventas, ps5, xbox-series]
 rumor: false
-image: /img/oficial/monte-kalaga-6.webp
-imageAlt: "Parque nacional del monte Kalaga, imagen oficial de GTA 6"
+image: /img/oficial/cayos-de-leonida-5.webp
+imageAlt: "Cayos de Leónida, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "HobbyConsolas: GTA 6 ya habría vendido casi 8 millones de copias, con más de 750 millones de dólares solo"

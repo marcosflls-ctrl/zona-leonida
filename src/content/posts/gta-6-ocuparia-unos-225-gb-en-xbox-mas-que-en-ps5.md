@@ -1,13 +1,13 @@
 ---
 title: "GTA 6 ocuparía unos 225 GB en Xbox, más que en PS5"
 description: "Según datos no oficiales de la tienda, GTA 6 pesaría unos 225 GB en Xbox frente a 212 GB en PS5. Rockstar no lo ha confirmado y Japón tendría otra versión."
-date: 2026-11-06T22:01:58+00:00
+date: 2026-11-13T11:00:00+01:00
 category: noticias
 tags: [tamano-de-descarga, xbox, ps5, censura, precarga]
 rumor: true
-image: /img/banco/misterio-2.webp
-imageAlt: "Ilustración de un callejón misterioso con luz de neón"
-imageCredit: "ilustración de Zona Leonida"
+image: /img/oficial/vice-city-5.webp
+imageAlt: "Vice City, imagen oficial de GTA 6"
+imageCredit: "Rockstar Games (imagen promocional oficial, no forma parte de la filtración)"
 sources:
   - name: "Rockstar Intel: Updated GTA6 Download Size Reveal Potential Censorship Differences"
     url: "https://rockstarintel.com/updated-gta6-download-size-reveal-potential-censorship-differences/"
@@ -17,7 +17,7 @@ GTA 6 ocuparía más en Xbox que en PS5. Según informa Rockstar Intel, que cita
 
 ## ¿Cuánto ocupa GTA 6 en Xbox y en PS5?
 
-En PlayStation, la cifra ya había cambiado. Según PlayStationSize, la tienda mostraba hace una semana unos 210 GB en su backend. Después, Rockstar Games actualizó la ficha con un tamaño general de **212 GB**. Ese dato ya lo recogimos en nuestro artículo sobre [la precarga y los 212 GB](/noticias/gta-6-la-precarga-arranca-el-10-de-noviembre-hasta-212-gb/).
+En PlayStation, la cifra ya había cambiado. Según PlayStationSize, la tienda mostraba a finales de octubre unos 210 GB en su backend. Después, Rockstar Games actualizó la ficha con un tamaño general de **212 GB**. Ese dato lo recogemos en la guía de [cómo precargar GTA 6](/guias/gta-6-precarga-como-descargar/).
 
 En Xbox, el tamaño sería mayor:
 

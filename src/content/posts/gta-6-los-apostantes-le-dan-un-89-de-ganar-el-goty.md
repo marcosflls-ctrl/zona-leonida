@@ -1,12 +1,12 @@
 ---
 title: "GTA 6: los apostantes le dan un 89 % de ganar el GOTY"
 description: "Según Insider Gaming, los usuarios de Polymarket dan un 89 % a GTA 6 como Juego del Año en The Game Awards. Te explicamos qué valor tienen esas cifras."
-date: 2026-11-07T17:01:56+00:00
+date: 2026-11-14T21:00:00+01:00
 category: noticias
 tags: [gta-6, game-of-the-year, the-game-awards, polymarket, premios]
 rumor: false
-image: /img/oficial/vice-city-15.webp
-imageAlt: "Vice City, imagen oficial de GTA 6"
+image: /img/oficial/port-gellhorn-2.webp
+imageAlt: "Port Gellhorn, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "Insider Gaming: GTA 6’s Game of the Year Chances at The Game Awards Hit 89%"

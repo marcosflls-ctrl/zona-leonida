@@ -1,12 +1,12 @@
 ---
 title: "GTA 6 no optó a los Golden Joystick 2026: el motivo"
 description: "GTA 6 no pudo competir en los Golden Joystick 2026 porque salía fuera del plazo. Sí opta a The Game Awards del 10 de diciembre y a los premios de 2027."
-date: 2026-11-11T21:01:57+00:00
+date: 2026-11-12T19:00:00+01:00
 category: noticias
 tags: [gta-6, golden-joystick-awards, the-game-awards, premios, goty]
 rumor: false
-image: /img/oficial/jason-duval-18.webp
-imageAlt: "Jason Duval, imagen oficial de GTA 6"
+image: /img/oficial/vice-city-11.webp
+imageAlt: "Vice City, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "GamesRadar: Why wasn't GTA 6 at the Golden Joystick Awards?"

@@ -1,13 +1,13 @@
 ---
 title: "GTA 6: con los tiempos de GTA 5, «todo iba demasiado rápido»"
 description: "Rockstar probó GTA 6 con los tiempos de GTA 5 y todo se sentía demasiado rápido, según Edge. Calles más estrechas y días más largos, entre los cambios."
-date: 2026-10-29T11:02:45+00:00
+date: 2026-11-15T10:00:00+01:00
 category: noticias
 tags: [gta-6, rockstar, vice-city, jugabilidad, gta-5]
 rumor: false
-image: /img/oficial/vice-city-2.webp
-imageAlt: "Vice City, imagen oficial de GTA 6"
-imageCredit: "Rockstar Games"
+image: /img/banco/pantano-1.webp
+imageAlt: "Ilustración de un pantano tropical de noche"
+imageCredit: "ilustración de Zona Leonida"
 sources:
   - name: "GamesRadar: GTA 6 \"felt too fast\" when Rockstar made it run like Grand Theft Auto 5 due to the leap in"
     url: "https://www.gamesradar.com/games/grand-theft-auto/gta-6-felt-too-fast-when-rockstar-made-it-run-like-grand-theft-auto-5-due-to-the-leap-in-visual-performance-over-the-past-13-years/"

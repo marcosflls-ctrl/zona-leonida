@@ -5,9 +5,9 @@ date: 2026-11-03T22:02:07+00:00
 category: noticias
 tags: [gta-6, noviembre, circana, zelda-ocarina-of-time, lanzamientos]
 rumor: false
-image: /img/oficial/monte-kalaga-2.webp
-imageAlt: "Parque nacional del monte Kalaga, imagen oficial de GTA 6"
-imageCredit: "Rockstar Games"
+image: /img/banco/pantano-2.webp
+imageAlt: "Ilustración de un pantano tropical de noche"
+imageCredit: "ilustración de Zona Leonida"
 sources:
   - name: "GamesRadar: GTA 6 may have done Ocarina of Time remake and WoW: Forever a favor by scaring games out o"
     url: "https://www.gamesradar.com/games/grand-theft-auto/gta-6-may-have-done-ocarina-of-time-remake-and-wow-forever-a-favor-by-scaring-games-out-of-november-everything-else-in-the-market-well-see-says-analyst/"

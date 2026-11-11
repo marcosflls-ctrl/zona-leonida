@@ -1,13 +1,13 @@
 ---
 title: "GTA 6 apuesta por el rol: autobuses, tiendas y clubes"
 description: "Rockstar dice que GTA 6 permitirá vivir una rutina propia, con tiendas, trenes y autobuses, sin imponer sistemas al jugador, según Edge."
-date: 2026-10-29T11:02:20+00:00
+date: 2026-11-14T15:00:00+01:00
 category: noticias
 tags: [gta-6, rpg, rockstar, vice-city, jugabilidad]
 rumor: false
-image: /img/oficial/vice-city-1.webp
-imageAlt: "Vice City, imagen oficial de GTA 6"
-imageCredit: "Rockstar Games"
+image: /img/banco/playa-2.webp
+imageAlt: "Ilustración de una playa tropical al anochecer"
+imageCredit: "ilustración de Zona Leonida"
 sources:
   - name: "GamesRadar: GTA 6 promises to be an RPG like nothing the series has ever seen, but Rockstar says there"
     url: "https://www.gamesradar.com/games/grand-theft-auto/you-can-have-your-life-in-the-game-gta-6-promises-to-be-an-rpg-like-nothing-the-series-has-ever-seen-but-rockstar-says-theres-still-a-balance-to-strike/"

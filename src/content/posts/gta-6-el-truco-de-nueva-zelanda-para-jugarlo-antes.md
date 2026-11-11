@@ -1,13 +1,13 @@
 ---
 title: "GTA 6: el truco de Nueva Zelanda para jugarlo antes"
 description: "Un medio propone jugar horas antes cambiando la región a Nueva Zelanda en PS5 y Xbox. No es oficial: te contamos los pasos y qué debes valorar."
-date: 2026-11-06T17:02:17+00:00
+date: 2026-11-12T10:30:00+01:00
 category: noticias
 tags: [gta-6, lanzamiento, nueva-zelanda, ps5, xbox]
 rumor: false
-image: /img/oficial/vice-city-25.webp
-imageAlt: "Vice City, imagen oficial de GTA 6"
-imageCredit: "Rockstar Games"
+image: /img/banco/coche-2.webp
+imageAlt: "Ilustración de un coche deportivo bajo luces de neón"
+imageCredit: "ilustración de Zona Leonida"
 sources:
   - name: "Rockstar Intel: How To Play GTA 6 Early And Before Release Day"
     url: "https://rockstarintel.com/how-to-play-gta-6-early-and-before-release-day/"
@@ -21,7 +21,7 @@ Según informa Rockstar Intel, el juego se desbloquea a las 00:00 de la hora loc
 
 El medio calcula que la ventaja sería de unas 18 horas en EE. UU. y de 13-14 horas en Europa. Son cifras orientativas. Para saber a qué hora se desbloquea en tu país, consulta nuestra guía de [a qué hora sale GTA 6 por país](/guias/gta-6-a-que-hora-sale/) o la de [México](/guias/gta-6-en-mexico/), [Colombia](/guias/gta-6-en-colombia/), [Argentina](/guias/gta-6-en-argentina/), [Chile](/guias/gta-6-en-chile/) o [España](/guias/gta-6-en-espana/).
 
-En cualquier caso, necesitas al menos **212 GB libres** para instalarlo, la cifra que ya hemos contado en [la precarga del 10 de noviembre](/noticias/gta-6-la-precarga-arranca-el-10-de-noviembre-hasta-212-gb/).
+En cualquier caso, necesitas al menos **212 GB libres** para instalarlo, como explicamos en [cuánto ocupa GTA 6](/guias/gta-6-cuanto-ocupa/).
 
 ## Cómo hacerlo en PS5, según la guía
 

@@ -1,19 +1,19 @@
 ---
 title: "GTA 6 lleva sus coches a la vida real con West Coast Customs"
 description: "Rockstar muestra coches de GTA 6 recreados en la vida real con West Coast Customs, junto a seis vehículos del juego, según Rockstar Intel."
-date: 2026-11-06T21:02:11+00:00
+date: 2026-11-14T12:00:00+01:00
 category: noticias
 tags: [gta-6, coches, west-coast-customs, rockstar-games, vehiculos]
 rumor: false
-image: /img/oficial/vice-city-26.webp
-imageAlt: "Vice City, imagen oficial de GTA 6"
+image: /img/oficial/cayos-de-leonida-1.webp
+imageAlt: "Cayos de Leónida, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "Rockstar Intel: New GTA6 Screenshots have released comparing real life cars to in Game Cars"
     url: "https://rockstarintel.com/new-gta6-screenshots-have-released-comparing-real-life-cars-to-in-game-cars/"
 ---
 
-Rockstar Games ha enseñado una comparativa entre coches de GTA VI y sus versiones reales, según informa Rockstar Intel. Los vehículos se construyeron en la vida real con la ayuda de West Coast Customs, el taller al que, según esa web, contrató Rockstar para recrear cada detalle. El material llega a menos de dos semanas del lanzamiento.
+Rockstar Games ha enseñado una comparativa entre coches de GTA VI y sus versiones reales, según informa Rockstar Intel. Los vehículos se construyeron en la vida real con la ayuda de West Coast Customs, el taller al que, según esa web, contrató Rockstar para recrear cada detalle. Rockstar lo publicó a primeros de noviembre, a menos de dos semanas del lanzamiento.
 
 ## Qué coches se han recreado en la vida real
 
@@ -50,6 +50,6 @@ La campaña pone el foco en los coches y en la cultura del motor de Vice City y 
 
 Lo que la fuente no aclara es cuántos vehículos tendrá el juego en total, si estos modelos se podrán conducir desde el primer día ni cómo se comportarán. Tampoco cuenta si esas versiones reales se mostrarán más allá de esta comparativa.
 
-Si quieres ver qué vehículos están confirmados de forma oficial, consulta nuestra guía de [coches y vehículos de GTA 6](/guias/gta-6-coches-vehiculos-confirmados/). Allí iremos sumando los modelos nuevos. También puedes leer cómo [los coches tendrán maletero para guardar ropa y armas](/noticias/gta-6-los-coches-tendran-maletero-para-guardar-ropa-y-armas/).
+Si quieres ver qué vehículos están confirmados de forma oficial, consulta nuestra guía de [coches y vehículos de GTA 6](/guias/gta-6-coches-vehiculos-confirmados/). Allí iremos sumando los modelos nuevos. También puedes leer cómo los coches tendrán maletero para guardar ropa y armas.
 
 Para tener a mano todo lo confirmado del juego, tienes el resumen en [todo lo que sabemos de GTA 6](/guias/gta-6-todo-lo-que-sabemos/).

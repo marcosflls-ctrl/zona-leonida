@@ -1,11 +1,11 @@
 ---
 title: "GTA 6 en PC podría llegar antes por los clones de IA"
 description: "Un exdirector técnico de Rockstar North cree que el estudio querrá acercar el lanzamiento en PC al de consolas para frenar los clones hechos con IA."
-date: 2026-11-06T14:02:35+00:00
+date: 2026-11-15T17:00:00+01:00
 category: noticias
 tags: [gta-6, pc, inteligencia-artificial, rockstar, pirateria]
 rumor: false
-image: /img/oficial/vice-city-25.webp
+image: /img/oficial/vice-city-4.webp
 imageAlt: "Vice City, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:

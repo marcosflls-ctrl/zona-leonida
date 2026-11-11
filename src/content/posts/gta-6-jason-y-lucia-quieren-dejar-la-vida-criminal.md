@@ -47,7 +47,7 @@ Esto es lo que sí se desprende del reportaje:
 
 Y esto es lo que **no** se sabe: si lograrán salir del mundo criminal. Por la trayectoria de la saga, dejar esa vida difícilmente será sencillo. Eso podría crear un choque entre lo que quieren y lo que tienen que hacer para conseguirlo, pero es una lectura del medio, no algo que Rockstar haya confirmado.
 
-El planteamiento encaja con otros detalles ya conocidos. Por ejemplo, [el monitor de tobillo de Lucía será parte de la trama](/noticias/gta-6-el-monitor-de-tobillo-de-lucia-sera-parte-de-la-trama/). También se relaciona con que [el perfil criminal no será un sistema de honor como en RDR 2](/noticias/gta-6-el-perfil-criminal-no-sera-un-sistema-de-honor-como-rdr-2/). Para ver todas las mecánicas confirmadas, consulta nuestra guía de [jugabilidad de GTA 6](/guias/gta-6-jugabilidad-todo-lo-confirmado/).
+El planteamiento encaja con otros detalles ya conocidos. Por ejemplo, [el monitor de tobillo de Lucía será parte de la trama](/noticias/gta-6-el-monitor-de-tobillo-de-lucia-sera-parte-de-la-trama/). También se relaciona con que el perfil criminal no será un sistema de honor como en RDR 2. Para ver todas las mecánicas confirmadas, consulta nuestra guía de [jugabilidad de GTA 6](/guias/gta-6-jugabilidad-todo-lo-confirmado/).
 
 ## Más datos del reportaje de Edge
 

@@ -41,7 +41,7 @@ Nueva York prepara además un mural protagonizado por los dos personajes. Irá e
 
 Este anuncio no revela nada nuevo del juego: no aporta escenas ni detalles de jugabilidad. Su valor está en lo que indica sobre la estrategia. La promoción sale de Estados Unidos y Japón y llega a ciudades europeas, justo antes del estreno.
 
-Si vives en España, ya viste algo parecido con las [vallas de El Clásico](/noticias/gta-6-se-anuncia-en-las-vallas-de-el-clasico-en-espana/). En Nueva York, otra acción reciente fue [el coche de policía de Liberty City](/noticias/gta-6-llega-a-nueva-york-con-un-coche-de-policia-de-liberty-city/). Puedes seguir el resto de acciones en nuestra guía de la [campaña de marketing y la fiebre del lanzamiento](/guias/gta-6-campana-marketing-miami-y-fiebre-del-lanzamiento/).
+Si vives en España, ya viste algo parecido con las [vallas de El Clásico](/noticias/gta-6-se-anuncia-en-las-vallas-de-el-clasico-en-espana/). En Nueva York, otra acción reciente fue el coche de policía de Liberty City. Puedes seguir el resto de acciones en nuestra guía de la [campaña de marketing y la fiebre del lanzamiento](/guias/gta-6-campana-marketing-miami-y-fiebre-del-lanzamiento/).
 
 Si lo que te preocupa es cuándo podrás jugar, consulta la [hora de salida por país](/guias/gta-6-a-que-hora-sale/) y la [checklist de lanzamiento](/guias/gta-6-checklist-lanzamiento/).
 

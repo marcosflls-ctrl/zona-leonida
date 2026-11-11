@@ -1,12 +1,12 @@
 ---
 title: "GTA 6 irá a 30 FPS en consolas y el modo 60, en duda"
 description: "Un director de Rockstar North dice que las consolas ejecutan GTA 6 a 30 FPS. Un modo de 60 FPS no está confirmado ni para el lanzamiento ni para después."
-date: 2026-11-03T12:02:15+00:00
+date: 2026-11-12T13:00:00+01:00
 category: noticias
 tags: [fps, rendimiento, ps5, xbox-series, rob-nelson]
 rumor: false
-image: /img/oficial/monte-kalaga-3.webp
-imageAlt: "Parque nacional del monte Kalaga, imagen oficial de GTA 6"
+image: /img/oficial/vice-city-1.webp
+imageAlt: "Vice City, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "Insider Gaming: Does GTA 6 Have 60 FPS Mode? All Confirmed & Rumored GTA 6 Graphics Settings"

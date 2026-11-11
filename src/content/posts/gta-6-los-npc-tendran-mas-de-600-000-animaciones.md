@@ -1,12 +1,12 @@
 ---
 title: "GTA 6: los NPC tendrán más de 600.000 animaciones"
 description: "Según EDGE, Rockstar creó un equipo dedicado a los NPC de GTA 6: más de 600.000 animaciones y personalidades que reaccionan distinto a lo que haces."
-date: 2026-10-29T12:02:37+00:00
+date: 2026-11-13T13:30:00+01:00
 category: noticias
 tags: [gta-6, npc, rockstar-games, edge, jugabilidad]
 rumor: false
-image: /img/oficial/grassrivers-4.webp
-imageAlt: "Grassrivers, imagen oficial de GTA 6"
+image: /img/oficial/vice-city-9.webp
+imageAlt: "Vice City, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
   - name: "Vandal: Rockstar sorprende con los NPC de GTA 6: más de 600.000 animaciones y su propia perseonali"
