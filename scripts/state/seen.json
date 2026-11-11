@@ -1844,7 +1844,13 @@
   "https://vandal.elespanol.com/noticia/2026315042/los-estudios-indie-no-le-temen-a-gta-6-y-explican-el-motivo-lo-vemos-como-una-oportunidad/",
   "https://vandal.elespanol.com/noticia/2026315041/todas-las-ediciones-de-gta-6-diferencias-contenido-y-precio-en-espana/",
   "https://as.com/meristation/noticias/este-es-el-primer-pais-del-mundo-donde-se-podra-jugar-a-gta-6-12-horas-antes-que-en-espana-f202611-n/",
-  "https://www.gamesradar.com/games/grand-theft-auto/gta-6-censorship-worries-bubble-up-in-japan-the-install-size-is-different-to-everywhere-else-and-the-age-rating-drops-sex-and-drugs/"
+  "https://www.gamesradar.com/games/grand-theft-auto/gta-6-censorship-worries-bubble-up-in-japan-the-install-size-is-different-to-everywhere-else-and-the-age-rating-drops-sex-and-drugs/",
+  "https://www.hobbyconsolas.com/videojuegos/edicion-japonesa-gta-6-puede-llegar-muy-censurada-omite-toda-referencia-drogas-sexo-ocupa-menos-gigas_7059899_0.html",
+  "https://www.gamesradar.com/hardware/gaming-controllers/the-best-controllers-for-gta-6-the-gamepads-id-recommend-for-ps5-and-xbox-players-jumping-into-vice-city/",
+  "https://www.hobbyconsolas.com/videojuegos/edicion-japonesa-gta-6-puede-llegar-muy-censurada-omite-toda-referencia-drogas-sexo-ocupa-menos-gigas_7059899_0.html",
+  "https://www.videogameschronicle.com/news/play-is-not-the-opposite-of-work-logitech-is-giving-workers-time-off-for-gta-6/",
+  "https://vandal.elespanol.com/noticia/2026315047/asi-sera-el-extremo-nivel-de-detalle-de-gta-6-podras-comer-un-donut-con-una-mano-y-beber-cerveza-con-la-otra/",
+  "https://rockstarintel.com/new-gta-vi-interview-reveals-more-gameplay-features/"
  ],
  "titles": [
   "nuevas ima genes de gta 6 3 capturas oficiales revelan la vida en vice city y sus espectaculares gra ficos",
@@ -3248,13 +3254,14 @@
   "los estudios indie no le temen a gta 6 y explican el motivo lo vemos como una oportunidad",
   "todas las ediciones de gta 6 diferencias contenido y precio en espan a",
   "este es el primer pai s del mundo donde se podra jugar a gta 6 12 horas antes que en espan a",
-  "gta 6 censorship worries bubble up in japan the install size is different and the age rating drops sex and drugs"
+  "gta 6 censorship worries bubble up in japan the install size is different and the age rating drops sex and drugs",
+  "the best controllers for gta 6 the gamepads i d recommend for ps5 and xbox players jumping into vice city",
+  "la edicio n japonesa de gta 6 puede llegar muy censurada omite toda referencia a drogas y sexo y ocupa menos gigas",
+  "play is not the opposite of work logitech is giving workers time off for gta 6",
+  "asi sera el extremo nivel de detalle de gta 6 podra s comer un donut con una mano y beber cerveza con la otra",
+  "new gta vi interview reveals more gameplay features"
  ],
  "escritos": [
-  {
-   "title": "GTA 6: dos mandos GameSir G7 Pro inspirados en Vice City",
-   "url": "/noticias/gta-6-dos-mandos-gamesir-g7-pro-inspirados-en-vice-city/"
-  },
   {
    "title": "GTA 6: banda sonora original de 50 temas el 11 de diciembre",
    "url": "/noticias/gta-6-banda-sonora-original-de-50-temas-el-11-de-diciembre/"
@@ -3570,6 +3577,10 @@
   {
    "title": "GTA 6: rumor de censura en Japón por tamaño y edad",
    "url": "/noticias/gta-6-rumor-de-censura-en-japon-por-tamano-y-edad/"
+  },
+  {
+   "title": "GTA 6: Jason podrá comer un donut y beber cerveza a la vez",
+   "url": "/noticias/gta-6-jason-podra-comer-un-donut-y-beber-cerveza-a-la-vez/"
   }
  ],
  "feeds_iniciados": [
@@ -3597,10 +3608,11 @@
     "https://www.3djuegos.com/juegos/grand-theft-auto-vi/noticias/gta-6-todavia-no-ha-salido-ha-hecho-historia-playstation-xbox",
     "https://vandal.elespanol.com/noticia/2026315022/el-ceo-de-taketwo-aplaude-la-nota-de-zelda-ocarina-of-time-remake-antes-del-estreno-de-gta-6-es-fantastica/",
     "https://www.3djuegos.com/juegos/phantom-blade-zero/noticias/phantom-blade-zero-bestia-graficos-asi-cambia-usas-ray-tracing-path-tracing",
-    "https://www.3djuegos.com/juegos/the-legend-of-zelda-ocarina-of-time/noticias/nintendo-tiene-nuevo-record-que-celebrar-switch-2-ningun-juego-habia-vendido-tantas-copias-sus-primeros-dias"
+    "https://www.3djuegos.com/juegos/the-legend-of-zelda-ocarina-of-time/noticias/nintendo-tiene-nuevo-record-que-celebrar-switch-2-ningun-juego-habia-vendido-tantas-copias-sus-primeros-dias",
+    "https://rockstarintel.com/new-gta-vi-interview-reveals-more-gameplay-features/"
    ],
-   "ultimo": 1794398563.224875,
-   "intentos": 10
+   "ultimo": 1794420162.347802,
+   "intentos": 11
   }
  }
 }
