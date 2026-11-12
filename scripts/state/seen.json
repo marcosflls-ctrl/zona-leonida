@@ -1886,7 +1886,10 @@
   "https://as.com/meristation/noticias/resident-evil-requiem-logra-el-goty-en-la-antesala-de-the-game-awards-y-consolida-su-candidatura-f202611-n/",
   "https://vandal.elespanol.com/noticia/2026316006/rockstar-comparte-nuevo-gameplay-de-gta-6-en-primera-persona-y-es-facil-confundir-sus-graficos-con-la-vida-real/",
   "https://www.hobbyconsolas.com/videojuegos/rockstar-empieza-hablar-futuros-gta-tras-gta-6-no-descarta-ambientarse-fuera-america-aunque-por-ahora-parece-poco-probable_7060052_0.html",
-  "https://www.hobbyconsolas.com/videojuegos/rockstar-empieza-hablar-futuros-gta-tras-gta-6-no-descarta-ambientarse-fuera-america-aunque-por-ahora-parece-poco-probable_7060052_0.html"
+  "https://www.hobbyconsolas.com/videojuegos/rockstar-empieza-hablar-futuros-gta-tras-gta-6-no-descarta-ambientarse-fuera-america-aunque-por-ahora-parece-poco-probable_7060052_0.html",
+  "https://www.3djuegos.com/juegos/grand-theft-auto-vi/noticias/jugar-no-perdida-tiempo-empresa-dara-dia-libre-pagado-a-sus-trabajadores-todo-mundo-para-jugar-a-gta-6",
+  "https://vandal.elespanol.com/noticia/2026316016/resident-evil-requiem-es-el-juego-del-ano-en-los-golden-joystick-awards-2026/",
+  "https://vandal.elespanol.com/noticia/2026316013/gta-6-provoca-una-insolita-decision-una-empresa-dara-un-dia-libre-a-sus-7000-trabajadores-para-jugar/"
  ],
  "titles": [
   "nuevas ima genes de gta 6 3 capturas oficiales revelan la vida en vice city y sus espectaculares gra ficos",
@@ -3328,7 +3331,9 @@
   "xbox ya permite jugar gratis a videojuegos a trave s de la nube sin pagar game pass pero tiene letra pequen a",
   "resident evil requiem logra el goty en la antesala de the game awards y consolida su candidatura",
   "rockstar comparte nuevo gameplay de gta 6 en primera persona y es fa cil confundir sus gra ficos con la vida real",
-  "rockstar empieza a hablar de futuros gta tras gta 6 y no descarta ambientarse fuera de ame rica aunque por ahora parece poco probable"
+  "rockstar empieza a hablar de futuros gta tras gta 6 y no descarta ambientarse fuera de ame rica aunque por ahora parece poco probable",
+  "resident evil requiem es el juego del an o en los golden joystick awards 2026",
+  "gta 6 provoca una inso lita decisio n una empresa dara un di a libre a sus 7000 trabajadores para jugar"
  ],
  "escritos": [
   {
@@ -3667,7 +3672,6 @@
  "lanzamiento": {
   "gta-6-notas-analisis": {
    "fuentes": [
-    "https://www.rockstargames.com/es/newswire/article/39ak8a12395591/grand-theft-auto-vi-original-score-by-justice",
     "https://www.3djuegos.com/juegos/rob-run/noticias/nuevo-bombazo-steam-gratis-tiene-toques-gta-online-mundo-abierto-donde-ser-ladron-policia-que-esta-haciendo-numeros",
     "https://www.gamesradar.com/games/simulation/days-before-gta-6-crime-game-for-thousands-of-players-blows-up-on-steam-despite-50-percent-positive-reviews-and-gen-ai-use/",
     "https://as.com/meristation/analisis/analisis-de-queens-domain-un-milagro-que-se-cuela-en-la-fiesta-de-zelda-y-gta-6-f202611-n/",
@@ -3678,10 +3682,11 @@
     "https://vandal.elespanol.com/noticia/2026315022/el-ceo-de-taketwo-aplaude-la-nota-de-zelda-ocarina-of-time-remake-antes-del-estreno-de-gta-6-es-fantastica/",
     "https://www.3djuegos.com/juegos/phantom-blade-zero/noticias/phantom-blade-zero-bestia-graficos-asi-cambia-usas-ray-tracing-path-tracing",
     "https://www.3djuegos.com/juegos/the-legend-of-zelda-ocarina-of-time/noticias/nintendo-tiene-nuevo-record-que-celebrar-switch-2-ningun-juego-habia-vendido-tantas-copias-sus-primeros-dias",
-    "https://rockstarintel.com/new-gta-vi-interview-reveals-more-gameplay-features/"
+    "https://rockstarintel.com/new-gta-vi-interview-reveals-more-gameplay-features/",
+    "https://vandal.elespanol.com/noticia/2026316016/resident-evil-requiem-es-el-juego-del-ano-en-los-golden-joystick-awards-2026/"
    ],
-   "ultimo": 1794470521.3079064,
-   "intentos": 13
+   "ultimo": 1794481343.0551686,
+   "intentos": 14
   }
  }
 }
