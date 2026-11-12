@@ -1900,7 +1900,10 @@
   "https://www.dexerto.com/gta/this-company-wants-to-pay-you-over-100000-to-play-gta-6-3427629/",
   "https://rockstarintel.com/gta-vi-was-almost-refused-an-age-rating-in-south-korea-new-nudity-details-revealed/",
   "https://vandal.elespanol.com/noticia/2026316028/gta-6-quiere-hacer-historia-estiman-que-ya-habria-generado-1000-millones-de-dolares-solo-con-sus-preventas/",
-  "https://insider-gaming.com/new-gta-6-map-locations-spotted-through-collectors-box-store-display/"
+  "https://insider-gaming.com/new-gta-6-map-locations-spotted-through-collectors-box-store-display/",
+  "https://www.hobbyconsolas.com/videojuegos/jefe-take-two-gta-6-se-rinde-ante-zelda-ocarina-of-time-remake-es-fantastico_7060272_0.html",
+  "https://www.3djuegos.com/juegos/helldivers-2/noticias/su-septimo-review-bombing-estudio-helldivers-2-da-marcha-atras-a-su-prohibicion-mods-peros",
+  "https://www.gamesradar.com/hardware/peripherals/elgato-corsair-and-twitch-team-up-with-a-bundle-to-help-you-stream-gta-6-console-gameplay-but-the-cheapest-option-costs-almost-as-much-as-a-ps5/"
  ],
  "titles": [
   "nuevas ima genes de gta 6 3 capturas oficiales revelan la vida en vice city y sus espectaculares gra ficos",
@@ -3354,13 +3357,11 @@
   "this company wants to pay you over 100 000 to play gta 6",
   "gta vi was almost refused an age rating in south korea new nudity details revealed",
   "gta 6 quiere hacer historia estiman que ya habri a generado 1 000 millones de do lares solo con sus preventas",
-  "new gta 6 map locations spotted through collector s box store display"
+  "new gta 6 map locations spotted through collector s box store display",
+  "tras su se ptimo review bombing el estudio de helldivers 2 da marcha atra s a su prohibicio n de los mods con peros",
+  "elgato corsair and twitch team up with a bundle to help you stream gta 6 console gameplay"
  ],
  "escritos": [
-  {
-   "title": "GTA 6: los NPC tendrán más de 600.000 animaciones",
-   "url": "/noticias/gta-6-los-npc-tendran-mas-de-600-000-animaciones/"
-  },
   {
    "title": "GTA 6 pondrá bloqueos entre misiones: dinero o robar coche",
    "url": "/noticias/gta-6-pondra-bloqueos-entre-misiones-dinero-o-robar-coche/"
@@ -3676,6 +3677,10 @@
   {
    "title": "GTA 6: el mapa de la Collector's Box desvela 7 lugares",
    "url": "/noticias/gta-6-el-mapa-de-la-collector-s-box-desvela-7-lugares/"
+  },
+  {
+   "title": "GTA 6: el kit de streaming de Elgato cuesta 554,98 USD",
+   "url": "/noticias/gta-6-el-kit-de-streaming-de-elgato-cuesta-554-98-usd/"
   }
  ],
  "feeds_iniciados": [
@@ -3693,7 +3698,6 @@
  "lanzamiento": {
   "gta-6-notas-analisis": {
    "fuentes": [
-    "https://as.com/meristation/analisis/analisis-de-queens-domain-un-milagro-que-se-cuela-en-la-fiesta-de-zelda-y-gta-6-f202611-n/",
     "https://www.3djuegos.com/juegos/baldurs-gate-3/noticias/12-anos-historia-solo-juego-ha-logrado-ser-elegido-juego-ano-critica-jugadores-the-game-awards",
     "https://www.3djuegos.com/pc/noticias/tienes-steam-deck-valve-acaba-estrenar-sus-mejores-funciones-no-iras-a-ciegas-rendimiento-cada-juego",
     "https://vandal.elespanol.com/noticia/2026314026/gta-6-ira-a-30-fps-en-todas-las-consolas-y-rockstar-confirma-estas-mejoras-en-ps5-pro/",
@@ -3704,10 +3708,11 @@
     "https://rockstarintel.com/new-gta-vi-interview-reveals-more-gameplay-features/",
     "https://vandal.elespanol.com/noticia/2026316016/resident-evil-requiem-es-el-juego-del-ano-en-los-golden-joystick-awards-2026/",
     "https://rockstarintel.com/gta-vi-was-almost-refused-an-age-rating-in-south-korea-new-nudity-details-revealed/",
-    "https://vandal.elespanol.com/noticia/2026316028/gta-6-quiere-hacer-historia-estiman-que-ya-habria-generado-1000-millones-de-dolares-solo-con-sus-preventas/"
+    "https://vandal.elespanol.com/noticia/2026316028/gta-6-quiere-hacer-historia-estiman-que-ya-habria-generado-1000-millones-de-dolares-solo-con-sus-preventas/",
+    "https://www.3djuegos.com/juegos/helldivers-2/noticias/su-septimo-review-bombing-estudio-helldivers-2-da-marcha-atras-a-su-prohibicion-mods-peros"
    ],
-   "ultimo": 1794488548.3565297,
-   "intentos": 16
+   "ultimo": 1794492184.972159,
+   "intentos": 17
   }
  }
 }
