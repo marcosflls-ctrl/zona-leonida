@@ -1894,7 +1894,11 @@
   "https://vandal.elespanol.com/noticia/2026316019/rockstar-no-descarta-futuros-juegos-de-gta-ambientados-fuera-de-estados-unidos-tras-gta-6-nunca-digas-nunca/",
   "https://www.3djuegos.com/juegos/the-elder-scrolls-v-skyrim/noticias/uno-mejores-mods-skyrim-se-actualiza-10-anos-fin-llega-a-ps4-ps5-gratis-grande-que-dlc-oficial",
   "https://www.gamesradar.com/games/grand-theft-auto/gta-6-boss-says-never-say-never-when-it-comes-to-a-new-grand-theft-auto-game-set-outside-america-but-theres-still-so-much-to-do-with-the-us/",
-  "https://as.com/meristation/noticias/necesitas-internet-ps-plus-o-game-pass-para-jugar-a-gta-6-todo-lo-que-se-sabe-de-sus-requisitos-online-f202611-n/"
+  "https://as.com/meristation/noticias/necesitas-internet-ps-plus-o-game-pass-para-jugar-a-gta-6-todo-lo-que-se-sabe-de-sus-requisitos-online-f202611-n/",
+  "https://www.gamesradar.com/hardware/headsets-headphones/the-best-headsets-for-gta-6/",
+  "https://insider-gaming.com/gta-6-has-far-too-much-genital-exposure-according-to-south-korean-regulators/",
+  "https://www.dexerto.com/gta/this-company-wants-to-pay-you-over-100000-to-play-gta-6-3427629/",
+  "https://rockstarintel.com/gta-vi-was-almost-refused-an-age-rating-in-south-korea-new-nudity-details-revealed/"
  ],
  "titles": [
   "nuevas ima genes de gta 6 3 capturas oficiales revelan la vida en vice city y sus espectaculares gra ficos",
@@ -3342,17 +3346,13 @@
   "rockstar no descarta futuros juegos de gta ambientados fuera de estados unidos tras gta 6 nunca digas nunca",
   "uno de los mejores mods de skyrim se actualiza tras 10 an os y por fin llega a ps4 y ps5 es gratis y es ma s grande que un dlc oficial",
   "gta 6 boss says never say never when it comes to a new grand theft auto game set outside america",
-  "necesitas internet ps plus o game pass para jugar a gta 6 todo lo que se sabe de sus requisitos online"
+  "necesitas internet ps plus o game pass para jugar a gta 6 todo lo que se sabe de sus requisitos online",
+  "the best headsets for gta 6 dolby atmos and tempest 3d heavy hitters from across the price range",
+  "gta 6 has far too much genital exposure according to south korean regulators",
+  "this company wants to pay you over 100 000 to play gta 6",
+  "gta vi was almost refused an age rating in south korea new nudity details revealed"
  ],
  "escritos": [
-  {
-   "title": "GTA 6: el mapa se abrirá pronto y podrás explorar Leonida",
-   "url": "/noticias/gta-6-el-mapa-se-abrira-pronto-y-podras-explorar-leonida/"
-  },
-  {
-   "title": "GTA 6 apuesta por el rol: autobuses, tiendas y clubes",
-   "url": "/noticias/gta-6-apuesta-por-el-rol-autobuses-tiendas-y-clubes/"
-  },
   {
    "title": "GTA 6: con los tiempos de GTA 5, «todo iba demasiado rápido»",
    "url": "/noticias/gta-6-con-los-tiempos-de-gta-5-todo-iba-demasiado-rapido/"
@@ -3664,6 +3664,14 @@
   {
    "title": "GTA 6: Rockstar no descarta un GTA fuera de América",
    "url": "/noticias/gta-6-rockstar-no-descarta-un-gta-fuera-de-america/"
+  },
+  {
+   "title": "GTA 6: pagan hasta 120.000 dólares por jugarlo y analizarlo",
+   "url": "/noticias/gta-6-pagan-hasta-120-000-dolares-por-jugarlo-y-analizarlo/"
+  },
+  {
+   "title": "GTA 6 casi se queda sin clasificación en Corea del Sur",
+   "url": "/noticias/gta-6-casi-se-queda-sin-clasificacion-en-corea-del-sur/"
   }
  ],
  "feeds_iniciados": [
@@ -3681,7 +3689,6 @@
  "lanzamiento": {
   "gta-6-notas-analisis": {
    "fuentes": [
-    "https://www.3djuegos.com/juegos/rob-run/noticias/nuevo-bombazo-steam-gratis-tiene-toques-gta-online-mundo-abierto-donde-ser-ladron-policia-que-esta-haciendo-numeros",
     "https://www.gamesradar.com/games/simulation/days-before-gta-6-crime-game-for-thousands-of-players-blows-up-on-steam-despite-50-percent-positive-reviews-and-gen-ai-use/",
     "https://as.com/meristation/analisis/analisis-de-queens-domain-un-milagro-que-se-cuela-en-la-fiesta-de-zelda-y-gta-6-f202611-n/",
     "https://www.3djuegos.com/juegos/baldurs-gate-3/noticias/12-anos-historia-solo-juego-ha-logrado-ser-elegido-juego-ano-critica-jugadores-the-game-awards",
@@ -3692,10 +3699,11 @@
     "https://www.3djuegos.com/juegos/phantom-blade-zero/noticias/phantom-blade-zero-bestia-graficos-asi-cambia-usas-ray-tracing-path-tracing",
     "https://www.3djuegos.com/juegos/the-legend-of-zelda-ocarina-of-time/noticias/nintendo-tiene-nuevo-record-que-celebrar-switch-2-ningun-juego-habia-vendido-tantas-copias-sus-primeros-dias",
     "https://rockstarintel.com/new-gta-vi-interview-reveals-more-gameplay-features/",
-    "https://vandal.elespanol.com/noticia/2026316016/resident-evil-requiem-es-el-juego-del-ano-en-los-golden-joystick-awards-2026/"
+    "https://vandal.elespanol.com/noticia/2026316016/resident-evil-requiem-es-el-juego-del-ano-en-los-golden-joystick-awards-2026/",
+    "https://rockstarintel.com/gta-vi-was-almost-refused-an-age-rating-in-south-korea-new-nudity-details-revealed/"
    ],
-   "ultimo": 1794481343.0551686,
-   "intentos": 14
+   "ultimo": 1794488351.9065104,
+   "intentos": 15
   }
  }
 }
