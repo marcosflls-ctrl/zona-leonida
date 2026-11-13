@@ -641,7 +641,7 @@ def save_post(data: dict, item: dict, html: str = "") -> Path:
             else:
                 credit = BANCO_CREDIT
             image_lines = f"image: {img}\nimageAlt: {yaml_str(alt)}\nimageCredit: {yaml_str(credit)}\n"
-    body = data["body"].strip()
+    body = re.sub(r'[(<]cite index="[^"]*">|</cite>', "", data["body"]).strip()  # quita marcas de cita de la búsqueda web
     # En artículos de rumores no se incrustan vídeos ni tuits, para que no parezcan una confirmación
     embeds = official_embeds(html) if html and not data.get("rumor") else []
     if embeds:
