@@ -2082,12 +2082,12 @@
   "https://www.reddit.com/r/GTA6/comments/1xwd3t9/rockstar_is_fixing_the_vice_city_sign_in_miami/",
   "https://www.reddit.com/r/GTA6/comments/1xwt5q7/rob_nelson_has_one_last_chance_to_play_the_main/",
   "https://www.reddit.com/r/GTA6/comments/1xwdf7y/spotted_at_waterloo_london/",
-  "https://www.reddit.com/r/GTA6/comments/1xwsloy/closer_look_at_the_gta6_promotional_cars_by/"
+  "https://www.reddit.com/r/GTA6/comments/1xwsloy/closer_look_at_the_gta6_promotional_cars_by/",
+  "https://www.3djuegos.com/juegos/the-legend-of-zelda-ocarina-of-time-2026/noticias/hay-polemica-a-vuelta-esquina-zelda-ocarina-of-time-lectores-3djuegos-han-opinado-ella",
+  "https://www.dexerto.com/gta/gta-6-is-launching-with-a-full-saturday-morning-cartoon-series-players-can-watch-in-game-3428321/",
+  "https://www.dexerto.com/gaming/gta-6-players-furious-as-physical-copies-reportedly-arrive-with-missing-or-already-used-codes-3428334/"
  ],
  "titles": [
-  "free roaming with a companion is creates a new dimension",
-  "wallpaper i put together from the extended look",
-  "new vehicle rating system in gta 6",
   "do you think it s safe to assume that if npc s are hanging out on rooftops and other tall buildings that they might be enterable as a player",
   "the final drive video contains breaking bad spoiler",
   "one thing that i have been wondering",
@@ -3584,13 +3584,12 @@
   "rockstar is fixing the vice city sign in miami after it was painted with graffiti",
   "rob nelson has one last chance to play the main storyline 80 hours before official launch",
   "spotted at waterloo london",
-  "closer look at the gta6 promotional cars by ms emelia"
+  "closer look at the gta6 promotional cars by ms emelia",
+  "hay una pole mica a la vuelta de la esquina con zelda ocarina of time y los lectores de 3djuegos ya han opinado sobre ella",
+  "gta 6 is launching with a full saturday morning cartoon series players can watch in game",
+  "gta 6 players furious as physical copies reportedly arrive with missing or already used codes"
  ],
  "escritos": [
-  {
-   "title": "GTA 6: recogida física el 12 de noviembre y póster gratis",
-   "url": "/noticias/gta-6-recogida-fisica-el-12-de-noviembre-y-poster-gratis/"
-  },
   {
    "title": "GTA 6 enseña una nueva vista de Vice City y su costa",
    "url": "/noticias/gta-6-ensena-una-nueva-vista-de-vice-city-y-su-costa/"
@@ -3906,6 +3905,10 @@
   {
    "title": "GTA 6: estiman 50 horas de campaña y 200 para el platino",
    "url": "/noticias/gta-6-estiman-50-horas-de-campana-y-200-para-el-platino/"
+  },
+  {
+   "title": "GTA 6: reportan cajas sin código o con código usado",
+   "url": "/noticias/gta-6-reportan-cajas-sin-codigo-o-con-codigo-usado/"
   }
  ],
  "feeds_iniciados": [
@@ -3923,7 +3926,6 @@
  "lanzamiento": {
   "gta-6-notas-analisis": {
    "fuentes": [
-    "https://www.3djuegos.com/pc/noticias/tienes-steam-deck-valve-acaba-estrenar-sus-mejores-funciones-no-iras-a-ciegas-rendimiento-cada-juego",
     "https://vandal.elespanol.com/noticia/2026314026/gta-6-ira-a-30-fps-en-todas-las-consolas-y-rockstar-confirma-estas-mejoras-en-ps5-pro/",
     "https://www.3djuegos.com/juegos/grand-theft-auto-vi/noticias/gta-6-todavia-no-ha-salido-ha-hecho-historia-playstation-xbox",
     "https://vandal.elespanol.com/noticia/2026315022/el-ceo-de-taketwo-aplaude-la-nota-de-zelda-ocarina-of-time-remake-antes-del-estreno-de-gta-6-es-fantastica/",
@@ -3934,10 +3936,11 @@
     "https://rockstarintel.com/gta-vi-was-almost-refused-an-age-rating-in-south-korea-new-nudity-details-revealed/",
     "https://vandal.elespanol.com/noticia/2026316028/gta-6-quiere-hacer-historia-estiman-que-ya-habria-generado-1000-millones-de-dolares-solo-con-sus-preventas/",
     "https://www.3djuegos.com/juegos/helldivers-2/noticias/su-septimo-review-bombing-estudio-helldivers-2-da-marcha-atras-a-su-prohibicion-mods-peros",
-    "https://www.3djuegos.com/pc/noticias/infidelidad-jensen-huang-ha-llevado-a-nvidia-a-su-peor-crisis-anos-1996-ser-sincero-sega-salvo-a-su-compania-quiebra"
+    "https://www.3djuegos.com/pc/noticias/infidelidad-jensen-huang-ha-llevado-a-nvidia-a-su-peor-crisis-anos-1996-ser-sincero-sega-salvo-a-su-compania-quiebra",
+    "https://www.3djuegos.com/juegos/the-legend-of-zelda-ocarina-of-time-2026/noticias/hay-polemica-a-vuelta-esquina-zelda-ocarina-of-time-lectores-3djuegos-han-opinado-ella"
    ],
-   "ultimo": 1794754899.8080802,
-   "intentos": 29
+   "ultimo": 1794765149.3573568,
+   "intentos": 30
   }
  }
 }
