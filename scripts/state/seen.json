@@ -2239,14 +2239,15 @@
   "https://rockstarintel.com/87-of-gta-vi-pre-orders-are-the-100-ultimate-edition/",
   "https://vandal.elespanol.com/noticia/2026321027/podemos-aprovecha-el-lanzamiento-de-gta-6-para-hacer-campana-por-las-elecciones-del-29n/",
   "https://www.dexerto.com/gta/school-offers-students-85-prize-if-they-dont-skip-for-gta-6-3428979/",
-  "https://www.dexerto.com/gta/gta-6-running-at-30-fps-makes-sense-experts-say-after-rockstars-confirmation-3428936/"
+  "https://www.dexerto.com/gta/gta-6-running-at-30-fps-makes-sense-experts-say-after-rockstars-confirmation-3428936/",
+  "https://www.gamesradar.com/games/grand-theft-auto/gta-6-play-early-new-zealand-trick/",
+  "https://vandal.elespanol.com/noticia/2026321028/sigue-aqui-en-directo-la-revelacion-de-nominados-a-goty-2026-descubre-todos-los-candidatos-de-the-game-awards-2026/",
+  "https://www.gamesradar.com/games/grand-theft-auto/gta-6-release-time/",
+  "https://www.videogameschronicle.com/guide/gta-6-new-zealand-trick-how-to-play-gta-6-early/",
+  "https://vandal.elespanol.com/noticia/2026321030/hora-de-lanzamiento-gta-6-en-espana-y-el-resto-del-mundo-a-que-hora-se-desbloquea-el-esperado-juego-de-rockstar/",
+  "https://www.videogameschronicle.com/news/metacritic-has-already-had-to-remove-fake-gta-6-user-reviews/"
  ],
  "titles": [
-  "the intro guitar riff needs its own appreciation post",
-  "i vice city bus",
-  "m7 ms 13 irl",
-  "new logo emblem for grotti aka ferrari",
-  "hdr might be the reason why the launch trailer looks so blurry",
   "sam houser s vision for gta this 2005 interview is pretty crazy when you realize how relevant what he s talking about still feels today",
   "trailer 1 is nearing 300 million views",
   "gta bus in chicago",
@@ -3741,13 +3742,14 @@
   "87 of gta vi pre orders are the 100 ultimate edition",
   "podemos aprovecha el lanzamiento de gta 6 para hacer campan a por las elecciones del 29 n",
   "school offers students 85 prize if they don t skip for gta 6",
-  "gta 6 running at 30 fps makes sense experts say after rockstar s confirmation"
+  "gta 6 running at 30 fps makes sense experts say after rockstar s confirmation",
+  "sigue aqui en directo la revelacio n de nominados a goty 2026 descubre todos los candidatos de the game awards 2026",
+  "gta 6 release time in your region explained",
+  "gta 6 new zealand trick how to play gta 6 early",
+  "hora de lanzamiento gta 6 en espan a y el resto del mundo a que hora se desbloquea el esperado juego de rockstar",
+  "metacritic has already had to remove fake gta 6 user reviews"
  ],
  "escritos": [
-  {
-   "title": "GTA 6: rumor de unos créditos de más de 80 minutos",
-   "url": "/noticias/gta-6-rumor-de-unos-creditos-de-mas-de-80-minutos/"
-  },
   {
    "title": "GTA 6: cuánto tardas en bajar 212 GB según tu conexión",
    "url": "/noticias/gta-6-cuanto-tardas-en-bajar-212-gb-segun-tu-conexion/"
@@ -4063,6 +4065,10 @@
   {
    "title": "GTA 6: el 87 % de las reservas es la edición Ultimate",
    "url": "/noticias/gta-6-el-87-de-las-reservas-es-la-edicion-ultimate/"
+  },
+  {
+   "title": "GTA 6: Metacritic borra reseñas falsas y bloquea las nuevas",
+   "url": "/noticias/gta-6-metacritic-borra-resenas-falsas-y-bloquea-las-nuevas/"
   }
  ],
  "feeds_iniciados": [
@@ -4080,8 +4086,6 @@
  "lanzamiento": {
   "gta-6-notas-analisis": {
    "fuentes": [
-    "https://www.3djuegos.com/juegos/phantom-blade-zero/noticias/phantom-blade-zero-bestia-graficos-asi-cambia-usas-ray-tracing-path-tracing",
-    "https://www.3djuegos.com/juegos/the-legend-of-zelda-ocarina-of-time/noticias/nintendo-tiene-nuevo-record-que-celebrar-switch-2-ningun-juego-habia-vendido-tantas-copias-sus-primeros-dias",
     "https://rockstarintel.com/new-gta-vi-interview-reveals-more-gameplay-features/",
     "https://vandal.elespanol.com/noticia/2026316016/resident-evil-requiem-es-el-juego-del-ano-en-los-golden-joystick-awards-2026/",
     "https://rockstarintel.com/gta-vi-was-almost-refused-an-age-rating-in-south-korea-new-nudity-details-revealed/",
@@ -4091,10 +4095,12 @@
     "https://www.3djuegos.com/juegos/the-legend-of-zelda-ocarina-of-time-2026/noticias/hay-polemica-a-vuelta-esquina-zelda-ocarina-of-time-lectores-3djuegos-han-opinado-ella",
     "https://www.3djuegos.com/tv-series/noticias/cumple-84-anos-se-ha-convertido-meme-cine-viejuno-no-existirian-bad-michael-jackson-tommy-vercetti-gta",
     "https://www.3djuegos.com/juegos/grand-theft-auto-vi/guias-y-trucos/como-evitar-spoilers-gta-6-antes-durante-lanzamiento",
-    "https://www.3djuegos.com/juegos/grand-theft-auto-vi/noticias/rockstar-no-invento-mundos-abiertos-cambio-para-siempre-30-anos-gta-saga-que-nunca-quiso-seguir-reglas"
+    "https://www.3djuegos.com/juegos/grand-theft-auto-vi/noticias/rockstar-no-invento-mundos-abiertos-cambio-para-siempre-30-anos-gta-saga-que-nunca-quiso-seguir-reglas",
+    "https://insider-gaming.com/grand-theft-auto-6-review-embargo/",
+    "https://www.videogameschronicle.com/news/metacritic-has-already-had-to-remove-fake-gta-6-user-reviews/"
    ],
-   "ultimo": 1794924206.288197,
-   "intentos": 39
+   "ultimo": 1794931353.8819144,
+   "intentos": 40
   }
  }
 }
