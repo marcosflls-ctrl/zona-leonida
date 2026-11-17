@@ -2181,12 +2181,12 @@
   "https://insider-gaming.com/new-gta-6-screenshots-showcase-intense-weather-systems/",
   "https://www.gamesradar.com/games/grand-theft-auto/rockstar-is-so-confident-in-gta-6s-weather-system-that-it-has-the-weather-channel-itself-sharing-new-screenshots/",
   "https://rockstarintel.com/gta-vi-could-make-2-billion-this-week-15-million-pre-orders-already/",
-  "https://rockstarintel.com/discord-gets-a-vice-city-makeover-ahead-of-gta-vi/"
+  "https://rockstarintel.com/discord-gets-a-vice-city-makeover-ahead-of-gta-vi/",
+  "https://www.ign.com/articles/subway-is-releasing-a-gta-6-themed-sandwich-but-theres-a-catch",
+  "https://www.ign.com/articles/gta-6-gets-new-screenshots-highlighting-leonidas-dynamic-weather",
+  "https://www.ign.com/articles/uks-national-health-service-is-urging-gamers-to-protect-their-hands-ahead-of-gta-6-launch"
  ],
  "titles": [
-  "ya casi no se hacen juegos asi y tal vez por ello estoy tan sorprendido y contento con esta aventura que llega desde malasia",
-  "vamos adonde vaya el equipo rockstar ha cambiado de forma radical para no repetir los errores que le llevaron a su u ltima pole mica",
-  "acaba de cumplir 57 an os suma una nominacio n al emmy y tres a los globos de oro protagonizo una de las mejores series jama s hecha y paso a la historia por traicionar a leo nidas",
   "rockstar games ha duplicado su taman o durante el desarrollo de gta 6 ya rozan los 5000 empleados a nivel global",
   "gta 6 comenzo su desarrollo en 2015 confirma rockstar aunque red dead redemption 2 retraso su progreso",
   "los npc de gta 6 dieron tanto trabajo que rockstar tuvo que abrir un estudio entero solo para crearlos",
@@ -3683,13 +3683,12 @@
   "new gta 6 screenshots showcase intense weather systems",
   "rockstar is so confident in gta 6 s weather it has the weather channel itself sharing screenshots",
   "gta vi could make 2 billion this week 15 million pre orders already",
-  "discord gets a vice city makeover ahead of gta vi"
+  "discord gets a vice city makeover ahead of gta vi",
+  "subway is releasing a gta 6 themed sandwich but there s a catch",
+  "gta 6 gets new screenshots highlighting leonida s dynamic weather",
+  "uk s national health service is urging gamers to protect their hands ahead of gta 6 launch"
  ],
  "escritos": [
-  {
-   "title": "GTA 6: el truco de Nueva Zelanda para jugarlo antes",
-   "url": "/noticias/gta-6-el-truco-de-nueva-zelanda-para-jugarlo-antes/"
-  },
   {
    "title": "GTA 6 lleva sus coches a la vida real con West Coast Customs",
    "url": "/noticias/gta-6-lleva-sus-coches-a-la-vida-real-con-west-coast-customs/"
@@ -4005,6 +4004,10 @@
   {
    "title": "GTA 6 enseña seis escenas de clima extremo en Leonida",
    "url": "/noticias/gta-6-ensena-seis-escenas-de-clima-extremo-en-leonida/"
+  },
+  {
+   "title": "GTA 6: el sistema de salud del Reino Unido cuida tus manos",
+   "url": "/noticias/gta-6-el-sistema-de-salud-del-reino-unido-cuida-tus-manos/"
   }
  ],
  "feeds_iniciados": [
@@ -4035,8 +4038,8 @@
     "https://www.3djuegos.com/pc/noticias/infidelidad-jensen-huang-ha-llevado-a-nvidia-a-su-peor-crisis-anos-1996-ser-sincero-sega-salvo-a-su-compania-quiebra",
     "https://www.3djuegos.com/juegos/the-legend-of-zelda-ocarina-of-time-2026/noticias/hay-polemica-a-vuelta-esquina-zelda-ocarina-of-time-lectores-3djuegos-han-opinado-ella"
    ],
-   "ultimo": 1794859006.3709419,
-   "intentos": 34
+   "ultimo": 1794880924.5183337,
+   "intentos": 35
   }
  }
 }
