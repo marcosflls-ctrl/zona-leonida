@@ -2229,15 +2229,16 @@
   "https://vandal.elespanol.com/noticia/2026321024/gta-6-funcionara-a-30-fps-y-digital-foundry-explica-por-que-rockstar-no-ofrece-un-modo-a-40-fps/",
   "https://www.dexerto.com/gta/devolver-digital-is-giving-away-a-free-game-if-you-delete-gta-6-3428903/",
   "https://insider-gaming.com/ps5-gets-another-security-update-for-gta-6-launch-in-14-23-patch/",
-  "https://insider-gaming.com/gta-6-has-62-bird-types-confirms-rockstar-games/"
+  "https://insider-gaming.com/gta-6-has-62-bird-types-confirms-rockstar-games/",
+  "https://insider-gaming.com/gta-6-screenshots/",
+  "https://www.3djuegos.com/juegos/grand-theft-auto-vi/noticias/rockstar-no-invento-mundos-abiertos-cambio-para-siempre-30-anos-gta-saga-que-nunca-quiso-seguir-reglas",
+  "https://www.ign.com/articles/sony-squeezes-in-last-minute-ps5-firmware-security-update-ahead-of-gta-6-release-date-amid-fresh-hacker-claim",
+  "https://www.gamesradar.com/games/grand-theft-auto/gta-6-could-have-released-sooner-rockstar-leads-admit-but-theres-no-point-rushing-out-gta-5-5-because-you-have-to-take-big-swings/",
+  "https://www.hobbyconsolas.com/videojuegos/hasta-discord-se-apunta-fiebre-gta-6-con-un-tema-gratis-que-puedes-empezar-utilizar-ya-mismo-aplicacion_7062158_0.html",
+  "https://www.gamesradar.com/games/grand-theft-auto/as-gta-6-finally-nears-release-analysts-estimate-rockstar-has-already-made-usd1-45-billion-helped-by-nearly-90-percent-of-fans-buying-the-controversial-usd100-ultimate-edition/",
+  "https://rockstarintel.com/87-of-gta-vi-pre-orders-are-the-100-ultimate-edition/"
  ],
  "titles": [
-  "los coches de gta 6 tendra n un maletero real podra s guardar ropa y armas en ellos",
-  "lleva 13 an os deseando que olvidemos que salio en gta 5 pero acaba de proponer algo que encantara a los fans de gta 6",
-  "gta san andreas costo menos de 10 millones de do lares y llego a generar unos 600 millones en solo 16 meses",
-  "gta fue de mundo abierto por la pereza de sus creadores no queri amos crear un menu para seleccionar misiones",
-  "rockstar showing out in miami beach",
-  "rob nelson has confirmed to jason schreier that the game features hundreds of interiors that you can go and explore in free roam",
   "gta has hit the streets of nyc",
   "rockstar is literally turning miami into vice city convoy of gta 6 supercars spotted driving around town today",
   "gta6 story closer to rdr2 than gta5 via jason schreier",
@@ -3731,17 +3732,15 @@
   "gta 6 funcionara a 30 fps y digital foundry explica por que rockstar no ofrece un modo a 40 fps",
   "devolver digital is giving away a free game if you delete gta 6",
   "ps5 gets another security update for gta 6 launch in 14 23 patch",
-  "gta 6 has 62 bird types confirms rockstar games"
+  "gta 6 has 62 bird types confirms rockstar games",
+  "rockstar no invento los mundos abiertos pero los cambio para siempre 30 an os de gta una saga que nunca quiso seguir las reglas",
+  "sony squeezes in last minute ps5 firmware security update ahead of gta 6 release date amid fresh hacker claim",
+  "gta 6 could have released sooner rockstar leads admit but there s no point rushing out gta 5 5",
+  "hasta discord se apunta a la fiebre gta 6 con un tema gratis que puedes empezar a utilizar ya mismo en la aplicacio n",
+  "as gta 6 finally nears release analysts estimate rockstar has already made 1 45 billion",
+  "87 of gta vi pre orders are the 100 ultimate edition"
  ],
  "escritos": [
-  {
-   "title": "GTA 6: los apostantes le dan un 89 % de ganar el GOTY",
-   "url": "/noticias/gta-6-los-apostantes-le-dan-un-89-de-ganar-el-goty/"
-  },
-  {
-   "title": "GTA 6 tendría 55 trofeos y logros, más que GTA 5 y RDR 2",
-   "url": "/noticias/gta-6-tendria-55-trofeos-y-logros-mas-que-gta-5-y-rdr-2/"
-  },
   {
    "title": "GTA 6: rumor de unos créditos de más de 80 minutos",
    "url": "/noticias/gta-6-rumor-de-unos-creditos-de-mas-de-80-minutos/"
@@ -4053,6 +4052,14 @@
   {
    "title": "GTA 6: PS5 recibe el firmware 26.07-14.23 de seguridad",
    "url": "/noticias/gta-6-ps5-recibe-el-firmware-26-07-14-23-de-seguridad/"
+  },
+  {
+   "title": "GTA 6 ya habría ingresado 1.450 millones en reservas",
+   "url": "/noticias/gta-6-ya-habria-ingresado-1-450-millones-en-reservas/"
+  },
+  {
+   "title": "GTA 6: el 87 % de las reservas es la edición Ultimate",
+   "url": "/noticias/gta-6-el-87-de-las-reservas-es-la-edicion-ultimate/"
   }
  ],
  "feeds_iniciados": [
@@ -4070,7 +4077,6 @@
  "lanzamiento": {
   "gta-6-notas-analisis": {
    "fuentes": [
-    "https://vandal.elespanol.com/noticia/2026315022/el-ceo-de-taketwo-aplaude-la-nota-de-zelda-ocarina-of-time-remake-antes-del-estreno-de-gta-6-es-fantastica/",
     "https://www.3djuegos.com/juegos/phantom-blade-zero/noticias/phantom-blade-zero-bestia-graficos-asi-cambia-usas-ray-tracing-path-tracing",
     "https://www.3djuegos.com/juegos/the-legend-of-zelda-ocarina-of-time/noticias/nintendo-tiene-nuevo-record-que-celebrar-switch-2-ningun-juego-habia-vendido-tantas-copias-sus-primeros-dias",
     "https://rockstarintel.com/new-gta-vi-interview-reveals-more-gameplay-features/",
@@ -4081,10 +4087,11 @@
     "https://www.3djuegos.com/pc/noticias/infidelidad-jensen-huang-ha-llevado-a-nvidia-a-su-peor-crisis-anos-1996-ser-sincero-sega-salvo-a-su-compania-quiebra",
     "https://www.3djuegos.com/juegos/the-legend-of-zelda-ocarina-of-time-2026/noticias/hay-polemica-a-vuelta-esquina-zelda-ocarina-of-time-lectores-3djuegos-han-opinado-ella",
     "https://www.3djuegos.com/tv-series/noticias/cumple-84-anos-se-ha-convertido-meme-cine-viejuno-no-existirian-bad-michael-jackson-tommy-vercetti-gta",
-    "https://www.3djuegos.com/juegos/grand-theft-auto-vi/guias-y-trucos/como-evitar-spoilers-gta-6-antes-durante-lanzamiento"
+    "https://www.3djuegos.com/juegos/grand-theft-auto-vi/guias-y-trucos/como-evitar-spoilers-gta-6-antes-durante-lanzamiento",
+    "https://www.3djuegos.com/juegos/grand-theft-auto-vi/noticias/rockstar-no-invento-mundos-abiertos-cambio-para-siempre-30-anos-gta-saga-que-nunca-quiso-seguir-reglas"
    ],
-   "ultimo": 1794920555.24847,
-   "intentos": 38
+   "ultimo": 1794924206.288197,
+   "intentos": 39
   }
  }
 }
