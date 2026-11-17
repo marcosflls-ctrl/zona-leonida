@@ -2224,13 +2224,14 @@
   "https://www.3djuegos.com/tv-series/noticias/cumple-84-anos-se-ha-convertido-meme-cine-viejuno-no-existirian-bad-michael-jackson-tommy-vercetti-gta",
   "https://www.gamesradar.com/games/survival/palworld-1-1-and-palfarm-updates-are-on-hold-and-gta-6-is-to-blame-because-pocketpair-knows-saying-anything-around-the-launch-of-rockstars-new-epic-is-not-the-best-idea/",
   "https://www.hobbyconsolas.com/videojuegos/gta-6-impresiona-con-nuevas-imagenes-clima-dinamico-leonida-vice-city-asi-espectacular-es-apartado-grafico_7062033_0.html",
-  "https://www.videogameschronicle.com/guide/gta-6-ultimate-edition-vs-standard-edition-all-ultimate-edition-pre-order-benefits/"
+  "https://www.videogameschronicle.com/guide/gta-6-ultimate-edition-vs-standard-edition-all-ultimate-edition-pre-order-benefits/",
+  "https://www.3djuegos.com/juegos/grand-theft-auto-vi/guias-y-trucos/como-evitar-spoilers-gta-6-antes-durante-lanzamiento",
+  "https://vandal.elespanol.com/noticia/2026321024/gta-6-funcionara-a-30-fps-y-digital-foundry-explica-por-que-rockstar-no-ofrece-un-modo-a-40-fps/",
+  "https://www.dexerto.com/gta/devolver-digital-is-giving-away-a-free-game-if-you-delete-gta-6-3428903/",
+  "https://insider-gaming.com/ps5-gets-another-security-update-for-gta-6-launch-in-14-23-patch/",
+  "https://insider-gaming.com/gta-6-has-62-bird-types-confirms-rockstar-games/"
  ],
  "titles": [
-  "preferiri a comer alambre de espino quentin tarantino lleva 44 an os nega ndose a ver esta obra maestra de culto",
-  "nitro 1x08 el making of de gta 6 xbox labs impresiones de zelda ocarina of time remake castlevania",
-  "rockstar s figured out the perfect gta 6 advertisement a bunch of supercars from vice city in miami",
-  "after 18 years gta 6 might finally fix a graphical bug that s plagued rockstar s games since gta 4",
   "los coches de gta 6 tendra n un maletero real podra s guardar ropa y armas en ellos",
   "lleva 13 an os deseando que olvidemos que salio en gta 5 pero acaba de proponer algo que encantara a los fans de gta 6",
   "gta san andreas costo menos de 10 millones de do lares y llego a generar unos 600 millones en solo 16 meses",
@@ -3726,13 +3727,13 @@
   "cumple 84 an os y se ha convertido en el meme del cine viejuno pero sin e l no existiri an ni el bad de michael jackson ni el tommy vercetti de gta",
   "palworld 1 1 and palfarm updates are on hold because competing with gta 6 is not the best idea",
   "gta 6 impresiona con nuevas ima genes del clima dina mico de leonida y vice city asi de espectacular es el apartado gra fico",
-  "gta 6 ultimate edition vs standard edition all ultimate edition pre order benefits"
+  "gta 6 ultimate edition vs standard edition all ultimate edition pre order benefits",
+  "gta 6 funcionara a 30 fps y digital foundry explica por que rockstar no ofrece un modo a 40 fps",
+  "devolver digital is giving away a free game if you delete gta 6",
+  "ps5 gets another security update for gta 6 launch in 14 23 patch",
+  "gta 6 has 62 bird types confirms rockstar games"
  ],
  "escritos": [
-  {
-   "title": "GTA 6: la caja en PS5 pide 230 GB, no los 212 GB",
-   "url": "/noticias/gta-6-la-caja-en-ps5-pide-230-gb-no-los-212-gb/"
-  },
   {
    "title": "GTA 6: los apostantes le dan un 89 % de ganar el GOTY",
    "url": "/noticias/gta-6-los-apostantes-le-dan-un-89-de-ganar-el-goty/"
@@ -4048,6 +4049,10 @@
   {
    "title": "GTA 6: Xbox envía un mando de caimán con billetes falsos",
    "url": "/noticias/gta-6-xbox-envia-un-mando-de-caiman-con-billetes-falsos/"
+  },
+  {
+   "title": "GTA 6: PS5 recibe el firmware 26.07-14.23 de seguridad",
+   "url": "/noticias/gta-6-ps5-recibe-el-firmware-26-07-14-23-de-seguridad/"
   }
  ],
  "feeds_iniciados": [
@@ -4065,7 +4070,6 @@
  "lanzamiento": {
   "gta-6-notas-analisis": {
    "fuentes": [
-    "https://www.3djuegos.com/juegos/grand-theft-auto-vi/noticias/gta-6-todavia-no-ha-salido-ha-hecho-historia-playstation-xbox",
     "https://vandal.elespanol.com/noticia/2026315022/el-ceo-de-taketwo-aplaude-la-nota-de-zelda-ocarina-of-time-remake-antes-del-estreno-de-gta-6-es-fantastica/",
     "https://www.3djuegos.com/juegos/phantom-blade-zero/noticias/phantom-blade-zero-bestia-graficos-asi-cambia-usas-ray-tracing-path-tracing",
     "https://www.3djuegos.com/juegos/the-legend-of-zelda-ocarina-of-time/noticias/nintendo-tiene-nuevo-record-que-celebrar-switch-2-ningun-juego-habia-vendido-tantas-copias-sus-primeros-dias",
@@ -4076,10 +4080,11 @@
     "https://www.3djuegos.com/juegos/helldivers-2/noticias/su-septimo-review-bombing-estudio-helldivers-2-da-marcha-atras-a-su-prohibicion-mods-peros",
     "https://www.3djuegos.com/pc/noticias/infidelidad-jensen-huang-ha-llevado-a-nvidia-a-su-peor-crisis-anos-1996-ser-sincero-sega-salvo-a-su-compania-quiebra",
     "https://www.3djuegos.com/juegos/the-legend-of-zelda-ocarina-of-time-2026/noticias/hay-polemica-a-vuelta-esquina-zelda-ocarina-of-time-lectores-3djuegos-han-opinado-ella",
-    "https://www.3djuegos.com/tv-series/noticias/cumple-84-anos-se-ha-convertido-meme-cine-viejuno-no-existirian-bad-michael-jackson-tommy-vercetti-gta"
+    "https://www.3djuegos.com/tv-series/noticias/cumple-84-anos-se-ha-convertido-meme-cine-viejuno-no-existirian-bad-michael-jackson-tommy-vercetti-gta",
+    "https://www.3djuegos.com/juegos/grand-theft-auto-vi/guias-y-trucos/como-evitar-spoilers-gta-6-antes-durante-lanzamiento"
    ],
-   "ultimo": 1794916945.0236256,
-   "intentos": 37
+   "ultimo": 1794920555.24847,
+   "intentos": 38
   }
  }
 }
