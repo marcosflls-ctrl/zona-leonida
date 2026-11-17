@@ -2282,12 +2282,12 @@
   "https://www.ign.com/articles/warnings-encouragement-and-gift-cards-how-schools-are-preparing-for-mass-absences-on-gta-6-launch-day",
   "https://www.videogameschronicle.com/news/lucia-actor-confirmed-as-gta-6-sweeps-the-game-awards-nominations/",
   "https://www.hobbyconsolas.com/videojuegos/los-nominados-the-game-awards-2026-confirman-quien-es-actriz-lucia-gta-6-no-es-ninguna-sorpresa_7062315_0.html",
-  "https://www.hobbyconsolas.com/videojuegos/los-nominados-the-game-awards-2026-confirman-quien-es-actriz-lucia-gta-6-no-es-ninguna-sorpresa_7062315_0.html"
+  "https://www.hobbyconsolas.com/videojuegos/los-nominados-the-game-awards-2026-confirman-quien-es-actriz-lucia-gta-6-no-es-ninguna-sorpresa_7062315_0.html",
+  "https://news.xbox.com/en-us/2026/11/17/the-game-awards-2026-nominees-on-xbox/",
+  "https://www.ign.com/articles/the-game-awards-2026-nominations-revealed-gta-6-dominates",
+  "https://www.videogameschronicle.com/news/gta-6-reviews-vote/"
  ],
  "titles": [
-  "had the day off went to see it for myself",
-  "detail from extended look putting on a accessory applies it on jason and lucia at the same time",
-  "exclusive images from vice city airship",
   "new zealand squad we are officially under 30 days away from release",
   "gta vi horizontal logo",
   "did the us coast guard know about gta 6",
@@ -3784,17 +3784,12 @@
   "gta 6 is the most nominated game at the game awards 2026",
   "warnings encouragement and gift cards how schools are preparing for mass absences on gta 6 launch day",
   "lucia actor confirmed as gta 6 sweeps the game awards nominations",
-  "los nominados a the game awards 2026 confirman quie n es la actriz de luci a en gta 6 y no es ninguna sorpresa"
+  "los nominados a the game awards 2026 confirman quie n es la actriz de luci a en gta 6 y no es ninguna sorpresa",
+  "the game awards 2026 nominees play gears of war e day grand theft auto vi resident evil requiem and more on xbox",
+  "the game awards 2026 nominations revealed gta 6 dominates",
+  "you can vote for gta 6 to win goty before reviews are even out"
  ],
  "escritos": [
-  {
-   "title": "GTA 6: 00:00 del 19 de noviembre en España y Latinoamérica",
-   "url": "/noticias/gta-6-00-00-del-19-de-noviembre-en-espana-y-latinoamerica/"
-  },
-  {
-   "title": "GTA 6 Online: rumor de pistas en los archivos de precarga",
-   "url": "/noticias/gta-6-online-rumor-de-pistas-en-los-archivos-de-precarga/"
-  },
   {
    "title": "GTA 6: rumor de censura en Australia por datos de precarga",
    "url": "/noticias/gta-6-rumor-de-censura-en-australia-por-datos-de-precarga/"
@@ -4106,6 +4101,14 @@
   {
    "title": "GTA 6: Manni L. Perez, la actriz de Lucía, en los TGA",
    "url": "/noticias/gta-6-manni-l-perez-la-actriz-de-lucia-en-los-tga/"
+  },
+  {
+   "title": "GTA 6 logra 8 nominaciones en los TGA, incluida la de GOTY",
+   "url": "/noticias/gta-6-logra-8-nominaciones-en-los-tga-incluida-la-de-goty/"
+  },
+  {
+   "title": "GTA 6: ya puedes votar en los TGA sin haberlo jugado",
+   "url": "/noticias/gta-6-ya-puedes-votar-en-los-tga-sin-haberlo-jugado/"
   }
  ],
  "feeds_iniciados": [
@@ -4123,7 +4126,6 @@
  "lanzamiento": {
   "gta-6-notas-analisis": {
    "fuentes": [
-    "https://www.3djuegos.com/juegos/helldivers-2/noticias/su-septimo-review-bombing-estudio-helldivers-2-da-marcha-atras-a-su-prohibicion-mods-peros",
     "https://www.3djuegos.com/pc/noticias/infidelidad-jensen-huang-ha-llevado-a-nvidia-a-su-peor-crisis-anos-1996-ser-sincero-sega-salvo-a-su-compania-quiebra",
     "https://www.3djuegos.com/juegos/the-legend-of-zelda-ocarina-of-time-2026/noticias/hay-polemica-a-vuelta-esquina-zelda-ocarina-of-time-lectores-3djuegos-han-opinado-ella",
     "https://www.3djuegos.com/tv-series/noticias/cumple-84-anos-se-ha-convertido-meme-cine-viejuno-no-existirian-bad-michael-jackson-tommy-vercetti-gta",
@@ -4134,10 +4136,11 @@
     "https://www.3djuegos.com/tv-series/noticias/me-deje-guion-completo-infinity-war-avion-paul-bettany-55-anos-vision-ucm-confiesa-despiste-que-pudo-costarle-disgusto-marvel",
     "https://vandal.elespanol.com/noticia/2026321037/estos-son-los-juegos-nominados-en-the-game-awards-lista-completa-de-candidatos-a-goty-2026/",
     "https://www.3djuegos.com/ps5/noticias/playstation-anuncia-nueva-actualizacion-ps5-15-dias-despues-ultimo-parche-sony-reitera-su-objetivo-principal-version-26-07-14-23-00",
-    "https://rockstarintel.com/gta-vi-nominated-for-game-of-the-year-leads-nominations/"
+    "https://rockstarintel.com/gta-vi-nominated-for-game-of-the-year-leads-nominations/",
+    "https://www.videogameschronicle.com/news/gta-6-reviews-vote/"
    ],
-   "ultimo": 1794938585.7113185,
-   "intentos": 42
+   "ultimo": 1794945798.7129223,
+   "intentos": 43
   }
  }
 }
