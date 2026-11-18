@@ -2,7 +2,7 @@
 title: "GTA 6, en directo: el lanzamiento país a país y el estado de los servidores"
 description: "Sigue en directo la salida de GTA 6: a qué hora se desbloquea en cada país, si los servidores funcionan, los primeros fallos y las primeras notas."
 date: 2026-11-18T09:00:00+01:00
-updated: 2026-11-18T14:30:00+01:00
+updated: 2026-11-18T19:10:00+01:00
 category: noticias
 tags: [lanzamiento, directo, servidores, horario, errores]
 image: /img/banco/lanzamiento-1.webp
@@ -29,9 +29,9 @@ sources:
     url: "https://maketecheasier.com/gta-6-unlock-times-midnight-local/"
 ---
 
-**Lo último (14:30):** GTA 6 ya se ha desbloqueado en **Nueva Zelanda** y, desde las 14:00, en el este de **Australia**. Tiene un **99 en Metacritic**. En España llega a las 00:00 de esta noche: si lo tienes precargado, asegúrate de tener instaladas las dos actualizaciones.
+**Lo último (19:10):** GTA 6 ya se juega en **Nueva Zelanda, Australia y Japón**. Quedan menos de cinco horas para España: se desbloquea a las **00:00**. Abajo tienes lo que conviene dejar hecho antes.
 
-**Estado de los servidores (14:30):** dos horas y media después del primer desbloqueo, no se han publicado caídas de los servidores de Rockstar, PlayStation Network ni Xbox. Puedes comprobarlo tú en la [página de estado de Rockstar](https://support.rockstargames.com/servicestatus).
+**Estado de los servidores (19:10):** siete horas después del primer desbloqueo, ni Rockstar, ni PlayStation ni Xbox han informado de caídas. Algunos jugadores se quejan en redes de fallos del juego, pero Rockstar no ha reconocido ningún problema general. Puedes comprobarlo tú en la [página de estado de Rockstar](https://support.rockstargames.com/servicestatus).
 
 ## Dónde ya se puede jugar
 
@@ -41,6 +41,7 @@ GTA 6 se desbloquea a medianoche de cada país, así que llega antes a Oceanía 
 |---|---|---|
 | 12:00 del miércoles 18 | Nueva Zelanda | ✅ |
 | 14:00 del miércoles 18 | Australia (Sídney) | ✅ |
+| 16:00 del miércoles 18 | Japón y Corea del Sur | ✅ |
 | 00:00 del jueves 19 | España | ⏳ |
 | 04:00 del jueves 19 | Argentina, Chile, Uruguay y Paraguay | ⏳ |
 | 05:00 del jueves 19 | Venezuela, Bolivia, República Dominicana y Puerto Rico | ⏳ |
@@ -53,6 +54,20 @@ En PS5, PlayStation lo desbloquea país a país, a medianoche. En los países co
 ## Minuto a minuto
 
 <!-- Entradas nuevas arriba. Formato: ### 00:05 · Titular, y debajo el texto con su fuente. -->
+
+### 19:10 · Antes de las 00:00: lo que tienes que dejar hecho
+
+Si vas a jugar esta noche en España, comprueba esto antes de medianoche para no perder tiempo:
+
+1. **Que la precarga está completa.** En la ficha del juego no debe quedar nada descargando. Si aún no lo tienes, mira [cuánto ocupa](/guias/gta-6-cuanto-ocupa/) y [cómo funciona la precarga](/guias/gta-6-precarga-como-descargar/).
+2. **Las dos actualizaciones del juego**, la 1.002.000 y la 1.002.001. Más arriba tienes cuánto ocupa cada una.
+3. **En PS5, la versión 14.23.00 del sistema.** Ve a Ajustes › Sistema › Software del sistema.
+4. **La región de tu consola**, si probaste el truco de Nueva Zelanda: vuelve a ponerla en España.
+5. **Los idiomas:** el juego viene con voces en inglés y textos en español. Te explicamos cómo elegirlos en [idiomas de GTA 6](/guias/gta-6-idiomas-espanol-doblaje/).
+
+### 19:10 · Japón ya juega
+
+A las 16:00, hora de España, GTA 6 se desbloqueó en Japón y Corea del Sur, siguiendo el calendario de medianoche de cada país. En Japón, además, los códigos de descarga que venían en la caja física caducan a los 170 días del lanzamiento, como se supo en verano.
 
 ### 14:30 · Llega a Australia
 
