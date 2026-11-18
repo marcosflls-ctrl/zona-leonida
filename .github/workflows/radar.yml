@@ -96,6 +96,8 @@ jobs:
           RADAR_URL: ${{ github.event.inputs.url }}
           FORZAR_COMUNIDAD: ${{ github.event.inputs.prueba_comunidad == 'true' && '1' || '' }}
           FORZAR_LANZAMIENTO: ${{ github.event.inputs.prueba_comunidad == 'true' && '1' || '' }}
+          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
         run: |
           if [ "$FORZAR_COMUNIDAD" = "1" ]; then python scripts/radar.py --dry-run; else python scripts/radar.py; fi
 
