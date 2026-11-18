@@ -2,13 +2,15 @@
 title: "GTA 6, en directo: el lanzamiento país a país y el estado de los servidores"
 description: "Sigue en directo la salida de GTA 6: a qué hora se desbloquea en cada país, si los servidores funcionan, los primeros fallos y las primeras notas."
 date: 2026-11-18T09:00:00+01:00
-updated: 2026-11-18T20:04:44+01:00
+updated: 2026-11-18T21:04:24+01:00
 category: noticias
 tags: [lanzamiento, directo, servidores, horario, errores]
 image: /img/banco/lanzamiento-1.webp
 imageAlt: "Ilustración de un reloj de neón en una pared de ladrillo"
 imageCredit: "ilustración de Zona Leonida"
 sources:
+  - name: "YouTube: Dónde encontrar a Bigfoot (Sasquatch) y cómo activar su aparición"
+    url: "https://www.youtube.com/watch?v=Ft2JuG4ruGY"
   - name: "YouTube: Caza militar: dónde encontrarlo en la Mile Zero Air Station"
     url: "https://www.youtube.com/watch?v=dtJ9ftV_dj4"
   - name: "Vice: GTA 6 recibe una segunda actualización antes del lanzamiento en PS5 y Xbox (16/11/2026)"
@@ -56,6 +58,22 @@ En PS5, PlayStation lo desbloquea país a país, a medianoche. En los países co
 ## Minuto a minuto
 
 <!-- Entradas nuevas arriba. Formato: ### 00:05 · Titular, y debajo el texto con su fuente. -->
+
+### 21:04 · Dónde encontrar a Bigfoot (Sasquatch) y cómo activar su aparición
+
+Bigfoot (Sasquatch) aparece corriendo por los pantanos al sur de Hamlet.
+
+**Cómo activarlo:**
+1. Acércate a él y sigue su rastro hasta que llegue a un efigie.
+2. Quédate cerca de la efigie hasta que tu personaje pierda el conocimiento.
+3. Bigfoot volverá a mirarte.
+4. Tras desmayarte, reaparecerás cerca de esa zona.
+
+También puedes cazarlo como parte de la misión de Kirk.
+
+<figure class="yt-guia" data-id="Ft2JuG4ruGY" data-autor="PowerPyx"></figure>
+
+*Descubierto por PowerPyx en [YouTube](https://www.youtube.com/watch?v=Ft2JuG4ruGY) · ✅ Comprobado*
 
 ### 20:04 · Caza militar: dónde encontrarlo en la Mile Zero Air Station
 
