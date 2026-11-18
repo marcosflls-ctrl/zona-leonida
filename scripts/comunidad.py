@@ -35,6 +35,43 @@ GUIAS = {
     "gta-6-mapa-leonida": "lugares y ubicaciones del mapa de Leonida, zonas, interiores",
 }
 SECCION = "## Últimos descubrimientos"
+DIRECTO = POSTS / "gta-6-lanzamiento-en-directo.md"
+MARCA_DIRECTO = "<!-- Entradas nuevas arriba."
+_TOKEN_REDDIT: dict = {}
+
+
+def _reddit_oauth(url: str):
+    """Reddit bloquea los feeds RSS pedidos desde servidores (devuelve 404 o 403). Con una app
+    de Reddit (REDDIT_CLIENT_ID y REDDIT_CLIENT_SECRET en los secretos de GitHub) se usa su API
+    oficial, que sí responde. Devuelve entradas con la misma forma que las de feedparser."""
+    import requests
+
+    cid, sec = os.environ.get("REDDIT_CLIENT_ID"), os.environ.get("REDDIT_CLIENT_SECRET")
+    m = re.search(r"reddit\.com/r/([\w]+)/(new|top|hot)", url)
+    if not (cid and sec and m):
+        return None
+    if not _TOKEN_REDDIT.get("t"):
+        r = requests.post("https://www.reddit.com/api/v1/access_token", auth=(cid, sec),
+                          data={"grant_type": "client_credentials"}, headers={"User-Agent": UA}, timeout=25)
+        r.raise_for_status()
+        _TOKEN_REDDIT["t"] = r.json()["access_token"]
+    sub, orden = m.group(1), m.group(2)
+    params = {"limit": 100}
+    if orden == "top":
+        params["t"] = "day"
+    r = requests.get(f"https://oauth.reddit.com/r/{sub}/{orden}", params=params, timeout=25,
+                     headers={"User-Agent": UA, "Authorization": f"bearer {_TOKEN_REDDIT['t']}"})
+    r.raise_for_status()
+    out = []
+    for c in r.json().get("data", {}).get("children", []):
+        d = c.get("data", {})
+        texto = d.get("selftext", "") or ""
+        if d.get("url") and "reddit.com" not in d["url"]:
+            texto = f"{texto} {d['url']}"
+        out.append({"link": "https://www.reddit.com" + d.get("permalink", ""), "title": d.get("title", ""),
+                    "summary": texto, "author": "u/" + d.get("author", ""),
+                    "published_parsed": time.gmtime(d.get("created_utc", time.time()))})
+    return out
 MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"]
 
 PROMPT = """Eres editor de una web de guías de GTA VI en español neutro (para España y Latinoamérica). \
@@ -91,6 +128,13 @@ def _leer_feed(url: str):
     import requests
 
     es_reddit = "reddit.com" in url
+    if es_reddit:
+        try:
+            api = _reddit_oauth(url)
+            if api is not None:
+                return api
+        except Exception as e:  # noqa: BLE001
+            print(f"    (API de Reddit: {type(e).__name__}; se prueba el RSS)")
     intentos = 3 if es_reddit else 1
     for n in range(intentos):
         if es_reddit:
@@ -183,6 +227,12 @@ def aplicar(data: dict, item: dict, ahora: datetime | None = None) -> Path | Non
         print(f"  ! no existe la guía {path.name}")
         return None
     s = path.read_text(encoding="utf-8")
+    # Si la guía sigue oculta (draft), el descubrimiento no lo vería nadie: va al directo del lanzamiento
+    if re.search(r"^draft: true\s*$", s.split("\n---\n", 1)[0], re.M) and DIRECTO.exists():
+        directo = DIRECTO.read_text(encoding="utf-8")
+        if MARCA_DIRECTO in directo and not re.search(r"^draft: true\s*$", directo.split("\n---\n", 1)[0], re.M):
+            print(f"  · {path.name} aún está oculta: se añade al directo")
+            return _al_directo(data, item, ahora)
     head, body = s.split("\n---\n", 1)
 
     # ¿ya tenemos algo muy parecido en esta guía?
@@ -226,6 +276,42 @@ def aplicar(data: dict, item: dict, ahora: datetime | None = None) -> Path | Non
             head = head.rstrip() + "\nsources:\n" + fuente
     path.write_text(head + "\n---\n" + body, encoding="utf-8")
     return path
+
+
+def _al_directo(data: dict, item: dict, ahora: datetime | None = None) -> Path | None:
+    s = DIRECTO.read_text(encoding="utf-8")
+    head, body = s.split("\n---\n", 1)
+    for t in re.findall(r"^### .*?· (.+)$", body, re.M):
+        if SequenceMatcher(None, t.lower(), data["titulo"].lower()).ratio() > 0.8:
+            print(f"  – ya está en el directo: {t}")
+            return None
+    ahora = ahora or datetime.now(timezone.utc)
+    try:
+        from zoneinfo import ZoneInfo
+        local = ahora.astimezone(ZoneInfo("Europe/Madrid"))
+    except Exception:  # noqa: BLE001
+        local = ahora.astimezone()
+    autor = data.get("autor") or item.get("autor") or "la comunidad"
+    plataforma = data.get("plataforma") or item["fuente"]
+    estado = "✅ Comprobado" if data.get("verificado") else "⚠️ Sin comprobar"
+    partes = [f"### {local:%H:%M} · {data['titulo'].strip()}", "", data["texto"].strip(), ""]
+    vid = data.get("video_id") or ""
+    if vid:
+        ini = data.get("video_inicio") or ""
+        attr_ini = f' data-inicio="{ini}"' if re.fullmatch(r"\d{1,3}:\d{2}", ini or "") else ""
+        partes += [f'<figure class="yt-guia" data-id="{vid}"{attr_ini} data-autor="{htmllib.escape(autor, quote=True)}"></figure>', ""]
+    partes += [f"*Descubierto por {autor} en [{plataforma}]({item['url']}) · {estado}*", ""]
+    entrada = "\n".join(partes)
+    i = body.index(MARCA_DIRECTO)
+    j = body.index("\n", i) + 1
+    body = body[:j] + "\n" + entrada + body[j:]
+    iso = local.replace(microsecond=0).isoformat()
+    head = re.sub(r"^updated: .*$", f"updated: {iso}", head, count=1, flags=re.M)
+    if item["url"] not in head:
+        fuente = f'  - name: {_yaml(f"{plataforma}: {data["titulo"]}")}\n    url: {_yaml(item["url"])}'
+        head = re.sub(r"^sources:\s*$", "sources:\n" + fuente, head, count=1, flags=re.M)
+    DIRECTO.write_text(head + "\n---\n" + body, encoding="utf-8")
+    return DIRECTO
 
 
 def run(cfg: dict, state: dict, get_client, model: str, dry_run: bool = False, maximo: int = 5) -> list[Path]:
