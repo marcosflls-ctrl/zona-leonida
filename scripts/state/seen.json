@@ -2311,10 +2311,13 @@
   "https://www.hobbyconsolas.com/videojuegos/ps5-recibe-una-nueva-actualizacion-firmware-escasas-horas-lanzamiento-gta-6-es-necesario-que-instales-para-jugar-nuevo-rockstar_7062415_0.html",
   "https://www.dexerto.com/food/kfc-brings-gta-inspired-cluck-n-bell-to-life-with-delivery-car-straight-out-of-gta-6-3428986/",
   "https://vandal.elespanol.com/noticia/2026322003/sony-avisa-no-podras-jugar-a-gta-6-si-no-tienes-ps5-actualizada-a-la-ultima-version/",
-  "https://vandal.elespanol.com/noticia/2026322001/gta-6-permitira-avistar-62-tipos-de-aves-y-registrarlas-en-un-diario-de-fauna/"
+  "https://vandal.elespanol.com/noticia/2026322001/gta-6-permitira-avistar-62-tipos-de-aves-y-registrarlas-en-un-diario-de-fauna/",
+  "https://vandal.elespanol.com/noticia/2026322009/the-game-awards-desvela-la-identidad-de-la-actriz-de-lucia-la-protagonista-de-gta-6/",
+  "https://www.ign.com/articles/sony-issues-official-ps5-firmware-update-warning-confirms-gta-6-requirement",
+  "https://www.hobbyconsolas.com/videojuegos/rockstar-ha-regalado-ps5-pro-personalizadas-con-gta-6-juego-dentro-una-maleta-los-jugadores-miami-heat-equipo-basquet-que-sera-vice-city_7062433_0.html",
+  "https://www.hobbyconsolas.com/videojuegos/rockstar-ha-regalado-ps5-pro-personalizadas-con-gta-6-juego-dentro-una-maleta-los-jugadores-miami-heat-equipo-basquet-que-sera-vice-city_7062433_0.html"
  ],
  "titles": [
-  "unfinished heat map of what rockstar has shown so far based on all their marketing material",
   "i spent the last couple of years making gta 6 inspired renders in blender out of pure hype and it feels unreal knowing we re finally playing it next month",
   "interaction between criminal profile and main missions",
   "anyone else surprised we didn t get character trailers for jason lucia",
@@ -3813,13 +3816,10 @@
   "ps5 recibe una nueva actualizacio n de firmware a escasas horas del lanzamiento de gta 6 y es necesario que la instales para jugar a lo nuevo de rockstar",
   "kfc brings gta inspired cluck n bell to life with delivery car straight out of gta 6",
   "sony avisa no podra s jugar a gta 6 si no tienes ps5 actualizada a la u ltima versio n",
-  "gta 6 permitira avistar 62 tipos de aves y registrarlas en un diario de fauna"
+  "gta 6 permitira avistar 62 tipos de aves y registrarlas en un diario de fauna",
+  "rockstar ha regalado ps5 pro personalizadas con gta 6 y el juego dentro de una maleta a los jugadores de miami heat el equipo de ba squet que sera vice city"
  ],
  "escritos": [
-  {
-   "title": "GTA 6: Take-Two seguirá dando contenido a GTA Online",
-   "url": "/noticias/gta-6-take-two-seguira-dando-contenido-a-gta-online/"
-  },
   {
    "title": "GTA 6: Take-Two dice que las reservas no tienen precedentes",
    "url": "/noticias/gta-6-take-two-dice-que-las-reservas-no-tienen-precedentes/"
@@ -4135,6 +4135,10 @@
   {
    "title": "GTA 6 tendrá 62 tipos de aves que registrar en un diario",
    "url": "/noticias/gta-6-tendra-62-tipos-de-aves-que-registrar-en-un-diario/"
+  },
+  {
+   "title": "GTA 6: Rockstar regala PS5 Pro de Vice City a los Miami Heat",
+   "url": "/noticias/gta-6-rockstar-regala-ps5-pro-de-vice-city-a-los-miami-heat/"
   }
  ],
  "feeds_iniciados": [
