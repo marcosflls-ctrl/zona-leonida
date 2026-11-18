@@ -2371,13 +2371,16 @@
   "https://www.3djuegos.com/pc/noticias/epic-games-lleva-anos-intentando-plantar-cara-a-steam-realidad-escuece-siquiera-cobrar-cero-comisiones-suficiente",
   "https://www.3djuegos.com/juegos/warhammer-40000-darktide/noticias/uno-mejores-juegos-warhammer-40k-ha-tardado-4-anos-estrenar-facciones-queridas-problema-que-quiza-ha-llegado-tarde",
   "https://www.ign.com/articles/gta-6-will-never-get-a-60fps-update-on-playstation-pro-as-its-not-powerful-enough",
-  "https://www.ign.com/articles/gta-6-uses-fsr-41-on-xbox-series-s-to-upscale-from-720p-to-1080p"
+  "https://www.ign.com/articles/gta-6-uses-fsr-41-on-xbox-series-s-to-upscale-from-720p-to-1080p",
+  "https://www.videogameschronicle.com/guide/how-to-change-clothes-in-gta-6/",
+  "https://www.videogameschronicle.com/guide/gta-6-hey-arnold-walkthrough/",
+  "https://www.videogameschronicle.com/guide/gta-6-pipework-mission-walkthrough/",
+  "https://vandal.elespanol.com/noticia/2026322035/rockstar-aclara-oficialmente-por-que-gta-6-no-tiene-un-modo-a-40-fps-en-consolas/",
+  "https://vandal.elespanol.com/noticia/2026322034/la-directora-narrativa-de-clair-obscur-expedition-33-ha-dejado-sandfall-interactive/",
+  "https://vandal.elespanol.com/noticia/2026322033/gta-6-impresiona-a-digital-foundry-ps5-pro-gana-en-nitidez-y-aguanta-mejor-los-30-fps-que-la-ps5-estandar/",
+  "https://www.ign.com/articles/gta-6-xbox-series-s-performance"
  ],
  "titles": [
-  "jason schreier shared new info that didn t make his bloomberg cover article here is the summary",
-  "weazel news",
-  "day 1 of making memes out of lines from the trailers until release",
-  "posting this progress bar every 19th until release day 09",
   "this feels surreal it s like living in the game",
   "will the epsilon program return in gta vi",
   "this interaction",
@@ -3873,17 +3876,13 @@
   "epic games lleva an os intentando plantar cara a steam pero la realidad escuece ni siquiera cobrar cero comisiones es suficiente",
   "uno de los mejores juegos de warhammer 40k ha tardado 4 an os en estrenar una de las facciones ma s queridas el problema es que quiza ha llegado tarde",
   "gta 6 will never get a 60fps update on playstation pro as it s not powerful enough",
-  "gta 6 uses fsr 4 1 on xbox series s to upscale from 720p to 1080p"
+  "gta 6 uses fsr 4 1 on xbox series s to upscale from 720p to 1080p",
+  "rockstar aclara oficialmente por que gta 6 no tiene un modo a 40 fps en consolas",
+  "la directora narrativa de clair obscur expedition 33 ha dejado sandfall interactive",
+  "gta 6 impresiona a digital foundry ps5 pro gana en nitidez y aguanta mejor los 30 fps que la ps5 esta ndar",
+  "gta 6 xbox series s performance how does the weakest console handle the biggest game of all time"
  ],
  "escritos": [
-  {
-   "title": "GTA 6 es el más reservado de PlayStation Store y Xbox",
-   "url": "/noticias/gta-6-es-el-mas-reservado-de-playstation-store-y-xbox/"
-  },
-  {
-   "title": "GTA 6 superaría a Cyberpunk con casi 10 millones de reservas",
-   "url": "/noticias/gta-6-superaria-a-cyberpunk-con-casi-10-millones-de-reservas/"
-  },
   {
    "title": "GTA 6 en PS5: gatillos, vibración y altavoz del DualSense",
    "url": "/noticias/gta-6-en-ps5-gatillos-vibracion-y-altavoz-del-dualsense/"
@@ -4195,6 +4194,14 @@
   {
    "title": "GTA 6 en Xbox Series S usa FSR 4.1: de 720p a 1080p",
    "url": "/noticias/gta-6-en-xbox-series-s-usa-fsr-4-1-de-720p-a-1080p/"
+  },
+  {
+   "title": "GTA 6: Digital Foundry compara PS5 y PS5 Pro a 1440p",
+   "url": "/noticias/gta-6-digital-foundry-compara-ps5-y-ps5-pro-a-1440p/"
+  },
+  {
+   "title": "GTA 6 en Xbox Series S cae hasta 24 fps en su inicio",
+   "url": "/noticias/gta-6-en-xbox-series-s-cae-hasta-24-fps-en-su-inicio/"
   }
  ],
  "feeds_iniciados": [
