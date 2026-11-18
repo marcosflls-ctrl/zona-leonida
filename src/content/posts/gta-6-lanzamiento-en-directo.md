@@ -2,13 +2,15 @@
 title: "GTA 6, en directo: el lanzamiento país a país y el estado de los servidores"
 description: "Sigue en directo la salida de GTA 6: a qué hora se desbloquea en cada país, si los servidores funcionan, los primeros fallos y las primeras notas."
 date: 2026-11-18T09:00:00+01:00
-updated: 2026-11-18T21:04:24+01:00
+updated: 2026-11-18T23:04:47+01:00
 category: noticias
 tags: [lanzamiento, directo, servidores, horario, errores]
 image: /img/banco/lanzamiento-1.webp
 imageAlt: "Ilustración de un reloj de neón en una pared de ladrillo"
 imageCredit: "ilustración de Zona Leonida"
 sources:
+  - name: "YouTube: Misión secundaria de Kirk: búsqueda de efigies de árbol"
+    url: "https://www.youtube.com/watch?v=iGKI2nryW_M"
   - name: "YouTube: Dónde encontrar a Bigfoot (Sasquatch) y cómo activar su aparición"
     url: "https://www.youtube.com/watch?v=Ft2JuG4ruGY"
   - name: "YouTube: Caza militar: dónde encontrarlo en la Mile Zero Air Station"
@@ -58,6 +60,16 @@ En PS5, PlayStation lo desbloquea país a país, a medianoche. En los países co
 ## Minuto a minuto
 
 <!-- Entradas nuevas arriba. Formato: ### 00:05 · Titular, y debajo el texto con su fuente. -->
+
+### 23:04 · Misión secundaria de Kirk: búsqueda de efigies de árbol
+
+En la misión secundaria **Búsqueda de efigies de árbol**, parte de las misiones de Strangers & Freaks de Kirk, el juego marca una zona de búsqueda en los pantanos. Hay que encontrar y examinar **3 efigies de árbol**, figuras con forma de palo atadas a los árboles. Al inspeccionar las tres, la misión se completa.
+
+Esta misión forma parte de la cadena de Kirk y sirve para localizar al Sr. Mangrove. El vídeo muestra la posición de cada efigie en 0:00, 0:42 y 1:08.
+
+<figure class="yt-guia" data-id="iGKI2nryW_M" data-inicio="0:00" data-autor="PowerPyx"></figure>
+
+*Descubierto por PowerPyx en [YouTube](https://www.youtube.com/watch?v=iGKI2nryW_M) · ⚠️ Sin comprobar*
 
 ### 21:04 · Dónde encontrar a Bigfoot (Sasquatch) y cómo activar su aparición
 
