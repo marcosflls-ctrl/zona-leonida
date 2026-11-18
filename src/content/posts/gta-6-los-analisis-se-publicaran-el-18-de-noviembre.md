@@ -2,6 +2,7 @@
 title: "GTA 6: los análisis se publicarán el 18 de noviembre"
 description: "Los análisis de GTA 6 se publicarían el 18 de noviembre, un día antes del estreno. Repasamos las notas de Metacritic que tendrá que igualar."
 date: 2026-10-26T17:01:58+00:00
+updated: 2026-11-18T14:10:00+01:00
 category: noticias
 tags: [gta-6, analisis, embargo, metacritic, lanzamiento]
 rumor: false
@@ -12,6 +13,8 @@ sources:
   - name: "Insider Gaming: Grand Theft Auto 6 Review Embargo Date Details"
     url: "https://insider-gaming.com/grand-theft-auto-6-review-embargo/"
 ---
+
+**Actualización del 18 de noviembre:** los análisis ya se han publicado, a las 12:00 de España. GTA 6 tiene un **99 en Metacritic** y un **98 en OpenCritic**. Tienes todas las notas en [qué dicen los análisis de GTA 6](/noticias/gta-6-notas-analisis/).
 
 Los análisis de GTA 6 se publicarán el 18 de noviembre, un día antes del lanzamiento del 19 de noviembre. Lo asegura Insider Gaming, que dice haber verificado de forma independiente los informes que apuntaban a esa fecha. Es decir, tendrás las notas de la prensa especializada antes de jugar.
 
