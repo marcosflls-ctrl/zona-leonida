@@ -2,13 +2,17 @@
 title: "GTA 6, en directo: el lanzamiento país a país y el estado de los servidores"
 description: "Sigue en directo la salida de GTA 6: a qué hora se desbloquea en cada país, si los servidores funcionan, los primeros fallos y las primeras notas."
 date: 2026-11-18T09:00:00+01:00
-updated: 2026-11-18T09:00:00+01:00
+updated: 2026-11-18T12:25:00+01:00
 category: noticias
 tags: [lanzamiento, directo, servidores, horario, errores]
 image: /img/banco/lanzamiento-1.webp
 imageAlt: "Ilustración de un reloj de neón en una pared de ladrillo"
 imageCredit: "ilustración de Zona Leonida"
 sources:
+  - name: "Vice: GTA 6 ya ha salido en Nueva Zelanda (18/11/2026)"
+    url: "https://www.vice.com/en/article/gta-6-new-zealand-worldwide-release-times/"
+  - name: "Dexerto: GTA 6, empatado como el juego con mejor nota de la historia (18/11/2026)"
+    url: "https://www.dexerto.com/gta/gta-6-is-the-joint-best-reviewed-game-of-the-all-time-3429300/"
   - name: "Rockstar Games: estado de los servicios"
     url: "https://support.rockstargames.com/servicestatus"
   - name: "Rockstar Games: Grand Theft Auto VI saldrá el 19 de noviembre de 2026"
@@ -21,9 +25,9 @@ sources:
     url: "https://maketecheasier.com/gta-6-unlock-times-midnight-local/"
 ---
 
-**Lo último (09:00):** quedan tres horas para que GTA 6 se pueda jugar en Nueva Zelanda, el primer país del mundo. En España llega a las 00:00 de esta noche.
+**Lo último (12:25):** **GTA 6 ya se puede jugar en Nueva Zelanda**, el primer país del mundo. Además, ya han salido los análisis: **99 en Metacritic**, la nota más alta de la historia empatada con Zelda: Ocarina of Time. En España llega a las 00:00 de esta noche.
 
-**Estado de los servidores:** todavía no hay nadie jugando. Lo comprobaremos en cuanto se desbloquee en Nueva Zelanda, a las 12:00. Mientras, puedes mirarlo tú en la [página de estado de Rockstar](https://support.rockstargames.com/servicestatus).
+**Estado de los servidores (12:25):** en los primeros minutos en Nueva Zelanda no se han publicado problemas con los servidores de Rockstar, PlayStation Network ni Xbox. Puedes comprobarlo tú en la [página de estado de Rockstar](https://support.rockstargames.com/servicestatus).
 
 ## Dónde ya se puede jugar
 
@@ -31,7 +35,7 @@ GTA 6 se desbloquea a medianoche de cada país, así que llega antes a Oceanía 
 
 | Hora en España | Dónde se desbloquea | Estado |
 |---|---|---|
-| 12:00 del miércoles 18 | Nueva Zelanda | ⏳ |
+| 12:00 del miércoles 18 | Nueva Zelanda | ✅ |
 | 14:00 del miércoles 18 | Australia (Sídney) | ⏳ |
 | 00:00 del jueves 19 | España | ⏳ |
 | 04:00 del jueves 19 | Argentina, Chile, Uruguay y Paraguay | ⏳ |
@@ -45,6 +49,22 @@ En PS5, PlayStation lo desbloquea país a país, a medianoche. En los países co
 ## Minuto a minuto
 
 <!-- Entradas nuevas arriba. Formato: ### 00:05 · Titular, y debajo el texto con su fuente. -->
+
+### 12:25 · Ya se juega en Nueva Zelanda
+
+GTA 6 se desbloqueó a las 12:00, hora de España, en Nueva Zelanda, y los jugadores de allí ya están en Leonida, según Vice. En los primeros minutos no se han publicado problemas con los servidores.
+
+En PS5 hace falta tener la consola en la versión **14.23.00** del sistema. Es una descarga aparte de la actualización del primer día del juego, así que conviene hacerla antes.
+
+### 12:25 · Un 99 en Metacritic
+
+Los análisis se han publicado a la vez que el desbloqueo. GTA 6 tiene un **99 sobre 100 en Metacritic**, con 109 análisis, según Dexerto. Es la nota más alta de la historia de la web, empatada con The Legend of Zelda: Ocarina of Time. PC Gamer, por ejemplo, ha publicado sus impresiones tras jugar 100 horas en PS5.
+
+Hace dos días circuló que el juego tenía una acogida «mixta» en Metacritic. Era la nota de los usuarios, con solo cinco votos sin texto y antes de que nadie pudiera jugar.
+
+### 12:25 · El truco de Nueva Zelanda, sin confirmar
+
+Circula un truco para jugar antes en Xbox: cambiar la región de la consola a Nueva Zelanda. Ni Rockstar ni Microsoft han confirmado que funcione con GTA 6, según Vice. Si lo pruebas, recuerda volver a poner tu región después: la región afecta a la tienda y a los precios que ves.
 
 ### 09:00 · Hoy empieza: primero Nueva Zelanda, a las 12:00
 
