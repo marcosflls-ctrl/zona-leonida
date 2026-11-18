@@ -94,7 +94,7 @@
     }
   ],
   "comunidad": {
-    "_nota": "Modo lanzamiento: descubrimientos de la comunidad que amplían las guías. Se activa solo desde 'desde' (hora UTC). Para probar antes: FORZAR_COMUNIDAD=1.",
+    "_nota": "Modo lanzamiento: descubrimientos de la comunidad que amplían las guías. Se activa solo desde 'desde' (hora UTC). Para probar antes: FORZAR_COMUNIDAD=1. Los canales de YouTube se pueden poner por su @nombre (clave 'youtube'): el robot busca su ID solo.",
     "desde": "2026-11-18T10:00:00+00:00",
     "max_horas": 24,
     "keywords": [
@@ -128,7 +128,29 @@
       "tip",
       "consejo",
       "guide",
-      "guía"
+      "guía",
+      "missed",
+      "need to know",
+      "things",
+      "best ",
+      "mejores",
+      "how to",
+      "cómo",
+      "tips",
+      "rare",
+      "raro",
+      "fastest",
+      "free ",
+      "gratis",
+      "glitch",
+      "fallo",
+      "unlock",
+      "everything",
+      "todo lo que",
+      "collectible",
+      "coleccionable",
+      "mapa",
+      "walkthrough"
     ],
     "feeds": [
       {
@@ -161,8 +183,123 @@
         "solo_juego": true
       },
       {
-        "name": "YouTube: Nelson | WilshonGaming",
-        "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsCNwjHzOGvrbwM22P7D_rQ",
+        "name": "YouTube: PowerPyx (trofeos y coleccionables)",
+        "youtube": "@PowerPyx",
+        "solo_juego": true
+      },
+      {
+        "name": "YouTube: Broughy1322 (coches)",
+        "youtube": "@Broughy1322",
+        "solo_juego": true
+      },
+      {
+        "name": "YouTube: MrBossFTW",
+        "youtube": "@MrBossFTW",
+        "solo_juego": true
+      },
+      {
+        "name": "YouTube: GhillieMaster",
+        "youtube": "@GhillieMaster",
+        "solo_juego": true
+      },
+      {
+        "name": "YouTube: DarkViperAU",
+        "youtube": "@DarkViperAU",
+        "solo_juego": true
+      },
+      {
+        "name": "YouTube: gameranx",
+        "youtube": "@gameranxTV",
+        "solo_juego": true
+      },
+      {
+        "name": "YouTube: Rockstar Games",
+        "youtube": "@RockstarGames",
+        "solo_juego": true
+      },
+      {
+        "name": "YouTube: IGN",
+        "youtube": "@IGN",
+        "solo_juego": true
+      },
+      {
+        "name": "YouTube: GameSpot",
+        "youtube": "@gamespot",
+        "solo_juego": true
+      },
+      {
+        "name": "YouTube: IGN España",
+        "youtube": "@IGNEspana",
+        "solo_juego": true
+      },
+      {
+        "name": "YouTube: 3DJuegos",
+        "youtube": "@3DJuegos",
+        "solo_juego": true
+      },
+      {
+        "name": "YouTube: Vandal",
+        "youtube": "@VandalTV",
+        "solo_juego": true
+      },
+      {
+        "name": "YouTube: MeriStation",
+        "youtube": "@MeriStation",
+        "solo_juego": true
+      },
+      {
+        "name": "YouTube: HobbyConsolas",
+        "youtube": "@HobbyConsolas",
+        "solo_juego": true
+      },
+      {
+        "name": "YouTube: Eurogamer España",
+        "youtube": "@EurogamerES",
+        "solo_juego": true
+      },
+      {
+        "name": "YouTube: IGN Latinoamérica",
+        "youtube": "@IGNLatinoamerica",
+        "solo_juego": true
+      },
+      {
+        "name": "YouTube: Atomix",
+        "youtube": "@AtomixVG",
+        "solo_juego": true
+      },
+      {
+        "name": "YouTube: LevelUp",
+        "youtube": "@LevelUpTV",
+        "solo_juego": true
+      },
+      {
+        "name": "YouTube: TheGrefg",
+        "youtube": "@TheGrefg",
+        "solo_juego": true
+      },
+      {
+        "name": "YouTube: IlloJuan",
+        "youtube": "@IlloJuan",
+        "solo_juego": true
+      },
+      {
+        "name": "YouTube: Typical Gamer",
+        "youtube": "@TypicalGamer",
+        "solo_juego": true
+      },
+      {
+        "name": "YouTube: SpeirsTheThird",
+        "youtube": "@SpeirsTheThird",
+        "solo_juego": true
+      },
+      {
+        "name": "YouTube: Kevduit",
+        "youtube": "@Kevduit",
+        "solo_juego": true
+      },
+      {
+        "name": "YouTube: Vanoss",
+        "youtube": "@VanossGaming",
         "solo_juego": true
       }
     ]

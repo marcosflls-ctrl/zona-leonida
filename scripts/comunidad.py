@@ -156,6 +156,31 @@ def _leer_feed(url: str):
     return []
 
 
+def _canal(feed: dict, state: dict) -> str | None:
+    """URL del feed de un canal de YouTube a partir de su @nombre (se guarda el ID para no repetir)."""
+    if feed.get("url"):
+        return feed["url"]
+    h = feed.get("youtube")
+    if not h:
+        return None
+    ids = state.setdefault("canales_yt", {})
+    if h not in ids:
+        import requests
+        try:
+            r = requests.get(f"https://www.youtube.com/{h}", timeout=25,
+                             headers={"User-Agent": "Mozilla/5.0", "Accept-Language": "es-ES,es;q=0.9"},
+                             cookies={"CONSENT": "YES+1"})
+            m = re.search(r'"(?:externalId|channelId)":"(UC[\w-]{22})"', r.text) or re.search(r'channel/(UC[\w-]{22})', r.text)
+        except Exception as e:  # noqa: BLE001
+            print(f"    ({h}: {type(e).__name__})")
+            return None
+        if not m:
+            print(f"    ({h}: no se encuentra el canal)")
+            return None
+        ids[h] = m.group(1)
+    return f"https://www.youtube.com/feeds/videos.xml?channel_id={ids[h]}"
+
+
 def recoger(cfg: dict, state: dict) -> list[dict]:
     """Publicaciones recientes de las fuentes de la comunidad que parecen descubrimientos."""
     c = cfg.get("comunidad") or {}
@@ -164,8 +189,12 @@ def recoger(cfg: dict, state: dict) -> list[dict]:
     horas = c.get("max_horas", 24)
     out = []
     for feed in c.get("feeds", []):
+        url = _canal(feed, state)
+        if not url:
+            print(f"  · {feed['name']}: sin canal")
+            continue
         try:
-            entries = _leer_feed(feed["url"])
+            entries = _leer_feed(url)
         except Exception as e:  # noqa: BLE001
             print(f"  ! {feed['name']}: {e}")
             continue
