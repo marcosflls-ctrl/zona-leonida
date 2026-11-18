@@ -2,7 +2,7 @@
 title: "¿A qué hora sale GTA 6? Hora confirmada en España y Latinoamérica"
 description: "Confirmado por Rockstar: GTA 6 sale a las 00:00 del 19 de noviembre, hora local, en España, México, Colombia, Chile, Argentina, Venezuela y el resto de países."
 date: 2026-10-09T18:45:00+02:00
-updated: 2026-11-10T23:30:00+01:00
+updated: 2026-11-18T09:00:00+01:00
 category: guias
 pilar: true
 cuentaAtras: true
@@ -17,6 +17,8 @@ compras:
   - nombre: "GTA 6 para Xbox Series X|S"
     busqueda: "Grand Theft Auto VI Xbox Series X"
 sources:
+  - name: "Xbox Wire: Grand Theft Auto VI llega a Xbox Cloud Gaming el 19 de noviembre (10/11/2026)"
+    url: "https://news.xbox.com/en-us/2026/11/10/grand-theft-auto-6-comes-to-xbox-cloud-gaming-november-19/"
   - name: "Timesaver: Rockstar confirma el desbloqueo a medianoche local del 19 de noviembre en todas las regiones (3/11/2026)"
     url: "https://timesaver.gg/blog/gta-6-release-time-unlock-countdown-2026"
   - name: "Generación Xbox: horarios previstos de GTA 6 en Xbox (7 de septiembre)"
@@ -86,5 +88,7 @@ En Xbox es fácil cambiar la región de la consola, y algunos medios apuntan a q
 ## Preguntas frecuentes
 
 **¿Sale a la misma hora en PS5 y en Xbox?** Sí. Rockstar confirma la medianoche local del 19 de noviembre en las dos consolas. Ojo: la precarga sí empezó a horas distintas (en Xbox, a la misma hora en todo el mundo).
+
+**¿Y en Xbox Cloud Gaming?** En la nube se podrá jugar desde la 1:00 de la costa este de EE. UU. del jueves 19, las 07:00 en España, según Microsoft. Sirve también para Xbox One, que no tiene versión propia. Hay que comprar el juego.
 
 **¿Cuánto cuesta?** 79,99 € la edición estándar y 99,99 € la Ultimate. Todos los detalles en [precio y ediciones](/guias/gta-6-precio-ediciones-reservas/).
