@@ -2,13 +2,17 @@
 title: "GTA 6, en directo: el lanzamiento país a país y el estado de los servidores"
 description: "Sigue en directo la salida de GTA 6: a qué hora se desbloquea en cada país, si los servidores funcionan, los primeros fallos y las primeras notas."
 date: 2026-11-18T09:00:00+01:00
-updated: 2026-11-18T12:25:00+01:00
+updated: 2026-11-18T14:30:00+01:00
 category: noticias
 tags: [lanzamiento, directo, servidores, horario, errores]
 image: /img/banco/lanzamiento-1.webp
 imageAlt: "Ilustración de un reloj de neón en una pared de ladrillo"
 imageCredit: "ilustración de Zona Leonida"
 sources:
+  - name: "Vice: GTA 6 recibe una segunda actualización antes del lanzamiento en PS5 y Xbox (16/11/2026)"
+    url: "https://www.vice.com/en/article/gta-6-second-day-one-patch-ps5-xbox/"
+  - name: "Stevivor: calendario de desbloqueo de GTA 6 en PS5, con Australia entre los primeros"
+    url: "https://stevivor.com/news/gta-6-ps5-unlock-schedule-shows-australia-among-the-first-in-hours-before-north/"
   - name: "Vice: GTA 6 ya ha salido en Nueva Zelanda (18/11/2026)"
     url: "https://www.vice.com/en/article/gta-6-new-zealand-worldwide-release-times/"
   - name: "Dexerto: GTA 6, empatado como el juego con mejor nota de la historia (18/11/2026)"
@@ -25,9 +29,9 @@ sources:
     url: "https://maketecheasier.com/gta-6-unlock-times-midnight-local/"
 ---
 
-**Lo último (12:25):** **GTA 6 ya se puede jugar en Nueva Zelanda**, el primer país del mundo. Además, ya han salido los análisis: **99 en Metacritic**, la nota más alta de la historia empatada con Zelda: Ocarina of Time. En España llega a las 00:00 de esta noche.
+**Lo último (14:30):** GTA 6 ya se ha desbloqueado en **Nueva Zelanda** y, desde las 14:00, en el este de **Australia**. Tiene un **99 en Metacritic**. En España llega a las 00:00 de esta noche: si lo tienes precargado, asegúrate de tener instaladas las dos actualizaciones.
 
-**Estado de los servidores (12:25):** en los primeros minutos en Nueva Zelanda no se han publicado problemas con los servidores de Rockstar, PlayStation Network ni Xbox. Puedes comprobarlo tú en la [página de estado de Rockstar](https://support.rockstargames.com/servicestatus).
+**Estado de los servidores (14:30):** dos horas y media después del primer desbloqueo, no se han publicado caídas de los servidores de Rockstar, PlayStation Network ni Xbox. Puedes comprobarlo tú en la [página de estado de Rockstar](https://support.rockstargames.com/servicestatus).
 
 ## Dónde ya se puede jugar
 
@@ -36,7 +40,7 @@ GTA 6 se desbloquea a medianoche de cada país, así que llega antes a Oceanía 
 | Hora en España | Dónde se desbloquea | Estado |
 |---|---|---|
 | 12:00 del miércoles 18 | Nueva Zelanda | ✅ |
-| 14:00 del miércoles 18 | Australia (Sídney) | ⏳ |
+| 14:00 del miércoles 18 | Australia (Sídney) | ✅ |
 | 00:00 del jueves 19 | España | ⏳ |
 | 04:00 del jueves 19 | Argentina, Chile, Uruguay y Paraguay | ⏳ |
 | 05:00 del jueves 19 | Venezuela, Bolivia, República Dominicana y Puerto Rico | ⏳ |
@@ -50,6 +54,21 @@ En PS5, PlayStation lo desbloquea país a país, a medianoche. En los países co
 
 <!-- Entradas nuevas arriba. Formato: ### 00:05 · Titular, y debajo el texto con su fuente. -->
 
+### 14:30 · Llega a Australia
+
+Desde las 14:00, hora de España, GTA 6 se puede jugar en Sídney, Melbourne y el resto del este de Australia, según el calendario de desbloqueo de PlayStation. No se han publicado problemas en Nueva Zelanda en sus primeras horas.
+
+### 14:30 · Las dos actualizaciones que tienes que tener
+
+Antes de jugar, el juego tiene que tener instaladas dos actualizaciones, según Vice:
+
+| Actualización | PS5 | Xbox Series X\|S |
+|---|---|---|
+| 1.002.000, del 13 de noviembre | Cerca de 1 GB | Cerca de 1 GB |
+| 1.002.001, desde el 16 de noviembre | Unos 602 MB | Unos 1,6 GB |
+
+Rockstar no ha publicado qué cambian. Si tienes la consola en reposo con descargas automáticas, se instalan solas. Si no, entra en la ficha del juego y busca actualizaciones antes de medianoche. En PS5 hace falta, además, la versión 14.23.00 del sistema.
+
 ### 12:25 · Ya se juega en Nueva Zelanda
 
 GTA 6 se desbloqueó a las 12:00, hora de España, en Nueva Zelanda, y los jugadores de allí ya están en Leonida, según Vice. En los primeros minutos no se han publicado problemas con los servidores.
@@ -58,7 +77,7 @@ En PS5 hace falta tener la consola en la versión **14.23.00** del sistema. Es u
 
 ### 12:25 · Un 99 en Metacritic
 
-Los análisis se han publicado a la vez que el desbloqueo. GTA 6 tiene un **99 sobre 100 en Metacritic**, con 109 análisis, según Dexerto. Es la nota más alta de la historia de la web, empatada con The Legend of Zelda: Ocarina of Time. PC Gamer, por ejemplo, ha publicado sus impresiones tras jugar 100 horas en PS5.
+Los análisis se han publicado a la vez que el desbloqueo. GTA 6 tiene un **99 sobre 100 en Metacritic**, con 109 análisis, según Dexerto. Tienes todas las notas, también las de los medios españoles, en [qué dicen los análisis de GTA 6](/noticias/gta-6-notas-analisis/). Es la nota más alta de la historia de la web, empatada con The Legend of Zelda: Ocarina of Time. PC Gamer, por ejemplo, ha publicado sus impresiones tras jugar 100 horas en PS5.
 
 Hace dos días circuló que el juego tenía una acogida «mixta» en Metacritic. Era la nota de los usuarios, con solo cinco votos sin texto y antes de que nadie pudiera jugar.
 
