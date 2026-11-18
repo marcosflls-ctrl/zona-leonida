@@ -2,13 +2,15 @@
 title: "GTA 6, en directo: el lanzamiento país a país y el estado de los servidores"
 description: "Sigue en directo la salida de GTA 6: a qué hora se desbloquea en cada país, si los servidores funcionan, los primeros fallos y las primeras notas."
 date: 2026-11-18T09:00:00+01:00
-updated: 2026-11-18T19:10:00+01:00
+updated: 2026-11-18T20:04:44+01:00
 category: noticias
 tags: [lanzamiento, directo, servidores, horario, errores]
 image: /img/banco/lanzamiento-1.webp
 imageAlt: "Ilustración de un reloj de neón en una pared de ladrillo"
 imageCredit: "ilustración de Zona Leonida"
 sources:
+  - name: "YouTube: Caza militar: dónde encontrarlo en la Mile Zero Air Station"
+    url: "https://www.youtube.com/watch?v=dtJ9ftV_dj4"
   - name: "Vice: GTA 6 recibe una segunda actualización antes del lanzamiento en PS5 y Xbox (16/11/2026)"
     url: "https://www.vice.com/en/article/gta-6-second-day-one-patch-ps5-xbox/"
   - name: "Stevivor: calendario de desbloqueo de GTA 6 en PS5, con Australia entre los primeros"
@@ -54,6 +56,20 @@ En PS5, PlayStation lo desbloquea país a país, a medianoche. En los países co
 ## Minuto a minuto
 
 <!-- Entradas nuevas arriba. Formato: ### 00:05 · Titular, y debajo el texto con su fuente. -->
+
+### 20:04 · Caza militar: dónde encontrarlo en la Mile Zero Air Station
+
+Un caza militar se puede conseguir en la **Mile Zero Air Station**, en el sur del mapa.
+
+**Cómo hacerse con él:**
+- Atraviesa la puerta con tu vehículo y corre hasta la pista antes de que los soldados te alcancen. Lo más sencillo es pasar junto a ellos en moto.
+- Alternativa: usa el salto acrobático sobre la colina de tierra de la esquina sureste de la base.
+
+**Ojo:** robar el caza genera nivel de búsqueda y el ejército te perseguirá. El avión tiene un localizador militar, así que sabrán dónde estás.
+
+<figure class="yt-guia" data-id="dtJ9ftV_dj4" data-autor="PowerPyx"></figure>
+
+*Descubierto por PowerPyx en [YouTube](https://www.youtube.com/watch?v=dtJ9ftV_dj4) · ✅ Comprobado*
 
 ### 19:10 · Antes de las 00:00: lo que tienes que dejar hecho
 
