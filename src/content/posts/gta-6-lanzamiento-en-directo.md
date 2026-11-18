@@ -2,13 +2,17 @@
 title: "GTA 6, en directo: el lanzamiento país a país y el estado de los servidores"
 description: "Sigue en directo la salida de GTA 6: a qué hora se desbloquea en cada país, si los servidores funcionan, los primeros fallos y las primeras notas."
 date: 2026-11-18T09:00:00+01:00
-updated: 2026-11-18T23:04:47+01:00
+updated: 2026-11-19T00:15:00+01:00
 category: noticias
 tags: [lanzamiento, directo, servidores, horario, errores]
 image: /img/banco/lanzamiento-1.webp
 imageAlt: "Ilustración de un reloj de neón en una pared de ladrillo"
 imageCredit: "ilustración de Zona Leonida"
 sources:
+  - name: "Vandal: GTA 6 ya está disponible oficialmente en España (19/11/2026)"
+    url: "https://vandal.elespanol.com/noticia/2026323001/gta-6-ya-esta-disponible-oficialmente-en-espana-rockstar-acaba-de-desbloquear-su-juego-en-ps5-y-xbox-series"
+  - name: "VGTimes: la PlayStation Network falla con la avalancha de GTA 6 (18/11/2026)"
+    url: "https://vgtimes.com/gaming-news/175045-ps5-users-report-playstation-network-errors-as-gta-6-downloads-stall.html"
   - name: "YouTube: Misión secundaria de Kirk: búsqueda de efigies de árbol"
     url: "https://www.youtube.com/watch?v=iGKI2nryW_M"
   - name: "YouTube: Dónde encontrar a Bigfoot (Sasquatch) y cómo activar su aparición"
@@ -35,9 +39,9 @@ sources:
     url: "https://maketecheasier.com/gta-6-unlock-times-midnight-local/"
 ---
 
-**Lo último (19:10):** GTA 6 ya se juega en **Nueva Zelanda, Australia y Japón**. Quedan menos de cinco horas para España: se desbloquea a las **00:00**. Abajo tienes lo que conviene dejar hecho antes.
+**Lo último (00:15):** **GTA 6 ya se puede jugar en España**, en PS5 y Xbox Series. Si te da problemas para entrar, abajo te contamos qué está pasando con la PlayStation Network. Para empezar con buen pie, tienes [todo lo que tienes que saber de GTA 6](/noticias/gta-6-ya-disponible/).
 
-**Estado de los servidores (19:10):** siete horas después del primer desbloqueo, ni Rockstar, ni PlayStation ni Xbox han informado de caídas. Algunos jugadores se quejan en redes de fallos del juego, pero Rockstar no ha reconocido ningún problema general. Puedes comprobarlo tú en la [página de estado de Rockstar](https://support.rockstargames.com/servicestatus).
+**Estado de los servidores (00:15):** la **PlayStation Network tuvo problemas** el miércoles por la tarde, con miles de avisos de jugadores que no podían iniciar sesión ni canjear códigos. Sony lo marcó como resuelto en unos 20 minutos, pero con la llegada de Europa puede volver a ir lenta. Rockstar y Xbox no han informado de caídas. Compruébalo en la [página de estado de Rockstar](https://support.rockstargames.com/servicestatus) y en la [de PlayStation](https://status.playstation.com/).
 
 ## Dónde ya se puede jugar
 
@@ -48,7 +52,8 @@ GTA 6 se desbloquea a medianoche de cada país, así que llega antes a Oceanía 
 | 12:00 del miércoles 18 | Nueva Zelanda | ✅ |
 | 14:00 del miércoles 18 | Australia (Sídney) | ✅ |
 | 16:00 del miércoles 18 | Japón y Corea del Sur | ✅ |
-| 00:00 del jueves 19 | España | ⏳ |
+| 00:00 del jueves 19 | España | ✅ |
+| 01:00 del jueves 19 | Reino Unido, Irlanda y Portugal | ⏳ |
 | 04:00 del jueves 19 | Argentina, Chile, Uruguay y Paraguay | ⏳ |
 | 05:00 del jueves 19 | Venezuela, Bolivia, República Dominicana y Puerto Rico | ⏳ |
 | 06:00 del jueves 19 | Colombia, Perú, Ecuador, Panamá, Cuba y costa este de EE. UU. | ⏳ |
@@ -60,6 +65,22 @@ En PS5, PlayStation lo desbloquea país a país, a medianoche. En los países co
 ## Minuto a minuto
 
 <!-- Entradas nuevas arriba. Formato: ### 00:05 · Titular, y debajo el texto con su fuente. -->
+
+### 00:15 · Ya se juega en España
+
+Son las 00:00 y **GTA 6 ya está desbloqueado en España** en PS5 y Xbox Series X|S, según Vandal. Si tenías la precarga hecha, solo tienes que abrirlo.
+
+Si quieres saber por dónde empezar, te lo contamos en [GTA 6 ya está disponible](/noticias/gta-6-ya-disponible/). Y si buscas trofeos, aquí tienes la [lista completa](/guias/gta-6-trofeos-logros/).
+
+### 00:15 · Si no puedes entrar en PS5: es la PlayStation Network
+
+El miércoles por la tarde, hacia las 19:00 de España, la PlayStation Network tuvo problemas: según VGTimes, más de 4.000 jugadores avisaron en Downdetector de que no podían iniciar sesión, con el mensaje de que los servicios estaban «ocupados», ni canjear códigos o mejorar su edición del juego. Sony lo reconoció en su página de estado y lo dio por resuelto unos 20 minutos después.
+
+Si ahora te pasa algo parecido:
+
+1. **Mira la [página de estado de PlayStation](https://status.playstation.com/).** Si hay incidencia, el problema no es tuyo.
+2. **Espera unos minutos y vuelve a intentarlo.** Con millones de personas entrando a la vez, los atascos suelen durar poco.
+3. **Comprueba que tu PS5 es tu consola principal.** En Ajustes › Usuarios y cuentas › Otro › Compartir consola y jugar sin conexión, tiene que estar activado: así los juegos digitales se pueden abrir aunque la PlayStation Network falle.
 
 ### 23:04 · Misión secundaria de Kirk: búsqueda de efigies de árbol
 
