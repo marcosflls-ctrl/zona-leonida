@@ -2,7 +2,7 @@
 title: "Cómo ganar dinero en GTA 6: los mejores métodos por capítulo"
 description: "Cómo ganar dinero en GTA 6 por capítulos: de atracos a tiendas al golpe a una cámara acorazada que, según Meristation, deja unos 200.000 dólares."
 date: 2026-11-19T01:05:38+01:00
-updated: 2026-11-19T01:05:38+01:00
+updated: 2026-11-19T14:04:06+00:00
 category: guias
 draft: false
 tags: [dinero, guia, golpes, negocios]
@@ -10,6 +10,8 @@ image: /img/oficial/jason-duval-6.webp
 imageAlt: "Jason Duval, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
+  - name: "YouTube: Operaciones ilegales: qué son y dónde empezar"
+    url: "https://www.youtube.com/watch?v=eD5ndr0OMM0"
   - name: "GamesRadar: How to farm money in GTA 6 and make cash fast"
     url: "https://www.gamesradar.com/games/grand-theft-auto/gta-6-make-money-fast/"
   - name: "GamesRadar: How to use ATMs in GTA 6"
@@ -33,6 +35,26 @@ Rockstar ha explicado que en GTA 6 el dinero importa más que en anteriores entr
 **Esta guía no tiene spoilers de la historia.** Solo menciona capítulos y nombres de contactos o actividades.
 
 Según GamesRadar, la mejor forma de ganar dinero rápido es arriesgarte con el crimen, y las opciones cambian capítulo a capítulo. Al empezar, lo más práctico es robar tiendas. A largo plazo, según Meristation, lo más rentable es el golpe a la cámara acorazada de un banco al final del capítulo 4, que puede dejar unos 200.000 dólares.
+
+## Últimos descubrimientos
+
+<!-- El robot añade aquí lo que descubre la comunidad, lo más nuevo arriba. Revisa y pasa a su sección lo que se confirme. -->
+
+### Operaciones ilegales: qué son y dónde empezar
+
+Las **Operaciones ilegales** son el equivalente a los campamentos de bandidos de GTA 6. Permiten atacar bandas rivales, conseguir botín valioso y ganar dinero fácil.
+
+La misión inicial, *Gone Fishing*, sirve para introducirte en este sistema.
+
+Dos operaciones tempranas recomendadas:
+- **Strange Noises**, en Key Lento.
+- **Fishing Shacks**, cerca del lago Cottonmouth.
+
+Según IGN, el sigilo puede ser una opción mejor que entrar a tiros.
+
+<figure class="yt-guia" data-id="eD5ndr0OMM0" data-autor="IGN"></figure>
+
+*Descubierto por IGN en [YouTube](https://www.youtube.com/watch?v=eD5ndr0OMM0) · 19 de noviembre · ✅ Comprobado*
 
 ## Lo que ya había contado Rockstar
 
