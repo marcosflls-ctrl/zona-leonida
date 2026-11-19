@@ -2,13 +2,15 @@
 title: "Trofeos de GTA 6: lista completa y guía del platino"
 description: "GTA 6 tiene 55 trofeos en PS5 con platino y 54 logros en Xbox que suman 1.000 G. La lista completa traducida, los ocultos sin spoilers y qué piden para el 100 %."
 date: 2026-11-18T15:20:00+01:00
-updated: 2026-11-19T16:04:19+00:00
+updated: 2026-11-19T17:05:21+00:00
 category: guias
 tags: [trofeos, logros, platino, ps5, xbox]
 image: /img/oficial/lucia-caminos-2.webp
 imageAlt: "Lucía Caminos, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
+  - name: "YouTube: Sneakthief: robar una joyería sin ser detectado"
+    url: "https://www.youtube.com/watch?v=Rpf46vovV8k"
   - name: "YouTube: Trofeo «In The Beginning…»: bebe un cóctel con vista a Ocean Beach"
     url: "https://www.youtube.com/watch?v=dtyMTdma2J8"
   - name: "YouTube: Trofeo «Capital Offense»: atraviesa un escaparate con el Banshee azul"
@@ -32,6 +34,20 @@ sources:
 Los nombres van en inglés, como los ha publicado la prensa. En la versión española del juego pueden aparecer traducidos.
 
 ## Últimos descubrimientos
+
+### Sneakthief: robar una joyería sin ser detectado
+
+**Requisito:** termina el Capítulo 3, misión principal «Yasmani's Jewelry Jobs». Esto desbloquea el Snap Gun, una ganzúa silenciosa para puertas con alarma, y los atracos a joyerías, marcados con un icono verde en las zonas del mapa sin niebla.
+
+**Pasos:**
+1. Acércate a la puerta trasera de una joyería (el vídeo usa Richardson Jewelry & Diamonds, en Vice City) y usa el Snap Gun en lugar de derribarla, lo que activaría la alarma.
+2. En la trastienda, busca una nota con la combinación de la caja fuerte y ábrela con ella.
+3. Destruye las grabaciones de seguridad e interactúa con la alarma para desactivarla.
+4. Sal de la tienda: el trofeo se desbloquea poco después.
+
+<figure class="yt-guia" data-id="Rpf46vovV8k" data-autor="PowerPyx"></figure>
+
+*Descubierto por PowerPyx en [YouTube](https://www.youtube.com/watch?v=Rpf46vovV8k) · 19 de noviembre · ✅ Comprobado*
 
 ### Trofeo «In The Beginning…»: bebe un cóctel con vista a Ocean Beach
 
