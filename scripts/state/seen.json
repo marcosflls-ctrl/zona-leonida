@@ -2506,13 +2506,13 @@
   "https://www.youtube.com/watch?v=PPlSEsECToo",
   "https://www.gamesradar.com/games/grand-theft-auto/gta-6-money-buckme-bank-account-manage/",
   "https://www.gamesradar.com/games/grand-theft-auto/gta-6-weapon-ownership-explained/",
-  "https://www.youtube.com/watch?v=X7JQPjFEZVg"
+  "https://www.youtube.com/watch?v=X7JQPjFEZVg",
+  "https://www.gamesradar.com/games/grand-theft-auto/gta-6-family-savings/",
+  "https://www.gamesradar.com/games/grand-theft-auto/how-to-remove-guns-from-trunk-recover-weapons-ammu-nation-gta-6/",
+  "https://www.gamesradar.com/games/grand-theft-auto/how-to-get-a-six-star-wanted-level-gta-6/",
+  "https://www.gamesradar.com/games/grand-theft-auto/gta-6-headphones-music-radio-podcasts-how-to-use/"
  ],
  "titles": [
-  "3 thursdays left before preload what do you guys think rockstar is dropping",
-  "spotify now lists gta 6 in the top 500 most listened to artists with almost 20m listeners",
-  "three more new ads",
-  "there s things even rockstar s studio heads still don t know about yet",
   "list of gta 6 kiosk ads spotted in miami so far",
   "little details",
   "here are a few backgrounds for anyone who wants to pimp up their phones before release",
@@ -4008,17 +4008,13 @@
   "how to switch characters in gta 6 and give your partner instructions",
   "how to change the time of day in gta 6",
   "how to manage money in gta 6 and use the buckme bank savings app",
-  "gta 6 weapon ownership explained how to keep your favorite guns"
+  "gta 6 weapon ownership explained how to keep your favorite guns",
+  "should you pay into family savings in gta 6",
+  "how to store manage and recover guns at ammu nation in gta 6",
+  "how to get a six star wanted level in gta 6",
+  "how to use headphones in gta 6 to listen to music and podcasts"
  ],
  "escritos": [
-  {
-   "title": "GTA 6 tendrá mecanismos para fomentar la empatía",
-   "url": "/noticias/gta-6-tendra-mecanismos-para-fomentar-la-empatia/"
-  },
-  {
-   "title": "GTA 6 tendrá Twitch Drops: 13 recompensas desde el día 18",
-   "url": "/noticias/gta-6-tendra-twitch-drops-13-recompensas-desde-el-dia-18/"
-  },
   {
    "title": "GTA 6: Kick sortea 10.000 códigos de la edición Ultimate",
    "url": "/noticias/gta-6-kick-sortea-10-000-codigos-de-la-edicion-ultimate/"
@@ -4330,6 +4326,14 @@
   {
    "title": "GTA 6: cómo conservar tus armas y cuáles pierdes al morir",
    "url": "/guias/gta-6-como-conservar-tus-armas-y-cuales-pierdes-al-morir/"
+  },
+  {
+   "title": "GTA 6: cómo conseguir seis estrellas de búsqueda",
+   "url": "/guias/gta-6-como-conseguir-seis-estrellas-de-busqueda/"
+  },
+  {
+   "title": "GTA 6: cómo usar auriculares para escuchar radio y pódcast",
+   "url": "/guias/gta-6-como-usar-auriculares-para-escuchar-radio-y-podcast/"
   }
  ],
  "feeds_iniciados": [
