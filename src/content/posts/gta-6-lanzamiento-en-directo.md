@@ -210,7 +210,7 @@ YouTube emitirá un directo de 24 horas con 31 creadores. Empieza a las **05:00 
 
 ## Si algo falla
 
-Iremos contando aquí los fallos que aparezcan y cómo se solucionan. Si aún no lo has descargado, mira [cómo funciona la precarga](/guias/gta-6-precarga-como-descargar/) y [cuánto ocupa](/guias/gta-6-cuanto-ocupa/).
+Tienes todos los fallos conocidos y sus soluciones en [GTA 6 no funciona: problemas, errores y cómo solucionarlos](/guias/gta-6-problemas-errores/). Si aún no lo has descargado, mira [cómo funciona la precarga](/guias/gta-6-precarga-como-descargar/) y [cuánto ocupa](/guias/gta-6-cuanto-ocupa/).
 
 ## Para tus primeras horas
 
