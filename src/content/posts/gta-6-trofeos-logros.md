@@ -2,13 +2,15 @@
 title: "Trofeos de GTA 6: lista completa y guía del platino"
 description: "GTA 6 tiene 55 trofeos en PS5 con platino y 54 logros en Xbox que suman 1.000 G. La lista completa traducida, los ocultos sin spoilers y qué piden para el 100 %."
 date: 2026-11-18T15:20:00+01:00
-updated: 2026-11-19T13:04:11+00:00
+updated: 2026-11-19T16:04:19+00:00
 category: guias
 tags: [trofeos, logros, platino, ps5, xbox]
 image: /img/oficial/lucia-caminos-2.webp
 imageAlt: "Lucía Caminos, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
+  - name: "YouTube: Trofeo «In The Beginning…»: bebe un cóctel con vista a Ocean Beach"
+    url: "https://www.youtube.com/watch?v=dtyMTdma2J8"
   - name: "YouTube: Trofeo «Capital Offense»: atraviesa un escaparate con el Banshee azul"
     url: "https://www.youtube.com/watch?v=tsWwtBxLY5g"
   - name: "YouTube: Polígonos de tiro: 42 medallas de oro y trofeo The Shootist"
@@ -30,6 +32,20 @@ sources:
 Los nombres van en inglés, como los ha publicado la prensa. En la versión española del juego pueden aparecer traducidos.
 
 ## Últimos descubrimientos
+
+### Trofeo «In The Beginning…»: bebe un cóctel con vista a Ocean Beach
+
+El trofeo de bronce **«In The Beginning…»** se consigue en el bar en azotea Ocean View Rooftop Bar.
+
+1. Ve al Ocean View Rooftop Bar.
+2. Compra un **Apple Martini**.
+3. Bébetelo mientras estás de pie junto a la barra.
+
+Al terminarlo, el trofeo se desbloquea.
+
+<figure class="yt-guia" data-id="dtyMTdma2J8" data-autor="PowerPyx"></figure>
+
+*Descubierto por PowerPyx en [YouTube](https://www.youtube.com/watch?v=dtyMTdma2J8) · 19 de noviembre · ⚠️ Sin comprobar*
 
 ### Trofeo «Capital Offense»: atraviesa un escaparate con el Banshee azul
 
