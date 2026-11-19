@@ -2,7 +2,7 @@
 title: "GTA 6, en directo: el lanzamiento país a país y el estado de los servidores"
 description: "Sigue en directo la salida de GTA 6: a qué hora se desbloquea en cada país, si los servidores funcionan, los primeros fallos y las primeras notas."
 date: 2026-11-18T09:00:00+01:00
-updated: 2026-11-19T06:04:04+01:00
+updated: 2026-11-19T06:25:00+01:00
 category: noticias
 tags: [lanzamiento, directo, servidores, horario, errores]
 image: /img/banco/lanzamiento-1.webp
@@ -41,9 +41,9 @@ sources:
     url: "https://maketecheasier.com/gta-6-unlock-times-midnight-local/"
 ---
 
-**Lo último (00:15):** **GTA 6 ya se puede jugar en España**, en PS5 y Xbox Series. Si te da problemas para entrar, abajo te contamos qué está pasando con la PlayStation Network. Para empezar con buen pie, tienes [todo lo que tienes que saber de GTA 6](/noticias/gta-6-ya-disponible/).
+**Lo último (06:25):** GTA 6 ya se juega en **España y el resto de Europa**, y esta madrugada ha ido llegando a **Latinoamérica y la costa este de EE. UU.** A las **07:00** se abre en **Xbox Cloud Gaming** y en México y Centroamérica. Si acabas de empezar, tienes [todo lo que tienes que saber de GTA 6](/noticias/gta-6-ya-disponible/).
 
-**Estado de los servidores (00:15):** la **PlayStation Network tuvo problemas** el miércoles por la tarde, con miles de avisos de jugadores que no podían iniciar sesión ni canjear códigos. Sony lo marcó como resuelto en unos 20 minutos, pero con la llegada de Europa puede volver a ir lenta. Rockstar y Xbox no han informado de caídas. Compruébalo en la [página de estado de Rockstar](https://support.rockstargames.com/servicestatus) y en la [de PlayStation](https://status.playstation.com/).
+**Estado de los servidores (06:25):** durante la noche europea no se han publicado nuevas caídas. El único problema serio fue el de la **PlayStation Network** del miércoles por la tarde, que Sony resolvió en unos 20 minutos. Rockstar y Xbox no han informado de incidencias. Compruébalo en la [página de estado de Rockstar](https://support.rockstargames.com/servicestatus) y en la [de PlayStation](https://status.playstation.com/).
 
 ## Dónde ya se puede jugar
 
@@ -55,10 +55,10 @@ GTA 6 se desbloquea a medianoche de cada país, así que llega antes a Oceanía 
 | 14:00 del miércoles 18 | Australia (Sídney) | ✅ |
 | 16:00 del miércoles 18 | Japón y Corea del Sur | ✅ |
 | 00:00 del jueves 19 | España | ✅ |
-| 01:00 del jueves 19 | Reino Unido, Irlanda y Portugal | ⏳ |
-| 04:00 del jueves 19 | Argentina, Chile, Uruguay y Paraguay | ⏳ |
-| 05:00 del jueves 19 | Venezuela, Bolivia, República Dominicana y Puerto Rico | ⏳ |
-| 06:00 del jueves 19 | Colombia, Perú, Ecuador, Panamá, Cuba y costa este de EE. UU. | ⏳ |
+| 01:00 del jueves 19 | Reino Unido, Irlanda y Portugal | ✅ |
+| 04:00 del jueves 19 | Argentina, Chile, Uruguay y Paraguay | ✅ |
+| 05:00 del jueves 19 | Venezuela, Bolivia, República Dominicana y Puerto Rico | ✅ |
+| 06:00 del jueves 19 | Colombia, Perú, Ecuador, Panamá, Cuba y costa este de EE. UU. | ✅ |
 | 07:00 del jueves 19 | México y Centroamérica | ⏳ |
 | 07:00 del jueves 19 | Xbox Cloud Gaming, en todo el mundo | ⏳ |
 
@@ -67,6 +67,16 @@ En PS5, PlayStation lo desbloquea país a país, a medianoche. En los países co
 ## Minuto a minuto
 
 <!-- Entradas nuevas arriba. Formato: ### 00:05 · Titular, y debajo el texto con su fuente. -->
+
+### 06:25 · Ya ha llegado a Latinoamérica y a la costa este de EE. UU.
+
+Siguiendo el calendario de medianoche de cada país, GTA 6 se desbloqueó a la 1:00 en Reino Unido y Portugal, a las 4:00 en Argentina y Chile, a las 5:00 en Venezuela y República Dominicana, y a las 6:00 en Colombia, Perú y la costa este de EE. UU. Todas, hora de España.
+
+### 06:25 · A las 07:00, en Xbox Cloud Gaming y Xbox One
+
+En media hora se abre GTA 6 en **Xbox Cloud Gaming**, a la vez en todo el mundo, según Microsoft. Es la forma de jugarlo en **Xbox One**, que no tiene versión propia, o en un móvil, una tableta o un ordenador con un mando. Hay que haber comprado el juego, y en la nube se juega con los ajustes de Xbox Series S.
+
+A esa misma hora llega también a México y Centroamérica. Después irán el resto de Norteamérica y Hawái.
 
 ### 06:04 · Perro en moto acuática que rescata al jugador en alta mar
 
