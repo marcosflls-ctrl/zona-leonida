@@ -2,13 +2,15 @@
 title: "GTA 6, en directo: el lanzamiento país a país y el estado de los servidores"
 description: "Sigue en directo la salida de GTA 6: a qué hora se desbloquea en cada país, si los servidores funcionan, los primeros fallos y las primeras notas."
 date: 2026-11-18T09:00:00+01:00
-updated: 2026-11-19T00:15:00+01:00
+updated: 2026-11-19T06:04:04+01:00
 category: noticias
 tags: [lanzamiento, directo, servidores, horario, errores]
 image: /img/banco/lanzamiento-1.webp
 imageAlt: "Ilustración de un reloj de neón en una pared de ladrillo"
 imageCredit: "ilustración de Zona Leonida"
 sources:
+  - name: "YouTube: Perro en moto acuática que rescata al jugador en alta mar"
+    url: "https://www.youtube.com/watch?v=KPmMFfUvslg"
   - name: "Vandal: GTA 6 ya está disponible oficialmente en España (19/11/2026)"
     url: "https://vandal.elespanol.com/noticia/2026323001/gta-6-ya-esta-disponible-oficialmente-en-espana-rockstar-acaba-de-desbloquear-su-juego-en-ps5-y-xbox-series"
   - name: "VGTimes: la PlayStation Network falla con la avalancha de GTA 6 (18/11/2026)"
@@ -65,6 +67,16 @@ En PS5, PlayStation lo desbloquea país a país, a medianoche. En los países co
 ## Minuto a minuto
 
 <!-- Entradas nuevas arriba. Formato: ### 00:05 · Titular, y debajo el texto con su fuente. -->
+
+### 06:04 · Perro en moto acuática que rescata al jugador en alta mar
+
+Si te quedas varado en alta mar en GTA VI, un perro muy simpático acude a rescatarte con una moto acuática. Te llevará a su escondite, donde podrás jugar con sus amigos y encontrar unas gafas de sol deportivas.
+
+Además, el perro recoge para ti una cartera con más de 1.000 $ que podrás recolectar.
+
+<figure class="yt-guia" data-id="KPmMFfUvslg" data-autor="GTA Series Videos"></figure>
+
+*Descubierto por GTA Series Videos en [YouTube](https://www.youtube.com/watch?v=KPmMFfUvslg) · ⚠️ Sin comprobar*
 
 ### 00:15 · Ya se juega en España
 
