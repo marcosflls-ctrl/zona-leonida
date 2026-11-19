@@ -2,7 +2,7 @@
 title: "Mapa de GTA 6: todas las zonas confirmadas de Leonida"
 description: "Vice City, Leonida Keys, Grassrivers, Port Gellhorn, Ambrosia y Mount Kalaga: así es el mapa de GTA 6 según lo que ha mostrado Rockstar."
 date: 2026-10-09T12:15:00+02:00
-updated: 2026-10-09T19:00:00+02:00
+updated: 2026-11-19T21:04:46+00:00
 category: guias
 pilar: true
 orden: 10
@@ -11,6 +11,8 @@ image: /img/oficial/vice-city-4.webp
 imageAlt: "Vice City, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
+  - name: "YouTube: Casa de Bryan: reparaciones que mejoran la relación con Lucia"
+    url: "https://www.youtube.com/watch?v=3UiRmXUIE9k"
   - name: "Rockstar Games: web oficial de GTA VI"
     url: "https://www.rockstargames.com/VI"
   - name: "Gfinity Esports: GTA 6 map guide"
@@ -18,6 +20,20 @@ sources:
 ---
 
 GTA 6 transcurre en **Leonida**, el estado ficticio inspirado en Florida, y su gran ciudad es **Vice City**. Estas son las zonas que Rockstar ha mostrado oficialmente antes del lanzamiento. Puedes explorarlas también en nuestro **[mapa interactivo de Leonida](/mapa/)**. Cuando salga el juego, esta página se convertirá en la guía completa del mapa.
+
+## Últimos descubrimientos
+
+<!-- El robot añade aquí lo que descubre la comunidad, lo más nuevo arriba. Revisa y pasa a su sección lo que se confirme. -->
+
+### Casa de Bryan: reparaciones que mejoran la relación con Lucia
+
+Tu primer refugio, la casa de Bryan, se puede mejorar con varios trabajos de bricolaje. Entre ellos están reparar el tabique de pladur del dormitorio, arreglar el tejado, sustituir las barandillas rotas y cambiar los escalones de madera podridos.
+
+Completar estas reparaciones también hace feliz a Lucia y mejora vuestra relación. Conviene terminarlas todas antes de recogerla.
+
+<figure class="yt-guia" data-id="3UiRmXUIE9k" data-autor="IGN"></figure>
+
+*Descubierto por IGN en [YouTube](https://www.youtube.com/watch?v=3UiRmXUIE9k) · 19 de noviembre · ✅ Comprobado*
 
 ## Las 6 zonas confirmadas
 
