@@ -2,7 +2,7 @@
 title: "GTA 6 ya está disponible: todo lo que tienes que saber para empezar"
 description: "GTA 6 ya se puede jugar en PS5 y Xbox Series X|S. Hora de desbloqueo en cada país, tamaño de la descarga y las guías para empezar con buen pie."
 date: 2026-11-19T00:00:00+01:00
-updated: 2026-11-19T00:00:00+01:00
+updated: 2026-11-19T15:00:00+01:00
 category: noticias
 tags: [lanzamiento, disponible, guia, ps5, xbox]
 image: /img/oficial/jason-y-lucia-11.webp
@@ -47,7 +47,14 @@ La tabla completa, país a país, está en [a qué hora sale GTA 6](/guias/gta-6
 - **¿Lo tienes descargado y no arranca?** Comprueba que la consola ha instalado la última actualización del juego y reiníciala.
 - **¿Fallan los servidores?** En las primeras horas de un lanzamiento así es habitual. Rockstar publica el estado de sus servicios en [su página de soporte](https://support.rockstargames.com/servicestatus).
 
-Iremos actualizando este artículo durante el día con los problemas que aparezcan y sus soluciones.
+Todos los fallos conocidos y cómo se arreglan están en [GTA 6 no funciona: problemas y soluciones](/guias/gta-6-problemas-errores/). De momento no hay fallos generalizados: el más extendido fue un atasco de la PlayStation Network el miércoles por la tarde, que Sony resolvió en unos 20 minutos.
+
+## Cómo ha salido: notas y actualizaciones
+
+- **Notas:** un **99 en Metacritic** y un **98 en OpenCritic**, la nota más alta de la historia de Metacritic empatada con Zelda: Ocarina of Time. Todas las notas en [qué dicen los análisis](/noticias/gta-6-notas-analisis/).
+- **Actualizaciones:** el juego ha recibido dos antes del lanzamiento, la 1.002.000 (cerca de 1 GB) y la 1.002.001 (unos 602 MB en PS5 y 1,6 GB en Xbox). Rockstar no ha publicado qué arreglan.
+- **Rendimiento:** 30 FPS en todas las consolas, sin modo de 60.
+- **Duración:** unas 65 horas para la historia, según el [análisis de Vandal](/noticias/gta-6-analisis-vandal-80-horas/).
 
 ## Guías para empezar
 
@@ -55,11 +62,19 @@ Iremos actualizando este artículo durante el día con los problemas que aparezc
 - [El mapa de Leonida](/guias/gta-6-mapa-leonida/)
 - [Los personajes](/guias/gta-6-personajes/)
 - [Coches y vehículos confirmados](/guias/gta-6-coches-vehiculos-confirmados/)
-- [Trucos y claves](/trucos/gta-6-trucos-claves-ps5-xbox/)
+- [Controles en PS5 y Xbox](/guias/gta-6-controles-ps5-xbox/)
+- [Consejos para tus primeras horas](/guias/gta-6-consejos-primeras-horas/)
+- [Ajustes gráficos](/guias/gta-6-ajustes-calidad-rendimiento/)
+- [Lista de misiones](/guias/gta-6-lista-de-misiones/)
+- [Cómo ganar dinero](/guias/gta-6-como-ganar-dinero/)
+- [Mejores coches](/guias/gta-6-mejores-coches/)
+- [Trofeos y logros](/guias/gta-6-trofeos-logros/)
+- [Trucos: los 61 y cómo desbloquearlos](/trucos/gta-6-trucos-claves-ps5-xbox/)
+- [Secretos y easter eggs](/descubrimientos/gta-6-secretos-easter-eggs/)
 - [Emisoras de radio y canciones](/guias/gta-6-radio-emisoras-canciones/)
 - [Qué pasa con el modo online](/guias/gta-6-modo-online/)
 
-En los próximos días publicaremos las guías con el juego ya en la mano: controles, cómo ganar dinero, misiones, mejores coches y trofeos.
+Iremos ampliando todas estas guías con lo que descubran los jugadores.
 
 ## Sin spoilers, por favor
 
