@@ -1,54 +1,74 @@
 ---
-title: "Trucos de GTA 6: ¿tendrá claves en PS5 y Xbox? Lo que sabemos"
-description: "Rockstar no ha confirmado trucos para GTA 6 y las listas que circulan son inventadas. Te contamos qué sabemos, cómo funcionaban en GTA 5 y qué esperar."
+title: "Trucos de GTA 6: todas las claves de PS5 y Xbox y cómo desbloquearlas"
+description: "GTA 6 tiene 61 trucos, pero solo se activan tras acabar la historia y superar el reto de cada uno. Cómo se usan, los códigos confirmados y qué desactivan."
 date: 2026-10-11T17:31:00+02:00
-updated: 2026-10-11T17:31:00+02:00
+updated: 2026-11-19T08:05:00+01:00
 category: trucos
-tags: [trucos, claves, ps5, xbox, gta-5]
+tags: [trucos, claves, ps5, xbox]
 image: /img/oficial/jason-y-lucia-7.webp
 imageAlt: "Jason y Lucía, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
-  - name: "GTA BOOM: trucos de GTA 6 (sin confirmar por Rockstar)"
-    url: "https://www.gtaboom.com/gta-6-cheats-9nd6"
+  - name: "GamesRadar+: todos los trucos de GTA 6 y cómo usarlos"
+    url: "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/"
+  - name: "Vandal: olvídate de usar trucos nada más empezar GTA 6 (18/11/2026)"
+    url: "https://vandal.elespanol.com/noticia/2026322032/olvidate-de-usar-trucos-nada-mas-empezar-gta-6-rockstar-ha-cambiado-la-forma-de-usarlos/"
 ---
 
-<!-- ACTUALIZAR EL DÍA DE LANZAMIENTO: si el juego tiene trucos, cambiar el título a "Trucos de GTA 6: todas las claves para PS5 y Xbox", añadir cómo se activan y las tablas (salud/armadura/búsqueda, armas, vehículos, clima y otros) con columnas PS5 y Xbox Series, y comprobar si bloquean trofeos y guardado. VÍDEO: uno que muestre cómo se introducen, en el minuto exacto. -->
+**Sí, GTA 6 tiene trucos: 61, según GamesRadar+.** Pero cambian mucho respecto a GTA 5: **no funcionan hasta que terminas la historia** de Jason y Lucía, y cada uno se desbloquea **cumpliendo un reto** por Leonida, según Vandal y GamesRadar+.
 
-**Rockstar no ha confirmado que GTA 6 tenga trucos.** Si buscas «trucos GTA 6», vas a encontrar páginas con listas completas de combinaciones de botones, pero **son inventadas**: nadie ha jugado todavía a la versión final, y Rockstar no ha enseñado ningún truco.
+Aquí tienes cómo se activan y los códigos ya confirmados. La lista completa de los 61, con el reto de cada uno, está en [GTA 6 tiene 61 trucos: así se desbloquean y activan](/noticias/gta-6-tiene-61-trucos-asi-se-desbloquean-y-activan/).
 
-Aquí tienes lo que sí se sabe, cómo funcionaban en entregas anteriores y lo que cabe esperar. En cuanto salga el juego, el **19 de noviembre**, actualizaremos esta página con las claves reales, si las hay.
+## Lo esencial
 
-## ¿Tendrá trucos GTA 6?
+- **Cuántos:** 61, en cinco grupos: jugador, combate, entorno, vehículos y filtros de pantalla.
+- **Cuándo:** solo **después de acabar la historia principal**. Antes no funcionan, aunque sepas el código.
+- **Cómo se consiguen:** cada truco va unido a un reto (pescar, meditar, galerías de tiro, carreras, coleccionables…). Al superarlo, aparece su código.
+- **El precio:** con un truco activo, **los trofeos y logros se desactivan** durante esa sesión y **no puedes guardar**.
+- **Pendiente:** Rockstar no ha aclarado si un código funciona aunque no hayas superado su reto.
 
-No está confirmado, pero hay buenas razones para pensar que sí: **todos los GTA principales han tenido trucos**, desde GTA III hasta GTA 5. Lo que no sabemos es cómo se activarán ni qué permitirán.
+## Cómo se activan
 
-Una duda razonable es si encajan con el nuevo sistema de policía, que tiene en cuenta testigos y cámaras: un truco para quitar las estrellas tendría que borrar también lo que la policía sabe de ti. Lo explicamos en [las seis estrellas y el sistema de Heat](/guias/gta-6-jugabilidad-todo-lo-confirmado/).
+1. **Termina todas las misiones principales.**
+2. Abre el **menú de pausa** y ve a la pestaña **Progreso** (con R1 en PS5 o RB en Xbox). Ahí aparece la opción de **Trucos**, con los que tienes desbloqueados.
+3. Ya en el juego, pulsa **arriba en la cruceta** para sacar el móvil.
+4. **Mantén L1 y R1 (LB y RB en Xbox)** a la vez y mete el código con la cruceta.
 
-## Cómo funcionaban los trucos en GTA 5
+Si vas a por el platino, no actives trucos en la partida con la que juegas: mira antes la [lista de trofeos](/guias/gta-6-trofeos-logros/).
 
-- **Combinaciones de botones:** se introducían con el mando durante la partida y el efecto era inmediato.
-- **Números de teléfono:** desde las versiones de PS4 y Xbox One también se podían marcar en el móvil del juego.
-- **Solo en el modo historia:** no funcionaban en GTA Online.
-- **Trofeos y logros:** usar un truco los desactivaba durante esa sesión de juego.
+## Los códigos confirmados
 
-Había trucos de salud y armadura, armas, vehículos (desde un avión de acrobacias hasta un camión de la basura), bajar el nivel de búsqueda, cambiar el clima o la gravedad, y otros más curiosos, como la cámara lenta al apuntar. Lo que **nunca** tuvo GTA 5 fue un truco de dinero.
+Los códigos se leen así: ↑ arriba, → derecha, ↓ abajo, ← izquierda. Son los mismos en PS5 y Xbox.
 
-## Cuidado con las listas falsas y los «generadores»
+| Truco | Qué hace | Reto para desbloquearlo | Código |
+|---|---|---|---|
+| 250.000 $ | Te da 250.000 dólares | Acabar la historia | ↑ → ↓ ← ↑ ← ↓ → |
+| Unlimited Focus | El enfoque no se agota | Acabar la historia | ↓ ↑ ↑ ↓ ↑ ↓ ↑ ↓ ↑ → |
+| Body Armor | Chaleco antibalas | 100 entrenamientos | ↓ ↑ ← ↑ ↑ ↑ ↑ ↑ ↓ ↓ |
+| Raise Heat Level | Sube el nivel de calor en todo el mapa | Escapar 25 veces de una búsqueda de 3 estrellas | ← ↓ → ↓ ↑ ↓ ↑ |
+| Raise Wanted Level | Sube tu nivel de búsqueda | Escapar 50 veces de una búsqueda de 3 estrellas | ← ↓ → ↓ ↑ → ↑ |
+| Max Ammo | Munición completa | 25 medallas de bronce en galerías de tiro | ↓ ↑ → ↓ ← ← ↑ ↑ ↓ ← |
+| Infinite Ammo | Munición infinita | 25 medallas de plata | ↓ ↑ → ↓ ← ← ↑ ↓ ↓ ↓ |
+| No Reload | Sin recargar | 25 medallas de oro | ↓ ↑ → ↓ ← ← ↑ ↓ ↓ ↑ |
+| Attack Force | Los disparos y golpes lanzan por los aires | Acabar la historia | ↓ ↑ ← ← → ↓ ↓ ↑ ↓ |
+| Exploding Balls | Las pelotas explotan | Alcanzar a 20 enemigos con explosivos | ↓ ↑ ← ← → ↓ ↓ ↑ → |
+| Vehicle Force | Los choques lanzan por los aires | Atropellar a 25 enemigos o peatones | ↓ ↑ ← ← → ↓ ← ↑ ↓ |
+| Cycle Weather | Cambia el clima | Descubrir todo el mapa | ↓ → ↑ ↓ → ↑ → |
+| Maibatsu Boomazoom | Hace aparecer este vehículo | 5 retos de compras | ← ↑ → ↓ ← ← ↑ ← |
+| MTL Pumper | Hace aparecer este vehículo | Descubrirlo en el menú Progreso | ← ↑ → ↓ ← → → ↑ |
+| HVY Bulldozer | Hace aparecer una excavadora | Descubrirla en el menú Progreso | ← ↑ → ↓ ← → → ↓ |
+| Cataclysm (filtro) | Humo en todo el mundo | Descubrir Martha's Vamos en el menú Progreso | ↓ ↓ ↑ → → ↑ ← ← → → |
+| Dollhouse (filtro) | Colores vivos en formato estrecho | 8 horas con tu pareja | ↓ ↓ ↑ → → ↑ ← ← ↓ → |
+| Faded Glory (filtro) | Imagen de tele antigua en color | Robar 50 tiendas con tu pareja | ↓ ↓ ↑ → → ↑ ← ← ← → |
 
-- Desconfía de cualquier página que dé una lista «completa» de trucos de GTA 6 antes del lanzamiento.
-- No existen generadores de dinero ni descargas que desbloqueen trucos. Si una web te pide instalar algo o iniciar sesión con tu cuenta de PlayStation o Xbox, es una estafa.
+*Códigos y retos según GamesRadar+, que avisa de que su lista está en construcción. Los nombres van en inglés, como los publica; en el juego en español pueden aparecer traducidos. Ojo con los que empiezan igual: un solo botón al final cambia el truco.*
 
-## ¿Hay trucos para conseguir dinero?
+El resto de códigos se irán conociendo a medida que los jugadores acaben la historia y superen los retos. Los añadiremos aquí.
 
-En GTA 5 no los había, y no hay nada que indique que vaya a cambiar. En GTA 6, además, el dinero tiene más peso: según Rockstar, habrá momentos de la historia en los que **tendrás que reunir dinero para avanzar**. Te lo contamos en [el dinero en GTA 6](/guias/gta-6-jugabilidad-todo-lo-confirmado/).
+## ¿Por qué no hay trucos desde el principio?
 
-<!-- RELLENAR EL DÍA DE LANZAMIENTO:
-## Cómo activar los trucos
-## Trucos de salud, armadura y nivel de búsqueda (tabla Efecto | PS5 | Xbox Series)
-## Trucos de armas
-## Trucos de vehículos
-## Trucos de clima, gravedad y otros
-**¿Los trucos desactivan los trofeos?** -->
+Rockstar no lo ha explicado. Vandal lo relaciona con el tono más serio de esta entrega: los trucos pasan a ser un premio de final de partida, no un atajo. Y como la historia dura unas 65 horas según su análisis ([cuánto dura GTA 6](/guias/gta-6-cuanto-dura/)), tardarás en poder usarlos.
 
-Mientras llega el juego, prepárate con [qué hacer antes del lanzamiento](/guias/gta-6-checklist-lanzamiento/) y repasa [todo lo que sabemos de GTA 6](/guias/gta-6-todo-lo-que-sabemos/).
+## Ojo con las listas falsas
+
+Antes del lanzamiento circularon listas de trucos inventadas, con combinaciones al estilo de GTA 5. Si un código no aparece en el menú Progreso de tu partida, no te fíes.
