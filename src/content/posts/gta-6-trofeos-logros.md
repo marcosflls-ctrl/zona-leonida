@@ -2,13 +2,15 @@
 title: "Trofeos de GTA 6: lista completa y guía del platino"
 description: "GTA 6 tiene 55 trofeos en PS5 con platino y 54 logros en Xbox que suman 1.000 G. La lista completa traducida, los ocultos sin spoilers y qué piden para el 100 %."
 date: 2026-11-18T15:20:00+01:00
-updated: 2026-11-19T03:04:10+00:00
+updated: 2026-11-19T13:04:11+00:00
 category: guias
 tags: [trofeos, logros, platino, ps5, xbox]
 image: /img/oficial/lucia-caminos-2.webp
 imageAlt: "Lucía Caminos, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
+  - name: "YouTube: Trofeo «Capital Offense»: atraviesa un escaparate con el Banshee azul"
+    url: "https://www.youtube.com/watch?v=tsWwtBxLY5g"
   - name: "YouTube: Polígonos de tiro: 42 medallas de oro y trofeo The Shootist"
     url: "https://www.youtube.com/watch?v=PPlSEsECToo"
   - name: "YouTube: Retail Therapy (bronce): robar 3 tiendas seguidas con tu compañero"
@@ -28,6 +30,19 @@ sources:
 Los nombres van en inglés, como los ha publicado la prensa. En la versión española del juego pueden aparecer traducidos.
 
 ## Últimos descubrimientos
+
+### Trofeo «Capital Offense»: atraviesa un escaparate con el Banshee azul
+
+**Capital Offense** (bronce): sal de un concesionario a lo grande atravesando su escaparate.
+
+- **Requisito:** tener el Clonador de llaves, que se obtiene en la misión del capítulo 3 «Clonin' Keys, Makin' Gs» (robar el Zorrusso para Randy).
+- **Dónde:** el concesionario del sur de Vice City.
+- **Cómo:** roba el **Banshee azul** de ese concesionario (solo ese coche cuenta), hackéalo, acelera recto y atraviesa el escaparate.
+- **Desbloqueo:** el trofeo salta con un ligero retraso; aléjate un poco por la calle para que aparezca.
+
+<figure class="yt-guia" data-id="tsWwtBxLY5g" data-autor="PowerPyx"></figure>
+
+*Descubierto por PowerPyx en [YouTube](https://www.youtube.com/watch?v=tsWwtBxLY5g) · 19 de noviembre · ✅ Comprobado*
 
 ### Polígonos de tiro: 42 medallas de oro y trofeo The Shootist
 
