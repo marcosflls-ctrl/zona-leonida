@@ -2,13 +2,15 @@
 title: "Trofeos de GTA 6: lista completa y guía del platino"
 description: "GTA 6 tiene 55 trofeos en PS5 con platino y 54 logros en Xbox que suman 1.000 G. La lista completa traducida, los ocultos sin spoilers y qué piden para el 100 %."
 date: 2026-11-18T15:20:00+01:00
-updated: 2026-11-18T19:04:51+00:00
+updated: 2026-11-19T02:04:02+00:00
 category: guias
 tags: [trofeos, logros, platino, ps5, xbox]
 image: /img/oficial/lucia-caminos-2.webp
 imageAlt: "Lucía Caminos, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
+  - name: "YouTube: Retail Therapy (bronce): robar 3 tiendas seguidas con tu compañero"
+    url: "https://www.youtube.com/watch?v=hW5O_aLj-lY"
   - name: "YouTube: Robar un tanque en Mile Zero Air Station (trofeo Challenging Tank)"
     url: "https://www.youtube.com/watch?v=rmyoDvxiLMw"
   - name: "YouTube: Catch Me If You Can: cómo robar un avión en el VCIA"
@@ -24,6 +26,20 @@ sources:
 Los nombres van en inglés, como los ha publicado la prensa. En la versión española del juego pueden aparecer traducidos.
 
 ## Últimos descubrimientos
+
+### Retail Therapy (bronce): robar 3 tiendas seguidas con tu compañero
+
+**Retail Therapy** (bronce) se consigue robando 3 tiendas seguidas con tu compañero sin perder el nivel de búsqueda.
+
+- Solo puedes empezar tras completar la misión principal «Coffee Break» (capítulo 2), cuando ya puedes cambiar entre los dos personajes.
+- Equípate con chaleco blindado, bombas adhesivas (compradas en Ammu-Nation) y Zombix o Adrenaline para curarte.
+- Mantén el nivel de búsqueda azul y rojo parpadeante, no el de calor rojo.
+- Roba 3 tiendas seguidas, llevándote varios artículos de cada una. Si puedes, revienta la caja fuerte de la trastienda con bombas adhesivas.
+- Si no se desbloquea, roba una cuarta tienda. El trofeo aparece con retraso, poco después de salir de la tercera.
+
+<figure class="yt-guia" data-id="hW5O_aLj-lY" data-autor="PowerPyx"></figure>
+
+*Descubierto por PowerPyx en [YouTube](https://www.youtube.com/watch?v=hW5O_aLj-lY) · 19 de noviembre · ✅ Comprobado*
 
 ### Robar un tanque en Mile Zero Air Station (trofeo Challenging Tank)
 
