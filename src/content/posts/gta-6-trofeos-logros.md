@@ -2,13 +2,15 @@
 title: "Trofeos de GTA 6: lista completa y guía del platino"
 description: "GTA 6 tiene 55 trofeos en PS5 con platino y 54 logros en Xbox que suman 1.000 G. La lista completa traducida, los ocultos sin spoilers y qué piden para el 100 %."
 date: 2026-11-18T15:20:00+01:00
-updated: 2026-11-20T03:03:29+00:00
+updated: 2026-11-20T14:04:11+00:00
 category: guias
 tags: [trofeos, logros, platino, ps5, xbox]
 image: /img/oficial/lucia-caminos-2.webp
 imageAlt: "Lucía Caminos, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
+  - name: "YouTube: Trofeo «Bad Luck, I Guess» (bronce): cómo conseguirlo"
+    url: "https://www.youtube.com/watch?v=N5chdGZVzGQ"
   - name: "YouTube: Ten Pin: atropella a 10 peatones en moto o bici en 60 s"
     url: "https://www.youtube.com/watch?v=KMbw-uobKrk"
   - name: "YouTube: Sneakthief: robar una joyería sin ser detectado"
@@ -36,6 +38,22 @@ sources:
 Los nombres van en inglés, como los ha publicado la prensa. En la versión española del juego pueden aparecer traducidos.
 
 ## Últimos descubrimientos
+
+### Trofeo «Bad Luck, I Guess» (bronce): cómo conseguirlo
+
+**Bad Luck, I Guess** (bronce) se consigue repitiendo más adelante el atraco a la tienda de Payday Loans del prólogo.
+
+- **Requisito:** completar el Capítulo 3, misión «Credit Check» (Conoce a la banda de Raúl), que desbloquea los atracos a Payday Loans.
+- Ve a la tienda de Payday Loans en Vice City - Little Cuba.
+- Entra solo con Lucía, sin Jason.
+- Apunta al cajero; la seguridad empezará a disparar. Elimínala.
+- Rompe la puerta y roba el dinero de los 3 cajones.
+- Huye **a pie**. Si escapas en vehículo, el trofeo no se desbloquea.
+- Aléjate lo suficiente de la zona de búsqueda policial. El trofeo se desbloquea con retraso.
+
+<figure class="yt-guia" data-id="N5chdGZVzGQ" data-autor="PowerPyx"></figure>
+
+*Descubierto por PowerPyx en [YouTube](https://www.youtube.com/watch?v=N5chdGZVzGQ) · 20 de noviembre · ✅ Comprobado*
 
 ### Ten Pin: atropella a 10 peatones en moto o bici en 60 s
 
