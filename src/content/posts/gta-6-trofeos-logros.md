@@ -2,13 +2,15 @@
 title: "Trofeos de GTA 6: lista completa y guía del platino"
 description: "GTA 6 tiene 55 trofeos en PS5 con platino y 54 logros en Xbox que suman 1.000 G. La lista completa traducida, los ocultos sin spoilers y qué piden para el 100 %."
 date: 2026-11-18T15:20:00+01:00
-updated: 2026-11-19T17:05:21+00:00
+updated: 2026-11-20T03:03:29+00:00
 category: guias
 tags: [trofeos, logros, platino, ps5, xbox]
 image: /img/oficial/lucia-caminos-2.webp
 imageAlt: "Lucía Caminos, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
+  - name: "YouTube: Ten Pin: atropella a 10 peatones en moto o bici en 60 s"
+    url: "https://www.youtube.com/watch?v=KMbw-uobKrk"
   - name: "YouTube: Sneakthief: robar una joyería sin ser detectado"
     url: "https://www.youtube.com/watch?v=Rpf46vovV8k"
   - name: "YouTube: Trofeo «In The Beginning…»: bebe un cóctel con vista a Ocean Beach"
@@ -34,6 +36,16 @@ sources:
 Los nombres van en inglés, como los ha publicado la prensa. En la versión española del juego pueden aparecer traducidos.
 
 ## Últimos descubrimientos
+
+### Ten Pin: atropella a 10 peatones en moto o bici en 60 s
+
+**Ten Pin** (bronce) se consigue con un *melee drive-by*: conduce cualquier moto o bicicleta y golpea a 10 peatones con el botón cuadrado (PS5) en un máximo de 60 segundos.
+
+Para hacerlo más rápido, busca zonas con mucha gente, como Vice City u Ocean Beach.
+
+<figure class="yt-guia" data-id="KMbw-uobKrk" data-autor="PowerPyx"></figure>
+
+*Descubierto por PowerPyx en [YouTube](https://www.youtube.com/watch?v=KMbw-uobKrk) · 20 de noviembre · ⚠️ Sin comprobar*
 
 ### Sneakthief: robar una joyería sin ser detectado
 
