@@ -2,13 +2,15 @@
 title: "Trucos de GTA 6: todas las claves de PS5 y Xbox y cómo desbloquearlas"
 description: "GTA 6 tiene 61 trucos, pero solo se activan tras acabar la historia y superar el reto de cada uno. Cómo se usan, los códigos confirmados y qué desactivan."
 date: 2026-10-11T17:31:00+02:00
-updated: 2026-11-19T08:05:00+01:00
+updated: 2026-11-20T16:04:07+00:00
 category: trucos
 tags: [trucos, claves, ps5, xbox]
 image: /img/oficial/jason-y-lucia-7.webp
 imageAlt: "Jason y Lucía, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
+  - name: "YouTube: Modo primera persona mediante fallo de cámara (PS5 y Xbox)"
+    url: "https://www.youtube.com/watch?v=MVBOE2aAY_g"
   - name: "GamesRadar+: todos los trucos de GTA 6 y cómo usarlos"
     url: "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/"
   - name: "Vandal: olvídate de usar trucos nada más empezar GTA 6 (18/11/2026)"
@@ -18,6 +20,28 @@ sources:
 **Sí, GTA 6 tiene trucos: 61, según GamesRadar+.** Pero cambian mucho respecto a GTA 5: **no funcionan hasta que terminas la historia** de Jason y Lucía, y cada uno se desbloquea **cumpliendo un reto** por Leonida, según Vandal y GamesRadar+.
 
 Aquí tienes cómo se activan y los códigos ya confirmados. La lista completa de los 61, con el reto de cada uno, está en [GTA 6 tiene 61 trucos: así se desbloquean y activan](/noticias/gta-6-tiene-61-trucos-asi-se-desbloquean-y-activan/).
+
+## Últimos descubrimientos
+
+<!-- El robot añade aquí lo que descubre la comunidad, lo más nuevo arriba. Revisa y pasa a su sección lo que se confirme. -->
+
+### Modo primera persona mediante fallo de cámara (PS5 y Xbox)
+
+Un fallo de cámara permite activar un modo de primera persona en PS5 y Xbox. Pasos:
+
+1. Entra en el menú de **Ajustes**.
+2. Usa los parachoques para ir a la pestaña **Controles**.
+3. Baja hasta el botón del **panel táctil** (PS5) o el botón **Ver** (Xbox).
+4. Cámbialo de **Mapa** a **Cámara**.
+5. Súbete a un coche.
+6. Abre el móvil con la cruceta.
+7. Guárdalo con el botón círculo o B mientras pulsas repetidamente **Cámara**.
+
+Repite el proceso hasta que se active la primera persona. Al tratarse de un fallo, una actualización podría corregirlo.
+
+<figure class="yt-guia" data-id="MVBOE2aAY_g" data-autor="IGN"></figure>
+
+*Descubierto por IGN en [YouTube](https://www.youtube.com/watch?v=MVBOE2aAY_g) · 20 de noviembre · ⚠️ Sin comprobar*
 
 ## Lo esencial
 

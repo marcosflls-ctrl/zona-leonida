@@ -2,13 +2,15 @@
 title: "Trofeos de GTA 6: lista completa y guía del platino"
 description: "GTA 6 tiene 55 trofeos en PS5 con platino y 54 logros en Xbox que suman 1.000 G. La lista completa traducida, los ocultos sin spoilers y qué piden para el 100 %."
 date: 2026-11-18T15:20:00+01:00
-updated: 2026-11-20T14:04:11+00:00
+updated: 2026-11-20T16:03:59+00:00
 category: guias
 tags: [trofeos, logros, platino, ps5, xbox]
 image: /img/oficial/lucia-caminos-2.webp
 imageAlt: "Lucía Caminos, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
+  - name: "YouTube: Let's Go Bowling: robar los 3 objetos de Kingpin Bowling"
+    url: "https://www.youtube.com/watch?v=MQP7zzd5KGo"
   - name: "YouTube: Trofeo «Bad Luck, I Guess» (bronce): cómo conseguirlo"
     url: "https://www.youtube.com/watch?v=N5chdGZVzGQ"
   - name: "YouTube: Ten Pin: atropella a 10 peatones en moto o bici en 60 s"
@@ -38,6 +40,21 @@ sources:
 Los nombres van en inglés, como los ha publicado la prensa. En la versión española del juego pueden aparecer traducidos.
 
 ## Últimos descubrimientos
+
+### Let's Go Bowling: robar los 3 objetos de Kingpin Bowling
+
+**Let's Go Bowling** (bronce) se consigue robando los 3 objetos clave de Kingpin Bowling, una de las Operaciones de bandas de Port Gellhorn.
+
+- **Dónde y cuándo:** durante el Capítulo 2, en la misión opcional de Kingpin Bowling. El lugar se marca automáticamente.
+- **Reloj de lujo:** en la oficina del sureste (icono dorado).
+- **Escopeta única "Gutterball Moreland 850":** en la mesa de la esquina noreste (icono dorado).
+- **Caja fuerte:** en el pasillo noreste. Puedes introducir el código 0300 o volarla con explosivos adhesivos.
+
+El trofeo se desbloquea al escapar de la policía, no al recoger el tercer objeto. No hace falta matar enemigos. Si no robas los tres en la misión, puedes volver cuando reaparezca el icono del robo (tarda bastante) y llevarte lo que falte. No es un trofeo que se pueda perder.
+
+<figure class="yt-guia" data-id="MQP7zzd5KGo" data-autor="PowerPyx"></figure>
+
+*Descubierto por PowerPyx en [YouTube](https://www.youtube.com/watch?v=MQP7zzd5KGo) · 20 de noviembre · ✅ Comprobado*
 
 ### Trofeo «Bad Luck, I Guess» (bronce): cómo conseguirlo
 
