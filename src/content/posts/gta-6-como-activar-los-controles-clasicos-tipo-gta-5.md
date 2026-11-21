@@ -15,7 +15,7 @@ sources:
 
 Si llevas años jugando a GTA 5 y los dedos se te van solos al botón de siempre, GTA 6 tiene solución. Según explica GamesRadar, el juego incluye un esquema de controles Clásico que puedes activar desde el menú de ajustes y que acerca el manejo al de la entrega anterior.
 
-Han pasado 13 años desde GTA 5, y el esquema por defecto de GTA 6 cambia varias cosas básicas. Ya contamos que [el sprint pasa a L3](/noticias/gta-6-cambia-el-sprint-ahora-se-corre-con-l3/). Aquí te explicamos cómo volver al esquema anterior y qué más puedes ajustar.
+Han pasado 13 años desde GTA 5, y el esquema por defecto de GTA 6 cambia varias cosas básicas. Ya contamos que [el sprint pasa a L3](/guias/gta-6-jugabilidad-todo-lo-confirmado/). Aquí te explicamos cómo volver al esquema anterior y qué más puedes ajustar.
 
 ## Cómo activar los controles clásicos en GTA 6
 

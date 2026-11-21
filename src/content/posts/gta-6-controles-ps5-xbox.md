@@ -98,7 +98,7 @@ El cambio de personaje se desbloquea en el **capítulo 2**, según GamesRadar+. 
 | Centrarte en tu pareja (si estáis juntos) | L2 | LT |
 | Órdenes: conducir, separarse, atracos | Mantener cruceta derecha | Mantener cruceta derecha |
 
-Si la foto de tu pareja aparece oscurecida, está ocupada y no puedes cambiar en ese momento. Las misiones marcadas con una **J** o una **L** en el mapa son solo de ese personaje. Más detalles en [cómo cambiar entre Jason y Lucía y darle órdenes](/noticias/gta-6-como-cambiar-entre-jason-y-lucia-y-dar-ordenes/).
+Si la foto de tu pareja aparece oscurecida, está ocupada y no puedes cambiar en ese momento. Las misiones marcadas con una **J** o una **L** en el mapa son solo de ese personaje. Más detalles en [cómo cambiar entre Jason y Lucía y darle órdenes](/guias/gta-6-como-cambiar-entre-jason-y-lucia-y-dar-ordenes/).
 
 ## El esquema Clásico
 

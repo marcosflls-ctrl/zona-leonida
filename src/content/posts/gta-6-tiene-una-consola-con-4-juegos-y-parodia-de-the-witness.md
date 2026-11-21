@@ -52,6 +52,6 @@ Nelson se ha pronunciado sobre la parodia de *The Witness*, el juego de Jonathan
 
 Si buscas actividades más allá de las misiones, la Joystation es una más para tu lista. Aparece en distintos momentos de la aventura, así que conviene que estés atento a los lugares donde puedas sentarte a jugar. La fuente no detalla en qué sitios exactos está la consola, y no vamos a inventarlos.
 
-Si te gusta cazar detalles ocultos, tenemos otro artículo con [secretos y easter eggs de GTA 6 que han descubierto los jugadores](/descubrimientos/gta-6-secretos-easter-eggs/). Y si te preguntas qué actividades de entregas anteriores no están, mira por qué [GTA 6 no incluye dardos ni bolera](/noticias/gta-6-no-incluye-dardos-ni-bolera-rockstar-explica-por-que/). Para el panorama completo del juego, tienes [todo lo que sabemos de GTA 6](/guias/gta-6-todo-lo-que-sabemos/).
+Si te gusta cazar detalles ocultos, tenemos otro artículo con [secretos y easter eggs de GTA 6 que han descubierto los jugadores](/descubrimientos/gta-6-secretos-easter-eggs/). Y si te preguntas qué actividades de entregas anteriores no están, mira por qué [GTA 6 no incluye dardos ni bolera](/guias/gta-6-jugabilidad-todo-lo-confirmado/). Para el panorama completo del juego, tienes [todo lo que sabemos de GTA 6](/guias/gta-6-todo-lo-que-sabemos/).
 
 Queda por saber cuánto dura cada uno de los cuatro juegos y dónde se encuentra cada consola. Rockstar no lo ha detallado en estas declaraciones.

@@ -19,7 +19,7 @@ Rockstar ha publicado el reparto y los créditos completos de GTA VI tras el lan
 
 Rourke, conocido por series como *Grey's Anatomy* y *Trevor and the Virgin*, ha escrito que ha pasado años viendo trabajar de cerca a "los artesanos más trabajadores y con más talento" del sector. Habla de un "testimonio mundial de creatividad, ingenio y pura fuerza de voluntad". Añade un consejo (seguir luchando por lo que te gusta y mantener la humildad) y se despide con un "nos vemos en Leonida".
 
-Su mensaje llega después de que ya conocieras su papel. Lo contamos en [Dylan Rourke es Jason y posa con Manni L. Perez](/noticias/gta-6-dylan-rourke-es-jason-y-posa-con-manni-l-perez/). Lo nuevo ahora es el reparto completo, que antes no estaba disponible.
+Su mensaje llega después de que ya conocieras su papel. Lo contamos en [Dylan Rourke es Jason y posa con Manni L. Perez](/guias/gta-6-personajes/). Lo nuevo ahora es el reparto completo, que antes no estaba disponible.
 
 ## El reparto principal, según los créditos
 

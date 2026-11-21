@@ -34,7 +34,7 @@ Según Vandal, el récord de ingresos en el entretenimiento lo tenía *Vengadore
 
 Conviene leer la comparación con calma. La película acumuló su taquilla durante meses y el videojuego mide sus ingresos "hasta el momento". Aun así, el dato deja claro el tamaño del lanzamiento.
 
-La cifra también supera las previsiones de la consultora Sensor Tower. Poco antes, esta firma estimaba 24,5 millones de unidades entre las reservas y el día de estreno. Es el cálculo que contamos en [GTA 6 habría vendido 24,58 millones de copias el primer día](/noticias/gta-6-habria-vendido-24-58-millones-de-copias-el-primer-dia/). La cifra oficial queda unos 8 millones por encima.
+La cifra también supera las previsiones de la consultora Sensor Tower. Poco antes, esta firma estimaba 24,5 millones de unidades entre las reservas y el día de estreno. La cifra oficial queda unos 8 millones por encima.
 
 ## La reacción de Rockstar y de la crítica
 

@@ -278,7 +278,7 @@ Son 15. Varios dan pistas de la historia, así que están escondidos: ábrelos s
 
 **¿Hay que jugar online?** No. GTA 6 sale sin modo online y ningún trofeo lo pide.
 
-**¿Los trucos bloquean los trofeos?** Aún no lo sabemos para GTA 6. En GTA 5, usar un truco desactivaba los trofeos y logros durante esa sesión. Según la prensa, en GTA 6 los trucos solo llegan tras acabar la historia: lo tienes en [esta noticia](/noticias/gta-6-los-trucos-solo-llegan-tras-acabar-la-historia/).
+**¿Los trucos bloquean los trofeos?** Aún no lo sabemos para GTA 6. En GTA 5, usar un truco desactivaba los trofeos y logros durante esa sesión. Según la prensa, en GTA 6 los trucos solo llegan tras acabar la historia: lo tienes en [esta noticia](/trucos/gta-6-trucos-claves-ps5-xbox/).
 
 **¿La lista es la misma en PS5 y en Xbox?** Sí, salvo el platino, que es solo de PlayStation.
 

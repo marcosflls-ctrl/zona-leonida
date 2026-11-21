@@ -46,6 +46,6 @@ IGN también habló con Twitch antes del estreno. Mary Kish, responsable de mark
 
 ## Qué significa para ti
 
-Si te gusta ver a otros jugar, hay muchísimo contenido en directo y en diferido, en español y en otros idiomas, porque la audiencia es enorme en todas las plataformas. Los números también confirman el tirón del juego fuera de las consolas. Ya contamos otro récord del estreno en [GTA 6 bate récords: 33,03 Tbit/s y 7,91 M de espectadores](/noticias/gta-6-bate-records-33-03-tbit-s-y-7-91-m-de-espectadores/).
+Si te gusta ver a otros jugar, hay muchísimo contenido en directo y en diferido, en español y en otros idiomas, porque la audiencia es enorme en todas las plataformas. Los números también confirman el tirón del juego fuera de las consolas. Ya contamos otro récord del estreno en [GTA 6 bate récords: 33,03 Tbit/s y 7,91 M de espectadores](/noticias/gta-6-vende-32-5-millones-y-supera-a-endgame-en-ingresos/).
 
 Las cifras proceden de herramientas de medición de terceros, y por eso Streamlabs y Streamscharts no dan exactamente los mismos totales: cada una rastrea un conjunto distinto de plataformas. Rockstar no ha publicado datos propios de audiencia en streaming. Para empezar a jugar con buen pie, tienes la guía [GTA 6: todo lo que sabemos](/guias/gta-6-todo-lo-que-sabemos/).

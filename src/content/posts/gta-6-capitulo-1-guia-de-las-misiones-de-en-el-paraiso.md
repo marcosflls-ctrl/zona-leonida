@@ -52,7 +52,7 @@ Meristation añade tres consejos generales:
 
 La séptima misión empieza en la casa de Jason. Primero ayudas a Cal a mover los muebles. Después enciende su consola, una JoySystem. Juegas una partida corta a *Tenebrae Lux*, de puzles, y luego a *Street Trash III: Dezombifier*, un shooter de doble stick contra hordas de zombis.
 
-Al terminar la misión, la JoySystem queda desbloqueada en la casa de Jason. Podrás jugar a *Street Trash III: Dezombifier*, *Time Jackers: Rewind* y *Tenebrae Lux* cuando quieras. Si te interesa cómo Rockstar planteó estos juegos dentro del juego, lo contamos en [Rockstar creó un equipo solo para los minijuegos](/noticias/gta-6-rockstar-creo-un-equipo-solo-para-los-minijuegos/).
+Al terminar la misión, la JoySystem queda desbloqueada en la casa de Jason. Podrás jugar a *Street Trash III: Dezombifier*, *Time Jackers: Rewind* y *Tenebrae Lux* cuando quieras. Si te interesa cómo Rockstar planteó estos juegos dentro del juego, lo contamos en [Rockstar creó un equipo solo para los minijuegos](/guias/gta-6-como-se-hizo-desarrollo-retrasos/).
 
 ## Qué hacer antes de que salga Lucía
 

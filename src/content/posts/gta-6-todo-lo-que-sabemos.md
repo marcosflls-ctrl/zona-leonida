@@ -63,7 +63,7 @@ Por primera vez en la era moderna de la saga hay **una protagonista**: [Lucía C
 - **Robar casi cualquier cosa.** Rockstar quiere que se pueda saquear mucho más que en GTA 5, también fuera de las misiones: [robar casi cualquier cosa](/guias/gta-6-jugabilidad-todo-lo-confirmado/).
 - **WAiNK, la app para robar coches de lujo**, que escanea su seguridad y te dice cuánto vale cada uno: [así funciona WAiNK](/guias/gta-6-jugabilidad-todo-lo-confirmado/).
 - **Redes sociales en el juego**, con una parodia de Instagram, aunque Jason y Lucía no publicarán sus golpes: [las redes sociales de GTA 6](/guias/gta-6-jugabilidad-todo-lo-confirmado/).
-- **Radio y pódcast.** Ya hay seis emisoras confirmadas y, por primera vez, pódcast bajo demanda que se escuchan también a pie: [la radio de GTA 6](/noticias/gta-6-presenta-seis-emisoras-de-radio-y-podcast-bajo-demanda/).
+- **Radio y pódcast.** Ya hay seis emisoras confirmadas y, por primera vez, pódcast bajo demanda que se escuchan también a pie: [la radio de GTA 6](/guias/gta-6-radio-emisoras-canciones/).
 - **Coches**: Rockstar ya ha enseñado varios con nombre propio. Tienes la lista en [vehículos confirmados](/guias/gta-6-coches-vehiculos-confirmados/).
 
 ## Rendimiento y técnica

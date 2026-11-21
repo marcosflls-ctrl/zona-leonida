@@ -40,7 +40,7 @@ De las ocasiones con vehículos, GamesRadar solo dice que ocurre en algunos y no
 
 ## ¿Hay algún truco para activarla?
 
-Tampoco. El autor de la guía asegura que lo ha comprobado y que ningún truco te lleva a la primera persona. Si quieres saber cómo funcionan los códigos del juego, consulta [GTA 6 tiene 61 trucos: así se desbloquean y activan](/trucos/gta-6-tiene-61-trucos-asi-se-desbloquean-y-activan/). Y recuerda que, según nuestro artículo sobre [cuándo llegan los trucos](/noticias/gta-6-los-trucos-solo-llegan-tras-acabar-la-historia/), solo se habilitan tras acabar la historia.
+Tampoco. El autor de la guía asegura que lo ha comprobado y que ningún truco te lleva a la primera persona. Si quieres saber cómo funcionan los códigos del juego, consulta [GTA 6 tiene 61 trucos: así se desbloquean y activan](/trucos/gta-6-tiene-61-trucos-asi-se-desbloquean-y-activan/). Y recuerda que, según nuestro artículo sobre [cuándo llegan los trucos](/trucos/gta-6-trucos-claves-ps5-xbox/), solo se habilitan tras acabar la historia.
 
 ## Qué significa para ti
 

@@ -23,7 +23,7 @@ Según IGN, la inmensa mayoría de los jugadores jugará en PS5. Sony ha vendido
 
 Si el presupuesto no importara, el medio elegiría la **PS5 Pro**. Tiene una GPU más potente, mejor trazado de rayos y el escalado PSSR de Sony. Aun así, IGN avisa de que no merece la pena gastar cientos de dólares extra solo por la promesa de más rendimiento en GTA 6. Habla de una imagen más nítida o un rendimiento más estable, no de una experiencia distinta.
 
-Un dato clave: en PS5 Pro el juego añade mejoras de trazado de rayos, pero **no llega a 60 FPS**. Rockstar explicó los motivos, que tienes en [este artículo](/noticias/gta-6-en-ps5-pro-no-tendra-60-fps-rockstar-explica-por-que/). Para el detalle de resolución y fotogramas, mira la [guía de FPS y PS5 Pro](/guias/gta-6-ps5-pro-fps-resolucion/) y nuestra [comparativa gráfica entre consolas](/noticias/gta-6-ps5-pro-lidera-la-comparativa-grafica-entre-consolas/).
+Un dato clave: en PS5 Pro el juego añade mejoras de trazado de rayos, pero **no llega a 60 FPS**. Rockstar explicó los motivos, que tienes en [este artículo](/noticias/gta-6-en-ps5-pro-no-tendra-60-fps-rockstar-explica-por-que/). Para el detalle de resolución y fotogramas, mira la [guía de FPS y PS5 Pro](/guias/gta-6-ps5-pro-fps-resolucion/) y nuestra [comparativa gráfica entre consolas](/noticias/gta-6-digital-foundry-compara-ps5-y-ps5-pro-a-1440p/).
 
 ## Precios en Estados Unidos
 

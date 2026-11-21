@@ -34,7 +34,7 @@ Es una interpretación de la comunidad. Rockstar no ha confirmado qué significa
 
 ## Qué cambia para ti
 
-El guiño no altera nada de la jugabilidad. Sí muestra que Rockstar cuida las referencias a la saga hasta en la ropa de los protagonistas. Si te interesa la relación de la pareja, ya contamos que [será opcional, según Rockstar](/guias/gta-6-jugabilidad-todo-lo-confirmado/). Y si buscas más detalles del avance, repasamos [los secretos del tráiler de lanzamiento según Vandal](/noticias/gta-6-estrena-trailer-de-lanzamiento-con-nuevo-tema-de-justice/).
+El guiño no altera nada de la jugabilidad. Sí muestra que Rockstar cuida las referencias a la saga hasta en la ropa de los protagonistas. Si te interesa la relación de la pareja, ya contamos que [será opcional, según Rockstar](/guias/gta-6-jugabilidad-todo-lo-confirmado/). Y si buscas más detalles del avance, repasamos [los secretos del tráiler de lanzamiento según Vandal](/guias/gta-6-radio-emisoras-canciones/).
 
 HobbyConsolas apunta además un deseo: que este guiño sea el primer paso hacia un recopilatorio o remaster de los dos primeros GTA, que nunca han llegado a los ordenadores y consolas actuales. Es solo una esperanza del medio. Rockstar no ha anunciado nada al respecto.
 
