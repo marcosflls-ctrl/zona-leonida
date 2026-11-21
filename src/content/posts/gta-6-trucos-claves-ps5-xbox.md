@@ -19,7 +19,7 @@ sources:
 
 **Sí, GTA 6 tiene trucos: 61, según GamesRadar+.** Pero cambian mucho respecto a GTA 5: **no funcionan hasta que terminas la historia** de Jason y Lucía, y cada uno se desbloquea **cumpliendo un reto** por Leonida, según Vandal y GamesRadar+.
 
-Aquí tienes cómo se activan y los códigos ya confirmados. La lista completa de los 61, con el reto de cada uno, está en [GTA 6 tiene 61 trucos: así se desbloquean y activan](/noticias/gta-6-tiene-61-trucos-asi-se-desbloquean-y-activan/).
+Aquí tienes cómo se activan y los códigos ya confirmados. La lista completa de los 61, con el reto de cada uno, está en [GTA 6 tiene 61 trucos: así se desbloquean y activan](/trucos/gta-6-trucos-claves-ps5-xbox/).
 
 ## Últimos descubrimientos
 

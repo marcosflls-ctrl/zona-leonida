@@ -46,13 +46,13 @@ Avast señala dos alertas claras:
 
 ## Qué significa para ti como jugador
 
-El uso de «Ultimate Edition» como cebo no sorprende. Es una de las ediciones más buscadas y, según [los datos de reservas](/noticias/gta-6-el-87-de-las-reservas-es-la-edicion-ultimate/), la que más compradores ha atraído. Una tienda falsa que la ofrezca a un precio llamativo puede parecer tentadora.
+El uso de «Ultimate Edition» como cebo no sorprende. Es una de las ediciones más buscadas y, según [los datos de reservas](/guias/gta-6-precio-ediciones-reservas/), la que más compradores ha atraído. Una tienda falsa que la ofrezca a un precio llamativo puede parecer tentadora.
 
 Para moverte con seguridad:
 
 - Consulta qué ediciones existen y dónde comprarlas en nuestra [guía de precio, ediciones y reservas](/guias/gta-6-precio-ediciones-reservas/).
 - Si dudas de un precio, compáralo con los de tiendas conocidas. Una oferta demasiado buena es motivo para desconfiar.
-- Si compras en físico, [así funciona la edición en disco o código](/guias/gta-6-trae-disco-edicion-fisica/). También hemos contado casos de [cajas sin código o con código usado](/noticias/gta-6-reportan-cajas-sin-codigo-o-con-codigo-usado/).
+- Si compras en físico, [así funciona la edición en disco o código](/guias/gta-6-trae-disco-edicion-fisica/). También hemos contado casos de [cajas sin código o con código usado](/guias/gta-6-trae-disco-edicion-fisica/).
 - Si has dejado datos o un pago en una web dudosa, cambia tu contraseña y revisa los movimientos de tu cuenta con tu banco.
 
 ## Qué falta por saber

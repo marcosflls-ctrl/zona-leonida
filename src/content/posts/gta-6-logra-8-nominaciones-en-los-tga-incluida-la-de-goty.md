@@ -38,7 +38,7 @@ Según la lista que publica IGN, ningún otro título suma ocho candidaturas. Co
 
 La nominación a Mejor interpretación tiene un detalle propio. IGN señala que la lista confirma por fin quién da vida a Lucía en el juego: Manni L. Perez, a quien muchos fans ya señalaban. Del otro protagonista, Jason, no hay intérprete entre los nominados.
 
-Ya te contamos el caso de la actriz en [nuestro artículo sobre Manni L. Perez en los TGA](/noticias/gta-6-manni-l-perez-la-actriz-de-lucia-en-los-tga/). Si quieres repasar a la pareja protagonista, tienes sus fichas en [Lucía Caminos](/personajes/lucia-caminos/) y [Jason Duval](/personajes/jason-duval/).
+Ya te contamos el caso de la actriz en [nuestro artículo sobre Manni L. Perez en los TGA](/noticias/gta-6-notas-analisis/). Si quieres repasar a la pareja protagonista, tienes sus fichas en [Lucía Caminos](/personajes/lucia-caminos/) y [Jason Duval](/personajes/jason-duval/).
 
 ## Qué no aparece en la lista
 
@@ -52,4 +52,4 @@ También hay nominaciones fuera de los juegos, como Mejor adaptación (Fallout T
 
 ## Qué significa para ti
 
-Las nominaciones no son premios: tendrás que esperar a la gala del 10 de diciembre para saber si GTA 6 gana alguna estatuilla. Por ahora, la candidatura a Juego del Año coincide con lo que apuntan las casas de apuestas, como contamos en [este artículo sobre las probabilidades de GOTY](/noticias/gta-6-los-apostantes-le-dan-un-89-de-ganar-el-goty/). Si estás empezando, aquí tienes [todo lo que necesitas para arrancar](/noticias/gta-6-ya-disponible/) y el [resumen general del juego](/guias/gta-6-todo-lo-que-sabemos/).
+Las nominaciones no son premios: tendrás que esperar a la gala del 10 de diciembre para saber si GTA 6 gana alguna estatuilla. Por ahora, la candidatura a Juego del Año coincide con lo que apuntan las casas de apuestas, como contamos en [este artículo sobre las probabilidades de GOTY](/noticias/gta-6-notas-analisis/). Si estás empezando, aquí tienes [todo lo que necesitas para arrancar](/noticias/gta-6-ya-disponible/) y el [resumen general del juego](/guias/gta-6-todo-lo-que-sabemos/).

@@ -57,7 +57,7 @@ Desde que Rockstar confirmó que trabajaba en un nuevo GTA hasta el lanzamiento 
 - **18 de agosto.** Empiezan las **filtraciones de Cyberleek**, con vídeos de una versión en desarrollo.
 - **26 de agosto.** Rockstar responde: ver así el juego ha sido «desgarrador para nuestro equipo».
 - **27 de agosto.** Se estrena en Netflix **«Una mirada extendida»**, el avance más largo hasta la fecha. Lo resumimos en [todo lo que se vio](/guias/gta-6-mirada-extendida-todo-lo-que-se-vio/).
-- **Octubre.** Rockstar va soltando detalles del juego (la [policía](/guias/gta-6-jugabilidad-todo-lo-confirmado/), la [radio](/noticias/gta-6-presenta-seis-emisoras-de-radio-y-podcast-bajo-demanda/), el [dinero](/guias/gta-6-jugabilidad-todo-lo-confirmado/)…) y Cyberleek sigue filtrando material, mientras Take-Two lo persigue en los tribunales. Lo explicamos en [por qué no difundimos esas filtraciones](/guias/gta-6-filtraciones-cyberleek-que-ha-pasado/).
+- **Octubre.** Rockstar va soltando detalles del juego (la [policía](/guias/gta-6-jugabilidad-todo-lo-confirmado/), la [radio](/guias/gta-6-radio-emisoras-canciones/), el [dinero](/guias/gta-6-jugabilidad-todo-lo-confirmado/)…) y Cyberleek sigue filtrando material, mientras Take-Two lo persigue en los tribunales. Lo explicamos en [por qué no difundimos esas filtraciones](/guias/gta-6-filtraciones-cyberleek-que-ha-pasado/).
 
 ## Lo que queda
 

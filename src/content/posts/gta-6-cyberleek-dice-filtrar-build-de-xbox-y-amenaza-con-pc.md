@@ -46,6 +46,6 @@ La fuente añade un dato de contexto: otros filtradores de GTA saben ya que Rock
 
 - **Si esperas GTA VI en PC:** no hay nada oficial en esta noticia. Lo que se sabe de esa plataforma está en nuestra guía de [GTA 6 en PC](/guias/gta-6-pc/).
 - **Si no quieres spoilers:** una build completa en circulación significa más material y comentarios por las redes. Si te importa mantener la sorpresa, conviene silenciar etiquetas y palabras clave.
-- **Si quieres entender el historial:** este episodio es la continuación de lo que ya publicamos sobre [la supuesta build de desarrollo de Cyberleek](/noticias/gta-6-cyberleek-afirma-publicar-una-build-de-desarrollo/). El resumen de todo lo ocurrido y nuestra postura están en la guía de [filtraciones y Cyberleek](/guias/gta-6-filtraciones-cyberleek-que-ha-pasado/).
+- **Si quieres entender el historial:** este episodio es la continuación de lo que ya publicamos sobre [la supuesta build de desarrollo de Cyberleek](/guias/gta-6-filtraciones-cyberleek-que-ha-pasado/). El resumen de todo lo ocurrido y nuestra postura están en la guía de [filtraciones y Cyberleek](/guias/gta-6-filtraciones-cyberleek-que-ha-pasado/).
 
 Queda por ver si el 23 de noviembre llega realmente ese ejecutable y si aparece algún port de la comunidad. Mientras tanto, lo único confirmado es lo que publique Rockstar.

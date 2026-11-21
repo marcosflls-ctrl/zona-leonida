@@ -37,7 +37,7 @@ HobbyConsolas cuenta que a Take-Two no le habría hecho gracia y que ya se está
 
 Si buscas un disco de GTA 6 que funcione en tu PS5, estas réplicas no te sirven. Quien las compre estará pagando por un objeto de coleccionista, no por una copia jugable.
 
-La razón de que existan es que GTA 6 será la primera entrega de la saga sin disco. Incluso las ediciones físicas oficiales se limitan a una caja con un código de descarga y un mapa físico de regalo. Tienes todos los detalles en nuestra guía sobre si [GTA 6 trae disco](/guias/gta-6-trae-disco-edicion-fisica/). Sobre el mapa de papel, puedes leer lo que contamos en [este rumor sobre la edición física](/noticias/rumor-gta-6-la-edicion-fisica-traeria-un-mapa-de-leonida/).
+La razón de que existan es que GTA 6 será la primera entrega de la saga sin disco. Incluso las ediciones físicas oficiales se limitan a una caja con un código de descarga y un mapa físico de regalo. Tienes todos los detalles en nuestra guía sobre si [GTA 6 trae disco](/guias/gta-6-trae-disco-edicion-fisica/). Sobre el mapa de papel, puedes leer lo que contamos en [este rumor sobre la edición física](/guias/gta-6-trae-disco-edicion-fisica/).
 
 El precio tampoco se ha movido por esto. Según HobbyConsolas, la edición estándar no llega a los 100 euros y solo la Ultimate lo supera. Para comparar versiones, consulta [precio, ediciones y reservas](/guias/gta-6-precio-ediciones-reservas/) y si [merece la pena la Ultimate](/guias/gta-6-merece-la-pena-edicion-ultimate/).
 

@@ -206,7 +206,7 @@ Microsoft confirmó que GTA 6 se podrá jugar por **Xbox Cloud Gaming** desde el
 
 ### 09:00 · Un directo de 24 horas en YouTube
 
-YouTube emitirá un directo de 24 horas con 31 creadores. Empieza a las **05:00 del jueves** en España. Te lo contamos en [esta noticia](/noticias/gta-6-tendra-un-directo-de-24-horas-en-youtube-el-dia-18/).
+YouTube emitirá un directo de 24 horas con 31 creadores. Empieza a las **05:00 del jueves** en España. Te lo contamos en [esta noticia](/guias/gta-6-campana-marketing-miami-y-fiebre-del-lanzamiento/).
 
 ## Si algo falla
 

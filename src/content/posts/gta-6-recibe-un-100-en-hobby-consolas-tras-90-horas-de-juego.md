@@ -23,7 +23,7 @@ El autor describe Leonida como un mapa de contrastes: Vice City (la versión de 
 
 Su equipo lleva jugando desde el 26 de octubre. Por eso el juego ha entrado en las votaciones del GOTY 2026.
 
-El texto también lo ve como la última gran superproducción de PS5 y el "techo técnico" de la generación actual. Es una opinión del autor, no un dato técnico oficial. Para cifras concretas de rendimiento, tienes nuestra guía sobre [FPS y resolución en PS5 Pro](/guias/gta-6-ps5-pro-fps-resolucion/). La estimación de duración que ya publicamos (50 horas de campaña) queda en perspectiva con este caso. Lo explicamos en [estiman 50 horas de campaña y 200 para el platino](/noticias/gta-6-estiman-50-horas-de-campana-y-200-para-el-platino/) y en la guía de [cuánto dura GTA 6](/guias/gta-6-cuanto-dura/).
+El texto también lo ve como la última gran superproducción de PS5 y el "techo técnico" de la generación actual. Es una opinión del autor, no un dato técnico oficial. Para cifras concretas de rendimiento, tienes nuestra guía sobre [FPS y resolución en PS5 Pro](/guias/gta-6-ps5-pro-fps-resolucion/). La estimación de duración que ya publicamos (50 horas de campaña) queda en perspectiva con este caso. Lo explicamos en [estiman 50 horas de campaña y 200 para el platino](/guias/gta-6-cuanto-dura/) y en la guía de [cuánto dura GTA 6](/guias/gta-6-cuanto-dura/).
 
 ## Cómo está montada la historia
 
@@ -42,7 +42,7 @@ Puedes repasar a los protagonistas y al resto del reparto en nuestra guía de [p
 
 El análisis dice que las "personas desconocidas", que Red Dead Redemption ya introdujo, se explotan aquí todavía más. Son encuentros aleatorios con personajes extravagantes que te cuentan una pequeña historia aparte. El autor dice que tras 90 horas seguía encontrando nuevos y que parecen más que en anteriores juegos de Rockstar. Rockstar no ha dado la cifra total.
 
-Sobre la fauna, el texto habla de más de 170 animales. Para cazar los que se pueden cazar hay que usar armas concretas, no todas valen para todos, y se pueden dañar sus órganos. Si te interesa este apartado, tienes también lo que ya sabíamos de [las 62 aves del diario](/noticias/gta-6-tendra-62-tipos-de-aves-que-registrar-en-un-diario/) y la guía de [animales, clima y huracanes](/guias/gta-6-animales-clima-huracanes/).
+Sobre la fauna, el texto habla de más de 170 animales. Para cazar los que se pueden cazar hay que usar armas concretas, no todas valen para todos, y se pueden dañar sus órganos. Si te interesa este apartado, tienes también lo que ya sabíamos de [las 62 aves del diario](/guias/gta-6-mapa-leonida/) y la guía de [animales, clima y huracanes](/guias/gta-6-animales-clima-huracanes/).
 
 En el tono, el análisis habla de una sátira ácida del mundo actual que toca las redes sociales, las criptomonedas, los vapeadores y las empresas que explotan a sus trabajadores.
 

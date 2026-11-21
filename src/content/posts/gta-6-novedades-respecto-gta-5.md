@@ -67,7 +67,7 @@ El ejercicio cambia la musculatura de los personajes y la comida, su peso. Los p
 
 ## 9. Radio en todas partes y pódcasts
 
-GTA 6 tiene la selección de emisoras más amplia de la saga y, por primera vez, **pódcasts a la carta**. La radio y los pódcasts se pueden escuchar también a pie, con auriculares conectados al móvil. Repasa las emisoras en nuestra [noticia sobre la música de GTA 6](/noticias/gta-6-presenta-seis-emisoras-de-radio-y-podcast-bajo-demanda/).
+GTA 6 tiene la selección de emisoras más amplia de la saga y, por primera vez, **pódcasts a la carta**. La radio y los pódcasts se pueden escuchar también a pie, con auriculares conectados al móvil. Repasa las emisoras en nuestra [noticia sobre la música de GTA 6](/guias/gta-6-radio-emisoras-canciones/).
 
 ## 10. Sin microtransacciones ni IA generativa
 

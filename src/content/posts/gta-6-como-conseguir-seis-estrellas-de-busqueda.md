@@ -40,7 +40,7 @@ Por eso, si lo provocas, prepárate para una escabechina y no esperes salir limp
 
 Existe un truco para subir el nivel de búsqueda, pero West asegura que, por muchas veces que introdujo el código, nunca pasó de cinco estrellas. Para él, esto indica que el juego solo te da las seis cuando de verdad te las has ganado.
 
-Recuerda que los trucos no están disponibles desde el principio. Te explicamos cómo funcionan en [GTA 6 tiene 61 trucos: así se desbloquean y activan](/trucos/gta-6-tiene-61-trucos-asi-se-desbloquean-y-activan/) y por qué [solo llegan tras acabar la historia](/noticias/gta-6-los-trucos-solo-llegan-tras-acabar-la-historia/).
+Recuerda que los trucos no están disponibles desde el principio. Te explicamos cómo funcionan en [GTA 6 tiene 61 trucos: así se desbloquean y activan](/trucos/gta-6-tiene-61-trucos-asi-se-desbloquean-y-activan/) y por qué [solo llegan tras acabar la historia](/trucos/gta-6-trucos-claves-ps5-xbox/).
 
 ## Qué significa para ti
 

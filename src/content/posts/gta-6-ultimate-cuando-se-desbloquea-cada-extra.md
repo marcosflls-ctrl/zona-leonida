@@ -74,6 +74,6 @@ El Capítulo 5 cierra con el **Grotti Cheetah del 95**, un deportivo noventero q
 - **Mucho es cosmético y de personalización:** ropa, tatuajes, peluquería y talleres. Pero también incluye armas, vehículos y un asalto con botín.
 - **Es solo digital.** No hay versión en disco de la Ultimate, a 99,99 euros según la fuente. Para precios en moneda local en México, Colombia, Argentina y Chile, consulta nuestra [guía de precios en Latinoamérica](/guias/gta-6-precio-latinoamerica/).
 
-La Ultimate ya era la opción dominante: [el 87 % de las reservas fue de esta edición](/noticias/gta-6-el-87-de-las-reservas-es-la-edicion-ultimate/). Para decidir con calma, tienes nuestra guía sobre [si merece la pena la edición Ultimate](/guias/gta-6-merece-la-pena-edicion-ultimate/) y la de [precios, ediciones y reservas](/guias/gta-6-precio-ediciones-reservas/).
+La Ultimate ya era la opción dominante: [el 87 % de las reservas fue de esta edición](/guias/gta-6-precio-ediciones-reservas/). Para decidir con calma, tienes nuestra guía sobre [si merece la pena la edición Ultimate](/guias/gta-6-merece-la-pena-edicion-ultimate/) y la de [precios, ediciones y reservas](/guias/gta-6-precio-ediciones-reservas/).
 
 Vandal recuerda además que el juego llega a PS5 y Xbox Series como el mejor valorado de la historia en Metacritic. Rockstar no ha anunciado versión para PC.

@@ -17,7 +17,7 @@ GTA 6 tiene un 99 sobre 100 en Metacritic según la crítica, pero los usuarios 
 
 ## Críticos y jugadores, dos mundos distintos
 
-Tras levantarse el embargo, la prensa recibió el juego con aplausos. Según la fuente, el título mantiene un 99 sobre 100 tras 152 análisis oficiales en Metacritic. Ya contamos que también [opta al GOTY de The Game Awards 2026 con un 10/10](/noticias/gta-6-opta-al-goty-de-the-game-awards-2026-con-un-10-10/).
+Tras levantarse el embargo, la prensa recibió el juego con aplausos. Según la fuente, el título mantiene un 99 sobre 100 tras 152 análisis oficiales en Metacritic. Ya contamos que también [opta al GOTY de The Game Awards 2026 con un 10/10](/noticias/gta-6-notas-analisis/).
 
 Las notas de usuarios cuentan otra historia:
 
