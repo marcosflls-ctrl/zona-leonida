@@ -2,13 +2,15 @@
 title: "Secretos y easter eggs de GTA 6: lo que han descubierto los jugadores"
 description: "Bigfoot, el piso de Dexter, el huevo de la torre de radio, ovnis y guiños a GTA 5 y Red Dead: los secretos de GTA 6 que ya han encontrado los jugadores."
 date: 2026-11-19T14:30:00+01:00
-updated: 2026-11-19T15:04:00+00:00
+updated: 2026-11-21T00:03:42+00:00
 category: descubrimientos
 tags: [secretos, easter-eggs, descubrimientos]
 image: /img/oficial/monte-kalaga-1.webp
 imageAlt: "Parque nacional del monte Kalaga, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
+  - name: "YouTube: Cuatro videojuegos jugables dentro de GTA 6 y dónde encontrarlos"
+    url: "https://www.youtube.com/watch?v=oWkkhbHFSNM"
   - name: "YouTube: Easter egg del OVNI cerca del Starlet Motel (Kelly County)"
     url: "https://www.youtube.com/watch?v=KtFwhvi-G3M"
   - name: "OutputLag: easter eggs de GTA 6, comprobados en la versión de lanzamiento (19/11/2026)"
@@ -28,6 +30,21 @@ sources:
 GTA 6 lleva unas horas en la calle y los jugadores ya están encontrando secretos por todo Leonida: criaturas míticas, guiños a otros juegos de Rockstar y escenas que solo salen si haces algo raro. Estos son los que ya están comprobados.
 
 ## Últimos descubrimientos
+
+### Cuatro videojuegos jugables dentro de GTA 6 y dónde encontrarlos
+
+En Leonida hay **cuatro videojuegos jugables** escondidos dentro del juego:
+
+- **Street Trash Dezombifier 3**: shooter de supervivencia contra zombis.
+- **Tenebrae Lux**: puzle de terror indie.
+- **Time Jackers: Rewind**.
+- **Bang for Your Buck**: juego de disparos.
+
+Tres de ellos se juegan desde el **JoySystem** de tu escondite (refugio). **Bang for Your Buck** está en los salones recreativos, como el del Rusty Anchor.
+
+<figure class="yt-guia" data-id="oWkkhbHFSNM" data-autor="IGN"></figure>
+
+*Descubierto por IGN en [YouTube](https://www.youtube.com/watch?v=oWkkhbHFSNM) · 21 de noviembre · ✅ Comprobado*
 
 <!-- El robot añade aquí lo que descubre la comunidad, lo más nuevo arriba. Revisa y pasa a su sección lo que se confirme. -->
 
