@@ -1,8 +1,5 @@
 {
  "urls": [
-  "https://vandal.elespanol.com/noticia/2026287017/rockstar-ya-habla-de-su-proximo-juego-tras-gta-6-y-lo-confirma-no-tardaran-otros-ocho-anos/",
-  "https://vandal.elespanol.com/noticia/2026287014/gta-6-iba-a-ser-mucho-mas-grande-rockstar-confirma-que-planeo-incluir-norteamerica-y-sudamerica/",
-  "https://www.3djuegos.com/juegos/grand-theft-auto-vi/noticias/ocho-anos-desarrollo-3-000-millones-dolares-juego-que-gta-6-ha-tardado-ver-luz",
   "https://www.3djuegos.com/juegos/trials-rising/noticias/plan-ubisoft-sigue-adelante-no-buenas-noticias-adios-a-saga-mitica-120-despidos-solo-golpe",
   "https://www.eurogamer.es/rockstar-asegura-que-no-hara-falta-esperar-ocho-anos-para-el-proximo-grand-theft-auto",
   "https://www.ign.com/articles/gta-6-developer-rockstar-insists-its-next-game-wont-take-another-8-years-to-make",
@@ -2999,11 +2996,12 @@
   "https://www.videogameschronicle.com/guide/gta-6-bad-luck-i-guess-trophy-guide-how-to-rob-the-payday-loans-store/",
   "https://www.youtube.com/watch?v=agIbVSlqU9w",
   "https://www.ign.com/articles/rockstar-says-jasons-viral-personality-in-gta-6-comes-from-steve-mcqueen-and-real-life-veterans",
-  "https://www.videogameschronicle.com/guide/gta-6-skunk-ape-questline-walkthrough-all-effigy-locations-and-choices/"
+  "https://www.videogameschronicle.com/guide/gta-6-skunk-ape-questline-walkthrough-all-effigy-locations-and-choices/",
+  "https://www.videogameschronicle.com/guide/shoot-kirk-or-mr-mangrove-gta-6/",
+  "https://www.ign.com/articles/rockstar-says-darts-were-cut-from-gta-6-because-it-didnt-have-unlimited-money-or-time-to-make-it-feel-proper",
+  "https://www.youtube.com/watch?v=fLHbUqgkv2E"
  ],
  "titles": [
-  "e11even miami has announced that it will transform its nightclub with branding inspired by gta6 parody nightclub nine1nine on friday november 6",
-  "glad to see gta 6 advertisement being shown in dotonbori in osaka",
   "house robberies",
   "vice city goodyear zeppelin over miami beach",
   "new mini map symbols",
@@ -4501,13 +4499,11 @@
   "forget the lighthouse gta 6 s best minigame is a full blown zombie shooter that will take you hours to beat",
   "gta 6 bad luck i guess trophy guide how to rob the payday loans store",
   "rockstar says jason s viral personality in gta 6 comes from steve mcqueen and real life veterans",
-  "gta 6 skunk ape questline walkthrough all effigy locations and choices"
+  "gta 6 skunk ape questline walkthrough all effigy locations and choices",
+  "gta 6 should you shoot kirk or mr mangrove",
+  "rockstar says darts were cut from gta 6 because it didn t have unlimited money or time to make it feel proper"
  ],
  "escritos": [
-  {
-   "title": "GTA 6: encuentra el alijo de 1.263 $ en Key Lento",
-   "url": "/guias/gta-6-encuentra-el-alijo-de-1-263-en-key-lento/"
-  },
   {
    "title": "GTA 6 habría vendido 24,58 millones de copias el primer día",
    "url": "/noticias/gta-6-habria-vendido-24-58-millones-de-copias-el-primer-dia/"
@@ -4823,6 +4819,10 @@
   {
    "title": "GTA 6 Bad Luck, I Guess: cómo robar Payday Loans a pie",
    "url": "/guias/gta-6-bad-luck-i-guess-como-robar-payday-loans-a-pie/"
+  },
+  {
+   "title": "GTA 6 no tiene dardos: Rockstar explica por qué los cortó",
+   "url": "/noticias/gta-6-no-tiene-dardos-rockstar-explica-por-que-los-corto/"
   }
  ],
  "feeds_iniciados": [
