@@ -2,13 +2,15 @@
 title: "Secretos y easter eggs de GTA 6: lo que han descubierto los jugadores"
 description: "Bigfoot, el piso de Dexter, el huevo de la torre de radio, ovnis y guiños a GTA 5 y Red Dead: los secretos de GTA 6 que ya han encontrado los jugadores."
 date: 2026-11-19T14:30:00+01:00
-updated: 2026-11-21T00:03:42+00:00
+updated: 2026-11-22T16:03:50+00:00
 category: descubrimientos
 tags: [secretos, easter-eggs, descubrimientos]
 image: /img/oficial/monte-kalaga-1.webp
 imageAlt: "Parque nacional del monte Kalaga, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
+  - name: "YouTube: Easter egg: el Mitsubishi Eclipse de Paul Walker (Fast & Furious)"
+    url: "https://www.youtube.com/watch?v=JPnJPuH4N6Q"
   - name: "YouTube: Cuatro videojuegos jugables dentro de GTA 6 y dónde encontrarlos"
     url: "https://www.youtube.com/watch?v=oWkkhbHFSNM"
   - name: "YouTube: Easter egg del OVNI cerca del Starlet Motel (Kelly County)"
@@ -30,6 +32,16 @@ sources:
 GTA 6 lleva unas horas en la calle y los jugadores ya están encontrando secretos por todo Leonida: criaturas míticas, guiños a otros juegos de Rockstar y escenas que solo salen si haces algo raro. Estos son los que ya están comprobados.
 
 ## Últimos descubrimientos
+
+### Easter egg: el Mitsubishi Eclipse de Paul Walker (Fast & Furious)
+
+En GTA 6 hay un guiño a *The Fast and the Furious*: el Mitsubishi Eclipse verde de Brian O'Conner, el icónico coche de Paul Walker. Según IGN, el vehículo está escondido en un garaje de Vespucci Island, en las Rialto Islands.
+
+La fuente indica que el proceso incluye desactivar la alarma, robar el coche con una ganzúa (*Slim Jim*) sin llamar la atención y registrarlo a nombre de Jason o Lucia con Moses. El texto no detalla los pasos ni el coste del registro, así que para verlos paso a paso consulta el vídeo enlazado.
+
+<figure class="yt-guia" data-id="JPnJPuH4N6Q" data-autor="IGN"></figure>
+
+*Descubierto por IGN en [YouTube](https://www.youtube.com/watch?v=JPnJPuH4N6Q) · 22 de noviembre · ⚠️ Sin comprobar*
 
 ### Cuatro videojuegos jugables dentro de GTA 6 y dónde encontrarlos
 
