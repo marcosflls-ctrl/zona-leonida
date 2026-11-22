@@ -2,7 +2,7 @@
 title: "Misiones de GTA 6: lista por capítulos de la historia (más de 90)"
 description: "GTA 6 tiene más de 90 misiones principales, según GamesRadar. Aquí tienes los nombres de las de los capítulos 1 a 3, sin spoilers de la trama."
 date: 2026-11-19T04:04:55+01:00
-updated: 2026-11-19T04:04:55+01:00
+updated: 2026-11-22T22:37:58+00:00
 category: guias
 draft: false
 tags: [misiones, historia, capitulos, guia]
@@ -10,6 +10,8 @@ image: /img/oficial/jason-y-lucia-3.webp
 imageAlt: "Jason y Lucía, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
+  - name: "YouTube: Donnie's Lost Drugs: misión secundaria bajo el agua"
+    url: "https://www.youtube.com/watch?v=9zRzaXBsDqI"
   - name: "Meristation: ¿Cuántas misiones tiene la historia principal de GTA 6? Todas las principales y secundarias hasta completar el juego"
     url: "https://as.com/meristation/guia_pagina/cuantas-misiones-tiene-la-historia-principal-de-gta-6-todas-las-principales-y-secundarias-hasta-completar-el-juego-f202611-n/"
   - name: "GamesRadar: Can you replay missions in GTA 6?"
@@ -27,6 +29,25 @@ sources:
 La historia de GTA 6 se cuenta por capítulos, como anticipó Rockstar. Según GamesRadar, hay **más de 90 misiones principales**. Algunas tienen rutas alternativas que influyen en tu Perfil Criminal.
 
 Las fuentes consultadas no indican cuántos capítulos hay en total. Por eso aquí tienes los tres primeros, con sus misiones en orden. Iremos añadiendo el resto.
+
+## Últimos descubrimientos
+
+<!-- El robot añade aquí lo que descubre la comunidad, lo más nuevo arriba. Revisa y pasa a su sección lo que se confirme. -->
+
+### Donnie's Lost Drugs: misión secundaria bajo el agua
+
+**Donnie's Lost Drugs** es una misión secundaria opcional. Para completarla:
+
+1. Bucea hasta el fondo del océano y localiza un naufragio.
+2. Abre el compartimento situado en la parte trasera del barco.
+3. Recoge la bolsa con las drogas perdidas de Donnie.
+4. Vende el cargamento a Brian a cambio de dinero.
+
+Es una misión muy corta.
+
+<figure class="yt-guia" data-id="9zRzaXBsDqI" data-autor="PowerPyx"></figure>
+
+*Descubierto por PowerPyx en [YouTube](https://www.youtube.com/watch?v=9zRzaXBsDqI) · 22 de noviembre · ✅ Comprobado*
 
 ## Capítulo 1: Just Like Paradise
 
