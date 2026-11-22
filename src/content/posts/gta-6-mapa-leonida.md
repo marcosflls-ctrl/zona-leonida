@@ -2,7 +2,7 @@
 title: "Mapa de GTA 6: todas las zonas confirmadas de Leonida"
 description: "Vice City, Leonida Keys, Grassrivers, Port Gellhorn, Ambrosia y Mount Kalaga: así es el mapa de GTA 6 según lo que ha mostrado Rockstar."
 date: 2026-10-09T12:15:00+02:00
-updated: 2026-11-19T21:04:46+00:00
+updated: 2026-11-22T23:02:49+00:00
 category: guias
 pilar: true
 orden: 10
@@ -11,6 +11,8 @@ image: /img/oficial/vice-city-4.webp
 imageAlt: "Vice City, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
+  - name: "YouTube: Peewees: 4 vallas publicitarias y el atuendo de recompensa"
+    url: "https://www.youtube.com/watch?v=InRbr6N0W3k"
   - name: "YouTube: Casa de Bryan: reparaciones que mejoran la relación con Lucia"
     url: "https://www.youtube.com/watch?v=3UiRmXUIE9k"
   - name: "Rockstar Games: web oficial de GTA VI"
@@ -22,6 +24,21 @@ sources:
 GTA 6 transcurre en **Leonida**, el estado ficticio inspirado en Florida, y su gran ciudad es **Vice City**. Estas son las zonas que Rockstar ha mostrado oficialmente antes del lanzamiento. Puedes explorarlas también en nuestro **[mapa interactivo de Leonida](/mapa/)**. Cuando salga el juego, esta página se convertirá en la guía completa del mapa.
 
 ## Últimos descubrimientos
+
+### Peewees: 4 vallas publicitarias y el atuendo de recompensa
+
+En GTA 6 hay **4 vallas publicitarias de Peewees** repartidas por el mapa. Encontrarlas todas desbloquea el **atuendo de Peewees**. No son necesarias para los trofeos ni para el 100% del juego.
+
+- Vallas del condado de Mariana
+- Vallas de Vice-Dale
+- Vallas del condado de Leonard
+- Vallas del condado de Lummox
+
+El vídeo muestra la ubicación exacta de cada una.
+
+<figure class="yt-guia" data-id="InRbr6N0W3k" data-inicio="0:00" data-autor="PowerPyx"></figure>
+
+*Descubierto por PowerPyx en [YouTube](https://www.youtube.com/watch?v=InRbr6N0W3k) · 22 de noviembre · ⚠️ Sin comprobar*
 
 <!-- El robot añade aquí lo que descubre la comunidad, lo más nuevo arriba. Revisa y pasa a su sección lo que se confirme. -->
 
