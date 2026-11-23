@@ -2,7 +2,7 @@
 title: "Cómo ganar dinero en GTA 6: los mejores métodos por capítulo"
 description: "Cómo ganar dinero en GTA 6 por capítulos: de atracos a tiendas al golpe a una cámara acorazada que, según Meristation, deja unos 200.000 dólares."
 date: 2026-11-19T01:05:38+01:00
-updated: 2026-11-19T14:04:06+00:00
+updated: 2026-11-23T12:04:25+00:00
 category: guias
 draft: false
 tags: [dinero, guia, golpes, negocios]
@@ -10,6 +10,8 @@ image: /img/oficial/jason-duval-6.webp
 imageAlt: "Jason Duval, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
+  - name: "YouTube: Vender cartas de NINE1NINE Dancers en casas de empeño"
+    url: "https://www.youtube.com/watch?v=OVaGLUysMXk"
   - name: "YouTube: Operaciones ilegales: qué son y dónde empezar"
     url: "https://www.youtube.com/watch?v=eD5ndr0OMM0"
   - name: "GamesRadar: How to farm money in GTA 6 and make cash fast"
@@ -37,6 +39,12 @@ Rockstar ha explicado que en GTA 6 el dinero importa más que en anteriores entr
 Según GamesRadar, la mejor forma de ganar dinero rápido es arriesgarte con el crimen, y las opciones cambian capítulo a capítulo. Al empezar, lo más práctico es robar tiendas. A largo plazo, según Meristation, lo más rentable es el golpe a la cámara acorazada de un banco al final del capítulo 4, que puede dejar unos 200.000 dólares.
 
 ## Últimos descubrimientos
+
+### Vender cartas de NINE1NINE Dancers en casas de empeño
+
+Las cartas coleccionables de NINE1NINE Dancers también sirven para ganar dinero. Puedes vender cartas sueltas en las casas de empeño (Pawn Shops) o vender un set completo. El precio depende del color y la rareza de cada carta. Según el vídeo, el juego tiene 481 cartas repartidas en 18 sets por Leonida, y puedes guardarlas en tu escondite antes de venderlas.
+
+*Descubierto por GTA Series Videos en [YouTube](https://www.youtube.com/watch?v=OVaGLUysMXk) · 23 de noviembre · ⚠️ Sin comprobar*
 
 <!-- El robot añade aquí lo que descubre la comunidad, lo más nuevo arriba. Revisa y pasa a su sección lo que se confirme. -->
 
