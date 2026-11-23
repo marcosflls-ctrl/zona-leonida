@@ -1,11 +1,5 @@
 {
  "urls": [
-  "https://blog.es.playstation.com/2026/10/13/escape-academy-2-back-2-school-llega-el-5-de-noviembre-a-ps5/",
-  "https://blog.es.playstation.com/2026/10/08/critical-role-se-une-a-rockbeasts-con-lanzamiento-en-enero-de-2027/",
-  "https://blog.es.playstation.com/2026/10/07/ciclope-fenix-llega-a-marvel-tokon-fighting-souls-el-2-de-noviembre/",
-  "https://blog.es.playstation.com/2026/10/06/warhammer-survivors-se-lanza-el-10-de-noviembre-desvelamos-nuevos-personajes/",
-  "https://blog.es.playstation.com/2026/10/05/todo-lo-que-necesitais-saber-del-modo-dmz-de-call-of-duty-modern-warfare/",
-  "https://blog.latam.playstation.com/2026/10/16/share-de-la-semana-monstruos/",
   "https://blog.latam.playstation.com/2026/10/14/catalogo-de-juegos-de-playstation-plus-para-octubre-mafia-el-viejo-continente-horizon-forbidden-west-mycopunk-y-mucho-mas/",
   "https://blog.latam.playstation.com/2026/10/14/hoy-se-lanza-la-actualizacion-spec-iv-parte-1-de-gran-turismo-7-y-presentamos-un-primer-vistazo-del-control-inalambrico-dualsense-de-edicion-limitada-de-gran-turismo/",
   "https://blog.latam.playstation.com/2026/10/13/helldivers-2-el-bono-de-guerra-premium-mira-de-autoridad-llega-el-20-de-octubre/",
@@ -2999,14 +2993,15 @@
   "https://www.ign.com/articles/gta-6-hacker-free-after-time-served-over-2022-cyber-attack",
   "https://as.com/meristation/guia_pagina/todas-las-canastas-de-baloncesto-en-gta-6-ubicaciones-y-mapa-f202611-n/",
   "https://www.hobbyconsolas.com/videojuegos/ya-hay-un-loco-que-se-ha-conseguido-platino-ps5-gta-6-es-unica-persona-hasta-momento-obtener-todos-los-logros-juego_7064764_0.html",
-  "https://www.youtube.com/watch?v=odgMGxnzDIM"
+  "https://www.youtube.com/watch?v=odgMGxnzDIM",
+  "https://www.3djuegos.com/streamers/noticias/ibai-consigue-que-streamer-gta-6-pase-cero-espectadores-a-3-200-acaba-haciendole-llorar",
+  "https://www.gamesradar.com/games/grand-theft-auto/quote-of-the-day-from-telegram-ceo-gta-6s-hardened-criminals-should-be-using-my-product/",
+  "https://www.hobbyconsolas.com/videojuegos/cyberleek-cumple-su-amenaza-filtra-su-build-gta-6-que-ya-esta-mano-los-modders-pero-rockstar-no-se-quedara-brazos-cruzados_7064813_0.html",
+  "https://insider-gaming.com/gta-6-car-bike-boat-systems/",
+  "https://insider-gaming.com/how-to-steal-an-atm-with-tow-trucks-in-gta-6/",
+  "https://www.youtube.com/watch?v=r6_iW_p7Gx0"
  ],
  "titles": [
-  "as gta 6 looms fortnite offers almost unlimited free skins for 14 days to extremely lucky players",
-  "ps5 vuelve a recibir una actualizacio n de firmware esta vez con la versio n 14 22 para blindarse ante el lanzamiento de gta 6 y la pirateri a",
-  "every gta 6 location revealed so far gta 6 map breakdown",
-  "sony actualiza ps5 que cambia exactamente en el firmware 26 07 14 22 00",
-  "llega el ajedrez no oficial de gta 6 una conocida plataforma nos permite jugar contra jason y luci a",
   "self made millionaire says gta 6 could actually save players 5k",
   "gta 6 sounds like an rpg so why deny it any more",
   "how to claim gta 6 pre order bonus offer for gta plus all pre order bonuses",
@@ -4501,17 +4496,14 @@
   "gta 6 s best kept secret is the key to its whole design",
   "judge lets hacker behind massive gta 6 leak of 2022 go free with a warning don t let this happen again",
   "todas las canastas de baloncesto en gta 6 ubicaciones y mapa",
-  "ya hay un loco que se ha conseguido el platino de ps5 en gta 6 y es la u nica persona hasta el momento en obtener todos los logros del juego"
+  "ya hay un loco que se ha conseguido el platino de ps5 en gta 6 y es la u nica persona hasta el momento en obtener todos los logros del juego",
+  "ibai consigue que un streamer de gta 6 pase de cero espectadores a ma s de 3 200 y acaba hacie ndole llorar",
+  "quote of the day from telegram ceo gta 6 s hardened criminals should be using my product",
+  "cyberleek cumple su amenaza y filtra su build de gta 6 que ya esta en mano de los modders pero rockstar no se quedara de brazos cruzados",
+  "17 things you didn t know you could do with vehicles in gta 6",
+  "how to steal an atm with tow trucks in gta 6"
  ],
  "escritos": [
-  {
-   "title": "GTA 6: 35.000 alumnos más faltaron a clase en Inglaterra",
-   "url": "/noticias/gta-6-35-000-alumnos-mas-faltaron-a-clase-en-inglaterra/"
-  },
-  {
-   "title": "GTA 6: el Joker de Florida aparece en los créditos del juego",
-   "url": "/descubrimientos/gta-6-el-joker-de-florida-aparece-en-los-creditos-del-juego/"
-  },
   {
    "title": "GTA 6: ¿hay viaje rápido? Taxi por 100 $ y otras vías",
    "url": "/guias/gta-6-hay-viaje-rapido-taxi-por-100-y-otras-vias/"
@@ -4823,6 +4815,14 @@
   {
    "title": "GTA 6: primer Platino en PS5 y ninguno en Xbox",
    "url": "/noticias/gta-6-primer-platino-en-ps5-y-ninguno-en-xbox/"
+  },
+  {
+   "title": "GTA 6: controles y funciones de coches, motos y barcos",
+   "url": "/guias/gta-6-controles-y-funciones-de-coches-motos-y-barcos/"
+  },
+  {
+   "title": "GTA 6: cómo robar un cajero automático con una grúa",
+   "url": "/guias/gta-6-como-robar-un-cajero-automatico-con-una-grua/"
   }
  ],
  "feeds_iniciados": [
