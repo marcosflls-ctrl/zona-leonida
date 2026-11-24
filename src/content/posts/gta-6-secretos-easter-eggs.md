@@ -2,13 +2,15 @@
 title: "Secretos y easter eggs de GTA 6: lo que han descubierto los jugadores"
 description: "Bigfoot, el piso de Dexter, el huevo de la torre de radio, ovnis y guiños a GTA 5 y Red Dead: los secretos de GTA 6 que ya han encontrado los jugadores."
 date: 2026-11-19T14:30:00+01:00
-updated: 2026-11-22T16:03:50+00:00
+updated: 2026-11-24T04:02:45+00:00
 category: descubrimientos
 tags: [secretos, easter-eggs, descubrimientos]
 image: /img/oficial/monte-kalaga-1.webp
 imageAlt: "Parque nacional del monte Kalaga, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
+  - name: "YouTube: Easter egg del Malibu Club: viaje a 1986 y moto Zombie Bobber"
+    url: "https://www.youtube.com/watch?v=_25LRegkOgg"
   - name: "YouTube: Easter egg: el Mitsubishi Eclipse de Paul Walker (Fast & Furious)"
     url: "https://www.youtube.com/watch?v=JPnJPuH4N6Q"
   - name: "YouTube: Cuatro videojuegos jugables dentro de GTA 6 y dónde encontrarlos"
@@ -32,6 +34,22 @@ sources:
 GTA 6 lleva unas horas en la calle y los jugadores ya están encontrando secretos por todo Leonida: criaturas míticas, guiños a otros juegos de Rockstar y escenas que solo salen si haces algo raro. Estos son los que ya están comprobados.
 
 ## Últimos descubrimientos
+
+### Easter egg del Malibu Club: viaje a 1986 y moto Zombie Bobber
+
+**Easter egg del Malibu Club (1986)**
+
+Sigue el puzle desde la torre de I+D de Badger, pasa por las 12 centrales eléctricas de LPL y termina en la T.H. Power Station. Al llegar al reactor podrás volver al Malibu Club en 1986, con escenas de Jason y Lucia.
+
+- No uses el viaje rápido de RydeMe durante el easter egg: impide que se active la secuencia final.
+- Ve solo a la última central, con Jason o con Lucia. Si vais los dos, el interruptor del reactor no se activa.
+- Llega al reactor entre las 19:00 y las 6:00 (hora del juego).
+
+La recompensa es una moto Zombie Bobber, que puedes registrar a tu nombre en Pay 'N' Spray. La decoración "American Glory" está disponible en Vice Vinyl para cualquier Zombie Bobber.
+
+<figure class="yt-guia" data-id="_25LRegkOgg" data-autor="GTA Series Videos"></figure>
+
+*Descubierto por GTA Series Videos en [YouTube](https://www.youtube.com/watch?v=_25LRegkOgg) · 24 de noviembre · ⚠️ Sin comprobar*
 
 ### Easter egg: el Mitsubishi Eclipse de Paul Walker (Fast & Furious)
 
