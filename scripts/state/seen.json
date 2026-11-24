@@ -1,7 +1,5 @@
 {
  "urls": [
-  "https://as.com/meristation/analisis/toy-story-retro-roundup-media-docena-de-clasicos-que-todo-fan-debe-tener-en-su-coleccion-f202610-n/",
-  "https://as.com/meristation/analisis/analisis-castlevania-belmonts-curse-lagrimas-de-sangre-f202610-n/",
   "https://as.com/meristation/analisis/analisis-de-trails-in-the-sky-2nd-chapter-una-aventura-de-dimensiones-epicas-que-supera-a-la-obra-original-f202610-n/",
   "https://as.com/meristation/analisis/analisis-de-transport-fever-3-el-nuevo-rey-de-la-gestion-y-la-logistica-f202610-n/",
   "https://as.com/meristation/analisis/analisis-de-dragons-dogma-2-dark-arisen-en-switch-2-mucho-mas-de-lo-que-esperabas-f202610-n/",
@@ -2999,10 +2997,11 @@
   "https://insider-gaming.com/gta-6-legendary-weapons/",
   "https://vandal.elespanol.com/noticia/2026328023/gta-6-a-60-fps-ponen-a-prueba-el-glitch-en-xbox-series-y-analizan-su-rendimiento-real/",
   "https://blog.es.playstation.com/2026/11/24/gracias-por-hacer-de-grand-theft-auto-vi-el-mayor-lanzamiento-de-playstation-de-todos-los-tiempos/",
-  "https://www.hobbyconsolas.com/videojuegos/ya-puedes-jugar-gta-6-ps5-ps-portal-nube-con-ps-plus-tras-unos-dias-exclusividad-xbox-tiempo-que-pack-reserva-vintage-vice-city-se-pone-venta_7065014_0.html"
+  "https://www.hobbyconsolas.com/videojuegos/ya-puedes-jugar-gta-6-ps5-ps-portal-nube-con-ps-plus-tras-unos-dias-exclusividad-xbox-tiempo-que-pack-reserva-vintage-vice-city-se-pone-venta_7065014_0.html",
+  "https://www.videogameschronicle.com/guide/gta-6-credit-check-walkthrough/",
+  "https://www.dexerto.com/gta/rockstar-shuts-down-discord-server-trying-to-make-gta-6-pc-port-3430905/"
  ],
  "titles": [
-  "gta 6 preload date and times confirmed",
   "nueva imagen de gta 6 rockstar muestra una escena ine dita de vice city",
   "rockstar confirma el taman o real de gta 6 en ps5 y xbox series y avisa asegu rate de tener suficiente espacio",
   "rockstar lo confirma el mapa fi sico de gta 6 se podra comprar en su tienda oficial por 0 99 do lares",
@@ -4501,13 +4500,10 @@
   "best legendary weapon variants in gta 6 all locations walkthrough",
   "gta 6 a 60 fps ponen a prueba el glitch en xbox series y analizan su rendimiento real",
   "gracias por hacer de grand theft auto vi el mayor lanzamiento de playstation de todos los tiempos",
-  "ya puedes jugar a gta 6 en ps5 y ps portal en la nube con ps plus tras unos di as de exclusividad en xbox al tiempo que el pack de reserva vintage vice city se pone a la venta"
+  "ya puedes jugar a gta 6 en ps5 y ps portal en la nube con ps plus tras unos di as de exclusividad en xbox al tiempo que el pack de reserva vintage vice city se pone a la venta",
+  "rockstar shuts down discord server trying to make gta 6 pc port"
  ],
  "escritos": [
-  {
-   "title": "GTA 6: dónde encontrar el Pegassi Tempesta para Randy",
-   "url": "/guias/gta-6-donde-encontrar-el-pegassi-tempesta-para-randy/"
-  },
   {
    "title": "GTA 6: 6 emisoras de radio y pódcasts bajo demanda",
    "url": "/noticias/gta-6-6-emisoras-de-radio-y-podcasts-bajo-demanda/"
@@ -4823,6 +4819,10 @@
   {
    "title": "GTA 6 llega a la nube de PS Plus Premium en PS5 y PS Portal",
    "url": "/noticias/gta-6-llega-a-la-nube-de-ps-plus-premium-en-ps5-y-ps-portal/"
+  },
+  {
+   "title": "GTA 6 PC: Rockstar cierra el servidor de un port no oficial",
+   "url": "/noticias/gta-6-pc-rockstar-cierra-el-servidor-de-un-port-no-oficial/"
   }
  ],
  "feeds_iniciados": [
