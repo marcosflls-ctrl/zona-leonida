@@ -9,7 +9,7 @@ const posts = defineCollection({
     date: z.coerce.date(),
     updated: z.coerce.date().optional(),
     category: z.enum(['noticias', 'guias', 'trucos', 'descubrimientos']),
-    tags: z.array(z.string()).default([]),
+    tags: z.array(z.coerce.string()).default([]), // coerce: una etiqueta como 100 llega como número y rompía la web
     image: z.string().optional(),
     imageAlt: z.string().optional(),
     imageCredit: z.string().optional(), // ej. "Rockstar Games"
