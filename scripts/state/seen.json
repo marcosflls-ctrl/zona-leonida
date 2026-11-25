@@ -1,10 +1,5 @@
 {
  "urls": [
-  "https://rockstarintel.com/gta-6-will-be-sent-out-very-soon-to-reviewers-its-claimed/",
-  "https://rockstarintel.com/free-spins-in-ireland-why-free-does-so-much-heavy-lifting/",
-  "https://rockstarintel.com/gta-online-event-week-halloween-event-continues-october-15th-21st/",
-  "https://rockstarintel.com/gta-6s-realistic-sweat-system-detailed/",
-  "https://rockstarintel.com/new-gta-6-leak-contains-ending-spoilers-as-leaker-quits/",
   "https://rockstarintel.com/rockstar-claim-gta-6-means-their-next-game-wont-take-to-make/",
   "https://rockstarintel.com/2-more-gta-6-screenshots-released/",
   "https://rockstarintel.com/new-gta-6-merch-released-alongside-art-museum-exhibition/",
@@ -2999,12 +2994,14 @@
   "https://www.hobbyconsolas.com/videojuegos/justice-casi-tira-toalla-crear-bso-gta-6-aceptaron-con-una-condicion-deberia-ser-divertida-no-parecer-musica-para-videojuegos_7065497_0.html",
   "https://vandal.elespanol.com/noticia/2026329014/ps5-se-agota-en-espana-el-lanzamiento-de-gta-6-deja-sin-consolas-a-las-principales-cadenas-de-tiendas/",
   "https://www.eurogamer.es/ventas-espana-gta-6-se-estrena-con-mas-de-320000-unidades-de-la-edicion-fisica-casi-el-97-vendidas-en-ps5",
-  "https://www.youtube.com/watch?v=9NJ9qrfpG7c"
+  "https://www.youtube.com/watch?v=9NJ9qrfpG7c",
+  "https://www.hobbyconsolas.com/videojuegos/como-iniciar-desafio-supervivencia-gta-6-una-mision-opcional-que-te-pondra-punto-mira-un-grupo-cazadores-hombres_7065338_0.html",
+  "https://www.videogameschronicle.com/guide/gta-6-how-to-flip-car-grand-theft-auto/",
+  "https://rockstarintel.com/max-payne-remake-development-with-rockstar-is-amazing-says-remedy/",
+  "https://vandal.elespanol.com/noticia/2026329016/gta-6-tiene-censura-en-australia-y-nueva-zelanda-por-un-tema-de-drogas-no-los-desnudos-o-la-violencia/",
+  "https://www.hobbyconsolas.com/videojuegos/como-iniciar-desafio-supervivencia-gta-6-una-mision-opcional-que-te-pondra-punto-mira-un-grupo-cazadores-hombres_7065338_0.html"
  ],
  "titles": [
-  "gta vi makes the news here in miami",
-  "rockstar celebrates gta 6 launch with new gameplay screenshots",
-  "rockstar publica 38 nuevas ima genes de gta 6 a solo dos semanas de su lanzamiento asi lucen",
   "new gta 6 ads spotted on a tour bus in miami showing more in game brands vice city narcos miami heat beige shapewear skims crowex rolex taco bomb taco bell",
   "rockstar releases nearly 40 new gta 6 screenshots ahead of launch",
   "rockstar comparte una nueva galeri a de gta 6 con montones de ima genes y el juego lidera los tops de ventas tanto en ps store como en xbox store",
@@ -4501,17 +4498,12 @@
   "rockstar saca la motosierra y tumba un proyecto para llevar gta 6 a pc su autor no teni a edad ni de votar",
   "justice casi tira la toalla al crear la bso de gta 6 y aceptaron con una condicio n deberi a ser divertida y no parecer mu sica para videojuegos",
   "ps5 se agota en espan a el lanzamiento de gta 6 deja sin consolas a las principales cadenas de tiendas",
-  "ventas espan a gta 6 se estrena con ma s de 320 000 unidades de la edicio n fi sica casi el 97 vendidas en ps5"
+  "ventas espan a gta 6 se estrena con ma s de 320 000 unidades de la edicio n fi sica casi el 97 vendidas en ps5",
+  "max payne remake development with rockstar is amazing says remedy",
+  "gta 6 tiene censura en australia y nueva zelanda por un tema de drogas no los desnudos o la violencia",
+  "co mo iniciar el desafi o de supervivencia de gta 6 una misio n opcional que te pondra en el punto de mira de un grupo de cazadores de hombres"
  ],
  "escritos": [
-  {
-   "title": "GTA 6: cómo voltear un coche volcado y empujar barcas",
-   "url": "/guias/gta-6-como-voltear-un-coche-volcado-y-empujar-barcas/"
-  },
-  {
-   "title": "GTA 6: Zelnick esquiva hablar de GTA 7 el día del estreno",
-   "url": "/noticias/gta-6-zelnick-esquiva-hablar-de-gta-7-el-dia-del-estreno/"
-  },
   {
    "title": "GTA 6: el sexo fue muy difícil de animar, dice Rockstar",
    "url": "/noticias/gta-6-el-sexo-fue-muy-dificil-de-animar-dice-rockstar/"
@@ -4823,6 +4815,14 @@
   {
    "title": "GTA 6 vende 322.650 copias físicas en España, el 97 % en PS5",
    "url": "/noticias/gta-6-vende-322-650-copias-fisicas-en-espana-el-97-en-ps5/"
+  },
+  {
+   "title": "GTA 6 censura la cocaína en Australia y Nueva Zelanda",
+   "url": "/noticias/gta-6-censura-la-cocaina-en-australia-y-nueva-zelanda/"
+  },
+  {
+   "title": "GTA 6: desafío de Hyde Island, cómo lograr el rifle FF50",
+   "url": "/guias/gta-6-desafio-de-hyde-island-como-lograr-el-rifle-ff50/"
   }
  ],
  "feeds_iniciados": [
