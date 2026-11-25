@@ -2,7 +2,7 @@
 title: "Mapa de GTA 6: todas las zonas confirmadas de Leonida"
 description: "Vice City, Leonida Keys, Grassrivers, Port Gellhorn, Ambrosia y Mount Kalaga: así es el mapa de GTA 6 según lo que ha mostrado Rockstar."
 date: 2026-10-09T12:15:00+02:00
-updated: 2026-11-22T23:02:49+00:00
+updated: 2026-11-25T19:04:02+00:00
 category: guias
 pilar: true
 orden: 10
@@ -11,6 +11,8 @@ image: /img/oficial/vice-city-4.webp
 imageAlt: "Vice City, imagen oficial de GTA 6"
 imageCredit: "Rockstar Games"
 sources:
+  - name: "YouTube: Kitty Litter: las 20 ubicaciones de los laboratorios"
+    url: "https://www.youtube.com/watch?v=6JJ-plh9vlg"
   - name: "YouTube: Peewees: 4 vallas publicitarias y el atuendo de recompensa"
     url: "https://www.youtube.com/watch?v=InRbr6N0W3k"
   - name: "YouTube: Casa de Bryan: reparaciones que mejoran la relación con Lucia"
@@ -24,6 +26,16 @@ sources:
 GTA 6 transcurre en **Leonida**, el estado ficticio inspirado en Florida, y su gran ciudad es **Vice City**. Estas son las zonas que Rockstar ha mostrado oficialmente antes del lanzamiento. Puedes explorarlas también en nuestro **[mapa interactivo de Leonida](/mapa/)**. Cuando salga el juego, esta página se convertirá en la guía completa del mapa.
 
 ## Últimos descubrimientos
+
+### Kitty Litter: las 20 ubicaciones de los laboratorios
+
+Los **20 laboratorios de Kitty Litter** (también llamados laboratorios sintéticos) son una actividad secundaria que se desbloquea al completar la misión *Here, Kitty Kitty* en el capítulo 3. Tyrone y Dook encargan a Jason localizarlos y destruirlos, y recibe dinero por cada uno.
+
+El progreso se consulta en la sección **Atracos** del mapa. Según el vídeo de IGN, los laboratorios están repartidos por Vice City, en zonas como East La Perle, Crosstown, Rockridge, Balsero, Decor District, Little Cuba, Salton, Tequesta y Vice Dale, en condominios y *lockups*. Consulta el vídeo para ver la ubicación exacta de cada uno.
+
+<figure class="yt-guia" data-id="6JJ-plh9vlg" data-autor="IGN"></figure>
+
+*Descubierto por IGN en [YouTube](https://www.youtube.com/watch?v=6JJ-plh9vlg) · 25 de noviembre · ✅ Comprobado*
 
 ### Peewees: 4 vallas publicitarias y el atuendo de recompensa
 
