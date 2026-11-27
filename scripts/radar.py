@@ -10,7 +10,7 @@ Uso:
   python scripts/radar.py            # normal (en GitHub usa la federación de identidades, sin clave;
                                      # en tu PC puedes usar ANTHROPIC_API_KEY=...)
   python scripts/radar.py --dry-run                      # solo lista lo que encontraría
-Variables opcionales: MAX_PER_RUN (2), MODEL (claude-sonnet-5-5)
+Variables opcionales: MAX_PER_RUN (2), MAX_PER_DAY (2, noticias al día; las indicadas a mano no cuentan), MODEL (claude-sonnet-5-5)
 """
 from __future__ import annotations
 
@@ -38,6 +38,27 @@ POSTS_DIR = ROOT / "src" / "content" / "posts"
 
 MAX_AGE_HOURS = 48  # no se escriben noticias de fuentes con más de 2 días
 MAX_PER_RUN = int(os.environ.get("MAX_PER_RUN", "2"))
+# Tope diario: AdSense rechazó la web por «contenido de poco valor» con ~10 noticias al día (nov. 2026)
+MAX_PER_DAY = int(os.environ.get("MAX_PER_DAY", "2"))
+
+
+def noticias_de_hoy() -> int:
+    """Noticias con fecha de hoy (hora de Madrid) ya escritas en src/content/posts."""
+    from zoneinfo import ZoneInfo
+    hoy = datetime.now(ZoneInfo("Europe/Madrid")).date()
+    n = 0
+    for f in (ROOT / "src" / "content" / "posts").glob("*.md"):
+        cab = f.read_text(encoding="utf-8").split("\n---", 1)[0]
+        if not re.search(r"^category:\s*noticias", cab, re.M):
+            continue
+        m = re.search(r"^date:\s*[\"']?([^\"'\n]+)", cab, re.M)
+        try:
+            d = datetime.fromisoformat(m.group(1).strip().replace("Z", "+00:00")) if m else None
+        except ValueError:
+            d = None
+        if d and d.astimezone(ZoneInfo("Europe/Madrid")).date() == hoy:
+            n += 1
+    return n
 # Ahorro: cuánto texto de la fuente lee el redactor y cuántos artículos recientes ve para enlazar y no repetir
 MAX_FUENTE = int(os.environ.get("MAX_FUENTE", "12000"))
 RECIENTES = int(os.environ.get("RECIENTES", "50"))
@@ -375,7 +396,7 @@ Cuenta como repetición aunque el título sea distinto: el mismo informe, entrev
 otro medio (por ejemplo, el mismo reportaje de Bloomberg o las mismas declaraciones de un directivo), o un \
 detalle secundario de una noticia ya publicada. Revisa sobre todo los primeros de la lista, que son los más recientes.
 - APORTA ALGO PROPIO (obligatorio): no te limites a resumir la fuente. El artículo debe responder también a "¿y esto qué significa para mí como jugador?" con al menos una de estas aportaciones, siempre sin inventar: (a) relacionarlo con lo que ya está confirmado y enlazar la guía o el artículo nuestro que lo amplía; (b) explicar qué cambia respecto a GTA 5, RDR 2 u otra entrega, solo si la fuente o nuestros artículos lo permiten; (c) dejar claro qué ha confirmado Rockstar y qué no; (d) una tabla o lista que ordene la información mejor que el original. Si la noticia es tan menor que solo podrías resumirla (una opinión, una anécdota, otro medio que comenta o analiza algo que ya hemos publicado), descártala con {"skip": true, "reason": "sin valor propio: ..."}.
-- CALIDAD ANTES QUE CANTIDAD, PERO CON PULSO DE ACTUALIDAD: la web se valora por su contenido propio. SÍ se publican, además de las novedades oficiales de Rockstar o Take-Two y los datos nuevos importantes, los temas con tirón entre los jugadores aunque no sean oficiales, siempre que den para un artículo útil: un anuncio o campaña de promoción NUEVA que enseñe algo inédito del juego (escenas, detalles), estudios o cifras llamativas sobre el lanzamiento (ventas, reservas, impacto económico), precios y ofertas de consolas o del juego ligadas al lanzamiento, y declaraciones de desarrolladores actuales o antiguos de Rockstar con contenido. En esos casos, explica qué significa para el jugador y enlaza la guía relacionada. Descarta con {"skip": true, "reason": "menor: ..."} solo lo realmente menor: memes y creaciones de fans, anécdotas sueltas de famosos, comentarios u opiniones de otros medios sin datos, y los detalles de jugabilidad que ya cubre una de nuestras guías sin aportar nada nuevo (esos datos se añaden a la guía).
+- SOLO LO IMPORTANTE (máximo dos noticias al día en toda la web): la web se valora por su contenido propio, y AdSense ya la rechazó por «contenido de poco valor» cuando publicaba muchas noticias pequeñas. Publica solo novedades oficiales de Rockstar o Take-Two (anuncios, parches, contenido nuevo, fechas) y datos nuevos muy importantes con fuente sólida (ventas oficiales, un problema que afecta a muchos jugadores). Descarta con {"skip": true, "reason": "menor: ..."} todo lo demás: cifras de audiencia o de tráfico, estimaciones de analistas, rumores, campañas de marketing, productos y ofertas relacionados, declaraciones sin novedad, encuestas y estudios, anécdotas, opiniones de otros medios, memes y creaciones de fans, y los detalles de jugabilidad (esos datos se añaden a la guía correspondiente, no van en una noticia).
 - Si la fuente NO trata realmente de GTA VI, o es un refrito sin novedad, o es solo una opinión, responde {"skip": true, "reason": "..."}.
 
 LONGITUD Y ESTRUCTURA: la longitud la marca lo que hay que contar, no una cifra fija. Nunca rellenes ni repitas \
@@ -721,9 +742,14 @@ def main() -> int:
     written = []
     errors = 0
     intentos = 0
+    cupo = MAX_PER_RUN
+    if not url_forzada:
+        hechas = noticias_de_hoy()
+        cupo = max(0, min(MAX_PER_RUN, MAX_PER_DAY - hechas))
+        print(f"Noticias de hoy: {hechas} de {MAX_PER_DAY} como máximo")
     for item in candidates:
         # cada candidata cuesta una consulta a la IA aunque se descarte: tope para no gastar de más
-        if len(written) >= MAX_PER_RUN or intentos >= MAX_PER_RUN * 4:
+        if len(written) >= cupo or intentos >= MAX_PER_RUN * 4:
             break
         print(f"→ {item['title']}")
         state["urls"].append(item["url"])

@@ -42,7 +42,7 @@ Es la única vía posible, y por ahora solo en el lado de Xbox:
 - **No está confirmado si se podrá jugar en streaming desde una Xbox One.** Lo actualizaremos en cuanto Microsoft lo aclare.
 - Aunque fuera posible, la nube de Game Pass tendrá **límite de horas al mes** a partir de noviembre (15 horas en Ultimate) y exige buena conexión a internet. Para un juego de unas 80 horas de historia, se queda corto.
 
-Más detalles en [Xbox niega la exclusividad del streaming en la nube](/noticias/gta-6-xbox-niega-la-exclusividad-del-streaming-en-la-nube/).
+Más detalles en [Xbox niega la exclusividad del streaming en la nube](/guias/gta-6-en-xbox-one-como-jugarlo-en-la-nube-paso-a-paso/).
 
 ## Si vas a cambiar de consola, ¿cuál te conviene?
 

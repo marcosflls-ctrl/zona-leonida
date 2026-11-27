@@ -13,7 +13,7 @@ sources:
     url: "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/"
 ---
 
-GTA 6 incluye 61 trucos para PS5 y Xbox Series X, según la guía que ha publicado GamesRadar. Ninguno está disponible al empezar: primero tienes que terminar la historia de Jason y Lucía, y después desbloquear cada código cumpliendo un reto concreto. Ya avanzamos en otro artículo que [los trucos solo llegan tras acabar la historia](/noticias/gta-6-los-trucos-solo-llegan-tras-acabar-la-historia/). Ahora hay más detalle: cuántos son, qué pide cada uno y qué códigos se conocen.
+GTA 6 incluye 61 trucos para PS5 y Xbox Series X, según la guía que ha publicado GamesRadar. Ninguno está disponible al empezar: primero tienes que terminar la historia de Jason y Lucía, y después desbloquear cada código cumpliendo un reto concreto. Ya avanzamos en otro artículo que [los trucos solo llegan tras acabar la historia](/trucos/gta-6-trucos-claves-ps5-xbox/). Ahora hay más detalle: cuántos son, qué pide cada uno y qué códigos se conocen.
 
 La propia fuente avisa de que su lista está en construcción. Muchos códigos aparecen todavía como pendientes de confirmar (los marcamos como «pendiente» en las tablas). Los nombres de los trucos van tal y como los da el medio, en inglés.
 

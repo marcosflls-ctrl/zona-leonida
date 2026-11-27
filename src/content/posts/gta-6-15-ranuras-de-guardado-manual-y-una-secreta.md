@@ -30,7 +30,7 @@ Puedes sobrescribir cualquiera de las 15 ranuras y cargar la que quieras cuando 
 
 ## Por qué importa tanto el límite de 15 ranuras
 
-La historia de GTA 6 es larga. Tienes la [lista completa de misiones](/guias/gta-6-lista-de-misiones/), con más de 90 repartidas en [cinco capítulos](/noticias/gta-6-tiene-cinco-capitulos-asi-reparte-a-jason-y-lucia/). Y, como ya te contamos, [el juego no te permite rejugar misiones como en GTA 5](/noticias/gta-6-no-te-dejara-rejugar-misiones-como-en-gta-5/). Si quieres volver a vivir una misión concreta, o probar otra forma de afrontarla, tu mejor herramienta es una partida guardada a tiempo.
+La historia de GTA 6 es larga. Tienes la [lista completa de misiones](/guias/gta-6-lista-de-misiones/), con más de 90 repartidas en [cinco capítulos](/noticias/gta-6-tiene-cinco-capitulos-asi-reparte-a-jason-y-lucia/). Y, como ya te contamos, [el juego no te permite rejugar misiones como en GTA 5](/guias/gta-6-lista-de-misiones/). Si quieres volver a vivir una misión concreta, o probar otra forma de afrontarla, tu mejor herramienta es una partida guardada a tiempo.
 
 GamesRadar recomienda reservar una ranura al principio y otra al final de cada capítulo importante. Así podrás saltar entre momentos de la historia cuando quieras o lo necesites. Haciendo las cuentas con cinco capítulos, ese reparto ocupa unas diez ranuras y te deja cinco libres para guardados puntuales, por ejemplo antes de una misión que te preocupe. Esta distribución es una sugerencia nuestra a partir del consejo de la fuente, no una norma del juego.
 
@@ -49,7 +49,7 @@ Esa ranura no cuenta contra tu límite, así que no te quita espacio. Eso sí, a
 
 Hay otra advertencia importante. Si activas cualquier truco, el sistema de guardado se desactiva. Para volver a guardar tendrás que salir del juego y cargar una partida en la que no hubieras provocado el caos.
 
-En la práctica, conviene guardar antes de experimentar con los códigos. Así evitas perder lo que hayas avanzado sin querer. Recuerda también que [los trucos solo llegan tras acabar la historia](/noticias/gta-6-los-trucos-solo-llegan-tras-acabar-la-historia/), de modo que este aviso te afectará sobre todo en la fase final del juego. Tienes todos los códigos en nuestra página de [trucos de GTA 6](/trucos/gta-6-trucos-claves-ps5-xbox/).
+En la práctica, conviene guardar antes de experimentar con los códigos. Así evitas perder lo que hayas avanzado sin querer. Recuerda también que [los trucos solo llegan tras acabar la historia](/trucos/gta-6-trucos-claves-ps5-xbox/), de modo que este aviso te afectará sobre todo en la fase final del juego. Tienes todos los códigos en nuestra página de [trucos de GTA 6](/trucos/gta-6-trucos-claves-ps5-xbox/).
 
 ## Resumen rápido
 

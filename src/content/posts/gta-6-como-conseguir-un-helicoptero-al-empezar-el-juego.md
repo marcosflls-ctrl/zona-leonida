@@ -29,7 +29,7 @@ Ahí suele haber un helicóptero disponible. La fuente habla de que "suele apare
 
 ## Qué ganas con volar pronto
 
-Un helicóptero temprano cambia tu forma de explorar. Ya no dependes de carreteras ni puentes y puedes ir directamente entre ciudades, islas y puntos de interés. Es una solución al problema que ya te contamos en [cruzar el mapa lleva 10 min en coche y 3 h a pie](/noticias/gta-6-cruzar-el-mapa-lleva-10-min-en-coche-y-3-h-a-pie/).
+Un helicóptero temprano cambia tu forma de explorar. Ya no dependes de carreteras ni puentes y puedes ir directamente entre ciudades, islas y puntos de interés. Es una solución al problema que ya te contamos en [cruzar el mapa lleva 10 min en coche y 3 h a pie](/guias/gta-6-mapa-leonida/).
 
 El vuelo tiene además tres ventajas prácticas:
 

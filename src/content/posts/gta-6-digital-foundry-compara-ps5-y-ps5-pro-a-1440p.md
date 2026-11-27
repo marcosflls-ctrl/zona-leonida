@@ -36,9 +36,9 @@ Las sombras con trazado de rayos de la Pro dibujan con más precisión el contac
 
 Digital Foundry interpreta el techo de 30 fps como una decisión deliberada de Rockstar. Según el medio, da más margen a la simulación del mundo. A cambio, se pierde algo de inmediatez en la respuesta del mando.
 
-Si quieres saber qué ha dicho la propia compañía, lo tienes en [GTA 6 en PS5 Pro, a 30 fps: Rockstar explica por qué](/noticias/gta-6-en-ps5-pro-a-30-fps-rockstar-explica-por-que/). Nuestra guía de [FPS, resolución y PS5 Pro](/guias/gta-6-ps5-pro-fps-resolucion/) reúne el resto de datos de rendimiento.
+Si quieres saber qué ha dicho la propia compañía, lo tienes en [GTA 6 en PS5 Pro no tendrá 60 fps: Rockstar explica por qué](/noticias/gta-6-en-ps5-pro-no-tendra-60-fps-rockstar-explica-por-que/). Nuestra guía de [FPS, resolución y PS5 Pro](/guias/gta-6-ps5-pro-fps-resolucion/) reúne el resto de datos de rendimiento.
 
-El análisis también encaja con lo que ya contamos en [GTA 6 en PS5 Pro mantiene 30 fps estables tras 80 horas](/noticias/gta-6-en-ps5-pro-mantiene-30-fps-estables-tras-80-horas/).
+El análisis también encaja con lo que contó Vandal tras [80 horas de juego en PS5 Pro](/noticias/gta-6-analisis-vandal-80-horas/): 30 fps estables.
 
 ## Luz, cielo y distancia de dibujado
 
@@ -52,7 +52,7 @@ Otros puntos fuertes que destaca el medio:
 - **Cielo y nubes volumétricas:** evolucionan a partir de la tecnología de Red Dead Redemption 2. Permiten ver cómo se forma una tormenta sobre un distrito, oscurece sus calles y descarga allí mientras otros barrios siguen secos.
 - **HDR:** los reflejos más brillantes pueden superar los 1500 nits.
 
-Si te interesa el clima del juego, tienes más detalles en [GTA 6 enseña seis escenas de clima extremo en Leonida](/noticias/gta-6-ensena-seis-escenas-de-clima-extremo-en-leonida/) y en nuestra guía de [animales, clima y huracanes](/guias/gta-6-animales-clima-huracanes/).
+Si te interesa el clima del juego, tienes más detalles en [GTA 6 enseña seis escenas de clima extremo en Leonida](/guias/gta-6-mapa-leonida/) y en nuestra guía de [animales, clima y huracanes](/guias/gta-6-animales-clima-huracanes/).
 
 ## La simulación a pie de calle
 
@@ -67,4 +67,4 @@ Rockstar aplica la simulación del pelo por hebras incluso a los transeúntes. S
 
 Si juegas en PS5 estándar, el análisis apunta a que verás 30 fps la mayor parte del tiempo. Esperar bajadas en persecuciones intensas o con muchas explosiones seguidas, según el medio. Si tienes una PS5 Pro, la ventaja no está en más fotogramas, sino en una imagen más limpia y más constante.
 
-Falta ver cómo se comportan Xbox Series X y Series S. Por ahora tienes los datos de la versión pequeña de Microsoft en [GTA 6 en Xbox Series S usa FSR 4.1: de 720p a 1080p](/noticias/gta-6-en-xbox-series-s-usa-fsr-4-1-de-720p-a-1080p/). Rockstar tampoco ha anunciado oficialmente una versión para PC.
+Falta ver cómo se comportan Xbox Series X y Series S. Por ahora tienes los datos de la versión pequeña de Microsoft en [GTA 6 en Xbox Series S rinde mejor de lo esperado](/noticias/gta-6-en-xbox-series-s-rinde-mejor-de-lo-esperado/). Rockstar tampoco ha anunciado oficialmente una versión para PC.

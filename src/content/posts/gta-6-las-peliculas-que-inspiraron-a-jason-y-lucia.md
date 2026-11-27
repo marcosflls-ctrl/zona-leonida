@@ -45,6 +45,6 @@ Para ver cómo se refleja esto en el juego, tienes nuestro repaso a [la jugabili
 
 ## Contexto: el juego ya está en la calle
 
-GTA 6 salió el 19 de noviembre de 2026 para PS5 y Xbox Series X|S. Vandal calcula que al menos 25 millones de jugadores lo habrán comprado entre reservas y lanzamiento, aunque Rockstar no ha publicado cifras oficiales. En nuestro artículo sobre las [ventas del primer día](/noticias/gta-6-habria-vendido-24-58-millones-de-copias-el-primer-dia/) tienes otra estimación.
+GTA 6 salió el 19 de noviembre de 2026 para PS5 y Xbox Series X|S. Vandal calcula que al menos 25 millones de jugadores lo habrán comprado entre reservas y lanzamiento, aunque Rockstar no ha publicado cifras oficiales. En nuestro artículo sobre las [ventas del primer día](/noticias/gta-6-vende-32-5-millones-y-supera-a-endgame-en-ingresos/) tienes otra estimación.
 
 La entrevista deja claro de dónde bebe la historia, pero no revela nada del argumento. Rockstar no ha detallado hasta qué punto tus decisiones cambian el rumbo de la pareja.

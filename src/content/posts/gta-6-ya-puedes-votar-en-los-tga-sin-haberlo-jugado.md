@@ -37,16 +37,16 @@ Player Voice es la única categoría que depende solo de los votos del público.
 
 ## Una nominación que confirmó a la actriz de Lucía
 
-VGC destaca otra rareza de esta edición: la candidatura en Mejor Interpretación llegó antes de que Rockstar confirmara quién da vida a Lucía. Esa nominación confirmó oficialmente que la actriz es Manni L. Perez. Tienes los detalles en nuestro artículo sobre [Manni L. Perez y los TGA](/noticias/gta-6-manni-l-perez-la-actriz-de-lucia-en-los-tga/) y en la ficha de [Lucía Caminos](/personajes/lucia-caminos/).
+VGC destaca otra rareza de esta edición: la candidatura en Mejor Interpretación llegó antes de que Rockstar confirmara quién da vida a Lucía. Esa nominación confirmó oficialmente que la actriz es Manni L. Perez. Tienes los detalles en nuestro artículo sobre [Manni L. Perez y los TGA](/noticias/gta-6-notas-analisis/) y en la ficha de [Lucía Caminos](/personajes/lucia-caminos/).
 
 ## Reseñas y salida: qué hay ahora mismo
 
-Cuando VGC publicó la noticia no había reseñas profesionales de GTA 6. Lo único que circulaba eran valoraciones falsas de usuarios que Metacritic tuvo que retirar. Lo explicamos en [Metacritic borra reseñas falsas y bloquea las nuevas](/noticias/gta-6-metacritic-borra-resenas-falsas-y-bloquea-las-nuevas/).
+Cuando VGC publicó la noticia no había reseñas profesionales de GTA 6. Lo único que circulaba eran valoraciones falsas de usuarios que Metacritic tuvo que retirar. Lo explicamos en [Metacritic borra reseñas falsas y bloquea las nuevas](/noticias/gta-6-notas-analisis/).
 
 El medio añade que muchos jugadores no esperarán al día oficial y recurrirán al llamado «truco de Nueva Zelanda» para jugar antes en su región. Si quieres saber cuándo se desbloquea el juego en tu país, consulta la guía de [a qué hora sale GTA 6](/guias/gta-6-a-que-hora-sale/).
 
 ## Qué significa para ti
 
-Si prefieres votar con criterio, puedes esperar: la gala es el 10 de diciembre y tendrás tiempo de jugar y leer reseñas antes. Si votas ya, tu papeleta cuenta igual, aunque con ese 10 % de peso. Para ver cómo las casas de apuestas ven la carrera por el premio, lee [los apostantes le dan un 89 % de ganar el GOTY](/noticias/gta-6-los-apostantes-le-dan-un-89-de-ganar-el-goty/).
+Si prefieres votar con criterio, puedes esperar: la gala es el 10 de diciembre y tendrás tiempo de jugar y leer reseñas antes. Si votas ya, tu papeleta cuenta igual, aunque con ese 10 % de peso. Para ver cómo las casas de apuestas ven la carrera por el premio, lee [los apostantes le dan un 89 % de ganar el GOTY](/noticias/gta-6-notas-analisis/).
 
 VGC no indica hasta cuándo seguirá abierta la votación pública. Tampoco da el horario de la gala por país, así que conviene revisar el calendario oficial de TGA.

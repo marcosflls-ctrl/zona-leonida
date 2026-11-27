@@ -52,8 +52,8 @@ En la guía de [a qué hora sale GTA 6 por país](/guias/gta-6-a-que-hora-sale/)
 
 ## Qué significa para ti
 
-El mapa te sirve para orientarte antes de explorar. Para calcular distancias, te recomendamos nuestro análisis de [cuánto cuesta cruzar el mapa en coche y a pie](/noticias/gta-6-cruzar-el-mapa-lleva-10-min-en-coche-y-3-h-a-pie/). Y si buscas más detalle de cada zona, tienes la [guía del mapa de Leonida](/guias/gta-6-mapa-leonida/).
+El mapa te sirve para orientarte antes de explorar. Para calcular distancias, te recomendamos nuestro análisis de [cuánto cuesta cruzar el mapa en coche y a pie](/guias/gta-6-mapa-leonida/). Y si buscas más detalle de cada zona, tienes la [guía del mapa de Leonida](/guias/gta-6-mapa-leonida/).
 
-Vandal añade que las cifras no oficiales de ventas apuntan a unos 20 millones de copias antes del lanzamiento. Nosotros lo recogimos en [GTA 6 habría vendido unos 20 millones de copias en reservas](/noticias/gta-6-habria-vendido-unos-20-millones-de-copias-en-reservas/). El medio también dice que el juego ha desbancado a The Legend of Zelda: Ocarina of Time como el mejor valorado de la historia. Es una afirmación de Vandal, no de Rockstar.
+Vandal añade que las cifras no oficiales de ventas apuntan a unos 20 millones de copias antes del lanzamiento. Nosotros lo recogimos en [GTA 6 habría vendido unos 20 millones de copias en reservas](/noticias/gta-6-vende-32-5-millones-y-supera-a-endgame-en-ingresos/). El medio también dice que el juego ha desbancado a The Legend of Zelda: Ocarina of Time como el mejor valorado de la historia. Es una afirmación de Vandal, no de Rockstar.
 
 Por ahora falta saber cuándo estará disponible el mapa físico en la tienda y a qué precio. Rockstar tampoco ha anunciado oficialmente una versión para PC; puedes seguir ese tema en nuestra [guía de GTA 6 en PC](/guias/gta-6-pc/).

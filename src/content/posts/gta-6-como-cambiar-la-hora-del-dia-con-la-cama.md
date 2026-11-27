@@ -41,7 +41,7 @@ El dato de la policía importa si buscas un momento más tranquilo para un golpe
 
 Sí, pero solo al final de la partida. GamesRadar indica que, cuando llegues al tramo final, hay un truco dedicado por completo a cambiar la hora del día. Antes tendrás que desbloquear esa función concreta. La fuente no explica cómo se consigue.
 
-Si quieres saber más sobre el sistema de claves, ya publicamos que [los trucos solo llegan tras acabar la historia](/noticias/gta-6-los-trucos-solo-llegan-tras-acabar-la-historia/) y cómo [se desbloquean y activan los 61 trucos](/trucos/gta-6-tiene-61-trucos-asi-se-desbloquean-y-activan/).
+Si quieres saber más sobre el sistema de claves, ya publicamos que [los trucos solo llegan tras acabar la historia](/trucos/gta-6-trucos-claves-ps5-xbox/) y cómo [se desbloquean y activan los 61 trucos](/trucos/gta-6-tiene-61-trucos-asi-se-desbloquean-y-activan/).
 
 ## Qué significa para ti
 

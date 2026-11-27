@@ -43,8 +43,8 @@ El proceso llega con tensión. Rockstar despidió a decenas de empleados y eso p
 
 Por ahora, nada cambia en tu partida: no hay anuncios de retrasos ni de cambios en el juego por este asunto. Lo que sí deja claro la noticia es el coste humano que suele rodear a un lanzamiento de esta escala.
 
-El éxito del juego sigue acumulando datos. IGN señala que GTA 6 empata con *Ocarina of Time* como el juego mejor valorado de la historia y que ya ha batido récords en Twitch; puedes ver las cifras en [nuestro artículo sobre los récords de streaming](/noticias/gta-6-bate-records-33-03-tbit-s-y-7-91-m-de-espectadores/). También se desconocen todavía las ventas reales: de momento solo hay estimaciones basadas en reservas, como las [20 millones de copias que se le atribuyen](/noticias/gta-6-habria-vendido-unos-20-millones-de-copias-en-reservas/).
+El éxito del juego sigue acumulando datos. IGN señala que GTA 6 empata con *Ocarina of Time* como el juego mejor valorado de la historia y que ya ha batido récords en Twitch; puedes ver las cifras en [nuestro artículo sobre los récords de streaming](/noticias/gta-6-vende-32-5-millones-y-supera-a-endgame-en-ingresos/). También se desconocen todavía las ventas reales: de momento solo hay estimaciones basadas en reservas, como las [20 millones de copias que se le atribuyen](/noticias/gta-6-vende-32-5-millones-y-supera-a-endgame-en-ingresos/).
 
-Si quieres entender el trabajo que hay detrás del juego, repasa [cómo se hizo GTA 6 y por qué se retrasó](/guias/gta-6-como-se-hizo-desarrollo-retrasos/) y cómo aparecen en los [créditos los despedidos de 2025](/noticias/gta-6-acredita-a-28-de-los-34-despedidos-de-rockstar-en-2025/).
+Si quieres entender el trabajo que hay detrás del juego, repasa [cómo se hizo GTA 6 y por qué se retrasó](/guias/gta-6-como-se-hizo-desarrollo-retrasos/) y cómo aparecen en los [créditos los despedidos de 2025](/guias/gta-6-como-se-hizo-desarrollo-retrasos/).
 
 Falta por saber el resultado de la votación, que se conocerá tras el 26 de noviembre, y cómo responderá Rockstar a las peticiones de la plantilla sobre empleo e IA.

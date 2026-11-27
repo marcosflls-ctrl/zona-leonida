@@ -59,7 +59,7 @@ GTA 6 cambia el planteamiento: hay **dos protagonistas**, [Jason](/personajes/ja
 
 - **La policía:** en 2002 había seis estrellas de búsqueda, y en GTA 6 vuelven las seis, pero con un sistema que tiene en cuenta testigos y cámaras. Te lo explicamos en [las seis estrellas y el Heat](/guias/gta-6-jugabilidad-todo-lo-confirmado/).
 - **El dinero:** una de las novedades del original fue poder comprar negocios y propiedades. En GTA 6, según Rockstar, habrá momentos de la historia en los que tendrás que [reunir dinero para avanzar](/guias/gta-6-jugabilidad-todo-lo-confirmado/).
-- **La radio:** las emisoras de Vice City, con música de los 80, son de las más recordadas de la saga. GTA 6 mantiene la radio y añade [pódcast bajo demanda](/noticias/gta-6-presenta-seis-emisoras-de-radio-y-podcast-bajo-demanda/).
+- **La radio:** las emisoras de Vice City, con música de los 80, son de las más recordadas de la saga. GTA 6 mantiene la radio y añade [pódcast bajo demanda](/guias/gta-6-radio-emisoras-canciones/).
 
 ## ¿Hace falta jugar al Vice City original?
 
